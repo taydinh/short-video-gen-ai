@@ -1,0 +1,110 @@
+{
+  "title": "5 Thói Quen Giúp Bạn Thức Dậy Sớm Mà Không Mệt",
+  "slug": "thoi-quen-thuc-day-som",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "hero-title",
+      "title": "🌅 Bí Quyết Thức Dậy Sớm",
+      "voiceText": "Bạn có muốn thức dậy lúc 5 giờ sáng mà không cảm thấy mệt mỏi không? Hôm nay mình sẽ chia sẻ 5 thói quen cực kỳ hiệu quả!",
+      "bgColor": "#0d0d1a",
+      "accentColor": "#f59e0b",
+      "textColor": "#ffffff",
+      "animation": "zoom-in",
+      "emoji": "🌅",
+      "duration": 5
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stat-highlight",
+      "title": "Ngủ Đúng Giờ",
+      "voiceText": "Thói quen số một: Ngủ trước 10 giờ tối. Não bộ cần ít nhất 7 đến 8 tiếng để phục hồi hoàn toàn.",
+      "bgColor": "#0a1628",
+      "accentColor": "#3b82f6",
+      "textColor": "#ffffff",
+      "animation": "bounce-in",
+      "emoji": "😴",
+      "duration": 5
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "bullet-points",
+      "title": "Chuẩn Bị Buổi Tối",
+      "voiceText": "Tối hôm trước hãy chuẩn bị quần áo và đặt báo thức. Đặt điện thoại xa giường ngủ để buộc phải dậy tắt.",
+      "bgColor": "#0d1a0d",
+      "accentColor": "#22c55e",
+      "textColor": "#ffffff",
+      "animation": "slide-up",
+      "emoji": "📱",
+      "duration": 5
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "quote-card",
+      "title": "Uống Nước Ngay Khi Dậy",
+      "voiceText": "Uống một ly nước lớn ngay khi thức dậy. Cơ thể mất nước sau 8 tiếng ngủ, nước giúp não hoạt động ngay lập tức.",
+      "bgColor": "#1a0d2e",
+      "accentColor": "#8b5cf6",
+      "textColor": "#ffffff",
+      "animation": "fade-cascade",
+      "emoji": "💧",
+      "duration": 5
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "split-screen",
+      "title": "Ánh Sáng Mặt Trời",
+      "voiceText": "Ra ngoài hoặc mở rèm để đón ánh sáng mặt trời trong vòng 10 phút đầu. Ánh sáng tắt melatonin giúp bạn tỉnh táo hơn.",
+      "bgColor": "#1a1a0d",
+      "accentColor": "#eab308",
+      "textColor": "#ffffff",
+      "animation": "typewriter",
+      "emoji": "☀️",
+      "duration": 5
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "bullet-points",
+      "title": "Tập Thể Dục Nhẹ",
+      "voiceText": "Chỉ cần 10 phút vận động nhẹ như đi bộ hoặc kéo giãn cơ. Cơ thể sản xuất endorphin giúp bạn vui vẻ cả ngày.",
+      "bgColor": "#0d1a1a",
+      "accentColor": "#14b8a6",
+      "textColor": "#ffffff",
+      "animation": "slide-up",
+      "emoji": "🏃",
+      "duration": 5
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "countdown",
+      "title": "Thử Thách 21 Ngày",
+      "voiceText": "Nghiên cứu cho thấy chỉ cần 21 ngày để hình thành thói quen mới. Hãy bắt đầu từ ngày mai và thay đổi cuộc sống của bạn!",
+      "bgColor": "#1a0d0d",
+      "accentColor": "#ef4444",
+      "textColor": "#ffffff",
+      "animation": "pulse-glow",
+      "emoji": "21",
+      "duration": 5
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Thả Tim & Follow Ngay! ❤️",
+      "voiceText": "Nếu video này hữu ích, hãy thả tim và follow kênh để không bỏ lỡ những bí quyết hay ho khác nhé! Cảm ơn các bạn rất nhiều!",
+      "bgColor": "#1a0d2e",
+      "accentColor": "#ec4899",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "❤️",
+      "duration": 6
+    }
+  ]
+}
