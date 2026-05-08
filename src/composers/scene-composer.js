@@ -25,8 +25,7 @@ export function buildSceneHtml(scene, audioFile) {
     ? `<audio id="scene-${scene.id}-audio" src="../assets/${audioFile}" preload="auto"></audio>`
     : "";
 
-  return `<template id="scene-${scene.id}-template">
-  <div
+  return `<div
     data-composition-id="scene-${scene.id}"
     data-width="${width}"
     data-height="${height}"
@@ -46,8 +45,7 @@ export function buildSceneHtml(scene, audioFile) {
         ${animationScript}
       })();
     </script>
-  </div>
-</template>`;
+  </div>`;
 }
 
 // ── Base Styles ───────────────────────────────────────────────────────────────
@@ -399,6 +397,8 @@ function buildAnimationScript(scene) {
 
   return `
     ${animBody}
+    // Force timeline to last for the entire scene duration to prevent early blanking
+    tl.to({}, { duration: 0 }, ${dur});
     window.__timelines = window.__timelines || {};
     window.__timelines["${cid}"] = tl;
   `;

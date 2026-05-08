@@ -20,7 +20,7 @@ export const config = {
     // apiUrl: "https://your-vieneu-host/api/tts",
     voice: "female_south",                  // female_south | female_north | male_south | male_north
     speed: 1.0,
-    outputFormat: "wav",
+    outputFormat: "mp3",
   },
 
   // googleTTS

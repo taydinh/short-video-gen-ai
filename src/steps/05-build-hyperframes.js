@@ -178,8 +178,11 @@ function buildIndexHtml(storyboard, audioMap) {
     <script>
       window.__timelines = window.__timelines || {};
       const mainTl = gsap.timeline({ paused: true });
+      mainTl.set("#scene-1", { opacity: 1 }, 0);
       ${transitions}
       ${exitTransitions}
+      // Force root timeline to last the entire video duration
+      mainTl.to({}, { duration: 0 }, ${totalDuration.toFixed(3)});
       window.__timelines["main"] = mainTl;
     </script>
   </body>

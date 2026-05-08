@@ -10,6 +10,7 @@
 import { execSync } from "child_process";
 import { existsSync, copyFileSync, writeFileSync } from "fs";
 import path from "path";
+import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
 
 export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir, slug) {
@@ -31,53 +32,66 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
 
   // Build silent base track matching total video duration
   const totalDuration = storyboard.totalDuration;
-  const silencePath = path.join(outputDir, "audio", "silence.wav");
+  const extension = config.vieneu.outputFormat || "mp3";
+  const silencePath = path.join(outputDir, "audio", `silence.${extension}`);
 
   logger.info(`  Building mixed audio track (${totalDuration.toFixed(2)}s)...`);
 
   try {
     // Create silence base
+    const silenceCodec = extension === "mp3" ? "libmp3lame" : "pcm_s16le";
     execSync(
-      `ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t ${totalDuration} -ar 44100 "${silencePath}" -y 2>${nullDevice}`,
-      { timeout: 30000 }
+      `ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t ${totalDuration} -c:a ${silenceCodec} "${silencePath}" -y`,
+      { timeout: 30000, stdio: 'pipe' }
     );
 
     // Build ffmpeg command to mix all audio at correct timestamps
-    const audioInputs = scenesWithAudio.map((scene) => {
-      const af = audioFiles.find((a) => a.sceneId === scene.id);
-      return `-i "${af.audioPath}"`;
-    });
+    // Input 0: silence
+    // Inputs 1..N: scene audio files
+    const audioInputs = [
+      `-i "${silencePath}"`,
+      ...scenesWithAudio.map((scene) => {
+        const af = audioFiles.find((a) => a.sceneId === scene.id);
+        return `-i "${af.audioPath}"`;
+      })
+    ];
 
     const delayFilters = scenesWithAudio.map((scene, i) => {
       const delayMs = Math.round(scene.startTime * 1000);
-      return `[${i + 1}:a]adelay=${delayMs}|${delayMs}[a${i}]`;
+      // Index 0 is silence, so scene inputs start at 1
+      // Force stereo format then apply delay for both channels (compatible with FFmpeg 3.4)
+      return `[${i + 1}:a]aformat=channel_layouts=stereo,adelay=${delayMs}|${delayMs}[a${i}]`;
     });
 
-    const mixInputs = scenesWithAudio.map((_, i) => `[a${i}]`).join("");
-    const mixFilter = `${mixInputs}amix=inputs=${scenesWithAudio.length}:duration=longest:normalize=0[amix]`;
+    const mixInputs = `[0:a]` + scenesWithAudio.map((_, i) => `[a${i}]`).join("");
+    const numInputs = scenesWithAudio.length + 1;
+    
+    // Mix everything. amix by default divides volume by number of inputs.
+    // We multiply back by numInputs to restore original levels for non-overlapping parts.
+    const mixFilter = `${mixInputs}amix=inputs=${numInputs}:duration=longest:normalize=0,volume=${numInputs}[amix]`;
 
     const filterComplex = [...delayFilters, mixFilter].join(";");
 
     // Combined audio path
-    const mixedAudioPath = path.join(outputDir, "audio", "mixed.wav");
+    const mixedAudioPath = path.join(outputDir, "audio", `mixed.${extension}`);
 
     execSync(
-      `ffmpeg -i "${silencePath}" ${audioInputs.join(" ")} -filter_complex "${filterComplex}" -map "[amix]" -ar 44100 "${mixedAudioPath}" -y 2>${nullDevice}`,
-      { timeout: 120000 }
+      `ffmpeg ${audioInputs.join(" ")} -filter_complex "${filterComplex}" -map "[amix]" -ar 44100 "${mixedAudioPath}" -y`,
+      { timeout: 120000, stdio: 'pipe' }
     );
 
     logger.info(`  Merging audio into video...`);
 
     // Merge audio into video
     execSync(
-      `ffmpeg -i "${renderedMp4}" -i "${mixedAudioPath}" -c:v copy -c:a aac -b:a 192k -map 0:v:0 -map 1:a:0 -shortest "${finalPath}" -y 2>${nullDevice}`,
-      { timeout: 120000 }
+      `ffmpeg -i "${renderedMp4}" -i "${mixedAudioPath}" -c:v copy -c:a aac -b:a 192k -map 0:v:0 -map 1:a:0 -shortest "${finalPath}" -y`,
+      { timeout: 120000, stdio: 'pipe' }
     );
 
     logger.info(`  ✅ Final video with audio: ${finalPath}`);
 
   } catch (err) {
-    logger.warn(`  Audio merge failed: ${err.message}`);
+    logger.warn(`  Audio merge failed: ${err.stderr ? err.stderr.toString() : err.message}`);
     logger.warn(`  Copying video without merged audio...`);
     copyFileSync(renderedMp4, finalPath);
   }

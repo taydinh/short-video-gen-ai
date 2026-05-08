@@ -30,7 +30,8 @@ export async function generateTTS(storyboard, outputDir) {
 
     logger.info(`  🎙️ Scene ${scene.id}: "${text.slice(0, 50)}..."`);
 
-    const audioPath = path.join(audioDir, `scene-${scene.id}.wav`);
+    const extension = config.vieneu.outputFormat || "mp3";
+    const audioPath = path.join(audioDir, `scene-${scene.id}.${extension}`);
     let duration = scene.duration || 4;
     let success = false;
 
@@ -38,10 +39,12 @@ export async function generateTTS(storyboard, outputDir) {
     if (config.vieneu.enabled) {
       try {
         logger.info(`     Trying VieNeu TTS...`);
-        await callVieNeuTTS(text, audioPath);
-        if (existsSync(audioPath) && (await getAudioDuration(audioPath)) > 0.5) {
-          duration = await getAudioDuration(audioPath);
+        const ttsResult = await callVieNeuTTS(text, audioPath);
+        const actualPath = ttsResult || audioPath;
+        if (existsSync(actualPath) && (await getAudioDuration(actualPath)) > 0.5) {
+          duration = await getAudioDuration(actualPath);
           logger.info(`     ✅ VieNeu success: ${duration.toFixed(2)}s`);
+          results.push({ sceneId: scene.id, audioPath: actualPath, duration });
           success = true;
         } else {
           logger.warn(`     VieNeu returned invalid audio`);
@@ -55,10 +58,12 @@ export async function generateTTS(storyboard, outputDir) {
     if (!success) {
       try {
         logger.info(`     Trying Google Translate TTS...`);
-        await callGoogleTTS(text, audioPath);
-        if (existsSync(audioPath) && (await getAudioDuration(audioPath)) > 0.5) {
-          duration = await getAudioDuration(audioPath);
+        const ttsResult = await callGoogleTTS(text, audioPath);
+        const actualPath = ttsResult || audioPath;
+        if (existsSync(actualPath) && (await getAudioDuration(actualPath)) > 0.5) {
+          duration = await getAudioDuration(actualPath);
           logger.info(`     ✅ Google TTS success: ${duration.toFixed(2)}s`);
+          results.push({ sceneId: scene.id, audioPath: actualPath, duration });
           success = true;
         } else {
           logger.warn(`     Google TTS returned invalid audio`);
@@ -72,9 +77,8 @@ export async function generateTTS(storyboard, outputDir) {
     if (!success) {
       logger.warn(`     ⚠️  All TTS failed, using silent audio placeholder`);
       await createSilentAudio(audioPath, duration);
+      results.push({ sceneId: scene.id, audioPath, duration });
     }
-
-    results.push({ sceneId: scene.id, audioPath, duration });
   }
 
   return results;
@@ -149,6 +153,7 @@ async function callVieNeuTTS(text, outputPath) {
   }
 
   writeFileSync(outputPath, audioData);
+  return outputPath;
 }
 
 // ── Google Translate TTS (reliable fallback) ─────────────────────────────────
@@ -189,7 +194,13 @@ async function callGoogleTTS(text, outputPath) {
     throw new Error("Google TTS returned empty audio");
   }
 
-  // Convert MP3 to WAV using ffmpeg if available
+  // If output path is already mp3, just write it
+  if (outputPath.endsWith(".mp3")) {
+    writeFileSync(outputPath, audioBuffer);
+    return outputPath;
+  }
+
+  // Otherwise convert MP3 to WAV using ffmpeg
   const tempMp3 = outputPath.replace(/\.wav$/, "_temp.mp3");
   writeFileSync(tempMp3, audioBuffer);
 
@@ -197,11 +208,12 @@ async function callGoogleTTS(text, outputPath) {
     // Try to convert to WAV with ffmpeg
     const nullDevice = process.platform === "win32" ? "nul" : "/dev/null";
     execSync(
-      `ffmpeg -i "${tempMp3}" -ar 44100 -ac 2 "${outputPath}" -y 2>${nullDevice}`,
-      { timeout: 15000 }
+      `ffmpeg -i "${tempMp3}" -ar 44100 -ac 2 "${outputPath}" -y`,
+      { timeout: 15000, stdio: 'pipe' }
     );
     // Clean up temp file
     try { execSync(`rm "${tempMp3}" 2>${nullDevice} || del "${tempMp3}" 2>${nullDevice}`); } catch { }
+    return outputPath;
   } catch {
     // If ffmpeg fails, use the MP3 as is (rename to .mp3)
     const mp3Path = outputPath.replace(/\.wav$/, ".mp3");
@@ -216,9 +228,11 @@ async function callGoogleTTS(text, outputPath) {
 async function createSilentAudio(outputPath, durationSeconds) {
   try {
     const nullDevice = process.platform === "win32" ? "nul" : "/dev/null";
+    const codec = outputPath.endsWith(".mp3") ? "libmp3lame" : "pcm_s16le";
+    const bitrate = outputPath.endsWith(".mp3") ? "-b:a 128k" : "";
     execSync(
-      `ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t ${durationSeconds} -q:a 9 -acodec pcm_s16le "${outputPath}" -y 2>${nullDevice}`,
-      { timeout: 15000 }
+      `ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t ${durationSeconds} -c:a ${codec} ${bitrate} "${outputPath}" -y`,
+      { timeout: 15000, stdio: 'pipe' }
     );
   } catch {
     // Write minimal WAV header (44 bytes) as absolute fallback
