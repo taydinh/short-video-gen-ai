@@ -1,0 +1,132 @@
+{
+  "title": "Virus Hanta - Sự thật đáng sợ bạn chưa biết",
+  "slug": "virus-hanta-su-that-dang-so",
+  "totalDuration": 36,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "hero-title",
+      "title": "Virus Hanta là gì?",
+      "voiceText": "Bạn đã nghe về virus Hanta chưa? Đây là loại virus cực kỳ nguy hiểm nhưng ít ai biết đến.",
+      "duration": 5,
+      "startTime": 0,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#ef4444",
+      "textColor": "#ffffff",
+      "animation": "zoom-in",
+      "emoji": "🦠⚠️"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stat-highlight",
+      "title": "Tỷ lệ tử vong cao",
+      "voiceText": "Tỷ lệ tử vong của virus Hanta có thể lên tới 38%. Cao hơn nhiều so với Covid-19.",
+      "duration": 5,
+      "startTime": 5,
+      "bgColor": "#1a0d1a",
+      "accentColor": "#f97316",
+      "textColor": "#ffffff",
+      "animation": "pulse-glow",
+      "emoji": "📊💀"
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "bullet-points",
+      "title": "Đường lây truyền chính",
+      "voiceText": "Virus lây từ loài gặm nhấm như chuột qua phân, nước tiểu, nước bọt. Không lây từ người sang người.",
+      "duration": 5,
+      "startTime": 10,
+      "bgColor": "#0d1a1a",
+      "accentColor": "#22c55e",
+      "textColor": "#ffffff",
+      "animation": "slide-up",
+      "emoji": "🐭💨"
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "callout",
+      "title": "Triệu chứng nguy hiểm",
+      "voiceText": "Sốt, đau cơ, khó thở, hội chứng phổi Hanta. Cần cấp cứu ngay nếu nghi ngờ.",
+      "duration": 4,
+      "startTime": 15,
+      "bgColor": "#1a0d0d",
+      "accentColor": "#dc2626",
+      "textColor": "#ffffff",
+      "animation": "bounce-in",
+      "emoji": "🤒🫁",
+      "calloutTag": "CẢNH BÁO",
+      "calloutStatement": "Triệu chứng dễ nhầm với cúm thông thường"
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-card",
+      "title": "CDC khuyến cáo",
+      "voiceText": "CDC Mỹ khuyến cáo: Tránh tiếp xúc chuột, vệ sinh nhà cửa, đeo khẩu trang khi dọn dẹp nơi có chuột.",
+      "duration": 5,
+      "startTime": 19,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#3b82f6",
+      "textColor": "#ffffff",
+      "animation": "fade-cascade",
+      "emoji": "🛡️🧹"
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "infographic-chart",
+      "title": "Các ca bệnh trên thế giới",
+      "voiceText": "Mỹ ghi nhận khoảng 800 ca từ 1993 đến nay. Châu Á, châu Âu cũng có ca bệnh rải rác.",
+      "duration": 5,
+      "startTime": 24,
+      "bgColor": "#1a1a0d",
+      "accentColor": "#facc15",
+      "textColor": "#ffffff",
+      "animation": "typewriter",
+      "emoji": "🌍📈",
+      "chartType": "bar",
+      "data": [
+        { "label": "Châu Mỹ", "value": 60, "unit": "%", "percent": 60 },
+        { "label": "Châu Á", "value": 25, "unit": "%", "percent": 25 },
+        { "label": "Châu Âu", "value": 15, "unit": "%", "percent": 15 }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "stats-grid",
+      "title": "Con số đáng báo động",
+      "voiceText": "Hơn 30% bệnh nhân tử vong. Chưa có vaccine. Chưa có thuốc điều trị đặc hiệu.",
+      "duration": 4,
+      "startTime": 29,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#ec4899",
+      "textColor": "#ffffff",
+      "animation": "slide-up",
+      "emoji": "🚨❗",
+      "stats": [
+        { "big": "38%", "label": "Tử vong" },
+        { "big": "0", "label": "Vaccine" },
+        { "big": "0", "label": "Thuốc đặc trị" }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Chia sẻ để bảo vệ cộng đồng",
+      "voiceText": "Bạn thấy video hữu ích? Hãy thả tim ❤️ và follow kênh để lan tỏa thông tin quan trọng này nhé!",
+      "duration": 4,
+      "startTime": 33,
+      "bgColor": "#1a0d2e",
+      "accentColor": "#ff2d75",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "❤️📢"
+    }
+  ]
+}

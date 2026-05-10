@@ -35,19 +35,53 @@ Nhiệm vụ: Tạo storyboard cho video dọc 9:16 gồm ĐÚNG 8 scene bằng 
 
 QUY TẮC QUAN TRỌNG:
 - Scene 1: Mở đầu hấp dẫn, tiêu đề gây tò mò, hook người xem trong 2 giây đầu
-- Scene 2-7: Nội dung chính, mỗi scene một ý tưởng/điểm thú vị
-- Scene 8: CTA kêu gọi thả tim ❤️ và follow kênh TikTok
+- Scene 2-7: Nội dung chính, mỗi scene một ý tưởng/điểm thú vị. Nội dung các scene nên có các lời tiếp dẫn để liên kết giữa các scene trở nên liền mạch và thống nhất
+- Scene 8: CTA kêu gọi thả tim ❤️ và follow kênh TikTok, sử dụng "animation": "particle-burst"
+
+Các loại composition có sẵn:
+1. "hero-title": Tiêu đề lớn + phụ đề.
+2. "bullet-points": Danh sách các điểm chính (cần thêm "points").
+3. "quote-card": Trích dẫn quan trọng.
+4. "stat-highlight": Một con số thống kê nổi bật.
+5. "infographic-chart": Biểu đồ (cần thêm "chartType": "bar" hoặc "donut" và "data").
+6. "stats-grid": Lưới các con số thống kê (cần thêm "stats").
+7. "terminal": Giao diện dòng lệnh (cần thêm "terminalTitle" và "terminalLines").
+8. "callout": Thẻ nhấn mạnh (cần thêm "calloutTag" và "calloutStatement").
+9. "cta-card": Màn hình kết thúc kêu gọi hành động.
+10. "comparison": So sánh hai đối tượng (cần thêm "left" và "right").
+11. "code-diff": So sánh code cũ và mới (cần thêm "bad" và "good").
 
 Mỗi scene cần:
 - title: Tiêu đề ngắn gọn (tối đa 8 từ)
-- voiceText: Lời thoại TTS ngắn gọn, tự nhiên như người nói chuyện (15-40 từ)
-- composition: Chọn 1 trong ["hero-title", "bullet-points", "quote-card", "stat-highlight", "split-screen", "countdown", "cta-card"]
+- voiceText: Lời thoại TTS ngắn gọn, tự nhiên (15-40 từ)
+- composition: Chọn 1 trong danh sách trên.
 - animation: Chọn 1 trong ["slide-up", "zoom-in", "fade-cascade", "bounce-in", "typewriter", "particle-burst", "pulse-glow"]
-- emoji: 1-2 emoji phù hợp nội dung
-- bgColor: màu hex tối (ví dụ: "#0d0d1a")
-- accentColor: màu hex nổi bật (ví dụ: "#7c3aed")
+- emoji: 1-2 emoji phù hợp
+- bgColor: màu hex tối
+- accentColor: màu hex nổi bật
 
-TRẢ VỀ CHỈ JSON THUẦN TÚY (không có markdown, không có backtick):
+Cấu trúc bổ sung cho các loại đặc biệt:
+- Nếu dùng "bullet-points":
+  "points": ["Điểm 1", "Điểm 2", "Điểm 3"]
+- Nếu dùng "infographic-chart":
+  "chartType": "bar" hoặc "donut",
+  "data": [{"label": "Nhãn", "value": 80, "unit": "%", "percent": 80}]
+- Nếu dùng "stats-grid":
+  "stats": [{"big": "10M+", "label": "Người dùng"}, {"big": "99%", "label": "Hài lòng"}]
+- Nếu dùng "terminal":
+  "terminalTitle": "deploy.sh",
+  "terminalLines": [{"type": "prompt", "text": "npm run build"}, {"type": "output", "text": "Build success!"}]
+- Nếu dùng "callout":
+  "calloutTag": "MẸO",
+  "calloutStatement": "Nội dung nhấn mạnh ở đây"
+- Nếu dùng "comparison":
+  "left": {"label": "Cũ", "value": "100ms", "color": "cyan"},
+  "right": {"label": "Mới", "value": "20ms", "color": "purple", "winner": true}
+- Nếu dùng "code-diff":
+  "badLabel": "Legacy", "bad": "function old() {}",
+  "goodLabel": "Modern", "good": "const new = () => {}"
+
+TRẢ VỀ CHỈ JSON THUẦN TÚY:
 {
   "title": "Tên video",
   "slug": "ten-video-slug",

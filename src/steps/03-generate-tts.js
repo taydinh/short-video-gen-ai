@@ -7,7 +7,7 @@
  *   3. Silent audio (last resort)
  */
 
-import { writeFileSync, existsSync, mkdirSync } from "fs";
+import { writeFileSync, existsSync, mkdirSync, unlinkSync } from "fs";
 import path from "path";
 import { execSync } from "child_process";
 import { config } from "../config.js";
@@ -43,8 +43,13 @@ export async function generateTTS(storyboard, outputDir) {
         const actualPath = ttsResult || audioPath;
         if (existsSync(actualPath) && (await getAudioDuration(actualPath)) > 0.5) {
           duration = await getAudioDuration(actualPath);
-          logger.info(`     ✅ VieNeu success: ${duration.toFixed(2)}s`);
-          results.push({ sceneId: scene.id, audioPath: actualPath, duration });
+
+          // Apply speed up if needed
+          const finalPath = await applySpeedUp(actualPath, config.vieneu.speed);
+          const finalDuration = await getAudioDuration(finalPath);
+
+          logger.info(`     ✅ VieNeu success: ${finalDuration.toFixed(2)}s (speed: ${config.vieneu.speed || 1})`);
+          results.push({ sceneId: scene.id, audioPath: finalPath, duration: finalDuration });
           success = true;
         } else {
           logger.warn(`     VieNeu returned invalid audio`);
@@ -61,9 +66,15 @@ export async function generateTTS(storyboard, outputDir) {
         const ttsResult = await callGoogleTTS(text, audioPath);
         const actualPath = ttsResult || audioPath;
         if (existsSync(actualPath) && (await getAudioDuration(actualPath)) > 0.5) {
-          duration = await getAudioDuration(actualPath);
-          logger.info(`     ✅ Google TTS success: ${duration.toFixed(2)}s`);
-          results.push({ sceneId: scene.id, audioPath: actualPath, duration });
+          // Apply speed up if configured
+          const speedFactor = config.googleTTS.speed || 1;
+          const finalPath = (speedFactor !== 1)
+            ? await speedUpAudio(actualPath, audioPath.replace(/\.(mp3|wav)$/, `_speed.${extension}`), speedFactor)
+            : actualPath;
+
+          duration = await getAudioDuration(finalPath);
+          logger.info(`     ✅ Google TTS success: ${duration.toFixed(2)}s (speed: ${speedFactor})`);
+          results.push({ sceneId: scene.id, audioPath: finalPath, duration });
           success = true;
         } else {
           logger.warn(`     Google TTS returned invalid audio`);
@@ -82,6 +93,62 @@ export async function generateTTS(storyboard, outputDir) {
   }
 
   return results;
+}
+
+// ── Apply speed up to audio using FFmpeg ─────────────────────────────────────
+
+async function applySpeedUp(audioPath, speedFactor) {
+  if (!speedFactor || speedFactor === 1) return audioPath;
+
+  const parsedPath = path.parse(audioPath);
+  const speedPath = path.join(parsedPath.dir, `${parsedPath.name}_speed${parsedPath.ext}`);
+
+  // Check if already processed
+  if (existsSync(speedPath) && speedPath !== audioPath) {
+    return speedPath;
+  }
+
+  try {
+    logger.info(`       ⚡ Speeding up audio: ${speedFactor}x`);
+
+    // FFmpeg atempo filter (supports 0.5 to 2.0)
+    // For speed > 2, chain multiple atempo filters
+    let atempoFilter = "";
+    if (speedFactor <= 2) {
+      atempoFilter = `atempo=${speedFactor}`;
+    } else {
+      // Chain multiple filters: atempo=2.0,atempo=1.5 for speed=3.0
+      const filters = [];
+      let remaining = speedFactor;
+      while (remaining > 2) {
+        filters.push("atempo=2.0");
+        remaining /= 2;
+      }
+      if (remaining > 1) {
+        filters.push(`atempo=${remaining}`);
+      }
+      atempoFilter = filters.join(",");
+    }
+
+    const nullDevice = process.platform === "win32" ? "nul" : "/dev/null";
+    execSync(
+      `ffmpeg -i "${audioPath}" -filter:a "${atempoFilter}" -c:a libmp3lame -q:a 2 "${speedPath}" -y`,
+      { timeout: 30000, stdio: 'pipe' }
+    );
+
+    // Clean up original file if different
+    if (existsSync(speedPath) && speedPath !== audioPath) {
+      try {
+        unlinkSync(audioPath);
+      } catch (e) { /* ignore */ }
+    }
+
+    logger.info(`       ✅ Speed up completed: ${speedPath}`);
+    return speedPath;
+  } catch (err) {
+    logger.warn(`       Speed up failed: ${err.message}, using original`);
+    return audioPath;
+  }
 }
 
 // ── VieNeu TTS API call ──────────────────────────────────────────────────────
@@ -172,7 +239,7 @@ async function callGoogleTTS(text, outputPath) {
     q: truncatedText,
     tl: config.googleTTS.lang || "vi",
     client: "tw-ob",
-    ttsspeed: config.googleTTS.slow ? "0.5" : "1",
+    ttsspeed: config.googleTTS.slow ? "0.5" : "1",  // Note: Google only supports slow or normal
   });
 
   const response = await fetch(`${url}?${params.toString()}`, {
@@ -212,7 +279,7 @@ async function callGoogleTTS(text, outputPath) {
       { timeout: 15000, stdio: 'pipe' }
     );
     // Clean up temp file
-    try { execSync(`rm "${tempMp3}" 2>${nullDevice} || del "${tempMp3}" 2>${nullDevice}`); } catch { }
+    try { unlinkSync(tempMp3); } catch { }
     return outputPath;
   } catch {
     // If ffmpeg fails, use the MP3 as is (rename to .mp3)
@@ -259,4 +326,29 @@ async function createSilentAudio(outputPath, durationSeconds) {
     for (let i = 44; i < buf.length; i++) buf[i] = 0;
     writeFileSync(outputPath, buf);
   }
+}
+
+// Helper function to speed up audio (alias for backwards compatibility)
+async function speedUpAudio(inputPath, outputPath, speedFactor) {
+  // First write to input path, then apply speed up
+  if (inputPath !== outputPath && existsSync(inputPath)) {
+    try {
+      const filters = speedFactor <= 2
+        ? `atempo=${speedFactor}`
+        : `atempo=2.0,atempo=${speedFactor / 2}`;
+
+      execSync(
+        `ffmpeg -i "${inputPath}" -filter:a "${filters}" -c:a libmp3lame -q:a 2 "${outputPath}" -y`,
+        { timeout: 30000, stdio: 'pipe' }
+      );
+
+      if (existsSync(outputPath)) {
+        try { unlinkSync(inputPath); } catch (e) { }
+        return outputPath;
+      }
+    } catch (err) {
+      logger.warn(`Speed up failed: ${err.message}`);
+    }
+  }
+  return inputPath;
 }

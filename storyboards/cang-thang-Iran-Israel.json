@@ -1,0 +1,142 @@
+{
+  "title": "Căng Thẳng Iran - Israel: Nguy Cơ Bùng Nổ?",
+  "slug": "xung-dot-iran-israel-moi-nhat",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "hero-title",
+      "title": "LỜI CẢNH BÁO TỪ IRAN",
+      "voiceText": "Những ngày qua, căng thẳng giữa Iran và Israel leo thang chưa từng thấy. Và mới đây, Tehran vừa đưa ra tuyên bố cứng rắn.",
+      "duration": 5,
+      "bgColor": "#0a0a0a",
+      "accentColor": "#e11d48",
+      "textColor": "#ffffff",
+      "animation": "zoom-in",
+      "emoji": "⚠️"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stat-highlight",
+      "title": "Đáp trả vụ ám sát",
+      "voiceText": "Iran khẳng định quyền trả đũa sau vụ chỉ huy cấp cao của lực lượng Vệ binh Cách mạng bị ám sát tại Damascus hồi tháng 4.",
+      "duration": 6,
+      "bgColor": "#0d1b2a",
+      "accentColor": "#f59e0b",
+      "textColor": "#ffffff",
+      "animation": "pulse-glow",
+      "emoji": "🎯",
+      "stat": "200+",
+      "statLabel": "Mục tiêu bị tấn công"
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "infographic-chart",
+      "title": "Sức mạnh tên lửa Iran",
+      "voiceText": "Iran sở hữu kho tên lửa đa dạng, với tầm bắn lên đến 2.000 km, có thể vươn tới lãnh thổ Israel.",
+      "duration": 7,
+      "bgColor": "#1a1a2e",
+      "accentColor": "#06b6d4",
+      "textColor": "#ffffff",
+      "animation": "slide-up",
+      "emoji": "🚀",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Tên lửa đạn đạo",
+          "value": 80,
+          "unit": "%",
+          "percent": 80
+        },
+        {
+          "label": "Tên lửa hành trình",
+          "value": 15,
+          "unit": "%",
+          "percent": 15
+        },
+        {
+          "label": "UAV",
+          "value": 5,
+          "unit": "%",
+          "percent": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "bullet-points",
+      "title": "Phản ứng dây chuyền",
+      "voiceText": "Không chỉ Iran, lực lượng Hezbollah tại Lebanon và Tổ chức Houthi ở Yemen cũng đồng loạt tập kích để ủng hộ đồng minh.",
+      "duration": 6,
+      "bgColor": "#0f172a",
+      "accentColor": "#8b5cf6",
+      "textColor": "#ffffff",
+      "animation": "fade-cascade",
+      "emoji": "🌍",
+      "points": [
+        "Hezbollah tấn công miền Bắc Israel",
+        "Houthi phong tỏa Biển Đỏ",
+        "Lực lượng ủy nhiệm Syria kích hoạt"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "callout",
+      "title": "Phòng thủ sắt",
+      "voiceText": "Dù Iran phóng hơn 300 tên lửa và UAV trong đợt tấn công đầu tháng 4, Israel tuyên bố đã đánh chặn thành công tới 99% nhờ hệ thống Vòm Sắt.",
+      "duration": 7,
+      "bgColor": "#1e1b2a",
+      "accentColor": "#10b981",
+      "textColor": "#ffffff",
+      "animation": "bounce-in",
+      "emoji": "🛡️",
+      "calloutTag": "CHẶN ĐỨNG",
+      "calloutStatement": "99% tên lửa bị vô hiệu hóa"
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "stat-highlight",
+      "title": "Thiệt hại về người",
+      "voiceText": "Các cuộc không kích trả đũa của Israel tại Iran và Syria đã khiến ít nhất 12 binh sĩ Vệ binh Cách mạng thiệt mạng, đồng thời gây thiệt hại nặng cho cơ sở hạt nhân Isfahan.",
+      "duration": 8,
+      "bgColor": "#2e0a1f",
+      "accentColor": "#ef4444",
+      "textColor": "#ffffff",
+      "animation": "pulse-glow",
+      "emoji": "💔",
+      "stat": "12+",
+      "statLabel": "Chỉ huy thiệt mạng"
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "hero-title",
+      "title": "KỊCH BẢN NÀO TIẾP THEO?",
+      "voiceText": "Các chuyên gia lo ngại nếu Israel tấn công vào các cơ sở hạt nhân của Iran, khu vực có thể chìm trong một cuộc chiến toàn diện chưa từng có.",
+      "duration": 6,
+      "bgColor": "#000000",
+      "accentColor": "#facc15",
+      "textColor": "#ffffff",
+      "animation": "typewriter",
+      "emoji": "☢️"
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Cập nhật mỗi ngày",
+      "voiceText": "Bạn lo ngại về tình hình thế giới hiện tại không? Hãy thả tim ❤️ để ủng hộ kênh và follow để không bỏ lỡ những tin nóng hổi tiếp theo nhé!",
+      "duration": 6,
+      "bgColor": "#0a0a0a",
+      "accentColor": "#ec4899",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "📲"
+    }
+  ]
+}

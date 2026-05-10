@@ -27,7 +27,8 @@ export const config = {
   googleTTS: {
     enabled: true,
     lang: "vi",  // Vietnamese
-    slow: false, // Normal speed
+    // slow: false, // Normal speed
+    speed: 1.3,  // Nhanh hơn 30%
   },
 
   // ── HyperFrames ───────────────────────────────────────────────────────────

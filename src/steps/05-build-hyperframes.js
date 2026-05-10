@@ -41,6 +41,15 @@ export async function buildHyperFrames(storyboard, audioFiles, outputDir) {
     }
   }
 
+  // Copy static assets (like logo.svg)
+  const projectAssetsDir = path.join(process.cwd(), "assets");
+  if (existsSync(projectAssetsDir)) {
+    const fs = await import("fs");
+    fs.readdirSync(projectAssetsDir).forEach(file => {
+      copyFileSync(path.join(projectAssetsDir, file), path.join(assetsDir, file));
+    });
+  }
+
   // Build per-scene HTML compositions
   logger.info("  Building scene compositions...");
   for (const scene of storyboard.scenes) {
@@ -143,7 +152,7 @@ function buildIndexHtml(storyboard, audioMap) {
     <meta name="viewport" content="width=${width}, height=${height}" />
     <title>${escapeHtml(storyboard.title)}</title>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Noto+Sans+Vietnamese:wght@400;600;700;900&display=block" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=block" rel="stylesheet" />
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html, body {
@@ -152,7 +161,7 @@ function buildIndexHtml(storyboard, audioMap) {
         height: ${height}px;
         overflow: hidden;
         background: #000;
-        font-family: "Noto Sans Vietnamese", "Inter", sans-serif;
+        font-family: "Inter", sans-serif;
       }
       .scene {
         position: absolute;
