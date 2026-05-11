@@ -1,24 +1,33 @@
 /**
  * Scene Composer
  * Generates HyperFrames-compatible HTML for each scene type & animation style.
- *
- * Composition types:
- *  - hero-title       : Big title + subtitle, full-screen hero
- *  - bullet-points    : 3-4 animated bullet points
- *  - quote-card       : Large centered quote
- *  - stat-highlight   : Number/stat with label
- *  - split-screen     : Two-panel layout
- *  - countdown        : Countdown animation
- *  - cta-card         : Call to action with hearts/effects
  */
 
 import { config } from "../config.js";
+import { generateVisualsHTML } from "./visual-generator.js";
 
 const { width, height } = config.hyperframes;
 
 export function buildSceneHtml(scene, audioFile) {
   const composerFn = COMPOSERS[scene.composition] || COMPOSERS["bullet-points"];
-  const content = composerFn(scene);
+  let content = composerFn(scene);
+
+  // Thêm visuals nếu có
+  const visualsHTML = generateVisualsHTML(scene);
+  if (visualsHTML) {
+    content = content.replace('</div>', `${visualsHTML}</div>`);
+  }
+
+  // Thêm subtext/caption trên scene
+  const captionHTML = buildSceneCaptionHTML(scene);
+  if (captionHTML) {
+    content = content.replace('</div>', `${captionHTML}</div>`);
+  }
+
+  // Karaoke subtitle được inject vào root container (KHÔNG dùng replace vào content)
+  // để position: absolute; bottom: 0 hoạt động đúng relative to root
+  const karaokeHTML = buildKaraokeSubtitleCSSHTML(scene);
+
   const animationScript = buildAnimationScript(scene);
 
   const audioEl = audioFile
@@ -32,11 +41,13 @@ export function buildSceneHtml(scene, audioFile) {
     data-duration="${scene.duration}"
   >
     ${content}
+    ${karaokeHTML}
     ${audioEl}
 
     <style>
       ${buildBaseStyles(scene)}
       ${composerStyles(scene)}
+      ${buildKaraokeStylesCSS(scene)}
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
@@ -46,6 +57,204 @@ export function buildSceneHtml(scene, audioFile) {
       })();
     </script>
   </div>`;
+}
+
+// ── Scene Caption (subtext) - Hiển thị trên scene ───────────────────────────
+
+function buildSceneCaptionHTML(scene) {
+  if (!config.video.sceneCaption.enabled) return '';
+  if (!scene.subtext || scene.subtext.trim() === '') return '';
+
+  const captionStyle = config.video.sceneCaption.style;
+
+  let positionStyle = '';
+  if (captionStyle.position === 'top') {
+    positionStyle = `top: ${captionStyle.marginTop}px; left: 50%; transform: translateX(-50%);`;
+  } else if (captionStyle.position === 'center') {
+    positionStyle = `top: 50%; left: 50%; transform: translate(-50%, -50%);`;
+  } else {
+    positionStyle = `bottom: ${captionStyle.marginTop || 80}px; left: 50%; transform: translateX(-50%);`;
+  }
+
+  return `
+    <div class="scene-caption" style="
+      position: absolute;
+      ${positionStyle}
+      text-align: center;
+      z-index: 15;
+      pointer-events: none;
+    ">
+      <div class="caption-text" style="
+        font-size: ${captionStyle.fontSize}px;
+        font-weight: ${captionStyle.fontWeight};
+        color: ${scene.accentColor};
+        background: ${captionStyle.backgroundColor};
+        backdrop-filter: blur(8px);
+        padding: ${captionStyle.padding};
+        border-radius: ${captionStyle.borderRadius}px;
+        display: inline-block;
+        letter-spacing: 0.05em;
+        border-left: 4px solid ${scene.accentColor};
+        font-family: '${config.video.fontFamily}', sans-serif;
+      ">
+        ${escapeHtml(scene.subtext)}
+      </div>
+    </div>
+  `;
+}
+
+// ── Karaoke Subtitle từ voiceText - Dùng CSS Animation (NO JavaScript timer) ──
+
+// ── Karaoke Subtitle từ voiceText - CHUNKED (4-5 từ/lần) ─────────────────────
+// Mỗi chunk hiện lên → highlight từng từ → ẩn đi, rồi chunk tiếp theo xuất hiện
+
+function buildKaraokeSubtitleCSSHTML(scene) {
+  if (!config.video.karaokeSubtitle.enabled) return '';
+  if (!scene.voiceText || scene.voiceText.trim() === '') return '';
+
+  const style = config.video.karaokeSubtitle.style;
+  const wordsPerChunk = style.wordsPerChunk || 4;
+  const words = scene.voiceText.trim().split(/\s+/);
+  const totalWords = words.length;
+  const durationPerWord = scene.duration / totalWords;
+
+  // Chia words thành các chunks
+  const chunks = [];
+  for (let i = 0; i < words.length; i += wordsPerChunk) {
+    chunks.push(words.slice(i, i + wordsPerChunk));
+  }
+
+  // Chiều cao wrapper cố định để các chunk absolute không bị collapse
+  const lineHeight = style.fontSize * 1.4;
+  const paddingVert = 28; // top+bottom padding tổng (14px mỗi chiều)
+  const wrapperHeight = Math.ceil(lineHeight) + paddingVert;
+
+  let chunksHTML = '';
+  for (let ci = 0; ci < chunks.length; ci++) {
+    const chunk = chunks[ci];
+    const chunkWordStartIndex = ci * wordsPerChunk;
+
+    let wordsHTML = '';
+    for (let wi = 0; wi < chunk.length; wi++) {
+      const wordAbsIndex = chunkWordStartIndex + wi;
+      const wordDelay = (wordAbsIndex * durationPerWord).toFixed(3);
+      wordsHTML += `<span class="karaoke-word-${scene.id}" style="animation-delay:${wordDelay}s;">${escapeHtml(chunk[wi])}</span> `;
+    }
+
+    chunksHTML += `
+      <div class="karaoke-chunk-${scene.id}" id="kchunk-${scene.id}-${ci}">
+        ${wordsHTML.trimEnd()}
+      </div>
+    `;
+  }
+
+  return `
+    <div class="karaoke-container" style="
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 100;
+      pointer-events: none;
+      background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
+      padding-top: 50px;
+      padding-bottom: ${style.bottomOffset}px;
+    ">
+      <div class="karaoke-subtitle-wrapper-${scene.id}" style="
+        position: relative;
+        display: inline-block;
+        width: 88%;
+        height: ${wrapperHeight}px;
+      ">
+        ${chunksHTML}
+      </div>
+    </div>
+  `;
+}
+
+function buildKaraokeStylesCSS(scene) {
+  if (!config.video.karaokeSubtitle.enabled) return '';
+  if (!scene.voiceText || scene.voiceText.trim() === '') return '';
+
+  const style = config.video.karaokeSubtitle.style;
+  const wordsPerChunk = style.wordsPerChunk || 4;
+  const words = scene.voiceText.trim().split(/\s+/);
+  const totalWords = words.length;
+  const durationPerWord = scene.duration / totalWords;
+  const totalDuration = scene.duration;
+
+  const chunks = [];
+  for (let i = 0; i < words.length; i += wordsPerChunk) {
+    chunks.push(words.slice(i, i + wordsPerChunk));
+  }
+
+  // ── 1. Word highlight keyframe (dùng chung, timing đặt qua animation-delay) ─
+  let css = `
+    @keyframes highlightWord${scene.id} {
+      0%   { opacity: 0.35; color: ${style.color}; transform: scale(1); text-shadow: none; }
+      8%   { opacity: 1;    color: ${style.highlightColor}; transform: scale(1.1); text-shadow: 0 0 12px ${style.highlightColor}80; }
+      85%  { opacity: 1;    color: ${style.highlightColor}; transform: scale(1.1); text-shadow: 0 0 12px ${style.highlightColor}80; }
+      100% { opacity: 0.35; color: ${style.color}; transform: scale(1); text-shadow: none; }
+    }
+
+    .karaoke-word-${scene.id} {
+      display: inline-block;
+      margin: 0 ${style.wordSpacing || '6px'};
+      opacity: 0.35;
+      white-space: nowrap;
+      word-break: keep-all;
+      animation: highlightWord${scene.id} ${durationPerWord.toFixed(3)}s linear both;
+    }
+
+    .karaoke-chunk-${scene.id} {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: ${style.fontSize}px;
+      font-family: '${style.fontFamily}', 'Inter', sans-serif;
+      color: ${style.color};
+      background: ${style.backgroundColor};
+      padding: ${style.padding};
+      border-radius: ${style.borderRadius}px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      line-height: 1.4;
+      opacity: 0;
+      word-wrap: break-word;
+    }
+  `;
+
+  // ── 2. Per-chunk show/hide keyframes ─────────────────────────────────────────
+  for (let ci = 0; ci < chunks.length; ci++) {
+    const chunk = chunks[ci];
+    const chunkWordStartIndex = ci * wordsPerChunk;
+    const chunkStartTime = chunkWordStartIndex * durationPerWord;
+    const chunkEndTime   = Math.min(totalDuration, (chunkWordStartIndex + chunk.length) * durationPerWord);
+
+    const sPct = ((chunkStartTime / totalDuration) * 100).toFixed(3);
+    const ePct = ((chunkEndTime   / totalDuration) * 100).toFixed(3);
+
+    // Fade-in: bắt đầu 0.3s trước chunk, fade-out: biến mất ngay khi chunk kế tiếp vào
+    const fadeInPct  = Math.max(0,   ((chunkStartTime - 0.25) / totalDuration) * 100).toFixed(3);
+    const fadeOutPct = Math.min(100, ((chunkEndTime   + 0.05) / totalDuration) * 100).toFixed(3);
+
+    let stops = '';
+    if (parseFloat(fadeInPct) > 0) stops += `0%{opacity:0}`;
+    stops += ` ${fadeInPct}%{opacity:0} ${sPct}%{opacity:1} ${ePct}%{opacity:1} ${fadeOutPct}%{opacity:0}`;
+    if (parseFloat(fadeOutPct) < 100) stops += ` 100%{opacity:0}`;
+
+    css += `
+      @keyframes showChunk${scene.id}_${ci} { ${stops} }
+      #kchunk-${scene.id}-${ci} {
+        animation: showChunk${scene.id}_${ci} ${totalDuration.toFixed(3)}s linear 0s both;
+      }
+    `;
+  }
+
+  return css;
 }
 
 // ── Base Styles ───────────────────────────────────────────────────────────────
@@ -122,6 +331,18 @@ function buildBaseStyles(scene) {
     [data-composition-id="${cid}"] .code-diff-wrap {
       position: relative;
       z-index: 2;
+    }
+    
+    /* Visual styles */
+    [data-composition-id="${cid}"] .visual-image,
+    [data-composition-id="${cid}"] .visual-animation,
+    [data-composition-id="${cid}"] .visual-diagram,
+    [data-composition-id="${cid}"] .visual-motion {
+      transition: opacity 0.5s ease;
+    }
+    [data-composition-id="${cid}"] canvas,
+    [data-composition-id="${cid}"] svg {
+      pointer-events: none;
     }
   `;
 }
@@ -387,7 +608,7 @@ function composerStyles(scene) {
     [data-composition-id="${cid}"] .donut-bg {
       fill: none;
       stroke: rgba(255, 255, 255, 0.05);
-      stroke-width: 4;
+      stroke-width:4;
     }
     [data-composition-id="${cid}"] .donut-fill {
       fill: none;
@@ -605,7 +826,6 @@ const COMPOSERS = {
       <span class="emoji-deco" id="s${scene.id}-emoji">${scene.emoji || "🎯"}</span>
       <div class="accent-bar" id="s${scene.id}-bar"></div>
       <h1 class="scene-title" id="s${scene.id}-title">${escapeHtml(scene.title)}</h1>
-      <p class="scene-subtitle" id="s${scene.id}-sub">${escapeHtml(scene.voiceText.slice(0, 80))}</p>
     </div>`,
 
   "bullet-points": (scene) => {
@@ -641,7 +861,6 @@ const COMPOSERS = {
       <div class="glow-orb" style="width:900px;height:900px;top:50%;left:50%;transform:translate(-50%,-50%);"></div>
       <div class="stat-number" id="s${scene.id}-stat">${escapeHtml(stat)}</div>
       <div class="stat-label" id="s${scene.id}-label">${escapeHtml(label)}</div>
-      <p class="scene-subtitle" style="margin-top:30px;font-size:36px;" id="s${scene.id}-desc">${escapeHtml(scene.voiceText.slice(0, 100))}</p>
     </div>`;
   },
 
@@ -687,7 +906,6 @@ const COMPOSERS = {
       <div class="hero-wrap" style="text-align:center; display:flex; flex-direction:column; align-items:center; transform: translateY(-100px);">
         <span class="emoji-deco" id="s${scene.id}-emoji" style="font-size:200px; margin-bottom: 30px;">${scene.emoji || "❤️"}</span>
         <h1 class="cta-title" id="s${scene.id}-title" style="color:#ffffff; margin-bottom:20px;">${escapeHtml(scene.title)}</h1>
-        <p class="cta-sub" id="s${scene.id}-sub" style="color:rgba(255,255,255,0.8);">${escapeHtml(scene.voiceText.slice(0, 100))}</p>
       </div>
       
       <div class="tt-card">
@@ -787,6 +1005,17 @@ const COMPOSERS = {
       </div>
     </div>`,
 
+  "callout": (scene) => `
+    <div class="canvas">
+      <div class="bg-gradient"></div>
+      <div class="callout-wrap">
+        <div class="callout-card" id="s${scene.id}-callout">
+          ${scene.calloutTag ? `<div class="callout-tag">${escapeHtml(scene.calloutTag)}</div>` : ""}
+          <div class="callout-statement">${escapeHtml(scene.calloutStatement || scene.voiceText)}</div>
+        </div>
+      </div>
+    </div>`,
+
   "comparison": (scene) => {
     const L = scene.left || {};
     const R = scene.right || {};
@@ -842,8 +1071,6 @@ function buildAnimationScript(scene) {
       if (emoji) tl.from(emoji, { scale: 0, rotation: -20, duration: 0.6, ease: "back.out(2)" }, 0.3);
       const title = document.querySelector('[data-composition-id="${cid}"] #${s}-title');
       if (title) tl.from(title, { y: 40, opacity: 0, duration: 0.7, ease: "power3.out" }, 0.5);
-      const sub = document.querySelector('[data-composition-id="${cid}"] #${s}-sub');
-      if (sub) tl.from(sub, { y: 30, opacity: 0, duration: 0.6, ease: "power3.out" }, 0.75);
       const bar = document.querySelector('[data-composition-id="${cid}"] .accent-bar');
       if (bar) tl.from(bar, { scaleX: 0, duration: 0.5, ease: "power3.out", transformOrigin: "left" }, 0.4);`,
 
@@ -871,8 +1098,6 @@ function buildAnimationScript(scene) {
       if (stat) tl.from(stat, { scale: 0, opacity: 0, duration: 0.8, ease: "elastic.out(1, 0.5)" }, 0);
       const label = document.querySelector('[data-composition-id="${cid}"] .stat-label');
       if (label) tl.from(label, { y: 40, opacity: 0, duration: 0.5, ease: "power3.out" }, 0.5);
-      const sub = document.querySelector('[data-composition-id="${cid}"] .scene-subtitle');
-      if (sub) tl.from(sub, { y: 30, opacity: 0, duration: 0.5, ease: "power3.out" }, 0.75);
       const orb = document.querySelector('[data-composition-id="${cid}"] .glow-orb');
       if (orb) tl.from(orb, { scale: 0, opacity: 0, duration: 1, ease: "power2.out" }, 0);`,
 
@@ -891,8 +1116,6 @@ function buildAnimationScript(scene) {
       if (emo) tl.from(emo, { scale: 0, rotation: -30, duration: 0.8, ease: "elastic.out(1, 0.4)" }, 0);
       const title = document.querySelector('[data-composition-id="${cid}"] #${s}-title');
       if (title) tl.from(title, { y: 50, opacity: 0, duration: 0.7, ease: "power3.out" }, 0.4);
-      const sub = document.querySelector('[data-composition-id="${cid}"] #${s}-sub');
-      if (sub) tl.from(sub, { y: 30, opacity: 0, duration: 0.6, ease: "power3.out" }, 0.7);
       const hearts = document.querySelectorAll('[data-composition-id="${cid}"] .heart');
       hearts.forEach((h, i) => {
         const delay = 0.6 + i * 0.12;
@@ -978,7 +1201,6 @@ function buildAnimationScript(scene) {
 
   const animKey = scene.animation || "fade-cascade";
 
-  // Compositions that have mandatory specific animations to be visible
   const forceAnimMap = {
     "infographic-chart": "infographic-chart",
     "stats-grid": "stats-grid",
@@ -995,12 +1217,54 @@ function buildAnimationScript(scene) {
 
   return `
     ${animBody}
-    // Force timeline to last for the entire scene duration to prevent early blanking
     tl.to({}, { duration: 0 }, ${dur});
     window.__timelines = window.__timelines || {};
     window.__timelines["${cid}"] = tl;
   `;
 }
+
+// ── Global Karaoke Subtitle Initialization ───────────────────────────────────
+// Phần này sẽ được nhúng vào mỗi scene
+
+function initKaraokeSubtitle(sceneId, duration, voiceText) {
+  if (!voiceText || voiceText.trim() === '') return;
+
+  const container = document.getElementById(`karaoke-subtitle-${sceneId}`);
+  if (!container) return;
+
+  const words = voiceText.trim().split(/\s+/);
+  const durationPerWord = duration / words.length;
+
+  // Tạo HTML cho từng từ
+  container.innerHTML = words.map((word, idx) =>
+    `<span class="karaoke-word" data-index="${idx}">${escapeHtmlForKaraoke(word)}</span>`
+  ).join(' ');
+
+  const wordSpans = container.querySelectorAll('.karaoke-word');
+  let currentIndex = 0;
+
+  const interval = setInterval(() => {
+    if (currentIndex < wordSpans.length) {
+      // Remove active class from all
+      wordSpans.forEach(w => w.classList.remove('active'));
+      // Add active class to current word
+      wordSpans[currentIndex].classList.add('active');
+      currentIndex++;
+    } else {
+      clearInterval(interval);
+      // Highlight all words at the end
+      wordSpans.forEach(w => w.classList.add('active'));
+    }
+  }, durationPerWord * 1000);
+}
+
+function escapeHtmlForKaraoke(str) {
+  if (!str) return '';
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+// Note: The initKaraokeSubtitle function needs to be available globally
+// It will be added to the script section of each scene
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -1025,18 +1289,14 @@ function lighten(hex) {
 }
 
 function splitIntoBullets(text, count) {
-  // Prioritize splitting by sentences
   const sentences = text.split(/[.!?。]/g)
     .map(s => s.trim())
     .filter(s => s.length > 5);
 
-  // If we have enough sentences to make a list (at least 2), use them
-  // This satisfies the user request to have one bullet per sentence.
   if (sentences.length >= 2) {
-    return sentences.slice(0, 6); // Cap at 6 to avoid overflowing the screen
+    return sentences.slice(0, 6);
   }
 
-  // Fallback: split by comma if we don't have enough sentences
   const parts = text.split(/[,，]/g)
     .map(s => s.trim())
     .filter(s => s.length > 5);
@@ -1045,12 +1305,10 @@ function splitIntoBullets(text, count) {
     return parts.slice(0, Math.max(count, parts.length)).slice(0, 6);
   }
 
-  // Final fallback: split into chunks by length to satisfy the 'count' requirement
   const chunkSize = Math.ceil(text.length / count);
   const result = [];
   for (let i = 0; i < count; i++) {
     const start = i * chunkSize;
-    // Find next space to avoid splitting words if possible
     let end = (i + 1) * chunkSize;
     if (i < count - 1) {
       const nextSpace = text.indexOf(" ", end);

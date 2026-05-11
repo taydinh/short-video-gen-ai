@@ -10,7 +10,7 @@
  *  7. Merge audio tracks into final MP4
  */
 
-import { readFileSync, existsSync } from "fs";
+import { existsSync } from "fs";
 import path from "path";
 import { logger } from "./utils/logger.js";
 import { readInput } from "./steps/01-read-input.js";
@@ -21,8 +21,11 @@ import { buildHyperFrames } from "./steps/05-build-hyperframes.js";
 import { renderVideo } from "./steps/06-render-video.js";
 import { mergeAudio } from "./steps/07-merge-audio.js";
 import { createOutputDir } from "./utils/fs-helpers.js";
+import { config } from "./config.js";
 
 export async function pipeline(input) {
+  const startTime = Date.now();
+
   // ── Step 0: Prepare output directory ──────────────────────────────────────
   const { outputDir, slug } = await createOutputDir(input);
   logger.info(`📁 Output directory: ${outputDir}`);
@@ -34,9 +37,11 @@ export async function pipeline(input) {
   let storyboard;
 
   if (isStoryboard) {
-    // Input is already a storyboard JSON
     logger.info("✅ Using provided storyboard JSON");
     storyboard = storyboardData;
+    if (!storyboard.scenes || storyboard.scenes.length === 0) {
+      throw new Error("Invalid storyboard: missing scenes array");
+    }
   } else {
     // ── Step 2: Generate storyboard via LMStudio ─────────────────────────────
     logger.step(2, "Generating storyboard with LMStudio...");
@@ -45,7 +50,7 @@ export async function pipeline(input) {
   }
 
   // ── Step 3: Generate TTS audio ────────────────────────────────────────────
-  logger.step(3, "Generating TTS audio via VieNeu...");
+  logger.step(3, "Generating TTS audio...");
   const audioFiles = await generateTTS(storyboard, outputDir);
   logger.info(`✅ Audio generated for ${audioFiles.length} scenes`);
 
@@ -61,15 +66,71 @@ export async function pipeline(input) {
 
   // ── Step 6: Render video ──────────────────────────────────────────────────
   logger.step(6, "Rendering video with HyperFrames...");
-  const renderedMp4 = await renderVideo(projectDir, outputDir);
-  logger.info(`✅ Video rendered: ${renderedMp4}`);
+  let renderedMp4;
+  try {
+    renderedMp4 = await renderVideo(projectDir, outputDir);
+    logger.info(`✅ Video rendered: ${renderedMp4}`);
+  } catch (err) {
+    logger.error(`❌ Video rendering failed: ${err.message}`);
+    const possibleMp4 = findExistingMp4(outputDir);
+    if (possibleMp4) {
+      renderedMp4 = possibleMp4;
+      logger.info(`Found existing MP4: ${renderedMp4}`);
+    } else {
+      throw new Error(`Cannot proceed without video file: ${err.message}`);
+    }
+  }
 
-  // ── Step 7: Merge audio into final video ──────────────────────────────────
+  // ── Step 7: Merge audio into video ────────────────────────────────────────
   logger.step(7, "Merging audio tracks into final video...");
-  const finalVideo = await mergeAudio(renderedMp4, audioFiles, timedStoryboard, outputDir, slug);
-  logger.info(`\n🎉 Pipeline complete!`);
+  let finalVideo;
+  try {
+    finalVideo = await mergeAudio(renderedMp4, audioFiles, timedStoryboard, outputDir, slug);
+    logger.info(`✅ Audio merged: ${finalVideo}`);
+  } catch (err) {
+    logger.error(`❌ Audio merge failed: ${err.message}`);
+    finalVideo = renderedMp4;
+  }
+
+  // ── Final Summary ─────────────────────────────────────────────────────────
+  const endTime = Date.now();
+  const duration = ((endTime - startTime) / 1000).toFixed(2);
+
+  logger.info(`\n${"═".repeat(60)}`);
+  logger.success(`🎉 Pipeline complete in ${duration}s!`);
+  logger.info(`${"═".repeat(60)}`);
   logger.info(`📹 Final video: ${finalVideo}`);
   logger.info(`📂 Project files: ${outputDir}`);
+  logger.info(`${"═".repeat(60)}\n`);
 
-  return { finalVideo, outputDir, storyboard: timedStoryboard };
+  return {
+    finalVideo,
+    outputDir,
+    storyboard: timedStoryboard,
+    duration: timedStoryboard.totalDuration
+  };
+}
+
+// Helper: Find existing MP4 in output directory
+function findExistingMp4(outputDir) {
+  const fs = require("fs");
+  try {
+    const files = fs.readdirSync(outputDir);
+    const mp4File = files.find(f => f.endsWith(".mp4") && !f.includes("-with-subs"));
+    if (mp4File) {
+      return path.join(outputDir, mp4File);
+    }
+
+    const hyperframesDir = path.join(outputDir, "hyperframes");
+    if (existsSync(hyperframesDir)) {
+      const hyperFiles = fs.readdirSync(hyperframesDir);
+      const hyperMp4 = hyperFiles.find(f => f.endsWith(".mp4"));
+      if (hyperMp4) {
+        return path.join(hyperframesDir, hyperMp4);
+      }
+    }
+  } catch (err) {
+    logger.debug(`Error finding existing MP4: ${err.message}`);
+  }
+  return null;
 }

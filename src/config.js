@@ -6,45 +6,75 @@
 export const config = {
   // ── LMStudio (Local LLM) ──────────────────────────────────────────────────
   lmstudio: {
-    baseUrl: "http://localhost:1234/v1",   // LMStudio API endpoint
-    model: "local-model",                  // Model name shown in LMStudio (any loaded model)
+    baseUrl: "http://localhost:1234/v1",
+    model: "local-model",
     temperature: 0.7,
     maxTokens: 4096,
-    timeout: 120000,                        // 2 min timeout for LLM
+    timeout: 120000,
   },
 
-  // ── VieNeu TTS ────────────────────────────────────────────────────────────
-  // Option A: VieNeu REST API (if self-hosted or cloud)
+  // ── TTS Configuration ─────────────────────────────────────────────────────
   vieneu: {
-    apiUrl: "http://localhost:7860/api/tts", // Default VieNeu Gradio endpoint
-    // apiUrl: "https://your-vieneu-host/api/tts",
-    voice: "female_south",                  // female_south | female_north | male_south | male_north
+    enabled: true,
+    apiUrl: "http://localhost:7860/api/tts",
+    voice: "female_south",
     speed: 1.0,
     outputFormat: "mp3",
+    timeout: 60000,
   },
 
-  // googleTTS
   googleTTS: {
     enabled: true,
-    lang: "vi",  // Vietnamese
-    // slow: false, // Normal speed
-    speed: 1.3,  // Nhanh hơn 30%
+    lang: "vi",
+    speed: 1.3,
   },
 
   // ── HyperFrames ───────────────────────────────────────────────────────────
   hyperframes: {
     version: "0.5.3",
-    width: 1080,   // 9:16 portrait for mobile
+    width: 1080,
     height: 1920,
-    fps: 30,
+    fps: 60,
   },
 
-  // ── Video ─────────────────────────────────────────────────────────────────
+  // ── Video Configuration ───────────────────────────────────────────────────
   video: {
     ratio: "9:16",
-    bgColor: "#0d0d1a",  // Default dark background
+    bgColor: "#0d0d1a",
     fontFamily: "Inter",
-    // Scene color themes (cycled through scenes 2-7)
+
+    // Karaoke subtitle from voiceText (HTML/CSS overlay - KHÔNG cần SRT)
+    karaokeSubtitle: {
+      enabled: true,
+      style: {
+        fontSize: 42,
+        fontFamily: "Inter",
+        color: "#FFFFFF",
+        highlightColor: "#7c3aed",
+        backgroundColor: "rgba(0,0,0,0.75)",
+        padding: "14px 28px",
+        borderRadius: 60,
+        wordsPerChunk: 4,         // Số từ hiển thị mỗi lần (4-5 từ/chunk)
+        bottomOffset: 120,        // Khoảng cách từ đáy video (px)
+        wordSpacing: "10px",
+      },
+    },
+
+    // Scene caption (subtext) configuration - hiển thị trên scene
+    sceneCaption: {
+      enabled: true,
+      style: {
+        fontSize: 32,
+        fontWeight: 600,
+        position: "top",
+        marginTop: 120,
+        backgroundColor: "rgba(0,0,0,0.5)",
+        borderRadius: 50,
+        padding: "10px 24px",
+      },
+    },
+
+    // Scene color themes
     themes: [
       { bg: "#0d0d1a", accent: "#7c3aed", text: "#ffffff" },
       { bg: "#0a1628", accent: "#2563eb", text: "#ffffff" },
@@ -64,7 +94,28 @@ export const config = {
   // ── Output ────────────────────────────────────────────────────────────────
   output: {
     dir: "./output",
-    keepHtml: true,   // Save HTML files for manual editing
-    keepAudio: true,  // Keep individual scene audio files
+    keepHtml: true,
+    keepAudio: true,
+    keepSrt: false,  // TẮT tạo file SRT
+  },
+
+  // ── Visual Effects ────────────────────────────────────────────────────────
+  visuals: {
+    enabled: true,
+    imageSearch: {
+      provider: "picsum",
+      apiKey: "",
+      fallbackToPlaceholder: true,
+    },
+    animation: {
+      maxParticles: 80,
+      defaultDuration: 3,
+      defaultOpacity: 0.3,
+    },
+    diagram: {
+      nodeRadius: 60,
+      lineWidth: 3,
+      animationSpeed: "normal",
+    },
   },
 };

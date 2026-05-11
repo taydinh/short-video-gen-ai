@@ -1,0 +1,280 @@
+{
+  "title": "AI: Công nghệ định hình tương lai 2026",
+  "slug": "ai-technology-2026",
+  "totalDuration": 42,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "hero-title",
+      "title": "🤖 AI: Cuộc cách mạng thầm lặng",
+      "voiceText": "Năm 2026, trí tuệ nhân tạo không còn là công nghệ tương lai mà đã trở thành hiện thực, thay đổi cách chúng ta sống và làm việc mỗi ngày.",
+      "subtext": "🔥 Xu hướng công nghệ số 1",
+      "karaokeStyle": "highlight",
+      "duration": 5,
+      "bgColor": "#0a0a1a",
+      "accentColor": "#7c3aed",
+      "textColor": "#ffffff",
+      "animation": "zoom-in",
+      "emoji": "🤖",
+      "visuals": {
+        "type": "animation",
+        "animationType": "floating-particles",
+        "position": "background",
+        "opacity": 0.3,
+        "colors": [
+          "#7c3aed",
+          "#2dd4bf",
+          "#f59e0b"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stat-highlight",
+      "title": "Tăng trưởng thần tốc",
+      "voiceText": "Thị trường AI toàn cầu đạt 500 tỷ đô la năm 2025, dự kiến cán mốc 1.8 nghìn tỷ vào năm 2030.",
+      "subtext": "📈 Tăng trưởng 38%/năm",
+      "karaokeStyle": "highlight",
+      "duration": 5,
+      "bgColor": "#0a1628",
+      "accentColor": "#3b82f6",
+      "textColor": "#ffffff",
+      "animation": "bounce-in",
+      "emoji": "📈",
+      "visuals": {
+        "type": "image",
+        "source": "search",
+        "query": "AI technology growth chart",
+        "position": "background",
+        "opacity": 0.25
+      }
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "bullet-points",
+      "title": "3 lĩnh vực AI bùng nổ",
+      "voiceText": "Y tế với AI chẩn đoán bệnh chính xác 95 phần trăm. Tài chính với giao dịch tự động thông minh. Giáo dục với gia sư AI cá nhân hóa từng học sinh.",
+      "subtext": "💊 Y tế · 💰 Tài chính · 📚 Giáo dục",
+      "karaokeStyle": "highlight",
+      "duration": 6,
+      "bgColor": "#0d1a0d",
+      "accentColor": "#22c55e",
+      "textColor": "#ffffff",
+      "animation": "slide-up",
+      "emoji": "💊",
+      "points": [
+        "🏥 Y tế: Chẩn đoán bệnh 95%",
+        "💰 Tài chính: Giao dịch tự động",
+        "📚 Giáo dục: Gia sư AI cá nhân"
+      ],
+      "visuals": {
+        "type": "diagram",
+        "diagramType": "flowchart",
+        "position": "foreground",
+        "opacity": 0.85,
+        "colors": [
+          "#22c55e",
+          "#3b82f6",
+          "#eab308"
+        ],
+        "data": {
+          "nodes": [
+            "Y tế",
+            "Tài chính",
+            "Giáo dục"
+          ],
+          "connections": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "quote-card",
+      "title": "AI trong đời sống",
+      "voiceText": "Từ trợ lý ảo trên điện thoại, xe tự lái, đến nhà thông minh, AI đã len lỏi vào 85 phần trăm thiết bị chúng ta dùng mỗi ngày.",
+      "subtext": "🏠 AI có mặt ở khắp mọi nơi",
+      "karaokeStyle": "underline",
+      "duration": 5,
+      "bgColor": "#1a0d2e",
+      "accentColor": "#a855f7",
+      "textColor": "#ffffff",
+      "animation": "fade-cascade",
+      "emoji": "🏠",
+      "visuals": {
+        "type": "animation",
+        "animationType": "glow-orbits",
+        "position": "background",
+        "opacity": 0.3,
+        "colors": [
+          "#a855f7",
+          "#d946ef",
+          "#ec4899"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "infographic-chart",
+      "title": "Đầu tư AI theo khu vực",
+      "voiceText": "Mỹ dẫn đầu với 60 tỷ đô la đầu tư AI. Trung Quốc 30 tỷ. Châu Âu 15 tỷ. Đông Nam Á tăng trưởng nhanh nhất với 200 phần trăm.",
+      "subtext": "🌏 Đông Nam Á: Tăng trưởng số 1",
+      "karaokeStyle": "highlight",
+      "duration": 6,
+      "bgColor": "#0f172a",
+      "accentColor": "#06b6d4",
+      "textColor": "#ffffff",
+      "animation": "infographic-chart",
+      "emoji": "🌍",
+      "chartType": "bar",
+      "chartTitle": "Đầu tư AI 2025 (tỷ USD)",
+      "data": [
+        {
+          "label": "🇺🇸 Mỹ",
+          "value": 60,
+          "unit": "B",
+          "percent": 100
+        },
+        {
+          "label": "🇨🇳 Trung Quốc",
+          "value": 30,
+          "unit": "B",
+          "percent": 50
+        },
+        {
+          "label": "🇪🇺 Châu Âu",
+          "value": 15,
+          "unit": "B",
+          "percent": 25
+        },
+        {
+          "label": "🌏 Đông Nam Á",
+          "value": 8,
+          "unit": "B",
+          "percent": 13
+        }
+      ],
+      "visuals": {
+        "type": "motion",
+        "motionType": "float",
+        "position": "top-right",
+        "content": "📊",
+        "fontSize": "60px"
+      }
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "terminal",
+      "title": "AI tạo sinh - Bước đột phá",
+      "voiceText": "ChatGPT, Midjourney, Sora đang thay đổi cách chúng ta sáng tạo nội dung, từ văn bản, hình ảnh đến video chất lượng cao.",
+      "subtext": "✨ Công nghệ đột phá của thập kỷ",
+      "karaokeStyle": "highlight",
+      "duration": 6,
+      "bgColor": "#1a1a1a",
+      "accentColor": "#10b981",
+      "textColor": "#ffffff",
+      "animation": "terminal",
+      "emoji": "✨",
+      "terminalTitle": "generative-ai",
+      "terminalLines": [
+        {
+          "type": "prompt",
+          "text": "python generate.py --model gpt-5"
+        },
+        {
+          "type": "output",
+          "text": "> Đang tạo nội dung bằng AI..."
+        },
+        {
+          "type": "output",
+          "text": "> Hoàn thành! Chất lượng vượt trội."
+        }
+      ],
+      "visuals": {
+        "type": "animation",
+        "animationType": "fireflies",
+        "position": "background",
+        "opacity": 0.35,
+        "colors": [
+          "#10b981",
+          "#34d399",
+          "#6ee7b7"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "comparison",
+      "title": "AI vs Con người",
+      "voiceText": "Trong chẩn đoán hình ảnh y tế, AI đạt độ chính xác 94 phần trăm, cao hơn bác sĩ 88 phần trăm. Nhưng con người vẫn vượt trội về cảm xúc và sáng tạo.",
+      "subtext": "⚖️ Cả hai đều có thế mạnh riêng",
+      "karaokeStyle": "underline",
+      "duration": 5,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#8b5cf6",
+      "textColor": "#ffffff",
+      "animation": "comparison",
+      "emoji": "⚖️",
+      "left": {
+        "label": "🤖 AI",
+        "value": "94%",
+        "color": "cyan",
+        "winner": false
+      },
+      "right": {
+        "label": "👤 Con người",
+        "value": "88% + Sáng tạo",
+        "color": "purple",
+        "winner": true
+      },
+      "visuals": {
+        "type": "motion",
+        "motionType": "pulse",
+        "position": "center",
+        "content": "🤝",
+        "fontSize": "80px"
+      }
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Sẵn sàng cho kỷ nguyên AI?",
+      "voiceText": "Đừng bỏ lỡ cơ hội vàng. Thả tim và follow kênh để cập nhật những xu hướng AI mới nhất mỗi ngày nhé.",
+      "subtext": "💜 Cảm ơn bạn đã xem",
+      "karaokeStyle": "highlight",
+      "duration": 5,
+      "bgColor": "#1a0d2e",
+      "accentColor": "#ec4899",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "💜",
+      "visuals": {
+        "type": "motion",
+        "motionType": "bounce",
+        "position": "bottom-left",
+        "content": "🤖✨🚀",
+        "fontSize": "70px"
+      }
+    }
+  ]
+}

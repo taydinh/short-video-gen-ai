@@ -212,6 +212,36 @@ npm start -- my-storyboard.json
 
 Điều này bỏ qua bước LLM và đi thẳng vào TTS + render.
 
+## Tùy chỉnh
+
+Bạn có thể tắt subtitle embedding bằng cách set trong config.js:
+```
+video: {
+  embedSubtitles: false,  // Không nhúng subtitle vào video
+}
+```
+
+Hoặc điều chỉnh style subtitle:
+```
+subtitleStyle: {
+  fontSize: 40,
+  color: "#FFD700",  // Màu vàng
+  backgroundColor: "rgba(0,0,0,0.8)",
+}
+```
+
+## Storyboard JSON mở rộng
+```
+├── scenes[].visuals
+│   ├── type: "image" | "animation" | "motion" | "chart" | "diagram"
+│   ├── source: "search" | "generate" | "builtin"
+│   ├── query: string          (từ khóa tìm ảnh)
+│   ├── style: string          (phong cách: "3d", "flat", "gradient")
+│   ├── animation: object      (hiệu ứng chuyển động)
+│   └── elements: array        (các thành phần đồ họa)
+
+```
+
 ```
 short-video-gen-ai/
 ├── src/

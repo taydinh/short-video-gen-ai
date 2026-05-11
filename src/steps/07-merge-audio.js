@@ -1,10 +1,6 @@
 /**
  * Step 7: Merge individual scene audio files into the rendered video.
- *
- * Strategy:
- *  1. Build a concat audio track by placing each scene's audio at its scene's startTime
- *  2. Use ffmpeg to mix the audio track into the rendered video MP4
- *  3. Output final MP4 to {outputDir}/{slug}.mp4
+ * (Giữ nguyên code cũ, chỉ thêm export để dùng trong pipeline)
  */
 
 import { execSync } from "child_process";
@@ -46,8 +42,6 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
     );
 
     // Build ffmpeg command to mix all audio at correct timestamps
-    // Input 0: silence
-    // Inputs 1..N: scene audio files
     const audioInputs = [
       `-i "${silencePath}"`,
       ...scenesWithAudio.map((scene) => {
@@ -58,21 +52,16 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
 
     const delayFilters = scenesWithAudio.map((scene, i) => {
       const delayMs = Math.round(scene.startTime * 1000);
-      // Index 0 is silence, so scene inputs start at 1
-      // Force stereo format then apply delay for both channels (compatible with FFmpeg 3.4)
       return `[${i + 1}:a]aformat=channel_layouts=stereo,adelay=${delayMs}|${delayMs}[a${i}]`;
     });
 
     const mixInputs = `[0:a]` + scenesWithAudio.map((_, i) => `[a${i}]`).join("");
     const numInputs = scenesWithAudio.length + 1;
-    
-    // Mix everything. amix by default divides volume by number of inputs.
-    // We multiply back by numInputs to restore original levels for non-overlapping parts.
+
     const mixFilter = `${mixInputs}amix=inputs=${numInputs}:duration=longest:normalize=0,volume=${numInputs}[amix]`;
 
     const filterComplex = [...delayFilters, mixFilter].join(";");
 
-    // Combined audio path
     const mixedAudioPath = path.join(outputDir, "audio", `mixed.${extension}`);
 
     execSync(
@@ -82,7 +71,6 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
 
     logger.info(`  Merging audio into video...`);
 
-    // Merge audio into video
     execSync(
       `ffmpeg -i "${renderedMp4}" -i "${mixedAudioPath}" -c:v copy -c:a aac -b:a 192k -map 0:v:0 -map 1:a:0 -shortest "${finalPath}" -y`,
       { timeout: 120000, stdio: 'pipe' }
@@ -96,9 +84,8 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
     copyFileSync(renderedMp4, finalPath);
   }
 
-  // Also copy the rendered video without audio for reference
   const rawVideoPath = path.join(outputDir, "video-raw.mp4");
-  try { copyFileSync(renderedMp4, rawVideoPath); } catch {}
+  try { copyFileSync(renderedMp4, rawVideoPath); } catch { }
 
   return finalPath;
 }
