@@ -250,6 +250,7 @@ short-video-gen-ai/
 │   ├── config.js             ← Cấu hình LMStudio, VieNeu, HyperFrames
 │   ├── composers/
 │   │   └── scene-composer.js ← Build HTML cho từng scene type
+│   │   └── visual-generator.js
 │   ├── steps/
 │   │   ├── 01-read-input.js  ← Đọc URL / .md / .json
 │   │   ├── 02-generate-storyboard.js ← LMStudio → 8 scenes JSON
@@ -262,6 +263,7 @@ short-video-gen-ai/
 │       ├── logger.js
 │       ├── fs-helpers.js
 │       └── audio-utils.js
+│       └── srt-generator.js
 ├── example-storyboard.json   ← File mẫu để test ngay
 ├── package.json
 └── README.md

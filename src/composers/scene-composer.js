@@ -81,7 +81,7 @@ function buildSceneCaptionHTML(scene) {
       position: absolute;
       ${positionStyle}
       text-align: center;
-      z-index: 15;
+      z-index: 9999; /* Ensure it is on top */
       pointer-events: none;
     ">
       <div class="caption-text" style="
@@ -155,7 +155,7 @@ function buildKaraokeSubtitleCSSHTML(scene) {
       left: 0;
       right: 0;
       text-align: center;
-      z-index: 100;
+      z-index: 9999; /* Ensure it is on top */
       pointer-events: none;
       background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
       padding-top: 50px;
