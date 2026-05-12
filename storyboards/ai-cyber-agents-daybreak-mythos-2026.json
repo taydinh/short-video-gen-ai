@@ -1,0 +1,259 @@
+{
+  "title": "AI Cyber Agents: Daybreak vs Mythos",
+  "slug": "ai-cyber-agents-daybreak-mythos-2026",
+  "sourceNotes": [
+    "OpenAI Daybreak was reported on May 12, 2026 as a frontier AI cyber-defense platform competing with Anthropic Mythos.",
+    "AP reported on May 11, 2026 that Google disrupted an attempt to use AI to exploit a previously unknown vulnerability.",
+    "The broader 2026 AI trend is agentic AI moving from chat into autonomous workflows, including enterprise and security operations."
+  ],
+  "totalDuration": 48,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "hook-question",
+      "label": "AI CYBER ALERT",
+      "title": "AI đang tự săn lỗ hổng?",
+      "highlightWords": ["AI", "lỗ", "hổng"],
+      "kicker": "Cập nhật ngày 12/05/2026: Daybreak, Mythos và cuộc đua AI an ninh mạng",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1080&q=80",
+          "position": "background",
+          "opacity": 0.34,
+          "overlayColor": "linear-gradient(0deg, rgba(0,0,0,0.78), rgba(0,0,0,0.22))",
+          "motionType": "ken-burns",
+          "motionDuration": 5.5,
+          "motionScaleFrom": 1.02,
+          "motionScaleTo": 1.12,
+          "motionTranslateFrom": "0px, 10px",
+          "motionTranslateTo": "-18px, -12px"
+        },
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "position": "background",
+          "opacity": 0.38,
+          "colors": ["#8dd3ff", "#a78bfa", "#22d3ee", "#fbbf24"]
+        }
+      ],
+      "voiceText": "AI đang tự săn lỗ hổng? Nghe như phim hacker, nhưng đây đang là một trong những chủ đề nóng nhất của AI tháng 5 năm 2026.",
+      "subtext": "AI cyber agents đang nóng lên",
+      "karaokeStyle": "underline",
+      "startTime": 0,
+      "duration": 5,
+      "bgColor": "#07111f",
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "emoji": "🛡️"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "joly-glitch-text",
+      "label": "TỪ KHÓA",
+      "title": "DAYBREAK vs MYTHOS",
+      "text": "DAYBREAK vs MYTHOS",
+      "voiceText": "Một bên là Daybreak của OpenAI, được nhắc tới như nền tảng phòng thủ mạng bằng AI. Bên còn lại là Mythos của Anthropic, cái tên đang khiến giới an ninh phải dè chừng.",
+      "subtext": "Hai hướng tiếp cận, một cuộc đua",
+      "karaokeStyle": "underline",
+      "startTime": 5,
+      "duration": 5,
+      "bgColor": "#090b16",
+      "accentColor": "#f97316",
+      "textColor": "#ffffff",
+      "animation": "fade-cascade",
+      "emoji": "⚡"
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "joly-bento-grid",
+      "label": "BỐI CẢNH",
+      "title": "Vì sao chuyện này bùng nổ?",
+      "items": [
+        {
+          "title": "AI tìm lỗi",
+          "value": "Zero-day",
+          "label": "Mô hình có thể hỗ trợ phát hiện điểm yếu chưa công bố",
+          "icon": "0D"
+        },
+        {
+          "title": "Tấn công nhanh hơn",
+          "value": "Scale",
+          "label": "Agent có thể tự động hóa nhiều bước reconnaissance",
+          "icon": ">>"
+        },
+        {
+          "title": "Phòng thủ chủ động",
+          "value": "Patch",
+          "label": "Đội blue team cần AI để phân tích và vá nhanh",
+          "icon": "OK"
+        },
+        {
+          "title": "Kiểm soát truy cập",
+          "value": "Guard",
+          "label": "Năng lực cyber mạnh buộc phải có sandbox và audit",
+          "icon": "ID"
+        }
+      ],
+      "voiceText": "Lý do câu chuyện này nóng là vì AI không chỉ trả lời câu hỏi nữa. Nó có thể đọc hệ thống, lập kế hoạch, thử giả thuyết và đề xuất cách vá.",
+      "subtext": "Từ chatbot sang cyber workflow",
+      "karaokeStyle": "underline",
+      "startTime": 10,
+      "duration": 7,
+      "bgColor": "#08121d",
+      "accentColor": "#22d3ee",
+      "textColor": "#ffffff",
+      "animation": "reveal-stagger",
+      "emoji": "🧩"
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "joly-animated-beam",
+      "label": "ATTACK / DEFENSE FLOW",
+      "title": "Một agent cyber chạy thế nào?",
+      "nodes": [
+        {
+          "label": "Log & code",
+          "icon": "IN"
+        },
+        {
+          "label": "AI triage",
+          "icon": "AI"
+        },
+        {
+          "label": "Risk score",
+          "icon": "%"
+        },
+        {
+          "label": "Patch plan",
+          "icon": "FIX"
+        },
+        {
+          "label": "Human approve",
+          "icon": "OK"
+        }
+      ],
+      "voiceText": "Một luồng phòng thủ an toàn thường bắt đầu từ log và code, qua bước AI triage, chấm điểm rủi ro, đề xuất bản vá, rồi vẫn cần con người phê duyệt.",
+      "subtext": "Agent mạnh nhất khi có người kiểm soát",
+      "karaokeStyle": "underline",
+      "startTime": 17,
+      "duration": 7,
+      "bgColor": "#07111f",
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "reveal-stagger",
+      "emoji": "🔁"
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "joly-code-block",
+      "label": "BLUE TEAM MODE",
+      "title": "Cyber agent không nên tự bấm nút đỏ",
+      "language": "agent-policy.yaml",
+      "codeLines": [
+        {
+          "type": "prompt",
+          "text": "$ run cyber-agent --mode=defense"
+        },
+        {
+          "type": "ok",
+          "text": "scope: internal assets only"
+        },
+        {
+          "type": "ok",
+          "text": "allowed: detect, explain, prioritize"
+        },
+        {
+          "type": "warn",
+          "text": "blocked: exploit, persist, exfiltrate"
+        },
+        {
+          "type": "ok",
+          "text": "human_approval_required: true"
+        }
+      ],
+      "voiceText": "Điểm sống còn là ranh giới hành động. Một agent phòng thủ nên được phép phát hiện, giải thích và ưu tiên rủi ro, nhưng không được tự ý khai thác hay leo thang.",
+      "subtext": "Quyền hạn càng rõ, rủi ro càng thấp",
+      "karaokeStyle": "underline",
+      "startTime": 24,
+      "duration": 7,
+      "bgColor": "#050816",
+      "accentColor": "#34d399",
+      "textColor": "#ffffff",
+      "animation": "terminal",
+      "emoji": "💻"
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "joly-number-counter",
+      "label": "TÍN HIỆU NGUY HIỂM",
+      "title": "Một lỗ hổng chưa biết cũng đủ tạo khủng hoảng",
+      "value": "1",
+      "voiceText": "Chỉ cần một lỗ hổng chưa biết bị khai thác đúng cách, cả chuỗi cung ứng phần mềm có thể rơi vào trạng thái khẩn cấp.",
+      "subtext": "Một zero-day có thể làm đổi cuộc chơi",
+      "karaokeStyle": "underline",
+      "startTime": 31,
+      "duration": 5,
+      "bgColor": "#140910",
+      "accentColor": "#fb7185",
+      "textColor": "#ffffff",
+      "animation": "bounce-in",
+      "emoji": "1"
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "joly-image-comparison",
+      "label": "TRƯỚC / SAU",
+      "title": "An ninh mạng trước và sau AI agents",
+      "before": {
+        "label": "Trước: thủ công"
+      },
+      "after": {
+        "label": "Sau: agent hỗ trợ"
+      },
+      "beforeImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+      "afterImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=900&q=80",
+      "voiceText": "Trước đây, nhiều bước điều tra phụ thuộc vào thao tác thủ công. Với AI agents, tốc độ phân tích tăng lên, nhưng trách nhiệm kiểm soát cũng nặng hơn.",
+      "subtext": "Nhanh hơn không đồng nghĩa an toàn hơn",
+      "karaokeStyle": "underline",
+      "startTime": 36,
+      "duration": 6,
+      "bgColor": "#07111f",
+      "accentColor": "#fbbf24",
+      "textColor": "#ffffff",
+      "animation": "comparison",
+      "emoji": "⚖️"
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "AI cyber agents: bảo vệ hay rủi ro mới?",
+      "promo": {
+        "badge": "Bạn đứng về phía nào?",
+        "button": "BÌNH LUẬN NGAY",
+        "url": "@utsaler",
+        "commentPrompt": "Daybreak, Mythos hay cả hai đều cần kiểm soát chặt?",
+        "logos": ["Daybreak", "Mythos", "Zero-day", "Blue Team", "Agent", "Audit"]
+      },
+      "voiceText": "Theo bạn, AI cyber agents sẽ giúp bảo vệ internet tốt hơn, hay mở ra rủi ro mới khó kiểm soát hơn? Bình luận góc nhìn của bạn và follow để xem tiếp các cập nhật AI nóng nhất.",
+      "subtext": "Bình luận góc nhìn của bạn",
+      "karaokeStyle": "underline",
+      "startTime": 42,
+      "duration": 6,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "💬"
+    }
+  ]
+}

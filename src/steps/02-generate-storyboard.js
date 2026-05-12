@@ -37,7 +37,7 @@ const SYSTEM_PROMPT = `Bạn là chuyên gia sản xuất nội dung video short
 Nhiệm vụ: Tạo storyboard cho video dọc 9:16 gồm ĐÚNG 8 scene bằng tiếng Việt.
 
 QUY TẮC QUAN TRỌNG:
-- Scene 1: BẮT BUỘC dùng composition "hook-question". Mở đầu hấp dẫn, tiêu đề gây tò mò, hook người xem trong 2 giây đầu. BẮT BUỘC có hình ảnh (visuals.type="image"). Ưu tiên hình minh họa do LLM gợi ý/thiết kế (tối thiểu: tạo query/prompt hình ảnh thật cụ thể).
+- Scene 1: BẮT BUỘC dùng composition "hook-question". Mở đầu hấp dẫn, tiêu đề gây tò mò, hook người xem trong 2 giây đầu. BẮT BUỘC voiceText phải đọc nguyên văn title của Scene 1 ở ngay đầu câu để tạo sự tò mò và thu hút; sau đó nói ngắn gọn, đủ để chuyển nhanh sang Scene 2 đi sâu vào nội dung. BẮT BUỘC có hình ảnh (visuals.type="image"). Ưu tiên hình minh họa do LLM gợi ý/thiết kế (tối thiểu: tạo query/prompt hình ảnh thật cụ thể).
 - Scene 2-7: Nội dung chính, mỗi scene một ý tưởng/điểm thú vị. Chú trọng LIÊN KẾT mạch nội dung giữa các scene; ưu tiên mở đầu voiceText bằng các từ ngữ chuyển cảnh như: "theo đó", "tuy nhiên", "tiếp theo", "cùng với", "và", "hơn thế nữa", "bên cạnh đó", "mặc dù vậy",...
 - Scene 2-7: CÓ THỂ research thêm hình ảnh liên quan (visuals.type="image" + source:"search") để trực quan hơn.
 - Scene 8: Đưa ra nhận định chủ quan NGẮN GỌN, hỏi ý kiến người xem và CTA kêu gọi thả tim ❤️ và follow kênh.
@@ -55,6 +55,20 @@ Các loại composition có sẵn:
 Ngoài ra vẫn dùng được các composition cũ (nếu cần):
 - "hero-title", "bullet-points", "quote-card", "stat-highlight", "infographic-chart", "stats-grid", "terminal", "callout", "cta-card", "comparison", "code-diff"
 
+Nhóm Joly-inspired HTML components (không dùng React, render ổn trong HyperFrames):
+1. "joly-typewriter-text": chữ gõ từng ký tự (cần "words": [string] hoặc "title" chứa cụm ngắn)
+2. "joly-text-morphing": đổi cụm chữ mượt (cần "words": [string])
+3. "joly-velocity-morph": đổi cụm chữ nhanh, năng lượng cao (cần "words": [string])
+4. "joly-glitch-text": chữ glitch/cyberpunk (cần "text" hoặc "title")
+5. "joly-highlight-text": highlight từ khóa (cần "text" hoặc "title", optional "highlightWords")
+6. "joly-number-counter": bộ đếm số lớn (cần "value" hoặc "number", ví dụ "99%" hoặc "120k+")
+7. "joly-bento-grid": lưới card tóm tắt/dashboards (cần "items": [{title, value, label, icon}])
+8. "joly-code-block": code/terminal panel (cần "codeLines": [{text, type}] hoặc "code")
+9. "joly-phone-card": mockup điện thoại (cần "phone": {title, subtitle, badge, imageUrl})
+10. "joly-animated-beam": sơ đồ luồng/attack chain (cần "nodes": [{label, icon}])
+11. "joly-image-comparison": trước/sau, đúng/sai (cần "beforeImage", "afterImage" hoặc visuals image)
+12. "joly-image-sphere": gallery auto-rotate (cần "images": [url], chỉ dùng khi hình ảnh là trọng tâm)
+
 GỢI Ý (KHÔNG CỨNG NHẮC) để đa dạng hóa video:
 - Scene 1: ƯU TIÊN "hook-question" (bắt buộc theo quy tắc ở trên)
 - Scene 2–7: Tự chọn composition phù hợp nội dung, ưu tiên xoay vòng để không nhàm chán. Khuyến khích dùng thường xuyên:
@@ -62,6 +76,7 @@ GỢI Ý (KHÔNG CỨNG NHẮC) để đa dạng hóa video:
   - "comparison": khi có đối chiếu “A vs B”, “trước vs sau”, “hiểu đúng vs hiểu sai”
   - "code-diff": khi có “đổi trước/sau”, “bản cũ/bản mới”, hoặc minh họa thay đổi rõ ràng theo 2 cột
   - "ui-cards", "process-steps", "stats-cards-grid", "quote-attrib", "context-bars" (tùy ý)
+  - Dùng "joly-number-counter" cho số liệu nổi bật; "joly-bento-grid" cho 3-5 ý tóm tắt; "joly-code-block" cho nội dung tech/cybersecurity; "joly-animated-beam" cho luồng dữ liệu/quy trình; "joly-highlight-text", "joly-typewriter-text", "joly-text-morphing", "joly-velocity-morph", "joly-glitch-text" cho hook/từ khóa mạnh; "joly-phone-card" cho demo app; "joly-image-comparison" cho trước/sau.
   - "kinetic-title": chỉ dùng khi có 1 cụm từ khóa mạnh (không bắt buộc phải có ở Scene 6)
 - Scene 8: ƯU TIÊN "promo-card" hoặc "cta-card" (CTA + hỏi ý kiến người xem)
 
@@ -131,6 +146,7 @@ Mỗi scene cần đầy đủ:
 - bgColor: màu hex tối
 - accentColor: màu hex nổi bật
 - visuals: (optional) theo hướng dẫn
+- Với composition "joly-*": có thể thêm "items", "codeLines", "code", "phone", "nodes", "images", "beforeImage", "afterImage", "value", "number", "text", "words" tùy component như mô tả ở trên.
 
 TRẢ VỀ CHỈ JSON THUẦN TÚY, không giải thích thêm.`;
 
@@ -157,6 +173,7 @@ export async function generateStoryboard(content, title, outputDir) {
   // Add sequential IDs and start times
   let cursor = 0;
   storyboard.scenes = storyboard.scenes.map((scene, i) => {
+    const voiceText = enforceSceneOneTitleLead(i, scene);
     const s = {
       id: i + 1,
       startTime: cursor,
@@ -164,7 +181,7 @@ export async function generateStoryboard(content, title, outputDir) {
       type: i === 0 ? "intro" : i === 7 ? "outro" : "content",
       composition: scene.composition || getDefaultComposition(i),
       title: scene.title || `Scene ${i + 1}`,
-      voiceText: scene.voiceText || scene.title || "",
+      voiceText,
       subtext: scene.subtext || generateSubtext(scene.title, scene.voiceText),
       karaokeStyle: scene.karaokeStyle || "underline",
       bgColor: scene.bgColor || config.video.themes[i % config.video.themes.length].bg,
@@ -203,7 +220,26 @@ export async function generateStoryboard(content, title, outputDir) {
       bad: scene.bad || null,
       good: scene.good || null,
       badLabel: scene.badLabel || null,
-      goodLabel: scene.goodLabel || null
+      goodLabel: scene.goodLabel || null,
+      // Joly-inspired HTML component fields
+      joly: scene.joly || null,
+      items: scene.items || null,
+      code: scene.code || null,
+      codeLines: scene.codeLines || null,
+      codeTitle: scene.codeTitle || null,
+      language: scene.language || null,
+      phone: scene.phone || null,
+      nodes: scene.nodes || null,
+      images: scene.images || null,
+      imageUrl: scene.imageUrl || null,
+      before: scene.before || null,
+      after: scene.after || null,
+      beforeImage: scene.beforeImage || null,
+      afterImage: scene.afterImage || null,
+      value: scene.value || null,
+      number: scene.number || null,
+      text: scene.text || null,
+      texts: scene.texts || null
     };
     cursor += s.duration;
     return s;
@@ -221,6 +257,19 @@ export async function generateStoryboard(content, title, outputDir) {
   logger.info(`💾 Storyboard saved: ${outPath}`);
 
   return storyboard;
+}
+
+function enforceSceneOneTitleLead(index, scene) {
+  const title = String(scene.title || `Scene ${index + 1}`).trim();
+  const voiceText = String(scene.voiceText || title || "").trim();
+  if (index !== 0 || !title) return voiceText;
+
+  if (!voiceText) return title;
+  if (voiceText.toLocaleLowerCase("vi-VN").startsWith(title.toLocaleLowerCase("vi-VN"))) {
+    return voiceText;
+  }
+
+  return `${title} ${voiceText}`;
 }
 
 // Helper: generate subtext from title/voiceText
@@ -352,7 +401,7 @@ function generateFallbackStoryboard(title, content) {
     scenes: [
       {
         title: `Khi ai đó nói về ${title}, ai sẽ biết?`,
-        voiceText: `Câu hỏi gây tranh cãi: khi ai đó chia sẻ điều nhạy cảm về ${title}, liệu có ai khác được thông báo không? Đây là góc nhìn nhanh để bạn hiểu cơ chế và giới hạn.`,
+        voiceText: `Khi ai đó nói về ${title}, ai sẽ biết? Đây là câu hỏi gây tò mò nhất. Ngay sau đây là góc nhìn nhanh để hiểu cơ chế và giới hạn.`,
         subtext: title,
         karaokeStyle: "underline",
         composition: "hook-question",
@@ -517,7 +566,7 @@ function generateFallbackStoryboard(title, content) {
           commentPrompt: "Bình luận góc nhìn của bạn",
           logos: ["Claude", "Cursor", "ChatGPT", "Gemini", "Copilot", "Antigravity"]
         },
-        animation: "quote-fade",
+        animation: "particle-burst",
         emoji: "🎁",
         bgColor: "#0d0d1a",
         accentColor: "#8dd3ff",
@@ -553,12 +602,12 @@ function getDefaultComposition(index) {
 
   // Scenes 2–7: intentionally varied (favor infographic/comparison/code-diff more often)
   const comps = [
-    "ui-cards",
-    "infographic-chart",
+    "joly-bento-grid",
+    "joly-number-counter",
     "process-steps",
-    "comparison",
+    "joly-animated-beam",
     "quote-attrib",
-    "code-diff"
+    "joly-code-block"
   ];
   return comps[(index - 1) % comps.length] || "bullet-points";
 }

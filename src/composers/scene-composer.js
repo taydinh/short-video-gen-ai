@@ -5,12 +5,19 @@
 
 import { config } from "../config.js";
 import { generateVisualsHTML } from "./visual-generator.js";
+import {
+  buildJolyAnimationScript,
+  buildJolySceneHtml,
+  buildJolyStyles,
+  isJolyComposition,
+} from "./joly-widgets.js";
 
 const { width, height } = config.hyperframes;
 
 export function buildSceneHtml(scene, audioFile) {
+  const isJoly = isJolyComposition(scene.composition);
   const composerFn = COMPOSERS[scene.composition] || COMPOSERS["bullet-points"];
-  let content = composerFn(scene);
+  let content = isJoly ? buildJolySceneHtml(scene) : composerFn(scene);
 
   const injectBeforeLastClosingDiv = (html, injection) => {
     const needle = "</div>";
@@ -35,7 +42,7 @@ export function buildSceneHtml(scene, audioFile) {
   // để position: absolute; bottom: 0 hoạt động đúng relative to root
   const karaokeHTML = buildKaraokeSubtitleCSSHTML(scene);
 
-  const animationScript = buildAnimationScript(scene);
+  const animationScript = `${buildAnimationScript(scene)}\n${buildJolyAnimationScript(scene)}`;
 
   const sceneDuration = Number.isFinite(scene.duration) ? scene.duration : 0;
   const audioEl = audioFile
@@ -55,6 +62,7 @@ export function buildSceneHtml(scene, audioFile) {
     <style>
       ${buildBaseStyles(scene)}
       ${composerStyles(scene)}
+      ${buildJolyStyles(scene)}
       ${buildKaraokeStylesCSS(scene)}
     </style>
 
@@ -1145,12 +1153,21 @@ const COMPOSERS = {
     const comment = promo.commentPrompt || "Bình luận góc nhìn của bạn";
     const logos = Array.isArray(promo.logos) ? promo.logos : ["Claude", "Cursor", "ChatGPT", "Gemini", "Copilot", "Antigravity"];
     const pills = logos.slice(0, 6).map((x) => `<span class="ai-pill" style="font-size:18px; padding:10px 14px;">${escapeHtml(x)}</span>`).join("");
+    const hearts = Array.from({ length: 8 }, (_, i) => {
+      const x = 5 + (i % 4) * 25;
+      const y = 6 + Math.floor(i / 4) * 48;
+      return `<div class="heart" id="s${scene.id}-h${i}" style="left:${x}%;top:${y}%;">❤️</div>`;
+    }).join("");
+    let heroLogo = scene.logoSrc || promo.logoSrc || "assets/logos/logo.png";
+    if (heroLogo === "assets/logo.svg") heroLogo = "assets/logos/logo.png";
     return `
-    <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:220px;">
+    <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:150px;">
+      <div class="cta-hearts">${hearts}</div>
       <div class="ai-title ai-gradient-text" style="font-size:58px; font-weight:900; text-align:center; max-width: 960px;">
         ${escapeHtml(headline)}
       </div>
-      <div class="ai-card ai-card-pop ai-promo" style="margin-top:70px; width: 920px; max-width: 920px;">
+      <img src="${escapeHtml(heroLogo)}" id="s${scene.id}-emoji" style="width:250px; height:250px; border-radius:999px; object-fit:cover; border:4px solid rgba(255,255,255,0.16); box-shadow: 0 24px 80px rgba(0,0,0,0.35), 0 0 80px rgba(141,211,255,0.22); margin-top:30px;" onerror="this.src='https://ui-avatars.com/api/?name=AI&background=random'" />
+      <div class="ai-card ai-card-pop ai-promo" style="margin-top:34px; width: 920px; max-width: 920px;">
         <div class="ai-card-inner" style="padding:34px 34px;">
           <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-bottom:18px;">${pills}</div>
           <div class="ai-gradient-text" style="text-align:center; font-size:44px; font-weight:900; margin-top:14px;">${escapeHtml(badge)}</div>
@@ -1164,6 +1181,16 @@ const COMPOSERS = {
       </div>
       <div class="ai-card ai-comment" style="margin-top:34px; padding:14px 22px; border-radius:999px; opacity:0;">
         <div style="font-size:22px; font-weight:900; color: rgba(255,255,255,0.86);">💬 ${escapeHtml(comment)}</div>
+      </div>
+      <div class="tt-card ai-follow-card" style="position:relative; bottom:auto; left:auto; transform:none; margin-top:22px;">
+        <div class="tt-info">
+          <div class="tt-name">❤️ Thả tim Video</div>
+          <div class="tt-sub">➕ Follow để xem thêm</div>
+        </div>
+        <div class="tt-btn">
+          <span class="tt-btn-text tt-btn-follow">Follow</span>
+          <span class="tt-btn-text tt-btn-following">✓ Đã Follow</span>
+        </div>
       </div>
     </div>`;
   },
@@ -1241,6 +1268,111 @@ const COMPOSERS = {
       </div>
       <h2 class="scene-title" style="margin-top:40px;" id="s${scene.id}-title">${escapeHtml(scene.title)}</h2>
     </div>`,
+
+  "feng-shui-card": (scene) => {
+    const imageSrc = scene.imageSrc || scene.imageUrl || "assets/logos/logo.png";
+    const label = scene.label || "PHONG THUY 2026";
+    const title = scene.title || "";
+    const caption = scene.cardCaption || scene.subtext || "";
+    const chips = Array.isArray(scene.chips) ? scene.chips.slice(0, 3) : [];
+    const chipHtml = chips.map((chip) => `
+      <div class="fs-chip" style="
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        padding:10px 14px;
+        border-radius:999px;
+        background:rgba(255,255,255,0.08);
+        border:1px solid rgba(255,255,255,0.12);
+        color:rgba(255,255,255,0.82);
+        font-size:18px;
+        font-weight:800;
+        white-space:nowrap;
+      ">${escapeHtml(chip)}</div>
+    `).join("");
+
+    return `
+    <div class="canvas fs-card-scene" style="align-items:flex-start; justify-content:flex-start; padding:122px 70px 90px;">
+      <div class="bg-gradient"></div>
+      <div class="bg-grid" style="opacity:0.42;"></div>
+      <div class="fs-kicker" style="
+        position:relative;
+        z-index:2;
+        font-size:20px;
+        font-weight:900;
+        letter-spacing:0.18em;
+        color:${scene.accentColor};
+        text-transform:uppercase;
+        margin-bottom:18px;
+      ">${escapeHtml(label)}</div>
+      <h1 class="fs-title ai-title" id="s${scene.id}-title" style="
+        position:relative;
+        z-index:2;
+        font-size:56px;
+        line-height:1.08;
+        max-width:940px;
+        margin-bottom:28px;
+        color:${scene.textColor || "#ffffff"};
+      ">${escapeHtml(title)}</h1>
+      <div class="fs-image-card ai-card ai-card-pop" id="s${scene.id}-image-card" style="
+        position:relative;
+        z-index:2;
+        width:940px;
+        height:840px;
+        border-radius:34px;
+        padding:16px;
+        overflow:hidden;
+        background:linear-gradient(145deg, rgba(255,255,255,0.14), rgba(255,255,255,0.05));
+        border:1px solid rgba(255,255,255,0.18);
+        box-shadow:0 34px 90px rgba(0,0,0,0.34), 0 0 70px ${hexToRgba(scene.accentColor, 0.16)};
+      ">
+        <img src="${escapeHtml(imageSrc)}" alt="" style="
+          width:100%;
+          height:100%;
+          object-fit:cover;
+          border-radius:24px;
+          display:block;
+        " />
+        <div style="
+          position:absolute;
+          inset:16px;
+          border-radius:24px;
+          pointer-events:none;
+          background:linear-gradient(180deg, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.18) 100%);
+        "></div>
+        <div style="
+          position:absolute;
+          right:34px;
+          top:34px;
+          min-width:76px;
+          height:76px;
+          border-radius:24px;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          padding:0 18px;
+          font-size:38px;
+          background:rgba(10,12,24,0.70);
+          border:1px solid rgba(255,255,255,0.18);
+          backdrop-filter:blur(10px);
+        ">${escapeHtml(scene.emoji || "✦")}</div>
+      </div>
+      <div class="fs-content-card ai-card" id="s${scene.id}-content-card" style="
+        position:relative;
+        z-index:2;
+        width:940px;
+        margin-top:22px;
+        padding:24px 28px;
+        border-radius:26px;
+        background:rgba(10,12,24,0.70);
+        border:1px solid rgba(255,255,255,0.14);
+        box-shadow:0 18px 52px rgba(0,0,0,0.24);
+      ">
+        ${caption ? `<div style="font-size:30px; font-weight:850; line-height:1.26; color:rgba(255,255,255,0.92);">${escapeHtml(caption)}</div>` : ""}
+        ${chipHtml ? `<div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:18px;">${chipHtml}</div>` : ""}
+      </div>
+    </div>`;
+  },
 
   "cta-card": (scene) => {
     const hearts = Array.from({ length: 8 }, (_, i) => {
@@ -1493,6 +1625,14 @@ function buildAnimationScript(scene) {
         if (follow) tl.to(follow, { opacity: 0, duration: 0.1 }, ttBase + 1.15);
         if (following) tl.to(following, { opacity: 1, duration: 0.1 }, ttBase + 1.2);
         tl.to(ttCard, { scale: 1.05, duration: ${Math.max(0.5, dur - 3)}, ease: "power1.inOut" }, ttBase + 1.5);
+      }
+      const promoCard = document.querySelector('[data-composition-id="${cid}"] .ai-promo');
+      if (promoCard) {
+        tl.fromTo(promoCard, { y: 70, opacity: 0, scale: 0.96 }, { y: 0, opacity: 1, scale: 1, duration: 0.72, ease: "power3.out" }, 0.95);
+      }
+      const comment = document.querySelector('[data-composition-id="${cid}"] .ai-comment');
+      if (comment) {
+        tl.fromTo(comment, { y: 34, opacity: 0 }, { y: 0, opacity: 1, duration: 0.48, ease: "power2.out" }, 1.55);
       }`,
 
     "pulse-glow": () => `
@@ -1509,6 +1649,19 @@ function buildAnimationScript(scene) {
       if (statNum) tl.from(statNum, { scale: 0, opacity: 0, duration: 0.6, ease: "back.out(2)" }, 0.2);
       const statLabel = document.querySelector('[data-composition-id="${cid}"] #${s}-label');
       if (statLabel) tl.from(statLabel, { y: 40, opacity: 0, duration: 0.5, ease: "power3.out" }, 0.7);`,
+
+    "image-card-rise": () => `
+      const tl = gsap.timeline({ paused: true });
+      const kicker = document.querySelector('[data-composition-id="${cid}"] .fs-kicker');
+      const title = document.querySelector('[data-composition-id="${cid}"] #${s}-title');
+      const imageCard = document.querySelector('[data-composition-id="${cid}"] #${s}-image-card');
+      const contentCard = document.querySelector('[data-composition-id="${cid}"] #${s}-content-card');
+      const chips = document.querySelectorAll('[data-composition-id="${cid}"] .fs-chip');
+      if (kicker) tl.fromTo(kicker, { y: 18, opacity: 0 }, { y: 0, opacity: 1, duration: 0.46, ease: "power2.out" }, 0.08);
+      if (title) tl.fromTo(title, { y: 34, opacity: 0 }, { y: 0, opacity: 1, duration: 0.62, ease: "power3.out" }, 0.18);
+      if (imageCard) tl.fromTo(imageCard, { y: 62, scale: 0.965, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: 0.78, ease: "power3.out" }, 0.42);
+      if (contentCard) tl.fromTo(contentCard, { y: 32, opacity: 0 }, { y: 0, opacity: 1, duration: 0.56, ease: "power2.out" }, 0.86);
+      if (chips.length) tl.fromTo(chips, { y: 14, opacity: 0 }, { y: 0, opacity: 1, duration: 0.34, stagger: 0.08, ease: "power2.out" }, 1.08);`,
 
     "infographic-chart": () => `
       const tl = gsap.timeline({ paused: true });
@@ -1640,6 +1793,7 @@ function buildAnimationScript(scene) {
     "comparison": "comparison",
     "code-diff": "code-diff",
     "countdown": "pulse-glow",
+    "feng-shui-card": "image-card-rise",
     "cta-card": "particle-burst",
 
     // AI-news compositions
@@ -1650,7 +1804,7 @@ function buildAnimationScript(scene) {
     "stats-cards-grid": "reveal-stagger",
     "kinetic-title": "kinetic-slam",
     "context-bars": "reveal-stagger",
-    "promo-card": "quote-fade"
+    "promo-card": "particle-burst"
   };
 
   const forcedAnim = forceAnimMap[scene.composition];
