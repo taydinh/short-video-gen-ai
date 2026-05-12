@@ -10,7 +10,7 @@
  *  7. Merge audio tracks into final MP4
  */
 
-import { existsSync } from "fs";
+import { existsSync, readdirSync } from "fs";
 import path from "path";
 import { logger } from "./utils/logger.js";
 import { readInput } from "./steps/01-read-input.js";
@@ -113,9 +113,8 @@ export async function pipeline(input) {
 
 // Helper: Find existing MP4 in output directory
 function findExistingMp4(outputDir) {
-  const fs = require("fs");
   try {
-    const files = fs.readdirSync(outputDir);
+    const files = readdirSync(outputDir);
     const mp4File = files.find(f => f.endsWith(".mp4") && !f.includes("-with-subs"));
     if (mp4File) {
       return path.join(outputDir, mp4File);
@@ -123,7 +122,7 @@ function findExistingMp4(outputDir) {
 
     const hyperframesDir = path.join(outputDir, "hyperframes");
     if (existsSync(hyperframesDir)) {
-      const hyperFiles = fs.readdirSync(hyperframesDir);
+      const hyperFiles = readdirSync(hyperframesDir);
       const hyperMp4 = hyperFiles.find(f => f.endsWith(".mp4"));
       if (hyperMp4) {
         return path.join(hyperframesDir, hyperMp4);

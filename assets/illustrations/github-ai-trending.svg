@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#0a0a1a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="55%" cy="32%" r="60%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.25"/>
+      <stop offset="0.55" stop-color="#a78bfa" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8dd3ff" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="neon" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feColorMatrix
+        in="b"
+        type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.85 0"
+        result="c"/>
+      <feMerge>
+        <feMergeNode in="c"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect width="1080" height="1920" fill="url(#glow)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.12">
+    <path d="M90 0V1920M210 0V1920M330 0V1920M450 0V1920M570 0V1920M690 0V1920M810 0V1920M930 0V1920" stroke="#8dd3ff" stroke-width="2"/>
+    <path d="M0 160H1080M0 320H1080M0 480H1080M0 640H1080M0 800H1080M0 960H1080M0 1120H1080M0 1280H1080M0 1440H1080M0 1600H1080M0 1760H1080" stroke="#a78bfa" stroke-width="2"/>
+  </g>
+
+  <!-- repo cards -->
+  <g filter="url(#softShadow)">
+    <g transform="translate(120 560) rotate(-6)">
+      <rect x="0" y="0" width="820" height="220" rx="28" fill="#0f172a" stroke="url(#stroke)" stroke-width="3" opacity="0.95"/>
+      <rect x="24" y="28" width="68" height="68" rx="16" fill="#111827" stroke="#22d3ee" stroke-width="2"/>
+      <path d="M44 62h28M44 78h40M44 94h34" stroke="#8dd3ff" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+      <text x="120" y="78" font-family="Inter, Segoe UI, Arial" font-size="38" fill="#ffffff" font-weight="800">repo / AI-agent</text>
+      <text x="120" y="126" font-family="Inter, Segoe UI, Arial" font-size="26" fill="#cbd5e1" font-weight="600">star velocity ↑ 28 ngày</text>
+      <g transform="translate(650 46)" filter="url(#neon)">
+        <rect x="0" y="0" width="150" height="56" rx="18" fill="#0b1220" stroke="#22d3ee" stroke-width="2"/>
+        <text x="75" y="38" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="26" fill="#22d3ee" font-weight="800">+2k</text>
+      </g>
+    </g>
+
+    <g transform="translate(160 820) rotate(3)">
+      <rect x="0" y="0" width="780" height="210" rx="28" fill="#0b1220" stroke="url(#stroke)" stroke-width="3" opacity="0.95"/>
+      <circle cx="64" cy="70" r="34" fill="#111827" stroke="#a78bfa" stroke-width="2"/>
+      <path d="M48 70h32M56 54l16 16-16 16" stroke="#a78bfa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="120" y="82" font-family="Inter, Segoe UI, Arial" font-size="34" fill="#ffffff" font-weight="800">toolchain / MCP</text>
+      <text x="120" y="132" font-family="Inter, Segoe UI, Arial" font-size="24" fill="#cbd5e1" font-weight="600">kết nối repo → workflow</text>
+      <g transform="translate(610 52)" filter="url(#neon)">
+        <rect x="0" y="0" width="150" height="56" rx="18" fill="#0b1220" stroke="#a78bfa" stroke-width="2"/>
+        <text x="75" y="38" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="26" fill="#a78bfa" font-weight="800">HOT</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- AI chip -->
+  <g transform="translate(170 1260)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="740" height="420" rx="42" fill="#0f172a" stroke="url(#stroke)" stroke-width="3" opacity="0.96"/>
+    <g transform="translate(86 84)" filter="url(#neon)">
+      <rect x="0" y="0" width="270" height="270" rx="42" fill="#0b1220" stroke="#fbbf24" stroke-width="3"/>
+      <text x="135" y="158" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="86" fill="#fbbf24" font-weight="900">AI</text>
+      <path d="M40 226h190" stroke="#8dd3ff" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+      <path d="M52 246h166" stroke="#a78bfa" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+    </g>
+    <text x="390" y="160" font-family="Inter, Segoe UI, Arial" font-size="30" fill="#ffffff" font-weight="900">GitHub Trending</text>
+    <text x="390" y="210" font-family="Inter, Segoe UI, Arial" font-size="24" fill="#cbd5e1" font-weight="600">Repo đang tăng tốc</text>
+    <text x="390" y="252" font-family="Inter, Segoe UI, Arial" font-size="24" fill="#cbd5e1" font-weight="600">trong 28 ngày gần nhất</text>
+
+    <!-- trending arrow -->
+    <g transform="translate(410 292)" filter="url(#neon)">
+      <path d="M0 150 L80 90 L136 122 L230 26" fill="none" stroke="#22d3ee" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M230 26 L230 92 L296 26 Z" fill="#22d3ee" opacity="0.95"/>
+    </g>
+  </g>
+
+  <!-- vignette -->
+  <rect width="1080" height="1920" fill="none" stroke="#000" stroke-opacity="0.35" stroke-width="140"/>
+</svg>

@@ -105,9 +105,13 @@ output/
         │   ├── scene-1.html      ← HTML từng scene (sửa được)
         │   ├── scene-2.html
         │   └── ...
-        └── assets/
-            ├── scene-1.wav
-            └── ...
+         └── assets/
+             ├── scene-1.wav
+             ├── bg-broll.mp4         ← (optional) video nền blur/dim cho template AI-news
+             ├── logos/               ← (optional) logo pills cho promo-card
+             │   ├── *.png
+             │   └── ...
+             └── ...
 ```
 
 ---

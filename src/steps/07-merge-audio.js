@@ -4,7 +4,7 @@
  */
 
 import { execSync } from "child_process";
-import { existsSync, copyFileSync, writeFileSync } from "fs";
+import { existsSync, copyFileSync, renameSync, unlinkSync } from "fs";
 import path from "path";
 import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
@@ -12,7 +12,9 @@ import { logger } from "../utils/logger.js";
 export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir, slug) {
   const finalName = `${slug}.mp4`;
   const finalPath = path.join(outputDir, finalName);
-  const nullDevice = process.platform === "win32" ? "nul" : "/dev/null";
+  const tmpFinalPath = renderedMp4 === finalPath
+    ? path.join(outputDir, `${slug}-with-audio.tmp.mp4`)
+    : finalPath;
 
   // Filter scenes that have audio
   const scenesWithAudio = storyboard.scenes.filter((s) => {
@@ -72,9 +74,14 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
     logger.info(`  Merging audio into video...`);
 
     execSync(
-      `ffmpeg -i "${renderedMp4}" -i "${mixedAudioPath}" -c:v copy -c:a aac -b:a 192k -map 0:v:0 -map 1:a:0 -shortest "${finalPath}" -y`,
+      `ffmpeg -i "${renderedMp4}" -i "${mixedAudioPath}" -c:v copy -c:a aac -b:a 192k -map 0:v:0 -map 1:a:0 -shortest "${tmpFinalPath}" -y`,
       { timeout: 120000, stdio: 'pipe' }
     );
+
+    if (tmpFinalPath !== finalPath) {
+      try { unlinkSync(finalPath); } catch { /* ignore */ }
+      renameSync(tmpFinalPath, finalPath);
+    }
 
     logger.info(`  ✅ Final video with audio: ${finalPath}`);
 

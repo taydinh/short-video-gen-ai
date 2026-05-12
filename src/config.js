@@ -42,10 +42,24 @@ export const config = {
     ratio: "9:16",
     bgColor: "#0d0d1a",
     fontFamily: "Inter",
+    theme: "ai-news",
+
+    // Background layer (rendered in root index.html)
+    background: {
+      // Default to gradient to avoid warnings when bg-broll.mp4 isn't provided.
+      mode: "gradient", // "video" | "gradient"
+      src: "assets/bg-broll.mp4",
+      blurPx: 10,
+      dimOpacity: 0.55,
+      overlay:
+        "linear-gradient(180deg, rgba(6,10,18,0.65) 0%, rgba(6,10,18,0.50) 45%, rgba(6,10,18,0.75) 100%)",
+      fallbackGradient:
+        "linear-gradient(135deg, rgba(10,16,28,1) 0%, rgba(11,20,36,1) 45%, rgba(6,10,18,1) 100%)",
+    },
 
     // Karaoke subtitle from voiceText (HTML/CSS overlay - KHÔNG cần SRT)
     karaokeSubtitle: {
-      enabled: true,
+      enabled: false,
       style: {
         fontSize: 42,
         fontFamily: "Inter",
@@ -62,7 +76,7 @@ export const config = {
 
     // Scene caption (subtext) configuration - hiển thị trên scene
     sceneCaption: {
-      enabled: true,
+      enabled: false,
       style: {
         fontSize: 32,
         fontWeight: 600,
@@ -71,6 +85,27 @@ export const config = {
         backgroundColor: "rgba(0,0,0,0.5)",
         borderRadius: 50,
         padding: "10px 24px",
+      },
+    },
+
+    // Root-level caption (phrase-based) - giống video mẫu
+    phraseCaption: {
+      enabled: true,
+      style: {
+        fontSize: 46,
+        fontWeight: 800,
+        letterSpacing: "0.01em",
+        y: 0.76, // 0..1 of height
+        color: "#ffffff",
+        accentColor: "#8dd3ff",
+        shadow: "0 10px 30px rgba(0,0,0,0.45)",
+      },
+      segment: {
+        minWords: 2,
+        maxWords: 6,
+        fadeIn: 0.12,
+        hold: 0.55,
+        fadeOut: 0.18,
       },
     },
 

@@ -4,7 +4,7 @@
  */
 
 import { execSync, spawn } from "child_process";
-import { existsSync, readdirSync } from "fs";
+import { existsSync, readdirSync, statSync } from "fs";
 import path from "path";
 import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
@@ -14,16 +14,29 @@ export async function renderVideo(projectDir, outputDir) {
   logger.info(`  Project: ${projectDir}`);
 
   return new Promise((resolve, reject) => {
-    const proc = spawn(
-      "npx",
-      [`--yes`, `hyperframes@${config.hyperframes.version}`, `render`],
-      {
-        cwd: projectDir,
-        stdio: ["ignore", "pipe", "pipe"],
-        env: { ...process.env, CI: "1" },
-        shell: true,
-      }
-    );
+    const isWin = process.platform === "win32";
+    const ver = config.hyperframes.version;
+
+    // On Windows, `npx` is typically a PowerShell script (`npx.ps1`) which cannot be spawned
+    // directly without a shell. Use PowerShell explicitly to avoid `shell: true` and DEP0190.
+    const cmd = isWin ? "powershell.exe" : "npx";
+    const args = isWin
+      ? [
+          "-NoProfile",
+          "-NonInteractive",
+          "-ExecutionPolicy",
+          "Bypass",
+          "-Command",
+          `npx --yes hyperframes@${ver} render`,
+        ]
+      : [`--yes`, `hyperframes@${ver}`, `render`];
+
+    const proc = spawn(cmd, args, {
+      cwd: projectDir,
+      stdio: ["ignore", "pipe", "pipe"],
+      env: { ...process.env, CI: "1" },
+      shell: false,
+    });
 
     let stdout = "";
     let stderr = "";
@@ -76,14 +89,23 @@ function findRenderedMp4(dir) {
   if (!existsSync(dir)) return null;
   try {
     const files = readdirSync(dir, { recursive: true });
+    let best = null;
+    let bestMtime = -1;
+
     for (const f of files) {
+      if (typeof f !== "string" || !f.endsWith(".mp4")) continue;
       const full = path.join(dir, f);
-      if (typeof f === "string" && f.endsWith(".mp4") && existsSync(full)) {
-        return full;
+      if (!existsSync(full)) continue;
+
+      const mtime = statSync(full).mtimeMs;
+      if (mtime > bestMtime) {
+        bestMtime = mtime;
+        best = full;
       }
     }
+
+    return best;
   } catch {
     return null;
   }
-  return null;
 }

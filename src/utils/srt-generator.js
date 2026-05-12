@@ -3,7 +3,7 @@
  * Tạo file .srt và burn subtitle trực tiếp vào video
  */
 
-import { writeFileSync, existsSync, readFileSync } from "fs";
+import { writeFileSync, existsSync, readFileSync, statSync, unlinkSync } from "fs";
 import path from "path";
 import { execSync } from "child_process";
 import { logger } from "./logger.js";
@@ -97,7 +97,7 @@ export async function burnSubtitlesToVideo(videoPath, srtPath, outputPath) {
         });
 
         if (existsSync(normalizedOutputPath)) {
-            const stats = require('fs').statSync(normalizedOutputPath);
+            const stats = statSync(normalizedOutputPath);
             logger.info(`  ✅ Subtitles burned successfully! (${(stats.size / 1024 / 1024).toFixed(2)} MB)`);
             return normalizedOutputPath;
         }
@@ -128,7 +128,7 @@ export async function burnSubtitlesToVideo(videoPath, srtPath, outputPath) {
         );
 
         // Cleanup temp file
-        try { require('fs').unlinkSync(simpleSrtPath); } catch (e) { }
+        try { unlinkSync(simpleSrtPath); } catch (e) { }
 
         if (existsSync(normalizedOutputPath)) {
             logger.info(`  ✅ Subtitles burned successfully (method 2)!`);
@@ -157,7 +157,7 @@ export async function burnSubtitlesToVideo(videoPath, srtPath, outputPath) {
             { timeout: 120000, stdio: 'pipe' }
         );
 
-        try { require('fs').unlinkSync(simpleSrtPath); } catch (e) { }
+        try { unlinkSync(simpleSrtPath); } catch (e) { }
 
         if (existsSync(normalizedOutputPath)) {
             logger.info(`  ✅ Subtitles burned successfully (method 3)!`);

@@ -7,7 +7,7 @@
  *   3. Silent audio (last resort)
  */
 
-import { writeFileSync, existsSync, mkdirSync, unlinkSync } from "fs";
+import { writeFileSync, readFileSync, existsSync, mkdirSync, unlinkSync } from "fs";
 import path from "path";
 import { execSync } from "child_process";
 import { config } from "../config.js";
@@ -19,6 +19,26 @@ export async function generateTTS(storyboard, outputDir) {
   if (!existsSync(audioDir)) mkdirSync(audioDir, { recursive: true });
 
   const results = [];
+
+  let canUseVieNeu = !!config.vieneu.enabled;
+  if (canUseVieNeu) {
+    try {
+      const probePath = path.join(audioDir, `_vieneu_probe.${config.vieneu.outputFormat || "mp3"}`);
+      await callVieNeuTTS("Xin chào", probePath);
+      if (existsSync(probePath) && (await getAudioDuration(probePath)) > 0.2) {
+        try { unlinkSync(probePath); } catch { /* ignore */ }
+        canUseVieNeu = true;
+      } else {
+        canUseVieNeu = false;
+      }
+    } catch {
+      canUseVieNeu = false;
+    }
+
+    if (!canUseVieNeu) {
+      logger.warn(`  ⚠️ VieNeu TTS unavailable at ${config.vieneu.apiUrl}. Skipping VieNeu and using Google TTS.`);
+    }
+  }
 
   for (const scene of storyboard.scenes) {
     const text = scene.voiceText;
@@ -36,7 +56,7 @@ export async function generateTTS(storyboard, outputDir) {
     let success = false;
 
     // Try VieNeu TTS first
-    if (config.vieneu.enabled) {
+    if (canUseVieNeu) {
       try {
         logger.info(`     Trying VieNeu TTS...`);
         const ttsResult = await callVieNeuTTS(text, audioPath);
@@ -231,63 +251,144 @@ async function callGoogleTTS(text, outputPath) {
   // Google Translate TTS endpoint
   const url = "https://translate.google.com/translate_tts";
 
-  // Limit text length (Google TTS has limits)
-  const truncatedText = text.slice(0, 200);
+  // Google Translate TTS has a per-request text limit (~200 chars for this endpoint).
+  // If we truncate, the voice will read missing content; instead we chunk & concat.
+  const maxChars = config.googleTTS?.maxCharsPerRequest || 200;
+  const chunks = splitTextByMaxChars(text, maxChars);
+  if (chunks.length === 0) throw new Error("Google TTS: empty text");
 
-  const params = new URLSearchParams({
-    ie: "UTF-8",
-    q: truncatedText,
-    tl: config.googleTTS.lang || "vi",
-    client: "tw-ob",
-    ttsspeed: config.googleTTS.slow ? "0.5" : "1",  // Note: Google only supports slow or normal
-  });
+  const requestAudio = async (chunkText) => {
+    const params = new URLSearchParams({
+      ie: "UTF-8",
+      q: chunkText,
+      tl: config.googleTTS.lang || "vi",
+      client: "tw-ob",
+      ttsspeed: config.googleTTS.slow ? "0.5" : "1", // Note: Google only supports slow or normal
+    });
 
-  const response = await fetch(`${url}?${params.toString()}`, {
-    method: "GET",
-    headers: {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      "Referer": "https://translate.google.com/",
-    },
-    signal: AbortSignal.timeout(30000),
-  });
+    const response = await fetch(`${url}?${params.toString()}`, {
+      method: "GET",
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Referer": "https://translate.google.com/",
+      },
+      signal: AbortSignal.timeout(30000),
+    });
 
-  if (!response.ok) {
-    throw new Error(`Google TTS HTTP ${response.status}`);
-  }
+    if (!response.ok) {
+      throw new Error(`Google TTS HTTP ${response.status}`);
+    }
 
-  const audioBuffer = Buffer.from(await response.arrayBuffer());
+    const audioBuffer = Buffer.from(await response.arrayBuffer());
 
-  if (audioBuffer.length < 100) {
-    throw new Error("Google TTS returned empty audio");
-  }
+    if (audioBuffer.length < 100) {
+      throw new Error("Google TTS returned empty audio");
+    }
 
-  // If output path is already mp3, just write it
-  if (outputPath.endsWith(".mp3")) {
-    writeFileSync(outputPath, audioBuffer);
-    return outputPath;
-  }
+    return audioBuffer;
+  };
 
-  // Otherwise convert MP3 to WAV using ffmpeg
-  const tempMp3 = outputPath.replace(/\.wav$/, "_temp.mp3");
-  writeFileSync(tempMp3, audioBuffer);
-
+  // Fetch audio for each chunk and concatenate using ffmpeg (mp3 concat).
+  const tmpDir = path.dirname(outputPath);
+  const baseName = path.basename(outputPath).replace(/\.(mp3|wav)$/i, "");
+  const tempParts = [];
   try {
-    // Try to convert to WAV with ffmpeg
-    const nullDevice = process.platform === "win32" ? "nul" : "/dev/null";
-    execSync(
-      `ffmpeg -i "${tempMp3}" -ar 44100 -ac 2 "${outputPath}" -y`,
-      { timeout: 15000, stdio: 'pipe' }
-    );
-    // Clean up temp file
-    try { unlinkSync(tempMp3); } catch { }
-    return outputPath;
-  } catch {
-    // If ffmpeg fails, use the MP3 as is (rename to .mp3)
-    const mp3Path = outputPath.replace(/\.wav$/, ".mp3");
-    writeFileSync(mp3Path, audioBuffer);
-    // Update outputPath to mp3
-    return mp3Path;
+    for (let idx = 0; idx < chunks.length; idx++) {
+      const chunk = chunks[idx];
+      const partPath = path.join(tmpDir, `${baseName}__gtts_part${String(idx + 1).padStart(2, "0")}.mp3`);
+      const buf = await requestAudio(chunk);
+      writeFileSync(partPath, buf);
+      tempParts.push(partPath);
+    }
+
+    const combinedMp3 = outputPath.endsWith(".mp3")
+      ? outputPath
+      : outputPath.replace(/\.wav$/i, "_combined.mp3");
+
+    if (tempParts.length === 1) {
+      // Fast path: single chunk
+      if (tempParts[0] !== combinedMp3) {
+        writeFileSync(combinedMp3, readFileSync(tempParts[0]));
+      }
+    } else {
+      const listPath = path.join(tmpDir, `${baseName}__gtts_concat.txt`);
+      const listBody = tempParts.map(p => `file '${p.replace(/'/g, "'\\''")}'`).join("\n");
+      writeFileSync(listPath, listBody);
+      execSync(
+        `ffmpeg -f concat -safe 0 -i "${listPath}" -c copy "${combinedMp3}" -y`,
+        { timeout: 30000, stdio: "pipe" }
+      );
+      try { unlinkSync(listPath); } catch { }
+    }
+
+    // If output path is already mp3, we're done
+    if (outputPath.endsWith(".mp3")) return combinedMp3;
+
+    // Otherwise convert MP3 to WAV using ffmpeg
+    try {
+      execSync(
+        `ffmpeg -i "${combinedMp3}" -ar 44100 -ac 2 "${outputPath}" -y`,
+        { timeout: 15000, stdio: "pipe" }
+      );
+      return outputPath;
+    } catch {
+      // If ffmpeg fails, use the MP3 as is (rename to .mp3)
+      const mp3Path = outputPath.replace(/\.wav$/i, ".mp3");
+      try {
+        writeFileSync(mp3Path, readFileSync(combinedMp3));
+      } catch {
+        // As a last resort, just return the combined mp3 path we have
+        return combinedMp3;
+      }
+      return mp3Path;
+    }
+  } finally {
+    // Clean up part files
+    for (const p of tempParts) {
+      try { unlinkSync(p); } catch { }
+    }
   }
+}
+
+function splitTextByMaxChars(text, maxChars) {
+  const clean = String(text || "").trim().replace(/\s+/g, " ");
+  if (!clean) return [];
+  if (clean.length <= maxChars) return [clean];
+
+  // Prefer splitting on sentence-ish boundaries first.
+  const hardParts = clean.split(/(?<=[.!?…]|[。！？])\s+/u);
+  const out = [];
+  for (const part of hardParts) {
+    const p = part.trim();
+    if (!p) continue;
+    if (p.length <= maxChars) {
+      out.push(p);
+      continue;
+    }
+
+    // Fallback: pack words into maxChars buckets.
+    const words = p.split(/\s+/);
+    let cur = "";
+    for (const w of words) {
+      const next = cur ? `${cur} ${w}` : w;
+      if (next.length <= maxChars) {
+        cur = next;
+      } else {
+        if (cur) out.push(cur);
+        // If a single token exceeds maxChars, hard-slice it.
+        if (w.length > maxChars) {
+          for (let i = 0; i < w.length; i += maxChars) out.push(w.slice(i, i + maxChars));
+          cur = "";
+        } else {
+          cur = w;
+        }
+      }
+    }
+    if (cur) out.push(cur);
+  }
+
+  // Final cleanup
+  return out.map(s => s.trim()).filter(Boolean);
 }
 
 // ── Create silent WAV placeholder (last resort) ───────────────────────────────

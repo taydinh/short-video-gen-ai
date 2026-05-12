@@ -1,0 +1,183 @@
+{
+  "title": "Top repo AI hot nhất tháng 5/2026",
+  "slug": "top-repo-ai-hot-may-2026",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "hook-question",
+      "label": "CẬP NHẬT GITHUB AI",
+      "title": "Repo AI nào vừa +2.000⭐ trong 28 ngày?",
+      "highlightWords": ["+2.000⭐", "28", "ngày"],
+      "kicker": "Nguồn: OSSInsight Trending AI • Khung: 28 ngày • Mốc: 12/05/2026",
+      "visuals": [
+        {
+          "type": "image",
+          "source": "local",
+          "imageUrl": "assets/illustrations/github-ai-trending.svg",
+          "position": "background",
+          "opacity": 1,
+          "overlayColor": "linear-gradient(0deg, rgba(0,0,0,0.62), rgba(0,0,0,0.18))",
+          "motionType": "ken-burns",
+          "motionDuration": 5.5,
+          "motionScaleFrom": 1.02,
+          "motionScaleTo": 1.12,
+          "motionTranslateFrom": "0px, 8px",
+          "motionTranslateTo": "-18px, -10px"
+        },
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "position": "background",
+          "opacity": 0.45,
+          "colors": ["#8dd3ff", "#a78bfa", "#22d3ee", "#fbbf24"]
+        }
+      ],
+      "voiceText": "Trong tháng 5/2026, có một repo AI vừa tăng hơn 2.000 sao chỉ trong 28 ngày. Cùng mình xem top repo nào đang tăng tốc mạnh nhất, cập nhật đến 12/05/2026.",
+      "subtext": "Top repo AI đang tăng nhanh",
+      "karaokeStyle": "underline",
+      "duration": 5,
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "emoji": "🔥"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "ui-cards",
+      "title": "Top 3 tăng trưởng 28 ngày",
+      "cards": [
+        { "title": "anomalyco/opencode", "subtitle": "+2,086 stars", "icon": "🥇" },
+        { "title": "anthropics/claude-code", "subtitle": "+1,221 stars", "icon": "🥈" },
+        { "title": "openai/codex", "subtitle": "+940 stars", "icon": "🥉" }
+      ],
+      "voiceText": "Nhóm tăng trưởng nhanh nhất 28 ngày qua gồm opencode, claude-code và codex. Đây là nhóm coding agent đang hút sự chú ý rất lớn.",
+      "subtext": "Nhóm coding agent đang bùng nổ",
+      "karaokeStyle": "underline",
+      "duration": 6,
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "card-slide-in-right",
+      "emoji": "⚡"
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "process-steps",
+      "title": "4 cụm chủ đề đang nóng",
+      "steps": [
+        { "title": "Coding agent", "desc": "Tăng tốc mạnh về sao (stars)", "state": "done", "icon": "✓" },
+        { "title": "Suy luận (inference)", "desc": "llama.cpp, ollama vẫn rất mạnh", "state": "done", "icon": "✓" },
+        { "title": "Máy chủ MCP", "desc": "context7 và github-mcp-server nổi bật", "state": "done", "icon": "✓" },
+        { "title": "RAG + công cụ LLM", "desc": "ragflow và dify tiếp tục mở rộng", "state": "active", "icon": "👤" }
+      ],
+      "voiceText": "Nếu nhìn theo cụm chủ đề, thì coding agent, suy luận (inference), MCP và RAG đang là bốn nhóm được quan tâm nhiều nhất trong hệ sinh thái AI mã nguồn mở.",
+      "subtext": "4 cụm đang dẫn đầu xu hướng",
+      "karaokeStyle": "underline",
+      "duration": 7,
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "reveal-stagger",
+      "emoji": "🧭"
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Tăng trưởng sao trên GitHub cho thấy dấu hiệu dịch chuyển: từ chatbot đơn lẻ sang agent và hệ sinh thái toolchain.",
+      "quoteAuthor": "Nhận xét tổng hợp",
+      "quoteRole": "Từ dữ liệu trending AI tháng 5/2026",
+      "title": "Góc nhìn nhanh",
+      "voiceText": "Xu hướng rõ nhất là AI không chỉ là model, mà là khả năng tự động hóa công việc lập trình thông qua agent, MCP và các công cụ kết nối.",
+      "subtext": "Agent + toolchain đang dẫn đầu",
+      "karaokeStyle": "underline",
+      "duration": 6,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "emoji": "💬"
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Top repo theo tổng stars",
+      "statsCards": [
+        { "icon": "🤖", "value": "175k+", "label": "Significant-Gravitas/AutoGPT" },
+        { "icon": "🦙", "value": "147k+", "label": "ollama/ollama" },
+        { "icon": "🔗", "value": "116k+", "label": "langchain-ai/langchain" },
+        { "icon": "🧩", "value": "111k+", "label": "langgenius/dify" }
+      ],
+      "voiceText": "Nếu xếp theo tổng stars, AutoGPT, Ollama, LangChain và Dify đang nằm trong nhóm đầu bảng, phản ánh nhu cầu thực chiến của cộng đồng dev.",
+      "subtext": "Bảng xếp hạng theo tổng stars",
+      "karaokeStyle": "underline",
+      "duration": 6,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "reveal-stagger",
+      "emoji": "📊"
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "kinetic-title",
+      "title": "CODING AGENT LÊN NGÔI",
+      "words": ["CODING", "AGENT", "LÊN", "NGÔI"],
+      "faintWords": "AGENT MCP TOOLS",
+      "voiceText": "Trong tháng 5 năm 2026, từ khóa hot nhất vẫn là coding agent: các dự án tích hợp MCP tools, auto-review và chạy task theo workflow đang bùng nổ sao chỉ sau vài tuần, vì chúng giúp dev ship nhanh hơn rõ rệt.",
+      "subtext": "Agent + MCP tools bùng nổ",
+      "karaokeStyle": "underline",
+      "duration": 6,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "kinetic-slam",
+      "emoji": "🚀",
+      "terminalTitle": "agent-trending (May 2026)",
+      "terminalLines": [
+        { "type": "prompt", "text": "ossinsight trending --topic \"coding agent\" --window 28d" },
+        { "type": "output", "text": "> spike detected: new repos star velocity ↑↑" },
+        { "type": "output", "text": "> keywords: MCP tools • workflows • auto PR review" },
+        { "type": "output", "text": "> takeaway: ship faster, less context switching" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Bối cảnh số liệu",
+      "rows": [
+        { "icon": "📅", "label": "Mốc cập nhật", "value": "12/05/2026" },
+        { "icon": "📈", "label": "Khung đánh giá", "value": "Tăng trưởng 28 ngày" },
+        { "icon": "🌐", "label": "Nguồn", "value": "OSSInsight Trending AI" }
+      ],
+      "voiceText": "Bạn cần lưu ý: đây là snapshot theo ngày 12 tháng 5 năm 2026 và được xếp hạng theo “nhiệt” tăng trưởng gần đây, không phải dự báo cả năm.",
+      "subtext": "Số liệu là snapshot theo thời điểm",
+      "karaokeStyle": "underline",
+      "duration": 6,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "reveal-stagger",
+      "emoji": "🧷"
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Follow TikTok để nhận bản cập nhật mỗi tuần",
+      "imageSrc": "assets/logos/logo.png",
+      "voiceText": "Nếu bạn muốn, follow TikTok để mình cập nhật top repo AI mỗi tuần theo từng nhánh như coding agent, RAG, MCP và suy luận, giúp bạn theo dõi nhanh hơn.",
+      "subtext": "Follow để xem phần tiếp theo",
+      "karaokeStyle": "underline",
+      "duration": 6,
+      "bgColor": "#0d0d1a",
+      "accentColor": "#8dd3ff",
+      "textColor": "#ffffff",
+      "animation": "particle-burst"
+    }
+  ]
+}

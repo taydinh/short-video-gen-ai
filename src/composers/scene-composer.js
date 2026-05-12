@@ -12,16 +12,23 @@ export function buildSceneHtml(scene, audioFile) {
   const composerFn = COMPOSERS[scene.composition] || COMPOSERS["bullet-points"];
   let content = composerFn(scene);
 
+  const injectBeforeLastClosingDiv = (html, injection) => {
+    const needle = "</div>";
+    const idx = html.lastIndexOf(needle);
+    if (idx === -1) return html + injection;
+    return html.slice(0, idx) + injection + html.slice(idx);
+  };
+
   // Thêm visuals nếu có
   const visualsHTML = generateVisualsHTML(scene);
   if (visualsHTML) {
-    content = content.replace('</div>', `${visualsHTML}</div>`);
+    content = injectBeforeLastClosingDiv(content, visualsHTML);
   }
 
   // Thêm subtext/caption trên scene
   const captionHTML = buildSceneCaptionHTML(scene);
   if (captionHTML) {
-    content = content.replace('</div>', `${captionHTML}</div>`);
+    content = injectBeforeLastClosingDiv(content, captionHTML);
   }
 
   // Karaoke subtitle được inject vào root container (KHÔNG dùng replace vào content)
@@ -30,15 +37,16 @@ export function buildSceneHtml(scene, audioFile) {
 
   const animationScript = buildAnimationScript(scene);
 
+  const sceneDuration = Number.isFinite(scene.duration) ? scene.duration : 0;
   const audioEl = audioFile
-    ? `<audio id="scene-${scene.id}-audio" src="assets/${audioFile}" preload="auto"></audio>`
+    ? `<audio id="scene-${scene.id}-audio" data-start="0" data-duration="${sceneDuration.toFixed(3)}" src="assets/${audioFile}" preload="auto"></audio>`
     : "";
 
   return `<div
     data-composition-id="scene-${scene.id}"
     data-width="${width}"
     data-height="${height}"
-    data-duration="${scene.duration}"
+    data-duration="${sceneDuration.toFixed(3)}"
   >
     ${content}
     ${karaokeHTML}
@@ -113,6 +121,10 @@ function buildKaraokeSubtitleCSSHTML(scene) {
   if (!scene.voiceText || scene.voiceText.trim() === '') return '';
 
   const style = config.video.karaokeSubtitle.style;
+  // HyperFrames sẽ preload tất cả scene từ t=0 (dù scene đang opacity:0),
+  // nên CSS animation sẽ chạy "sớm" và đến lúc scene xuất hiện thì subtitle đã kết thúc.
+  // Offset animation theo scene.startTime để subtitle chạy đúng lúc scene bắt đầu.
+  const startOffset = Number.isFinite(scene.startTime) ? scene.startTime : 0;
   const wordsPerChunk = style.wordsPerChunk || 4;
   const words = scene.voiceText.trim().split(/\s+/);
   const totalWords = words.length;
@@ -137,7 +149,7 @@ function buildKaraokeSubtitleCSSHTML(scene) {
     let wordsHTML = '';
     for (let wi = 0; wi < chunk.length; wi++) {
       const wordAbsIndex = chunkWordStartIndex + wi;
-      const wordDelay = (wordAbsIndex * durationPerWord).toFixed(3);
+      const wordDelay = (startOffset + (wordAbsIndex * durationPerWord)).toFixed(3);
       wordsHTML += `<span class="karaoke-word-${scene.id}" style="animation-delay:${wordDelay}s;">${escapeHtml(chunk[wi])}</span> `;
     }
 
@@ -178,6 +190,7 @@ function buildKaraokeStylesCSS(scene) {
   if (!scene.voiceText || scene.voiceText.trim() === '') return '';
 
   const style = config.video.karaokeSubtitle.style;
+  const startOffset = Number.isFinite(scene.startTime) ? scene.startTime : 0;
   const wordsPerChunk = style.wordsPerChunk || 4;
   const words = scene.voiceText.trim().split(/\s+/);
   const totalWords = words.length;
@@ -249,7 +262,7 @@ function buildKaraokeStylesCSS(scene) {
     css += `
       @keyframes showChunk${scene.id}_${ci} { ${stops} }
       #kchunk-${scene.id}-${ci} {
-        animation: showChunk${scene.id}_${ci} ${totalDuration.toFixed(3)}s linear 0s both;
+        animation: showChunk${scene.id}_${ci} ${totalDuration.toFixed(3)}s linear ${startOffset.toFixed(3)}s both;
       }
     `;
   }
@@ -261,14 +274,16 @@ function buildKaraokeStylesCSS(scene) {
 
 function buildBaseStyles(scene) {
   const cid = `scene-${scene.id}`;
+  const isAiNews = config.video?.theme === "ai-news";
   return `
     [data-composition-id="${cid}"] {
       position: relative;
       width: ${width}px;
       height: ${height}px;
       overflow: hidden;
-      background: ${scene.bgColor};
+      background: ${isAiNews ? "transparent" : scene.bgColor};
       font-family: "Inter", sans-serif;
+      color: ${isAiNews ? "#ffffff" : (scene.textColor || "#ffffff")};
     }
     [data-composition-id="${cid}"] .canvas {
       width: 100%;
@@ -343,6 +358,76 @@ function buildBaseStyles(scene) {
     [data-composition-id="${cid}"] canvas,
     [data-composition-id="${cid}"] svg {
       pointer-events: none;
+    }
+
+    /* ── AI-news shared UI primitives ─────────────────────────────────────── */
+    [data-composition-id="${cid}"] .ai-label {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+    }
+    [data-composition-id="${cid}"] .ai-title {
+      font-size: 72px;
+      font-weight: 900;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+    }
+    [data-composition-id="${cid}"] .ai-muted {
+      color: rgba(255,255,255,0.62);
+    }
+    [data-composition-id="${cid}"] .ai-accent {
+      color: ${scene.accentColor};
+    }
+    [data-composition-id="${cid}"] .ai-underline {
+      text-decoration: underline;
+      text-decoration-thickness: 6px;
+      text-underline-offset: 10px;
+      text-decoration-color: rgba(141, 211, 255, 0.95);
+    }
+    [data-composition-id="${cid}"] .ai-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 28px;
+      box-shadow: 0 30px 70px rgba(0,0,0,0.25);
+      backdrop-filter: blur(12px);
+    }
+    [data-composition-id="${cid}"] .ai-card.ai-card-pop {
+      border-color: rgba(141,211,255,0.28);
+      box-shadow:
+        0 30px 70px rgba(0,0,0,0.28),
+        0 0 0 1px rgba(141,211,255,0.16),
+        0 0 60px rgba(141,211,255,0.10);
+    }
+    [data-composition-id="${cid}"] .ai-gradient-text {
+      background: linear-gradient(90deg, rgba(141,211,255,1) 0%, rgba(167,139,250,1) 38%, rgba(34,211,238,1) 78%, rgba(251,191,36,1) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    [data-composition-id="${cid}"] .ai-card-inner {
+      padding: 34px 34px;
+    }
+    [data-composition-id="${cid}"] .ai-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+    [data-composition-id="${cid}"] .ai-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      backdrop-filter: blur(10px);
+      color: rgba(255,255,255,0.82);
+      font-weight: 700;
+      font-size: 22px;
     }
   `;
 }
@@ -818,6 +903,271 @@ function composerStyles(scene) {
 // ── Composition HTML Generators ───────────────────────────────────────────────
 
 const COMPOSERS = {
+  // ── AI-news compositions (default template set) ────────────────────────────
+  "hook-question": (scene) => {
+    const label = scene.label || "VẤN ĐỀ THẬT";
+    const titleHtml = formatHookTitleHtml(scene.title || scene.voiceText || "", scene.highlightWords);
+    const kicker = scene.kicker || "";
+    return `
+    <div class="canvas" style="align-items:flex-start; justify-content:flex-start; padding:210px 90px;">
+      <div style="position:relative; z-index:2; width:100%;">
+        <div class="ai-label" style="margin-bottom:18px; color: rgba(245,197,78,0.9);">${escapeHtml(label)}</div>
+        <div class="ai-card" style="
+          width:100%;
+          padding:34px 34px 32px;
+          border-radius:26px;
+          background: rgba(10, 12, 24, 0.72);
+          border: 1px solid rgba(255,255,255,0.16);
+          box-shadow: 0 18px 44px rgba(0,0,0,0.45);
+          backdrop-filter: blur(10px);
+        ">
+          <div style="display:flex; gap:22px; align-items:flex-start; width:100%;">
+            <div style="font-size:92px; line-height:1; opacity:0.45; transform: translateY(-6px);">“</div>
+            <div style="width:6px; border-radius:10px; background: rgba(141,211,255,0.9); box-shadow: 0 0 0 1px rgba(255,255,255,0.08);"></div>
+            <div style="flex:1;">
+              <div class="ai-title" style="max-width: 880px;">${titleHtml}</div>
+              ${kicker ? `<div class="ai-muted" style="margin-top:22px; font-size:30px; font-weight:700;">${escapeHtml(kicker)}</div>` : ""}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+  },
+
+  "ui-cards": (scene) => {
+    const title = scene.title || "Trusted Contact";
+    const cards = Array.isArray(scene.cards) ? scene.cards : [];
+
+    const safeCards = cards.length
+      ? cards
+      : [
+          { title: "7 / 05", subtitle: "Ngày ra mắt", icon: "📅" },
+          { title: "Người thân", subtitle: "Vai trò liên hệ", icon: "💛" },
+          { title: "Người trên 18", subtitle: "Đối tượng", icon: "🔞" },
+        ];
+
+    const useSingleColumn = safeCards.length < 5;
+    const maxCards = useSingleColumn ? 4 : 6;
+    const shownCards = safeCards.slice(0, maxCards);
+
+    const cardsHtml = shownCards
+      .map(
+        (c, i) => `
+          <div class="ai-card ai-card-pop ai-ui-card" id="s${scene.id}-uicard-${i}" style="width:100%; padding:26px 28px; opacity:0;">
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:18px;">
+              <div style="min-width:0;">
+                <div class="ai-gradient-text" style="font-size:${useSingleColumn ? 38 : 34}px; font-weight:900; line-height:1.15; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+                  ${escapeHtml(c.title || "")}
+                </div>
+                <div class="ai-muted" style="margin-top:8px; font-size:${useSingleColumn ? 22 : 20}px; font-weight:800; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+                  ${escapeHtml(c.subtitle || "")}
+                </div>
+              </div>
+              <div style="font-size:${useSingleColumn ? 34 : 28}px; opacity:0.9; flex:0 0 auto;">${escapeHtml(c.icon || "⭐")}</div>
+            </div>
+          </div>
+        `
+      )
+      .join("");
+    return `
+    <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:220px;">
+      <div class="ai-title ai-gradient-text" style="font-size:54px; font-weight:900; letter-spacing:-0.01em; opacity:0.95; margin-bottom:40px;">
+        ${escapeHtml(title)}
+      </div>
+      <div style="
+        ${useSingleColumn ? "display:flex; flex-direction:column;" : "display:grid; grid-template-columns: 1fr 1fr;"}
+        gap:18px;
+        width:${useSingleColumn ? "920px" : "940px"};
+        max-width:${useSingleColumn ? "920px" : "940px"};
+      ">
+        ${cardsHtml}
+      </div>
+    </div>`;
+  },
+
+  "process-steps": (scene) => {
+    const title = scene.title || "Quy Trình 4 Bước";
+    const steps = Array.isArray(scene.steps) ? scene.steps : [];
+    const safeSteps = steps.length ? steps : [
+      { title: "Thêm liên hệ", desc: "Chọn 1 người thân trong cài đặt", state: "done", icon: "✓" },
+      { title: "Chờ chấp nhận", desc: "Người được chọn đồng ý", state: "done", icon: "✓" },
+      { title: "AI phát hiện dấu hiệu", desc: "Hệ thống tự động đo nguy cơ", state: "done", icon: "✓" },
+      { title: "Con người kiểm tra", desc: "Đội hỗ trợ duyệt nhanh", state: "active", icon: "👤" },
+    ];
+    return `
+    <div class="canvas" style="align-items:flex-start; justify-content:flex-start; padding:200px 90px;">
+      <div class="ai-title" style="font-size:58px; font-weight:900; margin-bottom:44px; opacity:0.92;">
+        ${escapeHtml(title)}
+      </div>
+      <div style="display:flex; gap:26px; width:100%;">
+        <div style="position:relative; width:60px; flex:0 0 60px;">
+          <div style="position:absolute; top:16px; bottom:16px; left:28px; width:4px; background: rgba(255,255,255,0.10); border-radius:999px;"></div>
+        </div>
+        <div style="flex:1; display:flex; flex-direction:column; gap:40px;">
+          ${safeSteps.map((st, i) => {
+            const done = st.state === "done";
+            const active = st.state === "active";
+            return `
+            <div class="ai-step" id="s${scene.id}-step-${i}" style="display:flex; gap:22px; align-items:flex-start; opacity:0;">
+              <div class="ai-card" style="width:58px; height:58px; border-radius:999px; display:flex; align-items:center; justify-content:center; background:${done ? "rgba(141,211,255,0.14)" : "rgba(255,255,255,0.06)"}; border-color:${done ? "rgba(141,211,255,0.35)" : "rgba(255,255,255,0.12)"};">
+                <div style="font-size:26px; font-weight:900; color:${done ? "#8dd3ff" : "rgba(255,255,255,0.75)"};">${escapeHtml(st.icon || (done ? "✓" : "•"))}</div>
+              </div>
+              <div style="flex:1;">
+                <div style="font-size:32px; font-weight:900; color:${active ? "#8dd3ff" : "#ffffff"};">${escapeHtml(st.title || "")}</div>
+                <div class="ai-muted" style="margin-top:8px; font-size:24px; font-weight:700;">${escapeHtml(st.desc || "")}</div>
+              </div>
+            </div>`;
+          }).join("")}
+        </div>
+      </div>
+    </div>`;
+  },
+
+  "quote-attrib": (scene) => {
+    const quote = scene.quote || scene.voiceText || scene.title || "";
+    const author = scene.quoteAuthor || scene.author || "Tiến sĩ Arthur Evans";
+    const role = scene.quoteRole || scene.role || "Tổng Giám Đốc Hiệp Hội Tâm Lý Học Hoa Kỳ";
+    return `
+    <div class="canvas" style="align-items:center; justify-content:center; padding:160px 90px;">
+      <div style="font-size:84px; opacity:0.25; margin-bottom:18px;">“</div>
+      <div style="max-width: 920px; text-align:center; font-size:46px; font-weight:800; font-style:italic; line-height:1.35; color:rgba(255,255,255,0.92);">
+        ${escapeHtml(quote)}
+      </div>
+      <div style="margin-top:44px; text-align:center;">
+        <div style="font-size:30px; font-weight:900; color:#8dd3ff;">${escapeHtml(author)}</div>
+        <div class="ai-muted" style="margin-top:10px; font-size:18px; font-weight:700; letter-spacing:0.02em;">${escapeHtml(role)}</div>
+      </div>
+    </div>`;
+  },
+
+  "stats-cards-grid": (scene) => {
+    const title = scene.title || "Đứng Sau Tính Năng";
+    const items = Array.isArray(scene.statsCards) ? scene.statsCards : [];
+    const safeItems = items.length ? items : [
+      { icon: "🩺", value: "260+", label: "Bác sĩ tham gia" },
+      { icon: "🌍", value: "60", label: "Quốc gia" },
+      { icon: "🧠", value: "170+", label: "Chuyên gia tâm lý" },
+      { icon: "🔒", value: "Không", label: "Nội dung chia sẻ" },
+    ];
+    const useSingleColumn = safeItems.length < 5;
+    const maxCards = useSingleColumn ? 4 : 6;
+    const grid = safeItems.slice(0, maxCards).map((it, i) => `
+      <div class="ai-card ai-card-pop ai-stat-card" id="s${scene.id}-statcard-${i}" style="padding:26px 26px; opacity:0;">
+        <div style="font-size:26px; opacity:0.9; margin-bottom:10px;">${escapeHtml(it.icon || "")}</div>
+        <div class="ai-gradient-text" style="font-size:62px; font-weight:900; letter-spacing:-0.02em;">
+          <span class="ai-countup" data-final="${escapeHtml(it.value || "")}">${escapeHtml(it.value || "")}</span>
+        </div>
+        <div class="ai-muted" style="margin-top:6px; font-size:18px; font-weight:800;">${escapeHtml(it.label || "")}</div>
+      </div>
+    `).join("");
+    return `
+    <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:220px;">
+      <div class="ai-title ai-gradient-text" style="font-size:54px; font-weight:900; opacity:0.95; margin-bottom:44px;">
+        ${escapeHtml(title)}
+      </div>
+      <div style="display:grid; grid-template-columns: ${useSingleColumn ? "1fr" : "1fr 1fr"}; gap:18px; width: 880px; max-width: 880px;">
+        ${grid}
+      </div>
+    </div>`;
+  },
+
+  "kinetic-title": (scene) => {
+    const words = Array.isArray(scene.words) ? scene.words : (scene.title || "").split(/\s+/).slice(0, 4);
+    const big = words.join(" ");
+    const faint = (scene.faintWords || words.slice(0, Math.max(1, words.length - 1)).join(" ")).toUpperCase();
+    const lines = Array.isArray(scene.terminalLines) ? scene.terminalLines : [];
+    const hasTerminal = lines.length > 0;
+    return `
+    <div class="canvas" style="align-items:flex-start; justify-content:flex-start; padding:190px 90px;">
+      <div style="width:100%; display:flex; flex-direction:column; gap:${hasTerminal ? "46px" : "0"};">
+      <div class="ai-kinetic" style="position:relative; width:100%; height:${hasTerminal ? "420px" : "100%"};">
+        <div class="ai-kinetic-faint" style="position:absolute; top:-10px; left:-10px; font-size:132px; font-weight:900; letter-spacing:-0.03em; color: rgba(255,255,255,0.14); text-transform:uppercase;">
+          ${escapeHtml(faint)}
+        </div>
+        <div class="ai-kinetic-main ai-gradient-text" style="position:absolute; top:120px; left:0; font-size:118px; font-weight:900; letter-spacing:-0.03em; text-transform:uppercase;">
+          ${escapeHtml(big.toUpperCase())}
+        </div>
+      </div>
+      ${hasTerminal ? `
+      <div class="terminal-wrap" id="s${scene.id}-terminal" style="width: 100%; max-width: 980px;">
+        <div class="terminal-header">
+          <div class="terminal-dot dot-red"></div>
+          <div class="terminal-dot dot-yellow"></div>
+          <div class="terminal-dot dot-green"></div>
+          <div class="terminal-title">${escapeHtml(scene.terminalTitle || "agent-trending")}</div>
+        </div>
+        <div class="terminal-body" style="padding:26px 30px; font-size:28px;">
+          ${lines.slice(0, 6).map((line, i) => `
+            <div style="margin-bottom:12px;" class="line-${line.type || "output"}" id="s${scene.id}-line-${i}">
+              ${line.type === "prompt" ? "$ " : ""}${escapeHtml(line.text)}
+            </div>`).join("")}
+        </div>
+      </div>` : ""}
+      </div>
+    </div>`;
+  },
+
+  "context-bars": (scene) => {
+    const title = scene.title || "Bối Cảnh Phía Sau";
+    const rows = Array.isArray(scene.rows) ? scene.rows : [];
+    const safeRows = rows.length ? rows : [
+      { icon: "📅", label: "Thời điểm", value: "11 / 2025" },
+      { icon: "⚖️", label: "Vụ kiện chống OpenAI", value: "7 vụ" },
+      { icon: "🚨", label: "Cáo buộc chính", value: "Bỏ qua an toàn" },
+    ];
+    return `
+    <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:220px;">
+      <div class="ai-title ai-gradient-text" style="font-size:54px; font-weight:900; opacity:0.95; margin-bottom:44px;">
+        ${escapeHtml(title)}
+      </div>
+      <div style="width: 900px; max-width: 900px; display:flex; flex-direction:column; gap:18px;">
+        ${safeRows.slice(0, 3).map((r, i) => `
+          <div class="ai-card ai-card-pop ai-row-card" id="s${scene.id}-row-${i}" style="padding:18px 22px; opacity:0;">
+            <div class="ai-row">
+              <div style="display:flex; align-items:center; gap:14px;">
+                <div style="font-size:24px; opacity:0.9;">${escapeHtml(r.icon || "")}</div>
+                <div class="ai-muted" style="font-size:22px; font-weight:900;">${escapeHtml(r.label || "")}</div>
+              </div>
+              <div class="ai-gradient-text" style="font-size:34px; font-weight:900;">${escapeHtml(r.value || "")}</div>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    </div>`;
+  },
+
+  "promo-card": (scene) => {
+    const headline = scene.title || "ChatGPT báo người thân khi bạn khủng hoảng";
+    const promo = scene.promo || {};
+    const badge = promo.badge || "Giảm đến 80%";
+    const button = promo.button || "MUA NGAY TẠI";
+    const url = promo.url || "https://aiinus.net";
+    const comment = promo.commentPrompt || "Bình luận góc nhìn của bạn";
+    const logos = Array.isArray(promo.logos) ? promo.logos : ["Claude", "Cursor", "ChatGPT", "Gemini", "Copilot", "Antigravity"];
+    const pills = logos.slice(0, 6).map((x) => `<span class="ai-pill" style="font-size:18px; padding:10px 14px;">${escapeHtml(x)}</span>`).join("");
+    return `
+    <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:220px;">
+      <div class="ai-title ai-gradient-text" style="font-size:58px; font-weight:900; text-align:center; max-width: 960px;">
+        ${escapeHtml(headline)}
+      </div>
+      <div class="ai-card ai-card-pop ai-promo" style="margin-top:70px; width: 920px; max-width: 920px;">
+        <div class="ai-card-inner" style="padding:34px 34px;">
+          <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-bottom:18px;">${pills}</div>
+          <div class="ai-gradient-text" style="text-align:center; font-size:44px; font-weight:900; margin-top:14px;">${escapeHtml(badge)}</div>
+          <div style="display:flex; justify-content:center; margin-top:18px;">
+            <div class="ai-card" style="padding:18px 34px; border-radius:999px; background: rgba(255,140,90,0.92); border-color: rgba(255,255,255,0.18);">
+              <div style="font-size:22px; font-weight:900; color:#1a0d0d; letter-spacing:0.12em;">${escapeHtml(button)}</div>
+            </div>
+          </div>
+          <div style="text-align:center; margin-top:18px; font-size:26px; font-weight:900; color: rgba(141,211,255,0.95);">${escapeHtml(url)}</div>
+        </div>
+      </div>
+      <div class="ai-card ai-comment" style="margin-top:34px; padding:14px 22px; border-radius:999px; opacity:0;">
+        <div style="font-size:22px; font-weight:900; color: rgba(255,255,255,0.86);">💬 ${escapeHtml(comment)}</div>
+      </div>
+    </div>`;
+  },
+
   "hero-title": (scene) => `
     <div class="canvas">
       <div class="bg-gradient"></div>
@@ -898,14 +1248,21 @@ const COMPOSERS = {
       const y = 5 + Math.floor(i / 4) * 50;
       return `<div class="heart" id="s${scene.id}-h${i}" style="left:${x}%;top:${y}%;">❤️</div>`;
     }).join("");
-    const profileImg = scene.imageSrc || scene.profileImage || "assets/logo.svg";
+    const isOutro = scene.type === "outro";
+    let profileImg = scene.imageSrc || scene.profileImage || "assets/logos/logo.png";
+    if (profileImg === "assets/logo.svg") profileImg = "assets/logos/logo.png";
+    let heroLogo = scene.logoSrc || "assets/logos/logo.png";
+    if (heroLogo === "assets/logo.svg") heroLogo = "assets/logos/logo.png";
+    const heroMark = isOutro
+      ? `<img src="${heroLogo}" class="emoji-deco" id="s${scene.id}-emoji" style="width:540px; height:540px; border-radius:999px; object-fit:cover; border:4px solid rgba(255,255,255,0.16); box-shadow: 0 24px 80px rgba(0,0,0,0.35); margin-bottom: 30px;" />`
+      : `<span class="emoji-deco" id="s${scene.id}-emoji" style="font-size:200px; margin-bottom: 30px;">${scene.emoji || "❤️"}</span>`;
     return `
-    <div class="canvas" style="background:linear-gradient(160deg,${scene.bgColor},${lighten(scene.bgColor)});">
+    <div class="canvas" style="background:linear-gradient(160deg,${scene.bgColor},${lighten(scene.bgColor)}); padding-top:220px;">
       <div class="bg-gradient"></div>
       <div class="cta-hearts">${hearts}</div>
-      <div class="hero-wrap" style="text-align:center; display:flex; flex-direction:column; align-items:center; transform: translateY(-100px);">
-        <span class="emoji-deco" id="s${scene.id}-emoji" style="font-size:200px; margin-bottom: 30px;">${scene.emoji || "❤️"}</span>
-        <h1 class="cta-title" id="s${scene.id}-title" style="color:#ffffff; margin-bottom:20px;">${escapeHtml(scene.title)}</h1>
+      <div class="hero-wrap" style="text-align:center; display:flex; flex-direction:column; align-items:center; transform: translateY(-40px);">
+        ${heroMark}
+        <h1 class="cta-title ai-gradient-text" id="s${scene.id}-title" style="margin-bottom:20px;">${escapeHtml(scene.title)}</h1>
       </div>
       
       <div class="tt-card">
@@ -1197,6 +1554,80 @@ function buildAnimationScript(scene) {
       const good = document.querySelector('[data-composition-id="${cid}"] .diff-pane.good');
       if (bad) tl.fromTo(bad, { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.8, ease: "power3.out" }, 0.2);
       if (good) tl.fromTo(good, { x: 60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.8, ease: "power3.out" }, 0.5);`,
+
+    // ── AI-news animations ───────────────────────────────────────────────────
+    "reveal-stagger": () => `
+      const tl = gsap.timeline({ paused: true });
+      const items = document.querySelectorAll('[data-composition-id="${cid}"] .ai-step, [data-composition-id="${cid}"] .ai-row-card, [data-composition-id="${cid}"] .ai-stat-card');
+      if (items.length) {
+        tl.set(items, { opacity: 0, y: 26 }, 0);
+        tl.to(items, { opacity: 1, y: 0, duration: 0.92, stagger: 0.38, ease: "power3.out" }, 0.30);
+
+        // Count-up numbers (e.g. 1k+ -> 175k+) inside stats cards
+        tl.add(() => {
+          const els = document.querySelectorAll('[data-composition-id="${cid}"] .ai-countup');
+          const parseCompact = (raw) => {
+            const s = String(raw || "").trim().replace(/,/g, "");
+            const m = s.match(/^(\\d+(?:\\.\\d+)?)(\\s*[kKmMbB])?(\\+)?$/);
+            if (!m) return null;
+            const num = Number(m[1]);
+            if (!Number.isFinite(num)) return null;
+            const unit = (m[2] || "").trim().toLowerCase();
+            const plus = Boolean(m[3]);
+            const mult = unit === "k" ? 1e3 : unit === "m" ? 1e6 : unit === "b" ? 1e9 : 1;
+            return { target: Math.round(num * mult), unit, plus, mult };
+          };
+          const formatCompact = (value, unit, plus) => {
+            const p = plus ? "+" : "";
+            if (unit === "k") return String(Math.max(0, Math.round(value / 1e3))) + "k" + p;
+            if (unit === "m") return String(Math.max(0, Math.round(value / 1e6))) + "m" + p;
+            if (unit === "b") return String(Math.max(0, Math.round(value / 1e9))) + "b" + p;
+            return String(Math.max(0, Math.round(value))) + p;
+          };
+
+          els.forEach((el) => {
+            const finalRaw = el.getAttribute("data-final") || el.textContent || "";
+            const parsed = parseCompact(finalRaw);
+            if (!parsed) return;
+
+            const start = parsed.unit ? parsed.mult : 1;
+            const end = Math.max(start, parsed.target);
+            el.textContent = formatCompact(start, parsed.unit, parsed.plus);
+
+            gsap.fromTo(
+              { v: start },
+              { v: end },
+              {
+                duration: 1.35,
+                ease: "power2.out",
+                onUpdate() {
+                  const v = this.targets()[0].v;
+                  el.textContent = formatCompact(v, parsed.unit, parsed.plus);
+                },
+              }
+            );
+          });
+        }, 0.55);
+      }`,
+
+    "card-slide-in-right": () => `
+      const tl = gsap.timeline({ paused: true });
+      const cards = document.querySelectorAll('[data-composition-id="${cid}"] .ai-card');
+      if (cards[0]) tl.fromTo(cards[0], { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.80, ease: "power3.out" }, 0.15);
+      if (cards[1]) tl.fromTo(cards[1], { x: 100, opacity: 0 }, { x: 0, opacity: 1, duration: 0.75, ease: "power3.out" }, 0.80);
+      if (cards[2]) tl.fromTo(cards[2], { x: 100, opacity: 0 }, { x: 0, opacity: 1, duration: 0.75, ease: "power3.out" }, 1.05);`,
+
+    "quote-fade": () => `
+      const tl = gsap.timeline({ paused: true });
+      const els = document.querySelectorAll('[data-composition-id="${cid}"] .ai-title, [data-composition-id="${cid}"] .ai-label, [data-composition-id="${cid}"] .ai-muted, [data-composition-id="${cid}"] .quote-text, [data-composition-id="${cid}"] .ai-comment');
+      tl.fromTo(els, { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.95, stagger: 0.16, ease: "power2.out" }, 0.10);`,
+
+    "kinetic-slam": () => `
+      const tl = gsap.timeline({ paused: true });
+      const faint = document.querySelector('[data-composition-id="${cid}"] .ai-kinetic-faint');
+      const main = document.querySelector('[data-composition-id="${cid}"] .ai-kinetic-main');
+      if (faint) tl.fromTo(faint, { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.75, ease: "power3.out" }, 0.10);
+      if (main) tl.fromTo(main, { y: 110, scale: 0.95, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: 0.90, ease: "power3.out" }, 0.35);`,
   };
 
   const animKey = scene.animation || "fade-cascade";
@@ -1209,10 +1640,21 @@ function buildAnimationScript(scene) {
     "comparison": "comparison",
     "code-diff": "code-diff",
     "countdown": "pulse-glow",
-    "cta-card": "particle-burst"
+    "cta-card": "particle-burst",
+
+    // AI-news compositions
+    "hook-question": "quote-fade",
+    "ui-cards": "card-slide-in-right",
+    "process-steps": "reveal-stagger",
+    "quote-attrib": "quote-fade",
+    "stats-cards-grid": "reveal-stagger",
+    "kinetic-title": "kinetic-slam",
+    "context-bars": "reveal-stagger",
+    "promo-card": "quote-fade"
   };
 
-  const finalAnim = forceAnimMap[scene.composition] || animKey;
+  const forcedAnim = forceAnimMap[scene.composition];
+  const finalAnim = scene.animation ? scene.animation : (forcedAnim || animKey);
   const animBody = (animFns[finalAnim] || animFns[animKey] || animFns["fade-cascade"])();
 
   return `
@@ -1270,6 +1712,35 @@ function escapeHtmlForKaraoke(str) {
 
 function escapeHtml(str) {
   return (str || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+function formatHookTitleHtml(title, highlightWords) {
+  const raw = String(title || "").trim();
+  if (!raw) return "";
+
+  const words = raw.split(/\s+/);
+  const highlights = Array.isArray(highlightWords) && highlightWords.length
+    ? new Set(highlightWords.map((w) => String(w).toLowerCase()))
+    : null;
+
+  // Default: underline the last 1–2 meaningful words
+  const auto = new Set();
+  if (!highlights) {
+    const meaningful = words
+      .map((w) => w.replace(/[^\p{L}\p{N}]+/gu, ""))
+      .filter(Boolean);
+    const last = meaningful[meaningful.length - 1];
+    const prev = meaningful[meaningful.length - 2];
+    if (last) auto.add(last.toLowerCase());
+    if (prev && prev.length <= 4) auto.add(prev.toLowerCase());
+  }
+
+  return words.map((w) => {
+    const key = w.replace(/[^\p{L}\p{N}]+/gu, "").toLowerCase();
+    const should = highlights ? highlights.has(key) : auto.has(key);
+    const safe = escapeHtml(w);
+    return should ? `<span class="ai-underline">${safe}</span>` : safe;
+  }).join(" ");
 }
 
 function hexToRgba(hex, alpha) {

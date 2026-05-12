@@ -10,8 +10,19 @@ const { width, height } = config.hyperframes;
 export function generateVisualsHTML(scene) {
     if (!scene.visuals) return '';
 
-    const { visuals, id } = scene;
-    const cid = `scene-${id}`;
+    const { id } = scene;
+    const baseCid = `scene-${id}`;
+
+    // Back-compat: allow a single visuals object OR an array of layered visuals
+    const visualsList = Array.isArray(scene.visuals) ? scene.visuals : [scene.visuals];
+    return visualsList
+        .map((visuals, idx) => generateSingleVisualHTML(visuals, `${baseCid}-v${idx + 1}`))
+        .filter(Boolean)
+        .join('\n');
+}
+
+function generateSingleVisualHTML(visuals, cid) {
+    if (!visuals || typeof visuals !== 'object') return '';
 
     switch (visuals.type) {
         case 'image':
@@ -30,9 +41,41 @@ export function generateVisualsHTML(scene) {
 function generateImageHTML(visuals, cid) {
     const imageUrl = visuals.imageUrl || `https://picsum.photos/id/${Math.floor(Math.random() * 1000)}/${width}/${height}`;
     const opacity = visuals.opacity || 0.4;
+    // Ensure background visuals never cover text/content.
+    // - background: behind canvas content
+    // - foreground: above content
+    // Scene base layers use z-index 0/1 for background. Using -1 makes visuals
+    // fall behind the scene background and disappear in preview/render.
     const zIndex = visuals.position === 'foreground' ? 3 : 0;
 
+    const motionType = visuals.motionType || null;
+    const motionDuration = Number.isFinite(visuals.motionDuration) ? visuals.motionDuration : 6;
+    const scaleFrom = Number.isFinite(visuals.motionScaleFrom) ? visuals.motionScaleFrom : 1.02;
+    const scaleTo = Number.isFinite(visuals.motionScaleTo) ? visuals.motionScaleTo : 1.1;
+    const translateFrom = (visuals.motionTranslateFrom || "0px, 0px").split(",").map((s) => s.trim());
+    const translateTo = (visuals.motionTranslateTo || "-14px, -10px").split(",").map((s) => s.trim());
+    const txFrom = translateFrom[0] || "0px";
+    const tyFrom = translateFrom[1] || "0px";
+    const txTo = translateTo[0] || "-14px";
+    const tyTo = translateTo[1] || "-10px";
+
+    const imgClass = motionType ? `visual-image-img motion-${cid}` : `visual-image-img`;
+    const motionCss = motionType === 'ken-burns'
+        ? `
+      @keyframes kenburns-${cid} {
+        0% { transform: translate(${txFrom}, ${tyFrom}) scale(${scaleFrom}); }
+        100% { transform: translate(${txTo}, ${tyTo}) scale(${scaleTo}); }
+      }
+      .motion-${cid} {
+        will-change: transform;
+        transform-origin: 50% 40%;
+        animation: kenburns-${cid} ${motionDuration}s ease-in-out infinite alternate;
+      }
+    `
+        : '';
+
     return `
+    ${motionCss ? `<style>${motionCss}</style>` : ''}
     <div class="visual-image" style="
       position: absolute;
       inset: 0;
@@ -42,6 +85,7 @@ function generateImageHTML(visuals, cid) {
       overflow: hidden;
     ">
       <img src="${imageUrl}" 
+           class="${imgClass}"
            style="width: 100%; height: 100%; object-fit: cover;"
            loading="lazy" />
       <div style="
@@ -56,7 +100,7 @@ function generateImageHTML(visuals, cid) {
 function generateAnimationHTML(visuals, cid) {
     const animations = {
         'floating-particles': `
-      <canvas id="particles-${cid}" style="position:absolute; inset:0; z-index:${visuals.position === 'foreground' ? 3 : 1};"></canvas>
+      <canvas id="particles-${cid}" style="position:absolute; inset:0; z-index:${visuals.position === 'foreground' ? 3 : 0};"></canvas>
       <script>
         (function() {
           const canvas = document.getElementById('particles-${cid}');
@@ -105,7 +149,7 @@ function generateAnimationHTML(visuals, cid) {
     `,
 
         'wave-lines': `
-      <svg style="position:absolute; bottom:0; left:0; width:100%; height:100%; z-index:${visuals.position === 'foreground' ? 3 : 1}; opacity:${visuals.opacity || 0.6};">
+      <svg style="position:absolute; bottom:0; left:0; width:100%; height:100%; z-index:${visuals.position === 'foreground' ? 3 : 0}; opacity:${visuals.opacity || 0.6};">
         <defs>
           <linearGradient id="waveGrad-${cid}" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:${visuals.colors?.[0] || '#7c3aed'}" />
