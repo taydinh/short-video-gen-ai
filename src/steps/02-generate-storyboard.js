@@ -110,13 +110,18 @@ Visuals image có thể thêm animation nhẹ (khuyến nghị cho Scene 1 để
 - visuals.motionScaleFrom / visuals.motionScaleTo: 1.0–1.2
 - visuals.motionTranslateFrom / visuals.motionTranslateTo: "x, y" (vd: "-12px, -8px")
 
-QUY TẮC BẮT BUỘC VỀ imageUrl (ONLINE):
-- Scene 1–7: nếu có visuals.type="image" thì PHẢI dùng ảnh online:
-  - Cách 1 (khuyến nghị): { type:"image", source:"search", query:"...", position:"background", opacity:... }
+QUY TẮC VỀ imageUrl (ONLINE HOẶC ẢNH GEN LƯU LOCAL):
+- Scene 1–7: nếu có visuals.type="image" thì KHÔNG bắt buộc phải là ảnh online. Có 2 hướng:
+  - Cách 1 (ảnh online, khuyến nghị): { type:"image", source:"search", query:"...", position:"background", opacity:... }
     (Hệ thống sẽ tự fetch và điền "imageUrl" online từ query)
-  - Cách 2: điền thẳng "imageUrl" là URL online hợp lệ (https://...)
-- Scene 8: CHỈ dùng logo local (vd: "assets/logos/logo.png") nếu cần; không bắt buộc có visuals image.
-- KHÔNG dùng đường dẫn local cho imageUrl ở Scene 1–7 (trừ khi được yêu cầu riêng).
+  - Cách 2 (ảnh local do LLM gen): dùng "imageUrl" trỏ tới file đã lưu tại assets/storyboards/{storyboard-slug}/scene-{x}.png
+    (ví dụ: "assets/storyboards/bi-mat-thanh-cong/scene-3.png")
+- Scene 8: có thể dùng logo local (vd: "assets/logos/logo.png") nếu cần; không bắt buộc có visuals image.
+
+QUY TẮC VỀ imageSrc (CHỈ DÙNG ĐÚNG LÚC):
+- "imageSrc" KHÔNG phải là field chung cho mọi composition. Hiện tại "imageSrc" chỉ được render trực tiếp khi dùng composition "feng-shui-card".
+- Khi composition="feng-shui-card": đặt ảnh vào scene.imageSrc (ưu tiên) hoặc scene.imageUrl. Lưu ý: đặt ở ROOT của scene (cùng cấp với title/subtext), KHÔNG đặt trong visuals.
+- Với mọi composition khác: KHÔNG dùng scene.imageSrc; nếu cần ảnh thì dùng visuals (source:"search" + query hoặc visuals.imageUrl online như quy tắc ở trên).
 
 Các loại animation:
 - "floating-particles": Hạt bay lơ lửng

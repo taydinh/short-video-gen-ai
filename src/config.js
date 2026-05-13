@@ -14,13 +14,32 @@ export const config = {
   },
 
   // ── TTS Configuration ─────────────────────────────────────────────────────
-  vieneu: {
+  omnivoice: {
     enabled: true,
-    apiUrl: "http://localhost:7860/api/tts",
-    voice: "female_south",
+    // OmniVoice local server (FastAPI). See `omnivoice_server/README.md`.
+    serverUrl: "http://127.0.0.1:8001",
+    // When true, only accept OmniVoice if server reports CUDA modelDevice.
+    // If you want to allow CPU (slow), set this to false and set OMNIVOICE_REQUIRE_CUDA=0 on the server.
+    requireGpu: true,
+    // Voice reference for cloning (3–10s recommended).
+    refAudioPath: "assets/voice/ref.wav",
+    // Optional: leave empty to let OmniVoice auto-transcribe with Whisper.
+    refText: "",
+    // Output format for generated audio files.
+    outputFormat: "wav",
+    // Optional FFmpeg post-processing to reduce "rè"/noise and improve clarity.
+    // Tip: if your ref audio is already clean, you can leave this disabled.
+    enhance: {
+      enabled: false,
+      highpassHz: 80,
+      lowpassHz: 12000,
+      denoise: true,
+      normalize: true,
+      limiter: true,
+    },
+    // Optional post-speedup on Node side (ffmpeg). 1.0 = no change.
     speed: 1.0,
-    outputFormat: "mp3",
-    timeout: 60000,
+    timeout: 120000,
   },
 
   googleTTS: {

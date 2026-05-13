@@ -2,7 +2,7 @@
 
 Ứng dụng tạo video short-form (TikTok/Reels) tự động từ nội dung sử dụng:
 - **LMStudio** (Local LLM) để tạo kịch bản 8 scene bằng tiếng Việt
-- **VieNeu-TTS** để tạo giọng đọc tiếng Việt
+- **OmniVoice** (local server) để tạo giọng đọc / voice cloning
 - **HyperFrames** (hyperframes.heygen.com) để render video MP4 9:16
 
 ---
@@ -15,7 +15,7 @@
 | npm | Package manager | Đi kèm Node.js |
 | ffmpeg | Xử lý audio/video | `brew install ffmpeg` hoặc `apt install ffmpeg` |
 | LMStudio | Local LLM | [lmstudio.ai](https://lmstudio.ai) |
-| VieNeu-TTS | TTS tiếng Việt | [GitHub VieNeu](https://github.com/) |
+| OmniVoice | TTS / Voice cloning | https://github.com/k2-fsa/OmniVoice |
 
 ---
 
@@ -30,7 +30,7 @@ npm install
 
 # Cấu hình (xem src/config.js)
 # - Chỉnh URL LMStudio: http://localhost:1234/v1
-# - Chỉnh URL VieNeu TTS: http://localhost:7860/api/tts
+# - Chỉnh OmniVoice serverUrl: http://127.0.0.1:8001
 ```
 
 ---
@@ -41,16 +41,52 @@ npm install
 2. Vào tab **Local Server** → Start server (port 1234)
 3. Kiểm tra: `curl http://localhost:1234/v1/models`
 
-## ⚙️ Cấu Hình VieNeu TTS
+## ⚙️ Cấu Hình OmniVoice (TTS server)
 
-```bash
-# Cài VieNeu TTS (ví dụ với Gradio)
-pip install gradio
-python vieneu_tts_server.py
-# Server chạy tại http://localhost:7860
+- Tạo file voice reference tại `assets/voice/ref.wav` (khuyến nghị 3–10 giây, sạch tiếng ồn).
+- Chạy OmniVoice server (xem `omnivoice_server/README.md`), mặc định `http://127.0.0.1:8001`.
+- Chỉnh cấu hình trong `src/config.js` (khối `config.omnivoice`).
+
+### Cài đặt OmniVoice server (Windows / PowerShell)
+
+> Gợi ý: OmniVoice chạy nhanh nhất trên NVIDIA GPU (CUDA). Bạn cần cài đúng bản PyTorch theo CUDA của máy.
+
+1) Vào thư mục project + tạo Python venv
+```powershell
+cd "D:\Vibe Coding\short-video-gen-ai"
+python -m venv .venv
+.\.venv\Scripts\activate
+python -m pip install -U pip setuptools wheel
 ```
 
-Nếu dùng API khác, chỉnh `config.vieneu.apiUrl` trong `src/config.js`.
+2) Cài PyTorch (GPU/CPU)
+- GPU (CUDA): lấy đúng lệnh cài theo máy tại [PyTorch – Get Started (Locally)](https://pytorch.org/get-started/locally/) và chạy trong venv.
+- CPU (dễ nhất, nhưng chậm):
+```powershell
+pip install torch torchaudio
+```
+
+3) Cài dependencies cho server
+```powershell
+pip install -r .\omnivoice_server\requirements.txt --no-deps
+pip install fastapi uvicorn[standard] soundfile numpy omnivoice
+```
+
+4) Chạy server
+```powershell
+uvicorn omnivoice_server.app:app --host 0.0.0.0 --port 8001
+```
+
+5) Kiểm tra health
+```powershell
+curl http://127.0.0.1:8001/health
+```
+
+Nếu `modelLoaded: false` hoặc có `error`, nguyên nhân thường gặp là PyTorch/CUDA chưa đúng phiên bản hoặc thiếu driver GPU.
+
+Mặc định project đang để `config.omnivoice.requireGpu: true` nên **bắt buộc OmniVoice phải chạy trên CUDA** (health phải có `modelDevice: "cuda..."`). Nếu muốn cho phép CPU (chậm) thì:
+- Trong `src/config.js` đặt `omnivoice.requireGpu: false`
+- Khi chạy server set env `OMNIVOICE_REQUIRE_CUDA=0`
 
 ---
 
@@ -147,7 +183,7 @@ Input (URL/MD/JSON)
        ↓
   [Step 2] LMStudio → storyboard.json (8 scenes)
        ↓
-  [Step 3] VieNeu TTS → audio WAV từng scene
+  [Step 3] OmniVoice → audio từng scene (fallback Google TTS)
        ↓
   [Step 4] Điều chỉnh duration khớp với audio
        ↓
@@ -197,10 +233,8 @@ curl -X POST http://localhost:1234/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{"model":"local-model","messages":[{"role":"user","content":"Xin chào"}]}'
 
-# Chỉ test VieNeu TTS
-curl -X POST http://localhost:7860/api/tts \
-  -H "Content-Type: application/json" \
-  -d '{"text":"Xin chào","voice":"female_south"}'
+# Test OmniVoice server health
+curl http://127.0.0.1:8001/health
 ```
 
 ---
@@ -251,14 +285,14 @@ short-video-gen-ai/
 ├── src/
 │   ├── index.js              ← CLI entry point
 │   ├── pipeline.js           ← Orchestrator 7 bước
-│   ├── config.js             ← Cấu hình LMStudio, VieNeu, HyperFrames
+│   ├── config.js             ← Cấu hình LMStudio, OmniVoice, HyperFrames
 │   ├── composers/
 │   │   └── scene-composer.js ← Build HTML cho từng scene type
 │   │   └── visual-generator.js
 │   ├── steps/
 │   │   ├── 01-read-input.js  ← Đọc URL / .md / .json
 │   │   ├── 02-generate-storyboard.js ← LMStudio → 8 scenes JSON
-│   │   ├── 03-generate-tts.js        ← VieNeu TTS → WAV
+│   │   ├── 03-generate-tts.js        ← OmniVoice → audio từng scene (fallback Google TTS)
 │   │   ├── 04-adjust-timings.js      ← Đồng bộ duration với audio
 │   │   ├── 05-build-hyperframes.js   ← Build HTML project
 │   │   ├── 06-render-video.js        ← npx hyperframes render

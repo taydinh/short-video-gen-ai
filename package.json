@@ -1,7 +1,7 @@
 {
   "name": "short-video-gen-ai",
   "version": "1.0.0",
-  "description": "AI-powered short video generator using LMStudio + HyperFrames + VieNeu-TTS",
+  "description": "AI-powered short video generator using LMStudio + HyperFrames + OmniVoice TTS",
   "type": "module",
   "scripts": {
     "start": "node src/index.js",

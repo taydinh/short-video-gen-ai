@@ -30,7 +30,7 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
 
   // Build silent base track matching total video duration
   const totalDuration = storyboard.totalDuration;
-  const extension = config.vieneu.outputFormat || "mp3";
+  const extension = config.omnivoice?.outputFormat || "wav";
   const silencePath = path.join(outputDir, "audio", `silence.${extension}`);
 
   logger.info(`  Building mixed audio track (${totalDuration.toFixed(2)}s)...`);
@@ -65,9 +65,10 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
     const filterComplex = [...delayFilters, mixFilter].join(";");
 
     const mixedAudioPath = path.join(outputDir, "audio", `mixed.${extension}`);
+    const mixCodec = extension === "mp3" ? "libmp3lame" : "pcm_s16le";
 
     execSync(
-      `ffmpeg ${audioInputs.join(" ")} -filter_complex "${filterComplex}" -map "[amix]" -ar 44100 "${mixedAudioPath}" -y`,
+      `ffmpeg ${audioInputs.join(" ")} -filter_complex "${filterComplex}" -map "[amix]" -ar 44100 -c:a ${mixCodec} "${mixedAudioPath}" -y`,
       { timeout: 120000, stdio: 'pipe' }
     );
 

@@ -2,7 +2,7 @@
  * Step 3: Generate TTS audio for each scene
  * 
  * Priority:
- *   1. VieNeu-TTS (local Gradio)
+ *   1. OmniVoice (local server)
  *   2. Google Translate TTS (fallback)
  *   3. Silent audio (last resort)
  */
@@ -20,23 +20,28 @@ export async function generateTTS(storyboard, outputDir) {
 
   const results = [];
 
-  let canUseVieNeu = !!config.vieneu.enabled;
-  if (canUseVieNeu) {
+  const extension = config.omnivoice?.outputFormat || "wav";
+  const omnivoiceRefPath = resolvePath(config.omnivoice?.refAudioPath || "");
+  const omnivoiceEnhance = config.omnivoice?.enhance || {};
+
+  let canUseOmniVoice = !!config.omnivoice?.enabled;
+  if (canUseOmniVoice) {
+    if (!omnivoiceRefPath || !existsSync(omnivoiceRefPath)) {
+      canUseOmniVoice = false;
+      logger.warn(`  ⚠️ OmniVoice ref audio not found at ${config.omnivoice?.refAudioPath || "(missing)"} (resolved: ${omnivoiceRefPath || "n/a"}). Falling back to Google TTS.`);
+    }
+  }
+
+  if (canUseOmniVoice) {
     try {
-      const probePath = path.join(audioDir, `_vieneu_probe.${config.vieneu.outputFormat || "mp3"}`);
-      await callVieNeuTTS("Xin chào", probePath);
-      if (existsSync(probePath) && (await getAudioDuration(probePath)) > 0.2) {
-        try { unlinkSync(probePath); } catch { /* ignore */ }
-        canUseVieNeu = true;
-      } else {
-        canUseVieNeu = false;
-      }
+      const ok = await probeOmniVoice();
+      if (!ok) canUseOmniVoice = false;
     } catch {
-      canUseVieNeu = false;
+      canUseOmniVoice = false;
     }
 
-    if (!canUseVieNeu) {
-      logger.warn(`  ⚠️ VieNeu TTS unavailable at ${config.vieneu.apiUrl}. Skipping VieNeu and using Google TTS.`);
+    if (!canUseOmniVoice) {
+      logger.warn(`  ⚠️ OmniVoice server unavailable at ${config.omnivoice?.serverUrl}. Falling back to Google TTS.`);
     }
   }
 
@@ -50,32 +55,32 @@ export async function generateTTS(storyboard, outputDir) {
 
     logger.info(`  🎙️ Scene ${scene.id}: "${text.slice(0, 50)}..."`);
 
-    const extension = config.vieneu.outputFormat || "mp3";
     const audioPath = path.join(audioDir, `scene-${scene.id}.${extension}`);
     let duration = scene.duration || 4;
     let success = false;
 
-    // Try VieNeu TTS first
-    if (canUseVieNeu) {
+    // Try OmniVoice first
+    if (canUseOmniVoice) {
       try {
-        logger.info(`     Trying VieNeu TTS...`);
-        const ttsResult = await callVieNeuTTS(text, audioPath);
+        logger.info(`     Trying OmniVoice...`);
+        const ttsResult = await callOmniVoiceTTS(text, audioPath, omnivoiceRefPath);
         const actualPath = ttsResult || audioPath;
         if (existsSync(actualPath) && (await getAudioDuration(actualPath)) > 0.5) {
           duration = await getAudioDuration(actualPath);
 
           // Apply speed up if needed
-          const finalPath = await applySpeedUp(actualPath, config.vieneu.speed);
-          const finalDuration = await getAudioDuration(finalPath);
+          const spedPath = await applySpeedUp(actualPath, config.omnivoice?.speed);
+          const enhancedPath = await enhanceAudio(spedPath, omnivoiceEnhance);
+          const finalDuration = await getAudioDuration(enhancedPath);
 
-          logger.info(`     ✅ VieNeu success: ${finalDuration.toFixed(2)}s (speed: ${config.vieneu.speed || 1})`);
-          results.push({ sceneId: scene.id, audioPath: finalPath, duration: finalDuration });
+          logger.info(`     ✅ OmniVoice success: ${finalDuration.toFixed(2)}s (speed: ${config.omnivoice?.speed || 1})`);
+          results.push({ sceneId: scene.id, audioPath: enhancedPath, duration: finalDuration });
           success = true;
         } else {
-          logger.warn(`     VieNeu returned invalid audio`);
+          logger.warn(`     OmniVoice returned invalid audio`);
         }
       } catch (err) {
-        logger.warn(`     VieNeu failed: ${err.message}`);
+        logger.warn(`     OmniVoice failed: ${err.message}`);
       }
     }
 
@@ -151,8 +156,15 @@ async function applySpeedUp(audioPath, speedFactor) {
     }
 
     const nullDevice = process.platform === "win32" ? "nul" : "/dev/null";
+
+    const ext = (parsedPath.ext || "").toLowerCase();
+    const isWav = ext === ".wav";
+    const codecArgs = isWav
+      ? `-c:a pcm_s16le -ar 44100 -ac 2`
+      : `-c:a libmp3lame -q:a 2`;
+
     execSync(
-      `ffmpeg -i "${audioPath}" -filter:a "${atempoFilter}" -c:a libmp3lame -q:a 2 "${speedPath}" -y`,
+      `ffmpeg -i "${audioPath}" -filter:a "${atempoFilter}" ${codecArgs} "${speedPath}" -y`,
       { timeout: 30000, stdio: 'pipe' }
     );
 
@@ -171,76 +183,124 @@ async function applySpeedUp(audioPath, speedFactor) {
   }
 }
 
-// ── VieNeu TTS API call ──────────────────────────────────────────────────────
+// ── Optional clarity enhancement (FFmpeg) ───────────────────────────────────
 
-async function callVieNeuTTS(text, outputPath) {
-  const { default: fetch } = await import("node-fetch");
-  const url = config.vieneu.apiUrl;
+async function enhanceAudio(audioPath, enhanceOptions) {
+  if (!audioPath) return audioPath;
+  if (!enhanceOptions || enhanceOptions.enabled !== true) return audioPath;
+  if (!existsSync(audioPath)) return audioPath;
 
-  let audioData = null;
+  const parsedPath = path.parse(audioPath);
+  const enhancedPath = path.join(parsedPath.dir, `${parsedPath.name}_enhanced${parsedPath.ext}`);
 
-  // Attempt 1: Standard REST API
+  if (existsSync(enhancedPath) && enhancedPath !== audioPath) {
+    return enhancedPath;
+  }
+
+  const filters = [];
+  const hp = Number(enhanceOptions.highpassHz || 0);
+  const lp = Number(enhanceOptions.lowpassHz || 0);
+
+  if (Number.isFinite(hp) && hp > 0) filters.push(`highpass=f=${hp}`);
+  if (Number.isFinite(lp) && lp > 0) filters.push(`lowpass=f=${lp}`);
+  if (enhanceOptions.denoise !== false) filters.push("afftdn=nf=-25");
+  if (enhanceOptions.normalize !== false) filters.push("dynaudnorm=f=150:g=15");
+  if (enhanceOptions.limiter !== false) filters.push("alimiter=limit=0.97");
+
+  const filterGraph = filters.join(",");
+  if (!filterGraph) return audioPath;
+
   try {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        text,
-        voice: config.vieneu.voice,
-        speed: config.vieneu.speed,
-        format: config.vieneu.outputFormat,
-      }),
-      signal: AbortSignal.timeout(config.vieneu.timeout || 60000),
-    });
+    logger.info(`       🧼 Enhancing audio...`);
 
-    if (res.ok) {
-      const contentType = res.headers.get("content-type") || "";
-      if (contentType.includes("audio")) {
-        audioData = Buffer.from(await res.arrayBuffer());
-      } else {
-        const json = await res.json();
-        if (json.audio) {
-          audioData = Buffer.from(json.audio, "base64");
-        } else if (json.data?.[0]) {
-          const b64 = json.data[0].replace(/^data:audio\/\w+;base64,/, "");
-          audioData = Buffer.from(b64, "base64");
-        }
+    const ext = (parsedPath.ext || "").toLowerCase();
+    const isWav = ext === ".wav";
+    const codecArgs = isWav
+      ? `-c:a pcm_s16le -ar 44100 -ac 2`
+      : `-c:a libmp3lame -q:a 2`;
+
+    execSync(
+      `ffmpeg -i "${audioPath}" -filter:a "${filterGraph}" ${codecArgs} "${enhancedPath}" -y`,
+      { timeout: 30000, stdio: "pipe" }
+    );
+
+    if (existsSync(enhancedPath) && enhancedPath !== audioPath) {
+      try { unlinkSync(audioPath); } catch { }
+    }
+
+    return enhancedPath;
+  } catch (err) {
+    logger.warn(`       Enhance failed: ${err.message}, using original`);
+    return audioPath;
+  }
+}
+
+// ── OmniVoice (local server) ────────────────────────────────────────────────
+
+async function probeOmniVoice() {
+  const { default: fetch } = await import("node-fetch");
+  const baseUrl = String(config.omnivoice?.serverUrl || "").replace(/\/+$/, "");
+  if (!baseUrl) return false;
+
+  const res = await fetch(`${baseUrl}/health`, {
+    method: "GET",
+    signal: AbortSignal.timeout(config.omnivoice?.timeout || 120000),
+  });
+
+  if (!res.ok) return false;
+  try {
+    const json = await res.json();
+    if (!json?.ok) return false;
+    if (json?.modelLoaded === false) return false;
+
+    const requireGpu = config.omnivoice?.requireGpu !== false;
+    if (requireGpu) {
+      const modelDevice = String(json?.modelDevice || "").toLowerCase();
+      const cudaAvailable = json?.cudaAvailable !== false;
+      const okGpu = cudaAvailable && (modelDevice.startsWith("cuda") || modelDevice === "cuda");
+      if (!okGpu) {
+        logger.warn(
+          `OmniVoice health ok but not on GPU (requireGpu=true). modelDevice=${json?.modelDevice || "(unknown)"} cudaAvailable=${json?.cudaAvailable}`
+        );
+        return false;
       }
     }
-  } catch (e) {
-    // Fall through
+
+    return true;
+  } catch {
+    return true;
+  }
+}
+
+async function callOmniVoiceTTS(text, outputPath, refAudioPath) {
+  const { default: fetch } = await import("node-fetch");
+
+  const baseUrl = String(config.omnivoice?.serverUrl || "").replace(/\/+$/, "");
+  if (!baseUrl) throw new Error("OmniVoice serverUrl is not configured");
+  if (!refAudioPath || !existsSync(refAudioPath)) throw new Error(`OmniVoice ref audio missing: ${refAudioPath || "(empty)"}`);
+
+  const absOutputPath = resolvePath(outputPath);
+  const res = await fetch(`${baseUrl}/tts`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      text,
+      ref_audio_path: refAudioPath,
+      ref_text: config.omnivoice?.refText || "",
+      output_path: absOutputPath,
+      output_sr: 24000,
+    }),
+    signal: AbortSignal.timeout(config.omnivoice?.timeout || 120000),
+  });
+
+  if (!res.ok) {
+    const body = await safeReadText(res);
+    throw new Error(`OmniVoice HTTP ${res.status}: ${body || res.statusText}`);
   }
 
-  // Attempt 2: Gradio /run/predict format
-  if (!audioData) {
-    try {
-      const gradioUrl = url.replace(/\/api\/tts$/, "/run/predict");
-      const res = await fetch(gradioUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          data: [text, config.vieneu.voice, config.vieneu.speed],
-          fn_index: 0,
-        }),
-        signal: AbortSignal.timeout(config.vieneu.timeout || 60000),
-      });
-
-      if (res.ok) {
-        const json = await res.json();
-        const b64 = (json.data?.[0] || "").replace(/^data:audio\/\w+;base64,/, "");
-        if (b64) audioData = Buffer.from(b64, "base64");
-      }
-    } catch (e) {
-      // Fall through
-    }
-  }
-
-  if (!audioData || audioData.length < 100) {
-    throw new Error("VieNeu returned no audio data");
-  }
-
-  writeFileSync(outputPath, audioData);
-  return outputPath;
+  const json = await res.json().catch(() => null);
+  const returnedPath = json?.outputPath || json?.output_path || absOutputPath;
+  return returnedPath;
 }
 
 // ── Google Translate TTS (reliable fallback) ─────────────────────────────────
@@ -347,6 +407,19 @@ async function callGoogleTTS(text, outputPath) {
     for (const p of tempParts) {
       try { unlinkSync(p); } catch { }
     }
+  }
+}
+
+function resolvePath(p) {
+  if (!p) return "";
+  return path.isAbsolute(p) ? p : path.resolve(process.cwd(), p);
+}
+
+async function safeReadText(res) {
+  try {
+    return await res.text();
+  } catch {
+    return "";
   }
 }
 
