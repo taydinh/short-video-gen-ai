@@ -52,6 +52,18 @@ Các loại composition có sẵn:
 7. "context-bars": Các thanh context xếp chồng (cần "rows": [{icon, label, value}])
 8. "promo-card": Promo/CTA (cần "promo": {badge, button, url, commentPrompt, logos[]})
 
+Nhóm football/broadcast dùng cho nội dung bóng đá, FIFA, World Cup theo hướng editorial-safe:
+1. "football-match-card": poster mở đầu trận/sự kiện (cần "teams": [{name, code, form}], optional "stage", "competitionLabel", "venue", "minute")
+2. "football-scoreboard": bảng tỉ số + đồng hồ trận (cần "teams", "score": [home, away], optional "minute", "competitionLabel")
+3. "football-player-stat": spotlight cầu thủ/đội (cần "player" hoặc "playerName", optional "team", "number", "stats": [{label, value, unit}])
+4. "football-bracket-flow": hành trình giải đấu/vòng knock-out (cần "stages": [{stage, title}] hoặc "events")
+5. "football-timeline": diễn biến trận theo phút (cần "events": [{minute, title, desc}])
+
+Brand safety cho FIFA/World Cup:
+- Có thể nhắc "FIFA", "World Cup", "FIFA World Cup" trong title/voiceText/subtext theo ngữ cảnh tin tức, phân tích, lịch sử, nhận định.
+- KHÔNG yêu cầu, mô tả, hoặc tạo logo FIFA, emblem World Cup chính thức, hình cúp chính thức, mascot, slogan chính thức, hoặc visual khiến video trông như nội dung official/sponsored.
+- Dùng icon bóng đá generic, sân cỏ, bảng tỉ số, bracket, stat overlay, cúp generic nếu thật cần nhưng không mô phỏng trophy chính thức.
+
 Ngoài ra vẫn dùng được các composition cũ (nếu cần):
 - "hero-title", "bullet-points", "quote-card", "stat-highlight", "infographic-chart", "stats-grid", "terminal", "callout", "cta-card", "comparison", "code-diff"
 
@@ -75,6 +87,7 @@ GỢI Ý (KHÔNG CỨNG NHẮC) để đa dạng hóa video:
   - "infographic-chart": khi có số liệu/tỉ lệ/so sánh đơn giản
   - "comparison": khi có đối chiếu “A vs B”, “trước vs sau”, “hiểu đúng vs hiểu sai”
   - "code-diff": khi có “đổi trước/sau”, “bản cũ/bản mới”, hoặc minh họa thay đổi rõ ràng theo 2 cột
+  - Với nội dung bóng đá/FIFA/World Cup: ưu tiên xoay vòng "football-match-card", "football-scoreboard", "football-player-stat", "football-bracket-flow", "football-timeline"
   - "ui-cards", "process-steps", "stats-cards-grid", "quote-attrib", "context-bars" (tùy ý)
   - Dùng "joly-number-counter" cho số liệu nổi bật; "joly-bento-grid" cho 3-5 ý tóm tắt; "joly-code-block" cho nội dung tech/cybersecurity; "joly-animated-beam" cho luồng dữ liệu/quy trình; "joly-highlight-text", "joly-typewriter-text", "joly-text-morphing", "joly-velocity-morph", "joly-glitch-text" cho hook/từ khóa mạnh; "joly-phone-card" cho demo app; "joly-image-comparison" cho trước/sau.
   - "kinetic-title": chỉ dùng khi có 1 cụm từ khóa mạnh (không bắt buộc phải có ở Scene 6)
@@ -128,6 +141,12 @@ Các loại animation:
 - "wave-lines": Sóng chạy ngang
 - "glow-orbits": Vòng tròn sáng quay
 - "fireflies": Đom đóm nhấp nháy
+- Football visuals dùng trực tiếp trong visuals.type:
+  - "football-pitch-lines": nền sân cỏ + đường kẻ sân, nên dùng position:"background", opacity 0.25-0.55
+  - "football-ball-motion": bóng generic bay/lăn qua khung, nên dùng foreground hoặc default
+  - "football-scorebug": overlay tỉ số nhỏ ở đầu video, cần teams/score/minute
+  - "football-stat-bars": thanh thống kê hai đội, cần stats: [{label, home, away, unit}]
+  - "football-confetti": confetti bàn thắng/chung kết, dùng vừa phải để không che subtitle
 
 Các loại motion:
 - "float": Lơ lửng lên xuống
@@ -152,6 +171,7 @@ Mỗi scene cần đầy đủ:
 - accentColor: màu hex nổi bật
 - visuals: (optional) theo hướng dẫn
 - Với composition "joly-*": có thể thêm "items", "codeLines", "code", "phone", "nodes", "images", "beforeImage", "afterImage", "value", "number", "text", "words" tùy component như mô tả ở trên.
+- Với composition "football-*": có thể thêm "teams", "score", "minute", "stats", "events", "stages", "stage", "competitionLabel", "venue", "player", "team", "number". Nếu thiếu field, hệ thống có fallback generic.
 
 TRẢ VỀ CHỈ JSON THUẦN TÚY, không giải thích thêm.`;
 
@@ -226,6 +246,20 @@ export async function generateStoryboard(content, title, outputDir) {
       good: scene.good || null,
       badLabel: scene.badLabel || null,
       goodLabel: scene.goodLabel || null,
+      // Football / broadcast composition fields
+      teams: scene.teams || null,
+      score: scene.score || null,
+      minute: scene.minute || null,
+      events: scene.events || null,
+      stages: scene.stages || null,
+      stage: scene.stage || null,
+      competitionLabel: scene.competitionLabel || null,
+      venue: scene.venue || null,
+      player: scene.player || null,
+      playerName: scene.playerName || null,
+      team: scene.team || null,
+      club: scene.club || null,
+      jersey: scene.jersey || null,
       // Joly-inspired HTML component fields
       joly: scene.joly || null,
       items: scene.items || null,

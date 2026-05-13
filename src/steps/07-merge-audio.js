@@ -60,7 +60,7 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
     const mixInputs = `[0:a]` + scenesWithAudio.map((_, i) => `[a${i}]`).join("");
     const numInputs = scenesWithAudio.length + 1;
 
-    const mixFilter = `${mixInputs}amix=inputs=${numInputs}:duration=longest:normalize=0,volume=${numInputs}[amix]`;
+    const mixFilter = `${mixInputs}amix=inputs=${numInputs}:duration=longest:normalize=0,volume=0.85[amix]`;
 
     const filterComplex = [...delayFilters, mixFilter].join(";");
 

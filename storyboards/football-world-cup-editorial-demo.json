@@ -1,0 +1,186 @@
+{
+  "title": "FIFA World Cup: Những chi tiết làm nên một trận đấu lớn",
+  "slug": "football-world-cup-editorial-demo",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Một trận đấu lớn được kể như thế nào?",
+      "voiceText": "Một trận đấu lớn được kể như thế nào? Không chỉ bằng tỉ số, mà bằng nhịp trận, khoảnh khắc và những con số phía sau.",
+      "subtext": "Câu chuyện truyền hình bóng đá",
+      "karaokeStyle": "underline",
+      "duration": 5,
+      "startTime": 0,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Bình luận World Cup",
+      "stage": "Trước trận",
+      "venue": "Phân tích bóng đá tổng quát",
+      "teams": [
+        { "name": "Đội Áo Đỏ", "code": "ĐỎ", "form": ["W", "D", "W"] },
+        { "name": "Đội Áo Xanh", "code": "XANH", "form": ["W", "W", "L"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.38 },
+        { "type": "football-ball-motion", "duration": 3.6, "top": "62%" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Tỉ số chỉ là lớp đầu",
+      "voiceText": "Theo đó, tỉ số chỉ là lớp đầu. Một bảng tỉ số tốt giúp người xem nắm ngay đội nào đang dẫn, trận ở phút bao nhiêu, và bối cảnh đang căng tới mức nào.",
+      "subtext": "Bảng tỉ số và đồng hồ trận",
+      "karaokeStyle": "underline",
+      "duration": 5,
+      "startTime": 5,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Cập nhật trận đấu",
+      "minute": "67'",
+      "score": [2, 1],
+      "teams": ["Đội Áo Đỏ", "Đội Áo Xanh"],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.32 },
+        { "type": "football-scorebug", "teams": ["ĐỎ", "XANH"], "score": [2, 1], "minute": "67'", "label": "Bối cảnh trực tiếp" }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Người thay đổi trận đấu",
+      "voiceText": "Tiếp theo là nhân vật tạo khác biệt. Thay vì chỉ nói cảm tính, lớp thống kê có thể làm rõ cầu thủ ấy tác động đến trận đấu bằng cách nào.",
+      "subtext": "Điểm sáng của trận đấu",
+      "karaokeStyle": "underline",
+      "duration": 5,
+      "startTime": 10,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Nhạc Trưởng Tuyến Giữa",
+      "team": "Đội Áo Đỏ",
+      "number": "8",
+      "stats": [
+        { "label": "Đường chuyền mở cơ hội", "value": "4" },
+        { "label": "Cơ hội tạo ra", "value": "3" },
+        { "label": "Tỉ lệ chuyền chính xác", "value": "91", "unit": "%" },
+        { "label": "Tranh chấp thắng", "value": "7" }
+      ],
+      "visuals": { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 }
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Ba mốc làm đổi chiều",
+      "voiceText": "Bên cạnh đó, dòng thời gian theo phút giúp câu chuyện có nhịp. Bàn thắng, thay người, hay một pha cứu thua đều có vị trí riêng trong diễn biến.",
+      "subtext": "Dòng thời gian theo phút",
+      "karaokeStyle": "underline",
+      "duration": 6,
+      "startTime": 15,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "12'", "title": "Sức ép đầu trận", "desc": "Pressing cao tạo cơ hội đầu tiên" },
+        { "minute": "45+2'", "title": "Bước ngoặt", "desc": "Tình huống cố định làm đổi nhịp trận" },
+        { "minute": "67'", "title": "Thay người chiến thuật", "desc": "Nhân sự mới tấn công vào khoảng trống giữa tuyến" },
+        { "minute": "90'", "title": "Chi tiết cuối", "desc": "Một pha xử lý quyết định kết quả" }
+      ],
+      "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Hành trình đến trận cuối",
+      "voiceText": "Hơn thế nữa, với World Cup hay các giải đấu lớn, sơ đồ nhánh biến một chuỗi trận thành hành trình để người xem dễ ghi nhớ.",
+      "subtext": "Sơ đồ hành trình giải đấu",
+      "karaokeStyle": "underline",
+      "duration": 6,
+      "startTime": 21,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Đường đến chung kết",
+      "stages": [
+        { "stage": "Vòng bảng", "title": "Khởi đầu chắc chắn" },
+        { "stage": "Vòng 1/8", "title": "Trận loại trực tiếp" },
+        { "stage": "Bán kết", "title": "Bản lĩnh lên tiếng" },
+        { "stage": "Chung kết", "title": "Một trận quyết định" }
+      ],
+      "visuals": { "type": "football-pitch-lines", "position": "background", "opacity": 0.24 }
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Thống kê tạo góc nhìn",
+      "voiceText": "Mặc dù vậy, trận đấu hay không nằm ở việc lớp đồ họa có đẹp hay không. Nó phải giúp người xem hiểu vì sao cục diện trận đấu thay đổi.",
+      "subtext": "Thống kê giải thích trận đấu",
+      "karaokeStyle": "underline",
+      "duration": 5,
+      "startTime": 27,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Lớp thống kê",
+      "minute": "Hết giờ",
+      "score": [2, 1],
+      "teams": ["Đội Áo Đỏ", "Đội Áo Xanh"],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "170px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 58, "away": 42, "unit": "%" },
+            { "label": "Cú sút", "home": 14, "away": 9 },
+            { "label": "Bàn thắng kỳ vọng", "home": 1.9, "away": 1.1 },
+            { "label": "Pha cứu thua", "home": 3, "away": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "An toàn thương hiệu",
+      "voiceText": "Quan trọng nhất, nếu nói về FIFA hay World Cup, video nên giữ tính biên tập. Không cần logo chính thức mà vẫn có thể tạo được không khí bóng đá.",
+      "subtext": "Không dùng dấu hiệu chính thức",
+      "karaokeStyle": "underline",
+      "duration": 5,
+      "startTime": 32,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "quote": "Không cần dấu hiệu chính thức. Ngôn ngữ bóng đá đã đủ để kể chuyện.",
+      "quoteAuthor": "Gói chuyển động bóng đá",
+      "quoteRole": "Hệ thống hình ảnh an toàn cho nội dung biên tập",
+      "visuals": { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 }
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Bạn muốn phân tích trận nào tiếp?",
+      "voiceText": "Nếu bạn muốn mình biến một trận đấu cụ thể thành video short, hãy để lại tên trận đấu và follow để xem phiên bản tiếp theo.",
+      "subtext": "Bình luận trận đấu bạn muốn xem",
+      "karaokeStyle": "underline",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ]
+}

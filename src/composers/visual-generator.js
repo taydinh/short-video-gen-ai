@@ -25,6 +25,17 @@ function generateSingleVisualHTML(visuals, cid) {
     if (!visuals || typeof visuals !== 'object') return '';
 
     switch (visuals.type) {
+        case 'football-pitch-lines':
+            return generateFootballPitchLinesHTML(visuals, cid);
+        case 'football-ball-motion':
+            return generateFootballBallMotionHTML(visuals, cid);
+        case 'football-scorebug':
+            return generateFootballScorebugHTML(visuals, cid);
+        case 'football-stat-bars':
+        case 'football-stat-radar':
+            return generateFootballStatsHTML(visuals, cid);
+        case 'football-confetti':
+            return generateFootballConfettiHTML(visuals, cid);
         case 'image':
             return generateImageHTML(visuals, cid);
         case 'animation':
@@ -36,6 +47,252 @@ function generateSingleVisualHTML(visuals, cid) {
         default:
             return '';
     }
+}
+
+function footballZIndex(visuals, fallback = 0) {
+    return visuals.position === 'foreground' ? 3 : fallback;
+}
+
+function footballPalette(visuals) {
+    return {
+        grass: visuals.grassColor || '#137A3A',
+        darkGrass: visuals.darkGrassColor || '#0F5E30',
+        line: visuals.lineColor || 'rgba(255,255,255,0.72)',
+        accent: visuals.accentColor || '#F7C948',
+        navy: visuals.navyColor || '#08111F',
+        red: visuals.redColor || '#EF4444',
+    };
+}
+
+function generateFootballPitchLinesHTML(visuals, cid) {
+    const p = footballPalette(visuals);
+    const opacity = visuals.opacity ?? 0.46;
+    const zIndex = footballZIndex(visuals, 0);
+    const scanDuration = visuals.duration || 8;
+    return `
+    <style>
+      @keyframes football-pitch-scan-${cid} {
+        0% { transform: translate3d(0, -22px, 0) scale(1.02); }
+        50% { transform: translate3d(0, 18px, 0) scale(1.055); }
+        100% { transform: translate3d(0, -22px, 0) scale(1.02); }
+      }
+      .football-pitch-${cid} {
+        animation: football-pitch-scan-${cid} ${scanDuration}s ease-in-out infinite;
+        transform-origin: 50% 50%;
+      }
+    </style>
+    <div class="football-pitch-lines football-pitch-${cid}" data-layout-allow-overflow style="
+      position:absolute;
+      inset:-70px -44px;
+      z-index:${zIndex};
+      opacity:${opacity};
+      pointer-events:none;
+      overflow:hidden;
+      background:
+        linear-gradient(90deg, ${p.grass} 0 12.5%, ${p.darkGrass} 12.5% 25%, ${p.grass} 25% 37.5%, ${p.darkGrass} 37.5% 50%, ${p.grass} 50% 62.5%, ${p.darkGrass} 62.5% 75%, ${p.grass} 75% 87.5%, ${p.darkGrass} 87.5% 100%);
+    ">
+      <svg viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="none" style="position:absolute; inset:0;">
+        <defs>
+          <filter id="football-line-glow-${cid}">
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <rect x="92" y="112" width="${width - 184}" height="${height - 224}" rx="34" fill="none" stroke="${p.line}" stroke-width="8" filter="url(#football-line-glow-${cid})"/>
+        <line x1="92" y1="${height / 2}" x2="${width - 92}" y2="${height / 2}" stroke="${p.line}" stroke-width="7"/>
+        <circle cx="${width / 2}" cy="${height / 2}" r="164" fill="none" stroke="${p.line}" stroke-width="7"/>
+        <circle cx="${width / 2}" cy="${height / 2}" r="12" fill="${p.line}"/>
+        <rect x="250" y="112" width="${width - 500}" height="250" rx="20" fill="none" stroke="${p.line}" stroke-width="7"/>
+        <rect x="358" y="112" width="${width - 716}" height="104" rx="14" fill="none" stroke="${p.line}" stroke-width="6"/>
+        <rect x="250" y="${height - 362}" width="${width - 500}" height="250" rx="20" fill="none" stroke="${p.line}" stroke-width="7"/>
+        <rect x="358" y="${height - 216}" width="${width - 716}" height="104" rx="14" fill="none" stroke="${p.line}" stroke-width="6"/>
+        <path d="M ${width / 2 - 90} 362 A 118 118 0 0 0 ${width / 2 + 90} 362" fill="none" stroke="${p.line}" stroke-width="6"/>
+        <path d="M ${width / 2 - 90} ${height - 362} A 118 118 0 0 1 ${width / 2 + 90} ${height - 362}" fill="none" stroke="${p.line}" stroke-width="6"/>
+      </svg>
+      <div style="position:absolute; inset:0; background:radial-gradient(circle at 50% 48%, rgba(247,201,72,0.18), transparent 42%), linear-gradient(180deg, rgba(8,17,31,0.12), rgba(8,17,31,0.62));"></div>
+    </div>`;
+}
+
+function generateFootballBallMotionHTML(visuals, cid) {
+    const size = Number.isFinite(visuals.size) ? visuals.size : 112;
+    const duration = visuals.duration || 3.4;
+    const zIndex = footballZIndex(visuals, 2);
+    const top = visuals.top || '58%';
+    const fromX = visuals.fromX || '-18vw';
+    const toX = visuals.toX || '112vw';
+    const arc = visuals.arc || '-90px';
+    return `
+    <style>
+      @keyframes football-ball-flight-${cid} {
+        0% { transform: translate(${fromX}, 0) rotate(0deg) scale(0.92); opacity:0; }
+        12% { opacity:1; }
+        52% { transform: translate(50vw, ${arc}) rotate(520deg) scale(1.02); opacity:1; }
+        92% { opacity:1; }
+        100% { transform: translate(${toX}, 34px) rotate(1040deg) scale(0.96); opacity:0; }
+      }
+      .football-ball-${cid} {
+        animation: football-ball-flight-${cid} ${duration}s cubic-bezier(.18,.72,.22,1) infinite;
+      }
+    </style>
+    <div class="football-ball-${cid}" data-layout-allow-overflow style="
+      position:absolute;
+      left:0;
+      top:${top};
+      z-index:${zIndex};
+      width:${size}px;
+      height:${size}px;
+      border-radius:999px;
+      pointer-events:none;
+      filter:drop-shadow(0 26px 24px rgba(0,0,0,0.42));
+      background:
+        radial-gradient(circle at 50% 50%, #111 0 14%, transparent 15%),
+        conic-gradient(from 18deg, #111 0 10%, #f8fafc 10% 20%, #111 20% 30%, #f8fafc 30% 42%, #111 42% 54%, #f8fafc 54% 66%, #111 66% 78%, #f8fafc 78% 100%);
+      border:5px solid rgba(255,255,255,0.9);
+      box-shadow:inset -18px -20px 28px rgba(0,0,0,0.20), inset 16px 12px 20px rgba(255,255,255,0.62);
+    "></div>`;
+}
+
+function generateFootballScorebugHTML(visuals, cid) {
+    const p = footballPalette(visuals);
+    const teams = Array.isArray(visuals.teams) && visuals.teams.length >= 2 ? visuals.teams : ['HOME', 'AWAY'];
+    const score = Array.isArray(visuals.score) && visuals.score.length >= 2 ? visuals.score : [0, 0];
+    const minute = visuals.minute || "00'";
+    const label = visuals.label || visuals.competitionLabel || 'MATCH UPDATE';
+    const zIndex = footballZIndex(visuals, 3);
+    const top = visuals.top || '54px';
+    return `
+    <div class="football-scorebug" style="
+      position:absolute;
+      top:${top};
+      left:50%;
+      transform:translateX(-50%);
+      z-index:${zIndex};
+      display:flex;
+      align-items:center;
+      gap:0;
+      height:76px;
+      pointer-events:none;
+      filter:drop-shadow(0 18px 28px rgba(0,0,0,0.38));
+      font-family:'Inter', sans-serif;
+    ">
+      <div style="height:100%; padding:0 22px; display:flex; align-items:center; background:${p.navy}; border:1px solid rgba(255,255,255,0.16); border-radius:22px 0 0 22px; color:#fff; font-size:24px; font-weight:900; letter-spacing:0.04em;">${escapeHtmlForVisuals(teams[0])}</div>
+      <div style="height:100%; min-width:144px; padding:0 24px; display:flex; align-items:center; justify-content:center; background:${p.accent}; color:#08111F; font-size:42px; font-weight:950; letter-spacing:0.02em;">${escapeHtmlForVisuals(String(score[0]))} - ${escapeHtmlForVisuals(String(score[1]))}</div>
+      <div style="height:100%; padding:0 22px; display:flex; align-items:center; background:${p.navy}; border:1px solid rgba(255,255,255,0.16); border-radius:0 22px 22px 0; color:#fff; font-size:24px; font-weight:900; letter-spacing:0.04em;">${escapeHtmlForVisuals(teams[1])}</div>
+      <div style="position:absolute; left:50%; top:86px; transform:translateX(-50%); padding:8px 16px; border-radius:999px; background:rgba(8,17,31,0.78); color:rgba(255,255,255,0.82); border:1px solid rgba(255,255,255,0.16); font-size:16px; font-weight:900; letter-spacing:0.12em; white-space:nowrap;">${escapeHtmlForVisuals(label)} • ${escapeHtmlForVisuals(minute)}</div>
+    </div>`;
+}
+
+function generateFootballStatsHTML(visuals, cid) {
+    const p = footballPalette(visuals);
+    const stats = Array.isArray(visuals.stats) && visuals.stats.length
+        ? visuals.stats
+        : [
+            { label: 'Possession', home: 54, away: 46, unit: '%' },
+            { label: 'Shots', home: 12, away: 8, unit: '' },
+            { label: 'xG', home: 1.8, away: 0.9, unit: '' },
+        ];
+    const zIndex = footballZIndex(visuals, 2);
+    const bottom = visuals.bottom || '178px';
+    return `
+    <div class="football-stat-bars" style="
+      position:absolute;
+      left:70px;
+      right:70px;
+      bottom:${bottom};
+      z-index:${zIndex};
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+      padding:24px 26px;
+      border-radius:28px;
+      background:rgba(8,17,31,0.78);
+      border:1px solid rgba(255,255,255,0.14);
+      backdrop-filter:blur(10px);
+      pointer-events:none;
+      font-family:'Inter', sans-serif;
+    ">
+      ${stats.slice(0, 5).map((stat) => {
+        const home = Number(stat.home ?? stat.left ?? 50);
+        const away = Number(stat.away ?? stat.right ?? Math.max(0, 100 - home));
+        const total = Math.max(1, Math.abs(home) + Math.abs(away));
+        const homePct = Math.max(8, Math.min(92, (Math.abs(home) / total) * 100));
+        const awayPct = Math.max(8, Math.min(92, (Math.abs(away) / total) * 100));
+        return `
+        <div style="display:grid; grid-template-columns:92px 1fr 184px 1fr 92px; align-items:center; gap:12px; color:#fff;">
+          <div style="font-size:24px; font-weight:950; text-align:right;">${escapeHtmlForVisuals(String(home))}${escapeHtmlForVisuals(stat.unit || '')}</div>
+          <div style="height:16px; border-radius:999px; background:rgba(255,255,255,0.12); overflow:hidden;"><div style="height:100%; width:${homePct}%; margin-left:auto; border-radius:999px; background:${p.accent};"></div></div>
+          <div style="font-size:18px; font-weight:900; color:rgba(255,255,255,0.72); text-align:center; text-transform:uppercase; letter-spacing:0.08em;">${escapeHtmlForVisuals(stat.label || '')}</div>
+          <div style="height:16px; border-radius:999px; background:rgba(255,255,255,0.12); overflow:hidden;"><div style="height:100%; width:${awayPct}%; border-radius:999px; background:#ffffff;"></div></div>
+          <div style="font-size:24px; font-weight:950;">${escapeHtmlForVisuals(String(away))}${escapeHtmlForVisuals(stat.unit || '')}</div>
+        </div>`;
+      }).join('')}
+    </div>`;
+}
+
+function generateFootballConfettiHTML(visuals, cid) {
+    const zIndex = footballZIndex(visuals, 2);
+    const particleCount = visuals.particleCount || 90;
+    const colors = JSON.stringify(visuals.colors || ['#F7C948', '#ffffff', '#137A3A', '#EF4444']);
+    const duration = visuals.duration || 4.8;
+    return `
+    <canvas id="football-confetti-${cid}" style="position:absolute; inset:0; z-index:${zIndex}; pointer-events:none;"></canvas>
+    <script>
+      (function() {
+        const canvas = document.getElementById('football-confetti-${cid}');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+        canvas.width = ${width};
+        canvas.height = ${height};
+        const colors = ${colors};
+        let seed = ${Array.from(cid).reduce((acc, ch) => acc + ch.charCodeAt(0), 1729)};
+        function rand() {
+          seed |= 0;
+          seed = seed + 0x6D2B79F5 | 0;
+          let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+          t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+          return ((t ^ t >>> 14) >>> 0) / 4294967296;
+        }
+        const pieces = [];
+        for (let i = 0; i < ${particleCount}; i++) {
+          pieces.push({
+            x: rand() * canvas.width,
+            y: -80 - rand() * canvas.height * 0.42,
+            w: 8 + rand() * 12,
+            h: 12 + rand() * 18,
+            color: colors[Math.floor(rand() * colors.length)],
+            vx: -1.2 + rand() * 2.4,
+            vy: 2.2 + rand() * 4.2,
+            rot: rand() * Math.PI,
+            vr: -0.09 + rand() * 0.18,
+            alpha: 0.68 + rand() * 0.32
+          });
+        }
+        let start = null;
+        function animate(ts) {
+          if (start === null) start = ts;
+          const elapsed = (ts - start) / 1000;
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          pieces.forEach((p) => {
+            p.x += p.vx;
+            p.y += p.vy;
+            p.rot += p.vr;
+            if (p.y > canvas.height + 80) {
+              p.y = -80;
+              p.x = rand() * canvas.width;
+            }
+            ctx.save();
+            ctx.globalAlpha = Math.max(0, p.alpha * (1 - Math.max(0, elapsed - ${duration - 1.2}) / 1.2));
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.rot);
+            ctx.fillStyle = p.color;
+            ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+            ctx.restore();
+          });
+          if (elapsed < ${duration}) requestAnimationFrame(animate);
+        }
+        requestAnimationFrame(animate);
+      })();
+    </script>`;
 }
 
 function generateImageHTML(visuals, cid) {

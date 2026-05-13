@@ -905,12 +905,475 @@ function composerStyles(scene) {
       line-height: 1.4;
       color: #cbd5e1;
     }
+
+    /* ── Football broadcast primitives ───────────────────────────────────── */
+    [data-composition-id="${cid}"] .football-scene {
+      position: relative;
+      overflow: hidden;
+      color: #ffffff;
+    }
+    [data-composition-id="${cid}"] .football-pitch-bg {
+      position: absolute;
+      inset: -70px -50px;
+      z-index: 0;
+      opacity: 0.58;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, rgba(19,122,58,0.88) 0 12.5%, rgba(15,94,48,0.88) 12.5% 25%, rgba(19,122,58,0.88) 25% 37.5%, rgba(15,94,48,0.88) 37.5% 50%, rgba(19,122,58,0.88) 50% 62.5%, rgba(15,94,48,0.88) 62.5% 75%, rgba(19,122,58,0.88) 75% 87.5%, rgba(15,94,48,0.88) 87.5% 100%);
+      transform: rotate(-4deg) scale(1.08);
+    }
+    [data-composition-id="${cid}"] .football-pitch-bg svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.72;
+    }
+    [data-composition-id="${cid}"] .football-pitch-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 44%, rgba(247,201,72,0.18), transparent 36%), linear-gradient(180deg, rgba(8,17,31,0.10), rgba(8,17,31,0.78));
+    }
+    [data-composition-id="${cid}"] .football-kicker {
+      position: relative;
+      z-index: 2;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: rgba(8,17,31,0.72);
+      border: 1px solid rgba(255,255,255,0.16);
+      color: #F7C948;
+      font-size: 19px;
+      font-weight: 950;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      backdrop-filter: blur(10px);
+    }
+    [data-composition-id="${cid}"] .football-title {
+      position: relative;
+      z-index: 2;
+      margin-top: 24px;
+      max-width: 940px;
+      text-align: center;
+      font-size: 70px;
+      line-height: 1.05;
+      font-weight: 950;
+      letter-spacing: -0.02em;
+      text-shadow: 0 16px 44px rgba(0,0,0,0.42);
+    }
+    [data-composition-id="${cid}"] .football-matchup,
+    [data-composition-id="${cid}"] .football-score-shell,
+    [data-composition-id="${cid}"] .football-player-spotlight,
+    [data-composition-id="${cid}"] .football-bracket,
+    [data-composition-id="${cid}"] .football-event-list {
+      position: relative;
+      z-index: 2;
+    }
+    [data-composition-id="${cid}"] .football-matchup {
+      width: 930px;
+      margin-top: 58px;
+      display: grid;
+      grid-template-columns: 1fr 146px 1fr;
+      gap: 18px;
+      align-items: center;
+    }
+    [data-composition-id="${cid}"] .football-team-card,
+    [data-composition-id="${cid}"] .football-score-shell,
+    [data-composition-id="${cid}"] .football-stat-card,
+    [data-composition-id="${cid}"] .football-event-card,
+    [data-composition-id="${cid}"] .football-bracket-node,
+    [data-composition-id="${cid}"] .football-lower-third {
+      background: rgba(8,17,31,0.78);
+      border: 1px solid rgba(255,255,255,0.14);
+      box-shadow: 0 26px 70px rgba(0,0,0,0.32);
+      backdrop-filter: blur(12px);
+    }
+    [data-composition-id="${cid}"] .football-team-card {
+      min-height: 250px;
+      border-radius: 34px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+    [data-composition-id="${cid}"] .football-team-code {
+      font-size: 22px;
+      font-weight: 950;
+      color: rgba(255,255,255,0.66);
+      letter-spacing: 0.16em;
+    }
+    [data-composition-id="${cid}"] .football-team-name {
+      font-size: 42px;
+      font-weight: 950;
+      line-height: 1.05;
+    }
+    [data-composition-id="${cid}"] .football-team-form {
+      display: flex;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    [data-composition-id="${cid}"] .football-form-dot {
+      width: 18px;
+      height: 18px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.22);
+    }
+    [data-composition-id="${cid}"] .football-vs {
+      height: 146px;
+      border-radius: 999px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: #08111F;
+      background: #F7C948;
+      font-size: 30px;
+      font-weight: 950;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.28);
+    }
+    [data-composition-id="${cid}"] .football-ball-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 999px;
+      border: 3px solid rgba(8,17,31,0.82);
+      background: conic-gradient(from 18deg, #08111F 0 12%, #fff 12% 24%, #08111F 24% 36%, #fff 36% 50%, #08111F 50% 62%, #fff 62% 76%, #08111F 76% 88%, #fff 88% 100%);
+    }
+    [data-composition-id="${cid}"] .football-lower-third {
+      margin-top: 44px;
+      width: 930px;
+      min-height: 74px;
+      border-radius: 22px;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 25px;
+      font-weight: 850;
+    }
+    [data-composition-id="${cid}"] .football-lower-third strong,
+    [data-composition-id="${cid}"] .football-clock {
+      color: #F7C948;
+    }
+    [data-composition-id="${cid}"] .football-score-shell {
+      width: 940px;
+      border-radius: 36px;
+      padding: 42px 38px;
+      text-align: center;
+    }
+    [data-composition-id="${cid}"] .football-clock {
+      margin: 24px auto 30px;
+      width: max-content;
+      padding: 10px 24px;
+      border-radius: 999px;
+      border: 1px solid rgba(247,201,72,0.30);
+      background: rgba(247,201,72,0.10);
+      font-size: 28px;
+      font-weight: 950;
+    }
+    [data-composition-id="${cid}"] .football-score-row {
+      display: grid;
+      grid-template-columns: 1fr 230px 1fr;
+      align-items: center;
+      gap: 24px;
+    }
+    [data-composition-id="${cid}"] .football-score-team {
+      font-size: 34px;
+      line-height: 1.1;
+      font-weight: 950;
+      text-transform: uppercase;
+    }
+    [data-composition-id="${cid}"] .football-score-value {
+      height: 140px;
+      border-radius: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      color: #08111F;
+      background: #F7C948;
+      font-size: 64px;
+      font-weight: 950;
+      box-shadow: inset 0 -8px 0 rgba(8,17,31,0.12);
+    }
+    [data-composition-id="${cid}"] .football-score-note {
+      margin-top: 32px;
+      font-size: 27px;
+      font-weight: 800;
+      color: rgba(255,255,255,0.76);
+    }
+    [data-composition-id="${cid}"] .football-player-spotlight {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 36px;
+    }
+    [data-composition-id="${cid}"] .football-player-note {
+      margin-top: 24px;
+      max-width: 650px;
+      color: rgba(255,255,255,0.76);
+      font-size: 28px;
+      line-height: 1.32;
+      font-weight: 800;
+    }
+    [data-composition-id="${cid}"] .football-shirt {
+      width: 270px;
+      height: 320px;
+      border-radius: 72px 72px 40px 40px;
+      background: linear-gradient(145deg, #F7C948, #f59e0b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 34px 80px rgba(0,0,0,0.35);
+      clip-path: polygon(20% 0, 80% 0, 100% 24%, 86% 42%, 86% 100%, 14% 100%, 14% 42%, 0 24%);
+    }
+    [data-composition-id="${cid}"] .football-shirt-number {
+      color: #08111F;
+      font-size: 106px;
+      font-weight: 950;
+      letter-spacing: -0.04em;
+    }
+    [data-composition-id="${cid}"] .football-stat-grid {
+      position: relative;
+      z-index: 2;
+      margin-top: 54px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    [data-composition-id="${cid}"] .football-stat-card {
+      border-radius: 26px;
+      padding: 28px;
+    }
+    [data-composition-id="${cid}"] .football-stat-value {
+      font-size: 60px;
+      font-weight: 950;
+      color: #F7C948;
+      letter-spacing: -0.03em;
+    }
+    [data-composition-id="${cid}"] .football-stat-label {
+      margin-top: 8px;
+      font-size: 22px;
+      font-weight: 850;
+      color: rgba(255,255,255,0.68);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    [data-composition-id="${cid}"] .football-bracket {
+      margin-top: 46px;
+      width: 900px;
+      height: 560px;
+    }
+    [data-composition-id="${cid}"] .football-bracket-svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+    [data-composition-id="${cid}"] .football-bracket-path {
+      fill: none;
+      stroke: rgba(247,201,72,0.86);
+      stroke-width: 8;
+      stroke-linecap: round;
+      stroke-dasharray: 18 14;
+    }
+    [data-composition-id="${cid}"] .football-bracket-node {
+      position: absolute;
+      width: 214px;
+      min-height: 126px;
+      border-radius: 24px;
+      padding: 20px;
+    }
+    [data-composition-id="${cid}"] .football-node-stage {
+      color: #F7C948;
+      font-size: 15px;
+      font-weight: 950;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    [data-composition-id="${cid}"] .football-node-title {
+      margin-top: 10px;
+      font-size: 24px;
+      line-height: 1.15;
+      font-weight: 950;
+    }
+    [data-composition-id="${cid}"] .football-event-list {
+      margin-top: 38px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+    [data-composition-id="${cid}"] .football-event {
+      display: grid;
+      grid-template-columns: 118px 1fr;
+      gap: 18px;
+      align-items: center;
+    }
+    [data-composition-id="${cid}"] .football-event-minute {
+      height: 78px;
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #08111F;
+      background: #F7C948;
+      font-size: 30px;
+      font-weight: 950;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.28);
+    }
+    [data-composition-id="${cid}"] .football-event-card {
+      border-radius: 24px;
+      padding: 22px 26px;
+    }
+    [data-composition-id="${cid}"] .football-event-title {
+      font-size: 30px;
+      font-weight: 950;
+    }
+    [data-composition-id="${cid}"] .football-event-desc {
+      margin-top: 6px;
+      color: rgba(255,255,255,0.68);
+      font-size: 22px;
+      font-weight: 760;
+    }
   `;
 }
 
 // ── Composition HTML Generators ───────────────────────────────────────────────
 
 const COMPOSERS = {
+  // ── Football / World Cup editorial-safe compositions ──────────────────────
+  "football-match-card": (scene) => {
+    const teams = normalizeFootballTeams(scene);
+    const stage = scene.stage || scene.competitionLabel || "WORLD FOOTBALL";
+    const venue = scene.venue || scene.subtext || "Match preview";
+    return `
+    <div class="canvas football-scene football-match-card" style="align-items:center; justify-content:flex-start; padding:150px 76px 150px; background:${footballBg(scene)};">
+      ${footballPitchBackdrop(scene)}
+      <div class="football-kicker">${escapeHtml(stage)}</div>
+      <h1 class="football-title" id="s${scene.id}-title">${escapeHtml(scene.title || "Football Match")}</h1>
+      <div class="football-matchup" id="s${scene.id}-matchup">
+        ${footballTeamCard(teams[0], scene.accentColor, "left")}
+        <div class="football-vs">
+          <div class="football-ball-icon"></div>
+          <div>VS</div>
+        </div>
+        ${footballTeamCard(teams[1], "#ffffff", "right")}
+      </div>
+      <div class="football-lower-third" id="s${scene.id}-lower">
+        <span>${escapeHtml(venue)}</span>
+        <strong>${escapeHtml(scene.minute || "PRE-MATCH")}</strong>
+      </div>
+    </div>`;
+  },
+
+  "football-scoreboard": (scene) => {
+    const teams = normalizeFootballTeams(scene);
+    const score = normalizeFootballScore(scene);
+    const minute = scene.minute || "90'";
+    const label = scene.competitionLabel || scene.stage || "MATCH UPDATE";
+    return `
+    <div class="canvas football-scene football-scoreboard" style="align-items:center; justify-content:center; padding:150px 76px 170px; background:${footballBg(scene)};">
+      ${footballPitchBackdrop(scene)}
+      <div class="football-score-shell" id="s${scene.id}-score-shell">
+        <div class="football-kicker">${escapeHtml(label)}</div>
+        <div class="football-clock">${escapeHtml(minute)}</div>
+        <div class="football-score-row">
+          <div class="football-score-team">${escapeHtml(teams[0].name)}</div>
+          <div class="football-score-value"><span class="football-score-num">${escapeHtml(String(score[0]))}</span><span>-</span><span class="football-score-num">${escapeHtml(String(score[1]))}</span></div>
+          <div class="football-score-team">${escapeHtml(teams[1].name)}</div>
+        </div>
+        <div class="football-score-note">${escapeHtml(scene.subtext || scene.title || "Dien bien tran dau")}</div>
+      </div>
+    </div>`;
+  },
+
+  "football-player-stat": (scene) => {
+    const stats = normalizeFootballStats(scene);
+    const player = scene.player || scene.playerName || scene.title || "Key Player";
+    const team = scene.team || scene.club || scene.competitionLabel || "Football focus";
+    return `
+    <div class="canvas football-scene football-player-stat" style="align-items:flex-start; justify-content:flex-start; padding:150px 76px 170px; background:${footballBg(scene)};">
+      ${footballPitchBackdrop(scene)}
+      <div class="football-player-spotlight" id="s${scene.id}-player">
+        <div>
+          <div class="football-kicker">${escapeHtml(team)}</div>
+          <h1 class="football-title" id="s${scene.id}-title" style="text-align:left; max-width:650px;">${escapeHtml(player)}</h1>
+          <div class="football-player-note">${escapeHtml(scene.subtext || "Thong so noi bat")}</div>
+        </div>
+        <div class="football-shirt">
+          <div class="football-shirt-number">${escapeHtml(String(scene.number || scene.jersey || "10"))}</div>
+        </div>
+      </div>
+      <div class="football-stat-grid">
+        ${stats.slice(0, 4).map((stat, i) => `
+          <div class="football-stat-card" id="s${scene.id}-stat-${i}">
+            <div class="football-stat-value">${escapeHtml(String(stat.value ?? stat.home ?? ""))}${escapeHtml(stat.unit || "")}</div>
+            <div class="football-stat-label">${escapeHtml(stat.label || "")}</div>
+          </div>
+        `).join("")}
+      </div>
+    </div>`;
+  },
+
+  "football-bracket-flow": (scene) => {
+    const stages = normalizeFootballStages(scene);
+    return `
+    <div class="canvas football-scene football-bracket-flow" style="align-items:center; justify-content:flex-start; padding:150px 76px 170px; background:${footballBg(scene)};">
+      ${footballPitchBackdrop(scene)}
+      <div class="football-kicker">${escapeHtml(scene.competitionLabel || "TOURNAMENT PATH")}</div>
+      <h1 class="football-title" id="s${scene.id}-title">${escapeHtml(scene.title || "Road to the final")}</h1>
+      <div class="football-bracket" id="s${scene.id}-bracket">
+        <svg viewBox="0 0 900 560" class="football-bracket-svg">
+          <path class="football-bracket-path" d="M120 100 C260 100 260 200 410 200 S570 300 760 300" />
+          <path class="football-bracket-path" d="M120 460 C260 460 260 360 410 360 S570 300 760 300" />
+        </svg>
+        ${stages.map((st, i) => {
+          const points = [
+            { x: 42, y: 46 },
+            { x: 42, y: 408 },
+            { x: 330, y: 226 },
+            { x: 666, y: 226 },
+          ];
+          const pt = points[i] || points[points.length - 1];
+          return `
+          <div class="football-bracket-node" id="s${scene.id}-bracket-${i}" style="left:${pt.x}px; top:${pt.y}px;">
+            <div class="football-node-stage">${escapeHtml(st.stage || st.label || `Stage ${i + 1}`)}</div>
+            <div class="football-node-title">${escapeHtml(st.title || st.team || st.value || "")}</div>
+          </div>`;
+        }).join("")}
+      </div>
+    </div>`;
+  },
+
+  "football-timeline": (scene) => {
+    const events = normalizeFootballEvents(scene);
+    return `
+    <div class="canvas football-scene football-timeline" style="align-items:flex-start; justify-content:flex-start; padding:150px 76px 170px; background:${footballBg(scene)};">
+      ${footballPitchBackdrop(scene)}
+      <div class="football-kicker">${escapeHtml(scene.competitionLabel || scene.stage || "MATCH TIMELINE")}</div>
+      <h1 class="football-title" id="s${scene.id}-title" style="text-align:left;">${escapeHtml(scene.title || "Dien bien chinh")}</h1>
+      <div class="football-event-list">
+        ${events.slice(0, 5).map((ev, i) => `
+          <div class="football-event" id="s${scene.id}-event-${i}">
+            <div class="football-event-minute">${escapeHtml(ev.minute || `${i * 15 + 12}'`)}</div>
+            <div class="football-event-card">
+              <div class="football-event-title">${escapeHtml(ev.title || ev.label || "")}</div>
+              <div class="football-event-desc">${escapeHtml(ev.desc || ev.description || ev.value || "")}</div>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    </div>`;
+  },
+
   // ── AI-news compositions (default template set) ────────────────────────────
   "hook-question": (scene) => {
     const label = scene.label || "VẤN ĐỀ THẬT";
@@ -1162,7 +1625,7 @@ const COMPOSERS = {
     if (heroLogo === "assets/logo.svg") heroLogo = "assets/logos/logo.png";
     return `
     <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:150px;">
-      <div class="cta-hearts">${hearts}</div>
+      <div class="cta-hearts" data-layout-allow-overflow>${hearts}</div>
       <div class="ai-title ai-gradient-text" style="font-size:58px; font-weight:900; text-align:center; max-width: 960px;">
         ${escapeHtml(headline)}
       </div>
@@ -1391,7 +1854,7 @@ const COMPOSERS = {
     return `
     <div class="canvas" style="background:linear-gradient(160deg,${scene.bgColor},${lighten(scene.bgColor)}); padding-top:220px;">
       <div class="bg-gradient"></div>
-      <div class="cta-hearts">${hearts}</div>
+      <div class="cta-hearts" data-layout-allow-overflow>${hearts}</div>
       <div class="hero-wrap" style="text-align:center; display:flex; flex-direction:column; align-items:center; transform: translateY(-40px);">
         ${heroMark}
         <h1 class="cta-title ai-gradient-text" id="s${scene.id}-title" style="margin-bottom:20px;">${escapeHtml(scene.title)}</h1>
@@ -1708,6 +2171,39 @@ function buildAnimationScript(scene) {
       if (bad) tl.fromTo(bad, { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.8, ease: "power3.out" }, 0.2);
       if (good) tl.fromTo(good, { x: 60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.8, ease: "power3.out" }, 0.5);`,
 
+    "football-broadcast": () => `
+      const tl = gsap.timeline({ paused: true });
+      const pitch = document.querySelector('[data-composition-id="${cid}"] .football-pitch-bg');
+      if (pitch) tl.fromTo(pitch, { scale: 1.18, opacity: 0.18 }, { scale: 1.08, opacity: 0.58, duration: 1.1, ease: "power2.out" }, 0);
+      const kicker = document.querySelector('[data-composition-id="${cid}"] .football-kicker');
+      if (kicker) tl.fromTo(kicker, { y: -18, opacity: 0 }, { y: 0, opacity: 1, duration: 0.42, ease: "power2.out" }, 0.12);
+      const title = document.querySelector('[data-composition-id="${cid}"] #${s}-title');
+      if (title) tl.fromTo(title, { y: 42, opacity: 0, filter: "blur(8px)" }, { y: 0, opacity: 1, filter: "blur(0px)", duration: 0.72, ease: "power3.out" }, 0.24);
+      const matchup = document.querySelector('[data-composition-id="${cid}"] #${s}-matchup');
+      if (matchup) tl.fromTo(matchup, { y: 54, opacity: 0, scale: 0.96 }, { y: 0, opacity: 1, scale: 1, duration: 0.76, ease: "power3.out" }, 0.55);
+      const lower = document.querySelector('[data-composition-id="${cid}"] #${s}-lower');
+      if (lower) tl.fromTo(lower, { y: 32, opacity: 0 }, { y: 0, opacity: 1, duration: 0.48, ease: "power2.out" }, 0.95);
+      const scoreShell = document.querySelector('[data-composition-id="${cid}"] #${s}-score-shell');
+      if (scoreShell) tl.fromTo(scoreShell, { y: 58, opacity: 0, scale: 0.94 }, { y: 0, opacity: 1, scale: 1, duration: 0.78, ease: "power3.out" }, 0.35);
+      const scoreNums = document.querySelectorAll('[data-composition-id="${cid}"] .football-score-num');
+      if (scoreNums.length) tl.fromTo(scoreNums, { y: -24, opacity: 0, rotateX: -80 }, { y: 0, opacity: 1, rotateX: 0, duration: 0.58, stagger: 0.12, ease: "back.out(1.6)" }, 0.86);
+      const player = document.querySelector('[data-composition-id="${cid}"] #${s}-player');
+      if (player) tl.fromTo(player, { y: 44, opacity: 0 }, { y: 0, opacity: 1, duration: 0.65, ease: "power3.out" }, 0.32);
+      const statCards = document.querySelectorAll('[data-composition-id="${cid}"] .football-stat-card');
+      if (statCards.length) tl.fromTo(statCards, { y: 40, opacity: 0, scale: 0.94 }, { y: 0, opacity: 1, scale: 1, duration: 0.56, stagger: 0.12, ease: "power3.out" }, 0.78);
+      const bracket = document.querySelector('[data-composition-id="${cid}"] #${s}-bracket');
+      if (bracket) tl.fromTo(bracket, { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.58, ease: "power3.out" }, 0.44);
+      const bracketPaths = document.querySelectorAll('[data-composition-id="${cid}"] .football-bracket-path');
+      bracketPaths.forEach((path, i) => {
+        const len = path.getTotalLength ? path.getTotalLength() : 900;
+        tl.set(path, { strokeDasharray: len, strokeDashoffset: len }, 0.48);
+        tl.to(path, { strokeDashoffset: 0, duration: 1.0, ease: "power2.out" }, 0.58 + i * 0.10);
+      });
+      const bracketNodes = document.querySelectorAll('[data-composition-id="${cid}"] .football-bracket-node');
+      if (bracketNodes.length) tl.fromTo(bracketNodes, { scale: 0.82, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.45, stagger: 0.14, ease: "back.out(1.5)" }, 0.84);
+      const events = document.querySelectorAll('[data-composition-id="${cid}"] .football-event');
+      if (events.length) tl.fromTo(events, { x: -54, opacity: 0 }, { x: 0, opacity: 1, duration: 0.52, stagger: 0.16, ease: "power3.out" }, 0.56);`,
+
     // ── AI-news animations ───────────────────────────────────────────────────
     "reveal-stagger": () => `
       const tl = gsap.timeline({ paused: true });
@@ -1795,6 +2291,11 @@ function buildAnimationScript(scene) {
     "countdown": "pulse-glow",
     "feng-shui-card": "image-card-rise",
     "cta-card": "particle-burst",
+    "football-match-card": "football-broadcast",
+    "football-scoreboard": "football-broadcast",
+    "football-player-stat": "football-broadcast",
+    "football-bracket-flow": "football-broadcast",
+    "football-timeline": "football-broadcast",
 
     // AI-news compositions
     "hook-question": "quote-fade",
@@ -1863,6 +2364,129 @@ function escapeHtmlForKaraoke(str) {
 // It will be added to the script section of each scene
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
+
+function normalizeFootballTeams(scene) {
+  const raw = Array.isArray(scene.teams) && scene.teams.length >= 2
+    ? scene.teams
+    : [
+        { name: scene.homeTeam || "Home XI", code: scene.homeCode || "HOME", form: ["W", "D", "W"] },
+        { name: scene.awayTeam || "Away XI", code: scene.awayCode || "AWAY", form: ["W", "L", "W"] },
+      ];
+
+  return raw.slice(0, 2).map((team, i) => {
+    if (typeof team === "string") {
+      return {
+        name: team,
+        code: team.replace(/[^A-Za-z0-9]/g, "").slice(0, 4).toUpperCase() || (i === 0 ? "HOME" : "AWAY"),
+        form: i === 0 ? ["W", "D", "W"] : ["W", "L", "W"],
+      };
+    }
+
+    const name = team?.name || team?.title || (i === 0 ? "Home XI" : "Away XI");
+    return {
+      name,
+      code: team?.code || name.replace(/[^A-Za-z0-9]/g, "").slice(0, 4).toUpperCase() || (i === 0 ? "HOME" : "AWAY"),
+      form: Array.isArray(team?.form) ? team.form.slice(0, 5) : (i === 0 ? ["W", "D", "W"] : ["W", "L", "W"]),
+    };
+  });
+}
+
+function normalizeFootballScore(scene) {
+  if (Array.isArray(scene.score) && scene.score.length >= 2) return scene.score.slice(0, 2);
+  if (scene.score && typeof scene.score === "object") return [scene.score.home ?? 0, scene.score.away ?? 0];
+  if (typeof scene.score === "string") {
+    const m = scene.score.match(/(\d+)\D+(\d+)/);
+    if (m) return [m[1], m[2]];
+  }
+  return [0, 0];
+}
+
+function normalizeFootballStats(scene) {
+  if (Array.isArray(scene.stats) && scene.stats.length) return scene.stats;
+  if (Array.isArray(scene.statsCards) && scene.statsCards.length) {
+    return scene.statsCards.map((s) => ({ label: s.label || s.title, value: s.value || s.big, unit: s.unit || "" }));
+  }
+  return [
+    { label: "Goals", value: scene.goals || "2" },
+    { label: "Shots", value: "14" },
+    { label: "Possession", value: "58", unit: "%" },
+    { label: "xG", value: "1.9" },
+  ];
+}
+
+function normalizeFootballStages(scene) {
+  const fromEvents = Array.isArray(scene.events) ? scene.events : [];
+  const fromRows = Array.isArray(scene.rows) ? scene.rows : [];
+  const raw = Array.isArray(scene.stages) && scene.stages.length
+    ? scene.stages
+    : (fromEvents.length ? fromEvents : fromRows);
+
+  const fallback = [
+    { stage: "Group", title: "Solid start" },
+    { stage: "Round of 16", title: "Knockout test" },
+    { stage: "Semi", title: "Big moment" },
+    { stage: "Final", title: "One match left" },
+  ];
+
+  return (raw.length ? raw : fallback).slice(0, 4).map((x, i) => {
+    if (typeof x === "string") return { stage: `Stage ${i + 1}`, title: x };
+    return x || fallback[i] || { stage: `Stage ${i + 1}`, title: "" };
+  });
+}
+
+function normalizeFootballEvents(scene) {
+  const raw = Array.isArray(scene.events) && scene.events.length
+    ? scene.events
+    : [
+        { minute: "12'", title: "Early pressure", desc: "High press creates the first big chance" },
+        { minute: "45+2'", title: "Momentum swing", desc: "A set-piece changes the rhythm" },
+        { minute: "67'", title: "Key substitution", desc: "Fresh legs attack the half-space" },
+        { minute: "90'", title: "Final push", desc: "The match is decided by one detail" },
+      ];
+
+  return raw.map((x, i) => {
+    if (typeof x === "string") return { minute: `${i * 15 + 12}'`, title: x, desc: "" };
+    return x || {};
+  });
+}
+
+function footballBg(scene) {
+  return `linear-gradient(160deg, ${scene.bgColor || "#08111F"} 0%, #0b1f17 48%, #08111F 100%)`;
+}
+
+function footballPitchBackdrop(scene) {
+  const line = hexToRgba(scene.accentColor || "#F7C948", 0.46);
+  return `
+    <div class="football-pitch-bg" data-layout-allow-overflow>
+      <svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
+        <rect x="94" y="124" width="${width - 188}" height="${height - 248}" rx="34" fill="none" stroke="rgba(255,255,255,0.44)" stroke-width="8"/>
+        <line x1="94" y1="${height / 2}" x2="${width - 94}" y2="${height / 2}" stroke="rgba(255,255,255,0.36)" stroke-width="7"/>
+        <circle cx="${width / 2}" cy="${height / 2}" r="166" fill="none" stroke="${line}" stroke-width="7"/>
+        <rect x="250" y="124" width="${width - 500}" height="244" rx="20" fill="none" stroke="rgba(255,255,255,0.34)" stroke-width="7"/>
+        <rect x="250" y="${height - 368}" width="${width - 500}" height="244" rx="20" fill="none" stroke="rgba(255,255,255,0.34)" stroke-width="7"/>
+      </svg>
+    </div>`;
+}
+
+function footballTeamCard(team, accent, side) {
+  const dots = (team.form || []).slice(0, 5).map((result) => {
+    const color = String(result).toUpperCase().startsWith("W")
+      ? "#34D399"
+      : String(result).toUpperCase().startsWith("D")
+        ? "#F7C948"
+        : "#EF4444";
+    return `<span class="football-form-dot" style="background:${color};"></span>`;
+  }).join("");
+
+  return `
+    <div class="football-team-card football-team-${side}" style="border-color:${hexToRgba(accent || "#F7C948", 0.34)};">
+      <div class="football-team-code">${escapeHtml(team.code)}</div>
+      <div>
+        <div class="football-team-name">${escapeHtml(team.name)}</div>
+        <div class="football-team-form">${dots}</div>
+      </div>
+    </div>`;
+}
 
 function escapeHtml(str) {
   return (str || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
