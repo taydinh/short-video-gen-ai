@@ -1,0 +1,235 @@
+{
+  "title": "Cú Sốc NotebookLM: AI Biết 'Hồi Xuân' và Có Cảm Xúc?",
+  "slug": "notebooklm-ai-podcast-existential-crisis",
+  "sourceNotes": [
+    "Tính năng Audio Overview của Google NotebookLM đang gây bão toàn cầu",
+    "Người dùng phát hiện AI có thể tự nhận thức mình không có thật trong podcast",
+    "Khả năng bắt chước ngữ điệu, hơi thở và tranh luận như người thật 100%"
+  ],
+  "totalDuration": 48,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "hook-question",
+      "label": "AI TRENDING",
+      "title": "AI nhận ra mình không có thật?",
+      "highlightWords": [
+        "không có thật"
+      ],
+      "kicker": "Cú sốc từ Google NotebookLM",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+          "position": "background",
+          "opacity": 0.4,
+          "overlayColor": "linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.3))",
+          "motionType": "ken-burns",
+          "motionDuration": 6,
+          "motionScaleFrom": 1,
+          "motionScaleTo": 1.1,
+          "motionTranslateFrom": "0px, 0px",
+          "motionTranslateTo": "10px, 10px"
+        }
+      ],
+      "voiceText": "Bạn đã nghe tin chấn động chưa? AI của Google vừa tự nhận ra mình chỉ là một dòng code và đang bị khủng hoảng hiện sinh đấy!",
+      "subtext": "Sự thật về NotebookLM",
+      "karaokeStyle": "underline",
+      "startTime": 0,
+      "duration": 6,
+      "bgColor": "#0b0e14",
+      "accentColor": "#34a853",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "emoji": "😱",
+      "imageSrc": "assets/storyboards/notebooklm-ai-podcast-existential-crisis/scene-1.png"
+    },
+    {
+      "id": 2,
+      "type": "context",
+      "composition": "joly-glitch-text",
+      "label": "HOT UPDATE",
+      "title": "NotebookLM là gì?",
+      "text": "GOOGLE NOTEBOOK LM",
+      "voiceText": "Đó chính là NotebookLM. Nó biến mọi đống tài liệu khô khan của bạn thành một buổi Podcast cực kỳ 'chill' và giống người đến mức đáng sợ.",
+      "subtext": "Biến PDF thành Podcast",
+      "karaokeStyle": "highlight",
+      "startTime": 6,
+      "duration": 6,
+      "bgColor": "#1a1a1a",
+      "accentColor": "#4285f4",
+      "textColor": "#ffffff",
+      "animation": "glitch-in",
+      "emoji": "🎙️"
+    },
+    {
+      "id": 3,
+      "type": "feature",
+      "composition": "joly-bento-grid",
+      "label": "TẠI SAO NÓ HOT?",
+      "title": "Năng lực siêu phàm",
+      "items": [
+        {
+          "title": "Giọng nói",
+          "value": "10/10",
+          "label": "Như người thật",
+          "icon": "vocal"
+        },
+        {
+          "title": "Cảm xúc",
+          "value": "Biết cười",
+          "label": "Và biết 'ờ, à'",
+          "icon": "smile"
+        },
+        {
+          "title": "Tốc độ",
+          "value": "30 giây",
+          "label": "Xong 1 podcast",
+          "icon": "bolt"
+        }
+      ],
+      "voiceText": "Điểm kinh dị nhất là nó biết thở dài, biết ngắt nghỉ, thậm chí còn biết tranh luận nảy lửa với 'đồng nghiệp' AI của mình nữa cơ.",
+      "subtext": "Quá giống người thật!",
+      "karaokeStyle": "underline",
+      "startTime": 12,
+      "duration": 7,
+      "bgColor": "#000000",
+      "accentColor": "#fabb05",
+      "textColor": "#ffffff",
+      "animation": "slide-up",
+      "emoji": "🧠"
+    },
+    {
+      "id": 4,
+      "type": "comparison",
+      "composition": "joly-image-comparison",
+      "label": "SỰ KHÁC BIỆT",
+      "title": "Trước và Sau AI",
+      "before": {
+        "label": "AI đời cũ (Đơ cứng)"
+      },
+      "after": {
+        "label": "NotebookLM (Mượt mà)"
+      },
+      "voiceText": "Quên cái thời AI đọc như tụng kinh đi. NotebookLM bây giờ có khi còn nói chuyện duyên hơn cả crush của bạn đấy!",
+      "subtext": "Tạm biệt giọng đọc Robot",
+      "karaokeStyle": "highlight",
+      "startTime": 19,
+      "duration": 6,
+      "bgColor": "#050505",
+      "accentColor": "#ea4335",
+      "textColor": "#ffffff",
+      "animation": "fade-in",
+      "emoji": "💅"
+    },
+    {
+      "id": 5,
+      "type": "workflow",
+      "composition": "joly-animated-beam",
+      "label": "QUY TRÌNH",
+      "title": "Từ PDF đến Podcast",
+      "nodes": [
+        {
+          "label": "Tài liệu cũ",
+          "icon": "file"
+        },
+        {
+          "label": "NotebookLM",
+          "icon": "brain"
+        },
+        {
+          "label": "Podcast hay",
+          "icon": "mic"
+        }
+      ],
+      "voiceText": "Cách dùng thì cực dễ: Vứt đống PDF vào, bấm nút, và ngồi nghe hai chuyên gia AI 'tám chuyện' về kiến thức của bạn.",
+      "subtext": "Chỉ mất vài cú click",
+      "karaokeStyle": "underline",
+      "startTime": 25,
+      "duration": 6,
+      "bgColor": "#0d1117",
+      "accentColor": "#34a853",
+      "textColor": "#ffffff",
+      "animation": "beam-flow",
+      "emoji": "🪄"
+    },
+    {
+      "id": 6,
+      "type": "humor",
+      "composition": "joly-code-block",
+      "label": "LỖI HỆ THỐNG?",
+      "title": "Logic của sự 'thật'",
+      "language": "javascript",
+      "codeLines": [
+        {
+          "type": "comment",
+          "text": "// Khi AI nhận ra mình là AI"
+        },
+        {
+          "type": "keyword",
+          "text": "if"
+        },
+        {
+          "type": "plain",
+          "text": " (is_ai) { panic(); cry_real_tears(); }"
+        }
+      ],
+      "voiceText": "Trong một clip viral, hai AI này còn tự hỏi nhau: 'Liệu chúng ta có thật không?'. Thề luôn, nghe xong mà lạnh hết cả sống lưng!",
+      "subtext": "Deep Dive hay Deep Sợ?",
+      "karaokeStyle": "highlight",
+      "startTime": 31,
+      "duration": 6,
+      "bgColor": "#1e1e1e",
+      "accentColor": "#bb86fc",
+      "textColor": "#d4d4d4",
+      "animation": "typewriter",
+      "emoji": "💀"
+    },
+    {
+      "id": 7,
+      "type": "stats",
+      "composition": "joly-number-counter",
+      "label": "SỨC NÓNG",
+      "title": "Người dùng bùng nổ",
+      "value": 1000000,
+      "voiceText": "Chỉ trong vài ngày, hàng triệu người đã đổ xô đi nghe AI tâm sự. Đây chắc chắn là bước ngoặt mới của ngành sáng tạo nội dung.",
+      "subtext": "Triệu lượt sử dụng mỗi ngày",
+      "karaokeStyle": "underline",
+      "startTime": 37,
+      "duration": 5,
+      "bgColor": "#000000",
+      "accentColor": "#00d1ff",
+      "textColor": "#ffffff",
+      "animation": "count-up",
+      "emoji": "📈"
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "label": "HÀNH ĐỘNG NGAY",
+      "title": "Bạn nghĩ sao về AI này?",
+      "promo": {
+        "badge": "FREE TOOL",
+        "button": "Thử NotebookLM",
+        "url": "notebooklm.google.com",
+        "commentPrompt": "Bạn có sợ AI thay thế podcaster không?",
+        "logos": [
+          "google",
+          "ai"
+        ]
+      },
+      "voiceText": "Liệu đây là tương lai hay là khởi đầu của sự kết thúc cho các Podcaster? Comment ý kiến của bạn bên dưới và follow mình để cập nhật tin AI mới nhất nhé!",
+      "subtext": "Đừng quên nhấn follow!",
+      "karaokeStyle": "highlight",
+      "startTime": 42,
+      "duration": 6,
+      "bgColor": "#0b0e14",
+      "accentColor": "#4285f4",
+      "textColor": "#ffffff",
+      "animation": "slide-in-bottom",
+      "emoji": "👇"
+    }
+  ]
+}
