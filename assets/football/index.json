@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-14T09:31:41.807Z",
+  "updatedAt": "2026-05-14T15:24:44.183Z",
   "records": [
     {
       "id": "wc2026:canada",
@@ -873,16 +873,17 @@
       "name": "Manchester United",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "MUN"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/manchester-united.svg",
+        "sourceUrl": "https://football-logos.cc/england/manchester-united/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/manchester-united.104c5aa9.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.551Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:aston-villa",
@@ -891,34 +892,17 @@
       "name": "Aston Villa",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "AVL"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/aston-villa.svg",
+        "sourceUrl": "https://football-logos.cc/england/aston-villa/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/aston-villa.5265a6b0.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
-    },
-    {
-      "id": "epl:newcastle-united",
-      "kind": "club",
-      "competition": "epl",
-      "name": "Newcastle United",
-      "aliases": [],
-      "codes": {
-        "short": ""
-      },
-      "badge": {
-        "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
-      },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:arsenal",
@@ -927,16 +911,17 @@
       "name": "Arsenal",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "ARS"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/arsenal.svg",
+        "sourceUrl": "https://football-logos.cc/england/arsenal/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/arsenal.d4144b2a.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:manchester-city",
@@ -950,11 +935,12 @@
       "badge": {
         "type": "logo",
         "path": "assets/football/clubs/epl/manchester-city.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManchester_Velodrome_logo.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://football-logos.cc/england/manchester-city/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/manchester-city.8d2b6688.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T06:10:32.465Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:chelsea",
@@ -963,52 +949,17 @@
       "name": "Chelsea",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "CHE"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/chelsea.svg",
+        "sourceUrl": "https://football-logos.cc/england/chelsea/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/chelsea.2cba05ff.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
-    },
-    {
-      "id": "epl:liverpool",
-      "kind": "club",
-      "competition": "epl",
-      "name": "Liverpool",
-      "aliases": [],
-      "codes": {
-        "short": ""
-      },
-      "badge": {
-        "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
-      },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
-    },
-    {
-      "id": "epl:leicester-city",
-      "kind": "club",
-      "competition": "epl",
-      "name": "Leicester City",
-      "aliases": [],
-      "codes": {
-        "short": ""
-      },
-      "badge": {
-        "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
-      },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:bournemouth",
@@ -1017,16 +968,17 @@
       "name": "Bournemouth",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "BOU"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/bournemouth.svg",
+        "sourceUrl": "https://football-logos.cc/england/bournemouth/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/bournemouth.5d240278.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:brentford",
@@ -1035,34 +987,17 @@
       "name": "Brentford",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "BRE"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/brentford.svg",
+        "sourceUrl": "https://football-logos.cc/england/brentford/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/brentford.b03197ef.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
-    },
-    {
-      "id": "epl:brighton-hove-albion",
-      "kind": "club",
-      "competition": "epl",
-      "name": "Brighton & Hove Albion",
-      "aliases": [],
-      "codes": {
-        "short": ""
-      },
-      "badge": {
-        "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
-      },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:crystal-palace",
@@ -1071,16 +1006,17 @@
       "name": "Crystal Palace",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "CRY"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/crystal-palace.svg",
+        "sourceUrl": "https://football-logos.cc/england/crystal-palace/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/crystal-palace.e3552a3a.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:everton",
@@ -1089,16 +1025,17 @@
       "name": "Everton",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "EVE"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/everton.svg",
+        "sourceUrl": "https://football-logos.cc/england/everton/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/everton.61ae3574.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.552Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:fulham",
@@ -1107,16 +1044,17 @@
       "name": "Fulham",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "FUL"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/fulham.svg",
+        "sourceUrl": "https://football-logos.cc/england/fulham/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/fulham.92113b10.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.553Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:leeds-united",
@@ -1125,16 +1063,17 @@
       "name": "Leeds United",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "LEE"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/leeds-united.svg",
+        "sourceUrl": "https://football-logos.cc/england/leeds-united/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/leeds-united.7a40d61b.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.553Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:nottingham-forest",
@@ -1148,65 +1087,33 @@
       "badge": {
         "type": "logo",
         "path": "assets/football/clubs/epl/nottingham-forest.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2019_European_Parliament_election_in_the_United_Kingdom_estimated_results_by_Westminster_constituency.svg",
-        "licenseName": "OGL 3",
-        "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3"
+        "sourceUrl": "https://football-logos.cc/england/nottingham-forest/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/nottingham-forest.e15fcde1.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T06:10:35.581Z"
-    },
-    {
-      "id": "epl:tottenham-hotspur",
-      "kind": "club",
-      "competition": "epl",
-      "name": "Tottenham Hotspur",
-      "aliases": [],
-      "codes": {
-        "short": ""
-      },
-      "badge": {
-        "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
-      },
-      "updatedAt": "2026-05-14T04:17:04.553Z"
-    },
-    {
-      "id": "epl:west-ham-united",
-      "kind": "club",
-      "competition": "epl",
-      "name": "West Ham United",
-      "aliases": [],
-      "codes": {
-        "short": ""
-      },
-      "badge": {
-        "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
-      },
-      "updatedAt": "2026-05-14T04:17:04.553Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "epl:wolverhampton-wanderers",
       "kind": "club",
       "competition": "epl",
       "name": "Wolverhampton Wanderers",
-      "aliases": [],
+      "aliases": [
+        "Wolves"
+      ],
       "codes": {
-        "short": ""
+        "short": "WOL"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/epl/wolverhampton-wanderers.svg",
+        "sourceUrl": "https://football-logos.cc/england/wolves/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/wolves.7d27a880.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
-      "updatedAt": "2026-05-14T04:17:04.553Z"
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     },
     {
       "id": "wc2026:bo-dao-nha",
@@ -1227,40 +1134,595 @@
       "updatedAt": "2026-05-14T04:36:01.256Z"
     },
     {
-      "id": "epl:sjk-j-apollo",
-      "kind": "club",
-      "competition": "epl",
-      "name": "SJK-J Apollo",
-      "aliases": [],
+      "id": "laliga",
+      "kind": "tournament",
+      "competition": "laliga",
+      "name": "La Liga",
+      "aliases": [
+        "LALIGA",
+        "LaLiga",
+        "Spanish La Liga"
+      ],
       "codes": {
-        "short": "SJK"
+        "short": "LL"
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/tournaments/laliga.svg",
+        "sourceUrl": "https://football-logos.cc/spain/la-liga/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/la-liga.07ed875e.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
       },
-      "updatedAt": "2026-05-14T09:31:37.535Z"
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
     },
     {
-      "id": "epl:kiisto-vaasa",
+      "id": "laliga:athletic-club-bilbao",
       "kind": "club",
-      "competition": "epl",
-      "name": "Kiisto Vaasa",
+      "competition": "laliga",
+      "name": "Athletic Club Bilbao",
       "aliases": [],
       "codes": {
-        "short": "KVA"
+        "short": ""
       },
       "badge": {
         "type": "logo",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/clubs/laliga/athletic-club-bilbao.svg",
+        "sourceUrl": "https://football-logos.cc/spain/athletic-club/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/athletic-club.ec38af57.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
       },
-      "updatedAt": "2026-05-14T09:31:39.839Z"
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:atletico-madrid",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Atletico Madrid",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/atletico-madrid.svg",
+        "sourceUrl": "https://football-logos.cc/spain/atletico-madrid/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/atletico-madrid.1acb70ea.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:barcelona",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Barcelona",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/barcelona.svg",
+        "sourceUrl": "https://football-logos.cc/spain/barcelona/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/barcelona.af4e5453.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:celta",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Celta",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/celta.svg",
+        "sourceUrl": "https://football-logos.cc/spain/celta/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/celta.06769d38.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:deportivo-alaves",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Deportivo Alavés",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/deportivo-alaves.svg",
+        "sourceUrl": "https://football-logos.cc/spain/deportivo/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/deportivo.b5f18973.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:elche",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Elche",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/elche.svg",
+        "sourceUrl": "https://football-logos.cc/spain/elche/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/elche.d494b9b9.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:espanyol",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Espanyol",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/espanyol.svg",
+        "sourceUrl": "https://football-logos.cc/spain/espanyol/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/espanyol.f31c1354.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:getafe",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Getafe",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/getafe.svg",
+        "sourceUrl": "https://football-logos.cc/spain/getafe/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/getafe.5aed3f74.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:girona",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Girona",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/girona.svg",
+        "sourceUrl": "https://football-logos.cc/spain/girona/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/girona.c049a8f9.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:levante",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Levante",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/levante.svg",
+        "sourceUrl": "https://football-logos.cc/spain/levante/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/levante.55058f42.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:mallorca",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Mallorca",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/mallorca.svg",
+        "sourceUrl": "https://football-logos.cc/spain/mallorca/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/mallorca.1a826f5a.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:osasuna",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Osasuna",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/osasuna.svg",
+        "sourceUrl": "https://football-logos.cc/spain/osasuna/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/osasuna.7f404bef.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:oviedo",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Oviedo",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/oviedo.svg",
+        "sourceUrl": "https://football-logos.cc/spain/oviedo/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/oviedo.46d87170.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:rayo-vallecano",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Rayo Vallecano",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/rayo-vallecano.svg",
+        "sourceUrl": "https://football-logos.cc/spain/rayo-vallecano/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/rayo-vallecano.4699fa09.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:real-betis",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Real Betis",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/real-betis.svg",
+        "sourceUrl": "https://football-logos.cc/spain/real-betis/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/real-betis.18a05d13.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:real-madrid",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Real Madrid",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/real-madrid.svg",
+        "sourceUrl": "https://football-logos.cc/spain/real-madrid/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/real-madrid.e34f5ba5.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:real-sociedad",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Real Sociedad",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/real-sociedad.svg",
+        "sourceUrl": "https://football-logos.cc/spain/real-sociedad/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/real-sociedad.7d3dbc7c.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:sevilla",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Sevilla",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/sevilla.svg",
+        "sourceUrl": "https://football-logos.cc/spain/sevilla/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/sevilla.f1a10bfd.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:valencia",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Valencia",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/valencia.svg",
+        "sourceUrl": "https://football-logos.cc/spain/valencia/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/valencia.410c19ea.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "laliga:villarreal",
+      "kind": "club",
+      "competition": "laliga",
+      "name": "Villarreal",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/laliga/villarreal.svg",
+        "sourceUrl": "https://football-logos.cc/spain/villarreal/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/spain/1500x1500/villarreal.6ced8346.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/spain/la-liga/"
+      },
+      "updatedAt": "2026-05-14T15:03:56.6535460Z"
+    },
+    {
+      "id": "epl",
+      "kind": "tournament",
+      "competition": "epl",
+      "name": "Premier League",
+      "aliases": [
+        "EPL",
+        "English Premier League"
+      ],
+      "codes": {
+        "short": "EPL"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+        "sourceUrl": "https://www.logo.wine/logo/Premier_League",
+        "licenseName": "Editorial use; logo is property of its respective owner",
+        "licenseUrl": "https://www.logo.wine/"
+      },
+      "updatedAt": "2026-05-14T15:24:44.183Z"
+    },
+    {
+      "id": "wc2026",
+      "kind": "tournament",
+      "competition": "wc2026",
+      "name": "FIFA World Cup 2026",
+      "aliases": [
+        "World Cup 2026",
+        "2026 FIFA World Cup",
+        "FIFA World Cup"
+      ],
+      "codes": {
+        "short": "WC2026"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+        "sourceUrl": "https://football-logos.cc/tournaments/fifa-world-cup-2026/",
+        "licenseName": "Editorial use; logo is property of its respective owner",
+        "licenseUrl": "https://football-logos.cc/"
+      },
+      "updatedAt": "2026-05-14T15:22:12.285Z"
+    },
+    {
+      "id": "epl:brighton",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Brighton",
+      "aliases": [
+        "Brighton & Hove Albion",
+        "Brighton and Hove Albion"
+      ],
+      "codes": {
+        "short": "BHA"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/epl/brighton.svg",
+        "sourceUrl": "https://football-logos.cc/england/brighton/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/brighton.f54f0b50.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
+      },
+      "updatedAt": "2026-05-14T15:24:44.183Z"
+    },
+    {
+      "id": "epl:burnley",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Burnley",
+      "aliases": [],
+      "codes": {
+        "short": "BUR"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/epl/burnley.svg",
+        "sourceUrl": "https://football-logos.cc/england/burnley/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/burnley.ca981a69.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
+      },
+      "updatedAt": "2026-05-14T15:24:44.183Z"
+    },
+    {
+      "id": "epl:liverpool-fc",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Liverpool FC",
+      "aliases": [
+        "Liverpool"
+      ],
+      "codes": {
+        "short": "LIV"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/epl/liverpool-fc.svg",
+        "sourceUrl": "https://football-logos.cc/england/liverpool/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/liverpool.d03fd250.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
+      },
+      "updatedAt": "2026-05-14T15:24:44.183Z"
+    },
+    {
+      "id": "epl:newcastle",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Newcastle",
+      "aliases": [
+        "Newcastle United"
+      ],
+      "codes": {
+        "short": "NEW"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/epl/newcastle.svg",
+        "sourceUrl": "https://football-logos.cc/england/newcastle/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/newcastle.c19d66db.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
+      },
+      "updatedAt": "2026-05-14T15:24:44.183Z"
+    },
+    {
+      "id": "epl:sunderland",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Sunderland",
+      "aliases": [],
+      "codes": {
+        "short": "SUN"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/epl/sunderland.svg",
+        "sourceUrl": "https://football-logos.cc/england/sunderland/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/sunderland.4cec0d39.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
+      },
+      "updatedAt": "2026-05-14T15:24:44.183Z"
+    },
+    {
+      "id": "epl:tottenham",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Tottenham",
+      "aliases": [
+        "Tottenham Hotspur",
+        "Spurs"
+      ],
+      "codes": {
+        "short": "TOT"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/epl/tottenham.svg",
+        "sourceUrl": "https://football-logos.cc/england/tottenham/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/tottenham.b32501c6.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
+      },
+      "updatedAt": "2026-05-14T15:24:44.183Z"
+    },
+    {
+      "id": "epl:west-ham",
+      "kind": "club",
+      "competition": "epl",
+      "name": "West Ham",
+      "aliases": [
+        "West Ham United"
+      ],
+      "codes": {
+        "short": "WHU"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/epl/west-ham.svg",
+        "sourceUrl": "https://football-logos.cc/england/west-ham/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/england/1500x1500/west-ham.f014677a.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
+      },
+      "updatedAt": "2026-05-14T15:24:44.183Z"
     }
   ]
 }

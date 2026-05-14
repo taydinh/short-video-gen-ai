@@ -1105,6 +1105,7 @@ function composerStyles(scene) {
       overflow: hidden;
     }
     [data-composition-id="${cid}"] .football-odds-table {
+      --football-odds-columns: minmax(230px, 3.2fr) minmax(68px, 1.1fr) minmax(82px, 1.4fr) minmax(104px, 1.7fr) minmax(112px, 1.7fr) minmax(96px, 1.4fr);
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -1114,7 +1115,7 @@ function composerStyles(scene) {
     }
     [data-composition-id="${cid}"] .football-odds-thead {
       display: grid;
-      grid-template-columns: 3.2fr 1.1fr 1.4fr 1.7fr 1.7fr 1.4fr;
+      grid-template-columns: var(--football-odds-columns);
       gap: 0;
       background: linear-gradient(90deg, rgba(22,163,74,0.96), rgba(16,185,129,0.92));
       color: #ffffff;
@@ -1124,6 +1125,8 @@ function composerStyles(scene) {
       text-transform: uppercase;
     }
     [data-composition-id="${cid}"] .football-odds-th {
+      box-sizing: border-box;
+      min-width: 0;
       padding: 14px 14px;
       border-right: 1px solid rgba(255,255,255,0.14);
       display: flex;
@@ -1140,12 +1143,14 @@ function composerStyles(scene) {
     }
     [data-composition-id="${cid}"] .football-odds-tr {
       display: grid;
-      grid-template-columns: 3.2fr 1.1fr 1.4fr 1.7fr 1.7fr 1.4fr;
+      grid-template-columns: var(--football-odds-columns);
       border-top: 1px solid rgba(255,255,255,0.10);
     }
     [data-composition-id="${cid}"] .football-odds-tr:first-child { border-top: none; }
     [data-composition-id="${cid}"] .football-odds-tr.is-away { background: rgba(255,255,255,0.03); }
     [data-composition-id="${cid}"] .football-odds-td {
+      box-sizing: border-box;
+      min-width: 0;
       padding: 12px 12px;
       border-right: 1px solid rgba(255,255,255,0.08);
       display: flex;
@@ -1160,6 +1165,7 @@ function composerStyles(scene) {
       display: flex;
       align-items: center;
       gap: 12px;
+      width: 100%;
       min-width: 0;
     }
     [data-composition-id="${cid}"] .football-odds-team-badge {
@@ -2026,6 +2032,157 @@ function composerStyles(scene) {
     [data-composition-id="${cid}"] .football-form-dot.w { background: rgba(34,197,94,0.90); border-color: rgba(34,197,94,0.90); }
     [data-composition-id="${cid}"] .football-form-dot.d { background: rgba(148,163,184,0.62); border-color: rgba(148,163,184,0.62); }
     [data-composition-id="${cid}"] .football-form-dot.l { background: rgba(239,68,68,0.86); border-color: rgba(239,68,68,0.86); }
+
+    /* ── Football tournament logo intro ─────────────────────────────────── */
+    [data-composition-id="${cid}"] .football-tournament-intro {
+      isolation: isolate;
+    }
+    [data-composition-id="${cid}"] .football-intro-vignette {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 50% 36%, rgba(255,255,255,0.20), transparent 24%),
+        radial-gradient(circle at 18% 20%, ${hexToRgba(acc, 0.34)}, transparent 34%),
+        radial-gradient(circle at 82% 78%, rgba(0,255,133,0.22), transparent 30%),
+        linear-gradient(180deg, rgba(8,17,31,0.05), rgba(8,17,31,0.72));
+    }
+    [data-composition-id="${cid}"] .football-intro-stripe {
+      position: absolute;
+      left: -18%;
+      width: 136%;
+      height: 118px;
+      z-index: 1;
+      pointer-events: none;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.20), ${hexToRgba(acc, 0.62)}, transparent);
+      transform: rotate(-11deg);
+      opacity: 0.72;
+      filter: blur(1px);
+    }
+    [data-composition-id="${cid}"] .football-intro-stripe.one { top: 205px; }
+    [data-composition-id="${cid}"] .football-intro-stripe.two {
+      top: 680px;
+      height: 92px;
+      transform: rotate(13deg);
+      opacity: 0.48;
+    }
+    [data-composition-id="${cid}"] .football-intro-shell {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 26px;
+      text-align: center;
+    }
+    [data-composition-id="${cid}"] .football-intro-kicker {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 10px 20px;
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 999px;
+      background: rgba(8,17,31,0.62);
+      color: rgba(255,255,255,0.82);
+      font-size: 18px;
+      font-weight: 950;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      backdrop-filter: blur(12px);
+    }
+    [data-composition-id="${cid}"] .football-intro-logo-stage {
+      position: relative;
+      width: 520px;
+      height: 520px;
+      display: grid;
+      place-items: center;
+    }
+    [data-composition-id="${cid}"] .football-intro-ring {
+      position: absolute;
+      inset: 24px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.22);
+      box-shadow:
+        inset 0 0 60px rgba(255,255,255,0.08),
+        0 0 80px ${hexToRgba(acc, 0.28)};
+    }
+    [data-composition-id="${cid}"] .football-intro-ring.two {
+      inset: 62px;
+      border-color: ${hexToRgba(acc, 0.52)};
+      border-style: dashed;
+    }
+    [data-composition-id="${cid}"] .football-intro-logo-card {
+      position: relative;
+      width: 360px;
+      height: 360px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.94);
+      border: 1px solid rgba(255,255,255,0.78);
+      box-shadow:
+        0 36px 90px rgba(0,0,0,0.38),
+        0 0 0 12px rgba(255,255,255,0.08),
+        0 0 95px ${hexToRgba(acc, 0.38)};
+      overflow: hidden;
+    }
+    [data-composition-id="${cid}"] .football-intro-logo-card::after {
+      content: "";
+      position: absolute;
+      inset: -18%;
+      background: linear-gradient(115deg, transparent 20%, rgba(255,255,255,0.72) 44%, transparent 62%);
+      transform: translateX(-130%);
+    }
+    [data-composition-id="${cid}"] .football-intro-logo {
+      width: 280px;
+      max-height: 245px;
+      object-fit: contain;
+      filter: drop-shadow(0 14px 24px rgba(0,0,0,0.20));
+    }
+    [data-composition-id="${cid}"] .football-intro-title {
+      max-width: 880px;
+      color: #ffffff;
+      font-size: 74px;
+      line-height: 0.98;
+      font-weight: 950;
+      letter-spacing: 0;
+      text-shadow: 0 18px 45px rgba(0,0,0,0.46);
+    }
+    [data-composition-id="${cid}"] .football-intro-subtitle {
+      max-width: 760px;
+      color: rgba(255,255,255,0.76);
+      font-size: 30px;
+      font-weight: 750;
+      line-height: 1.28;
+    }
+    [data-composition-id="${cid}"] .football-intro-meta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      min-height: 42px;
+    }
+    [data-composition-id="${cid}"] .football-intro-chip {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      color: #ffffff;
+      background: rgba(8,17,31,0.88);
+      border: 1px solid ${hexToRgba(acc || "#F7C948", 0.86)};
+      font-size: 18px;
+      font-weight: 950;
+      letter-spacing: 0.10em;
+      text-transform: uppercase;
+      box-shadow: 0 14px 34px ${hexToRgba(acc || "#F7C948", 0.30)};
+    }
   `;
 }
 
@@ -2033,6 +2190,39 @@ function composerStyles(scene) {
 
 const COMPOSERS = {
   // ── Football / World Cup editorial-safe compositions ──────────────────────
+  "football-tournament-intro": (scene) => {
+    const logoSrc = scene.tournamentLogoSrc
+      || scene.logoSrc
+      || scene.logo
+      || "assets/football/tournaments/Premier_League-Logo.wine.svg";
+    const title = scene.tournamentName || scene.title || "Premier League";
+    const kicker = scene.kicker || scene.competitionLabel || "Tournament Intro";
+    const subtitle = scene.subtext || scene.subtitle || scene.seasonLabel || "Matchday stories, tables, fixtures and form";
+    const chip = scene.ctaLabel || scene.edition || scene.stage || "Kickoff";
+    return `
+    <div class="canvas football-scene football-tournament-intro" style="align-items:center; justify-content:center; padding:78px 72px 120px; background:${footballBg(scene)};">
+      ${footballPitchBackdrop(scene)}
+      <div class="football-intro-vignette"></div>
+      <div class="football-intro-stripe one"></div>
+      <div class="football-intro-stripe two"></div>
+      <div class="football-intro-shell">
+        <div class="football-intro-kicker" id="s${scene.id}-intro-kicker">${escapeHtml(kicker)}</div>
+        <div class="football-intro-logo-stage" id="s${scene.id}-logo-stage">
+          <div class="football-intro-ring one"></div>
+          <div class="football-intro-ring two"></div>
+          <div class="football-intro-logo-card" id="s${scene.id}-logo-card">
+            <img class="football-intro-logo" src="${escapeHtmlAttr(logoSrc)}" alt="${escapeHtmlAttr(title)}" />
+          </div>
+        </div>
+        <h1 class="football-intro-title" id="s${scene.id}-title">${escapeHtml(title)}</h1>
+        <div class="football-intro-subtitle" id="s${scene.id}-intro-subtitle">${escapeHtml(subtitle)}</div>
+        <div class="football-intro-meta" id="s${scene.id}-intro-meta">
+          <span class="football-intro-chip">${escapeHtml(chip)}</span>
+        </div>
+      </div>
+    </div>`;
+  },
+
   "football-match-card": (scene) => {
     const teams = normalizeFootballTeams(scene);
     const stage = scene.stage || scene.competitionLabel || "WORLD FOOTBALL";
@@ -3440,6 +3630,37 @@ function buildAnimationScript(scene) {
       const teamAway = document.querySelector('[data-composition-id="${cid}"] #${s}-team-away');
       if (teamAway) tl.fromTo(teamAway, { y: 22, opacity: 0, filter: \"blur(10px)\" }, { y: 0, opacity: 1, filter: \"blur(0px)\", duration: 0.55, ease: \"power3.out\" }, 1.22);`,
 
+    "football-logo-intro": () => `
+      const tl = gsap.timeline({ paused: true });
+      const pitch = document.querySelector('[data-composition-id="${cid}"] .football-pitch-bg');
+      if (pitch) tl.fromTo(pitch, { scale: 1.24, rotate: -7, opacity: 0.12 }, { scale: 1.08, rotate: -4, opacity: 0.60, duration: 1.15, ease: "power2.out" }, 0);
+      const stripes = document.querySelectorAll('[data-composition-id="${cid}"] .football-intro-stripe');
+      if (stripes.length) tl.fromTo(stripes, { x: -260, opacity: 0 }, { x: 0, opacity: 1, duration: 0.82, stagger: 0.10, ease: "power3.out" }, 0.06);
+      const kicker = document.querySelector('[data-composition-id="${cid}"] #${s}-intro-kicker');
+      if (kicker) tl.fromTo(kicker, { y: -22, opacity: 0 }, { y: 0, opacity: 1, duration: 0.42, ease: "power2.out" }, 0.12);
+      const stage = document.querySelector('[data-composition-id="${cid}"] #${s}-logo-stage');
+      if (stage) tl.fromTo(stage, { scale: 0.78, opacity: 0, filter: "blur(16px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.78, ease: "back.out(1.6)" }, 0.32);
+      const rings = document.querySelectorAll('[data-composition-id="${cid}"] .football-intro-ring');
+      if (rings.length) {
+        tl.fromTo(rings, { scale: 0.72, opacity: 0, rotate: -30 }, { scale: 1, opacity: 1, rotate: 0, duration: 0.86, stagger: 0.10, ease: "power3.out" }, 0.34);
+        tl.to(rings[1], { rotate: 18, duration: ${Math.max(1.2, dur - 1.1)}, ease: "none" }, 0.90);
+      }
+      const logoCard = document.querySelector('[data-composition-id="${cid}"] #${s}-logo-card');
+      if (logoCard) {
+        tl.fromTo(logoCard, { scale: 0.52, rotate: -8, opacity: 0 }, { scale: 1, rotate: 0, opacity: 1, duration: 0.66, ease: "back.out(1.9)" }, 0.46);
+        tl.to(logoCard, { scale: 1.035, duration: ${Math.max(0.7, dur - 1.6)}, ease: "power1.inOut", yoyo: true, repeat: 1 }, 1.05);
+      }
+      const shineStyle = document.createElement("style");
+      shineStyle.textContent = '[data-composition-id="${cid}"] .football-intro-logo-card.shine-run::after{animation:introLogoShine${scene.id} .72s ease-out both;}@keyframes introLogoShine${scene.id}{from{transform:translateX(-130%)}to{transform:translateX(130%)}}';
+      document.head.appendChild(shineStyle);
+      if (logoCard) tl.add(() => logoCard.classList.add("shine-run"), 0.88);
+      const title = document.querySelector('[data-composition-id="${cid}"] #${s}-title');
+      if (title) tl.fromTo(title, { y: 34, opacity: 0, filter: "blur(10px)" }, { y: 0, opacity: 1, filter: "blur(0px)", duration: 0.64, ease: "power3.out" }, 0.94);
+      const subtitle = document.querySelector('[data-composition-id="${cid}"] #${s}-intro-subtitle');
+      if (subtitle) tl.fromTo(subtitle, { y: 22, opacity: 0 }, { y: 0, opacity: 1, duration: 0.48, ease: "power2.out" }, 1.24);
+      const meta = document.querySelector('[data-composition-id="${cid}"] #${s}-intro-meta');
+      if (meta) tl.fromTo(meta, { y: 18, opacity: 0, scale: 0.96 }, { y: 0, opacity: 1, scale: 1, duration: 0.44, ease: "back.out(1.7)" }, 1.50);`,
+
     // ── AI-news animations ───────────────────────────────────────────────────
     "reveal-stagger": () => `
       const tl = gsap.timeline({ paused: true });
@@ -3527,6 +3748,7 @@ function buildAnimationScript(scene) {
     "countdown": "pulse-glow",
     "feng-shui-card": "image-card-rise",
     "cta-card": "particle-burst",
+    "football-tournament-intro": "football-logo-intro",
     "football-match-card": "football-broadcast",
     "football-scoreboard": "football-broadcast",
     "football-player-stat": "football-broadcast",

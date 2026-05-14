@@ -1,0 +1,28 @@
+{
+  "title": "Premier League Tournament Intro Demo",
+  "slug": "epl-tournament-intro-demo",
+  "totalDuration": 5,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Tournament Intro",
+      "seasonLabel": "Fixtures, tables and matchday stories",
+      "ctaLabel": "Kickoff",
+      "voiceText": "Premier League matchday is here. Fixtures, tables and storylines, all in one sharp intro.",
+      "duration": 5,
+      "startTime": 0,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "football-ball-motion", "duration": 4.2, "top": "74%", "size": 78 }
+      ]
+    }
+  ]
+}
