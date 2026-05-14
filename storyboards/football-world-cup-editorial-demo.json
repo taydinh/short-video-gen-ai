@@ -1,7 +1,7 @@
 {
   "title": "FIFA World Cup: Những chi tiết làm nên một trận đấu lớn",
   "slug": "football-world-cup-editorial-demo",
-  "totalDuration": 43,
+  "totalDuration": 48,
   "scenes": [
     {
       "id": 1,
@@ -20,8 +20,8 @@
       "stage": "Trước trận",
       "venue": "Phân tích bóng đá tổng quát",
       "teams": [
-        { "name": "Đội Áo Đỏ", "code": "ĐỎ", "form": ["W", "D", "W"] },
-        { "name": "Đội Áo Xanh", "code": "XANH", "form": ["W", "W", "L"] }
+        { "name": "Argentina", "code": "ARG", "teamType": "national", "form": ["W", "D", "W"] },
+        { "name": "Bồ Đào Nha", "code": "POR", "teamType": "national", "form": ["W", "W", "L"] }
       ],
       "visuals": [
         { "type": "football-pitch-lines", "position": "background", "opacity": 0.38 },
@@ -30,6 +30,61 @@
     },
     {
       "id": 2,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình ra sân",
+      "voiceText": "Đây là sơ đồ đội hình ra sân của hai đội. Các cầu thủ được phân bổ theo chiến thuật và hiển thị số áo cùng tên trên sân.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "MATCHDAY",
+      "venue": "Etihad Stadium",
+      "teams": [
+        { "name": "Manchester City", "code": "MCI", "teamType": "club" },
+        { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-2-2",
+          "players": [
+            "#31 Ederson",
+            "#2 Walker",
+            "#3 Rúben Dias",
+            "#25 Akanji",
+            "#24 Gvardiol",
+            "#16 Rodri",
+            "#20 Bernardo Silva",
+            "#26 Savinho",
+            "#21 Doku",
+            "#7 Marmoush",
+            "#9 Haaland"
+          ]
+        },
+        "away": {
+          "formation": "5-4-1",
+          "players": [
+            "#1 Henderson",
+            "#2 Montiel",
+            "#5 Lacroix",
+            "#26 Richards",
+            "#8 Lerma",
+            "#19 Hughes",
+            "#3 Mitchell",
+            "#23 Canvot",
+            "#10 Y. Pino",
+            "#11 B. Johnson",
+            "#14 Mateta"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 }
+      ]
+    },
+    {
+      "id": 3,
       "type": "content",
       "composition": "football-scoreboard",
       "title": "Tỉ số chỉ là lớp đầu",
@@ -51,7 +106,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "type": "content",
       "composition": "football-player-stat",
       "title": "Người thay đổi trận đấu",
@@ -75,7 +130,7 @@
       "visuals": { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 }
     },
     {
-      "id": 4,
+      "id": 5,
       "type": "content",
       "composition": "football-timeline",
       "title": "Ba mốc làm đổi chiều",
@@ -97,7 +152,7 @@
       "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
     },
     {
-      "id": 5,
+      "id": 6,
       "type": "content",
       "composition": "football-bracket-flow",
       "title": "Hành trình đến trận cuối",
@@ -119,7 +174,7 @@
       "visuals": { "type": "football-pitch-lines", "position": "background", "opacity": 0.24 }
     },
     {
-      "id": 6,
+      "id": 7,
       "type": "content",
       "composition": "football-scoreboard",
       "title": "Thống kê tạo góc nhìn",
@@ -150,25 +205,110 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "type": "content",
-      "composition": "quote-attrib",
-      "title": "An toàn thương hiệu",
-      "voiceText": "Quan trọng nhất, nếu nói về FIFA hay World Cup, video nên giữ tính biên tập. Không cần logo chính thức mà vẫn có thể tạo được không khí bóng đá.",
-      "subtext": "Không dùng dấu hiệu chính thức",
+      "composition": "football-upcoming-schedule",
+      "title": "Giải Bóng đá Thế giới 2026",
+      "voiceText": "Dưới đây là lịch thi đấu các trận tiếp theo ở vòng đấu bảng. Chỉ cần một bảng lịch gọn, người xem sẽ nắm ngay các cặp đấu đáng chú ý.",
+      "subtext": "Vòng đấu bảng",
       "karaokeStyle": "underline",
       "duration": 5,
       "startTime": 32,
       "bgColor": "#08111F",
       "accentColor": "#F7C948",
       "textColor": "#ffffff",
-      "quote": "Không cần dấu hiệu chính thức. Ngôn ngữ bóng đá đã đủ để kể chuyện.",
-      "quoteAuthor": "Gói chuyển động bóng đá",
-      "quoteRole": "Hệ thống hình ảnh an toàn cho nội dung biên tập",
+      "activeTab": "TRẬN ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "ctaLabel": "MATCH STORY",
+      "fixtures": [
+        {
+          "group": "Bảng A",
+          "date": "12/6",
+          "time": "02:00",
+          "home": { "name": "Mexico", "code": "MEX", "teamType": "national", "flag": "assets/football/flags/mexico.svg" },
+          "away": { "name": "Nam Phi", "code": "RSA", "teamType": "national", "flag": "assets/football/flags/south-africa.svg" }
+        },
+        {
+          "group": "Bảng A",
+          "date": "12/6",
+          "time": "09:00",
+          "home": { "name": "Hàn Quốc", "code": "KOR", "teamType": "national", "flag": "assets/football/flags/korea-republic.svg" },
+          "away": { "name": "Séc", "code": "CZE", "teamType": "national" }
+        },
+        {
+          "group": "Bảng B",
+          "date": "13/6",
+          "time": "02:00",
+          "home": { "name": "Canada", "code": "CAN", "teamType": "national", "flag": "assets/football/flags/canada.svg" },
+          "away": { "name": "Bosnia & Herzegovina", "code": "BIH", "teamType": "national" }
+        },
+        {
+          "group": "Bảng D",
+          "date": "13/6",
+          "time": "08:00",
+          "home": { "name": "Hoa Kỳ", "code": "USA", "teamType": "national", "flag": "assets/football/flags/united-states.svg" },
+          "away": { "name": "Paraguay", "code": "PAR", "teamType": "national" }
+        },
+        {
+          "group": "Bảng B",
+          "date": "14/6",
+          "time": "02:00",
+          "home": { "name": "Qatar", "code": "QAT", "teamType": "national", "flag": "assets/football/flags/qatar.svg" },
+          "away": { "name": "Thụy Sĩ", "code": "SUI", "teamType": "national" }
+        },
+        {
+          "group": "Bảng C",
+          "date": "14/6",
+          "time": "05:00",
+          "home": { "name": "Brasil", "code": "BRA", "teamType": "national", "flag": "assets/football/flags/brazil.svg" },
+          "away": { "name": "Maroc", "code": "MAR", "teamType": "national", "flag": "assets/football/flags/morocco.svg" }
+        }
+      ],
       "visuals": { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 }
     },
     {
-      "id": 8,
+      "id": 9,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng xếp hạng",
+      "voiceText": "Cuối cùng, bảng xếp hạng cho biết ai đang dẫn đầu, ai bị bám đuổi, và từng trận đấu ảnh hưởng trực tiếp đến cục diện bảng như thế nào.",
+      "subtext": "Bảng A",
+      "karaokeStyle": "underline",
+      "duration": 5,
+      "startTime": 37,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "world-cup-group",
+      "group": "Bảng A",
+      "standings": [
+        {
+          "rank": 1,
+          "team": { "name": "Mexico", "code": "MEX", "teamType": "national", "flag": "assets/football/flags/mexico.svg" },
+          "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": { "name": "Nam Phi", "code": "RSA", "teamType": "national", "flag": "assets/football/flags/south-africa.svg" },
+          "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": { "name": "Hàn Quốc", "code": "KOR", "teamType": "national", "flag": "assets/football/flags/korea-republic.svg" },
+          "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": { "name": "Séc", "code": "CZE", "teamType": "national" },
+          "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0
+        }
+      ],
+      "visuals": { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 }
+    },
+    {
+      "id": 10,
       "type": "outro",
       "composition": "cta-card",
       "title": "Bạn muốn phân tích trận nào tiếp?",
@@ -176,7 +316,7 @@
       "subtext": "Bình luận trận đấu bạn muốn xem",
       "karaokeStyle": "underline",
       "duration": 6,
-      "startTime": 37,
+      "startTime": 42,
       "bgColor": "#08111F",
       "accentColor": "#F7C948",
       "textColor": "#ffffff",

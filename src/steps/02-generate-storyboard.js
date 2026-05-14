@@ -32,6 +32,8 @@ import { writeFileSync } from "fs";
 import path from "path";
 import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
+import { loadFootballAssetIndex, findFootballAssetForTeam } from "../football/asset-index.js";
+import { syncFootballAssets } from "../../scripts/sync-football-assets.js";
 
 const SYSTEM_PROMPT = `Bạn là chuyên gia sản xuất nội dung video short-form cho TikTok.
 Nhiệm vụ: Tạo storyboard cho video dọc 9:16 gồm ĐÚNG 8 scene bằng tiếng Việt.
@@ -53,11 +55,12 @@ Các loại composition có sẵn:
 8. "promo-card": Promo/CTA (cần "promo": {badge, button, url, commentPrompt, logos[]})
 
 Nhóm football/broadcast dùng cho nội dung bóng đá, FIFA, World Cup theo hướng editorial-safe:
-1. "football-match-card": poster mở đầu trận/sự kiện (cần "teams": [{name, code, form}], optional "stage", "competitionLabel", "venue", "minute")
+1. "football-match-card": poster mở đầu trận/sự kiện (cần "teams": [{name, code, form, optional teamType:'club'|'national', optional logoSrc/flagSrc/badgeSrc}], optional "stage", "competitionLabel", "venue", "minute")
 2. "football-scoreboard": bảng tỉ số + đồng hồ trận (cần "teams", "score": [home, away], optional "minute", "competitionLabel")
 3. "football-player-stat": spotlight cầu thủ/đội (cần "player" hoặc "playerName", optional "team", "number", "stats": [{label, value, unit}])
 4. "football-bracket-flow": hành trình giải đấu/vòng knock-out (cần "stages": [{stage, title}] hoặc "events")
 5. "football-timeline": diễn biến trận theo phút (cần "events": [{minute, title, desc}])
+6. "football-odds-h2h": bảng kèo (1x2, HDP, tài/xỉu, HT HDP) + lịch sử đối đầu 3 trận gần nhất (optional "oddsTable": {headers[], rows[]}; optional "h2hMatches": [{date, competition, home, away, score}])
 
 Brand safety cho FIFA/World Cup:
 - Có thể nhắc "FIFA", "World Cup", "FIFA World Cup" trong title/voiceText/subtext theo ngữ cảnh tin tức, phân tích, lịch sử, nhận định.
@@ -87,7 +90,7 @@ GỢI Ý (KHÔNG CỨNG NHẮC) để đa dạng hóa video:
   - "infographic-chart": khi có số liệu/tỉ lệ/so sánh đơn giản
   - "comparison": khi có đối chiếu “A vs B”, “trước vs sau”, “hiểu đúng vs hiểu sai”
   - "code-diff": khi có “đổi trước/sau”, “bản cũ/bản mới”, hoặc minh họa thay đổi rõ ràng theo 2 cột
-  - Với nội dung bóng đá/FIFA/World Cup: ưu tiên xoay vòng "football-match-card", "football-scoreboard", "football-player-stat", "football-bracket-flow", "football-timeline"
+  - Với nội dung bóng đá/FIFA/World Cup: ưu tiên xoay vòng "football-match-card", "football-scoreboard", "football-player-stat", "football-odds-h2h", "football-bracket-flow", "football-timeline"
   - "ui-cards", "process-steps", "stats-cards-grid", "quote-attrib", "context-bars" (tùy ý)
   - Dùng "joly-number-counter" cho số liệu nổi bật; "joly-bento-grid" cho 3-5 ý tóm tắt; "joly-code-block" cho nội dung tech/cybersecurity; "joly-animated-beam" cho luồng dữ liệu/quy trình; "joly-highlight-text", "joly-typewriter-text", "joly-text-morphing", "joly-velocity-morph", "joly-glitch-text" cho hook/từ khóa mạnh; "joly-phone-card" cho demo app; "joly-image-comparison" cho trước/sau.
   - "kinetic-title": chỉ dùng khi có 1 cụm từ khóa mạnh (không bắt buộc phải có ở Scene 6)
@@ -287,6 +290,9 @@ export async function generateStoryboard(content, title, outputDir) {
   storyboard.totalDuration = cursor;
   storyboard.slug = storyboard.slug || slugify(title);
 
+  // Auto-enrich football teams with local flag/logo assets (best-effort).
+  storyboard = await enrichFootballTeams(storyboard);
+
   // Fetch images for scenes that need them
   storyboard = await fetchImagesForScenes(storyboard);
 
@@ -294,6 +300,69 @@ export async function generateStoryboard(content, title, outputDir) {
   const outPath = path.join(outputDir, "storyboard.json");
   writeFileSync(outPath, JSON.stringify(storyboard, null, 2), "utf-8");
   logger.info(`💾 Storyboard saved: ${outPath}`);
+
+  return storyboard;
+}
+
+export async function enrichFootballTeams(storyboard) {
+  let index = loadFootballAssetIndex();
+
+  const maybeRefreshIndex = () => {
+    index = loadFootballAssetIndex({ indexPath: index.indexPath });
+  };
+
+  for (const scene of storyboard.scenes || []) {
+    if (!Array.isArray(scene.teams)) continue;
+
+    // Only enrich object teams (string teams are just labels for scoreboards).
+    const teams = scene.teams.map((t) => (typeof t === "object" && t ? { ...t } : t));
+
+    for (let i = 0; i < teams.length; i++) {
+      const team = teams[i];
+      if (!team || typeof team !== "object") continue;
+      if (team.flagSrc || team.logoSrc || team.badgeSrc) continue;
+
+      const found = findFootballAssetForTeam(team, index, { teamType: team.teamType || scene.teamType });
+      if (found) {
+        teams[i] = {
+          ...team,
+          ...(found.flagSrc ? { flagSrc: found.flagSrc } : {}),
+          ...(found.logoSrc ? { logoSrc: found.logoSrc } : {}),
+          ...(found.badgeSrc ? { badgeSrc: found.badgeSrc } : {}),
+          teamType: team.teamType || found.badgeType,
+        };
+        continue;
+      }
+
+      // On-demand fetch from Wikimedia and update local index/assets (best-effort).
+      try {
+        const kind = String(team.teamType || "").toLowerCase() === "club" ? "club" : "national";
+        const competition = kind === "club" ? "epl" : "wc2026";
+        await syncFootballAssets({
+          fetchTeam: team.name,
+          kind,
+          competition,
+          code: team.code || "",
+        });
+        maybeRefreshIndex();
+
+        const refound = findFootballAssetForTeam(team, index, { teamType: kind });
+        if (refound) {
+          teams[i] = {
+            ...team,
+            ...(refound.flagSrc ? { flagSrc: refound.flagSrc } : {}),
+            ...(refound.logoSrc ? { logoSrc: refound.logoSrc } : {}),
+            ...(refound.badgeSrc ? { badgeSrc: refound.badgeSrc } : {}),
+            teamType: team.teamType || refound.badgeType,
+          };
+        }
+      } catch (err) {
+        logger.warn(`  ⚠️ Could not sync badge for team "${team.name}": ${err.message}`);
+      }
+    }
+
+    scene.teams = teams;
+  }
 
   return storyboard;
 }

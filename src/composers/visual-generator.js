@@ -194,7 +194,48 @@ function generateFootballStatsHTML(visuals, cid) {
     const zIndex = footballZIndex(visuals, 2);
     const bottom = visuals.bottom || '178px';
     return `
-    <div class="football-stat-bars" style="
+    <style>
+      @keyframes football-stat-fill-in-${cid} {
+        from { transform: scaleX(0); }
+        to { transform: scaleX(1); }
+      }
+      @keyframes football-stat-row-in-${cid} {
+        from { opacity:0; transform: translate3d(0, 8px, 0); }
+        to { opacity:1; transform: translate3d(0, 0, 0); }
+      }
+      .football-stat-bars-${cid} .football-stat-row {
+        opacity: 0;
+        animation: football-stat-row-in-${cid} 520ms cubic-bezier(.2,.8,.2,1) forwards;
+        animation-delay: var(--delay, 0s);
+        will-change: transform, opacity;
+      }
+      .football-stat-bars-${cid} .football-stat-track {
+        height:16px;
+        border-radius:999px;
+        background:rgba(255,255,255,0.12);
+        overflow:hidden;
+      }
+      .football-stat-bars-${cid} .football-stat-fill {
+        height:100%;
+        width: calc(var(--pct, 50) * 1%);
+        border-radius:999px;
+        transform: scaleX(0);
+        animation: football-stat-fill-in-${cid} 900ms cubic-bezier(.2,.8,.2,1) forwards;
+        animation-delay: calc(var(--delay, 0s) + 90ms);
+        will-change: transform;
+      }
+      .football-stat-bars-${cid} .football-stat-fill.home {
+        transform-origin: 100% 50%;
+        margin-left: auto;
+        background: ${p.accent};
+      }
+      .football-stat-bars-${cid} .football-stat-fill.away {
+        transform-origin: 0% 50%;
+        background: #ffffff;
+      }
+    </style>
+
+    <div class="football-stat-bars football-stat-bars-${cid}" style="
       position:absolute;
       left:70px;
       right:70px;
@@ -211,18 +252,18 @@ function generateFootballStatsHTML(visuals, cid) {
       pointer-events:none;
       font-family:'Inter', sans-serif;
     ">
-      ${stats.slice(0, 5).map((stat) => {
+      ${stats.slice(0, 5).map((stat, idx) => {
         const home = Number(stat.home ?? stat.left ?? 50);
         const away = Number(stat.away ?? stat.right ?? Math.max(0, 100 - home));
         const total = Math.max(1, Math.abs(home) + Math.abs(away));
         const homePct = Math.max(8, Math.min(92, (Math.abs(home) / total) * 100));
         const awayPct = Math.max(8, Math.min(92, (Math.abs(away) / total) * 100));
         return `
-        <div style="display:grid; grid-template-columns:92px 1fr 184px 1fr 92px; align-items:center; gap:12px; color:#fff;">
+        <div class="football-stat-row" style="--delay:${(idx * 0.12).toFixed(2)}s; display:grid; grid-template-columns:92px 1fr 184px 1fr 92px; align-items:center; gap:12px; color:#fff;">
           <div style="font-size:24px; font-weight:950; text-align:right;">${escapeHtmlForVisuals(String(home))}${escapeHtmlForVisuals(stat.unit || '')}</div>
-          <div style="height:16px; border-radius:999px; background:rgba(255,255,255,0.12); overflow:hidden;"><div style="height:100%; width:${homePct}%; margin-left:auto; border-radius:999px; background:${p.accent};"></div></div>
+          <div class="football-stat-track"><div class="football-stat-fill home" style="--pct:${homePct.toFixed(2)};"></div></div>
           <div style="font-size:18px; font-weight:900; color:rgba(255,255,255,0.72); text-align:center; text-transform:uppercase; letter-spacing:0.08em;">${escapeHtmlForVisuals(stat.label || '')}</div>
-          <div style="height:16px; border-radius:999px; background:rgba(255,255,255,0.12); overflow:hidden;"><div style="height:100%; width:${awayPct}%; border-radius:999px; background:#ffffff;"></div></div>
+          <div class="football-stat-track"><div class="football-stat-fill away" style="--pct:${awayPct.toFixed(2)};"></div></div>
           <div style="font-size:24px; font-weight:950;">${escapeHtmlForVisuals(String(away))}${escapeHtmlForVisuals(stat.unit || '')}</div>
         </div>`;
       }).join('')}

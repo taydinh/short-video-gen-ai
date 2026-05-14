@@ -14,7 +14,7 @@ import { existsSync, readdirSync } from "fs";
 import path from "path";
 import { logger } from "./utils/logger.js";
 import { readInput } from "./steps/01-read-input.js";
-import { generateStoryboard } from "./steps/02-generate-storyboard.js";
+import { generateStoryboard, enrichFootballTeams } from "./steps/02-generate-storyboard.js";
 import { generateTTS } from "./steps/03-generate-tts.js";
 import { adjustTimings } from "./steps/04-adjust-timings.js";
 import { buildHyperFrames } from "./steps/05-build-hyperframes.js";
@@ -42,6 +42,8 @@ export async function pipeline(input) {
     if (!storyboard.scenes || storyboard.scenes.length === 0) {
       throw new Error("Invalid storyboard: missing scenes array");
     }
+    // Best-effort: enrich football teams with local flag/logo assets.
+    storyboard = await enrichFootballTeams(storyboard);
   } else {
     // ── Step 2: Generate storyboard via LMStudio ─────────────────────────────
     logger.step(2, "Generating storyboard with LMStudio...");

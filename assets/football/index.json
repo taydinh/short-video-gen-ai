@@ -1,0 +1,1266 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-14T09:31:41.807Z",
+  "records": [
+    {
+      "id": "wc2026:canada",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Canada",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/canada.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Canada_(construction_sheet_-_leaf_geometry).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:00:30.642Z"
+    },
+    {
+      "id": "wc2026:mexico",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Mexico",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/mexico.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Mexico.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:00:32.238Z"
+    },
+    {
+      "id": "wc2026:united-states",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "United States",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/united-states.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_United_States_Army_North.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:01:32.357Z"
+    },
+    {
+      "id": "wc2026:australia",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Australia",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/australia.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Australia_(converted).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:01:34.467Z"
+    },
+    {
+      "id": "wc2026:iraq",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Iraq",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/iraq.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Iraq_(1924%E2%80%931959%2C_3-2).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:02:04.004Z"
+    },
+    {
+      "id": "wc2026:ir-iran",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "IR Iran",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/ir-iran.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_the_Iran_Ministry_of_Foreign_Affairs.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:02:06.204Z"
+    },
+    {
+      "id": "wc2026:japan",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Japan",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/japan.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Japan.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:02:08.259Z"
+    },
+    {
+      "id": "wc2026:jordan",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Jordan",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.253Z"
+    },
+    {
+      "id": "wc2026:korea-republic",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Korea Republic",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/korea-republic.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_the_Republic_of_Korea_Civil_Defense_Corps_(1975%E2%80%932023).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:03:04.874Z"
+    },
+    {
+      "id": "wc2026:qatar",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Qatar",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/qatar.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Qatar_(1860%E2%80%931916%2C_1916%E2%80%931932).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:03:07.124Z"
+    },
+    {
+      "id": "wc2026:saudi-arabia",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Saudi Arabia",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.253Z"
+    },
+    {
+      "id": "wc2026:uzbekistan",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Uzbekistan",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/uzbekistan.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Uzbekistan_(WFB_2004).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:04:04.602Z"
+    },
+    {
+      "id": "wc2026:algeria",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Algeria",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/algeria.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVariant_flag_of_the_GPRA_(1958-1962).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:04:06.990Z"
+    },
+    {
+      "id": "wc2026:cabo-verde",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Cabo Verde",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/cabo-verde.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Cape_Verde.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:18:03.651Z"
+    },
+    {
+      "id": "wc2026:dr-congo",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "DR Congo",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/dr-congo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_Map_of_Belgian_Congo_(1908_-_1960).svg",
+        "licenseName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "updatedAt": "2026-05-14T04:05:04.202Z"
+    },
+    {
+      "id": "wc2026:cote-divoire",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Côte d'Ivoire",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/cote-divoire.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_C%C3%B4te_d'Ivoire.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:05:06.251Z"
+    },
+    {
+      "id": "wc2026:egypt",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Egypt",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:ghana",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Ghana",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/ghana.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Ghana_(colouring_page).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:06:03.638Z"
+    },
+    {
+      "id": "wc2026:morocco",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Morocco",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/morocco.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Morocco.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:06:05.705Z"
+    },
+    {
+      "id": "wc2026:senegal",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Senegal",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:south-africa",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "South Africa",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/south-africa.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_South_Africa_(1928%E2%80%931994%2C_dark_colors).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:07:03.367Z"
+    },
+    {
+      "id": "wc2026:tunisia",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Tunisia",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/tunisia.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Tunisia_(WFB_2000).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:07:05.595Z"
+    },
+    {
+      "id": "wc2026:curacao",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Curaçao",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:haiti",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Haiti",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/haiti.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Haiti_(1791%E2%80%931798).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:08:03.301Z"
+    },
+    {
+      "id": "wc2026:panama",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Panama",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:argentina",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Argentina",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/argentina.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Argentina_(civil).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:20:23.951Z"
+    },
+    {
+      "id": "wc2026:brazil",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Brazil",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/brazil.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Brazil.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:09:28.302Z"
+    },
+    {
+      "id": "wc2026:colombia",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Colombia",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:ecuador",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Ecuador",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:paraguay",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Paraguay",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:uruguay",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Uruguay",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:new-zealand",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "New Zealand",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:austria",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Austria",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:belgium",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Belgium",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/belgium.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Belgium_(civil).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:12:22.439Z"
+    },
+    {
+      "id": "wc2026:bosnia-and-herzegovina",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Bosnia and Herzegovina",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:croatia",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Croatia",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:czechia",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Czechia",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.254Z"
+    },
+    {
+      "id": "wc2026:england",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "England",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/england.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_England.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:13:55.369Z"
+    },
+    {
+      "id": "wc2026:france",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "France",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/france.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_France.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:13:58.605Z"
+    },
+    {
+      "id": "wc2026:germany",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Germany",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/germany.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Germany_(1933%E2%80%931935).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:14:00.651Z"
+    },
+    {
+      "id": "wc2026:netherlands",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Netherlands",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/netherlands.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_the_Netherlands_Antilles_(1986%E2%80%932010).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:24:43.734Z"
+    },
+    {
+      "id": "wc2026:norway",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Norway",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.255Z"
+    },
+    {
+      "id": "wc2026:portugal",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Portugal",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.255Z"
+    },
+    {
+      "id": "wc2026:scotland",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Scotland",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/scotland.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Scotland_(1542%E2%80%932003%2C_navy_blue).svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:15:27.777Z"
+    },
+    {
+      "id": "wc2026:spain",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Spain",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.255Z"
+    },
+    {
+      "id": "wc2026:sweden",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Sweden",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/sweden.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Sweden.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:15:59.311Z"
+    },
+    {
+      "id": "wc2026:switzerland",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Switzerland",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:00:28.255Z"
+    },
+    {
+      "id": "wc2026:turkiye",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Türkiye",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/turkiye.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Turkey.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:26:51.365Z"
+    },
+    {
+      "id": "epl:manchester-united",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Manchester United",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.551Z"
+    },
+    {
+      "id": "epl:aston-villa",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Aston Villa",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:newcastle-united",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Newcastle United",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:arsenal",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Arsenal",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:manchester-city",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Manchester City",
+      "aliases": [],
+      "codes": {
+        "short": "MCI"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/epl/manchester-city.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManchester_Velodrome_logo.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T06:10:32.465Z"
+    },
+    {
+      "id": "epl:chelsea",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Chelsea",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:liverpool",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Liverpool",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:leicester-city",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Leicester City",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:bournemouth",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Bournemouth",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:brentford",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Brentford",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:brighton-hove-albion",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Brighton & Hove Albion",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:crystal-palace",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Crystal Palace",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:everton",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Everton",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.552Z"
+    },
+    {
+      "id": "epl:fulham",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Fulham",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.553Z"
+    },
+    {
+      "id": "epl:leeds-united",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Leeds United",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.553Z"
+    },
+    {
+      "id": "epl:nottingham-forest",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Nottingham Forest",
+      "aliases": [],
+      "codes": {
+        "short": "NFO"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/epl/nottingham-forest.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2019_European_Parliament_election_in_the_United_Kingdom_estimated_results_by_Westminster_constituency.svg",
+        "licenseName": "OGL 3",
+        "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3"
+      },
+      "updatedAt": "2026-05-14T06:10:35.581Z"
+    },
+    {
+      "id": "epl:tottenham-hotspur",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Tottenham Hotspur",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.553Z"
+    },
+    {
+      "id": "epl:west-ham-united",
+      "kind": "club",
+      "competition": "epl",
+      "name": "West Ham United",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.553Z"
+    },
+    {
+      "id": "epl:wolverhampton-wanderers",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Wolverhampton Wanderers",
+      "aliases": [],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T04:17:04.553Z"
+    },
+    {
+      "id": "wc2026:bo-dao-nha",
+      "kind": "national",
+      "competition": "wc2026",
+      "name": "Bồ Đào Nha",
+      "aliases": [],
+      "codes": {
+        "short": "POR"
+      },
+      "badge": {
+        "type": "flag",
+        "path": "assets/football/flags/bo-dao-nha.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Portugal.svg",
+        "licenseName": "Public domain",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-14T04:36:01.256Z"
+    },
+    {
+      "id": "epl:sjk-j-apollo",
+      "kind": "club",
+      "competition": "epl",
+      "name": "SJK-J Apollo",
+      "aliases": [],
+      "codes": {
+        "short": "SJK"
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T09:31:37.535Z"
+    },
+    {
+      "id": "epl:kiisto-vaasa",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Kiisto Vaasa",
+      "aliases": [],
+      "codes": {
+        "short": "KVA"
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-14T09:31:39.839Z"
+    }
+  ]
+}

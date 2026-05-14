@@ -1,0 +1,62 @@
+{
+  "title": "Football Lineup Demo",
+  "slug": "football-lineup-demo",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình ra sân",
+      "voiceText": "Đây là sơ đồ đội hình ra sân của hai đội. Các cầu thủ được phân bổ theo chiến thuật và hiển thị số áo cùng tên trên sân.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "MATCHDAY",
+      "venue": "Etihad Stadium",
+      "teams": [
+        { "name": "Manchester City", "code": "MCI", "teamType": "club" },
+        { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-2-2",
+          "players": [
+            "#31 Ederson",
+            "#2 Walker",
+            "#3 Rúben Dias",
+            "#25 Akanji",
+            "#24 Gvardiol",
+            "#16 Rodri",
+            "#20 Bernardo Silva",
+            "#26 Savinho",
+            "#21 Doku",
+            "#7 Marmoush",
+            "#9 Haaland"
+          ]
+        },
+        "away": {
+          "formation": "5-4-1",
+          "players": [
+            "#1 Henderson",
+            "#2 Montiel",
+            "#5 Lacroix",
+            "#26 Richards",
+            "#8 Lerma",
+            "#19 Hughes",
+            "#3 Mitchell",
+            "#23 Canvot",
+            "#10 Y. Pino",
+            "#11 B. Johnson",
+            "#14 Mateta"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 }
+      ]
+    }
+  ]
+}
+

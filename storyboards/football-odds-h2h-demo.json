@@ -1,0 +1,63 @@
+{
+  "title": "Football Odds + H2H Demo",
+  "slug": "football-odds-h2h-demo",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "TỶ LỆ KÈO & ĐỐI ĐẦU",
+      "subtext": "Kèo trận đấu (demo)",
+      "voiceText": "Đây là scene demo để test composition football-odds-h2h: bảng tỷ lệ kèo 1x2, kèo chấp HDP, tài xỉu, kèo hiệp 1 và lịch sử đối đầu 3 trận gần nhất.",
+      "duration": 8,
+      "startTime": 0,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "minute": "56'",
+      "competitionLabel": "MATCH ODDS",
+      "teams": [
+        { "name": "Nottingham Forest", "code": "NFO", "teamType": "club", "form": ["L", "D", "W", "W", "L"] },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club", "form": ["W", "W", "D", "L", "W"] }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "Tỷ số", "1x2", "HDP", "Tài xỉu", "HT HDP"],
+        "rows": [
+          {
+            "teamName": "Nottingham Forest",
+            "scoreText": "0",
+            "x12": { "main": "20.00", "tone": "red" },
+            "hdp": { "main": "0/-0.5", "sub": "0.94", "tone": "red" },
+            "ou": { "main": "O 3.5/4", "sub": "0.73", "tone": "orange" },
+            "htHdp": { "main": "0", "sub": "-0.92", "tone": "blue" }
+          },
+          {
+            "teamName": "Manchester City",
+            "scoreText": "3",
+            "minute": "56'",
+            "x12": { "main": "1.04", "sub": "0.82", "tone": "red" },
+            "hdp": { "main": "", "sub": "" },
+            "ou": { "main": "U 3.5/4", "sub": "-0.97" },
+            "htHdp": { "main": "", "sub": "0.67" }
+          },
+          {
+            "teamName": "Hòa",
+            "scoreText": "",
+            "x12": { "main": "7.00", "tone": "red" },
+            "hdp": { "main": "", "sub": "" },
+            "ou": { "main": "", "sub": "" },
+            "htHdp": { "main": "", "sub": "" }
+          }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "21:00 14/2", "competition": "ANH", "home": "Nottingham Forest", "away": "Manchester City", "score": "0-3" },
+        { "kickoff": "22:30 17/05", "competition": "FA CUP", "home": "Nottingham Forest", "away": "Manchester City", "score": "1-0" },
+        { "kickoff": "01:45 03/01", "competition": "EPL", "home": "Manchester City", "away": "Nottingham Forest", "score": "2-2" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 }
+      ]
+    }
+  ]
+}
