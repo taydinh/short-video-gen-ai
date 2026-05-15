@@ -11,6 +11,7 @@ import {
   buildJolyStyles,
   isJolyComposition,
 } from "./joly-widgets.js";
+import { findFootballAssetForTeam, loadFootballAssetIndex } from "../football/asset-index.js";
 
 const { width, height } = config.hyperframes;
 
@@ -1443,64 +1444,38 @@ function composerStyles(scene) {
       width: 100%;
     }
     [data-composition-id="${cid}"] .football-odds3 {
-      display: grid;
-      grid-template-columns: 84px 1fr;
-      gap: 14px;
-      width: 100%;
-      align-items: start;
-    }
-    [data-composition-id="${cid}"] .football-odds3-rowlabels {
-      display: grid;
-      grid-template-rows: 56px 54px 54px;
-      gap: 10px;
-      align-items: stretch;
-    }
-    [data-composition-id="${cid}"] .football-odds3-rowlabels-spacer {
-      border-radius: 16px;
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.10);
-    }
-    [data-composition-id="${cid}"] .football-odds3-rowlabel {
-      border-radius: 14px;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-      font-weight: 950;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: rgba(226,232,240,0.86);
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.10);
-    }
-    [data-composition-id="${cid}"] .football-odds3-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 14px;
+      flex-direction: column;
+      gap: 0;
       width: 100%;
     }
     [data-composition-id="${cid}"] .football-odds3-table {
-      border-radius: 18px;
       overflow: hidden;
-      border: 1px solid rgba(255,255,255,0.12);
-      background: rgba(255,255,255,0.04);
-      box-shadow: 0 18px 46px rgba(0,0,0,0.24);
+      border: 1px solid rgba(203,213,225,0.92);
+      border-bottom: none;
+      background: #ffffff;
       display: flex;
       flex-direction: column;
       min-width: 0;
+      box-shadow: none;
+    }
+    [data-composition-id="${cid}"] .football-odds3-table:first-child { border-radius: 6px 6px 0 0; }
+    [data-composition-id="${cid}"] .football-odds3-table:last-child {
+      border-bottom: 1px solid rgba(203,213,225,0.92);
+      border-radius: 0 0 6px 6px;
     }
     [data-composition-id="${cid}"] .football-odds3-title {
-      height: 56px;
+      height: 48px;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 0 12px;
-      background: rgba(255,255,255,0.06);
-      border-bottom: 1px solid rgba(255,255,255,0.10);
-      color: rgba(255,255,255,0.92);
-      font-size: 18px;
+      background: #f1f3f5;
+      border-bottom: 1px solid rgba(203,213,225,0.92);
+      color: #0f172a;
+      font-size: 22px;
       font-weight: 950;
-      letter-spacing: 0.08em;
+      letter-spacing: 0;
       text-transform: uppercase;
       text-align: center;
       white-space: nowrap;
@@ -1509,17 +1484,17 @@ function composerStyles(scene) {
     }
     [data-composition-id="${cid}"] .football-odds3-thead {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      background: linear-gradient(90deg, rgba(22,163,74,0.96), rgba(16,185,129,0.92));
-      color: #ffffff;
+      grid-template-columns: 100px repeat(3, 1fr);
+      background: #f1f3f5;
+      color: #0f172a;
       font-weight: 950;
-      font-size: 17px;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
+      font-size: 18px;
+      letter-spacing: 0;
+      }
     [data-composition-id="${cid}"] .football-odds3-th {
-      padding: 12px 10px;
-      border-right: 1px solid rgba(255,255,255,0.14);
+      min-height: 44px;
+      padding: 8px 10px;
+      border-right: 1px solid rgba(203,213,225,0.92);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1532,15 +1507,30 @@ function composerStyles(scene) {
     }
     [data-composition-id="${cid}"] .football-odds3-tr {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      border-top: 1px solid rgba(255,255,255,0.10);
-      min-height: 54px;
+      grid-template-columns: 100px repeat(3, 1fr);
+      border-top: 1px solid rgba(203,213,225,0.86);
+      min-height: 48px;
     }
     [data-composition-id="${cid}"] .football-odds3-tr:first-child { border-top: none; }
-    [data-composition-id="${cid}"] .football-odds3-tr.is-alt { background: rgba(255,255,255,0.02); }
+    [data-composition-id="${cid}"] .football-odds3-table:nth-child(1) .football-odds3-tr { background: #dcfce7; }
+    [data-composition-id="${cid}"] .football-odds3-table:nth-child(2) .football-odds3-tr { background: #fff7ed; }
+    [data-composition-id="${cid}"] .football-odds3-table:nth-child(3) .football-odds3-tr { background: #ffffff; }
+    [data-composition-id="${cid}"] .football-odds3-rowlabel {
+      padding: 8px 10px;
+      border-right: 1px solid rgba(203,213,225,0.86);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 0;
+      background: #ffffff;
+      color: #020617;
+      font-size: 18px;
+      font-weight: 950;
+      line-height: 1;
+    }
     [data-composition-id="${cid}"] .football-odds3-td {
-      padding: 10px 10px;
-      border-right: 1px solid rgba(255,255,255,0.08);
+      padding: 8px 10px;
+      border-right: 1px solid rgba(203,213,225,0.86);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1548,15 +1538,17 @@ function composerStyles(scene) {
     }
     [data-composition-id="${cid}"] .football-odds3-td:last-child { border-right: none; }
     [data-composition-id="${cid}"] .football-odds3-val {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 950;
-      color: rgba(255,255,255,0.92);
-      letter-spacing: 0.01em;
+      color: #065f46;
+      letter-spacing: 0;
       line-height: 1;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
+    [data-composition-id="${cid}"] .football-odds3-table:nth-child(2) .football-odds3-val { color: #7c2d12; }
+    [data-composition-id="${cid}"] .football-odds3-table:nth-child(3) .football-odds3-val { color: #0f172a; }
 
     [data-composition-id="${cid}"] .football-h2h-title {
       font-size: 22px;
@@ -1861,6 +1853,9 @@ function composerStyles(scene) {
       min-width: 96px;
       opacity: 0;
       filter: blur(6px);
+    }
+    [data-composition-id="${cid}"] .football-lineup-player.home {
+      gap: 6px;
     }
     [data-composition-id="${cid}"] .football-lineup-badge {
       width: 56px;
@@ -2326,29 +2321,6 @@ function composerStyles(scene) {
     [data-composition-id="${cid}"] .football-standings-pts {
       color: rgba(255,255,255,0.96);
     }
-    [data-composition-id="${cid}"] .football-standings-last5 {
-      display: inline-flex;
-      justify-content: flex-end;
-      gap: 6px;
-      min-width: 120px;
-    }
-    [data-composition-id="${cid}"] .football-standings-last5 .football-form-dot {
-      width: 22px;
-      height: 22px;
-      border-radius: 999px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      font-weight: 950;
-      color: rgba(255,255,255,0.92);
-      border: 2px solid rgba(255,255,255,0.18);
-      background: rgba(255,255,255,0.08);
-    }
-    [data-composition-id="${cid}"] .football-form-dot.w { background: rgba(34,197,94,0.90); border-color: rgba(34,197,94,0.90); }
-    [data-composition-id="${cid}"] .football-form-dot.d { background: rgba(148,163,184,0.62); border-color: rgba(148,163,184,0.62); }
-    [data-composition-id="${cid}"] .football-form-dot.l { background: rgba(239,68,68,0.86); border-color: rgba(239,68,68,0.86); }
-
     /* ── Football tournament logo intro ─────────────────────────────────── */
     [data-composition-id="${cid}"] .football-tournament-intro {
       isolation: isolate;
@@ -2543,8 +2515,7 @@ const COMPOSERS = {
     const teams = normalizeFootballTeams(scene);
     const stage = scene.stage || scene.competitionLabel || "WORLD FOOTBALL";
     const subtext = scene.subtext || scene.venue || "Match preview";
-    const dateText = String(scene.date || scene.day || scene.matchDate || scene.kickoffDate || scene.datetime || scene.dateTime || "").trim();
-    const timeText = String(scene.time || scene.kickoff || scene.kickoffTime || scene.hour || "").trim();
+    const { dateText, timeText } = normalizeFootballMatchDateTime(scene);
     const rightAccent = scene.secondaryAccentColor || scene.accentColor2 || scene.accentColor || "#F7C948";
     return `
     <div class="canvas football-scene football-match-card" style="align-items:center; justify-content:flex-start; padding:136px 76px 138px; background:${footballBg(scene)};">
@@ -2693,50 +2664,37 @@ const COMPOSERS = {
     const renderRates = () => {
       if (!rates) return "";
 
-      const labelEarly = rates.labels?.early || "Sớm";
-      const labelLive = rates.labels?.live || "Live";
-      const rowLabels = [
-        { key: "early", label: labelEarly },
-        { key: "live", label: labelLive },
-      ];
-
       const cell = (text, cls = "") =>
         `<div class="football-odds3-td ${cls}"><div class="football-odds3-val">${escapeHtml(String(text || ""))}</div></div>`;
 
       const buildTable = (title, cols, block) => {
-        const early = block?.early || { a: "", b: "", c: "" };
-        const live = block?.live || { a: "", b: "", c: "" };
+        const rows = Array.isArray(block?.rows) && block.rows.length
+          ? block.rows
+          : [
+              { label: rates.labels?.early || "Sớm", ...(block?.early || { a: "", b: "", c: "" }) },
+              { label: rates.labels?.live || "Live", ...(block?.live || { a: "", b: "", c: "" }) },
+            ];
         return `<div class="football-odds3-table">
           <div class="football-odds3-title">${escapeHtml(String(title))}</div>
           <div class="football-odds3-thead">
+            <div class="football-odds3-th is-label"></div>
             ${cols.map((c) => `<div class="football-odds3-th">${escapeHtml(String(c))}</div>`).join("")}
           </div>
           <div class="football-odds3-tbody">
-            <div class="football-odds3-tr">
-              ${cell(safeRate(early.a), "is-home")}
-              ${cell(safeRate(early.b), "is-line")}
-              ${cell(safeRate(early.c), "is-away")}
-            </div>
-            <div class="football-odds3-tr is-alt">
-              ${cell(safeRate(live.a), "is-home")}
-              ${cell(safeRate(live.b), "is-line")}
-              ${cell(safeRate(live.c), "is-away")}
-            </div>
+            ${rows.map((row, i) => `<div class="football-odds3-tr ${i % 2 ? "is-alt" : ""}">
+              <div class="football-odds3-rowlabel">${escapeHtml(String(row.label || ""))}</div>
+              ${cell(safeRate(row.a), "is-home")}
+              ${cell(safeRate(row.b), "is-line")}
+              ${cell(safeRate(row.c), "is-away")}
+            </div>`).join("")}
           </div>
         </div>`;
       };
 
       return `<div class="football-odds3">
-        <div class="football-odds3-rowlabels" aria-hidden="true">
-          <div class="football-odds3-rowlabels-spacer"></div>
-          <div class="football-odds3-rowlabel">${escapeHtml(rowLabels[0].label)}</div>
-          <div class="football-odds3-rowlabel">${escapeHtml(rowLabels[1].label)}</div>
-        </div>
-        <div class="football-odds3-grid">
-          ${buildTable("TỶ LỆ CHÂU Á", ["Chủ", "HDP", "Khách"], rates.asian)}
-          ${buildTable("TỶ LỆ CHÂU ÂU", ["Chủ", "H", "Khách"], rates.europe)}
-          ${buildTable("TỶ LỆ TÀI XỈU", ["Tài", "Kèo đầu", "Xỉu"], rates.ou)}
-        </div>
+        ${buildTable("TỶ LỆ CHÂU Á", ["Chủ", "HDP", "Khách"], rates.asian)}
+        ${buildTable("TỶ LỆ CHÂU ÂU", ["Chủ", "H", "Khách"], rates.europe)}
+        ${buildTable("TỶ LỆ TÀI XỈU", ["Tài", "Kèo đấu", "Xỉu"], rates.ou)}
       </div>`;
     };
 
@@ -2769,7 +2727,9 @@ const COMPOSERS = {
       return { a: m[1], b: m[2] };
     };
 
-    const matchesHtml = matches.slice(0, 3).map((m, i) => {
+    const h2hLimit = Math.min(Math.max(Number(scene.h2hLimit) || 5, 1), 8);
+    const visibleMatches = matches.slice(0, h2hLimit);
+    const matchesHtml = visibleMatches.map((m, i) => {
       const time = m.kickoff || m.time || m.date || "";
       const comp = m.competition || m.league || m.tournament || "H2H";
       const home = m.home || m.teamA || m.left || teams[0]?.name || "Home";
@@ -2820,7 +2780,7 @@ const COMPOSERS = {
         </div>
 
         <div class="football-h2h-panel" id="s${scene.id}-h2h">
-          <div class="football-h2h-title">Lịch sử đối đầu (3 trận gần nhất)</div>
+          <div class="football-h2h-title">Lịch sử đối đầu (${visibleMatches.length} trận gần nhất)</div>
           <div class="football-h2h-list">${matchesHtml}</div>
         </div>
       </div>
@@ -3065,7 +3025,6 @@ const COMPOSERS = {
             <th>GA</th>
             <th>GD</th>
             <th class="football-standings-pts">Pts</th>
-            <th style="text-align:right;">Last 5</th>
           </tr>
         </thead>
       `
@@ -3092,15 +3051,6 @@ const COMPOSERS = {
         ? `<span class="football-standings-badge ${r.team.badgeType === "national" ? "flag" : "logo"}"><img src="${escapeHtmlAttr(r.team.badgeSrc)}" alt="${escapeHtmlAttr(r.team.name || "")}"/></span>`
         : `<span class="football-standings-badge"></span>`;
 
-      const last5 = Array.isArray(r.last5) ? r.last5.slice(0, 5) : [];
-      const last5Html = last5.length
-        ? `<span class="football-standings-last5">${last5.map((x) => {
-            const v = String(x || "").toUpperCase();
-            const cls = v === "W" ? "w" : (v === "D" ? "d" : "l");
-            return `<span class="football-form-dot ${cls}">${escapeHtml(v || "")}</span>`;
-          }).join("")}</span>`
-        : `<span class="football-standings-last5"></span>`;
-
       const numericCols = table.variant === "club-league"
         ? `
           <td>${escapeHtml(String(r.played ?? ""))}</td>
@@ -3111,7 +3061,6 @@ const COMPOSERS = {
           <td>${escapeHtml(String(r.ga ?? ""))}</td>
           <td>${escapeHtml(String(r.gd ?? ""))}</td>
           <td class="football-standings-pts">${escapeHtml(String(r.pts ?? ""))}</td>
-          <td style="text-align:right;">${last5Html}</td>
         `
         : `
           <td>${escapeHtml(String(r.played ?? ""))}</td>
@@ -3992,7 +3941,23 @@ function buildAnimationScript(scene) {
       const bracketNodes = document.querySelectorAll('[data-composition-id="${cid}"] .football-bracket-node');
       if (bracketNodes.length) tl.fromTo(bracketNodes, { scale: 0.82, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.45, stagger: 0.14, ease: "back.out(1.5)" }, 0.84);
       const events = document.querySelectorAll('[data-composition-id="${cid}"] .football-event');
-      if (events.length) tl.fromTo(events, { x: -54, opacity: 0 }, { x: 0, opacity: 1, duration: 0.52, stagger: 0.16, ease: "power3.out" }, 0.56);`,
+      if (events.length) tl.fromTo(events, { x: -54, opacity: 0 }, { x: 0, opacity: 1, duration: 0.52, stagger: 0.16, ease: "power3.out" }, 0.56);
+      const oddsPanel = document.querySelector('[data-composition-id="${cid}"] #${s}-odds');
+      if (oddsPanel) tl.fromTo(oddsPanel, { x: -44, opacity: 0, scale: 0.985 }, { x: 0, opacity: 1, scale: 1, duration: 0.62, ease: "power3.out" }, 0.48);
+      const h2hPanel = document.querySelector('[data-composition-id="${cid}"] #${s}-h2h');
+      if (h2hPanel) tl.fromTo(h2hPanel, { x: 44, opacity: 0, scale: 0.985 }, { x: 0, opacity: 1, scale: 1, duration: 0.62, ease: "power3.out" }, 0.58);
+      const h2hCards = document.querySelectorAll('[data-composition-id="${cid}"] .football-h2h-card');
+      if (h2hCards.length) {
+        tl.fromTo(h2hCards, { y: 34, opacity: 0, scale: 0.96, filter: "blur(8px)" }, { y: 0, opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.54, stagger: 0.14, ease: "back.out(1.35)" }, 0.86);
+        tl.fromTo('[data-composition-id="${cid}"] .football-h2h-scorepill', { scale: 0.86 }, { scale: 1, duration: 0.42, stagger: 0.14, ease: "back.out(2)" }, 1.02);
+      }
+      const standingsWrap = document.querySelector('[data-composition-id="${cid}"] #${s}-standings');
+      if (standingsWrap) tl.fromTo(standingsWrap, { y: 40, opacity: 0, scale: 0.985 }, { y: 0, opacity: 1, scale: 1, duration: 0.62, ease: "power3.out" }, 0.46);
+      const standingsRows = document.querySelectorAll('[data-composition-id="${cid}"] .football-standings-table tbody tr');
+      if (standingsRows.length) {
+        tl.fromTo(standingsRows, { x: -44, opacity: 0, filter: "blur(8px)" }, { x: 0, opacity: 1, filter: "blur(0px)", duration: 0.46, stagger: 0.085, ease: "power3.out" }, 0.82);
+        tl.fromTo('[data-composition-id="${cid}"] .football-standings-badge', { scale: 0.72, rotate: -8 }, { scale: 1, rotate: 0, duration: 0.36, stagger: 0.085, ease: "back.out(1.8)" }, 0.92);
+      }`,
 
     "football-lineup": () => `
       const tl = gsap.timeline({ paused: true });
@@ -4314,10 +4279,6 @@ function normalizeFootballOddsRates(scene) {
   const normalizeSide = (v) => (v === 0 || v) ? String(v) : "";
   const normalizeBlock = (block) => {
     if (!block || typeof block !== "object") return null;
-    const early = block.early || block.open || block.som || block.pre || null;
-    const live = block.live || block.inplay || block.trucTiep || null;
-    if (!early && !live) return null;
-
     const coerce = (obj) => {
       if (!obj || typeof obj !== "object") return { a: "", b: "", c: "" };
       const values = Array.isArray(obj.values) ? obj.values : null;
@@ -4331,9 +4292,30 @@ function normalizeFootballOddsRates(scene) {
       };
     };
 
+    const rowSources = Array.isArray(block.rows) ? block.rows : (Array.isArray(block.items) ? block.items : null);
+    if (rowSources?.length) {
+      const rows = rowSources.map((row, i) => ({
+        label: row.label || row.name || row.type || (i === 1 ? "Live" : "Sớm"),
+        ...coerce(row),
+      }));
+      return rows.length ? { early: rows[0], live: rows[1], rows } : null;
+    }
+
+    const early = block.early || block.open || block.som || block.pre || null;
+    const live = block.live || block.inplay || block.trucTiep || null;
+    const late = block.early2 || block.som2 || block.close || block.closing || block.late || block.final || block.pre2 || null;
+    if (!early && !live && !late) return null;
+
+    const rows = [
+      early ? { label: "Sớm", ...coerce(early) } : null,
+      live ? { label: "Live", ...coerce(live) } : null,
+      late ? { label: "Sớm", ...coerce(late) } : null,
+    ].filter(Boolean);
+
     return {
-      early: coerce(early),
-      live: coerce(live),
+      early: rows[0] || { label: "Sớm", a: "", b: "", c: "" },
+      live: rows[1] || { label: "Live", a: "", b: "", c: "" },
+      rows,
     };
   };
 
@@ -4348,9 +4330,9 @@ function normalizeFootballOddsRates(scene) {
       early: raw.labels?.early || raw.labels?.open || raw.labels?.som || "Sớm",
       live: raw.labels?.live || raw.labels?.inplay || "Live",
     },
-    asian: asian || { early: { a: "", b: "", c: "" }, live: { a: "", b: "", c: "" } },
-    europe: europe || { early: { a: "", b: "", c: "" }, live: { a: "", b: "", c: "" } },
-    ou: ou || { early: { a: "", b: "", c: "" }, live: { a: "", b: "", c: "" } },
+    asian: asian || { rows: [] },
+    europe: europe || { rows: [] },
+    ou: ou || { rows: [] },
   };
 }
 
@@ -4385,7 +4367,7 @@ function normalizeFootballH2HMatches(scene, teams) {
   };
 
   const normalized = list.map(toMatch).filter(Boolean);
-  if (normalized.length) return normalized.slice(0, 3);
+  if (normalized.length) return normalized.slice(0, 8);
 
   const t0 = teams?.[0]?.name || "Đội 1";
   const t1 = teams?.[1]?.name || "Đội 2";
@@ -4464,7 +4446,7 @@ function normalizeFootballPlayers(playersRaw, teamName, seed) {
   return list.slice(0, 23).map((p, i) => {
     if (typeof p === "string") {
       const s = p.trim();
-      const m = s.match(/^#?(\\d{1,3})\\s+(.+)$/);
+      const m = s.match(/^#?(\d{1,3})\s+(.+)$/);
       if (m) return { number: Number(m[1]), name: m[2].trim(), team: teamName };
       return { number: i === 0 ? 1 : i + seed, name: s, team: teamName };
     }
@@ -4494,10 +4476,16 @@ function buildFootballLineupPlayersHtml({ side, formation, players }) {
     const number = escapeHtml(String(pl.number ?? ""));
     const name = escapeHtml(String(pl.name ?? ""));
     const role = escapeHtml(String(pl.role ?? ""));
+    const playerContent = side === "home"
+      ? `
+          <div class="football-lineup-name">${name}</div>
+          <div class="football-lineup-badge">${number}</div>`
+      : `
+          <div class="football-lineup-badge">${number}</div>
+          <div class="football-lineup-name">${name}</div>`;
     return `
         <div class="football-lineup-player ${side}" style="left:${left}; top:${top}; --stagger:${delay}s;" data-role="${role}">
-          <div class="football-lineup-badge">${number}</div>
-          <div class="football-lineup-name">${name}</div>
+${playerContent}
         </div>`;
   }).join("");
 }
@@ -4561,10 +4549,9 @@ function computeFootballFormationLayout(formation, side, players) {
   const outfield = [];
   while (outfield.length < 10 && pool.length) outfield.push(pool.shift());
 
-  const midY = 0.50;
   const region = side === "home"
-    ? { x0: 0.10, x1: 0.90, y0: 0.08, y1: midY - 0.02 }
-    : { x0: 0.10, x1: 0.90, y0: midY + 0.02, y1: 0.92 };
+    ? { x0: 0.10, x1: 0.90, y0: 0.16, y1: 0.43 }
+    : { x0: 0.10, x1: 0.90, y0: 0.57, y1: 0.83 };
 
   const yForLine = (i, total) => {
     if (total <= 1) return (region.y0 + region.y1) / 2;
@@ -4629,7 +4616,7 @@ function computeFootballFormationLayout(formation, side, players) {
 
   const positioned = [];
   // GK should be the first row for home (top) and the last row for away (bottom)
-  const gkY = side === "home" ? (region.y0 + 0.05) : (region.y1 - 0.05);
+  const gkY = side === "home" ? 0.05 : 0.94;
   positioned.push({
     ...gk,
     x: clamp01(gk.x ?? 0.50),
@@ -4670,10 +4657,53 @@ function normalizeFootballTeamBadge(team, scene) {
     ? (flag || badge || null)
     : (logo || badge || null);
 
+  if (!badgeSrc) {
+    const found = findLocalFootballTeamAsset(team, scene, badgeType);
+    if (found) return found;
+  }
+
   return {
     badgeType,
     badgeSrc: badgeSrc ? String(badgeSrc) : null,
   };
+}
+
+let footballAssetIndexCache = null;
+let footballAssetIndexFailed = false;
+
+function getLocalFootballAssetIndex() {
+  if (footballAssetIndexCache || footballAssetIndexFailed) return footballAssetIndexCache;
+  try {
+    footballAssetIndexCache = loadFootballAssetIndex();
+  } catch {
+    footballAssetIndexFailed = true;
+  }
+  return footballAssetIndexCache;
+}
+
+function findLocalFootballTeamAsset(team, scene, badgeType) {
+  if (!team) return null;
+  const index = getLocalFootballAssetIndex();
+  if (!index) return null;
+
+  const query = typeof team === "string"
+    ? { name: team }
+    : {
+        name: team.name || team.title || "",
+        code: team.code || team.shortCode || team.abbr || team.short || "",
+        teamType: team.teamType || badgeType || scene?.teamType || scene?.teamKind || "",
+      };
+
+  const found = findFootballAssetForTeam(query, index, {
+    teamType: query.teamType || badgeType || scene?.teamType || scene?.teamKind,
+  });
+
+  return found
+    ? {
+        badgeType: found.badgeType,
+        badgeSrc: found.badgeSrc,
+      }
+    : null;
 }
 
 function normalizeFootballScore(scene) {
@@ -4791,7 +4821,13 @@ function normalizeFootballFixtures(scene) {
     if (!team) return { name: fallbackName || "", code: "", badgeType: null, badgeSrc: null };
     if (typeof team === "string") {
       const name = team;
-      return { name, code: name.replace(/[^A-Za-z0-9]/g, "").slice(0, 4).toUpperCase(), badgeType: null, badgeSrc: null };
+      const badge = findLocalFootballTeamAsset({ name, teamType: scene?.teamType }, scene, null);
+      return {
+        name,
+        code: name.replace(/[^A-Za-z0-9]/g, "").slice(0, 4).toUpperCase(),
+        badgeType: badge?.badgeType || null,
+        badgeSrc: badge?.badgeSrc || null,
+      };
     }
     const name = team.name || team.title || fallbackName || "";
     const badge = normalizeFootballTeamBadge(team, scene);
@@ -4866,7 +4902,13 @@ function normalizeFootballStandings(scene) {
     if (!team) return { name: fallbackName || "", code: "", badgeType: null, badgeSrc: null };
     if (typeof team === "string") {
       const name = team;
-      return { name, code: name.replace(/[^A-Za-z0-9]/g, "").slice(0, 4).toUpperCase(), badgeType: null, badgeSrc: null };
+      const badge = findLocalFootballTeamAsset({ name, teamType: scene?.teamType }, scene, null);
+      return {
+        name,
+        code: name.replace(/[^A-Za-z0-9]/g, "").slice(0, 4).toUpperCase(),
+        badgeType: badge?.badgeType || null,
+        badgeSrc: badge?.badgeSrc || null,
+      };
     }
     const name = team.name || team.title || fallbackName || "";
     const badge = normalizeFootballTeamBadge(team, scene);
@@ -4933,6 +4975,44 @@ function normalizeFootballStandings(scene) {
 
 function footballBg(scene) {
   return `linear-gradient(160deg, ${scene.bgColor || "#08111F"} 0%, #0b1f17 48%, #08111F 100%)`;
+}
+
+function normalizeFootballMatchDateTime(scene) {
+  const dateText = String(
+    scene.vietnamDate
+      || scene.vnDate
+      || scene.localDate
+      || scene.date
+      || scene.day
+      || scene.matchDate
+      || scene.kickoffDate
+      || scene.datetime
+      || scene.dateTime
+      || ""
+  ).trim();
+
+  const rawTime = String(
+    scene.vietnamTime
+      || scene.vnTime
+      || scene.localTime
+      || scene.time
+      || scene.kickoff
+      || scene.kickoffTime
+      || scene.hour
+      || ""
+  ).trim();
+
+  return {
+    dateText: stripFootballTimezoneLabel(dateText),
+    timeText: stripFootballTimezoneLabel(rawTime),
+  };
+}
+
+function stripFootballTimezoneLabel(value) {
+  return String(value || "")
+    .replace(/\s*\((?:BST|GMT|UTC|ICT|WIB|WITA|WIT|CET|CEST|EET|EEST|PST|PDT|EST|EDT)\)\s*$/i, "")
+    .replace(/\s*(?:theo\s+)?giờ\s+(?:việt\s*nam|anh|bangkok|thái\s*lan|gmt|utc|bst|ict)\s*$/i, "")
+    .trim();
 }
 
 function footballPitchBackdrop(scene) {

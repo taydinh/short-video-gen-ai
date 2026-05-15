@@ -4,7 +4,7 @@
  */
 
 import { execSync } from "child_process";
-import { existsSync, copyFileSync, renameSync, unlinkSync } from "fs";
+import { existsSync, copyFileSync, mkdirSync, renameSync, unlinkSync } from "fs";
 import path from "path";
 import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
@@ -22,8 +22,10 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
     return af && af.audioPath && existsSync(af.audioPath);
   });
 
-  if (scenesWithAudio.length === 0) {
-    logger.warn("  No audio files found, copying video without audio merge");
+  const backgroundMusic = resolveBackgroundMusic();
+
+  if (scenesWithAudio.length === 0 && !backgroundMusic) {
+    logger.warn("  No audio files or background music found, copying video without audio merge");
     copyFileSync(renderedMp4, finalPath);
     return finalPath;
   }
@@ -31,9 +33,14 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
   // Build silent base track matching total video duration
   const totalDuration = storyboard.totalDuration;
   const extension = config.omnivoice?.outputFormat || "wav";
-  const silencePath = path.join(outputDir, "audio", `silence.${extension}`);
+  const audioDir = path.join(outputDir, "audio");
+  if (!existsSync(audioDir)) mkdirSync(audioDir, { recursive: true });
+  const silencePath = path.join(audioDir, `silence.${extension}`);
 
   logger.info(`  Building mixed audio track (${totalDuration.toFixed(2)}s)...`);
+  if (backgroundMusic) {
+    logger.info(`  Background music: ${backgroundMusic.src} (${Math.round(backgroundMusic.volume * 100)}%)`);
+  }
 
   try {
     // Create silence base
@@ -49,7 +56,8 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
       ...scenesWithAudio.map((scene) => {
         const af = audioFiles.find((a) => a.sceneId === scene.id);
         return `-i "${af.audioPath}"`;
-      })
+      }),
+      ...(backgroundMusic ? [`-stream_loop -1 -i "${backgroundMusic.src}"`] : [])
     ];
 
     const delayFilters = scenesWithAudio.map((scene, i) => {
@@ -57,14 +65,21 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
       return `[${i + 1}:a]aformat=channel_layouts=stereo,adelay=${delayMs}|${delayMs}[a${i}]`;
     });
 
-    const mixInputs = `[0:a]` + scenesWithAudio.map((_, i) => `[a${i}]`).join("");
-    const numInputs = scenesWithAudio.length + 1;
+    const backgroundInputIndex = scenesWithAudio.length + 1;
+    const backgroundFilter = backgroundMusic
+      ? `[${backgroundInputIndex}:a]aformat=channel_layouts=stereo,atrim=0:${totalDuration.toFixed(3)},asetpts=PTS-STARTPTS,volume=${backgroundMusic.volume}[bg]`
+      : null;
+
+    const mixInputs = `[0:a]`
+      + scenesWithAudio.map((_, i) => `[a${i}]`).join("")
+      + (backgroundMusic ? "[bg]" : "");
+    const numInputs = scenesWithAudio.length + 1 + (backgroundMusic ? 1 : 0);
 
     const mixFilter = `${mixInputs}amix=inputs=${numInputs}:duration=longest:normalize=0,volume=1[amix]`;
 
-    const filterComplex = [...delayFilters, mixFilter].join(";");
+    const filterComplex = [...delayFilters, backgroundFilter, mixFilter].filter(Boolean).join(";");
 
-    const mixedAudioPath = path.join(outputDir, "audio", `mixed.${extension}`);
+    const mixedAudioPath = path.join(audioDir, `mixed.${extension}`);
     const mixCodec = extension === "mp3" ? "libmp3lame" : "pcm_s16le";
 
     execSync(
@@ -96,4 +111,23 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
   try { copyFileSync(renderedMp4, rawVideoPath); } catch { }
 
   return finalPath;
+}
+
+function resolveBackgroundMusic() {
+  const musicConfig = config.video?.backgroundMusic;
+  if (!musicConfig?.enabled || !musicConfig.src) return null;
+
+  const src = path.isAbsolute(musicConfig.src)
+    ? musicConfig.src
+    : path.resolve(musicConfig.src);
+
+  if (!existsSync(src)) {
+    logger.warn(`  Background music not found: ${src}`);
+    return null;
+  }
+
+  const rawVolume = Number(musicConfig.volume);
+  const volume = Number.isFinite(rawVolume) ? Math.max(0, Math.min(rawVolume, 1)) : 0.3;
+
+  return { src, volume };
 }

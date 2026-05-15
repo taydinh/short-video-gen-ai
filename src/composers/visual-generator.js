@@ -36,6 +36,8 @@ function generateSingleVisualHTML(visuals, cid) {
             return generateFootballStatsHTML(visuals, cid);
         case 'football-confetti':
             return generateFootballConfettiHTML(visuals, cid);
+        case 'channel-watermark':
+            return generateChannelWatermarkHTML(visuals, cid);
         case 'image':
             return generateImageHTML(visuals, cid);
         case 'animation':
@@ -334,6 +336,87 @@ function generateFootballConfettiHTML(visuals, cid) {
         requestAnimationFrame(animate);
       })();
     </script>`;
+}
+
+function generateChannelWatermarkHTML(visuals, cid) {
+    const logoSrc = visuals.logoSrc || visuals.imageUrl || 'assets/logos/logo.png';
+    const username = visuals.username || visuals.handle || '@username';
+    const opacity = visuals.opacity ?? 0.6;
+    const zIndex = visuals.zIndex || 4;
+    const top = visuals.top || '52px';
+    const right = visuals.right || '42px';
+    const logoSize = Number.isFinite(visuals.logoSize) ? visuals.logoSize : 74;
+    const fontSize = Number.isFinite(visuals.fontSize) ? visuals.fontSize : 24;
+    const boxWidth = Number.isFinite(visuals.width) ? visuals.width : Math.max(logoSize + 36, 138);
+    const usernameMinWidth = Number.isFinite(visuals.usernameMinWidth) ? visuals.usernameMinWidth : Math.max(boxWidth - 34, 0);
+    const accent = visuals.accentColor || '#F7C948';
+
+    return `
+    <style>
+      @keyframes channel-watermark-in-${cid} {
+        from { opacity: 0; transform: translate3d(10px, -8px, 0) scale(0.96); }
+        to { opacity: ${opacity}; transform: translate3d(0, 0, 0) scale(1); }
+      }
+      .channel-watermark-${cid} {
+        animation: channel-watermark-in-${cid} 420ms cubic-bezier(.2,.8,.2,1) both;
+      }
+    </style>
+    <div class="channel-watermark channel-watermark-${cid}" style="
+      position:absolute;
+      top:${top};
+      right:${right};
+      z-index:${zIndex};
+      opacity:${opacity};
+      pointer-events:none;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:8px;
+      width:${boxWidth}px;
+      padding:12px 12px 10px;
+      border-radius:22px;
+      background:linear-gradient(180deg, rgba(8,17,31,0.58), rgba(8,17,31,0.34));
+      border:1px solid rgba(255,255,255,0.18);
+      box-shadow:0 14px 34px rgba(0,0,0,0.30), 0 0 0 1px rgba(247,201,72,0.10) inset;
+      backdrop-filter:blur(10px);
+      font-family:'Inter', sans-serif;
+    ">
+      <div style="
+        width:${logoSize}px;
+        height:${logoSize}px;
+        border-radius:999px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:rgba(255,255,255,0.92);
+        border:2px solid ${accent};
+        box-shadow:0 8px 18px rgba(0,0,0,0.25), 0 0 18px rgba(247,201,72,0.28);
+        overflow:hidden;
+      ">
+        <img src="${escapeHtmlForVisuals(logoSrc)}" alt="" style="
+          width:100%;
+          height:100%;
+          object-fit:cover;
+          display:block;
+        " />
+      </div>
+      <div style="
+        max-width:100%;
+        min-width:${usernameMinWidth}px;
+        padding:5px 10px 6px;
+        border-radius:999px;
+        background:rgba(247,201,72,0.92);
+        color:#08111F;
+        font-size:${fontSize}px;
+        line-height:1;
+        font-weight:950;
+        white-space:nowrap;
+        text-align:center;
+        letter-spacing:0;
+        text-shadow:none;
+        box-shadow:0 8px 16px rgba(0,0,0,0.20);
+      ">${escapeHtmlForVisuals(username)}</div>
+    </div>`;
 }
 
 function generateImageHTML(visuals, cid) {

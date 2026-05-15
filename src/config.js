@@ -75,6 +75,12 @@ export const config = {
     fontFamily: "Inter",
     theme: "ai-news",
 
+    backgroundMusic: {
+      enabled: true,
+      src: "assets/audio/stadium-background-music.mp3",
+      volume: 0.2,
+    },
+
     // Background layer (rendered in root index.html)
     background: {
       // Default to gradient to avoid warnings when bg-broll.mp4 isn't provided.

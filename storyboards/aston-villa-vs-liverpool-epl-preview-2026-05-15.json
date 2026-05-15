@@ -8,7 +8,7 @@
       "composition": "football-match-card",
       "title": "CHỐT VÉ C1!",
       "subtext": "Aston Villa vs Liverpool",
-      "voiceText": "Chốt vé C1! Aston Villa gặp Liverpool tại Villa Park, vòng 37 Premier League. Trận đấu đá lúc 20 giờ theo giờ Anh, tức 2 giờ sáng ngày 16 tháng 5 theo giờ Bangkok.",
+      "voiceText": "Chốt vé C1! Aston Villa gặp Liverpool tại Villa Park, vòng 37 Premier League. Trận đấu đá lúc 2 giờ sáng ngày 16 tháng 5.",
       "duration": 6,
       "bgColor": "#08111F",
       "accentColor": "#F7C948",
@@ -17,8 +17,8 @@
       "competitionLabel": "Premier League",
       "stage": "Vòng 37",
       "venue": "Villa Park",
-      "date": "15.05.2026",
-      "time": "20:00 (BST)",
+      "date": "16.05.2026",
+      "time": "02:00",
       "teams": [
         { "name": "Aston Villa", "code": "AVL", "teamType": "club", "form": [] },
         { "name": "Liverpool", "code": "LIV", "teamType": "club", "form": [] }
@@ -42,7 +42,8 @@
       "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
       "visuals": [
         { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
-        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
       ],
       "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
     },
@@ -96,45 +97,44 @@
           ]
         }
       },
-      "visuals": [{ "type": "football-pitch-lines", "position": "background", "opacity": 0.20 }]
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
     },
     {
       "id": 4,
       "type": "content",
       "composition": "football-odds-h2h",
-      "title": "KÈO & ĐỐI ĐẦU",
-      "subtext": "1X2 + 3 trận gần nhất",
-      "voiceText": "Kèo 1X2 đang nghiêng nhẹ về Liverpool. Về đối đầu, vài lần chạm trán gần đây thường rất khó lường, và hai đội từng hòa 3 đều ở Villa Park.",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "5 trận gần nhất",
+      "voiceText": "Lịch sử đối đầu gần đây nghiêng rõ về Liverpool. Trong 5 lần gặp nhau mới nhất tại Premier League, Liverpool thắng 3, hai trận còn lại hòa, còn Aston Villa vẫn đang tìm chiến thắng đầu tiên.",
       "duration": 8,
       "bgColor": "#08111F",
       "accentColor": "#F7C948",
       "textColor": "#ffffff",
-      "competitionLabel": "MATCH ODDS",
       "teams": [
         { "name": "Aston Villa", "code": "AVL", "teamType": "club", "form": [] },
         { "name": "Liverpool", "code": "LIV", "teamType": "club", "form": [] }
       ],
-      "oddsRates": {
-        "asian": {
-          "early": { "home": "0.82", "line": "-0.5", "away": "-0.93" },
-          "live": { "home": "-0.89", "line": "0", "away": "0.82" }
-        },
-        "europe": {
-          "early": { "home": "2.96", "draw": "3.52", "away": "2.08" },
-          "live": { "home": "2.80", "draw": "3.42", "away": "2.49" }
-        },
-        "ou": {
-          "early": { "over": "0.80", "line": "3", "under": "-0.93" },
-          "live": { "over": "0.99", "line": "2.5/3", "under": "0.91" }
-        },
-        "labels": { "early": "Sớm", "live": "Live" }
+      "oddsTable": {
+        "headers": ["Đội bóng", "5 trận", "Thắng", "Hòa", "Thua", "Bàn"],
+        "rows": [
+          { "teamName": "Aston Villa", "scoreText": "5", "x12": "0", "hdp": "2", "ou": "3", "htHdp": "5" },
+          { "teamName": "Liverpool", "scoreText": "5", "x12": "3", "hdp": "2", "ou": "0", "htHdp": "10" }
+        ]
       },
       "h2hMatches": [
         { "kickoff": "01/11/2025", "competition": "EPL", "home": "Liverpool", "away": "Aston Villa", "score": "2-0" },
         { "kickoff": "19/02/2025", "competition": "EPL", "home": "Aston Villa", "away": "Liverpool", "score": "2-2" },
-        { "kickoff": "09/11/2024", "competition": "EPL", "home": "Liverpool", "away": "Aston Villa", "score": "2-0" }
+        { "kickoff": "09/11/2024", "competition": "EPL", "home": "Liverpool", "away": "Aston Villa", "score": "2-0" },
+        { "kickoff": "13/05/2024", "competition": "EPL", "home": "Aston Villa", "away": "Liverpool", "score": "3-3" },
+        { "kickoff": "03/09/2023", "competition": "EPL", "home": "Liverpool", "away": "Aston Villa", "score": "3-0" }
       ],
-      "visuals": [{ "type": "football-pitch-lines", "position": "background", "opacity": 0.16 }]
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
     },
     {
       "id": 5,
@@ -148,7 +148,10 @@
       "bgColor": "#08111F",
       "accentColor": "#F7C948",
       "textColor": "#ffffff",
-      "animation": "quote-fade"
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
     },
     {
       "id": 6,
@@ -179,7 +182,10 @@
         { "rank": 11, "team": { "name": "Fulham", "code": "FUL", "teamType": "club" }, "played": 36, "wins": 14, "draws": 6, "losses": 16, "gf": 44, "ga": 50, "gd": -6, "pts": 48 },
         { "rank": 12, "team": { "name": "Sunderland", "code": "SUN", "teamType": "club" }, "played": 36, "wins": 12, "draws": 12, "losses": 12, "gf": 37, "ga": 46, "gd": -9, "pts": 48 }
       ],
-      "visuals": { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 }
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
     },
     {
       "id": 7,
