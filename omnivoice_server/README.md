@@ -27,6 +27,23 @@ uvicorn omnivoice_server.app:app --host 0.0.0.0 --port 8001
 
 By default the server requires CUDA (`OMNIVOICE_REQUIRE_CUDA=1`). To allow CPU (slow), set `OMNIVOICE_REQUIRE_CUDA=0` before starting uvicorn.
 
+## 4) WebUI (optional)
+
+This repo includes a minimal WebUI on the same server:
+
+- Open: `http://127.0.0.1:8001/`
+- Generate endpoint: `POST /webui/generate`
+- Audio files: `GET /webui/files/<name>.wav`
+
+Emotion presets are approximated by swapping reference clips:
+
+- Default config (`src/config.js`) points presets to these files:
+  - `assets/voice/ref.wav` (neutral)
+  - `assets/voice/hype.wav`
+  - `assets/voice/serious.wav`
+  - `assets/voice/sad.wav`
+- You can alternatively store them under `assets/voice/refs/*` and update `config.omnivoice.refAudioPresets` accordingly.
+
 Health check:
 
 ```bash

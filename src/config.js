@@ -20,9 +20,21 @@ export const config = {
     serverUrl: "http://127.0.0.1:8001",
     // When true, only accept OmniVoice if server reports CUDA modelDevice.
     // If you want to allow CPU (slow), set this to false and set OMNIVOICE_REQUIRE_CUDA=0 on the server.
-    requireGpu: true,
+    requireGpu: false,
     // Voice reference for cloning (3–10s recommended).
     refAudioPath: "assets/voice/ref.wav",
+    // Default "emotion" preset for scenes that don't specify one.
+    // Note: OmniVoice doesn't accept an explicit emotion parameter; we approximate emotion by using different reference clips.
+    defaultPreset: "neutral",
+    // Optional per-emotion reference clips. If a scene sets `omnivoiceRefPreset`, we resolve it here.
+    // Recommended: record 3–10s clips with the same speaker, different delivery.
+    refAudioPresets: {
+      // Defaults point to files that exist in this repo; replace with your own clips as needed.
+      neutral: "assets/voice/ref.wav",
+      hype: "assets/voice/hype.wav",
+      serious: "assets/voice/serious.wav",
+      sad: "assets/voice/sad.wav",
+    },
     // Optional: leave empty to let OmniVoice auto-transcribe with Whisper.
     refText: "",
     // Output format for generated audio files.

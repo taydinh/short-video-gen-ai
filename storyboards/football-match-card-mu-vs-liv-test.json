@@ -1,0 +1,33 @@
+{
+  "title": "Đại chiến: Manchester United vs Liverpool",
+  "slug": "football-match-card-mu-vs-liv-test",
+  "totalDuration": 6,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ĐẠI CHIẾN",
+      "subtext": "Manchester United vs Liverpool",
+      "voiceText": "Đại chiến nước Anh đã tới. Manchester United chạm trán Liverpool lúc 21 giờ. Ai sẽ là đội bản lĩnh hơn và giành lợi thế ngay từ đầu?",
+      "omnivoiceRefPreset": "hype",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF4444",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Siêu kinh điển nước Anh",
+      "date": "26.05.2026",
+      "time": "21:00",
+      "teams": [
+        { "name": "Manchester United", "code": "MUN", "teamType": "club", "form": ["W", "D", "W", "L", "W"] },
+        { "name": "Liverpool", "code": "LIV", "teamType": "club", "form": ["W", "W", "D", "W", "L"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 }
+      ]
+    }
+  ]
+}

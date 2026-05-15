@@ -13,6 +13,7 @@ import { execSync } from "child_process";
 import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
 import { getAudioDuration } from "../utils/audio-utils.js";
+import { normalizeVoiceTextForTTS } from "../utils/voice-text.js";
 
 export async function generateTTS(storyboard, outputDir) {
   const audioDir = path.join(outputDir, "audio");
@@ -21,14 +22,17 @@ export async function generateTTS(storyboard, outputDir) {
   const results = [];
 
   const extension = config.omnivoice?.outputFormat || "wav";
-  const omnivoiceRefPath = resolvePath(config.omnivoice?.refAudioPath || "");
+  const omnivoiceDefaultRefPath = resolvePath(getDefaultOmniVoiceRefAudioPath());
   const omnivoiceEnhance = config.omnivoice?.enhance || {};
 
   let canUseOmniVoice = !!config.omnivoice?.enabled;
   if (canUseOmniVoice) {
-    if (!omnivoiceRefPath || !existsSync(omnivoiceRefPath)) {
+    if (!omnivoiceDefaultRefPath || !existsSync(omnivoiceDefaultRefPath)) {
       canUseOmniVoice = false;
-      logger.warn(`  ⚠️ OmniVoice ref audio not found at ${config.omnivoice?.refAudioPath || "(missing)"} (resolved: ${omnivoiceRefPath || "n/a"}). Falling back to Google TTS.`);
+      logger.warn(
+        `  ⚠️ OmniVoice default ref audio not found (resolved: ${omnivoiceDefaultRefPath || "n/a"}). ` +
+        `Please set config.omnivoice.refAudioPath or provide config.omnivoice.refAudioPresets.<preset>. Falling back to Google TTS.`
+      );
     }
   }
 
@@ -46,7 +50,7 @@ export async function generateTTS(storyboard, outputDir) {
   }
 
   for (const scene of storyboard.scenes) {
-    const text = scene.voiceText;
+    const text = normalizeVoiceTextForTTS(scene.voiceText);
     if (!text || text.trim() === "") {
       logger.warn(`Scene ${scene.id}: no voiceText, skipping TTS`);
       results.push({ sceneId: scene.id, audioPath: null, duration: scene.duration || 3 });
@@ -62,8 +66,10 @@ export async function generateTTS(storyboard, outputDir) {
     // Try OmniVoice first
     if (canUseOmniVoice) {
       try {
+        const { preset, refAudioPath } = resolveOmniVoiceRefForScene(scene, omnivoiceDefaultRefPath);
+        logger.info(`     Ref preset: ${preset} (${refAudioPath})`);
         logger.info(`     Trying OmniVoice...`);
-        const ttsResult = await callOmniVoiceTTS(text, audioPath, omnivoiceRefPath);
+        const ttsResult = await callOmniVoiceTTS(text, audioPath, refAudioPath);
         const actualPath = ttsResult || audioPath;
         if (existsSync(actualPath) && (await getAudioDuration(actualPath)) > 0.5) {
           duration = await getAudioDuration(actualPath);
@@ -118,6 +124,40 @@ export async function generateTTS(storyboard, outputDir) {
   }
 
   return results;
+}
+
+function getDefaultOmniVoiceRefAudioPath() {
+  const presetName = String(config.omnivoice?.defaultPreset || "neutral").trim() || "neutral";
+  const presets = config.omnivoice?.refAudioPresets || {};
+  const fromPreset = String(presets?.[presetName] || "").trim();
+  const fromRefAudioPath = String(config.omnivoice?.refAudioPath || "").trim();
+
+  // Prefer preset only if it exists on disk; otherwise fall back to refAudioPath.
+  const presetResolved = resolvePath(fromPreset);
+  if (fromPreset && presetResolved && existsSync(presetResolved)) return fromPreset;
+
+  return fromRefAudioPath;
+}
+
+function resolveOmniVoiceRefForScene(scene, omnivoiceDefaultRefPath) {
+  const presets = config.omnivoice?.refAudioPresets || {};
+
+  const explicitPath = String(scene?.omnivoiceRefAudioPath || "").trim();
+  if (explicitPath) {
+    const resolved = resolvePath(explicitPath);
+    if (resolved && existsSync(resolved)) return { preset: "custom", refAudioPath: resolved };
+    logger.warn(`     ⚠️ Scene ${scene?.id}: omnivoiceRefAudioPath not found: ${explicitPath} (resolved: ${resolved || "n/a"}). Using default.`);
+  }
+
+  const preset = String(scene?.omnivoiceRefPreset || "").trim().toLowerCase();
+  if (preset) {
+    const candidate = String(presets?.[preset] || "").trim();
+    const resolved = resolvePath(candidate);
+    if (candidate && resolved && existsSync(resolved)) return { preset, refAudioPath: resolved };
+    logger.warn(`     ⚠️ Scene ${scene?.id}: omnivoiceRefPreset "${preset}" missing ref audio (path: ${candidate || "(empty)"}). Using default.`);
+  }
+
+  return { preset: String(config.omnivoice?.defaultPreset || "neutral"), refAudioPath: omnivoiceDefaultRefPath };
 }
 
 // ── Apply speed up to audio using FFmpeg ─────────────────────────────────────

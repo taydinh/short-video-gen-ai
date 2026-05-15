@@ -1,0 +1,198 @@
+{
+  "title": "Aston Villa vs Liverpool (EPL): Preview nhanh trước giờ bóng lăn",
+  "slug": "aston-villa-vs-liverpool-epl-preview-2026-05-15",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "CHỐT VÉ C1!",
+      "subtext": "Aston Villa vs Liverpool",
+      "voiceText": "Chốt vé C1! Aston Villa gặp Liverpool tại Villa Park, vòng 37 Premier League. Trận đấu đá lúc 20 giờ theo giờ Anh, tức 2 giờ sáng ngày 16 tháng 5 theo giờ Bangkok.",
+      "duration": 6,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF4444",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "Villa Park",
+      "date": "15.05.2026",
+      "time": "20:00 (BST)",
+      "teams": [
+        { "name": "Aston Villa", "code": "AVL", "teamType": "club", "form": [] },
+        { "name": "Liverpool", "code": "LIV", "teamType": "club", "form": [] }
+      ],
+      "visuals": [{ "type": "football-pitch-lines", "position": "background", "opacity": 0.24 }]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchday Intro",
+      "seasonLabel": "Matchweek 37",
+      "ctaLabel": "Kickoff",
+      "voiceText": "Sau đây là một số thông tin trước trận đấu.",
+      "duration": 3,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Hai đội nhiều khả năng cùng dùng sơ đồ 4-2-3-1. Aston Villa có thể xoay tua vì sắp đá chung kết Europa League và họ thiếu Kamara cùng Onana. Bên kia chiến tuyến, Salah trở lại nhưng có thể chỉ vào sân ít phút; Isak có thể đá chính, còn Alisson và Wirtz vẫn bỏ ngỏ.",
+      "duration": 8,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Villa Park",
+      "teams": [
+        { "name": "Aston Villa", "code": "AVL", "teamType": "club" },
+        { "name": "Liverpool", "code": "LIV", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Martínez",
+            "Cash",
+            "Konsa",
+            "Mings",
+            "Maatsen",
+            "Bogarde",
+            "Tielemans",
+            "Sancho",
+            "Barkley",
+            "Rogers",
+            "Abraham"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Mamardashvili",
+            "Jones",
+            "Konaté",
+            "Van Dijk",
+            "Kerkez",
+            "Gravenberch",
+            "Mac Allister",
+            "Frimpong",
+            "Szoboszlai",
+            "Ngumoha",
+            "Isak"
+          ]
+        }
+      },
+      "visuals": [{ "type": "football-pitch-lines", "position": "background", "opacity": 0.20 }]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "1X2 + 3 trận gần nhất",
+      "voiceText": "Kèo 1X2 đang nghiêng nhẹ về Liverpool. Về đối đầu, vài lần chạm trán gần đây thường rất khó lường, và hai đội từng hòa 3 đều ở Villa Park.",
+      "duration": 8,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "MATCH ODDS",
+      "teams": [
+        { "name": "Aston Villa", "code": "AVL", "teamType": "club", "form": [] },
+        { "name": "Liverpool", "code": "LIV", "teamType": "club", "form": [] }
+      ],
+      "oddsRates": {
+        "asian": {
+          "early": { "home": "0.82", "line": "-0.5", "away": "-0.93" },
+          "live": { "home": "-0.89", "line": "0", "away": "0.82" }
+        },
+        "europe": {
+          "early": { "home": "2.96", "draw": "3.52", "away": "2.08" },
+          "live": { "home": "2.80", "draw": "3.42", "away": "2.49" }
+        },
+        "ou": {
+          "early": { "over": "0.80", "line": "3", "under": "-0.93" },
+          "live": { "over": "0.99", "line": "2.5/3", "under": "0.91" }
+        },
+        "labels": { "early": "Sớm", "live": "Live" }
+      },
+      "h2hMatches": [
+        { "kickoff": "01/11/2025", "competition": "EPL", "home": "Liverpool", "away": "Aston Villa", "score": "2-0" },
+        { "kickoff": "19/02/2025", "competition": "EPL", "home": "Aston Villa", "away": "Liverpool", "score": "2-2" },
+        { "kickoff": "09/11/2024", "competition": "EPL", "home": "Liverpool", "away": "Aston Villa", "score": "2-0" }
+      ],
+      "visuals": [{ "type": "football-pitch-lines", "position": "background", "opacity": 0.16 }]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Villa có thể xoay tua vì Europa League, còn Liverpool cần phản ứng để tự định đoạt suất Champions League — kịch bản dễ là trận căng thẳng và Liverpool nhỉnh hơn.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Từ các thông tin trước trận",
+      "voiceText": "Villa có thể xoay tua vì Europa League, còn Liverpool cần một chiến thắng để tự định đoạt suất Champions League. Đây hứa hẹn là trận đấu cực kỳ căng thẳng, và Liverpool được đánh giá nhỉnh hơn.",
+      "duration": 6,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "quote-fade"
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng xếp hạng EPL",
+      "subtext": "Cập nhật trước vòng 37",
+      "voiceText": "Trước trận, Liverpool đứng thứ tư và Aston Villa đứng thứ năm. Hai đội cùng 59 điểm, nhưng Liverpool hơn hiệu số. Vì thế, kết quả trận này có thể thay đổi cuộc đua top 5.",
+      "duration": 7,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025–26",
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 36, "wins": 24, "draws": 7, "losses": 5, "gf": 68, "ga": 26, "gd": 42, "pts": 79 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 36, "wins": 18, "draws": 11, "losses": 7, "gf": 63, "ga": 48, "gd": 15, "pts": 65 },
+        { "rank": 4, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 36, "wins": 17, "draws": 8, "losses": 11, "gf": 60, "ga": 48, "gd": 12, "pts": 59 },
+        { "rank": 5, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 36, "wins": 17, "draws": 8, "losses": 11, "gf": 50, "ga": 46, "gd": 4, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton", "code": "BHA", "teamType": "club" }, "played": 36, "wins": 14, "draws": 11, "losses": 11, "gf": 52, "ga": 42, "gd": 10, "pts": 53 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 36, "wins": 14, "draws": 9, "losses": 13, "gf": 52, "ga": 49, "gd": 3, "pts": 51 },
+        { "rank": 9, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 55, "ga": 49, "gd": 6, "pts": 49 },
+        { "rank": 10, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 46, "ga": 46, "gd": 0, "pts": 49 },
+        { "rank": 11, "team": { "name": "Fulham", "code": "FUL", "teamType": "club" }, "played": 36, "wins": 14, "draws": 6, "losses": 16, "gf": 44, "ga": 50, "gd": -6, "pts": 48 },
+        { "rank": 12, "team": { "name": "Sunderland", "code": "SUN", "teamType": "club" }, "played": 36, "wins": 12, "draws": 12, "losses": 12, "gf": 37, "ga": 46, "gd": -9, "pts": 48 }
+      ],
+      "visuals": { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 }
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Dự đoán tỉ số?",
+      "voiceText": "Bạn dự đoán tỉ số Aston Villa gặp Liverpool thế nào? Hãy để lại bình luận bên dưới và follow để cập nhật những tin nóng mới nhất về các giải đấu khác nhé!",
+      "duration": 6,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "💬"
+    }
+  ]
+}

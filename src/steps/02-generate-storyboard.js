@@ -13,6 +13,8 @@
  *       composition: string,
  *       title: string,
  *       voiceText: string,   // Dùng cho TTS
+ *       omnivoiceRefPreset?: "neutral"|"hype"|"serious"|"sad", // (optional) cảm xúc giọng (approx bằng ref audio preset)
+ *       omnivoiceRefAudioPath?: string, // (optional) override đường dẫn ref audio theo scene
  *       subtext: string,     // Hiển thị trên màn hình (karaoke)
  *       karaokeStyle: string,// "highlight" | "underline" | "none"
  *       duration: number,
@@ -34,6 +36,7 @@ import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
 import { loadFootballAssetIndex, findFootballAssetForTeam } from "../football/asset-index.js";
 import { syncFootballAssets } from "../../scripts/sync-football-assets.js";
+import { normalizeVoiceTextForTTS } from "../utils/voice-text.js";
 
 const SYSTEM_PROMPT = `Bạn là chuyên gia sản xuất nội dung video short-form cho TikTok.
 Nhiệm vụ: Tạo storyboard cho video dọc 9:16 gồm ĐÚNG 8 scene bằng tiếng Việt.
@@ -43,6 +46,7 @@ QUY TẮC QUAN TRỌNG:
 - Scene 2-7: Nội dung chính, mỗi scene một ý tưởng/điểm thú vị. Chú trọng LIÊN KẾT mạch nội dung giữa các scene; ưu tiên mở đầu voiceText bằng các từ ngữ chuyển cảnh như: "theo đó", "tuy nhiên", "tiếp theo", "cùng với", "và", "hơn thế nữa", "bên cạnh đó", "mặc dù vậy",...
 - Scene 2-7: CÓ THỂ research thêm hình ảnh liên quan (visuals.type="image" + source:"search") để trực quan hơn.
 - Scene 8: Đưa ra nhận định chủ quan NGẮN GỌN, hỏi ý kiến người xem và CTA kêu gọi thả tim ❤️ và follow kênh.
+- Quy tắc voiceText (TTS): nếu có mốc thời gian dạng "21:00" thì phải viết thành "21 giờ" (không dùng dấu ":" trong lời thoại).
 
 Các loại composition có sẵn:
 1. "hook-question": Hook dạng câu hỏi + underline highlight ("label", optional "highlightWords")
@@ -165,6 +169,7 @@ Các loại motion:
 Mỗi scene cần đầy đủ:
 - title: Tiêu đề (tối đa 8 từ)
 - voiceText: Lời thoại TTS (ưu tiên < 200 từ/scene)
+- omnivoiceRefPreset: "neutral" | "hype" | "serious" | "sad" (optional, nếu dùng OmniVoice muốn có cảm xúc theo scene; hook/CTA→hype, phân tích/tin nghiêm túc→serious, tiêu cực/mất mát→sad, còn lại→neutral)
 - subtext: Text hiển thị trên màn hình (5-15 từ)
 - karaokeStyle: "highlight" hoặc "underline"
 - composition: Chọn từ danh sách trên
@@ -201,7 +206,7 @@ export async function generateStoryboard(content, title, outputDir) {
   // Add sequential IDs and start times
   let cursor = 0;
   storyboard.scenes = storyboard.scenes.map((scene, i) => {
-    const voiceText = enforceSceneOneTitleLead(i, scene);
+    const voiceText = normalizeVoiceTextForTTS(enforceSceneOneTitleLead(i, scene));
     const s = {
       id: i + 1,
       startTime: cursor,
@@ -218,6 +223,9 @@ export async function generateStoryboard(content, title, outputDir) {
       animation: scene.animation || "slide-up",
       emoji: scene.emoji || "",
       visuals: scene.visuals || null,
+      // OmniVoice per-scene emotion / reference (optional)
+      omnivoiceRefPreset: scene.omnivoiceRefPreset || null,
+      omnivoiceRefAudioPath: scene.omnivoiceRefAudioPath || null,
       // Additional fields for specific compositions
       label: scene.label || null,
       highlightWords: scene.highlightWords || null,

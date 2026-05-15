@@ -44,6 +44,9 @@ npm install
 ## ⚙️ Cấu Hình OmniVoice (TTS server)
 
 - Tạo file voice reference tại `assets/voice/ref.wav` (khuyến nghị 3–10 giây, sạch tiếng ồn).
+- (Tuỳ chọn) Nếu muốn **cảm xúc theo từng scene**, tạo thêm các reference clips tại `assets/voice/refs/`:
+  - `neutral.wav`, `hype.wav`, `serious.wav`, `sad.wav`
+  - Sau đó trong storyboard, mỗi scene có thể set `omnivoiceRefPreset` (ví dụ: `"hype"`).
 - Chạy OmniVoice server (xem `omnivoice_server/README.md`), mặc định `http://127.0.0.1:8001`.
 - Chỉnh cấu hình trong `src/config.js` (khối `config.omnivoice`).
 
