@@ -194,7 +194,7 @@
         {
           "type": "football-stat-bars",
           "position": "foreground",
-          "bottom": "170px",
+          "bottom": "500px",
           "stats": [
             { "label": "Kiểm soát bóng", "home": 58, "away": 42, "unit": "%" },
             { "label": "Cú sút", "home": 14, "away": 9 },

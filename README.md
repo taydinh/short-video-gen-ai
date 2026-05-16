@@ -87,9 +87,37 @@ curl http://127.0.0.1:8001/health
 
 Nếu `modelLoaded: false` hoặc có `error`, nguyên nhân thường gặp là PyTorch/CUDA chưa đúng phiên bản hoặc thiếu driver GPU.
 
-Mặc định project đang để `config.omnivoice.requireGpu: true` nên **bắt buộc OmniVoice phải chạy trên CUDA** (health phải có `modelDevice: "cuda..."`). Nếu muốn cho phép CPU (chậm) thì:
-- Trong `src/config.js` đặt `omnivoice.requireGpu: false`
-- Khi chạy server set env `OMNIVOICE_REQUIRE_CUDA=0`
+Mặc định source ban đầu yêu cầu CUDA cho OmniVoice server. Nếu muốn bắt buộc OmniVoice phải chạy trên CUDA và fail-fast khi thiếu GPU:
+```powershell
+$env:OMNIVOICE_REQUIRE_CUDA="1"
+uvicorn omnivoice_server.app:app --host 0.0.0.0 --port 8001
+```
+
+### Ghi chú setup OmniVoice local
+
+Source hiện tại đã quay về hành vi ban đầu:
+- Server load OmniVoice bằng `device_map="cuda:0"`.
+- `OMNIVOICE_REQUIRE_CUDA` mặc định là `1`.
+- Khi `config.omnivoice.refText` để rỗng, OmniVoice có thể tự dùng Whisper để transcribe reference audio.
+- Nếu cần chất lượng voice clone ổn định hơn, có thể điền transcript thật của `assets/voice/ref.wav` vào `src/config.js` tại `config.omnivoice.refText`.
+
+### Quay về setup ban đầu
+
+Setup ban đầu của source là bắt buộc CUDA và cho OmniVoice tự transcribe reference audio bằng Whisper khi `refText` rỗng:
+```powershell
+$env:OMNIVOICE_REQUIRE_CUDA="1"
+uvicorn omnivoice_server.app:app --host 0.0.0.0 --port 8001
+```
+
+Và trong `src/config.js`, có thể đặt lại:
+```js
+omnivoice: {
+  requireGpu: true,
+  refText: "",
+}
+```
+
+Lưu ý: khi `refText` rỗng, máy có thể tải/chạy Whisper để đọc transcript từ file reference audio. Cách này nặng hơn nhưng đúng với hành vi ban đầu của source.
 
 ---
 

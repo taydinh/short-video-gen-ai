@@ -1,0 +1,270 @@
+{
+  "title": "Aston Villa 4-2 Liverpool: Watkins đưa Villa vào Champions League",
+  "slug": "aston-villa-4-2-liverpool-epl-result-2026-05-16",
+  "totalDuration": 57,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "VILLA HẠ LIVERPOOL!",
+      "subtext": "Aston Villa 4-2 Liverpool",
+      "voiceText": "Villa hạ Liverpool! Một chiến thắng sáu bàn ở Villa Park, và cuộc đua Champions League đổi màu ngay sau tiếng còi mãn cuộc.",
+      "duration": 6,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#7A003C",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "Villa Park",
+      "date": "16.05.2026",
+      "time": "02:00",
+      "teams": [
+        { "name": "Aston Villa", "code": "AVL", "teamType": "club", "form": ["D", "L", "W", "D", "W"] },
+        { "name": "Liverpool", "code": "LIV", "teamType": "club", "form": ["W", "W", "L", "D", "L"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.26 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "2025-26 | Matchweek 37",
+      "ctaLabel": "Full-time story",
+      "voiceText": "Sau đây là diễn biến và kết quả trận đấu.",
+      "duration": 3,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Aston Villa 4-2 Liverpool",
+      "subtext": "Villa thắng thuyết phục tại Villa Park.",
+      "voiceText": "Full time: Aston Villa bốn, Liverpool hai. Villa thắng thuyết phục tại Villa Park.",
+      "duration": 5,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "minute": "FT",
+      "score": [4, 2],
+      "teams": ["Aston Villa", "Liverpool"],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.30 },
+        { "type": "football-scorebug", "teams": ["AVL", "LIV"], "score": [4, 2], "minute": "FT", "label": "Villa Park" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Watkins là khác biệt",
+      "subtext": "Man of the match: Ollie Watkins",
+      "voiceText": "Người nổi bật nhất là Ollie Watkins. Anh ghi hai bàn, kiến tạo cho McGinn, liên tục kéo hàng thủ Liverpool vào các pha chạy sau lưng. Bước ngoặt nằm ở phút năm mươi bảy, khi Watkins lập tức đưa Villa vượt lên lại sau bàn gỡ của Van Dijk.",
+      "duration": 7,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Ollie Watkins",
+      "team": "Aston Villa",
+      "number": "11",
+      "stats": [
+        { "label": "Bàn thắng", "value": "2" },
+        { "label": "Kiến tạo", "value": "1" },
+        { "label": "Cú sút trúng đích của Villa", "value": "9" },
+        { "label": "Bước ngoặt", "value": "57", "unit": "'" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.24 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline đầy đủ",
+      "subtext": "Bàn thắng, thẻ phạt và thay người",
+      "voiceText": "Những mốc làm đổi trận nằm ở các bàn thắng. Rogers mở tỉ số cuối hiệp một, Van Dijk gỡ hòa đầu hiệp hai, nhưng Watkins lập tức kéo Villa vượt lên rồi hoàn tất cú đúp ở phút bảy mươi ba. McGinn chốt hạ bằng cú sút xa phút tám mươi chín, trước khi Van Dijk chỉ còn kịp rút ngắn ở phút bù giờ.",
+      "duration": 10,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "39'", "title": "Thẻ vàng: Matty Cash", "desc": "Hậu vệ Villa bị phạt sau pha phạm lỗi." },
+        { "minute": "42'", "title": "1-0: Morgan Rogers", "desc": "Dứt điểm chân phải, Lucas Digne kiến tạo từ phạt góc." },
+        { "minute": "45+3'", "title": "Thẻ vàng: Ollie Watkins", "desc": "Watkins nhận thẻ ở cuối hiệp một." },
+        { "minute": "45'", "title": "Villa thay người", "desc": "Ross Barkley vào sân, Victor Lindelof rời sân." },
+        { "minute": "52'", "title": "1-1: Virgil van Dijk", "desc": "Đánh đầu ghi bàn từ quả tạt của Dominik Szoboszlai." },
+        { "minute": "57'", "title": "2-1: Ollie Watkins", "desc": "Watkins đưa Villa vượt lên, Morgan Rogers kiến tạo." },
+        { "minute": "62'", "title": "Thẻ vàng: Joe Gomez", "desc": "Liverpool nhận thẻ sau pha phạm lỗi." },
+        { "minute": "66'", "title": "Thẻ vàng: John McGinn", "desc": "Đội trưởng Villa bị cảnh cáo." },
+        { "minute": "66'", "title": "Liverpool thay đôi", "desc": "Federico Chiesa và Florian Wirtz vào thay Joe Gomez, Ryan Gravenberch." },
+        { "minute": "73'", "title": "3-1: Ollie Watkins", "desc": "Watkins hoàn tất cú đúp bằng pha dứt điểm cận thành." },
+        { "minute": "74'", "title": "Salah vào sân", "desc": "Mohamed Salah thay Cody Gakpo." },
+        { "minute": "85'", "title": "Villa thay người", "desc": "Ian Maatsen thay Emiliano Buendia vì chấn thương." },
+        { "minute": "89'", "title": "4-1: John McGinn", "desc": "Cú sút chân trái ngoài vòng cấm, Watkins kiến tạo." },
+        { "minute": "90'", "title": "Villa thay đôi", "desc": "Jadon Sancho và Douglas Luiz vào thay McGinn, Tielemans." },
+        { "minute": "90+2'", "title": "4-2: Virgil van Dijk", "desc": "Van Dijk đánh đầu bàn thứ hai từ quả phạt góc của Szoboszlai." }
+      ],
+      "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Liverpool cầm bóng, Villa sắc hơn",
+      "subtext": "Chỉ số sau trận",
+      "voiceText": "Liverpool kiểm soát bóng năm mươi lăm phần trăm và sút nhiều hơn, nhưng Villa mới là đội hiệu quả hơn. Chín cú sút trúng đích từ mười bốn lần dứt điểm, cùng chỉ số bàn thắng kỳ vọng cao hơn, cho thấy Villa không chỉ thắng bằng cảm xúc mà còn thắng bằng chất lượng cơ hội.",
+      "duration": 7,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [4, 2],
+      "teams": ["Aston Villa", "Liverpool"],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 45, "away": 55, "unit": "%" },
+            { "label": "Cú sút", "home": 14, "away": 16 },
+            { "label": "Sút trúng đích", "home": 9, "away": 5 },
+            { "label": "xG", "home": 1.91, "away": 1.55 },
+            { "label": "Phạt góc", "home": 4, "away": 9 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Villa leo lên top 4",
+      "subtext": "Premier League cập nhật sau trận",
+      "voiceText": "Sau chiến thắng này, Aston Villa lên thứ tư với sáu mươi hai điểm và chắc suất Champions League. Liverpool rơi xuống thứ năm với năm mươi chín điểm, vẫn trong nhóm C1 nhưng áp lực ở vòng cuối đã tăng mạnh.",
+      "duration": 7,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 36, "wins": 24, "draws": 7, "losses": 5, "gf": 68, "ga": 26, "gd": 42, "pts": 79 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 36, "wins": 18, "draws": 11, "losses": 7, "gf": 63, "ga": 48, "gd": 15, "pts": 65 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton", "code": "BHA", "teamType": "club" }, "played": 36, "wins": 14, "draws": 11, "losses": 11, "gf": 52, "ga": 42, "gd": 10, "pts": 53 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 36, "wins": 14, "draws": 9, "losses": 13, "gf": 52, "ga": 49, "gd": 3, "pts": 51 },
+        { "rank": 9, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 55, "ga": 49, "gd": 6, "pts": 49 },
+        { "rank": 10, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 46, "ga": 46, "gd": 0, "pts": 49 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Các trận EPL sắp tới",
+      "subtext": "Tâm điểm vòng 37",
+      "voiceText": "Ngay sau trận này, Premier League còn ba cặp đấu đáng chú ý: Newcastle gặp West Ham, Arsenal tiếp Burnley, và Bournemouth đụng Manchester City. Đặc biệt, cuộc đua vô địch giữa Arsenal và Man City vẫn còn rất nóng.",
+      "duration": 7,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "TRẬN ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "ctaLabel": "NEXT FIXTURES",
+      "fixtures": [
+        {
+          "group": "Premier League",
+          "date": "17/05",
+          "time": "23:30",
+          "home": { "name": "Newcastle United", "code": "NEW", "teamType": "club" },
+          "away": { "name": "West Ham United", "code": "WHU", "teamType": "club" }
+        },
+        {
+          "group": "Premier League",
+          "date": "18/05",
+          "time": "02:00",
+          "home": { "name": "Arsenal", "code": "ARS", "teamType": "club" },
+          "away": { "name": "Burnley", "code": "BUR", "teamType": "club" }
+        },
+        {
+          "group": "Premier League",
+          "date": "19/05",
+          "time": "01:30",
+          "home": { "name": "Bournemouth", "code": "BOU", "teamType": "club" },
+          "away": { "name": "Manchester City", "code": "MCI", "teamType": "club" }
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Bạn nghĩ sao về Villa?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Bạn nghĩ Aston Villa có xứng đáng trở lại Champions League không, và Liverpool có giữ được vị trí trong top năm ở vòng cuối không? Hãy để lại ý kiến dưới phần bình luận và follow để cập nhật tin mới nhất về các giải đấu khác.",
+      "duration": 6,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sky Sports match report",
+      "url": "https://www.skysports.com/football/aston-villa-vs-liverpool/report/531490"
+    },
+    {
+      "name": "Sky Sports match stats and table",
+      "url": "https://www.skysports.com/football/aston-villa-vs-liverpool/stats/4796627075701688232"
+    },
+    {
+      "name": "AS USA live summary",
+      "url": "https://en.as.com/soccer/aston-villa-vs-liverpool-live-online-score-stats-goals-updates-premier-league-202526-f202605-n/"
+    },
+    {
+      "name": "Sky Sports Premier League fixtures",
+      "url": "https://www.skysports.com/football/competitions/premier-league/fixtures"
+    }
+  ]
+}

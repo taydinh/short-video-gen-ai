@@ -194,7 +194,7 @@ function generateFootballStatsHTML(visuals, cid) {
             { label: 'xG', home: 1.8, away: 0.9, unit: '' },
         ];
     const zIndex = footballZIndex(visuals, 2);
-    const bottom = visuals.bottom || '178px';
+    const bottom = visuals.bottom || '500px';
     return `
     <style>
       @keyframes football-stat-fill-in-${cid} {

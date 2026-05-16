@@ -2015,11 +2015,19 @@ function composerStyles(scene) {
       flex-direction: column;
       gap: 22px;
     }
+    [data-composition-id="${cid}"] .football-event-list.compact {
+      margin-top: 24px;
+      gap: 10px;
+    }
     [data-composition-id="${cid}"] .football-event {
       display: grid;
       grid-template-columns: 118px 1fr;
       gap: 18px;
       align-items: center;
+    }
+    [data-composition-id="${cid}"] .football-event-list.compact .football-event {
+      grid-template-columns: 86px 1fr;
+      gap: 12px;
     }
     [data-composition-id="${cid}"] .football-event-minute {
       height: 78px;
@@ -2033,19 +2041,38 @@ function composerStyles(scene) {
       font-weight: 950;
       box-shadow: 0 18px 40px rgba(0,0,0,0.28);
     }
+    [data-composition-id="${cid}"] .football-event-list.compact .football-event-minute {
+      height: 54px;
+      border-radius: 16px;
+      font-size: 21px;
+    }
     [data-composition-id="${cid}"] .football-event-card {
       border-radius: 24px;
       padding: 22px 26px;
     }
+    [data-composition-id="${cid}"] .football-event-list.compact .football-event-card {
+      border-radius: 16px;
+      padding: 10px 16px;
+      min-height: 54px;
+    }
     [data-composition-id="${cid}"] .football-event-title {
       font-size: 30px;
       font-weight: 950;
+    }
+    [data-composition-id="${cid}"] .football-event-list.compact .football-event-title {
+      font-size: 20px;
+      line-height: 1.08;
     }
     [data-composition-id="${cid}"] .football-event-desc {
       margin-top: 6px;
       color: rgba(255,255,255,0.68);
       font-size: 22px;
       font-weight: 760;
+    }
+    [data-composition-id="${cid}"] .football-event-list.compact .football-event-desc {
+      margin-top: 3px;
+      font-size: 15px;
+      line-height: 1.18;
     }
 
     [data-composition-id="${cid}"] .football-schedule-head {
@@ -2908,13 +2935,14 @@ const COMPOSERS = {
 
   "football-timeline": (scene) => {
     const events = normalizeFootballEvents(scene);
+    const compactClass = events.length > 7 ? " compact" : "";
     return `
     <div class="canvas football-scene football-timeline" style="align-items:flex-start; justify-content:flex-start; padding:150px 76px 170px; background:${footballBg(scene)};">
       ${footballPitchBackdrop(scene)}
       <div class="football-kicker">${escapeHtml(scene.competitionLabel || scene.stage || "MATCH TIMELINE")}</div>
       <h1 class="football-title" id="s${scene.id}-title" style="text-align:left;">${escapeHtml(scene.title || "Dien bien chinh")}</h1>
-      <div class="football-event-list">
-        ${events.slice(0, 5).map((ev, i) => `
+      <div class="football-event-list${compactClass}">
+        ${events.map((ev, i) => `
           <div class="football-event" id="s${scene.id}-event-${i}">
             <div class="football-event-minute">${escapeHtml(ev.minute || `${i * 15 + 12}'`)}</div>
             <div class="football-event-card">
@@ -3923,7 +3951,8 @@ function buildAnimationScript(scene) {
       const lower = document.querySelector('[data-composition-id="${cid}"] #${s}-lower');
       if (lower) tl.fromTo(lower, { y: 32, opacity: 0 }, { y: 0, opacity: 1, duration: 0.48, ease: "power2.out" }, 0.95);
       const scoreShell = document.querySelector('[data-composition-id="${cid}"] #${s}-score-shell');
-      if (scoreShell) tl.fromTo(scoreShell, { y: 58, opacity: 0, scale: 0.94 }, { y: 0, opacity: 1, scale: 1, duration: 0.78, ease: "power3.out" }, 0.35);
+      const scoreShellLift = scoreShell && scoreShell.closest('.football-scoreboard') ? -64 : 0;
+      if (scoreShell) tl.fromTo(scoreShell, { y: scoreShellLift + 58, opacity: 0, scale: 0.94 }, { y: scoreShellLift, opacity: 1, scale: 1, duration: 0.78, ease: "power3.out" }, 0.35);
       const scoreNums = document.querySelectorAll('[data-composition-id="${cid}"] .football-score-num');
       if (scoreNums.length) tl.fromTo(scoreNums, { y: -24, opacity: 0, rotateX: -80 }, { y: 0, opacity: 1, rotateX: 0, duration: 0.58, stagger: 0.12, ease: "back.out(1.6)" }, 0.86);
       const player = document.querySelector('[data-composition-id="${cid}"] #${s}-player');
