@@ -1,0 +1,231 @@
+{
+  "title": "Hoang Anh Gia Lai vs Hong Linh Ha Tinh (V.League 1): Preview vong 23",
+  "slug": "hoang-anh-gia-lai-vs-hong-linh-ha-tinh-vleague-preview-2026-05-17",
+  "totalDuration": 44,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "PLEIKU CANG NHU DAY DAN!",
+      "subtext": "Hoang Anh Gia Lai vs Hong Linh Ha Tinh",
+      "voiceText": "Pleiku căng như dây đàn! Hoàng Anh Gia Lai tiếp Hồng Lĩnh Hà Tĩnh lúc 17 giờ ngày 17 tháng 5, trong khuôn khổ vòng hai mươi ba V.League một.",
+      "duration": 6,
+      "bgColor": "#0f172a",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#B91C1C",
+      "textColor": "#ffffff",
+      "competitionLabel": "LPBank V.League 1",
+      "stage": "Vong 23",
+      "venue": "SVĐ Pleiku",
+      "date": "17.05.2026",
+      "time": "17:00",
+      "teams": [
+        { "name": "Hoang Anh Gia Lai", "code": "HAGL", "teamType": "club", "form": ["L", "D", "W", "L", "D"] },
+        { "name": "Hong Linh Ha Tinh", "code": "HLHT", "teamType": "club", "form": ["L", "W", "D", "L", "W"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "LPBank V.League 1",
+      "tournamentName": "LPBank V.League 1",
+      "competitionLabel": "Matchweek 23 Preview",
+      "seasonLabel": "2025-26 | Vong 23",
+      "ctaLabel": "Kickoff 17:00",
+      "voiceText": "Vòng hai mươi ba đang bước vào giai đoạn nước rút. HAGL cần điểm để tránh bị kéo sâu xuống nhóm nguy hiểm, còn Hà Tĩnh cũng chưa thể thở phào.",
+      "duration": 3,
+      "bgColor": "#0f172a",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/logos/logo.png",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Doi hinh du kien",
+      "voiceText": "HAGL dự kiến vẫn dựa vào trục Trung Kiên, Jairo, Châu Ngọc Quang và Brandao. Bên kia, Hà Tĩnh có thể đặt niềm tin vào Thanh Tùng, Viktor Lê, Geovane và Atshimene trên hàng công.",
+      "duration": 8,
+      "bgColor": "#0f172a",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "SVĐ Pleiku",
+      "teams": [
+        { "name": "Hoang Anh Gia Lai", "code": "HAGL", "teamType": "club" },
+        { "name": "Hong Linh Ha Tinh", "code": "HLHT", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-3",
+          "players": [
+            "Trung Kiên",
+            "Lý Đức",
+            "Jairo",
+            "Đình Lâm",
+            "Văn Sơn",
+            "Châu Ngọc Quang",
+            "Trần Bảo Toàn",
+            "Quang Nho",
+            "Gia Bảo",
+            "Brandao",
+            "Minh Vương"
+          ]
+        },
+        "away": {
+          "formation": "3-4-3",
+          "players": [
+            "Thanh Tùng",
+            "Tuấn Hải",
+            "Thanh Trung",
+            "Tuấn Tài",
+            "Xuân Trường",
+            "Viktor Lê",
+            "Văn Hiệp",
+            "Văn Long",
+            "Geovane",
+            "Atshimene",
+            "Ngọc Thắng"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LICH SU DOI DAU",
+      "subtext": "5 tran gan nhat",
+      "voiceText": "Đối đầu gần đây là điểm tựa lớn cho Hà Tĩnh. Năm lần gặp nhau mới nhất, đội bóng núi Hồng thắng bốn trận, còn HAGL chỉ thắng một.",
+      "duration": 8,
+      "bgColor": "#0f172a",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "teams": [
+        { "name": "Hoang Anh Gia Lai", "code": "HAGL", "teamType": "club", "form": [] },
+        { "name": "Hong Linh Ha Tinh", "code": "HLHT", "teamType": "club", "form": [] }
+      ],
+      "oddsTable": {
+        "headers": ["Doi bong", "5 tran", "Thang", "Hoa", "Thua", "Ban"],
+        "rows": [
+          { "teamName": "Hoang Anh Gia Lai", "scoreText": "5", "x12": "1", "hdp": "0", "ou": "4", "htHdp": "4+" },
+          { "teamName": "Hong Linh Ha Tinh", "scoreText": "5", "x12": "4", "hdp": "0", "ou": "1", "htHdp": "5+" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "04/11/2025", "competition": "V.League 1", "home": "Hong Linh Ha Tinh", "away": "Hoang Anh Gia Lai", "score": "1-0" },
+        { "kickoff": "2024/25", "competition": "V.League 1", "home": "Hoang Anh Gia Lai", "away": "Hong Linh Ha Tinh", "score": "HAGL thang" },
+        { "kickoff": "2024/25", "competition": "V.League 1", "home": "Hong Linh Ha Tinh", "away": "Hoang Anh Gia Lai", "score": "Ha Tinh thang" },
+        { "kickoff": "2023/24", "competition": "V.League 1", "home": "Hoang Anh Gia Lai", "away": "Hong Linh Ha Tinh", "score": "Ha Tinh thang" },
+        { "kickoff": "2023/24", "competition": "V.League 1", "home": "Hong Linh Ha Tinh", "away": "Hoang Anh Gia Lai", "score": "Ha Tinh thang" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "HAGL có sân nhà Pleiku, nhưng Hà Tĩnh đang nắm lợi thế đối đầu và chỉ cần một kết quả tốt để tự kéo mình ra khỏi vùng áp lực.",
+      "quoteAuthor": "Nhan dinh tong hop",
+      "quoteRole": "Tu thong tin truoc tran",
+      "voiceText": "HAGL có điểm tựa Pleiku, nhưng Hà Tĩnh lại có lịch sử đối đầu thuận lợi. Chỉ một khoảnh khắc sai lầm cũng có thể khiến cuộc đua trụ hạng đổi màu.",
+      "duration": 6,
+      "bgColor": "#0f172a",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Boi canh truoc tran",
+      "subtext": "LPBank V.League 1 2025-26",
+      "voiceText": "Trước trận, Hà Tĩnh có hai mươi bốn điểm, hơn HAGL đúng hai điểm. Đội chủ sân Pleiku vẫn chưa an toàn, trong khi đội khách cũng không được phép chủ quan ở giai đoạn cuối mùa.",
+      "duration": 7,
+      "bgColor": "#0f172a",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BANG XEP HANG",
+      "tabs": ["TRAN DAU", "SO DO THI DAU", "CAU THU", "BANG XEP HANG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "standings": [
+        { "rank": 8, "team": { "name": "Hong Linh Ha Tinh", "code": "HLHT", "teamType": "club" }, "played": 22, "wins": 6, "draws": 6, "losses": 10, "gf": 20, "ga": 26, "gd": -6, "pts": 24 },
+        { "rank": 9, "team": { "name": "Hoang Anh Gia Lai", "code": "HAGL", "teamType": "club" }, "played": 22, "wins": 6, "draws": 4, "losses": 12, "gf": 21, "ga": 30, "gd": -9, "pts": 22 },
+        { "rank": 10, "team": { "name": "SHB Da Nang", "code": "DAN", "teamType": "club" }, "played": 22, "wins": 5, "draws": 6, "losses": 11, "gf": 18, "ga": 28, "gd": -10, "pts": 21 },
+        { "rank": 11, "team": { "name": "Song Lam Nghe An", "code": "SLNA", "teamType": "club" }, "played": 22, "wins": 5, "draws": 6, "losses": 11, "gf": 17, "ga": 27, "gd": -10, "pts": 21 },
+        { "rank": 12, "team": { "name": "Becamex TP.HCM", "code": "BBD", "teamType": "club" }, "played": 22, "wins": 5, "draws": 5, "losses": 12, "gf": 18, "ga": 30, "gd": -12, "pts": 20 },
+        { "rank": 13, "team": { "name": "PVF-CAND", "code": "PVF", "teamType": "club" }, "played": 22, "wins": 4, "draws": 7, "losses": 11, "gf": 16, "ga": 27, "gd": -11, "pts": 19 },
+        { "rank": 14, "team": { "name": "Dong A Thanh Hoa", "code": "THA", "teamType": "club" }, "played": 22, "wins": 4, "draws": 6, "losses": 12, "gf": 17, "ga": 31, "gd": -14, "pts": 18 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "HAGL vuot ap luc hay Ha Tinh lay diem?",
+      "subtext": "Du doan ti so cua ban la gi?",
+      "voiceText": "Bạn nghĩ HAGL sẽ tận dụng sân nhà Pleiku, hay Hà Tĩnh tiếp tục là đối thủ kỵ rơ? Hãy để lại tỉ số bên dưới và follow để cập nhật thêm các trận nóng của V.League.",
+      "duration": 6,
+      "bgColor": "#0f172a",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "⚽",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Bongdaplus match preview, team news and predicted lineups",
+      "url": "https://bongdaplus.vn/v-league/nhan-dinh-bong-da-hagl-vs-ha-tinh-17h00-ngay-17-5-dem-dai-lam-mong-5049252605.html"
+    },
+    {
+      "name": "Bongda.com.vn match context and kickoff time",
+      "url": "https://bongda.com.vn/soi-tran-hagl-vs-ha-tinh-chot-som-suat-tru-hang-d831643.html"
+    },
+    {
+      "name": "Thethao247 V.League schedule and standings context",
+      "url": "https://thethao247.vn/406-lich-thi-dau-vleague-2025-2026-vong-23-d367868.html"
+    },
+    {
+      "name": "TNT Sports match centre, H2H and form",
+      "url": "https://www.tntsports.co.uk/football/teams/hoang-anh-gia-lai/teamcenter.shtml"
+    },
+    {
+      "name": "Lao Dong V.League table after round 22",
+      "url": "https://news.laodong.vn/the-thao/bang-xep-hang-vleague-2025-2026-sau-vong-22-1699646.ldo"
+    }
+  ]
+}

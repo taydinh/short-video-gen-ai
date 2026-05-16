@@ -1,0 +1,242 @@
+{
+  "title": "Manchester United vs Nottingham Forest (EPL): Preview trước vòng 37",
+  "slug": "man-united-vs-nottingham-forest-epl-preview-2026-05-17",
+  "totalDuration": 44,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "OLD TRAFFORD RỰC LỬA!",
+      "subtext": "Manchester United vs Nottingham Forest",
+      "voiceText": "Old Trafford rực lửa! Manchester United gặp Nottingham Forest ở vòng ba mươi bảy Premier League, trận đấu diễn ra lúc 18 giờ 30 ngày 17 tháng 5.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "secondaryAccentColor": "#E53233",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "Old Trafford",
+      "date": "17.05.2026",
+      "time": "18:30",
+      "teams": [
+        { "name": "Manchester United", "code": "MUN", "teamType": "club", "form": ["D", "L", "W", "W", "W", "D"] },
+        { "name": "Nottingham Forest", "code": "NFO", "teamType": "club", "form": ["W", "D", "W", "W", "W", "D"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#DA291C" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchweek 37 Preview",
+      "seasonLabel": "2025-26 | Penultimate Round",
+      "ctaLabel": "Kickoff 18:30",
+      "voiceText": "Đây là vòng áp chót Premier League. United đã chắc vé Champions League, còn Nottingham Forest đã an toàn, nhưng phong độ của hai đội khiến trận này vẫn rất đáng xem.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#DA291C" }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Manchester United có thể dùng sơ đồ bốn hai ba một, với Bruno Fernandes làm hạt nhân sáng tạo phía sau Zirkzee hoặc Mbeumo. Nottingham Forest dự kiến chuyển sang bốn ba ba, chờ Gibbs-White kịp ra sân sau khi đã tập với mặt nạ bảo vệ.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Old Trafford",
+      "teams": [
+        { "name": "Manchester United", "code": "MUN", "teamType": "club" },
+        { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Lammens",
+            "Dalot",
+            "Maguire",
+            "Martinez",
+            "Shaw",
+            "Casemiro",
+            "Mainoo",
+            "Amad",
+            "Fernandes",
+            "Cunha",
+            "Mbeumo"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Sels",
+            "Williams",
+            "Milenkovic",
+            "Cunha",
+            "Netz",
+            "Dominguez",
+            "Anderson",
+            "Gibbs-White",
+            "Bakwa",
+            "Igor Jesus",
+            "Awoniyi"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#DA291C" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "5 trận gần nhất",
+      "voiceText": "Đối đầu gần đây rất khó chịu cho United. Trong năm lần gặp nhau mới nhất, Nottingham Forest thắng ba, United thắng một và hai đội hòa trận lượt đi mùa này với tỉ số hai đều.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "teams": [
+        { "name": "Manchester United", "code": "MUN", "teamType": "club", "form": [] },
+        { "name": "Nottingham Forest", "code": "NFO", "teamType": "club", "form": [] }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "5 trận", "Thắng", "Hòa", "Thua", "Bàn"],
+        "rows": [
+          { "teamName": "Manchester United", "scoreText": "5", "x12": "1", "hdp": "1", "ou": "3", "htHdp": "6" },
+          { "teamName": "Nottingham Forest", "scoreText": "5", "x12": "3", "hdp": "1", "ou": "1", "htHdp": "8" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "01/11/2025", "competition": "EPL", "home": "Nottingham Forest", "away": "Manchester United", "score": "2-2" },
+        { "kickoff": "01/04/2025", "competition": "EPL", "home": "Nottingham Forest", "away": "Manchester United", "score": "1-0" },
+        { "kickoff": "07/12/2024", "competition": "EPL", "home": "Manchester United", "away": "Nottingham Forest", "score": "2-3" },
+        { "kickoff": "28/02/2024", "competition": "FA Cup", "home": "Nottingham Forest", "away": "Manchester United", "score": "0-1" },
+        { "kickoff": "30/12/2023", "competition": "EPL", "home": "Nottingham Forest", "away": "Manchester United", "score": "2-1" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#DA291C" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "United có lợi thế sân nhà và động lực khép lại mùa ở Old Trafford thật đẹp, nhưng Forest đang bất bại tám trận Premier League và không hề dễ bị cuốn đi.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Từ thông tin trước trận",
+      "voiceText": "United có lợi thế sân nhà, đứng thứ ba và muốn khép lại trận sân nhà cuối mùa bằng một chiến thắng. Nhưng Forest đang bất bại tám trận ở Premier League, nên đây không phải một bài kiểm tra nhẹ.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#DA291C" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh trước trận",
+      "subtext": "Premier League 2025-26",
+      "voiceText": "Trước vòng ba mươi bảy, Manchester United đứng thứ ba với sáu mươi lăm điểm, hơn nhóm bám đuổi và đã nắm vé Champions League. Nottingham Forest đứng thứ mười sáu với bốn mươi ba điểm, hơn khu vực nguy hiểm bảy điểm và đã an toàn.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 36, "wins": 24, "draws": 7, "losses": 5, "gf": 68, "ga": 26, "gd": 42, "pts": 79 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 36, "wins": 18, "draws": 11, "losses": 7, "gf": 63, "ga": 48, "gd": 15, "pts": 65 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton", "code": "BHA", "teamType": "club" }, "played": 36, "wins": 14, "draws": 11, "losses": 11, "gf": 52, "ga": 42, "gd": 10, "pts": 53 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 36, "wins": 14, "draws": 9, "losses": 13, "gf": 52, "ga": 49, "gd": 3, "pts": 51 },
+        { "rank": 9, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 55, "ga": 49, "gd": 6, "pts": 49 },
+        { "rank": 10, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 46, "ga": 46, "gd": 0, "pts": 49 },
+        { "rank": 11, "team": { "name": "Fulham", "code": "FUL", "teamType": "club" }, "played": 36, "wins": 14, "draws": 6, "losses": 16, "gf": 44, "ga": 50, "gd": -6, "pts": 48 },
+        { "rank": 12, "team": { "name": "Sunderland", "code": "SUN", "teamType": "club" }, "played": 36, "wins": 12, "draws": 12, "losses": 12, "gf": 37, "ga": 46, "gd": -9, "pts": 48 },
+        { "rank": 13, "team": { "name": "Newcastle United", "code": "NEW", "teamType": "club" }, "played": 36, "wins": 13, "draws": 7, "losses": 16, "gf": 50, "ga": 52, "gd": -2, "pts": 46 },
+        { "rank": 14, "team": { "name": "Leeds United", "code": "LEE", "teamType": "club" }, "played": 36, "wins": 10, "draws": 14, "losses": 12, "gf": 48, "ga": 53, "gd": -5, "pts": 44 },
+        { "rank": 15, "team": { "name": "Crystal Palace", "code": "CRY", "teamType": "club" }, "played": 36, "wins": 11, "draws": 11, "losses": 14, "gf": 38, "ga": 47, "gd": -9, "pts": 44 },
+        { "rank": 16, "team": { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }, "played": 36, "wins": 11, "draws": 10, "losses": 15, "gf": 45, "ga": 47, "gd": -2, "pts": 43 },
+        { "rank": 17, "team": { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club" }, "played": 36, "wins": 9, "draws": 11, "losses": 16, "gf": 46, "ga": 55, "gd": -9, "pts": 38 },
+        { "rank": 18, "team": { "name": "West Ham United", "code": "WHU", "teamType": "club" }, "played": 36, "wins": 9, "draws": 9, "losses": 18, "gf": 42, "ga": 62, "gd": -20, "pts": 36 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#DA291C" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "United thắng hay Forest gây sốc?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "voiceText": "Bạn dự đoán Manchester United thắng trên sân nhà, hay Nottingham Forest tiếp tục chuỗi bất bại? Hãy để lại tỉ số bên dưới và follow để cập nhật những tin nóng mới nhất về bóng đá Anh.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "⚽",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Manchester United fixture update",
+      "url": "https://www.manutd.com/en/news/detail/man-utd-v-nottingham-forest-fixture-update-may-2026"
+    },
+    {
+      "name": "Sports Mole match preview, form and team news",
+      "url": "https://www.sportsmole.co.uk/football/man-utd/preview/man-utd-vs-nottm-forest-prediction-team-news-lineups_597579.html"
+    },
+    {
+      "name": "Sports Mole Premier League table",
+      "url": "https://www.sportsmole.co.uk/football/premier-league/table.html"
+    },
+    {
+      "name": "SportsGambler predicted lineups and H2H",
+      "url": "https://www.sportsgambler.com/betting-tips/football/manchester-united-vs-nottingham-forest-prediction-lineups-odds-2026-05-17/"
+    },
+    {
+      "name": "Squawka match preview and recent form",
+      "url": "https://www.squawka.com/us/news/match-preview-manchester-united-vs-nottingham-forest-17-05-26-premier-league/"
+    }
+  ]
+}

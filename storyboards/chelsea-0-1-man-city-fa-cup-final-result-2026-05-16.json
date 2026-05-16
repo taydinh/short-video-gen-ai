@@ -1,0 +1,498 @@
+{
+  "title": "Chelsea 0-1 Manchester City: Semenyo định đoạt chung kết FA Cup",
+  "slug": "chelsea-0-1-man-city-fa-cup-final-result-2026-05-16",
+  "totalDuration": 56,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "CITY VÔ ĐỊCH FA CUP!",
+      "subtext": "Chelsea 0-1 Manchester City",
+      "voiceText": "Manchester City vô địch FA Cup! Một trận chung kết căng như dây đàn ở Wembley, và Antoine Semenyo là người tạo ra khoảnh khắc định đoạt.",
+      "duration": 6,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "secondaryAccentColor": "#034694",
+      "textColor": "#ffffff",
+      "competitionLabel": "FA Cup",
+      "stage": "Chung kết",
+      "venue": "Wembley Stadium",
+      "date": "16.05.2026",
+      "time": "21:00",
+      "teams": [
+        {
+          "name": "Chelsea",
+          "code": "CHE",
+          "teamType": "club",
+          "form": [
+            "L",
+            "L",
+            "W",
+            "L",
+            "L"
+          ]
+        },
+        {
+          "name": "Manchester City",
+          "code": "MCI",
+          "teamType": "club",
+          "form": [
+            "W",
+            "W",
+            "D",
+            "W",
+            "W"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibebongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "The FA Cup",
+      "tournamentName": "The Emirates FA Cup",
+      "competitionLabel": "Final Result",
+      "seasonLabel": "2025-26 | 145th Final",
+      "ctaLabel": "Full-time story",
+      "voiceText": "Sau đây là câu chuyện trận chung kết FA Cup: Chelsea phòng ngự bền bỉ, nhưng Man City chỉ cần một pha xử lý đẳng cấp để nâng cúp.",
+      "duration": 3,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/england_emirates-fa-cup.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibebongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Chelsea 0-1 Manchester City",
+      "subtext": "Semenyo ghi bàn duy nhất ở phút 72.",
+      "voiceText": "Full time: Chelsea không, Manchester City một. Antoine Semenyo ghi bàn duy nhất ở phút bảy mươi hai, giúp City đánh bại Chelsea và nâng FA Cup tại Wembley.",
+      "duration": 5,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "FA Cup Final",
+      "minute": "FT",
+      "score": [
+        0,
+        1
+      ],
+      "teams": [
+        "Chelsea",
+        "Manchester City"
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.3
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "CHE",
+            "MCI"
+          ],
+          "score": [
+            0,
+            1
+          ],
+          "minute": "FT",
+          "label": "Wembley Stadium"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình xuất phát",
+      "voiceText": "Hai đội đều tung lực lượng mạnh. Chelsea có Sanchez, Reece James, Caicedo, Palmer, Enzo và Joao Pedro. Man City dùng Trafford trong khung gỗ, Rodri trở lại đá chính, còn bộ ba Semenyo, Doku và Haaland tạo áp lực phía trên.",
+      "duration": 7,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "STARTING XI",
+      "venue": "Wembley Stadium",
+      "teams": [
+        {
+          "name": "Chelsea",
+          "code": "CHE",
+          "teamType": "club"
+        },
+        {
+          "name": "Manchester City",
+          "code": "MCI",
+          "teamType": "club"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Sanchez",
+            "Gusto",
+            "Fofana",
+            "Colwill",
+            "Hato",
+            "James",
+            "Caicedo",
+            "Palmer",
+            "Fernandez",
+            "Cucurella",
+            "Pedro"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Trafford",
+            "Nunes",
+            "Khusanov",
+            "Guehi",
+            "O'Reilly",
+            "Rodri",
+            "Bernardo",
+            "Semenyo",
+            "Marmoush",
+            "Doku",
+            "Haaland"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibebongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Semenyo là người hùng",
+      "subtext": "Bàn thắng kiểu đánh gót, Haaland kiến tạo",
+      "voiceText": "Người hùng của trận đấu là Antoine Semenyo. Phút bảy mươi hai, Haaland căng ngang, Semenyo quay lưng với khung thành nhưng vẫn đánh gót vào góc dưới. Một khoảnh khắc ngẫu hứng đủ để phá vỡ thế trận phòng ngự của Chelsea.",
+      "duration": 7,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "player": "Antoine Semenyo",
+      "team": "Manchester City",
+      "number": "42",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "72",
+          "unit": "'"
+        },
+        {
+          "label": "Người kiến tạo",
+          "value": "Haaland"
+        },
+        {
+          "label": "Bàn cho City",
+          "value": "10"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibebongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline chung kết",
+      "subtext": "Những mốc làm đổi trận",
+      "voiceText": "Hiệp một, Chelsea sống sót trước sức ép của City, trong đó Haaland từng đưa bóng vào lưới nhưng bị từ chối vì lỗi việt vị trong pha lên bóng. Sang hiệp hai, Chelsea có thời điểm vùng lên, Caicedo đánh đầu nguy hiểm, nhưng Rodri kịp phá ngay gần vạch vôi. Rồi phút bảy mươi hai, Semenyo đánh gót ghi bàn. Cuối trận, Sanchez còn đẩy cú sút của Matheus Nunes vào cột dọc, giữ tỉ số một không cho tới hết giờ.",
+      "duration": 9,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "29'",
+          "title": "Thẻ vàng: Enzo Fernandez",
+          "desc": "Tiền vệ Chelsea bị cảnh cáo trong hiệp một."
+        },
+        {
+          "minute": "32'",
+          "title": "Thẻ vàng: Marc Cucurella",
+          "desc": "Chelsea nhận thêm thẻ khi City tăng sức ép."
+        },
+        {
+          "minute": "30'",
+          "title": "Haaland bị từ chối bàn thắng",
+          "desc": "Pha dứt điểm cận thành không được công nhận vì lỗi việt vị trong tình huống trước đó."
+        },
+        {
+          "minute": "46'",
+          "title": "City thay người",
+          "desc": "Rayan Cherki vào thay Omar Marmoush sau giờ nghỉ."
+        },
+        {
+          "minute": "56'",
+          "title": "Thẻ vàng: Abdukodir Khusanov",
+          "desc": "Trung vệ Man City bị cảnh cáo."
+        },
+        {
+          "minute": "65'",
+          "title": "Kovacic vào sân",
+          "desc": "Mateo Kovacic thay Rodri ở tuyến giữa Man City."
+        },
+        {
+          "minute": "72'",
+          "title": "0-1: Antoine Semenyo",
+          "desc": "Semenyo đánh gót ghi bàn từ đường căng ngang của Erling Haaland."
+        },
+        {
+          "minute": "74'",
+          "title": "Chelsea thay người",
+          "desc": "Pedro Neto vào thay Marc Cucurella."
+        },
+        {
+          "minute": "83'",
+          "title": "Liam Delap vào sân",
+          "desc": "Chelsea tăng cường hàng công, Reece James rời sân."
+        },
+        {
+          "minute": "86'",
+          "title": "Alejandro Garnacho vào sân",
+          "desc": "Garnacho thay Joao Pedro cho nỗ lực cuối trận."
+        },
+        {
+          "minute": "90+2'",
+          "title": "Thẻ vàng: Moises Caicedo",
+          "desc": "Chelsea nhận thẻ vàng cuối trận khi đang đẩy cao đội hình."
+        }
+      ],
+      "visuals": {
+        "type": "football-ball-motion",
+        "duration": 4.2,
+        "top": "78%",
+        "size": 88
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "City kiểm soát tốt hơn",
+      "subtext": "Chỉ số sau trận",
+      "voiceText": "Về thống kê, Man City kiểm soát bóng năm mươi sáu phần trăm, tung chín cú sút và bốn lần đưa bóng trúng đích. Chelsea chỉ có một cú sút trúng đích, dù họ phòng ngự kiên cường và có vài khoảnh khắc khiến City phải thót tim.",
+      "duration": 7,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [
+        0,
+        1
+      ],
+      "teams": [
+        "Chelsea",
+        "Manchester City"
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 44,
+              "away": 56,
+              "unit": "%"
+            },
+            {
+              "label": "Cú sút",
+              "home": 7,
+              "away": 9
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": 1,
+              "away": 4
+            },
+            {
+              "label": "Phạt góc",
+              "home": 4,
+              "away": 4
+            },
+            {
+              "label": "Chuyền chính xác",
+              "home": 349,
+              "away": 470
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "City vẫn còn cửa hoàn tất cú ăn ba quốc nội.",
+      "quoteAuthor": "Bối cảnh mùa giải",
+      "quoteRole": "FA Cup, League Cup và Premier League",
+      "voiceText": "Danh hiệu này giữ Man City trong cuộc đua ăn ba quốc nội. Họ đã có League Cup, vừa thêm FA Cup, và ở Premier League vẫn bám Arsenal với khoảng cách hai điểm khi còn hai vòng. Chelsea thì mất luôn suất Europa League qua đường FA Cup.",
+      "duration": 6,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibebongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Semenyo có xứng đáng MVP?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Bạn nghĩ Semenyo có xứng đáng là cầu thủ hay nhất trận không, và Man City có thể hoàn tất cú ăn ba quốc nội mùa này không? Hãy để lại ý kiến bên dưới và follow để cập nhật bóng đá Anh mới nhất.",
+      "duration": 6,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": {
+        "type": "football-confetti",
+        "particleCount": 80,
+        "duration": 5.2
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sky News match report",
+      "url": "https://news.sky.com/story/manchester-city-win-fa-cup-final-after-beating-chelsea-at-wembley-13544809"
+    },
+    {
+      "name": "Sky Sports match stats and lineups",
+      "url": "https://www.skysports.com/football/chelsea-vs-manchester-city/stats/555725"
+    },
+    {
+      "name": "Sky Sports teams page",
+      "url": "https://www.skysports.com/football/chelsea-vs-manchester-city/teams/555725"
+    },
+    {
+      "name": "Associated Press match report via KSAT",
+      "url": "https://www.ksat.com/sports/2026/05/16/man-city-beats-chelsea-1-0-in-fa-cup-final/"
+    },
+    {
+      "name": "GOAL Chelsea player ratings and match flow",
+      "url": "https://www.goal.com/en/lists/chelsea-player-ratings-vs-man-city-enzo-fernandez-malo-gusto/bltab49e22c7562cace"
+    },
+    {
+      "name": "Aftonbladet live events summary",
+      "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/Gx0Lb9/mohamed-salah-kritiserar-liverpool-efter-storforlusten"
+    }
+  ]
+}

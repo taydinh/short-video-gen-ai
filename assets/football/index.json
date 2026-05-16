@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-16T11:25:39.881Z",
+  "updatedAt": "2026-05-16T17:42:27.555Z",
   "records": [
     {
       "id": "wc2026:canada",
@@ -1746,6 +1746,42 @@
         "licenseUrl": "https://football-logos.cc/england/emirates-fa-cup/"
       },
       "updatedAt": "2026-05-16T11:25:39.881Z"
+    },
+    {
+      "id": "epl:hoang-anh-gia-lai",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Hoang Anh Gia Lai",
+      "aliases": [],
+      "codes": {
+        "short": "HAGL"
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-16T17:41:28.370Z"
+    },
+    {
+      "id": "epl:hong-linh-ha-tinh",
+      "kind": "club",
+      "competition": "epl",
+      "name": "Hong Linh Ha Tinh",
+      "aliases": [],
+      "codes": {
+        "short": "HLHT"
+      },
+      "badge": {
+        "type": "logo",
+        "path": null,
+        "sourceUrl": null,
+        "licenseName": null,
+        "licenseUrl": null
+      },
+      "updatedAt": "2026-05-16T17:41:56.153Z"
     }
   ]
 }

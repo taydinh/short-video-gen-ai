@@ -1179,6 +1179,15 @@ function composerStyles(scene) {
       box-shadow: 0 20px 52px rgba(0,0,0,0.36);
       border: none;
       background: transparent;
+      object-fit: contain;
+    }
+    [data-composition-id="${cid}"] .football-match-card .football-team-badge-logo {
+      width: 110px;
+      height: 110px;
+    }
+    [data-composition-id="${cid}"] .football-match-card .football-team-badge-flag {
+      width: 138px;
+      height: 92px;
     }
     [data-composition-id="${cid}"] .football-match-card .football-team-badge.placeholder {
       border: 1px dashed rgba(255,255,255,0.14);
@@ -1738,10 +1747,44 @@ function composerStyles(scene) {
       gap: 24px;
     }
     [data-composition-id="${cid}"] .football-score-team {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      min-width: 0;
+      text-align: center;
+    }
+    [data-composition-id="${cid}"] .football-score-badge {
+      object-fit: contain;
+      flex: 0 0 auto;
+      filter: drop-shadow(0 20px 32px rgba(0,0,0,0.34));
+    }
+    [data-composition-id="${cid}"] .football-score-badge.logo {
+      width: 118px;
+      height: 118px;
+      border-radius: 999px;
+    }
+    [data-composition-id="${cid}"] .football-score-badge.flag {
+      width: 142px;
+      height: 94px;
+      border-radius: 18px;
+      box-shadow: 0 16px 34px rgba(0,0,0,0.26);
+    }
+    [data-composition-id="${cid}"] .football-score-badge.placeholder {
+      width: 118px;
+      height: 118px;
+      border-radius: 999px;
+      border: 1px dashed rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.05);
+      filter: none;
+    }
+    [data-composition-id="${cid}"] .football-score-team-name {
       font-size: 34px;
       line-height: 1.1;
       font-weight: 950;
       text-transform: uppercase;
+      overflow-wrap: anywhere;
     }
     [data-composition-id="${cid}"] .football-score-value {
       height: 140px;
@@ -2139,6 +2182,12 @@ function composerStyles(scene) {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 18px;
+    }
+    [data-composition-id="${cid}"] .football-fixture-grid.single-column {
+      grid-template-columns: 1fr;
+    }
+    [data-composition-id="${cid}"] .football-fixture-grid.single-column .football-fixture-card {
+      width: 100%;
     }
     [data-composition-id="${cid}"] .football-fixture-card {
       border-radius: 22px;
@@ -2582,9 +2631,9 @@ const COMPOSERS = {
         <div class="football-kicker">${escapeHtml(label)}</div>
         <div class="football-clock">${escapeHtml(minute)}</div>
         <div class="football-score-row">
-          <div class="football-score-team">${escapeHtml(teams[0].name)}</div>
+          ${footballScoreTeam(teams[0])}
           <div class="football-score-value"><span class="football-score-num">${escapeHtml(String(score[0]))}</span><span>-</span><span class="football-score-num">${escapeHtml(String(score[1]))}</span></div>
-          <div class="football-score-team">${escapeHtml(teams[1].name)}</div>
+          ${footballScoreTeam(teams[1])}
         </div>
         <div class="football-score-note">${escapeHtml(scene.subtext || scene.title || "Dien bien tran dau")}</div>
       </div>
@@ -2964,6 +3013,7 @@ const COMPOSERS = {
       : ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"];
     const active = String(scene.activeTab ?? tabs[0]).toUpperCase();
     const pill = scene.ctaLabel || "MATCH STORY";
+    const fixtureLayoutClass = fixtures.length < 6 ? " single-column" : "";
 
     return `
     <div class="canvas football-scene football-schedule" style="align-items:stretch; justify-content:flex-start; padding:124px 66px 160px; background:${footballBg(scene)};">
@@ -2979,7 +3029,7 @@ const COMPOSERS = {
           return `<div class="football-schedule-tab ${isActive ? "active" : ""}">${escapeHtml(label)}</div>`;
         }).join("")}
       </div>
-      <div class="football-fixture-grid" id="s${scene.id}-fixture-grid">
+      <div class="football-fixture-grid${fixtureLayoutClass}" id="s${scene.id}-fixture-grid">
         ${fixtures.map((fx, i) => {
           const homeFlag = fx.home?.badgeSrc
             ? `<img class="football-fixture-flag ${fx.home.badgeType === "national" ? "flag" : "logo"}" src="${escapeHtmlAttr(fx.home.badgeSrc)}" alt="${escapeHtmlAttr(fx.home.name)}" />`
@@ -3971,6 +4021,13 @@ function buildAnimationScript(scene) {
       if (bracketNodes.length) tl.fromTo(bracketNodes, { scale: 0.82, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.45, stagger: 0.14, ease: "back.out(1.5)" }, 0.84);
       const events = document.querySelectorAll('[data-composition-id="${cid}"] .football-event');
       if (events.length) tl.fromTo(events, { x: -54, opacity: 0 }, { x: 0, opacity: 1, duration: 0.52, stagger: 0.16, ease: "power3.out" }, 0.56);
+      const scheduleTabs = document.querySelector('[data-composition-id="${cid}"] #${s}-tabs');
+      if (scheduleTabs) tl.fromTo(scheduleTabs, { y: 24, opacity: 0, scale: 0.985 }, { y: 0, opacity: 1, scale: 1, duration: 0.46, ease: "power2.out" }, 0.44);
+      const fixtures = document.querySelectorAll('[data-composition-id="${cid}"] .football-fixture-card');
+      if (fixtures.length) {
+        tl.fromTo(fixtures, { y: 40, opacity: 0, scale: 0.96, filter: "blur(8px)" }, { y: 0, opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.54, stagger: 0.12, ease: "back.out(1.25)" }, 0.68);
+        tl.fromTo('[data-composition-id="${cid}"] .football-fixture-flag', { scale: 0.72, rotate: -6 }, { scale: 1, rotate: 0, duration: 0.38, stagger: 0.06, ease: "back.out(1.9)" }, 0.88);
+      }
       const oddsPanel = document.querySelector('[data-composition-id="${cid}"] #${s}-odds');
       if (oddsPanel) tl.fromTo(oddsPanel, { x: -44, opacity: 0, scale: 0.985 }, { x: 0, opacity: 1, scale: 1, duration: 0.62, ease: "power3.out" }, 0.48);
       const h2hPanel = document.querySelector('[data-composition-id="${cid}"] #${s}-h2h');
@@ -4212,10 +4269,13 @@ function normalizeFootballTeams(scene) {
 
   return raw.slice(0, 2).map((team, i) => {
     if (typeof team === "string") {
+      const badge = findLocalFootballTeamAsset({ name: team, teamType: scene?.teamType }, scene, null);
       return {
         name: team,
         code: team.replace(/[^A-Za-z0-9]/g, "").slice(0, 4).toUpperCase() || (i === 0 ? "HOME" : "AWAY"),
         form: i === 0 ? ["W", "D", "W"] : ["W", "L", "W"],
+        badgeType: badge?.badgeType || null,
+        badgeSrc: badge?.badgeSrc || null,
       };
     }
 
@@ -5084,6 +5144,19 @@ function footballTeamCard(team, accent, side) {
         <div class="football-team-code">${escapeHtml(team.code)}</div>
       </div>
       <div class="football-team-form">${dots}</div>
+    </div>`;
+}
+
+function footballScoreTeam(team) {
+  const badgeClass = team.badgeType === "national" ? "flag" : "logo";
+  const badgeHtml = team.badgeSrc
+    ? `<img class="football-score-badge ${badgeClass}" src="${escapeHtmlAttr(team.badgeSrc)}" alt="${escapeHtmlAttr(team.name)}" />`
+    : `<div class="football-score-badge placeholder"></div>`;
+
+  return `
+    <div class="football-score-team">
+      ${badgeHtml}
+      <div class="football-score-team-name">${escapeHtml(team.name)}</div>
     </div>`;
 }
 
