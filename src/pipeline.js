@@ -7,10 +7,11 @@
  *  4. Adjust scene durations to match audio
  *  5. Build HyperFrames HTML project
  *  6. Render video via HyperFrames CLI
- *  7. Merge audio tracks into final MP4
+ *  7. Upscale raw video to 2K
+ *  8. Merge audio tracks into final MP4
  */
 
-import { existsSync, readdirSync } from "fs";
+import { copyFileSync, existsSync, readdirSync } from "fs";
 import path from "path";
 import { logger } from "./utils/logger.js";
 import { readInput } from "./steps/01-read-input.js";
@@ -19,6 +20,7 @@ import { generateTTS } from "./steps/03-generate-tts.js";
 import { adjustTimings } from "./steps/04-adjust-timings.js";
 import { buildHyperFrames } from "./steps/05-build-hyperframes.js";
 import { renderVideo } from "./steps/06-render-video.js";
+import { upscaleVideo } from "./steps/07-upscale-video.js";
 import { mergeAudio } from "./steps/07-merge-audio.js";
 import { createOutputDir } from "./utils/fs-helpers.js";
 import { config } from "./config.js";
@@ -72,26 +74,39 @@ export async function pipeline(input) {
   try {
     renderedMp4 = await renderVideo(projectDir, outputDir);
     logger.info(`✅ Video rendered: ${renderedMp4}`);
+    copyFileSync(renderedMp4, path.join(outputDir, "video-raw.mp4"));
   } catch (err) {
     logger.error(`❌ Video rendering failed: ${err.message}`);
     const possibleMp4 = findExistingMp4(outputDir);
     if (possibleMp4) {
       renderedMp4 = possibleMp4;
       logger.info(`Found existing MP4: ${renderedMp4}`);
+      copyFileSync(renderedMp4, path.join(outputDir, "video-raw.mp4"));
     } else {
       throw new Error(`Cannot proceed without video file: ${err.message}`);
     }
   }
 
-  // ── Step 7: Merge audio into video ────────────────────────────────────────
-  logger.step(7, "Merging audio tracks into final video...");
+  // ── Step 7: Upscale raw video before audio merge ──────────────────────────
+  logger.step(7, "Upscaling raw video to 2K with FFmpeg Lanczos...");
+  let videoForAudioMerge;
+  try {
+    videoForAudioMerge = await upscaleVideo(renderedMp4, outputDir);
+    logger.info(`✅ Video ready for audio merge: ${videoForAudioMerge}`);
+  } catch (err) {
+    logger.error(`❌ Video upscale failed: ${err.message}`);
+    throw err;
+  }
+
+  // ── Step 8: Merge audio into video ────────────────────────────────────────
+  logger.step(8, "Merging audio tracks into final video...");
   let finalVideo;
   try {
-    finalVideo = await mergeAudio(renderedMp4, audioFiles, timedStoryboard, outputDir, slug);
+    finalVideo = await mergeAudio(videoForAudioMerge, audioFiles, timedStoryboard, outputDir, slug);
     logger.info(`✅ Audio merged: ${finalVideo}`);
   } catch (err) {
     logger.error(`❌ Audio merge failed: ${err.message}`);
-    finalVideo = renderedMp4;
+    finalVideo = videoForAudioMerge;
   }
 
   // ── Final Summary ─────────────────────────────────────────────────────────

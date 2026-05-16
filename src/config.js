@@ -75,6 +75,13 @@ export const config = {
     fontFamily: "Inter",
     theme: "ai-news",
 
+    upscale: {
+      enabled: true,
+      width: 1440,
+      height: 2560,
+      algorithm: "lanczos",
+    },
+
     backgroundMusic: {
       enabled: true,
       src: "assets/audio/stadium-background-music.mp3",

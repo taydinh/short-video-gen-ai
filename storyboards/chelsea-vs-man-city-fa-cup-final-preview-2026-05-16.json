@@ -1,0 +1,234 @@
+{
+  "title": "Chelsea vs Manchester City: Preview chung kết FA Cup 2026",
+  "slug": "chelsea-vs-man-city-fa-cup-final-preview-2026-05-16",
+  "totalDuration": 44,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ĐẠI CHIẾN WEMBLEY!",
+      "subtext": "Chelsea vs Manchester City",
+      "voiceText": "Đại chiến Wembley! Chelsea gặp Manchester City ở chung kết FA Cup, trận đấu diễn ra lúc 21 giờ tối nay, ngày 16 tháng 5 theo giờ Việt Nam.",
+      "duration": 6,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "secondaryAccentColor": "#034694",
+      "textColor": "#ffffff",
+      "competitionLabel": "FA Cup",
+      "stage": "Chung kết",
+      "venue": "Wembley Stadium",
+      "date": "16.05.2026",
+      "time": "21:00",
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club", "form": ["L", "L", "W", "L", "D"] },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club", "form": ["W", "W", "D", "W", "W"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "The FA Cup",
+      "tournamentName": "The Emirates FA Cup",
+      "competitionLabel": "Final Preview",
+      "seasonLabel": "2025-26 | 145th Final",
+      "ctaLabel": "Kickoff 21:00",
+      "voiceText": "Đây là trận chung kết FA Cup thứ một trăm bốn mươi lăm. Chelsea tìm danh hiệu thứ chín, còn Man City hướng tới lần thứ tám nâng cúp.",
+      "duration": 3,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/england_emirates-fa-cup.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#6CABDD" }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Chelsea có thể dùng sơ đồ bốn hai ba một, với Palmer, Fernandez và Cucurella hỗ trợ Joao Pedro. Man City cũng nhiều khả năng đá bốn hai ba một, Haaland trở lại lĩnh xướng hàng công, phía sau là Semenyo, Cherki và Doku.",
+      "duration": 8,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Wembley Stadium",
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club" },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Sanchez",
+            "Gusto",
+            "Fofana",
+            "Colwill",
+            "Hato",
+            "James",
+            "Caicedo",
+            "Palmer",
+            "Fernandez",
+            "Cucurella",
+            "Pedro"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Trafford",
+            "Nunes",
+            "Khusanov",
+            "Guehi",
+            "O'Reilly",
+            "Gonzalez",
+            "Bernardo",
+            "Semenyo",
+            "Cherki",
+            "Doku",
+            "Haaland"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "5 trận gần nhất",
+      "voiceText": "Đối đầu gần đây nghiêng hẳn về Man City. Trong năm lần gặp nhau mới nhất, City thắng bốn và hòa một, gồm chiến thắng ba không tại Stamford Bridge hồi tháng tư.",
+      "duration": 8,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club", "form": [] },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club", "form": [] }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "5 trận", "Thắng", "Hòa", "Thua", "Bàn"],
+        "rows": [
+          { "teamName": "Chelsea", "scoreText": "5", "x12": "0", "hdp": "1", "ou": "4", "htHdp": "4" },
+          { "teamName": "Manchester City", "scoreText": "5", "x12": "4", "hdp": "1", "ou": "0", "htHdp": "13" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "12/04/2026", "competition": "EPL", "home": "Chelsea", "away": "Manchester City", "score": "0-3" },
+        { "kickoff": "04/01/2026", "competition": "EPL", "home": "Manchester City", "away": "Chelsea", "score": "1-1" },
+        { "kickoff": "25/01/2025", "competition": "EPL", "home": "Manchester City", "away": "Chelsea", "score": "3-1" },
+        { "kickoff": "18/08/2024", "competition": "EPL", "home": "Chelsea", "away": "Manchester City", "score": "0-2" },
+        { "kickoff": "20/04/2024", "competition": "FA Cup", "home": "Manchester City", "away": "Chelsea", "score": "1-0" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Chelsea cần biến Wembley thành trận đấu của cảm xúc, còn Man City có lợi thế rõ ràng về nhịp chơi, chiều sâu và phong độ.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Từ thông tin trước trận",
+      "voiceText": "Chelsea cần biến Wembley thành trận đấu của cảm xúc, bởi phong độ Premier League của họ không tốt. Man City thì vào chung kết với nhịp ghi bàn rất đều và còn cơ hội hoàn tất cú đúp cúp quốc nội.",
+      "duration": 6,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh trước chung kết",
+      "subtext": "Premier League 2025-26",
+      "voiceText": "Bối cảnh hai đội rất khác nhau. Man City đang đứng thứ hai Premier League, kém Arsenal hai điểm và vẫn còn cửa ăn ba danh hiệu quốc nội. Chelsea đứng thứ chín, nên FA Cup là con đường rõ nhất để cứu mùa giải và lấy vé Europa League.",
+      "duration": 7,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 36, "wins": 24, "draws": 7, "losses": 5, "gf": 68, "ga": 26, "gd": 42, "pts": 79 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 36, "wins": 18, "draws": 11, "losses": 7, "gf": 63, "ga": 48, "gd": 15, "pts": 65 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton", "code": "BHA", "teamType": "club" }, "played": 36, "wins": 14, "draws": 11, "losses": 11, "gf": 52, "ga": 42, "gd": 10, "pts": 53 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 36, "wins": 14, "draws": 9, "losses": 13, "gf": 52, "ga": 49, "gd": 3, "pts": 51 },
+        { "rank": 9, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 55, "ga": 49, "gd": 6, "pts": 49 },
+        { "rank": 10, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 46, "ga": 46, "gd": 0, "pts": 49 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibebongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 210, "usernameMinWidth": 154, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Bạn chọn ai nâng cúp?",
+      "subtext": "Chelsea hay Man City?",
+      "voiceText": "Bạn dự đoán Chelsea hay Man City sẽ nâng cúp ở Wembley tối nay? Hãy để lại tỉ số bên dưới và follow để cập nhật những tin nóng mới nhất về bóng đá Anh.",
+      "duration": 6,
+      "bgColor": "#061826",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "🏆",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Chelsea FC official preview",
+      "url": "https://www.chelseafc.com/en/news/article/chelsea-vs-man-city-fa-cup-final-preview-tv-channel-kick-off-time-and-how"
+    },
+    {
+      "name": "Manchester City official preview",
+      "url": "https://www.mancity.com/news/mens/chelsea-v-city-fa-cup-final-match-preview-16-may-63914269"
+    },
+    {
+      "name": "Al Jazeera FA Cup final preview",
+      "url": "https://www.aljazeera.com/sports/2026/5/15/fa-cup-final-chelsea-vs-manchester-city-teams-start-lineups"
+    },
+    {
+      "name": "Sports Mole predicted lineups and team news",
+      "url": "https://www.sportsmole.co.uk/football/chelsea/fa-cup/preview/chelsea-vs-man-city-prediction-team-news-lineups_597487.html"
+    },
+    {
+      "name": "Telefootball H2H summary",
+      "url": "https://www.telefootball.net/US/Chelsea-Manchester-City-2026-05-16-658131.html"
+    }
+  ]
+}

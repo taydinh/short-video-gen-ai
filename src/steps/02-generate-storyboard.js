@@ -47,6 +47,7 @@ QUY TẮC QUAN TRỌNG:
 - Scene 2-7: CÓ THỂ research thêm hình ảnh liên quan (visuals.type="image" + source:"search") để trực quan hơn.
 - Scene 8: Đưa ra nhận định chủ quan NGẮN GỌN, hỏi ý kiến người xem và CTA kêu gọi thả tim ❤️ và follow kênh.
 - Quy tắc voiceText (TTS): nếu có mốc thời gian dạng "21:00" thì phải viết thành "21 giờ" (không dùng dấu ":" trong lời thoại).
+- Quy tắc voiceText cho bóng đá: khi đọc tên đội bóng phải dùng tên đầy đủ trong lời thoại, không dùng tên rút gọn/biệt danh/mã đội. Ví dụ đọc "Aston Villa", "Manchester City", "Manchester United", "Newcastle United"; không đọc "Villa", "Man City", "MU", "Newcastle". Mã đội như "AVL", "LIV" chỉ dùng cho hiển thị/scorebug nếu cần, không dùng trong TTS.
 
 Các loại composition có sẵn:
 1. "hook-question": Hook dạng câu hỏi + underline highlight ("label", optional "highlightWords")

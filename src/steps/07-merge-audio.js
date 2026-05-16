@@ -108,7 +108,9 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
   }
 
   const rawVideoPath = path.join(outputDir, "video-raw.mp4");
-  try { copyFileSync(renderedMp4, rawVideoPath); } catch { }
+  if (!existsSync(rawVideoPath)) {
+    try { copyFileSync(renderedMp4, rawVideoPath); } catch { }
+  }
 
   return finalPath;
 }

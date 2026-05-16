@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-14T15:24:44.183Z",
+  "updatedAt": "2026-05-16T11:25:39.881Z",
   "records": [
     {
       "id": "wc2026:canada",
@@ -1723,6 +1723,29 @@
         "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
       "updatedAt": "2026-05-14T15:24:44.183Z"
+    },
+    {
+      "id": "fa-cup",
+      "kind": "tournament",
+      "competition": "fa-cup",
+      "name": "Emirates FA Cup",
+      "aliases": [
+        "FA Cup",
+        "The FA Cup",
+        "English FA Cup",
+        "Emirates FA Cup"
+      ],
+      "codes": {
+        "short": "FAC"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/tournaments/england_emirates-fa-cup.football-logos.cc.svg",
+        "sourceUrl": "https://football-logos.cc/england/emirates-fa-cup/",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/england/emirates-fa-cup/"
+      },
+      "updatedAt": "2026-05-16T11:25:39.881Z"
     }
   ]
 }
