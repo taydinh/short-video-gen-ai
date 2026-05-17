@@ -1782,6 +1782,766 @@
         "licenseUrl": null
       },
       "updatedAt": "2026-05-16T17:41:56.153Z"
+    },
+    {
+      "id": "bundesliga",
+      "kind": "tournament",
+      "competition": "bundesliga",
+      "name": "Bundesliga",
+      "aliases": [
+        "German Bundesliga"
+      ],
+      "codes": {
+        "short": "BUN"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/tournaments/germany_bundesliga.football-logos.cc.svg",
+        "sourceUrl": "https://football-logos.cc/germany/bundesliga/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/bundesliga.77719ba2.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:bayern-munchen",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Bayern München",
+      "aliases": [
+        "Bayern Munich",
+        "FC Bayern Munich",
+        "FC Bayern München"
+      ],
+      "codes": {
+        "short": "FCB"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/bayern-munchen.svg",
+        "sourceUrl": "https://football-logos.cc/germany/bayern-munchen/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/bayern-munchen.1eac18e8.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:borussia-dortmund",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB"
+      ],
+      "codes": {
+        "short": "BVB"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/borussia-dortmund.svg",
+        "sourceUrl": "https://football-logos.cc/germany/borussia-dortmund/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/borussia-dortmund.145250de.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:rb-leipzig",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "RB Leipzig",
+      "aliases": [
+        "Leipzig",
+        "RasenBallsport Leipzig"
+      ],
+      "codes": {
+        "short": "RBL"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/rb-leipzig.svg",
+        "sourceUrl": "https://football-logos.cc/germany/rb-leipzig/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/rb-leipzig.ea056608.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:bayer-leverkusen",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Bayer Leverkusen",
+      "aliases": [
+        "Leverkusen",
+        "Bayer 04 Leverkusen"
+      ],
+      "codes": {
+        "short": "B04"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/bayer-leverkusen.svg",
+        "sourceUrl": "https://football-logos.cc/germany/bayer-leverkusen/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/bayer-leverkusen.ada32552.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:eintracht-frankfurt",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Eintracht Frankfurt",
+      "aliases": [
+        "Frankfurt"
+      ],
+      "codes": {
+        "short": "SGE"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/eintracht-frankfurt.svg",
+        "sourceUrl": "https://football-logos.cc/germany/eintracht-frankfurt/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/eintracht-frankfurt.7c29dd10.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:union-berlin",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Union Berlin",
+      "aliases": [
+        "1. FC Union Berlin"
+      ],
+      "codes": {
+        "short": "FCU"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/union-berlin.svg",
+        "sourceUrl": "https://football-logos.cc/germany/union-berlin/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/union-berlin.c52a8c27.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:hamburger-sv",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Hamburger SV",
+      "aliases": [
+        "Hamburg",
+        "HSV"
+      ],
+      "codes": {
+        "short": "HSV"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/hamburger-sv.svg",
+        "sourceUrl": "https://football-logos.cc/germany/hamburger-sv/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/hamburger-sv.4429099c.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:augsburg",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Augsburg",
+      "aliases": [
+        "FC Augsburg"
+      ],
+      "codes": {
+        "short": "FCA"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/augsburg.svg",
+        "sourceUrl": "https://football-logos.cc/germany/augsburg/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/augsburg.d9c1d8e1.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:werder-bremen",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Werder Bremen",
+      "aliases": [
+        "Bremen",
+        "SV Werder Bremen"
+      ],
+      "codes": {
+        "short": "SVW"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/werder-bremen.svg",
+        "sourceUrl": "https://football-logos.cc/germany/werder-bremen/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/werder-bremen.708f4e54.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:freiburg",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Freiburg",
+      "aliases": [
+        "SC Freiburg"
+      ],
+      "codes": {
+        "short": "SCF"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/freiburg.svg",
+        "sourceUrl": "https://football-logos.cc/germany/freiburg/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/freiburg.54adc1be.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:fc-heidenheim",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "FC Heidenheim",
+      "aliases": [
+        "Heidenheim",
+        "1. FC Heidenheim"
+      ],
+      "codes": {
+        "short": "HDH"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/fc-heidenheim.svg",
+        "sourceUrl": "https://football-logos.cc/germany/fc-heidenheim/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/fc-heidenheim.102ae86d.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:hoffenheim",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Hoffenheim",
+      "aliases": [
+        "TSG Hoffenheim",
+        "1899 Hoffenheim"
+      ],
+      "codes": {
+        "short": "TSG"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/hoffenheim.svg",
+        "sourceUrl": "https://football-logos.cc/germany/hoffenheim/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/hoffenheim.2f2360de.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:koln",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Cologne",
+      "aliases": [
+        "Köln",
+        "FC Koln",
+        "FC Köln",
+        "1. FC Köln",
+        "Cologne"
+      ],
+      "codes": {
+        "short": "KOE"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/koln.svg",
+        "sourceUrl": "https://football-logos.cc/germany/koln/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/koln.a7446cd4.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:mainz-05",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Mainz 05",
+      "aliases": [
+        "Mainz",
+        "1. FSV Mainz 05"
+      ],
+      "codes": {
+        "short": "M05"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/mainz-05.svg",
+        "sourceUrl": "https://football-logos.cc/germany/mainz-05/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/mainz-05.8c9e3bc2.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:borussia-monchengladbach",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Borussia Mönchengladbach",
+      "aliases": [
+        "Borussia Monchengladbach",
+        "Gladbach"
+      ],
+      "codes": {
+        "short": "BMG"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/borussia-monchengladbach.svg",
+        "sourceUrl": "https://football-logos.cc/germany/borussia-monchengladbach/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/borussia-monchengladbach.b7e9b162.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:st-pauli",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "St Pauli",
+      "aliases": [
+        "FC St Pauli",
+        "FC St. Pauli",
+        "St. Pauli"
+      ],
+      "codes": {
+        "short": "STP"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/st-pauli.svg",
+        "sourceUrl": "https://football-logos.cc/germany/st-pauli/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/st-pauli.4603e7f7.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:vfb-stuttgart",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "VfB Stuttgart",
+      "aliases": [
+        "Stuttgart"
+      ],
+      "codes": {
+        "short": "VFB"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/vfb-stuttgart.svg",
+        "sourceUrl": "https://football-logos.cc/germany/vfb-stuttgart/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/vfb-stuttgart.f5cd8411.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "bundesliga:wolfsburg",
+      "kind": "club",
+      "competition": "bundesliga",
+      "name": "Wolfsburg",
+      "aliases": [
+        "VfL Wolfsburg"
+      ],
+      "codes": {
+        "short": "WOB"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/bundesliga/wolfsburg.svg",
+        "sourceUrl": "https://football-logos.cc/germany/wolfsburg/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/germany/1500x1500/wolfsburg.addfa528.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/germany/bundesliga/"
+      },
+      "updatedAt": "2026-05-16T11:56:14.231Z"
+    },
+    {
+      "id": "v-league-1",
+      "kind": "tournament",
+      "competition": "v-league-1",
+      "name": "V League 1",
+      "aliases": [
+        "V League",
+        "V.League 1",
+        "Vietnam V League 1"
+      ],
+      "codes": {
+        "short": "VLE"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/tournaments/vietnam_v-league-1.football-logos.cc.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/v-league/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/v-league.79833c79.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:cong-an-ha-noi",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Công An Hà Nội FC",
+      "aliases": [
+        "Công An Hà Nội",
+        "Cong An Ha Noi FC",
+        "Cong An Ha Noi"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/cong-an-ha-noi.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/cong-an-ha-noi/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/cong-an-ha-noi.61d59eca.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:ninh-binh",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Ninh Bình FC",
+      "aliases": [
+        "Ninh Bình",
+        "Ninh Binh FC",
+        "Ninh Binh"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/ninh-binh.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/ninh-binh/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/ninh-binh.dc69cdb9.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:viettel",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Thể Công – Viettel FC",
+      "aliases": [
+        "Viettel",
+        "The Cong Viettel",
+        "Thể Công Viettel",
+        "Thể Công – Viettel",
+        "The Cong – Viettel FC",
+        "The Cong – Viettel"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/viettel.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/viettel/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/viettel.b38539a6.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:hai-phong",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Hải Phòng FC",
+      "aliases": [
+        "Hải Phòng",
+        "Hai Phong FC",
+        "Hai Phong"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/hai-phong.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/hai-phong/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/hai-phong.56c7b445.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:ho-chi-minh-city",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Ho Chi Minh City FC",
+      "aliases": [
+        "Ho Chi Minh City"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/ho-chi-minh-city.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/ho-chi-minh-city/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/ho-chi-minh-city.c15b0451.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:ha-noi-fc",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Hà Nội FC",
+      "aliases": [
+        "Hà Nội",
+        "Ha Noi FC",
+        "Ha Noi"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/ha-noi-fc.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/ha-noi-fc/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/ha-noi-fc.304c48ae.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:hong-linh-ha-tinh",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Hồng Lĩnh Hà Tĩnh FC",
+      "aliases": [
+        "Hồng Lĩnh Hà Tĩnh",
+        "Hong Linh Ha Tinh FC",
+        "Hong Linh Ha Tinh"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/hong-linh-ha-tinh.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/hong-linh-ha-tinh/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/hong-linh-ha-tinh.ebada6dc.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:becamex-binh-duong",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Becamex Bình Dương FC",
+      "aliases": [
+        "Becamex Bình Dương",
+        "Becamex Binh Duong FC",
+        "Becamex Binh Duong"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/becamex-binh-duong.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/becamex-binh-duong/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/becamex-binh-duong.527cf972.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:nam-dinh",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Nam Định FC",
+      "aliases": [
+        "Nam Định",
+        "Nam Dinh FC",
+        "Nam Dinh"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/nam-dinh.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/nam-dinh/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/nam-dinh.39c825a3.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:hoang-anh-gia-lai",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Hoàng Anh Gia Lai FC",
+      "aliases": [
+        "Hoàng Anh Gia Lai",
+        "Hoang Anh Gia Lai FC",
+        "Hoang Anh Gia Lai"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/hoang-anh-gia-lai.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/hoang-anh-gia-lai/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/hoang-anh-gia-lai.e7633477.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:song-lam-nghe-an",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Sông Lam Nghệ An FC",
+      "aliases": [
+        "Sông Lam Nghệ An",
+        "Song Lam Nghe An FC",
+        "Song Lam Nghe An"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/song-lam-nghe-an.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/song-lam-nghe-an/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/song-lam-nghe-an.b2d9bbf7.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:dong-a-thanh-hoa",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Đông Á Thanh Hóa FC",
+      "aliases": [
+        "Đông Á Thanh Hóa",
+        "Dong A Thanh Hoa FC",
+        "Dong A Thanh Hoa"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/dong-a-thanh-hoa.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/dong-a-thanh-hoa/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/dong-a-thanh-hoa.25fe1db6.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:pvf-cand",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "PVF–CAND FC",
+      "aliases": [
+        "PVF–CAND"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/pvf-cand.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/pvf-cand/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/pvf-cand.65e8189e.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:da-nang",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "SHB Đà Nẵng FC",
+      "aliases": [
+        "SHB Đà Nẵng",
+        "SHB Da Nang FC",
+        "SHB Da Nang"
+      ],
+      "codes": {
+        "short": ""
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/da-nang.svg",
+        "sourceUrl": "https://football-logos.cc/vietnam/da-nang/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/vietnam/1500x1500/da-nang.f9d6b1e0.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
+      },
+      "updatedAt": "2026-05-16T12:11:20.354Z"
     }
   ]
 }
