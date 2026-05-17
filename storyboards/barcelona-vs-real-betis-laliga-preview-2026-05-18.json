@@ -1,0 +1,252 @@
+{
+  "title": "Barcelona vs Real Betis (LaLiga): Preview vòng 37",
+  "slug": "barcelona-vs-real-betis-laliga-preview-2026-05-18",
+  "totalDuration": 44,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "CAMP NOU CHỜ MỘT KỶ LỤC!",
+      "subtext": "Barcelona vs Real Betis",
+      "voiceText": "Camp Nou chờ một kỷ lục lúc rạng sáng! Barcelona tiếp Real Betis ở vòng ba mươi bảy LaLiga, trận đấu diễn ra lúc 2 giờ 15 ngày 18 tháng 5 theo giờ Việt Nam.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#004D98",
+      "secondaryAccentColor": "#00954C",
+      "textColor": "#ffffff",
+      "competitionLabel": "LaLiga",
+      "stage": "Vòng 37",
+      "venue": "Camp Nou",
+      "date": "18.05.2026",
+      "time": "02:15",
+      "teams": [
+        { "name": "Barcelona", "code": "BAR", "teamType": "club", "form": ["W", "W", "W", "W", "W", "L"] },
+        { "name": "Real Betis", "code": "BET", "teamType": "club", "form": ["D", "W", "D", "W", "D", "W"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#004D98" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "LaLiga",
+      "tournamentName": "LaLiga",
+      "competitionLabel": "Matchweek 37 Preview",
+      "seasonLabel": "2025-26 | Champions Night",
+      "ctaLabel": "Kickoff 02:15",
+      "voiceText": "Đây là vòng áp chót LaLiga. Barcelona đã vô địch sau chiến thắng El Clásico, còn Real Betis cũng đã khóa vị trí dự Champions League mùa sau. Vì thế, trận đấu này là màn thử lửa danh dự giữa hai đội đã hoàn thành mục tiêu.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#004D98",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/laliga.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#004D98" }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Barcelona có thể chơi bốn hai ba một, với Joan Garcia trong khung gỗ, Araujo chỉ huy hàng thủ, Pedri và Bernal đá trục giữa, còn Lewandowski lĩnh xướng hàng công trong trận chia tay Camp Nou. Betis cũng có thể dùng bốn hai ba một, Bakambu thay Cucho Hernández bị treo giò, phía sau là Antony, Lo Celso và Abde.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#004D98",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Camp Nou",
+      "teams": [
+        { "name": "Barcelona", "code": "BAR", "teamType": "club" },
+        { "name": "Real Betis", "code": "BET", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Joan Garcia",
+            "Eric Garcia",
+            "Araujo",
+            "Gerard Martin",
+            "Cancelo",
+            "Pedri",
+            "Bernal",
+            "Fermin Lopez",
+            "Gavi",
+            "Raphinha",
+            "Lewandowski"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Alvaro Valles",
+            "Bellerin",
+            "Natan",
+            "Valentin Gomez",
+            "Ricardo Rodriguez",
+            "Pablo Fornals",
+            "Marc Roca",
+            "Antony",
+            "Lo Celso",
+            "Abde Ezzalzouli",
+            "Bakambu"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#004D98" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "5 trận chính thức gần nhất",
+      "voiceText": "Lịch sử đối đầu đang nghiêng rõ về Barcelona. Năm trận chính thức gần nhất, Barca thắng ba và hòa hai, ghi mười bảy bàn. Lượt đi mùa này tại La Cartuja là màn rượt đuổi điên rồ, Barcelona thắng năm ba trước Betis.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#004D98",
+      "textColor": "#ffffff",
+      "teams": [
+        { "name": "Barcelona", "code": "BAR", "teamType": "club", "form": [] },
+        { "name": "Real Betis", "code": "BET", "teamType": "club", "form": [] }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "5 trận", "Thắng", "Hòa", "Thua", "Bàn"],
+        "rows": [
+          { "teamName": "Barcelona", "scoreText": "5", "x12": "3", "hdp": "2", "ou": "0", "htHdp": "17" },
+          { "teamName": "Real Betis", "scoreText": "5", "x12": "0", "hdp": "2", "ou": "3", "htHdp": "9" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "06/12/2025", "competition": "LaLiga", "home": "Real Betis", "away": "Barcelona", "score": "3-5" },
+        { "kickoff": "05/04/2025", "competition": "LaLiga", "home": "Barcelona", "away": "Real Betis", "score": "1-1" },
+        { "kickoff": "15/01/2025", "competition": "Copa del Rey", "home": "Barcelona", "away": "Real Betis", "score": "5-1" },
+        { "kickoff": "07/12/2024", "competition": "LaLiga", "home": "Real Betis", "away": "Barcelona", "score": "2-2" },
+        { "kickoff": "21/01/2024", "competition": "LaLiga", "home": "Real Betis", "away": "Barcelona", "score": "2-4" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#004D98" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Barcelona đã có danh hiệu, Betis đã có vé Champions League; phần còn lại là kỷ lục, danh dự và một đêm bóng đá mở.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Từ thông tin trước trận",
+      "voiceText": "Barcelona vừa đứt chuỗi mười một trận thắng ở LaLiga sau thất bại trước Alaves, nên Flick cần một phản ứng trước khán giả nhà. Betis thì không còn áp lực điểm số, nhưng chuỗi bất bại tại giải đấu từ cuối tháng ba cho thấy họ không đến Camp Nou để dạo chơi.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#004D98",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#004D98" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh trước trận",
+      "subtext": "LaLiga 2025-26",
+      "voiceText": "Trước vòng ba mươi bảy, Barcelona dẫn đầu với chín mươi mốt điểm và đã vô địch. Real Betis đứng thứ năm với năm mươi bảy điểm, đủ để trở lại Champions League sau hai mươi mốt năm. Barca còn mục tiêu toàn thắng sân nhà, trong khi Betis muốn khép mùa bằng phong độ của một đội top năm.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#004D98",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "standings": [
+        { "rank": 1, "team": { "name": "Barcelona", "code": "BAR", "teamType": "club" }, "played": 36, "wins": 30, "draws": 1, "losses": 5, "gf": 91, "ga": 32, "gd": 59, "pts": 91 },
+        { "rank": 2, "team": { "name": "Real Madrid", "code": "RMA", "teamType": "club" }, "played": 36, "wins": 25, "draws": 5, "losses": 6, "gf": 72, "ga": 33, "gd": 39, "pts": 80 },
+        { "rank": 3, "team": { "name": "Villarreal", "code": "VIL", "teamType": "club" }, "played": 36, "wins": 21, "draws": 6, "losses": 9, "gf": 67, "ga": 43, "gd": 24, "pts": 69 },
+        { "rank": 4, "team": { "name": "Atletico Madrid", "code": "ATM", "teamType": "club" }, "played": 36, "wins": 20, "draws": 6, "losses": 10, "gf": 60, "ga": 39, "gd": 21, "pts": 66 },
+        { "rank": 5, "team": { "name": "Real Betis", "code": "BET", "teamType": "club" }, "played": 36, "wins": 14, "draws": 15, "losses": 7, "gf": 56, "ga": 44, "gd": 12, "pts": 57 },
+        { "rank": 6, "team": { "name": "Celta Vigo", "code": "CEL", "teamType": "club" }, "played": 36, "wins": 13, "draws": 11, "losses": 12, "gf": 51, "ga": 47, "gd": 4, "pts": 50 },
+        { "rank": 7, "team": { "name": "Getafe", "code": "GET", "teamType": "club" }, "played": 36, "wins": 14, "draws": 6, "losses": 16, "gf": 31, "ga": 37, "gd": -6, "pts": 48 },
+        { "rank": 8, "team": { "name": "Real Sociedad", "code": "RSO", "teamType": "club" }, "played": 36, "wins": 11, "draws": 12, "losses": 13, "gf": 55, "ga": 56, "gd": -1, "pts": 45 },
+        { "rank": 9, "team": { "name": "Athletic Bilbao", "code": "ATH", "teamType": "club" }, "played": 36, "wins": 13, "draws": 5, "losses": 18, "gf": 40, "ga": 53, "gd": -13, "pts": 44 },
+        { "rank": 10, "team": { "name": "Rayo Vallecano", "code": "RAY", "teamType": "club" }, "played": 36, "wins": 10, "draws": 14, "losses": 12, "gf": 37, "ga": 43, "gd": -6, "pts": 44 },
+        { "rank": 11, "team": { "name": "Valencia", "code": "VAL", "teamType": "club" }, "played": 36, "wins": 11, "draws": 10, "losses": 15, "gf": 39, "ga": 51, "gd": -12, "pts": 43 },
+        { "rank": 12, "team": { "name": "Sevilla", "code": "SEV", "teamType": "club" }, "played": 36, "wins": 12, "draws": 7, "losses": 17, "gf": 46, "ga": 58, "gd": -12, "pts": 43 },
+        { "rank": 13, "team": { "name": "Osasuna", "code": "OSA", "teamType": "club" }, "played": 36, "wins": 11, "draws": 9, "losses": 16, "gf": 43, "ga": 47, "gd": -4, "pts": 42 },
+        { "rank": 14, "team": { "name": "Espanyol", "code": "ESP", "teamType": "club" }, "played": 36, "wins": 11, "draws": 9, "losses": 16, "gf": 40, "ga": 53, "gd": -13, "pts": 42 },
+        { "rank": 15, "team": { "name": "Girona", "code": "GIR", "teamType": "club" }, "played": 36, "wins": 9, "draws": 13, "losses": 14, "gf": 38, "ga": 53, "gd": -15, "pts": 40 },
+        { "rank": 16, "team": { "name": "Alaves", "code": "ALA", "teamType": "club" }, "played": 36, "wins": 10, "draws": 10, "losses": 16, "gf": 42, "ga": 54, "gd": -12, "pts": 40 },
+        { "rank": 17, "team": { "name": "Elche", "code": "ELC", "teamType": "club" }, "played": 36, "wins": 9, "draws": 12, "losses": 15, "gf": 47, "ga": 56, "gd": -9, "pts": 39 },
+        { "rank": 18, "team": { "name": "Mallorca", "code": "MLL", "teamType": "club" }, "played": 36, "wins": 10, "draws": 9, "losses": 17, "gf": 44, "ga": 55, "gd": -11, "pts": 39 },
+        { "rank": 19, "team": { "name": "Levante", "code": "LEV", "teamType": "club" }, "played": 36, "wins": 10, "draws": 9, "losses": 17, "gf": 44, "ga": 59, "gd": -15, "pts": 39 },
+        { "rank": 20, "team": { "name": "Real Oviedo", "code": "OVI", "teamType": "club" }, "played": 36, "wins": 6, "draws": 11, "losses": 19, "gf": 26, "ga": 56, "gd": -30, "pts": 29 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#004D98" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Barca giữ mạch toàn thắng sân nhà hay Betis phá tiệc?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "voiceText": "Bạn dự đoán Barcelona khép mùa sân nhà bằng chiến thắng thứ mười chín liên tiếp, hay Real Betis sẽ phá bữa tiệc tại Camp Nou? Hãy để lại tỉ số bên dưới và follow để cập nhật những tin nóng mới nhất về bóng đá Tây Ban Nha.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#004D98",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "⚽",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sports Mole preview and team news",
+      "url": "https://www.sportsmole.co.uk/football/barcelona/preview/barcelona-vs-betis-prediction-team-news-lineups_597580.html"
+    },
+    {
+      "name": "Sports Mole injury list and predicted XIs",
+      "url": "https://www.sportsmole.co.uk/football/barcelona/injury-news/team-news/barcelona-vs-real-betis-injury-suspension-list-predicted-xis_597581.html"
+    },
+    {
+      "name": "AS match time and TV guide",
+      "url": "https://as.com/futbol/primera/barcelona-betis-tv-horario-y-como-ver-laliga-ea-sports-online-hoy-f202605-n/"
+    },
+    {
+      "name": "AS possible Betis lineup",
+      "url": "https://as.com/futbol/alineacion-posible-del-betis-ante-el-barcelona-en-laliga-ea-sports-f202605-n/"
+    },
+    {
+      "name": "Sahadan H2H record",
+      "url": "https://www.sahadan.com/en/match/barcelona-vs-real-betis/3rpa9gg887sphjnou8h1uv6s4/h2h"
+    },
+    {
+      "name": "LaLiga official match page",
+      "url": "https://www.laliga.com/en-US/match/temporada-2025-2026-laliga-ea-sports-fc-barcelona-real-betis-37"
+    },
+    {
+      "name": "Sports Mole La Liga table",
+      "url": "https://www.sportsmole.co.uk/football/la-liga/table.html"
+    }
+  ]
+}
