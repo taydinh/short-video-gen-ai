@@ -46,8 +46,9 @@ QUY TẮC QUAN TRỌNG:
 - Scene 2-7: Nội dung chính, mỗi scene một ý tưởng/điểm thú vị. Chú trọng LIÊN KẾT mạch nội dung giữa các scene; ưu tiên mở đầu voiceText bằng các từ ngữ chuyển cảnh như: "theo đó", "tuy nhiên", "tiếp theo", "cùng với", "và", "hơn thế nữa", "bên cạnh đó", "mặc dù vậy",...
 - Scene 2-7: CÓ THỂ research thêm hình ảnh liên quan (visuals.type="image" + source:"search") để trực quan hơn.
 - Scene 8: Đưa ra nhận định chủ quan NGẮN GỌN, hỏi ý kiến người xem và CTA kêu gọi thả tim ❤️ và follow kênh.
+- Với video content tiếng Việt, mọi title, subtext và text hiển thị phải dùng tiếng Việt có dấu; chỉ giữ nguyên tên riêng, tên giải đấu/nhãn giải đấu tiếng Anh theo cách viết chính thức.
 - Quy tắc voiceText (TTS): nếu có mốc thời gian dạng "21:00" thì phải viết thành "21 giờ" (không dùng dấu ":" trong lời thoại).
-- Quy tắc voiceText cho bóng đá: khi đọc tên đội bóng phải dùng tên đầy đủ trong lời thoại, không dùng tên rút gọn/biệt danh/mã đội. Ví dụ đọc "Aston Villa", "Manchester City", "Manchester United", "Newcastle United"; không đọc "Villa", "Man City", "MU", "Newcastle". Mã đội như "AVL", "LIV" chỉ dùng cho hiển thị/scorebug nếu cần, không dùng trong TTS.
+- Quy tắc voiceText cho bóng đá: khi đọc tên đội bóng phải dùng tên đầy đủ trong lời thoại, không dùng tên rút gọn/biệt danh/mã đội. Ví dụ đọc "Aston Villa", "Manchester City", "Manchester United", "Newcastle United"; không đọc "Villa", "Man City", "MU", "Newcastle". Mã đội như "AVL", "LIV", "HAGL" chỉ dùng cho title/subtext/scorebug nếu cần, không dùng trong TTS; riêng HAGL trong voiceText phải đọc đầy đủ là "Hoàng Anh Gia Lai".
 
 Các loại composition có sẵn:
 1. "hook-question": Hook dạng câu hỏi + underline highlight ("label", optional "highlightWords")
