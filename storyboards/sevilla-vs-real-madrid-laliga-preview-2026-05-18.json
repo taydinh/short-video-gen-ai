@@ -1,0 +1,248 @@
+{
+  "title": "Sevilla vs Real Madrid (LaLiga): Preview vòng 37",
+  "slug": "sevilla-vs-real-madrid-laliga-preview-2026-05-18",
+  "totalDuration": 44,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "PIZJUÁN RỰC LỬA LÚC NỬA ĐÊM!",
+      "subtext": "Sevilla vs Real Madrid",
+      "voiceText": "Ramón Sánchez-Pizjuán rực lửa lúc nửa đêm! Sevilla tiếp Real Madrid ở vòng ba mươi bảy LaLiga, trận đấu diễn ra lúc 0 giờ ngày 18 tháng 5 theo giờ Việt Nam.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "secondaryAccentColor": "#FEBE10",
+      "textColor": "#ffffff",
+      "competitionLabel": "LaLiga",
+      "stage": "Vòng 37",
+      "venue": "Ramón Sánchez-Pizjuán",
+      "date": "18.05.2026",
+      "time": "00:00",
+      "teams": [
+        { "name": "Sevilla", "code": "SEV", "teamType": "club", "form": ["W", "L", "L", "W", "W", "W"] },
+        { "name": "Real Madrid", "code": "RMA", "teamType": "club", "form": ["D", "W", "D", "W", "L", "W"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#D71920" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "LaLiga",
+      "tournamentName": "LaLiga",
+      "competitionLabel": "Matchweek 37 Preview",
+      "seasonLabel": "2025-26 | Survival Night",
+      "ctaLabel": "Kickoff 00:00",
+      "voiceText": "Đây là vòng áp chót LaLiga. Sevilla vừa thắng ba trận liên tiếp và chỉ cần thêm điểm để chắc suất ở lại hạng đấu cao nhất, trong khi Real Madrid đã chắc vị trí á quân nhưng vẫn muốn khép mùa với khí thế tốt hơn.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/laliga.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#D71920" }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình cập nhật",
+      "voiceText": "Sevilla có thể dùng sơ đồ năm ba hai, với Vlachodimos trong khung gỗ, Azpilicueta, Kike Salas và Suazo ở hàng thủ, còn Akor Adams đá cặp Neal Maupay. Real Madrid được xếp bốn ba ba, Courtois bắt chính, Tchouaméni, Camavinga và Bellingham giữ trung tuyến, phía trên là Brahim, Mbappé và Vinícius Júnior.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Ramón Sánchez-Pizjuán",
+      "teams": [
+        { "name": "Sevilla", "code": "SEV", "teamType": "club" },
+        { "name": "Real Madrid", "code": "RMA", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "5-3-2",
+          "players": [
+            "Vlachodimos",
+            "Carmona",
+            "Oso",
+            "Suazo",
+            "Kike Salas",
+            "Azpilicueta",
+            "Ruben Vargas",
+            "Agoume",
+            "Gudelj",
+            "Maupay",
+            "Akor Adams"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Courtois",
+            "Alexander-Arnold",
+            "Fran Garcia",
+            "Tchouameni",
+            "Asencio",
+            "Rudiger",
+            "Bellingham",
+            "Camavinga",
+            "Mbappe",
+            "Brahim",
+            "Vinicius Junior"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#D71920" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "5 trận gần nhất",
+      "voiceText": "Lịch sử đối đầu đang nghiêng hẳn về Real Madrid. Năm lần gặp nhau gần nhất, đội bóng áo trắng thắng bốn và hòa một. Lượt đi mùa này, Real thắng hai không tại Bernabéu nhờ các bàn của Bellingham và Mbappé.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "teams": [
+        { "name": "Sevilla", "code": "SEV", "teamType": "club", "form": [] },
+        { "name": "Real Madrid", "code": "RMA", "teamType": "club", "form": [] }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "5 trận", "Thắng", "Hòa", "Thua", "Bàn"],
+        "rows": [
+          { "teamName": "Sevilla", "scoreText": "5", "x12": "0", "hdp": "1", "ou": "4", "htHdp": "3" },
+          { "teamName": "Real Madrid", "scoreText": "5", "x12": "4", "hdp": "1", "ou": "0", "htHdp": "10" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "20/12/2025", "competition": "LaLiga", "home": "Real Madrid", "away": "Sevilla", "score": "2-0" },
+        { "kickoff": "18/05/2025", "competition": "LaLiga", "home": "Sevilla", "away": "Real Madrid", "score": "0-2" },
+        { "kickoff": "22/12/2024", "competition": "LaLiga", "home": "Real Madrid", "away": "Sevilla", "score": "4-2" },
+        { "kickoff": "25/02/2024", "competition": "LaLiga", "home": "Real Madrid", "away": "Sevilla", "score": "1-0" },
+        { "kickoff": "21/10/2023", "competition": "LaLiga", "home": "Sevilla", "away": "Real Madrid", "score": "1-1" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#D71920" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Sevilla có lợi thế khán đài và phong độ đang lên, nhưng Real Madrid vẫn là bài kiểm tra lớn nhất cho một đội chưa hoàn toàn an toàn.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Từ thông tin trước trận",
+      "voiceText": "Sevilla bước vào trận với sự tự tin sau ba chiến thắng liền mạch, nhưng áp lực trụ hạng vẫn còn đó. Real Madrid không còn đua vô địch, song chất lượng của Mbappé, Vinícius và Bellingham đủ để trừng phạt mọi khoảng trống.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#D71920" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh trước trận",
+      "subtext": "LaLiga 2025-26",
+      "voiceText": "Trước vòng ba mươi bảy, Real Madrid đứng thứ hai với tám mươi điểm và đã chắc suất á quân. Sevilla có bốn mươi ba điểm, đứng sát nhóm giữa bảng nhưng chỉ hơn khu vực xuống hạng bốn điểm, vì vậy một kết quả tích cực tại Pizjuán có thể khóa lại mục tiêu trụ hạng.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "standings": [
+        { "rank": 1, "team": { "name": "Barcelona", "code": "BAR", "teamType": "club" }, "played": 36, "wins": 30, "draws": 1, "losses": 5, "gf": 91, "ga": 32, "gd": 59, "pts": 91 },
+        { "rank": 2, "team": { "name": "Real Madrid", "code": "RMA", "teamType": "club" }, "played": 36, "wins": 25, "draws": 5, "losses": 6, "gf": 72, "ga": 33, "gd": 39, "pts": 80 },
+        { "rank": 3, "team": { "name": "Villarreal", "code": "VIL", "teamType": "club" }, "played": 36, "wins": 21, "draws": 6, "losses": 9, "gf": 67, "ga": 43, "gd": 24, "pts": 69 },
+        { "rank": 4, "team": { "name": "Atletico Madrid", "code": "ATM", "teamType": "club" }, "played": 36, "wins": 20, "draws": 6, "losses": 10, "gf": 60, "ga": 39, "gd": 21, "pts": 66 },
+        { "rank": 5, "team": { "name": "Real Betis", "code": "BET", "teamType": "club" }, "played": 36, "wins": 14, "draws": 15, "losses": 7, "gf": 56, "ga": 44, "gd": 12, "pts": 57 },
+        { "rank": 6, "team": { "name": "Celta Vigo", "code": "CEL", "teamType": "club" }, "played": 36, "wins": 13, "draws": 11, "losses": 12, "gf": 51, "ga": 47, "gd": 4, "pts": 50 },
+        { "rank": 7, "team": { "name": "Getafe", "code": "GET", "teamType": "club" }, "played": 36, "wins": 14, "draws": 6, "losses": 16, "gf": 31, "ga": 37, "gd": -6, "pts": 48 },
+        { "rank": 8, "team": { "name": "Real Sociedad", "code": "RSO", "teamType": "club" }, "played": 36, "wins": 11, "draws": 12, "losses": 13, "gf": 55, "ga": 56, "gd": -1, "pts": 45 },
+        { "rank": 9, "team": { "name": "Athletic Bilbao", "code": "ATH", "teamType": "club" }, "played": 36, "wins": 13, "draws": 5, "losses": 18, "gf": 40, "ga": 53, "gd": -13, "pts": 44 },
+        { "rank": 10, "team": { "name": "Rayo Vallecano", "code": "RAY", "teamType": "club" }, "played": 36, "wins": 10, "draws": 14, "losses": 12, "gf": 37, "ga": 43, "gd": -6, "pts": 44 },
+        { "rank": 11, "team": { "name": "Valencia", "code": "VAL", "teamType": "club" }, "played": 36, "wins": 11, "draws": 10, "losses": 15, "gf": 39, "ga": 51, "gd": -12, "pts": 43 },
+        { "rank": 12, "team": { "name": "Sevilla", "code": "SEV", "teamType": "club" }, "played": 36, "wins": 12, "draws": 7, "losses": 17, "gf": 46, "ga": 58, "gd": -12, "pts": 43 },
+        { "rank": 13, "team": { "name": "Osasuna", "code": "OSA", "teamType": "club" }, "played": 36, "wins": 11, "draws": 9, "losses": 16, "gf": 43, "ga": 47, "gd": -4, "pts": 42 },
+        { "rank": 14, "team": { "name": "Espanyol", "code": "ESP", "teamType": "club" }, "played": 36, "wins": 11, "draws": 9, "losses": 16, "gf": 40, "ga": 53, "gd": -13, "pts": 42 },
+        { "rank": 15, "team": { "name": "Girona", "code": "GIR", "teamType": "club" }, "played": 36, "wins": 9, "draws": 13, "losses": 14, "gf": 38, "ga": 53, "gd": -15, "pts": 40 },
+        { "rank": 16, "team": { "name": "Alaves", "code": "ALA", "teamType": "club" }, "played": 36, "wins": 10, "draws": 10, "losses": 16, "gf": 42, "ga": 54, "gd": -12, "pts": 40 },
+        { "rank": 17, "team": { "name": "Elche", "code": "ELC", "teamType": "club" }, "played": 36, "wins": 9, "draws": 12, "losses": 15, "gf": 47, "ga": 56, "gd": -9, "pts": 39 },
+        { "rank": 18, "team": { "name": "Mallorca", "code": "MLL", "teamType": "club" }, "played": 36, "wins": 10, "draws": 9, "losses": 17, "gf": 44, "ga": 55, "gd": -11, "pts": 39 },
+        { "rank": 19, "team": { "name": "Levante", "code": "LEV", "teamType": "club" }, "played": 36, "wins": 10, "draws": 9, "losses": 17, "gf": 44, "ga": 59, "gd": -15, "pts": 39 },
+        { "rank": 20, "team": { "name": "Real Oviedo", "code": "OVI", "teamType": "club" }, "played": 36, "wins": 6, "draws": 11, "losses": 19, "gf": 26, "ga": 56, "gd": -30, "pts": 29 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#D71920" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Sevilla khóa trụ hạng hay Real lại gieo sầu?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "voiceText": "Bạn dự đoán Sevilla tận dụng sức nóng Pizjuán để giành điểm, hay Real Madrid tiếp tục kéo dài chuỗi bất bại trước đối thủ này? Hãy để lại tỉ số bên dưới và follow để cập nhật những tin nóng mới nhất về bóng đá Tây Ban Nha.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "⚽",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Real Madrid official preview",
+      "url": "https://www.realmadrid.com/en-US/news/football/first-team/fixtures/sevilla-real-madrid-ultima-salida-de-la-temporada-17-05-2026"
+    },
+    {
+      "name": "AS line-ups page",
+      "url": "https://en.as.com/resultados/futbol/primera/2025_2026/directo/regular_a_37_68644b776ecea60/alineaciones/amp/"
+    },
+    {
+      "name": "Sports Mole preview and team news",
+      "url": "https://www.sportsmole.co.uk/football/real-madrid/preview/sevilla-vs-real-madrid-prediction-team-news-lineups_597591.html"
+    },
+    {
+      "name": "SportsGambler prediction, lineups and H2H",
+      "url": "https://www.sportsgambler.com/betting-tips/football/sevilla-vs-real-madrid-prediction-lineups-odds-2026-05-17/"
+    },
+    {
+      "name": "Sofascore match preview and stats",
+      "url": "https://www.sofascore.com/news/sevilla-vs-real-madrid-laliga-preview-lineups-and-odds"
+    },
+    {
+      "name": "Sports Mole La Liga table",
+      "url": "https://www.sportsmole.co.uk/football/la-liga/table.html"
+    }
+  ]
+}
