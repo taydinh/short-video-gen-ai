@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-17T03:17:33.892Z",
+  "updatedAt": "2026-05-17T05:41:15.000Z",
   "records": [
     {
       "id": "wc2026:canada",
@@ -2302,7 +2302,8 @@
       "aliases": [
         "Hải Phòng",
         "Hai Phong FC",
-        "Hai Phong"
+        "Hai Phong",
+        "XM Hải Phòng FC"
       ],
       "codes": {
         "short": ""
@@ -2337,6 +2338,33 @@
         "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
       },
       "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "v-league-1:becamex-ho-chi-minh",
+      "kind": "club",
+      "competition": "v-league-1",
+      "name": "Becamex Hồ Chí Minh FC",
+      "aliases": [
+        "Becamex Hồ Chí Minh",
+        "Becamex Ho Chi Minh FC",
+        "Becamex Ho Chi Minh",
+        "Becamex TP.HCM",
+        "Becamex TP HCM",
+        "Becamex Ho Chi Minh City FC",
+        "Becamex Ho Chi Minh City"
+      ],
+      "codes": {
+        "short": "BHC"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/v-league-1/becamex-ho-chi-minh.png",
+        "sourceUrl": "",
+        "sourcePngUrl": "",
+        "licenseName": "Editorial use; logo is property of its respective owner",
+        "licenseUrl": ""
+      },
+      "updatedAt": "2026-05-17T05:41:15.000Z"
     },
     {
       "id": "v-league-1:ha-noi-fc",

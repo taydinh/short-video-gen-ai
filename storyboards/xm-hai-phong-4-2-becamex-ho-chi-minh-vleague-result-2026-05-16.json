@@ -1,0 +1,758 @@
+{
+  "title": "XM Hải Phòng 4-2 Becamex TP.HCM: Lạch Tray bùng nổ sáu bàn",
+  "slug": "xm-hai-phong-4-2-becamex-ho-chi-minh-vleague-result-2026-05-16",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "LẠCH TRAY BÙNG NỔ!",
+      "subtext": "XM Hải Phòng 4-2 Becamex TP.HCM",
+      "voiceText": "Lạch Tray bùng nổ! XM Hải Phòng hạ Becamex Thành phố Hồ Chí Minh bốn hai trong trận cầu sáu bàn, khép lại chuỗi trận không thắng bằng một màn tấn công cực đã.",
+      "duration": 6,
+      "bgColor": "#101820",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#D71920",
+      "textColor": "#ffffff",
+      "competitionLabel": "LPBank V.League 1",
+      "stage": "Vòng 23",
+      "venue": "SVĐ Lạch Tray",
+      "date": "16.05.2026",
+      "time": "18:00",
+      "teams": [
+        {
+          "name": "XM Hải Phòng FC",
+          "code": "HPFC",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/hai-phong.svg",
+          "form": [
+            "L",
+            "L",
+            "D",
+            "L",
+            "W"
+          ]
+        },
+        {
+          "name": "Becamex TP.HCM",
+          "code": "BHCMC",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/becamex-ho-chi-minh.png",
+          "form": [
+            "L",
+            "D",
+            "D",
+            "L",
+            "L"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.26
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "LPBank V.League 1",
+      "tournamentName": "LPBank V.League 1",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "2025-26 | Vòng 23",
+      "ctaLabel": "Full-time story",
+      "voiceText": "Sau đây là diễn biến chính trận Hải Phòng gặp Becamex Thành phố Hồ Chí Minh ở vòng hai mươi ba V.League một.",
+      "duration": 3,
+      "bgColor": "#101820",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/vietnam_v-league-1.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "XM Hải Phòng 4-2 Becamex TP.HCM",
+      "subtext": "Đội bóng đất Cảng thắng 4-2 sau hiệp một hòa 2-2.",
+      "voiceText": "Full time tại Lạch Tray: XM Hải Phòng bốn, Becamex Thành phố Hồ Chí Minh hai. Hiệp một đã có bốn bàn, rồi Hải Phòng tăng tốc trong hiệp hai để lấy trọn ba điểm.",
+      "duration": 5,
+      "bgColor": "#101820",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "LPBank V.League 1",
+      "minute": "FT",
+      "score": [
+        4,
+        2
+      ],
+      "teams": [
+        "XM Hải Phòng FC",
+        "Becamex TP.HCM"
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.3
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "HPFC",
+            "BHCMC"
+          ],
+          "score": [
+            4,
+            2
+          ],
+          "minute": "FT",
+          "label": "Lạch Tray"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Đội hình xuất phát của Hải Phòng có Nguyễn Đình Triệu trong khung gỗ, Luiz Antonio, Triệu Việt Hưng, Hữu Sơn và Lucao trên tuyến trên. Becamex Thành phố Hồ Chí Minh ra sân với Trần Minh Toàn, Milos Zlatkovic, Nguyễn Văn Anh, Mạc Hồng Quân và Oduenyi.",
+      "duration": 8,
+      "bgColor": "#101820",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "SVĐ Lạch Tray",
+      "teams": [
+        {
+          "name": "XM Hải Phòng FC",
+          "code": "HPFC",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/hai-phong.svg"
+        },
+        {
+          "name": "Becamex TP.HCM",
+          "code": "BHCMC",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/becamex-ho-chi-minh.png"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Nguyễn Đình Triệu",
+            "Phạm Trung Hiếu",
+            "Nguyễn Nhật Minh",
+            "Nguyễn Hữu Thái Bảo",
+            "Joaquim Manuel Welo Lupeta",
+            "Lê Mạnh Dũng",
+            "Lương Hoàng Nam",
+            "Nguyễn Hữu Sơn",
+            "Luiz Antonio De Souza Soares",
+            "Tagueu Tadjo Diederrick Joel",
+            "Triệu Việt Hưng"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Trần Minh Toàn",
+            "Trần Hoàng Hưng",
+            "Zlatkovic Milos",
+            "Nguyễn Thành Kiên",
+            "Phan Thanh Hậu",
+            "Nguyễn Thành Nhân",
+            "Nguyễn Văn Anh",
+            "Trần Trung Hiếu",
+            "Mạc Hồng Quân",
+            "Bùi Vĩ Hào",
+            "Ugochukwu Ogbonnaya Oduenyi"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Hữu Sơn chốt hạ",
+      "subtext": "Điểm nhấn: bàn ấn định 4-2 phút 75",
+      "voiceText": "Sau khi hiệp một khép lại với tỷ số hai đều, Hải Phòng cần một cú bứt lên rõ ràng. Phạm Trung Hiếu ghi bàn ở phút sáu mươi mốt, rồi Nguyễn Hữu Sơn ấn định bốn hai ở phút bảy mươi lăm, biến lợi thế sân nhà thành chiến thắng.",
+      "duration": 7,
+      "bgColor": "#101820",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Nguyễn Hữu Sơn",
+      "team": "XM Hải Phòng FC",
+      "number": "77",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "75",
+          "unit": "'"
+        },
+        {
+          "label": "Tỉ số sau hiệp 1",
+          "value": "2-2"
+        },
+        {
+          "label": "Khán giả",
+          "value": "5.000"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline bàn thắng",
+      "subtext": "Sáu bàn, một thẻ vàng và nhịp trận rất cao",
+      "voiceText": "Trận đấu mở ra cực nhanh. Luiz Antonio đưa Hải Phòng vượt lên ở phút mười ba, Nguyễn Văn Anh gỡ hòa năm phút sau. Triệu Việt Hưng nâng tỷ số lên hai một ở phút hai mươi tám, nhưng Milos Zlatkovic lại kéo Becamex về vạch xuất phát ở phút ba mươi hai. Sang hiệp hai, Phạm Trung Hiếu và Nguyễn Hữu Sơn ghi thêm hai bàn để giữ ba điểm ở Lạch Tray.",
+      "duration": 10,
+      "bgColor": "#101820",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "13'",
+          "title": "1-0: Luiz Antonio",
+          "desc": "Luiz Antonio De Souza Soares mở tỉ số cho Hải Phòng."
+        },
+        {
+          "minute": "18'",
+          "title": "1-1: Nguyễn Văn Anh",
+          "desc": "Becamex TP.HCM đáp trả nhanh bằng bàn gỡ hòa."
+        },
+        {
+          "minute": "28'",
+          "title": "2-1: Triệu Việt Hưng",
+          "desc": "Đội trưởng Hải Phòng đưa chủ nhà vượt lên lần thứ hai."
+        },
+        {
+          "minute": "32'",
+          "title": "2-2: Zlatkovic Milos",
+          "desc": "Trung vệ Becamex ghi bàn, khép lại hiệp một với tỷ số hòa."
+        },
+        {
+          "minute": "45'",
+          "title": "Hải Phòng thay người",
+          "desc": "Nguyễn Hữu Nam vào sân thay Lương Hoàng Nam."
+        },
+        {
+          "minute": "56'",
+          "title": "Fletcher vào sân",
+          "desc": "Jourdain Ronaldo Fletcher thay Joaquim Manuel Welo Lupeta."
+        },
+        {
+          "minute": "61'",
+          "title": "3-2: Phạm Trung Hiếu",
+          "desc": "Hải Phòng tái lập lợi thế sau giờ nghỉ."
+        },
+        {
+          "minute": "67'",
+          "title": "Hai đội đổi người",
+          "desc": "Hải Phòng đưa Bùi Tiến Dụng vào; Becamex tung Võ Hoàng Minh Khoa, Phan Nhật Thanh Long và Mạc Hồng Quân rời sân."
+        },
+        {
+          "minute": "75'",
+          "title": "4-2: Nguyễn Hữu Sơn",
+          "desc": "Hữu Sơn ghi bàn ấn định chiến thắng cho đội bóng đất Cảng."
+        },
+        {
+          "minute": "76'",
+          "title": "Becamex thay đôi",
+          "desc": "Nguyễn Khắc Vũ và Huỳnh Thế Hiếu vào sân."
+        },
+        {
+          "minute": "87'",
+          "title": "Hải Phòng thay đôi",
+          "desc": "Hồ Minh Dĩ và Nguyễn Thái Học vào sân ở cuối trận."
+        },
+        {
+          "minute": "90+2'",
+          "title": "Thẻ vàng: Fletcher",
+          "desc": "Tiền đạo vào sân từ ghế dự bị của Hải Phòng nhận thẻ vàng."
+        }
+      ],
+      "visuals": {
+        "type": "football-ball-motion",
+        "duration": 4.2,
+        "top": "78%",
+        "size": 88
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Hải Phòng giải tỏa áp lực",
+      "subtext": "Từ chuỗi không thắng tới chiến thắng 4-2",
+      "voiceText": "Trước vòng này, Hải Phòng đứng thứ bảy với hai mươi tám điểm và vừa trải qua bốn trận không thắng. Chiến thắng bốn hai giúp họ lên ba mươi mốt điểm. Becamex Thành phố Hồ Chí Minh vẫn mắc kẹt ở nhóm cuối với hai mươi mốt điểm sau hai mươi ba trận.",
+      "duration": 7,
+      "bgColor": "#101820",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Context",
+      "minute": "FT",
+      "score": [
+        4,
+        2
+      ],
+      "teams": [
+        "XM Hải Phòng FC",
+        "Becamex TP.HCM"
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Bàn hiệp 1",
+              "home": 2,
+              "away": 2
+            },
+            {
+              "label": "Bàn hiệp 2",
+              "home": 2,
+              "away": 0
+            },
+            {
+              "label": "Điểm sau trận",
+              "home": 31,
+              "away": 21
+            },
+            {
+              "label": "Vị trí trước trận",
+              "home": 7,
+              "away": 12
+            },
+            {
+              "label": "Khán giả",
+              "home": 5000,
+              "away": 5000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng xếp hạng sau trận",
+      "subtext": "Hải Phòng nới khoảng cách, Becamex vẫn căng",
+      "voiceText": "Ba điểm này đưa Hải Phòng lên ba mươi mốt điểm sau hai mươi ba trận, tạm yên tâm hơn ở nửa giữa bảng. Becamex Thành phố Hồ Chí Minh vẫn đứng thứ mười hai với hai mươi mốt điểm, và cuộc đua trụ hạng còn rất áp lực.",
+      "duration": 6,
+      "bgColor": "#101820",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "SƠ ĐỒ THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG XẾP HẠNG"
+      ],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Công An Hà Nội",
+            "code": "CAHN",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/cong-an-ha-noi.svg"
+          },
+          "played": 22,
+          "wins": 18,
+          "draws": 3,
+          "losses": 1,
+          "gf": 53,
+          "ga": 19,
+          "gd": 34,
+          "pts": 57
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Thể Công - Viettel",
+            "code": "TCVT",
+            "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/viettel.svg"
+          },
+          "played": 22,
+          "wins": 13,
+          "draws": 7,
+          "losses": 2,
+          "gf": 34,
+          "ga": 19,
+          "gd": 15,
+          "pts": 46
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Ninh Bình",
+            "code": "NBFC",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/ninh-binh.svg"
+          },
+          "played": 23,
+          "wins": 13,
+          "draws": 5,
+          "losses": 5,
+          "gf": 47,
+          "ga": 30,
+          "gd": 17,
+          "pts": 44
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Hà Nội",
+            "code": "HNFC",
+            "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/ha-noi-fc.svg"
+          },
+          "played": 22,
+          "wins": 12,
+          "draws": 3,
+          "losses": 7,
+          "gf": 40,
+          "ga": 25,
+          "gd": 15,
+          "pts": 39
+        },
+        {
+          "rank": 5,
+          "team": {
+            "name": "Công An TP Hồ Chí Minh",
+            "code": "CAHCM",
+            "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/ho-chi-minh-city.svg"
+          },
+          "played": 23,
+          "wins": 10,
+          "draws": 3,
+          "losses": 10,
+          "gf": 25,
+          "ga": 33,
+          "gd": -8,
+          "pts": 33
+        },
+        {
+          "rank": 6,
+          "team": {
+            "name": "XM Hải Phòng FC",
+            "code": "HPFC",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/hai-phong.svg"
+          },
+          "played": 23,
+          "wins": 9,
+          "draws": 4,
+          "losses": 10,
+          "gf": 35,
+          "ga": 30,
+          "gd": 5,
+          "pts": 31
+        },
+        {
+          "rank": 7,
+          "team": {
+            "name": "Thép Xanh Nam Định",
+            "code": "TXND",
+            "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/nam-dinh.svg"
+          },
+          "played": 22,
+          "wins": 8,
+          "draws": 7,
+          "losses": 7,
+          "gf": 28,
+          "ga": 27,
+          "gd": 1,
+          "pts": 31
+        },
+        {
+          "rank": 8,
+          "team": {
+            "name": "Đông Á Thanh Hóa",
+            "code": "THFC",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/dong-a-thanh-hoa.svg"
+          },
+          "played": 22,
+          "wins": 5,
+          "draws": 9,
+          "losses": 8,
+          "gf": 25,
+          "ga": 29,
+          "gd": -4,
+          "pts": 24
+        },
+        {
+          "rank": 9,
+          "team": {
+            "name": "Sông Lam Nghệ An",
+            "code": "SLNA",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/song-lam-nghe-an.svg"
+          },
+          "played": 23,
+          "wins": 6,
+          "draws": 6,
+          "losses": 11,
+          "gf": 25,
+          "ga": 34,
+          "gd": -9,
+          "pts": 24
+        },
+        {
+          "rank": 10,
+          "team": {
+            "name": "Hồng Lĩnh Hà Tĩnh",
+            "code": "HLHT",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/hong-linh-ha-tinh.svg"
+          },
+          "played": 22,
+          "wins": 6,
+          "draws": 6,
+          "losses": 10,
+          "gf": 12,
+          "ga": 25,
+          "gd": -13,
+          "pts": 24
+        },
+        {
+          "rank": 11,
+          "team": {
+            "name": "Hoàng Anh Gia Lai",
+            "code": "HAGL",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/hoang-anh-gia-lai.svg"
+          },
+          "played": 22,
+          "wins": 5,
+          "draws": 7,
+          "losses": 10,
+          "gf": 19,
+          "ga": 30,
+          "gd": -11,
+          "pts": 22
+        },
+        {
+          "rank": 12,
+          "team": {
+            "name": "Becamex TP Hồ Chí Minh",
+            "code": "BHCMC",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/becamex-ho-chi-minh.png"
+          },
+          "played": 23,
+          "wins": 5,
+          "draws": 6,
+          "losses": 12,
+          "gf": 27,
+          "ga": 39,
+          "gd": -12,
+          "pts": 21
+        },
+        {
+          "rank": 13,
+          "team": {
+            "name": "SHB Đà Nẵng",
+            "code": "SHBĐN",
+            "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/da-nang.svg"
+          },
+          "played": 23,
+          "wins": 3,
+          "draws": 8,
+          "losses": 12,
+          "gf": 27,
+          "ga": 39,
+          "gd": -12,
+          "pts": 17
+        },
+        {
+          "rank": 14,
+          "team": {
+            "name": "PVF-CAND",
+            "code": "PVFCA",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/pvf-cand.svg"
+          },
+          "played": 22,
+          "wins": 3,
+          "draws": 8,
+          "losses": 11,
+          "gf": 19,
+          "ga": 37,
+          "gd": -18,
+          "pts": 17
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Bạn nghĩ sao về Hải Phòng?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Bạn nghĩ chiến thắng này có đủ để Hải Phòng trở lại đường đua ổn định không, và Becamex Thành phố Hồ Chí Minh sẽ thoát áp lực trụ hạng thế nào? Hãy để lại ý kiến dưới phần bình luận và follow để cập nhật V.League mỗi ngày.",
+      "duration": 6,
+      "bgColor": "#101820",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": {
+        "type": "football-confetti",
+        "particleCount": 80,
+        "duration": 5.2
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "VPF match report",
+      "url": "https://vpf.vn/tai-lieu-vleague/vleague-thong-bao/bao-cao-tran-dau-clb-hai-phong-vs-clb-becamex-tp-hcm-vong-23-vdqg-lpbank-2025-26/"
+    },
+    {
+      "name": "VPF registered squad list",
+      "url": "https://vpf.vn/tai-lieu-vleague/vleague-thong-bao/danh-sach-dang-ky-thi-dau-clb-hai-phong-vs-clb-becamex-tp-hcm-vong-23-vdqg-lpbank-2025-26/"
+    },
+    {
+      "name": "VPF round 23 fixture and result",
+      "url": "https://vpf.vn/thu-vien-anh/vong-23-lpbank-v-league-1-2025-26-chum-anh-hai-phong-becamex-tp-ho-chi-minh/"
+    },
+    {
+      "name": "Mực Tím live report",
+      "url": "https://muctim.tuoitre.vn/truc-tiep-vong-23-v-league-1-hai-phong-tiep-becamex-tphcm-101260516003558702.htm"
+    },
+    {
+      "name": "Transfermarkt match sheet",
+      "url": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4818901"
+    },
+    {
+      "name": "FootballAnt match timeline and form",
+      "url": "https://www.footballant.com/matches/2948773"
+    }
+  ]
+}
