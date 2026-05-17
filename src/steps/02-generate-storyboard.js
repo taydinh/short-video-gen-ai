@@ -30,7 +30,7 @@
  * }
  */
 
-import { writeFileSync } from "fs";
+import { writeFileSync, existsSync } from "fs";
 import path from "path";
 import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
@@ -321,6 +321,45 @@ export async function enrichFootballTeams(storyboard) {
     index = loadFootballAssetIndex({ indexPath: index.indexPath });
   };
 
+  const toSlug = (str) => String(str || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D")
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/(^-|-$)/g, "");
+
+  const inferClubCompetition = (scene) => {
+    const hay = [
+      scene?.competitionLabel,
+      scene?.tournamentName,
+      scene?.title,
+      storyboard?.title,
+    ].filter(Boolean).join(" ").toLowerCase();
+
+    if (/(v\.?league|vleague)/i.test(hay)) return "v-league-1";
+    if (/premier league|epl/i.test(hay)) return "epl";
+    return "epl";
+  };
+
+  const findLocalClubBadge = (teamName, competition) => {
+    if (!teamName || !competition) return null;
+    const slug = toSlug(teamName);
+    const baseDir = path.join(process.cwd(), "assets", "football", "clubs", competition);
+    const candidates = [
+      path.join(baseDir, `${slug}.svg`),
+      path.join(baseDir, `${slug}.png`),
+      path.join(baseDir, `${slug}.webp`),
+    ];
+    const foundAbs = candidates.find((p) => existsSync(p));
+    if (!foundAbs) return null;
+    const rel = path.relative(process.cwd(), foundAbs).replace(/\\/g, "/");
+    return rel;
+  };
+
   for (const scene of storyboard.scenes || []) {
     if (!Array.isArray(scene.teams)) continue;
 
@@ -344,10 +383,25 @@ export async function enrichFootballTeams(storyboard) {
         continue;
       }
 
+      // If the badge exists locally (e.g., V.League clubs), use it and skip any network sync.
+      const kind = String(team.teamType || "").toLowerCase() === "club" ? "club" : "national";
+      if (kind === "club") {
+        const competition = inferClubCompetition(scene);
+        const localBadge = findLocalClubBadge(team.name, competition);
+        if (localBadge) {
+          teams[i] = {
+            ...team,
+            badgeSrc: localBadge,
+            logoSrc: localBadge,
+            teamType: team.teamType || "club",
+          };
+          continue;
+        }
+      }
+
       // On-demand fetch from Wikimedia and update local index/assets (best-effort).
       try {
-        const kind = String(team.teamType || "").toLowerCase() === "club" ? "club" : "national";
-        const competition = kind === "club" ? "epl" : "wc2026";
+        const competition = kind === "club" ? inferClubCompetition(scene) : "wc2026";
         await syncFootballAssets({
           fetchTeam: team.name,
           kind,

@@ -25,6 +25,7 @@
           "name": "Hoàng Anh Gia Lai",
           "code": "HAGL",
           "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/hoang-anh-gia-lai.svg",
           "form": [
             "L",
             "D",
@@ -37,6 +38,7 @@
           "name": "Hồng Lĩnh Hà Tĩnh",
           "code": "HLHT",
           "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/hong-linh-ha-tinh.svg",
           "form": [
             "L",
             "W",
@@ -81,7 +83,7 @@
       "bgColor": "#0f172a",
       "accentColor": "#F7C948",
       "textColor": "#ffffff",
-      "tournamentLogoSrc": "assets/logos/logo.png",
+      "tournamentLogoSrc": "assets/football/tournaments/vietnam_v-league-1.football-logos.cc.svg",
       "transition": {
         "toNext": "transitions-mechanical",
         "installCommand": "npx hyperframes add transitions-mechanical"
@@ -130,12 +132,14 @@
         {
           "name": "Hoàng Anh Gia Lai",
           "code": "HAGL",
-          "teamType": "club"
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/hoang-anh-gia-lai.svg"
         },
         {
           "name": "Hồng Lĩnh Hà Tĩnh",
           "code": "HLHT",
-          "teamType": "club"
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/v-league-1/hong-linh-ha-tinh.svg"
         }
       ],
       "lineups": {
@@ -359,7 +363,8 @@
           "team": {
             "name": "Hồng Lĩnh Hà Tĩnh",
             "code": "HLHT",
-            "teamType": "club"
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/hong-linh-ha-tinh.svg"
           },
           "played": 22,
           "wins": 6,
@@ -375,7 +380,8 @@
           "team": {
             "name": "Hoàng Anh Gia Lai",
             "code": "HAGL",
-            "teamType": "club"
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/v-league-1/hoang-anh-gia-lai.svg"
           },
           "played": 22,
           "wins": 6,

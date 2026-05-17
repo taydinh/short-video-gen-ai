@@ -42,7 +42,12 @@ async function httpGetWithRetry(url, config, options = {}) {
     } catch (err) {
       const status = err?.response?.status;
       if ((status === 429 || status === 503) && attempt < maxAttempts) {
-        const waitMs = Math.min(60000, 800 * (2 ** (attempt - 1))) + Math.floor(Math.random() * 250);
+        const retryAfter = err?.response?.headers?.["retry-after"];
+        const retryAfterSeconds = Number.isFinite(Number(retryAfter)) ? Number(retryAfter) : null;
+        const waitMsFromRetryAfter = retryAfterSeconds != null ? Math.max(0, Math.floor(retryAfterSeconds * 1000)) : null;
+        const backoffMs = Math.min(60000, 800 * (2 ** (attempt - 1)));
+        const waitMs = (waitMsFromRetryAfter != null ? Math.max(backoffMs, waitMsFromRetryAfter) : backoffMs)
+          + Math.floor(Math.random() * 250);
         // eslint-disable-next-line no-console
         console.log(`⏳ rate-limited (${status}), retry in ${waitMs}ms...`);
         await sleep(waitMs);

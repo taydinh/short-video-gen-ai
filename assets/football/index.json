@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-16T17:42:27.555Z",
+  "updatedAt": "2026-05-17T03:17:33.892Z",
   "records": [
     {
       "id": "wc2026:canada",
@@ -1751,7 +1751,7 @@
       "id": "epl:hoang-anh-gia-lai",
       "kind": "club",
       "competition": "epl",
-      "name": "Hoang Anh Gia Lai",
+      "name": "Hoàng Anh Gia Lai",
       "aliases": [],
       "codes": {
         "short": "HAGL"
@@ -1763,13 +1763,13 @@
         "licenseName": null,
         "licenseUrl": null
       },
-      "updatedAt": "2026-05-16T17:41:28.370Z"
+      "updatedAt": "2026-05-17T03:16:36.064Z"
     },
     {
       "id": "epl:hong-linh-ha-tinh",
       "kind": "club",
       "competition": "epl",
-      "name": "Hong Linh Ha Tinh",
+      "name": "Hồng Lĩnh Hà Tĩnh",
       "aliases": [],
       "codes": {
         "short": "HLHT"
@@ -1781,7 +1781,7 @@
         "licenseName": null,
         "licenseUrl": null
       },
-      "updatedAt": "2026-05-16T17:41:56.153Z"
+      "updatedAt": "2026-05-17T03:17:05.186Z"
     },
     {
       "id": "bundesliga",
