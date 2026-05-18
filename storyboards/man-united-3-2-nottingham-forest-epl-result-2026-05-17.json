@@ -1,0 +1,349 @@
+{
+  "title": "Man United 3-2 Nottingham Forest: Fernandes chạm mốc 20 kiến tạo, Old Trafford bùng nổ",
+  "slug": "man-united-3-2-nottingham-forest-epl-result-2026-05-17",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "MU GIỮ TOP 3!",
+      "subtext": "Manchester United 3-2 Nottingham Forest",
+      "voiceText": "Old Trafford bùng nổ với 5 bàn thắng. Manchester United thắng nghẹt thở Nottingham Forest 3-2 để khóa chặt vị trí thứ 3 Premier League.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "secondaryAccentColor": "#E53233",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "Old Trafford",
+      "date": "17.05.2026",
+      "time": "18:30",
+      "teams": [
+        { "name": "Manchester United", "code": "MUN", "teamType": "club", "form": ["D", "L", "W", "W", "W", "D"] },
+        { "name": "Nottingham Forest", "code": "NFO", "teamType": "club", "form": ["W", "D", "W", "W", "W", "D"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#DA291C"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "2025-26 | Matchweek 37",
+      "ctaLabel": "Full-time",
+      "voiceText": "Kết quả và điểm nhấn trận đấu, trong 60 giây.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#DA291C"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Manchester United 3-2 Nottingham Forest",
+      "subtext": "5 bàn thắng, VAR gây tranh cãi, cuối trận nghẹt thở.",
+      "voiceText": "Full time: Manchester United ba, Nottingham Forest hai. Shaw mở tỉ số sớm, hiệp hai bùng nổ với ba bàn chỉ trong 25 phút cuối.",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "minute": "FT",
+      "score": [3, 2],
+      "teams": ["Manchester United", "Nottingham Forest"],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 },
+        { "type": "football-scorebug", "teams": ["MUN", "NFO"], "score": [3, 2], "minute": "FT", "label": "Old Trafford" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Fernandes chạm mốc 20 kiến tạo",
+      "subtext": "Man of the match: Bruno Fernandes",
+      "voiceText": "Tâm điểm là Bruno Fernandes. Anh có pha kiến tạo thứ 20 tại Premier League mùa này và tạo ra tới 8 cơ hội cho đồng đội — đúng nghĩa nhạc trưởng trong ngày United chốt top 3.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "player": "Bruno Fernandes",
+      "team": "Manchester United",
+      "number": "8",
+      "stats": [
+        { "label": "Kiến tạo trận này", "value": "1" },
+        { "label": "Kiến tạo EPL mùa 25/26", "value": "20" },
+        { "label": "Cơ hội tạo ra", "value": "8" },
+        { "label": "Kết quả", "value": "Top 3" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#DA291C"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Các khoảnh khắc quyết định",
+      "voiceText": "Điểm nhấn: Shaw mở tỉ số sớm, Morato gỡ hòa đầu hiệp hai. Cunha nâng tỉ số sau pha VAR gây tranh cãi, rồi Fernandes có kiến tạo thứ 20 cho Mbeumo trước khi Gibbs-White rút ngắn cuối trận.",
+      "duration": 10,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "1'", "title": "Kick-off", "desc": "Trận đấu bắt đầu tại Old Trafford." },
+        { "minute": "5'", "title": "1-0: Luke Shaw", "desc": "Shaw volley ghi bàn, United khởi đầu như mơ." },
+        { "minute": "8'", "title": "Cơ hội: Gibbs-White", "desc": "Gibbs-White đối mặt nhưng bị cản phá." },
+        { "minute": "10'", "title": "Cột dọc: Mbeumo", "desc": "Mbeumo dứt điểm góc hẹp trúng cột gần." },
+        { "minute": "15'", "title": "Cơ hội: United", "desc": "United liên tục phản công, tạo thêm cơ hội rõ rệt." },
+        { "minute": "32'", "title": "Cơ hội: Forest", "desc": "Forest có pha lên bóng nguy hiểm, buộc hàng thủ United lùi sâu." },
+        { "minute": "45'", "title": "HT", "desc": "Hết hiệp 1: United dẫn 1-0." },
+        { "minute": "47'", "title": "Mbeumo bỏ lỡ", "desc": "Cú dứt điểm cận thành đi ra ngoài đáng tiếc." },
+        { "minute": "53'", "title": "1-1: Morato", "desc": "Morato đánh đầu gỡ hòa từ quả tạt của Elliot Anderson." },
+        { "minute": "55'", "title": "2-1: Matheus Cunha", "desc": "Cunha ghi bàn sau tình huống VAR kiểm tra handball gây tranh cãi." },
+        { "minute": "58'", "title": "VAR: kiểm tra kéo dài", "desc": "Trọng tài ra màn hình, cuối cùng vẫn công nhận bàn thắng cho United." },
+        { "minute": "66'", "title": "Cơ hội: Mbeumo", "desc": "Mbeumo lại bỏ lỡ một cơ hội ngon ăn." },
+        { "minute": "74'", "title": "Cột dọc: Dalot", "desc": "Dalot sút chéo góc đưa bóng dội khung gỗ." },
+        { "minute": "76'", "title": "3-1: Bryan Mbeumo", "desc": "Fernandes tạt như đặt, Mbeumo băng vào dứt điểm ghi bàn." },
+        { "minute": "78'", "title": "3-2: Morgan Gibbs-White", "desc": "Gibbs-White rút ngắn từ thêm một quả tạt của Anderson." },
+        { "minute": "82'", "title": "Cứu thua: Sels", "desc": "Thủ môn Sels cứu thua xuất sắc, giữ Forest còn hy vọng." },
+        { "minute": "90+4'", "title": "FT", "desc": "Hết trận: Manchester United 3-2 Nottingham Forest." }
+      ],
+      "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "United tạo cơ hội áp đảo",
+      "subtext": "Match stats (Sky Sports)",
+      "voiceText": "Nhìn chỉ số là thấy thế trận: United tung ra 29 cú sút và xG tới 4 phẩy 57. Forest cầm bóng nhỉnh hơn, nhưng United mới là đội tạo ra các cơ hội rõ ràng.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [3, 2],
+      "teams": ["Manchester United", "Nottingham Forest"],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 48.7, "away": 51.3, "unit": "%" },
+            { "label": "Cú sút", "home": 29, "away": 11 },
+            { "label": "Sút trúng đích", "home": 8, "away": 4 },
+            { "label": "xG", "home": 4.57, "away": 1.88 },
+            { "label": "Phạt góc", "home": 7, "away": 6 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#DA291C"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "BXH sau vòng 37",
+      "subtext": "United giữ vị trí thứ 3, Forest đứng thứ 16",
+      "voiceText": "Sau trận này, Manchester United đứng thứ ba với 68 điểm. Nottingham Forest xếp thứ mười sáu với 43 điểm và đã trụ hạng trước vòng cuối.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["MUN", "NFO"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 36, "wins": 24, "draws": 7, "losses": 5, "gf": 68, "ga": 26, "gd": 42, "pts": 79 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 37, "wins": 19, "draws": 11, "losses": 7, "gf": 66, "ga": 50, "gd": 16, "pts": 68 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton", "code": "BHA", "teamType": "club" }, "played": 36, "wins": 14, "draws": 11, "losses": 11, "gf": 52, "ga": 42, "gd": 10, "pts": 53 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 36, "wins": 14, "draws": 9, "losses": 13, "gf": 52, "ga": 49, "gd": 3, "pts": 51 },
+        { "rank": 9, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 55, "ga": 49, "gd": 6, "pts": 49 },
+        { "rank": 10, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 46, "ga": 46, "gd": 0, "pts": 49 },
+        { "rank": 11, "team": { "name": "Fulham", "code": "FUL", "teamType": "club" }, "played": 36, "wins": 14, "draws": 6, "losses": 16, "gf": 44, "ga": 50, "gd": -6, "pts": 48 },
+        { "rank": 12, "team": { "name": "Sunderland", "code": "SUN", "teamType": "club" }, "played": 36, "wins": 12, "draws": 12, "losses": 12, "gf": 37, "ga": 46, "gd": -9, "pts": 48 },
+        { "rank": 13, "team": { "name": "Newcastle United", "code": "NEW", "teamType": "club" }, "played": 36, "wins": 13, "draws": 7, "losses": 16, "gf": 50, "ga": 52, "gd": -2, "pts": 46 },
+        { "rank": 14, "team": { "name": "Leeds United", "code": "LEE", "teamType": "club" }, "played": 36, "wins": 10, "draws": 14, "losses": 12, "gf": 48, "ga": 53, "gd": -5, "pts": 44 },
+        { "rank": 15, "team": { "name": "Crystal Palace", "code": "CRY", "teamType": "club" }, "played": 36, "wins": 11, "draws": 11, "losses": 14, "gf": 38, "ga": 47, "gd": -9, "pts": 44 },
+        { "rank": 16, "team": { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }, "played": 37, "wins": 11, "draws": 10, "losses": 16, "gf": 47, "ga": 50, "gd": -3, "pts": 43 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#DA291C"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Vòng 38: trận cuối mùa",
+      "subtext": "Lịch đấu liên quan",
+      "voiceText": "Vòng cuối: United làm khách của Brighton, còn Forest về sân nhà tiếp Bournemouth. Khép lại mùa giải 2025-26 đầy biến động.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "activeTab": "TRẬN ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "ctaLabel": "NEXT FIXTURES",
+      "fixtures": [
+        {
+          "group": "Premier League",
+          "date": "24/05",
+          "time": "22:00",
+          "home": { "name": "Brighton & Hove Albion", "code": "BHA", "teamType": "club" },
+          "away": { "name": "Manchester United", "code": "MUN", "teamType": "club" }
+        },
+        {
+          "group": "Premier League",
+          "date": "24/05",
+          "time": "22:00",
+          "home": { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" },
+          "away": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 210,
+          "usernameMinWidth": 154,
+          "accentColor": "#DA291C"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Bạn nghĩ VAR đúng hay sai?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Bạn thấy bàn 2-1 của Cunha có nên bị từ chối vì handball không? Comment quan điểm, và follow để xem nhanh kết quả vòng cuối Premier League.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sky Sports match report",
+      "url": "https://www.skysports.com/football/manchester-united-vs-nottingham-forest/report/531496"
+    },
+    {
+      "name": "Sky Sports match stats",
+      "url": "https://www.skysports.com/football/manchester-united-vs-nottingham-forest/stats/531496"
+    },
+    {
+      "name": "Sky Sports Premier League table (after match)",
+      "url": "https://www.skysports.com/football/manchester-united-vs-nottingham-forest/table/531496"
+    },
+    {
+      "name": "Sky Sports Manchester United fixtures (May 2026)",
+      "url": "https://www.skysports.com/manchester-united-scores-fixtures"
+    },
+    {
+      "name": "Sky Sports Nottingham Forest vs Bournemouth fixture (May 2026)",
+      "url": "https://www.skysports.com/football/nottingham-forest-vs-bournemouth/531505"
+    }
+  ]
+}

@@ -513,6 +513,154 @@ function composerStyles(scene) {
       position: relative;
       z-index: 1;
     }
+    [data-composition-id="${cid}"] .quote-attrib-broadcast {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 38px;
+      isolation: isolate;
+    }
+    [data-composition-id="${cid}"] .quote-attrib-media {
+      position: relative;
+      width: min(980px, 96%);
+      height: 650px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.06);
+      box-shadow: 0 24px 80px rgba(0,0,0,0.42), 0 0 70px ${hexToRgba(acc, 0.22)};
+    }
+    [data-composition-id="${cid}"] .quote-attrib-media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.18) 72%, rgba(0,0,0,0.46) 100%),
+        repeating-linear-gradient(0deg, rgba(255,255,255,0.08) 0 1px, transparent 1px 6px);
+      mix-blend-mode: screen;
+      opacity: 0.24;
+      pointer-events: none;
+      animation: quoteSignalScan${scene.id} 3.2s linear infinite;
+    }
+    [data-composition-id="${cid}"] .quote-attrib-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transform: scale(1.02);
+      animation: quoteLiveCamera${scene.id} 6s ease-in-out infinite alternate;
+    }
+    [data-composition-id="${cid}"] .quote-live-badge {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: rgba(12,16,28,0.76);
+      border: 1px solid rgba(255,255,255,0.18);
+      backdrop-filter: blur(12px);
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      z-index: 3;
+    }
+    [data-composition-id="${cid}"] .quote-live-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 999px;
+      background: ${acc};
+      box-shadow: 0 0 18px ${hexToRgba(acc, 0.85)};
+      animation: quoteLiveBlink${scene.id} 0.9s ease-in-out infinite;
+    }
+    [data-composition-id="${cid}"] .quote-radio-ring {
+      position: absolute;
+      right: 30px;
+      bottom: 28px;
+      width: 86px;
+      height: 86px;
+      border-radius: 999px;
+      border: 2px solid ${hexToRgba(acc, 0.72)};
+      z-index: 3;
+      opacity: 0.86;
+      animation: quoteRadioPulse${scene.id} 1.45s ease-out infinite;
+    }
+    [data-composition-id="${cid}"] .quote-audio-bars {
+      position: absolute;
+      left: 28px;
+      right: 132px;
+      bottom: 34px;
+      height: 70px;
+      display: flex;
+      align-items: flex-end;
+      gap: 8px;
+      z-index: 3;
+      padding: 12px 16px;
+      border-radius: 8px;
+      background: rgba(6,10,18,0.58);
+      border: 1px solid rgba(255,255,255,0.14);
+      backdrop-filter: blur(10px);
+    }
+    [data-composition-id="${cid}"] .quote-audio-bars span {
+      flex: 1 1 0;
+      min-width: 6px;
+      height: calc(var(--bar-h) * 1%);
+      border-radius: 999px 999px 2px 2px;
+      background: linear-gradient(180deg, #ffffff 0%, ${acc} 100%);
+      box-shadow: 0 0 16px ${hexToRgba(acc, 0.38)};
+      animation: quoteAudioBar${scene.id} 0.82s ease-in-out infinite alternate;
+      animation-delay: var(--bar-delay);
+    }
+    [data-composition-id="${cid}"] .quote-attrib-copy {
+      width: min(940px, 96%);
+      text-align: center;
+    }
+    [data-composition-id="${cid}"] .quote-attrib-broadcast .quote-mark {
+      position: static;
+      font-size: 84px;
+      opacity: 0.25;
+      margin: -8px 0 10px;
+      line-height: 0.75;
+    }
+    [data-composition-id="${cid}"] .quote-attrib-broadcast .quote-text {
+      max-width: 940px;
+      font-size: 40px;
+      line-height: 1.28;
+      padding: 0;
+    }
+    [data-composition-id="${cid}"] .quote-attrib-broadcast .quote-byline {
+      margin-top: 32px;
+      text-align: center;
+    }
+    @keyframes quoteSignalScan${scene.id} {
+      0% { transform: translateY(-8px); opacity: 0.18; }
+      50% { opacity: 0.32; }
+      100% { transform: translateY(8px); opacity: 0.18; }
+    }
+    @keyframes quoteLiveCamera${scene.id} {
+      0% { transform: scale(1.02) translate3d(-6px, -4px, 0); }
+      100% { transform: scale(1.07) translate3d(6px, 4px, 0); }
+    }
+    @keyframes quoteLiveBlink${scene.id} {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.48; transform: scale(0.78); }
+    }
+    @keyframes quoteRadioPulse${scene.id} {
+      0% { box-shadow: 0 0 0 0 ${hexToRgba(acc, 0.42)}, inset 0 0 20px ${hexToRgba(acc, 0.20)}; transform: scale(0.82); opacity: 0.98; }
+      100% { box-shadow: 0 0 0 36px ${hexToRgba(acc, 0)}, inset 0 0 20px ${hexToRgba(acc, 0.04)}; transform: scale(1.08); opacity: 0.22; }
+    }
+    @keyframes quoteAudioBar${scene.id} {
+      0% { transform: scaleY(0.32); opacity: 0.64; }
+      100% { transform: scaleY(1); opacity: 1; }
+    }
     [data-composition-id="${cid}"] .stat-number {
       font-size: 220px;
       font-weight: 900;
@@ -1974,6 +2122,20 @@ function composerStyles(scene) {
       font-weight: 950;
       letter-spacing: -0.04em;
     }
+    [data-composition-id="${cid}"] .football-player-portrait {
+      width: 270px;
+      height: 320px;
+      position: relative;
+      overflow: hidden;
+      background: transparent;
+    }
+    [data-composition-id="${cid}"] .football-player-portrait img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      filter: none;
+    }
     [data-composition-id="${cid}"] .football-stat-grid {
       position: relative;
       z-index: 2;
@@ -2352,6 +2514,16 @@ function composerStyles(scene) {
     [data-composition-id="${cid}"] .football-standings-table tbody tr:last-child td {
       border-bottom: none;
     }
+    [data-composition-id="${cid}"] .football-standings-table tbody tr.football-standings-highlight td {
+      background: rgba(255,255,255,0.04);
+      border-bottom-color: rgba(255,255,255,0.16);
+    }
+    [data-composition-id="${cid}"] .football-standings-table tbody tr.football-standings-highlight td:first-child {
+      box-shadow: inset 5px 0 0 var(--hl, rgba(247,201,72,0.95));
+    }
+    [data-composition-id="${cid}"] .football-standings-table tbody tr.football-standings-highlight .football-standings-teamname {
+      color: rgba(255,255,255,0.98);
+    }
     [data-composition-id="${cid}"] .football-standings-table tbody td:first-child,
     [data-composition-id="${cid}"] .football-standings-table tbody td:nth-child(2) {
       text-align: left;
@@ -2396,6 +2568,43 @@ function composerStyles(scene) {
     }
     [data-composition-id="${cid}"] .football-standings-pts {
       color: rgba(255,255,255,0.96);
+    }
+    [data-composition-id="${cid}"] .football-standings-table.long-table thead th {
+      padding: 10px 10px;
+      font-size: 12px;
+    }
+    [data-composition-id="${cid}"] .football-standings-table.long-table tbody td {
+      padding: 8px 10px;
+      font-size: 16px;
+    }
+    [data-composition-id="${cid}"] .football-standings-table.long-table .football-standings-team {
+      gap: 8px;
+    }
+    [data-composition-id="${cid}"] .football-standings-table.long-table .football-standings-rank {
+      width: 44px;
+    }
+    [data-composition-id="${cid}"] .football-standings-table.long-table .football-standings-badge {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+    }
+    [data-composition-id="${cid}"] .football-standings-table.long-table .football-standings-teamname {
+      font-size: 17px;
+    }
+    [data-composition-id="${cid}"] .football-standings-table.full-table thead th {
+      padding: 8px 8px;
+      font-size: 11px;
+    }
+    [data-composition-id="${cid}"] .football-standings-table.full-table tbody td {
+      padding: 6px 8px;
+      font-size: 14px;
+    }
+    [data-composition-id="${cid}"] .football-standings-table.full-table .football-standings-teamname {
+      font-size: 15px;
+    }
+    [data-composition-id="${cid}"] .football-standings-table.full-table .football-standings-badge {
+      width: 22px;
+      height: 22px;
     }
     /* ── Football tournament logo intro ─────────────────────────────────── */
     [data-composition-id="${cid}"] .football-tournament-intro {
@@ -2644,6 +2853,7 @@ const COMPOSERS = {
     const stats = normalizeFootballStats(scene);
     const player = scene.player || scene.playerName || scene.title || "Key Player";
     const team = scene.team || scene.club || scene.competitionLabel || "Football focus";
+    const playerImage = scene.playerImageSrc || scene.playerImageUrl || "";
     return `
     <div class="canvas football-scene football-player-stat" style="align-items:flex-start; justify-content:flex-start; padding:150px 76px 170px; background:${footballBg(scene)};">
       ${footballPitchBackdrop(scene)}
@@ -2653,9 +2863,13 @@ const COMPOSERS = {
           <h1 class="football-title" id="s${scene.id}-title" style="text-align:left; max-width:650px;">${escapeHtml(player)}</h1>
           <div class="football-player-note">${escapeHtml(scene.subtext || "Thong so noi bat")}</div>
         </div>
-        <div class="football-shirt">
-          <div class="football-shirt-number">${escapeHtml(String(scene.number || scene.jersey || "10"))}</div>
-        </div>
+        ${playerImage
+          ? `<div class="football-player-portrait">
+              <img src="${escapeHtmlAttr(String(playerImage))}" alt="${escapeHtmlAttr(player)}" loading="lazy" />
+            </div>`
+          : `<div class="football-shirt">
+              <div class="football-shirt-number">${escapeHtml(String(scene.number || scene.jersey || "10"))}</div>
+            </div>`}
       </div>
       <div class="football-stat-grid">
         ${stats.slice(0, 4).map((stat, i) => `
@@ -3123,8 +3337,20 @@ const COMPOSERS = {
         </thead>
       `;
 
+    const highlightSet = Array.isArray(scene.highlightTeams) && scene.highlightTeams.length
+      ? new Set(scene.highlightTeams.map((t) => String(t).trim().toLowerCase()).filter(Boolean))
+      : null;
+    const rowCountClass = table.rows.length >= 18
+      ? " full-table"
+      : (table.rows.length > 12 ? " long-table" : "");
+
     const rowsHtml = table.rows.map((r, i) => {
       const rank = r.rank ?? (i + 1);
+      const teamCode = String(r.team?.code || "").trim().toLowerCase();
+      const teamName = String(r.team?.name || "").trim().toLowerCase();
+      const isHighlighted = highlightSet
+        ? (highlightSet.has(teamCode) || highlightSet.has(teamName))
+        : false;
       const badge = r.team?.badgeSrc
         ? `<span class="football-standings-badge ${r.team.badgeType === "national" ? "flag" : "logo"}"><img src="${escapeHtmlAttr(r.team.badgeSrc)}" alt="${escapeHtmlAttr(r.team.name || "")}"/></span>`
         : `<span class="football-standings-badge"></span>`;
@@ -3151,8 +3377,13 @@ const COMPOSERS = {
           <td class="football-standings-pts">${escapeHtml(String(r.pts ?? ""))}</td>
         `;
 
+      const highlightClass = isHighlighted ? " football-standings-highlight" : "";
+      const highlightStyle = isHighlighted
+        ? ` style="--hl:${escapeHtmlAttr(scene.accentColor || "#F7C948")};"`
+        : "";
+
       return `
-        <tr id="s${scene.id}-stand-${i}">
+        <tr id="s${scene.id}-stand-${i}" class="${highlightClass.trim()}"${highlightStyle}>
           <td class="football-standings-rank">${escapeHtml(String(rank))}</td>
           <td>
             <div class="football-standings-team">
@@ -3181,7 +3412,7 @@ const COMPOSERS = {
       </div>
       <div class="football-standings-wrap" id="s${scene.id}-standings">
         ${seasonBar}
-        <table class="football-standings-table">
+        <table class="football-standings-table${rowCountClass}">
           ${headHtml}
           <tbody>
             ${rowsHtml}
@@ -3315,6 +3546,34 @@ const COMPOSERS = {
     const quote = scene.quote || scene.voiceText || scene.title || "";
     const author = scene.quoteAuthor || scene.author || "Tiến sĩ Arthur Evans";
     const role = scene.quoteRole || scene.role || "Tổng Giám Đốc Hiệp Hội Tâm Lý Học Hoa Kỳ";
+    const imageSrc = scene.imageSrc || scene.quoteImageSrc || scene.imageUrl || "";
+    const imageAlt = scene.quoteImageAlt || scene.imageAlt || "Live match commentary";
+    const audioBars = [38, 72, 46, 90, 58, 82, 34, 68, 96, 52, 76, 44, 86, 62, 70, 40, 88, 54]
+      .map((h, i) => `<span style="--bar-h:${h}; --bar-delay:${(i * 0.045).toFixed(3)}s;"></span>`)
+      .join("");
+    if (imageSrc) {
+      return `
+      <div class="canvas" style="align-items:center; justify-content:center; padding:108px 52px 140px;">
+        <div class="quote-attrib-broadcast">
+          <div class="quote-attrib-media">
+            <img src="${escapeHtmlAttr(imageSrc)}" alt="${escapeHtmlAttr(imageAlt)}" />
+            <div class="quote-live-badge"><span class="quote-live-dot"></span><span>${escapeHtml(scene.liveLabel || "Live commentary")}</span></div>
+            <div class="quote-audio-bars">${audioBars}</div>
+            <div class="quote-radio-ring"></div>
+          </div>
+          <div class="quote-attrib-copy">
+            <div class="quote-mark">“</div>
+            <div class="quote-text">
+              ${escapeHtml(quote)}
+            </div>
+            <div class="quote-byline">
+              <div style="font-size:30px; font-weight:900; color:#8dd3ff;">${escapeHtml(author)}</div>
+              <div class="ai-muted" style="margin-top:10px; font-size:18px; font-weight:700; letter-spacing:0.02em;">${escapeHtml(role)}</div>
+            </div>
+          </div>
+        </div>
+      </div>`;
+    }
     return `
     <div class="canvas" style="align-items:center; justify-content:center; padding:160px 90px;">
       <div style="font-size:84px; opacity:0.25; margin-bottom:18px;">“</div>
@@ -4043,6 +4302,10 @@ function buildAnimationScript(scene) {
       if (standingsRows.length) {
         tl.fromTo(standingsRows, { x: -44, opacity: 0, filter: "blur(8px)" }, { x: 0, opacity: 1, filter: "blur(0px)", duration: 0.46, stagger: 0.085, ease: "power3.out" }, 0.82);
         tl.fromTo('[data-composition-id="${cid}"] .football-standings-badge', { scale: 0.72, rotate: -8 }, { scale: 1, rotate: 0, duration: 0.36, stagger: 0.085, ease: "back.out(1.8)" }, 0.92);
+        const highlightRows = document.querySelectorAll('[data-composition-id="${cid}"] .football-standings-table tbody tr.football-standings-highlight');
+        if (highlightRows.length) {
+          tl.fromTo(highlightRows, { scale: 1, filter: "drop-shadow(0 0 0 rgba(0,0,0,0))" }, { scale: 1.02, filter: "drop-shadow(0 0 18px rgba(255,255,255,0.25))", duration: 0.30, stagger: 0.12, yoyo: true, repeat: 3, ease: "power1.inOut" }, 1.28);
+        }
       }`,
 
     "football-lineup": () => `
@@ -4157,7 +4420,15 @@ function buildAnimationScript(scene) {
 
     "quote-fade": () => `
       const tl = gsap.timeline({ paused: true });
-      const els = document.querySelectorAll('[data-composition-id="${cid}"] .ai-title, [data-composition-id="${cid}"] .ai-label, [data-composition-id="${cid}"] .ai-muted, [data-composition-id="${cid}"] .quote-text, [data-composition-id="${cid}"] .ai-comment');
+      const media = document.querySelector('[data-composition-id="${cid}"] .quote-attrib-media');
+      if (media) tl.fromTo(media, { y: 48, opacity: 0, scale: 0.94, filter: "blur(12px)" }, { y: 0, opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.78, ease: "power3.out" }, 0.05);
+      const live = document.querySelector('[data-composition-id="${cid}"] .quote-live-badge');
+      if (live) tl.fromTo(live, { x: -24, opacity: 0 }, { x: 0, opacity: 1, duration: 0.36, ease: "power2.out" }, 0.58);
+      const bars = document.querySelectorAll('[data-composition-id="${cid}"] .quote-audio-bars span');
+      if (bars.length) tl.fromTo(bars, { scaleY: 0.12, opacity: 0 }, { scaleY: 1, opacity: 1, duration: 0.42, stagger: 0.026, ease: "back.out(1.8)" }, 0.70);
+      const ring = document.querySelector('[data-composition-id="${cid}"] .quote-radio-ring');
+      if (ring) tl.fromTo(ring, { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 0.86, duration: 0.42, ease: "back.out(1.7)" }, 0.82);
+      const els = document.querySelectorAll('[data-composition-id="${cid}"] .ai-title, [data-composition-id="${cid}"] .ai-label, [data-composition-id="${cid}"] .ai-muted, [data-composition-id="${cid}"] .quote-mark, [data-composition-id="${cid}"] .quote-text, [data-composition-id="${cid}"] .quote-byline, [data-composition-id="${cid}"] .ai-comment');
       tl.fromTo(els, { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.95, stagger: 0.16, ease: "power2.out" }, 0.10);`,
 
     "kinetic-slam": () => `
@@ -5058,7 +5329,7 @@ function normalizeFootballStandings(scene) {
     season: scene.season || scene.seasonLabel || scene.year || "2025–26",
     group: scene.group || scene.groupName || "Bảng A",
     subtitle: scene.subtitle || "",
-    rows: rows.slice(0, inferredVariant === "club-league" ? 12 : 8),
+    rows,
   };
 }
 

@@ -30,8 +30,9 @@
  * }
  */
 
-import { writeFileSync, existsSync } from "fs";
+import { writeFileSync, existsSync, mkdirSync, readFileSync, appendFileSync } from "fs";
 import path from "path";
+import axios from "axios";
 import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
 import { loadFootballAssetIndex, findFootballAssetForTeam } from "../football/asset-index.js";
@@ -303,6 +304,9 @@ export async function generateStoryboard(content, title, outputDir) {
   // Auto-enrich football teams with local flag/logo assets (best-effort).
   storyboard = await enrichFootballTeams(storyboard);
 
+  // Auto-enrich football player portraits for football-player-stat scenes (best-effort).
+  storyboard = await enrichFootballPlayerPortraits(storyboard);
+
   // Fetch images for scenes that need them
   storyboard = await fetchImagesForScenes(storyboard);
 
@@ -442,6 +446,229 @@ function enforceSceneOneTitleLead(index, scene) {
   }
 
   return `${title} ${voiceText}`;
+}
+
+function stripDiacritics(str) {
+  return String(str || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D");
+}
+
+function slugifySimple(str) {
+  return stripDiacritics(str)
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/(^-|-$)/g, "")
+    .slice(0, 80);
+}
+
+const commonsHttp = axios.create({
+  headers: {
+    // Wikimedia APIs may 403 without a descriptive UA.
+    "User-Agent": "short-video-gen-ai/1.0 (player-portrait-sync; local)",
+    "Accept": "application/json,*/*",
+  },
+});
+
+async function mwSearchCommons(query) {
+  const url = "https://commons.wikimedia.org/w/api.php";
+  const { data } = await commonsHttp.get(url, {
+    params: {
+      action: "query",
+      format: "json",
+      origin: "*",
+      list: "search",
+      srsearch: query,
+      srlimit: 8,
+      srnamespace: 6, // File:
+    },
+    timeout: 20000,
+  });
+  const hits = data?.query?.search || [];
+  return hits.map((h) => h.title).filter(Boolean);
+}
+
+async function mwGetImageInfoCommons(fileTitle) {
+  const url = "https://commons.wikimedia.org/w/api.php";
+  const { data } = await commonsHttp.get(url, {
+    params: {
+      action: "query",
+      format: "json",
+      origin: "*",
+      prop: "imageinfo",
+      titles: fileTitle,
+      iiprop: "url|extmetadata|mime|size",
+    },
+    timeout: 20000,
+  });
+  const pages = data?.query?.pages || {};
+  const page = Object.values(pages)[0];
+  const ii = page?.imageinfo?.[0];
+  if (!ii?.url) return null;
+
+  const ext = ii.extmetadata || {};
+  const stripHtml = (s) => String(s || "").replace(/<[^>]+>/g, "").trim();
+  const licenseName = ext?.LicenseShortName?.value
+    ? stripHtml(ext.LicenseShortName.value)
+    : (ext?.License?.value ? stripHtml(ext.License.value) : "");
+  const licenseUrl = ext?.LicenseUrl?.value ? stripHtml(ext.LicenseUrl.value) : "";
+
+  return {
+    url: ii.url,
+    mime: ii.mime || "",
+    width: ii.width,
+    height: ii.height,
+    sourceUrl: `https://commons.wikimedia.org/wiki/${encodeURIComponent(fileTitle.replace(/ /g, "_"))}`,
+    licenseName: licenseName || "Unknown",
+    licenseUrl: licenseUrl || "",
+    fileTitle,
+  };
+}
+
+async function downloadToFile(url, absPath) {
+  mkdirSync(path.dirname(absPath), { recursive: true });
+  const res = await commonsHttp.get(url, { responseType: "arraybuffer", timeout: 30000 });
+  writeFileSync(absPath, Buffer.from(res.data));
+}
+
+function ensureAttributionFile(absPath) {
+  mkdirSync(path.dirname(absPath), { recursive: true });
+  if (!existsSync(absPath)) {
+    writeFileSync(absPath, `# Attribution\n\n`, "utf-8");
+  }
+}
+
+function appendAttributionLine(absPath, { relPath, sourceUrl, licenseName, licenseUrl }) {
+  try {
+    ensureAttributionFile(absPath);
+    const md = readFileSync(absPath, "utf-8");
+    if (md.includes(relPath)) return;
+    const line = `- \`${relPath}\` — Source: ${sourceUrl || "unknown"} — License: ${licenseName || "unknown"}${licenseUrl ? ` (${licenseUrl})` : ""}\n`;
+    appendFileSync(absPath, line, "utf-8");
+  } catch {
+    // best-effort only
+  }
+}
+
+function pickBestPortraitCandidate(infos) {
+  const candidates = infos
+    .filter(Boolean)
+    .filter((ii) => !/svg/i.test(ii.mime || ""))
+    .filter((ii) => /^image\/(jpeg|jpg|png)$/i.test(ii.mime || ""))
+    .filter((ii) => Number(ii.width || 0) >= 600 && Number(ii.height || 0) >= 600);
+
+  if (!candidates.length) return null;
+
+  const score = (ii) => {
+    let s = 0;
+    const mime = String(ii.mime || "").toLowerCase();
+    if (mime.includes("jpeg") || mime.includes("jpg")) s += 10;
+    if (mime.includes("png")) s += 6;
+    const area = Number(ii.width || 0) * Number(ii.height || 0);
+    s += Math.min(20, Math.floor(area / 300000)); // reward higher res a bit
+    const title = String(ii.fileTitle || "").toLowerCase();
+    if (title.includes("portrait")) s += 4;
+    if (title.includes("headshot")) s += 3;
+    if (title.includes("logo") || title.includes("icon") || title.includes("kit")) s -= 8;
+    return s;
+  };
+
+  let best = candidates[0];
+  let bestScore = score(best);
+  for (const c of candidates.slice(1)) {
+    const sc = score(c);
+    if (sc > bestScore) {
+      best = c;
+      bestScore = sc;
+    }
+  }
+  return best;
+}
+
+export async function enrichFootballPlayerPortraits(storyboard) {
+  const slug = storyboard?.slug || slugify(storyboard?.title || "storyboard");
+  const attributionAbs = path.join(process.cwd(), "assets", "storyboards", slug, "ATTRIBUTION.md");
+
+  for (const scene of storyboard.scenes || []) {
+    if (scene?.composition !== "football-player-stat") continue;
+
+    // Idempotent: if already has portrait, keep it.
+    const existing = String(scene.playerImageSrc || "").trim();
+    if (existing) continue;
+
+    const playerName = String(scene.player || scene.playerName || scene.title || "").trim();
+    if (!playerName) continue;
+
+    const teamName = String(scene.team || scene.club || scene.competitionLabel || "").trim();
+    const playerSlug = slugifySimple(playerName) || `player-${scene.id}`;
+    const baseDirRel = path.posix.join("assets", "storyboards", slug, "players");
+    const baseDirAbs = path.join(process.cwd(), baseDirRel);
+
+    const candidateQueries = [
+      `"${playerName}" footballer filetype:jpg`,
+      `"${playerName}" footballer filetype:png`,
+      teamName ? `"${playerName}" "${teamName}" filetype:jpg` : null,
+      teamName ? `"${playerName}" "${teamName}" filetype:png` : null,
+      `"${playerName}" portrait filetype:jpg`,
+      `"${playerName}" portrait filetype:png`,
+      `"${playerName}" filetype:jpg`,
+      `"${playerName}" filetype:png`,
+    ].filter(Boolean);
+
+    let picked = null;
+    for (const q of candidateQueries) {
+      try {
+        const hits = await mwSearchCommons(q);
+        if (!hits.length) continue;
+        const infos = [];
+        for (const hit of hits.slice(0, 6)) {
+          try {
+            const info = await mwGetImageInfoCommons(hit);
+            if (info) infos.push(info);
+          } catch {
+            // ignore a single bad hit
+          }
+        }
+        picked = pickBestPortraitCandidate(infos);
+        if (picked) break;
+      } catch (err) {
+        logger.warn(`  ⚠️ Commons search failed for "${playerName}": ${err.message}`);
+      }
+    }
+
+    if (!picked) {
+      // Not found => keep original visuals/UI.
+      logger.info(`  ℹ️ No portrait found for "${playerName}" (scene ${scene.id}), keeping default UI.`);
+      continue;
+    }
+
+    try {
+      mkdirSync(baseDirAbs, { recursive: true });
+      const ext = /png/i.test(picked.mime) ? "png" : "jpg";
+      const fileName = `scene-${scene.id}-${playerSlug}.${ext}`;
+      const relPath = path.posix.join(baseDirRel.replace(/\\/g, "/"), fileName);
+      const absPath = path.join(baseDirAbs, fileName);
+      await downloadToFile(picked.url, absPath);
+
+      scene.playerImageSrc = relPath.replace(/\\/g, "/");
+      appendAttributionLine(attributionAbs, {
+        relPath: scene.playerImageSrc,
+        sourceUrl: picked.sourceUrl,
+        licenseName: picked.licenseName,
+        licenseUrl: picked.licenseUrl,
+      });
+
+      logger.info(`  🖼️ Saved portrait for scene ${scene.id}: ${playerName} -> ${scene.playerImageSrc}`);
+    } catch (err) {
+      logger.warn(`  ⚠️ Could not download portrait for "${playerName}": ${err.message}`);
+    }
+  }
+
+  return storyboard;
 }
 
 // Helper: generate subtext from title/voiceText

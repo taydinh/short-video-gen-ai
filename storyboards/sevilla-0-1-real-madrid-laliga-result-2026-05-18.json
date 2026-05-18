@@ -1,0 +1,424 @@
+{
+  "title": "Sevilla 0-1 Real Madrid: Vinícius định đoạt, Sevilla vẫn trụ hạng",
+  "slug": "sevilla-0-1-real-madrid-laliga-result-2026-05-18",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "VINI KẾT LIỄU PIZJUÁN!",
+      "subtext": "Sevilla 0-1 Real Madrid",
+      "voiceText": "Real Madrid rời Ramón Sánchez-Pizjuán với chiến thắng một không. Vinícius Júnior ghi bàn duy nhất, còn Sevilla dù thua vẫn chính thức an toàn trước vòng cuối LaLiga.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "secondaryAccentColor": "#FEBE10",
+      "textColor": "#ffffff",
+      "competitionLabel": "LaLiga",
+      "stage": "Vòng 37",
+      "venue": "Ramón Sánchez-Pizjuán",
+      "date": "18.05.2026",
+      "time": "00:00",
+      "teams": [
+        { "name": "Sevilla", "code": "SEV", "teamType": "club", "form": ["L", "W", "W", "W", "L", "L"] },
+        { "name": "Real Madrid", "code": "RMA", "teamType": "club", "form": ["W", "W", "L", "W", "D", "W"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D71920"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "LaLiga",
+      "tournamentName": "LaLiga",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "2025-26 | Matchweek 37",
+      "ctaLabel": "Full-time",
+      "voiceText": "Sau đây là kết quả, đội hình và điểm nhấn trận đấu.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/laliga.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D71920"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Sevilla 0-1 Real Madrid",
+      "subtext": "Vinícius ghi bàn sớm, Madrid giữ sạch lưới.",
+      "voiceText": "Full time: Sevilla không, Real Madrid một. Bàn thắng phút mười lăm của Vinícius Júnior là đủ để đội khách lấy trọn ba điểm.",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "competitionLabel": "LaLiga",
+      "minute": "FT",
+      "score": [0, 1],
+      "teams": ["Sevilla", "Real Madrid"],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.3 },
+        { "type": "football-scorebug", "teams": ["SEV", "RMA"], "score": [0, 1], "minute": "FT", "label": "Ramón Sánchez-Pizjuán" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Hai đội cùng xuất phát với sơ đồ bốn bốn hai. Sevilla đặt niềm tin vào cặp tiền đạo Akor Adams và Maupay, còn Real Madrid nổi bật với trục Bellingham - Tchouaméni phía sau bộ đôi Mbappe và Vinícius.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Ramón Sánchez-Pizjuán",
+      "teams": [
+        { "name": "Sevilla", "code": "SEV", "teamType": "club" },
+        { "name": "Real Madrid", "code": "RMA", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-4-2",
+          "players": [
+            "Odysseas Vlachodimos",
+            "José Ángel Carmona",
+            "Andrés López",
+            "Kike Salas",
+            "Gabriel Suazo",
+            "Ruben Vargas",
+            "Nemanja Gudelj",
+            "Djibril Sow",
+            "Oso",
+            "Akor Adams",
+            "Neal Maupay"
+          ]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": [
+            "Thibaut Courtois",
+            "Dani Carvajal",
+            "Antonio Rüdiger",
+            "Dean Huijsen",
+            "Fran García",
+            "Jude Bellingham",
+            "Aurélien Tchouaméni",
+            "Thiago Pitarch",
+            "Brahim Díaz",
+            "Kylian Mbappé",
+            "Vinícius Júnior"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D71920"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Vinícius tạo khác biệt",
+      "subtext": "Bàn thắng quyết định phút 15",
+      "voiceText": "Vinícius Júnior là điểm khác biệt. Anh chớp thời cơ ở phút mười lăm, ghi bàn duy nhất và còn dẫn các pha phản công của Real Madrid trong một trận đấu không nhiều khoảng trống.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "player": "Vinícius Júnior",
+      "team": "Real Madrid",
+      "number": "7",
+      "playerImageUrl": "https://s1.fifaaddict.com/fo4/players/kovavkpm.png?20250613",
+      "stats": [
+        { "label": "Bàn thắng", "value": "1" },
+        { "label": "Phút ghi bàn", "value": "15", "unit": "'" },
+        { "label": "Cú sút", "value": "2" },
+        { "label": "Key passes", "value": "2" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.24 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D71920"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Một bàn thắng, nhiều pha VAR và sức ép cuối trận",
+      "voiceText": "Trận đấu đổi hướng rất sớm. Vinícius ghi bàn sau pha bóng được VAR kiểm tra, Real Madrid thoát thêm một tình huống penalty, rồi Courtois giữ sạch lưới bằng các pha cứu thua cuối trận.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "5'", "title": "Sevilla nhập cuộc nhanh", "desc": "Chủ nhà có nhiều cú dứt điểm sớm nhưng không tận dụng được." },
+        { "minute": "15'", "title": "0-1: Vinícius Júnior", "desc": "Vinícius dứt điểm thành bàn, đưa Real Madrid vượt lên." },
+        { "minute": "16'", "title": "VAR công nhận bàn thắng", "desc": "Trọng tài kiểm tra và giữ nguyên bàn mở tỉ số của Madrid." },
+        { "minute": "24'", "title": "VAR: không penalty", "desc": "Một tình huống có thể thổi penalty cho Real Madrid được kiểm tra, nhưng không có quyết định mới." },
+        { "minute": "45+2'", "title": "Sevilla đòi penalty", "desc": "VAR kiểm tra tình huống trong vòng cấm Real Madrid và vẫn không thổi phạt đền." },
+        { "minute": "48'", "title": "Thẻ vàng: Gudelj", "desc": "Đội trưởng Sevilla nhận thẻ đầu hiệp hai." },
+        { "minute": "53'", "title": "Alexis Sánchez vào sân", "desc": "Sevilla tăng kinh nghiệm và sức ép trên hàng công." },
+        { "minute": "70'", "title": "Madrid thay đôi", "desc": "Camavinga và Mastantuono vào sân để giữ nhịp cuối trận." },
+        { "minute": "80'", "title": "Thẻ vàng: Alexis", "desc": "Sevilla nóng ruột trong lúc tìm bàn gỡ." },
+        { "minute": "86'", "title": "Mbappé bỏ lỡ", "desc": "Mbappé dứt điểm chệch khung thành sau đường căng ngang của Carvajal." },
+        { "minute": "90+2'", "title": "Courtois cứu thua", "desc": "Kike Salas dứt điểm cận thành nhưng Courtois cản phá." },
+        { "minute": "90+4'", "title": "FT", "desc": "Hết trận: Sevilla 0-1 Real Madrid." }
+      ],
+      "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Courtois giữ Madrid đứng vững",
+      "subtext": "Sevilla sút trúng đích nhiều hơn nhưng không ghi bàn",
+      "voiceText": "Con số hơi ngược đời: Sevilla có sáu cú sút trúng đích, Real Madrid chỉ một, nhưng đội khách thắng nhờ khoảnh khắc của Vinícius và sáu pha cứu thua của Courtois.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [0, 1],
+      "teams": ["Sevilla", "Real Madrid"],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 41, "away": 59, "unit": "%" },
+            { "label": "Cú sút", "home": 14, "away": 12 },
+            { "label": "Sút trúng đích", "home": 6, "away": 1 },
+            { "label": "xG", "home": 0.73, "away": 1.03 },
+            { "label": "Phạt góc", "home": 4, "away": 4 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D71920"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Madrid lên 83 điểm, Sevilla an toàn",
+      "subtext": "BXH LaLiga sau vòng 37",
+      "voiceText": "Sau trận này, Real Madrid đứng thứ hai với tám mươi ba điểm. Sevilla đứng thứ mười ba với bốn mươi ba điểm, và đã thoát nguy cơ xuống hạng trước vòng cuối.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["SEV", "RMA"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Barcelona", "code": "BAR", "teamType": "club" }, "played": 37, "wins": 31, "draws": 1, "losses": 5, "gf": 94, "ga": 33, "gd": 61, "pts": 94 },
+        { "rank": 2, "team": { "name": "Real Madrid", "code": "RMA", "teamType": "club" }, "played": 37, "wins": 26, "draws": 5, "losses": 6, "gf": 73, "ga": 33, "gd": 40, "pts": 83 },
+        { "rank": 3, "team": { "name": "Villarreal", "code": "VIL", "teamType": "club" }, "played": 37, "wins": 21, "draws": 6, "losses": 10, "gf": 67, "ga": 45, "gd": 22, "pts": 69 },
+        { "rank": 4, "team": { "name": "Atletico Madrid", "code": "ATM", "teamType": "club" }, "played": 37, "wins": 21, "draws": 6, "losses": 10, "gf": 61, "ga": 39, "gd": 22, "pts": 69 },
+        { "rank": 5, "team": { "name": "Real Betis", "code": "BET", "teamType": "club" }, "played": 37, "wins": 14, "draws": 15, "losses": 8, "gf": 57, "ga": 47, "gd": 10, "pts": 57 },
+        { "rank": 6, "team": { "name": "Celta Vigo", "code": "CEL", "teamType": "club" }, "played": 37, "wins": 13, "draws": 12, "losses": 12, "gf": 52, "ga": 48, "gd": 4, "pts": 51 },
+        { "rank": 7, "team": { "name": "Getafe", "code": "GET", "teamType": "club" }, "played": 37, "wins": 14, "draws": 6, "losses": 17, "gf": 31, "ga": 38, "gd": -7, "pts": 48 },
+        { "rank": 8, "team": { "name": "Rayo Vallecano", "code": "RAY", "teamType": "club" }, "played": 37, "wins": 11, "draws": 14, "losses": 12, "gf": 39, "ga": 43, "gd": -4, "pts": 47 },
+        { "rank": 9, "team": { "name": "Valencia", "code": "VAL", "teamType": "club" }, "played": 37, "wins": 12, "draws": 10, "losses": 15, "gf": 43, "ga": 54, "gd": -11, "pts": 46 },
+        { "rank": 10, "team": { "name": "Real Sociedad", "code": "RSO", "teamType": "club" }, "played": 37, "wins": 11, "draws": 12, "losses": 14, "gf": 58, "ga": 60, "gd": -2, "pts": 45 },
+        { "rank": 11, "team": { "name": "Espanyol", "code": "ESP", "teamType": "club" }, "played": 37, "wins": 12, "draws": 9, "losses": 16, "gf": 42, "ga": 54, "gd": -12, "pts": 45 },
+        { "rank": 12, "team": { "name": "Athletic Bilbao", "code": "ATH", "teamType": "club" }, "played": 37, "wins": 13, "draws": 6, "losses": 18, "gf": 41, "ga": 54, "gd": -13, "pts": 45 },
+        { "rank": 13, "team": { "name": "Sevilla", "code": "SEV", "teamType": "club" }, "played": 37, "wins": 12, "draws": 7, "losses": 18, "gf": 46, "ga": 59, "gd": -13, "pts": 43 },
+        { "rank": 14, "team": { "name": "Alaves", "code": "ALA", "teamType": "club" }, "played": 37, "wins": 11, "draws": 10, "losses": 16, "gf": 43, "ga": 54, "gd": -11, "pts": 43 },
+        { "rank": 15, "team": { "name": "Levante", "code": "LEV", "teamType": "club" }, "played": 37, "wins": 11, "draws": 9, "losses": 17, "gf": 46, "ga": 59, "gd": -13, "pts": 42 },
+        { "rank": 16, "team": { "name": "Osasuna", "code": "OSA", "teamType": "club" }, "played": 37, "wins": 11, "draws": 9, "losses": 17, "gf": 44, "ga": 49, "gd": -5, "pts": 42 },
+        { "rank": 17, "team": { "name": "Elche", "code": "ELC", "teamType": "club" }, "played": 37, "wins": 10, "draws": 12, "losses": 15, "gf": 48, "ga": 56, "gd": -8, "pts": 42 },
+        { "rank": 18, "team": { "name": "Girona", "code": "GIR", "teamType": "club" }, "played": 37, "wins": 9, "draws": 13, "losses": 15, "gf": 38, "ga": 54, "gd": -16, "pts": 40 },
+        { "rank": 19, "team": { "name": "Real Mallorca", "code": "MLL", "teamType": "club" }, "played": 37, "wins": 10, "draws": 9, "losses": 18, "gf": 44, "ga": 57, "gd": -13, "pts": 39 },
+        { "rank": 20, "team": { "name": "Real Oviedo", "code": "OVI", "teamType": "club" }, "played": 37, "wins": 6, "draws": 11, "losses": 20, "gf": 26, "ga": 57, "gd": -31, "pts": 29 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D71920"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Vòng 38: khép mùa LaLiga",
+      "subtext": "Hai trận cuối của Sevilla và Real Madrid",
+      "voiceText": "Vòng cuối, Sevilla làm khách của Celta Vigo, còn Real Madrid trở về Bernabeu gặp Athletic Bilbao. Với Sevilla, mục tiêu lớn nhất là trụ hạng đã xong.",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "activeTab": "TRẬN ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "ctaLabel": "NEXT FIXTURES",
+      "fixtures": [
+        {
+          "group": "LaLiga",
+          "date": "23/05",
+          "time": "21:00",
+          "home": { "name": "Celta Vigo", "code": "CEL", "teamType": "club" },
+          "away": { "name": "Sevilla", "code": "SEV", "teamType": "club" }
+        },
+        {
+          "group": "LaLiga",
+          "date": "23/05",
+          "time": "21:00",
+          "home": { "name": "Real Madrid", "code": "RMA", "teamType": "club" },
+          "away": { "name": "Athletic Bilbao", "code": "ATH", "teamType": "club" }
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D71920"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Courtois hay Vinícius là MVP?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Theo bạn, MVP trận này là Vinícius với bàn thắng quyết định, hay Courtois với sáu pha cứu thua? Comment lựa chọn của bạn và follow để xem nhanh vòng cuối LaLiga.",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#D71920",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sky Sports lineups and match summary",
+      "url": "https://www.skysports.com/football/sevilla-vs-real-madrid/teams/536333"
+    },
+    {
+      "name": "Sky Sports LaLiga table after match",
+      "url": "https://www.skysports.com/football/sevilla-vs-real-madrid/table/536333"
+    },
+    {
+      "name": "AS USA live summary and commentary",
+      "url": "https://en.as.com/soccer/sevilla-vs-real-madrid-live-online-score-stats-goals-updates-laliga-202526-f202605-n/"
+    },
+    {
+      "name": "AS match report",
+      "url": "https://as.com/futbol/primera/cumple-el-madrid-se-salva-el-sevilla-f202605-n/"
+    },
+    {
+      "name": "Europa Press match sheet, stats and fixtures",
+      "url": "https://www.europapress.es/deportes/estadisticas-deportivas/noticia-sevilla-real-madrid-resumen-goles-resultado-partido-hoy-20260517205826.html"
+    },
+    {
+      "name": "Sofascore match stats and player notes",
+      "url": "https://www.sofascore.com/news/sevilla-0-1-real-madrid-vinicius-jr-seals-laliga-win"
+    },
+    {
+      "name": "ESPN Vinícius Júnior profile image",
+      "url": "https://www.espn.com/football/player/_/id/252107/vinicius-junior"
+    }
+  ]
+}

@@ -49,6 +49,7 @@ npm install
   - Sau đó trong storyboard, mỗi scene có thể set `omnivoiceRefPreset` (ví dụ: `"hype"`).
 - Chạy OmniVoice server (xem `omnivoice_server/README.md`), mặc định `http://127.0.0.1:8001`.
 - Chỉnh cấu hình trong `src/config.js` (khối `config.omnivoice`).
+- Nếu tạo voice nhiều scene quá nhanh làm audio có lỗi nhỏ, chỉnh `config.omnivoice.sceneDelayMs` để nghỉ giữa các lần gọi OmniVoice (mặc định `2000` ms).
 
 ### Cài đặt OmniVoice server (Windows / PowerShell)
 

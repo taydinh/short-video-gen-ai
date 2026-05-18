@@ -24,6 +24,8 @@ export async function generateTTS(storyboard, outputDir) {
   const extension = config.omnivoice?.outputFormat || "wav";
   const omnivoiceDefaultRefPath = resolvePath(getDefaultOmniVoiceRefAudioPath());
   const omnivoiceEnhance = config.omnivoice?.enhance || {};
+  const omnivoiceSceneDelayMs = normalizeDelayMs(config.omnivoice?.sceneDelayMs);
+  let hasCalledOmniVoice = false;
 
   let canUseOmniVoice = !!config.omnivoice?.enabled;
   if (canUseOmniVoice) {
@@ -68,7 +70,12 @@ export async function generateTTS(storyboard, outputDir) {
       try {
         const { preset, refAudioPath } = resolveOmniVoiceRefForScene(scene, omnivoiceDefaultRefPath);
         logger.info(`     Ref preset: ${preset} (${refAudioPath})`);
+        if (hasCalledOmniVoice && omnivoiceSceneDelayMs > 0) {
+          logger.info(`     Waiting ${formatDelay(omnivoiceSceneDelayMs)} before next OmniVoice request...`);
+          await sleep(omnivoiceSceneDelayMs);
+        }
         logger.info(`     Trying OmniVoice...`);
+        hasCalledOmniVoice = true;
         const ttsResult = await callOmniVoiceTTS(text, audioPath, refAudioPath);
         const actualPath = ttsResult || audioPath;
         if (existsSync(actualPath) && (await getAudioDuration(actualPath)) > 0.5) {
@@ -453,6 +460,20 @@ async function callGoogleTTS(text, outputPath) {
 function resolvePath(p) {
   if (!p) return "";
   return path.isAbsolute(p) ? p : path.resolve(process.cwd(), p);
+}
+
+function normalizeDelayMs(value) {
+  const ms = Number(value);
+  return Number.isFinite(ms) && ms > 0 ? Math.round(ms) : 0;
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function formatDelay(ms) {
+  if (ms < 1000) return `${ms}ms`;
+  return `${(ms / 1000).toFixed(ms % 1000 === 0 ? 0 : 1)}s`;
 }
 
 async function safeReadText(res) {

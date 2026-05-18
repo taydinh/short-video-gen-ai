@@ -51,6 +51,9 @@ export const config = {
     },
     // Optional post-speedup on Node side (ffmpeg). 1.0 = no change.
     speed: 1.0,
+    // Delay between OmniVoice scene requests to keep local generation stable.
+    // Increase this if generated voices contain small glitches when scenes are processed too quickly.
+    sceneDelayMs: 2000,
     timeout: 120000,
   },
 

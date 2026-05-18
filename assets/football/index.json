@@ -1161,9 +1161,14 @@
       "kind": "club",
       "competition": "laliga",
       "name": "Athletic Club Bilbao",
-      "aliases": [],
+      "aliases": [
+        "Athletic Bilbao",
+        "Athletic Club",
+        "Athletic Club Bilbao",
+        "Athletic Bilbao Club"
+      ],
       "codes": {
-        "short": ""
+        "short": "ATH"
       },
       "badge": {
         "type": "logo",
