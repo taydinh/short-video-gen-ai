@@ -1,0 +1,417 @@
+{
+  "title": "Real Sociedad 3-4 Valencia: Javi Guerra kết liễu màn rượt đuổi điên rồ",
+  "slug": "real-sociedad-3-4-valencia-laliga-result-2026-05-17",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "VALENCIA LỘI NGƯỢC PHÚT BÙ GIỜ!",
+      "subtext": "Real Sociedad 3-4 Valencia CF",
+      "voiceText": "Valencia thắng Real Sociedad bốn ba tại Reale Arena trong trận cầu bảy bàn. Javi Guerra lập cú đúp, Guido Rodríguez gỡ hòa phút tám mươi chín, rồi Guerra kết liễu trận đấu ở phút chín mươi cộng ba.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#0067B1",
+      "secondaryAccentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "competitionLabel": "LaLiga EA Sports",
+      "stage": "Vòng 37",
+      "venue": "Reale Arena",
+      "date": "18.05.2026",
+      "time": "00:00",
+      "teams": [
+        { "name": "Real Sociedad", "code": "RSO", "teamType": "club", "form": ["L", "D", "D", "L", "L", "W"] },
+        { "name": "Valencia CF", "code": "VAL", "teamType": "club", "form": ["W", "L", "D", "W", "L", "D"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FF6B00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "LaLiga",
+      "tournamentName": "LaLiga EA Sports",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "2025-26 | Matchweek 37",
+      "ctaLabel": "Full-time",
+      "voiceText": "Bảy bàn, thẻ đỏ và cú đấm phút bù giờ.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/laliga.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FF6B00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Real Sociedad 3-4 Valencia CF",
+      "subtext": "Valencia ghi hai bàn sau phút 89 dù chơi thiếu người.",
+      "voiceText": "Full time: Real Sociedad ba, Valencia bốn. Aihen Muñoz mở tỉ số sớm, nhưng Javi Guerra và Hugo Duro giúp Valencia dẫn lại. Chủ nhà vượt lên ba hai trong hiệp hai, trước khi Guido Rodríguez và Javi Guerra tạo cú lật phút cuối.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "competitionLabel": "LaLiga EA Sports",
+      "minute": "FT",
+      "score": [3, 4],
+      "teams": [
+        { "name": "Real Sociedad", "code": "RSO", "teamType": "club" },
+        { "name": "Valencia CF", "code": "VAL", "teamType": "club" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 },
+        { "type": "football-scorebug", "teams": ["RSO", "VAL"], "score": [3, 4], "minute": "FT", "label": "Reale Arena" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Real Sociedad xuất phát với Remiro, bộ tứ Elustondo, Zubeldia, Jon Martín, Aihen Muñoz, còn Óskarsson đá cao nhất. Valencia dùng Dimitrievski trong khung gỗ, Tárrega đeo băng đội trưởng, Javi Guerra hỗ trợ Hugo Duro trên hàng công.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Reale Arena",
+      "teams": [
+        { "name": "Real Sociedad", "code": "RSO", "teamType": "club" },
+        { "name": "Valencia CF", "code": "VAL", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-4-2",
+          "players": [
+            "Álex Remiro",
+            "Aritz Elustondo",
+            "Igor Zubeldia",
+            "Jon Martín",
+            "Aihen Muñoz",
+            "Carlos Soler",
+            "Beñat Turrientes",
+            "Brais Méndez",
+            "Pablo Marín",
+            "Arsen Zakharyan",
+            "Orri Óskarsson"
+          ]
+        },
+        "away": {
+          "formation": "4-4-1-1",
+          "players": [
+            "Stole Dimitrievski",
+            "Unai Núñez",
+            "César Tárrega",
+            "Eray Cömert",
+            "Jesús Vázquez",
+            "Diego López",
+            "Filip Ugrinic",
+            "Guido Rodríguez",
+            "Luis Rioja",
+            "Javi Guerra",
+            "Hugo Duro"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FF6B00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Javi Guerra định đoạt trận đấu",
+      "subtext": "Cú đúp cho Valencia",
+      "voiceText": "Javi Guerra là người tạo khác biệt lớn nhất. Anh ghi bàn phút tám, rồi xuất hiện ở phút chín mươi cộng ba để biến một điểm thành ba điểm cho Valencia.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "player": "Javi Guerra",
+      "team": "Valencia CF",
+      "number": "8",
+      "playerImageUrl":"https://www.valenciacf.com/public/Image/2025/8/javiguerraweb.png",
+      "stats": [
+        { "label": "Bàn thắng", "value": "2" },
+        { "label": "Phút ghi bàn", "value": "8 & 90+3", "unit": "'" },
+        { "label": "Sút trúng đích", "value": "2" },
+        { "label": "Điểm nhấn", "value": "Bàn thắng quyết định" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FF6B00"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Ba lần đổi chiều và cú kết thúc phút bù giờ",
+      "voiceText": "Trận đấu nổ tung ngay từ đầu với bàn của Aihen Muñoz, Javi Guerra và Hugo Duro trong hai mươi hai phút đầu. Real Sociedad dẫn lại ba hai sau bàn phản lưới của Tárrega và pha lập công của Óskarsson. Nhưng dù Cömert nhận thẻ đỏ, Valencia vẫn ghi hai bàn cuối trận để thắng bốn ba.",
+      "duration": 10,
+      "bgColor": "#111827",
+      "accentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "3'", "title": "1-0: Aihen Muñoz", "desc": "Real Sociedad khởi đầu cực nhanh và vượt lên ngay những phút đầu." },
+        { "minute": "8'", "title": "1-1: Javi Guerra", "desc": "Diego López kiến tạo, Guerra kéo Valencia trở lại trận đấu." },
+        { "minute": "22'", "title": "1-2: Hugo Duro", "desc": "Eray Cömert kiến tạo để Hugo Duro đưa đội khách dẫn ngược." },
+        { "minute": "60'", "title": "2-2: Tárrega phản lưới", "desc": "Real Sociedad gỡ hòa sau tình huống phản lưới của đội trưởng Valencia." },
+        { "minute": "63'", "title": "3-2: Orri Óskarsson", "desc": "Oyarzabal kiến tạo, Óskarsson dứt điểm đưa chủ nhà dẫn lại." },
+        { "minute": "70'", "title": "Valencia còn 10 người", "desc": "Eray Cömert nhận thẻ đỏ trực tiếp." },
+        { "minute": "89'", "title": "3-3: Guido Rodríguez", "desc": "André Almeida tạt bóng, Guido Rodríguez đánh đầu gỡ hòa." },
+        { "minute": "90+3'", "title": "3-4: Javi Guerra", "desc": "Thierry Correia phản công và kiến tạo để Guerra ghi bàn quyết định." },
+        { "minute": "90+9'", "title": "FT", "desc": "Hết trận: Real Sociedad 3-4 Valencia CF." }
+      ],
+      "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Valencia lạnh hơn ở khoảnh khắc cuối",
+      "subtext": "Ít bóng hơn nhưng tạo nhiều cú sút hơn",
+      "voiceText": "Real Sociedad kiểm soát bóng năm mươi lăm phần trăm, nhưng Valencia tung ra mười ba cú sút, sáu lần trúng đích. Đội chủ nhà chỉ có tám cú sút, ba lần trúng đích và bỏ lỡ ba cơ hội lớn.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [3, 4],
+      "teams": [
+        { "name": "Real Sociedad", "code": "RSO", "teamType": "club" },
+        { "name": "Valencia CF", "code": "VAL", "teamType": "club" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 55, "away": 45, "unit": "%" },
+            { "label": "Cú sút", "home": 8, "away": 13 },
+            { "label": "Sút trúng đích", "home": 3, "away": 6 },
+            { "label": "Cơ hội lớn bỏ lỡ", "home": 3, "away": 2 },
+            { "label": "Phạt góc", "home": 3, "away": 2 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FF6B00"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Valencia vượt Real Sociedad",
+      "subtext": "BXH LaLiga sau vòng 37",
+      "voiceText": "Ba điểm đưa Valencia lên thứ chín với bốn mươi sáu điểm. Real Sociedad đứng thứ mười với bốn mươi lăm điểm, chỉ hơn nhóm bám sau nhờ hiệu số.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["RSO", "VAL"],
+      "standings": [
+        { "rank": 5, "team": { "name": "Real Betis", "code": "BET", "teamType": "club" }, "played": 37, "wins": 14, "draws": 15, "losses": 8, "gf": 57, "ga": 47, "gd": 10, "pts": 57 },
+        { "rank": 6, "team": { "name": "Celta Vigo", "code": "CEL", "teamType": "club" }, "played": 37, "wins": 13, "draws": 12, "losses": 12, "gf": 52, "ga": 48, "gd": 4, "pts": 51 },
+        { "rank": 7, "team": { "name": "Getafe", "code": "GET", "teamType": "club" }, "played": 37, "wins": 14, "draws": 6, "losses": 17, "gf": 31, "ga": 38, "gd": -7, "pts": 48 },
+        { "rank": 8, "team": { "name": "Rayo Vallecano", "code": "RAY", "teamType": "club" }, "played": 37, "wins": 11, "draws": 14, "losses": 12, "gf": 39, "ga": 43, "gd": -4, "pts": 47 },
+        { "rank": 9, "team": { "name": "Valencia CF", "code": "VAL", "teamType": "club" }, "played": 37, "wins": 12, "draws": 10, "losses": 15, "gf": 43, "ga": 54, "gd": -11, "pts": 46 },
+        { "rank": 10, "team": { "name": "Real Sociedad", "code": "RSO", "teamType": "club" }, "played": 37, "wins": 11, "draws": 12, "losses": 14, "gf": 58, "ga": 60, "gd": -2, "pts": 45 },
+        { "rank": 11, "team": { "name": "Espanyol", "code": "ESP", "teamType": "club" }, "played": 37, "wins": 12, "draws": 9, "losses": 16, "gf": 42, "ga": 54, "gd": -12, "pts": 45 },
+        { "rank": 12, "team": { "name": "Athletic Club", "code": "ATH", "teamType": "club" }, "played": 37, "wins": 13, "draws": 6, "losses": 18, "gf": 41, "ga": 54, "gd": -13, "pts": 45 },
+        { "rank": 13, "team": { "name": "Sevilla", "code": "SEV", "teamType": "club" }, "played": 37, "wins": 12, "draws": 7, "losses": 18, "gf": 46, "ga": 59, "gd": -13, "pts": 43 },
+        { "rank": 14, "team": { "name": "Alaves", "code": "ALA", "teamType": "club" }, "played": 37, "wins": 11, "draws": 10, "losses": 16, "gf": 43, "ga": 54, "gd": -11, "pts": 43 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FF6B00"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Vòng cuối: giữ vị trí nửa trên",
+      "subtext": "Lịch đấu kế tiếp",
+      "voiceText": "Vòng ba mươi tám, Real Sociedad làm khách Espanyol. Valencia khép lại mùa giải bằng trận sân khách trước Athletic Club, với mục tiêu giữ vị trí nửa trên bảng xếp hạng.",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "activeTab": "TRẬN ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "ctaLabel": "NEXT FIXTURES",
+      "fixtures": [
+        {
+          "group": "LaLiga EA Sports",
+          "date": "24/05",
+          "time": "TBD",
+          "home": { "name": "Espanyol", "code": "ESP", "teamType": "club" },
+          "away": { "name": "Real Sociedad", "code": "RSO", "teamType": "club" }
+        },
+        {
+          "group": "LaLiga EA Sports",
+          "date": "24/05",
+          "time": "TBD",
+          "home": { "name": "Athletic Club", "code": "ATH", "teamType": "club" },
+          "away": { "name": "Valencia CF", "code": "VAL", "teamType": "club" }
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FF6B00"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Trận LaLiga điên nhất vòng?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Theo bạn, Real Sociedad tự đánh rơi trận đấu hay Valencia xứng đáng với màn lội ngược dòng này? Comment cảm nghĩ và follow để cập nhật nhanh vòng cuối LaLiga.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#FF6B00",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sky Sports teams and match sheet",
+      "url": "https://www.skysports.com/football/real-sociedad-vs-valencia/teams/536332"
+    },
+    {
+      "name": "Sky Sports match stats",
+      "url": "https://www.skysports.com/football/real-sociedad-vs-valencia/stats/536332"
+    },
+    {
+      "name": "Sky Sports LaLiga table after match",
+      "url": "https://www.skysports.com/football/real-sociedad-vs-valencia/table/536332"
+    },
+    {
+      "name": "Caracol live commentary and goals",
+      "url": "https://caracol.com.co/resultados/futbol/primera/2025_2026/directo/regular_a_37_68644b776ec5179/"
+    },
+    {
+      "name": "Sofascore match details",
+      "url": "https://www.sofascore.com/football/match/valencia-real-sociedad/zgbsDgb"
+    },
+    {
+      "name": "ESPN Real Sociedad fixtures",
+      "url": "https://www.espn.com/football/team/fixtures/_/id/89/real-sociedad"
+    },
+    {
+      "name": "The Guardian LaLiga fixtures",
+      "url": "https://www.theguardian.com/football/laligafootball/fixtures"
+    }
+  ]
+}

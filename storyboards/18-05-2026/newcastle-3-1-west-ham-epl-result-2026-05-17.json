@@ -1,0 +1,422 @@
+{
+  "title": "Newcastle 3-1 West Ham: Osula lập cú đúp, Hammers sát bờ xuống hạng",
+  "slug": "newcastle-3-1-west-ham-epl-result-2026-05-17",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "OSULA NHẤN CHÌM WEST HAM!",
+      "subtext": "Newcastle United 3-1 West Ham United",
+      "voiceText": "Newcastle thắng West Ham ba một tại St James' Park. Nick Woltemade mở tỉ số, Will Osula lập cú đúp, còn West Ham rơi vào thế cực khó trong cuộc đua trụ hạng Premier League.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#241F20",
+      "secondaryAccentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "St James' Park",
+      "date": "17.05.2026",
+      "time": "23:30",
+      "teams": [
+        { "name": "Newcastle United", "code": "NEW", "teamType": "club", "form": ["D", "W", "L", "L", "L", "W"] },
+        { "name": "West Ham United", "code": "WHU", "teamType": "club", "form": ["L", "L", "W", "D", "W", "L"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#7A263A"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "2025-26 | Matchweek 37",
+      "ctaLabel": "Full-time",
+      "voiceText": "Kết quả, đội hình và điểm nhấn trong 60 giây.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#7A263A"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Newcastle United 3-1 West Ham United",
+      "subtext": "Hai bàn trong bốn phút đầu trận khiến West Ham sụp nhịp.",
+      "voiceText": "Full time: Newcastle ba, West Ham một. Woltemade ghi bàn phút mười lăm, Osula nhân đôi cách biệt phút mười chín rồi hoàn tất cú đúp ở phút sáu mươi lăm.",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "minute": "FT",
+      "score": [3, 1],
+      "teams": ["Newcastle United", "West Ham United"],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 },
+        { "type": "football-scorebug", "teams": ["NEW", "WHU"], "score": [3, 1], "minute": "FT", "label": "St James' Park" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Newcastle xuất phát với Pope trong khung gỗ, Trippier đá trận sân nhà cuối cùng, còn bộ ba Barnes, Woltemade, Ramsey hỗ trợ Osula. West Ham dùng hàng thủ năm người, với Callum Wilson đá cao nhất và Bowen đeo băng đội trưởng.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "St James' Park",
+      "teams": [
+        { "name": "Newcastle United", "code": "NEW", "teamType": "club" },
+        { "name": "West Ham United", "code": "WHU", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Nick Pope",
+            "Kieran Trippier",
+            "Malick Thiaw",
+            "Sven Botman",
+            "Lewis Hall",
+            "Bruno Guimarães",
+            "Sandro Tonali",
+            "Harvey Barnes",
+            "Nick Woltemade",
+            "Jacob Ramsey",
+            "William Osula"
+          ]
+        },
+        "away": {
+          "formation": "5-2-2-1",
+          "players": [
+            "Mads Hermansen",
+            "Aaron Wan-Bissaka",
+            "Konstantinos Mavropanos",
+            "Axel Disasi",
+            "Jean-Clair Todibo",
+            "El Hadji Malick Diouf",
+            "Mateus Fernandes",
+            "Tomáš Souček",
+            "Jarrod Bowen",
+            "Crysencio Summerville",
+            "Callum Wilson"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#7A263A"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "William Osula bùng nổ",
+      "subtext": "Cú đúp tại St James' Park",
+      "voiceText": "William Osula là nhân vật chính. Anh ghi hai bàn, liên tục kéo giãn hàng thủ West Ham và được Sofascore chấm cao nhất trận với điểm chín phẩy hai.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "player": "William Osula",
+      "team": "Newcastle United",
+      "number": "18",
+      "playerImageUrl": "https://images.ctfassets.net/9ec6988xevcz/4LHBW6mXzp3vFGn8rGYKQl/9a0ff3285a1016228901aa5af81388e0/William_Osula_Home_2400.png?w=1200&h=630",
+      "stats": [
+        { "label": "Bàn thắng", "value": "2" },
+        { "label": "Phút ghi bàn", "value": "19 & 65", "unit": "'" },
+        { "label": "Cú sút", "value": "3" },
+        { "label": "Sofascore", "value": "9.2" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#7A263A"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Newcastle đánh nhanh, West Ham trả giá vì sai lầm",
+      "voiceText": "Diễn biến chính nằm gọn trong hai cú đánh đầu trận: Woltemade mở tỉ số từ đường căng của Barnes, Osula nâng lên hai không sau đường chọc khe của Ramsey. Sang hiệp hai, Willock kiến tạo cho Osula ghi bàn thứ ba trước khi Castellanos rút ngắn.",
+      "duration": 10,
+      "bgColor": "#111827",
+      "accentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "12'", "title": "VAR: không penalty", "desc": "Newcastle đòi phạt đền sau bóng chạm tay Souček, nhưng trọng tài cho trận đấu tiếp tục." },
+        { "minute": "15'", "title": "1-0: Nick Woltemade", "desc": "Barnes cướp thời cơ từ lỗi triển khai của West Ham rồi căng ngang cho Woltemade ghi bàn." },
+        { "minute": "19'", "title": "2-0: William Osula", "desc": "Ramsey chọc khe, Osula thoát xuống và dứt điểm gọn gàng." },
+        { "minute": "26'", "title": "Castellanos vào sân", "desc": "West Ham thay Todibo, đưa Castellanos vào để tăng sức công." },
+        { "minute": "53'", "title": "Willock thay Tonali", "desc": "Newcastle mất Tonali vì chấn thương, nhưng người vào thay tạo ảnh hưởng ngay sau đó." },
+        { "minute": "65'", "title": "3-0: Osula lập cú đúp", "desc": "Joe Willock kiến tạo, Osula dứt điểm quyết đoán." },
+        { "minute": "69'", "title": "3-1: Valentín Castellanos", "desc": "Hermansen phát bóng dài, Castellanos xử lý và ghi bàn danh dự cho West Ham." },
+        { "minute": "80'", "title": "West Ham nhận thẻ", "desc": "Kanté nhận thẻ vàng, sau các thẻ của Souček và Diouf." },
+        { "minute": "83'", "title": "Lewis Hall nhận thẻ", "desc": "Newcastle có thẻ vàng duy nhất của trận." },
+        { "minute": "90+4'", "title": "FT", "desc": "Hết trận: Newcastle United 3-1 West Ham United." }
+      ],
+      "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Newcastle sắc hơn trong hai vòng cấm",
+      "subtext": "West Ham sút trúng đích nhiều hơn nhưng không cứu được trận",
+      "voiceText": "Thông số cho thấy West Ham không thiếu cú sút: hai đội cùng có mười lăm pha dứt điểm, West Ham sút trúng đích tám lần. Nhưng Newcastle kiểm soát bóng năm mươi sáu phần trăm, thắng góc chín một và xG nhỉnh hơn rõ rệt.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [3, 1],
+      "teams": ["Newcastle United", "West Ham United"],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 56, "away": 44, "unit": "%" },
+            { "label": "Cú sút", "home": 15, "away": 15 },
+            { "label": "Sút trúng đích", "home": 7, "away": 8 },
+            { "label": "xG", "home": 1.7, "away": 0.88 },
+            { "label": "Phạt góc", "home": 9, "away": 1 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#7A263A"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "West Ham sát mép Championship",
+      "subtext": "BXH Premier League sau trận đấu",
+      "voiceText": "Newcastle lên thứ mười một với bốn mươi chín điểm. West Ham vẫn đứng thứ mười tám với ba mươi sáu điểm, kém Tottenham hai điểm và còn hiệu số thua xa trước vòng cuối.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["NEW", "WHU"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 36, "wins": 24, "draws": 7, "losses": 5, "gf": 68, "ga": 26, "gd": 42, "pts": 79 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 37, "wins": 19, "draws": 11, "losses": 7, "gf": 66, "ga": 50, "gd": 16, "pts": 68 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton & Hove Albion", "code": "BHA", "teamType": "club" }, "played": 37, "wins": 14, "draws": 11, "losses": 12, "gf": 52, "ga": 43, "gd": 9, "pts": 53 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 54, "ga": 51, "gd": 3, "pts": 52 },
+        { "rank": 9, "team": { "name": "Sunderland", "code": "SUN", "teamType": "club" }, "played": 37, "wins": 13, "draws": 12, "losses": 12, "gf": 40, "ga": 47, "gd": -7, "pts": 51 },
+        { "rank": 10, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 55, "ga": 49, "gd": 6, "pts": 49 },
+        { "rank": 11, "team": { "name": "Newcastle United", "code": "NEW", "teamType": "club" }, "played": 37, "wins": 14, "draws": 7, "losses": 16, "gf": 53, "ga": 53, "gd": 0, "pts": 49 },
+        { "rank": 12, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 37, "wins": 13, "draws": 10, "losses": 14, "gf": 47, "ga": 49, "gd": -2, "pts": 49 },
+        { "rank": 13, "team": { "name": "Fulham", "code": "FUL", "teamType": "club" }, "played": 37, "wins": 14, "draws": 7, "losses": 16, "gf": 45, "ga": 51, "gd": -6, "pts": 49 },
+        { "rank": 14, "team": { "name": "Leeds United", "code": "LEE", "teamType": "club" }, "played": 37, "wins": 11, "draws": 14, "losses": 12, "gf": 49, "ga": 53, "gd": -4, "pts": 47 },
+        { "rank": 15, "team": { "name": "Crystal Palace", "code": "CRY", "teamType": "club" }, "played": 37, "wins": 11, "draws": 12, "losses": 14, "gf": 40, "ga": 49, "gd": -9, "pts": 45 },
+        { "rank": 16, "team": { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }, "played": 37, "wins": 11, "draws": 10, "losses": 16, "gf": 47, "ga": 50, "gd": -3, "pts": 43 },
+        { "rank": 17, "team": { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club" }, "played": 36, "wins": 9, "draws": 11, "losses": 16, "gf": 46, "ga": 55, "gd": -9, "pts": 38 },
+        { "rank": 18, "team": { "name": "West Ham United", "code": "WHU", "teamType": "club" }, "played": 37, "wins": 9, "draws": 9, "losses": 19, "gf": 43, "ga": 65, "gd": -22, "pts": 36 },
+        { "rank": 19, "team": { "name": "Burnley", "code": "BUR", "teamType": "club" }, "played": 36, "wins": 4, "draws": 9, "losses": 23, "gf": 37, "ga": 73, "gd": -36, "pts": 21 },
+        { "rank": 20, "team": { "name": "Wolverhampton Wanderers", "code": "WOL", "teamType": "club" }, "played": 37, "wins": 3, "draws": 10, "losses": 24, "gf": 26, "ga": 67, "gd": -41, "pts": 19 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#7A263A"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Vòng 38: West Ham còn một cửa hẹp",
+      "subtext": "Lịch đấu cuối mùa",
+      "voiceText": "Vòng cuối, Newcastle làm khách Fulham, còn West Ham buộc phải thắng Leeds tại London Stadium và chờ Tottenham sảy chân ở hai trận còn lại.",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "activeTab": "TRẬN ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "ctaLabel": "NEXT FIXTURES",
+      "fixtures": [
+        {
+          "group": "Premier League",
+          "date": "24/05",
+          "time": "22:00",
+          "home": { "name": "Fulham", "code": "FUL", "teamType": "club" },
+          "away": { "name": "Newcastle United", "code": "NEW", "teamType": "club" }
+        },
+        {
+          "group": "Premier League",
+          "date": "24/05",
+          "time": "22:00",
+          "home": { "name": "West Ham United", "code": "WHU", "teamType": "club" },
+          "away": { "name": "Leeds United", "code": "LEE", "teamType": "club" }
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#7A263A"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "West Ham còn thoát được không?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Theo bạn, West Ham còn cơ hội trụ hạng sau thất bại này không? Comment dự đoán và follow để cập nhật nhanh vòng cuối Premier League.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#7A263A",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sky Sports teams and match sheet",
+      "url": "https://www.skysports.com/football/newcastle-united-vs-west-ham-united/teams/531497"
+    },
+    {
+      "name": "Sky Sports match report",
+      "url": "https://www.skysports.com/football/newcastle-united-vs-west-ham-united/report/531497"
+    },
+    {
+      "name": "Sky Sports Premier League table after match",
+      "url": "https://www.skysports.com/football/newcastle-united-vs-west-ham-united/table/531497"
+    },
+    {
+      "name": "Sofascore match stats and ratings",
+      "url": "https://www.sofascore.com/news/newcastle-3-1-west-ham-osulas-brace-sofascore-rating"
+    },
+    {
+      "name": "Sports Mole confirmed starting lineups",
+      "url": "https://www.sportsmole.co.uk/football/newcastle-united/transfer-talk/news/newcastle-vs-west-ham-confirmed-xis-gordon-decision-made-amid-transfer-rumours_597738.html"
+    },
+    {
+      "name": "Newcastle United official fixtures",
+      "url": "https://www.newcastleunited.com/en/matches/mens-team/fixtures/premier-league"
+    },
+    {
+      "name": "Sky Sports West Ham fixtures",
+      "url": "https://www.skysports.com/west-ham-united-fixtures/feed"
+    }
+  ]
+}
