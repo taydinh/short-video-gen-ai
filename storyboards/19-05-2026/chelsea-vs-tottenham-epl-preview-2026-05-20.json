@@ -1,0 +1,241 @@
+{
+  "title": "Chelsea vs Tottenham (EPL): Derby London và lằn ranh sinh tồn",
+  "slug": "chelsea-vs-tottenham-epl-preview-2026-05-20",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "DERBY LONDON CĂNG NHƯ DÂY ĐÀN!",
+      "subtext": "Chelsea vs Tottenham",
+      "voiceText": "Stamford Bridge chuẩn bị cho một trận derby London cực căng! Chelsea tiếp Tottenham ở vòng ba mươi bảy Premier League, lúc 2 giờ 15 sáng ngày 20 tháng 5.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "secondaryAccentColor": "#132257",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "Stamford Bridge",
+      "date": "20.05.2026",
+      "time": "02:15",
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club", "form": ["L", "D", "L", "L", "L", "L"] },
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "form": ["D", "W", "W", "L", "D", "L"], "badgeBackgroundColor": "#ffffff", "badgePadding": 12, "badgeBorderRadius": 999 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#034694" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchweek 37 Preview",
+      "seasonLabel": "2025-26 | London Derby",
+      "ctaLabel": "Kickoff 02:15",
+      "voiceText": "Chelsea cần cứu mùa giải. Tottenham chỉ còn cách mục tiêu trụ hạng một cú bứt phá.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#034694" }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Chelsea có thể chuyển sang ba bốn hai một: Sanchez bắt chính, Fofana, Chalobah và Hato án ngữ phía sau, Palmer cùng Neto hỗ trợ Delap. Tottenham dự kiến dùng bốn hai ba một, với Kolo Muani, Gallagher và Tel tiếp sức cho Richarlison.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Stamford Bridge",
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club" },
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Sanchez",
+            "Fofana",
+            "Chalobah",
+            "Hato",
+            "Gusto",
+            "Caicedo",
+            "Fernandez",
+            "Cucurella",
+            "Palmer",
+            "Neto",
+            "Delap"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Kinsky",
+            "Porro",
+            "Danso",
+            "Van de Ven",
+            "Udogie",
+            "Bentancur",
+            "Palhinha",
+            "Kolo Muani",
+            "Gallagher",
+            "Tel",
+            "Richarlison"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#034694" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "10 trận gần nhất",
+      "voiceText": "Lịch sử đang nghiêng hẳn về Chelsea: mười lần gặp gần nhất, The Blues thắng tám, hòa một và chỉ thua một. Lượt đi mùa này, Chelsea thắng một không ngay trên sân Tottenham.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club", "form": [] },
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "form": [] }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "10 trận", "Thắng", "Hòa", "Thua", "Bàn"],
+        "rows": [
+          { "teamName": "Chelsea", "scoreText": "10", "x12": "8", "hdp": "1", "ou": "1", "htHdp": "17" },
+          { "teamName": "Tottenham", "scoreText": "10", "x12": "1", "hdp": "1", "ou": "8", "htHdp": "8" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "01/11/2025", "competition": "EPL", "home": "Tottenham", "away": "Chelsea", "score": "0-1" },
+        { "kickoff": "03/04/2025", "competition": "EPL", "home": "Chelsea", "away": "Tottenham", "score": "1-0" },
+        { "kickoff": "08/12/2024", "competition": "EPL", "home": "Tottenham", "away": "Chelsea", "score": "3-4" },
+        { "kickoff": "02/05/2024", "competition": "EPL", "home": "Chelsea", "away": "Tottenham", "score": "2-0" },
+        { "kickoff": "06/11/2023", "competition": "EPL", "home": "Tottenham", "away": "Chelsea", "score": "1-4" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#034694" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Chelsea giữ lợi thế lịch sử, nhưng Tottenham bước vào trận này với động lực sinh tồn rõ ràng hơn.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Từ thông tin trước trận",
+      "imageSrc": "assets/live-commentator-cat.png",
+      "quoteImageAlt": "Bình luận viên trực tiếp tại sân vận động",
+      "liveLabel": "Live tại Stamford Bridge",
+      "voiceText": "Chelsea vừa thua chung kết FA Cup và đã bảy trận liền không thắng ở Premier League. Tottenham lại bất bại bốn vòng gần nhất, nhưng danh sách chấn thương quá dài khiến chuyến làm khách này vẫn đầy rủi ro.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#034694" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh trước trận",
+      "subtext": "Premier League 2025-26",
+      "voiceText": "Trước trận, Chelsea có bốn mươi chín điểm sau ba mươi sáu vòng và vẫn bám cuộc đua châu Âu. Tottenham đứng thứ mười bảy với ba mươi tám điểm, chỉ hơn nhóm nguy hiểm hai điểm, nên từng điểm ở Stamford Bridge đều rất nặng.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["CHE", "TOT"],
+      "standings": [
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton", "code": "BHA", "teamType": "club" }, "played": 36, "wins": 14, "draws": 11, "losses": 11, "gf": 52, "ga": 42, "gd": 10, "pts": 53 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 36, "wins": 14, "draws": 9, "losses": 13, "gf": 52, "ga": 49, "gd": 3, "pts": 51 },
+        { "rank": 9, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 46, "ga": 46, "gd": 0, "pts": 49 },
+        { "rank": 10, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 36, "wins": 13, "draws": 10, "losses": 13, "gf": 55, "ga": 49, "gd": 6, "pts": 49 },
+        { "rank": 11, "team": { "name": "Fulham", "code": "FUL", "teamType": "club" }, "played": 36, "wins": 14, "draws": 6, "losses": 16, "gf": 44, "ga": 50, "gd": -6, "pts": 48 },
+        { "rank": 12, "team": { "name": "Sunderland", "code": "SUN", "teamType": "club" }, "played": 36, "wins": 12, "draws": 12, "losses": 12, "gf": 37, "ga": 46, "gd": -9, "pts": 48 },
+        { "rank": 13, "team": { "name": "Newcastle United", "code": "NEW", "teamType": "club" }, "played": 36, "wins": 13, "draws": 7, "losses": 16, "gf": 50, "ga": 52, "gd": -2, "pts": 46 },
+        { "rank": 14, "team": { "name": "Leeds United", "code": "LEE", "teamType": "club" }, "played": 36, "wins": 10, "draws": 14, "losses": 12, "gf": 48, "ga": 53, "gd": -5, "pts": 44 },
+        { "rank": 15, "team": { "name": "Crystal Palace", "code": "CRY", "teamType": "club" }, "played": 36, "wins": 11, "draws": 11, "losses": 14, "gf": 38, "ga": 47, "gd": -9, "pts": 44 },
+        { "rank": 16, "team": { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }, "played": 36, "wins": 11, "draws": 10, "losses": 15, "gf": 45, "ga": 47, "gd": -2, "pts": 43 },
+        { "rank": 17, "team": { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club" }, "played": 36, "wins": 9, "draws": 11, "losses": 16, "gf": 46, "ga": 55, "gd": -9, "pts": 38 },
+        { "rank": 18, "team": { "name": "West Ham United", "code": "WHU", "teamType": "club" }, "played": 36, "wins": 9, "draws": 9, "losses": 18, "gf": 42, "ga": 62, "gd": -20, "pts": 36 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#034694" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Chelsea giữ vía derby hay Spurs thoát hiểm?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "voiceText": "Bạn nghiêng về Chelsea với cái duyên đối đầu tại Stamford Bridge, hay Tottenham sẽ lấy điểm để tiến gần tấm vé trụ hạng? Hãy để lại tỉ số bên dưới và follow để cập nhật những tin nóng mới nhất về bóng đá Anh.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "⚽",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sports Mole preview, team news and predicted lineups",
+      "url": "https://www.sportsmole.co.uk/football/chelsea/relegation-battle/preview/chelsea-vs-spurs-prediction-team-news-lineups_597718.html"
+    },
+    {
+      "name": "Sports Mole injury list and predicted XIs",
+      "url": "https://www.sportsmole.co.uk/football/chelsea/relegation-battle/team-news/chelsea-vs-spurs-injury-suspension-list-predicted-xis_597733.html"
+    },
+    {
+      "name": "Opta Analyst match preview and win probability",
+      "url": "https://theanalyst.com/articles/chelsea-vs-tottenham-prediction-premier-league-05-2026"
+    },
+    {
+      "name": "SportsGambler predicted lineups, form, standings and H2H",
+      "url": "https://www.sportsgambler.com/betting-tips/football/chelsea-vs-tottenham-prediction-lineups-odds-2026-05-19/"
+    },
+    {
+      "name": "Spurs Web fixture context and team news",
+      "url": "https://www.spurs-web.com/tottenham-match-previews/chelsea-vs-tottenham-premier-league-preview-team-news-and-predicted-lineups/"
+    }
+  ]
+}

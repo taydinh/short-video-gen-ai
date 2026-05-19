@@ -4556,6 +4556,9 @@ function normalizeFootballTeams(scene) {
       name,
       code: team?.code || name.replace(/[^A-Za-z0-9]/g, "").slice(0, 4).toUpperCase() || (i === 0 ? "HOME" : "AWAY"),
       form: Array.isArray(team?.form) ? team.form.slice(0, 5) : (i === 0 ? ["W", "D", "W"] : ["W", "L", "W"]),
+      badgeBackgroundColor: team?.badgeBackgroundColor || team?.logoBackgroundColor || null,
+      badgePadding: team?.badgePadding ?? team?.logoPadding ?? null,
+      badgeBorderRadius: team?.badgeBorderRadius ?? team?.logoBorderRadius ?? null,
       ...badge,
     };
   });
@@ -5393,6 +5396,17 @@ function footballTeamCard(team, accent, side) {
   const accentColor = accent || "#F7C948";
   const accentSoft = hexToRgba(accentColor, 0.24);
   const accentBorder = hexToRgba(accentColor, 0.34);
+  const badgeStyleParts = [];
+  if (team.badgeBackgroundColor) badgeStyleParts.push(`background:${escapeHtmlAttr(team.badgeBackgroundColor)}`);
+  if (team.badgePadding) {
+    const padding = typeof team.badgePadding === "number" ? `${team.badgePadding}px` : String(team.badgePadding);
+    badgeStyleParts.push(`padding:${escapeHtmlAttr(padding)}`, "box-sizing:border-box");
+  }
+  if (team.badgeBorderRadius) {
+    const radius = typeof team.badgeBorderRadius === "number" ? `${team.badgeBorderRadius}px` : String(team.badgeBorderRadius);
+    badgeStyleParts.push(`border-radius:${escapeHtmlAttr(radius)}`);
+  }
+  const badgeStyle = badgeStyleParts.length ? ` style="${badgeStyleParts.join(";")}"` : "";
   const dots = (team.form || []).slice(0, 5).map((result) => {
     const color = String(result).toUpperCase().startsWith("W")
       ? "#34D399"
@@ -5404,8 +5418,8 @@ function footballTeamCard(team, accent, side) {
 
   const badgeClass = team.badgeType === "national" ? "football-team-badge-flag" : "football-team-badge-logo";
   const badgeHtml = team.badgeSrc
-    ? `<img class="football-team-badge ${badgeClass}" src="${escapeHtmlAttr(team.badgeSrc)}" alt="${escapeHtmlAttr(team.name)}" />`
-    : `<div class="football-team-badge placeholder ${badgeClass}"></div>`;
+    ? `<img class="football-team-badge ${badgeClass}" src="${escapeHtmlAttr(team.badgeSrc)}" alt="${escapeHtmlAttr(team.name)}"${badgeStyle} />`
+    : `<div class="football-team-badge placeholder ${badgeClass}"${badgeStyle}></div>`;
 
   return `
     <div class="football-team-card football-team-${side}" style="--team-accent:${accentColor}; --team-accent-soft:${accentSoft}; border-color:${accentBorder};">

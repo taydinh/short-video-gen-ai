@@ -7,14 +7,14 @@
  *   node src/index.js {storyboard.json}
  */
 
-import { readFileSync, existsSync } from "fs";
-import path from "path";
 import { pipeline } from "./pipeline.js";
+import { regenerateVoice } from "./regenerate-voice.js";
 import { logger } from "./utils/logger.js";
 
-const arg = process.argv[2];
+const command = process.argv[2];
+const arg = process.argv[3];
 
-if (!arg) {
+if (!command) {
   console.log(`
 ╔══════════════════════════════════════════════════════╗
 ║         Short Video Gen AI - Powered by LMStudio     ║
@@ -23,6 +23,7 @@ if (!arg) {
 ║    node src/index.js {url}                           ║
 ║    node src/index.js {file.md}                       ║
 ║    node src/index.js {storyboard.json}               ║
+║    node src/index.js regen-voice {outputDir}         ║
 ╠══════════════════════════════════════════════════════╣
 ║  Config: src/config.js                               ║
 ║  Output: output/{dd-mm-yyyy}-{slug}/                 ║
@@ -32,12 +33,17 @@ if (!arg) {
 }
 
 logger.info(`🎬 Short Video Gen AI Starting...`);
-logger.info(`📥 Input: ${arg}`);
 
 try {
-  await pipeline(arg);
+  if (command === "regen-voice" || command === "regenerate-voice") {
+    logger.info(`📥 Output dir: ${arg}`);
+    await regenerateVoice(arg);
+  } else {
+    logger.info(`📥 Input: ${command}`);
+    await pipeline(command);
+  }
 } catch (err) {
-  logger.error(`❌ Pipeline failed: ${err.message}`);
+  logger.error(`Command failed: ${err.message}`);
   if (process.env.DEBUG) console.error(err);
   process.exit(1);
 }

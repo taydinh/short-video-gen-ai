@@ -41,6 +41,8 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
   if (backgroundMusic) {
     logger.info(`  Background music: ${backgroundMusic.src} (${Math.round(backgroundMusic.volume * 100)}%)`);
   }
+  const masterVolume = resolveMasterVolume();
+  logger.info(`  Master audio volume: ${Math.round(masterVolume * 100)}%`);
 
   try {
     // Create silence base
@@ -75,7 +77,7 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
       + (backgroundMusic ? "[bg]" : "");
     const numInputs = scenesWithAudio.length + 1 + (backgroundMusic ? 1 : 0);
 
-    const mixFilter = `${mixInputs}amix=inputs=${numInputs}:duration=longest:normalize=0,volume=1[amix]`;
+    const mixFilter = `${mixInputs}amix=inputs=${numInputs}:duration=longest:normalize=0,volume=${masterVolume},alimiter=limit=0.95[amix]`;
 
     const filterComplex = [...delayFilters, backgroundFilter, mixFilter].filter(Boolean).join(";");
 
@@ -132,4 +134,10 @@ function resolveBackgroundMusic() {
   const volume = Number.isFinite(rawVolume) ? Math.max(0, Math.min(rawVolume, 1)) : 0.3;
 
   return { src, volume };
+}
+
+function resolveMasterVolume() {
+  const rawVolume = Number(config.video?.masterVolume);
+  if (!Number.isFinite(rawVolume)) return 1;
+  return Math.max(0.1, Math.min(rawVolume, 3));
 }

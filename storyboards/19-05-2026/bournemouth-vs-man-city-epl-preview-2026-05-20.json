@@ -1,0 +1,248 @@
+{
+  "title": "Bournemouth vs Man City: Đêm sinh tử của cuộc đua vô địch",
+  "slug": "bournemouth-vs-man-city-epl-preview-2026-05-20",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "CITY KHÔNG CÒN ĐƯỜNG LÙI!",
+      "subtext": "Bournemouth vs Manchester City",
+      "voiceText": "Vitality Stadium lên đèn cho một trận đấu cực căng! Bournemouth tiếp Manchester City lúc 1 giờ 30 sáng ngày 20 tháng 5, trong đêm có thể định đoạt cuộc đua vô địch Premier League.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#6C1D45",
+      "secondaryAccentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "Vitality Stadium",
+      "date": "20.05.2026",
+      "time": "01:30",
+      "teams": [
+        { "name": "Bournemouth", "code": "BOU", "teamType": "club", "form": ["D", "W", "W", "D", "W", "W"] },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club", "form": ["W", "W", "W", "D", "W", "W"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchweek 37 Preview",
+      "seasonLabel": "2025-26 | Title Race",
+      "ctaLabel": "Kickoff 01:30",
+      "voiceText": "Man City buộc phải thắng để bám Arsenal. Bournemouth thì đang bay cao và vẫn mơ vé châu Âu.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#6CABDD" }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Bournemouth dự kiến đá bốn hai ba một với Petrovic trong khung gỗ, Adams và Scott ở giữa sân, còn Rayan, Kroupi, Tavernier hỗ trợ Evanilson. Manchester City cũng có thể dùng bốn hai ba một: Donnarumma bắt chính, Rodri trở lại tuyến giữa, Cherki, Semenyo và Doku tiếp đạn cho Haaland.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Vitality Stadium",
+      "teams": [
+        { "name": "Bournemouth", "code": "BOU", "teamType": "club" },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Petrovic",
+            "Smith",
+            "Hill",
+            "Senesi",
+            "Truffert",
+            "Adams",
+            "Scott",
+            "Rayan",
+            "Kroupi",
+            "Tavernier",
+            "Evanilson"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Donnarumma",
+            "Nunes",
+            "Khusanov",
+            "Guehi",
+            "O'Reilly",
+            "Silva",
+            "Rodri",
+            "Semenyo",
+            "Cherki",
+            "Doku",
+            "Haaland"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "Premier League",
+      "voiceText": "Lịch sử nghiêng hẳn về Manchester City: họ thắng mười sáu trong mười bảy lần gặp Bournemouth tại Premier League. Nhưng lần gần nhất Man City làm khách ở Vitality, Bournemouth đã thắng hai - một.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "teams": [
+        { "name": "Bournemouth", "code": "BOU", "teamType": "club", "form": [] },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club", "form": [] }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "PL H2H", "Thắng", "Hòa", "Thua", "Ghi chú"],
+        "rows": [
+          { "teamName": "Bournemouth", "scoreText": "17", "x12": "1", "hdp": "0", "ou": "16", "htHdp": "Thắng sân nhà 2-1" },
+          { "teamName": "Manchester City", "scoreText": "17", "x12": "16", "hdp": "0", "ou": "1", "htHdp": "Áp đảo lịch sử" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "02/11/2025", "competition": "EPL", "home": "Manchester City", "away": "Bournemouth", "score": "3-1" },
+        { "kickoff": "20/05/2025", "competition": "EPL", "home": "Manchester City", "away": "Bournemouth", "score": "3-1" },
+        { "kickoff": "02/11/2024", "competition": "EPL", "home": "Bournemouth", "away": "Manchester City", "score": "2-1" },
+        { "kickoff": "24/02/2024", "competition": "EPL", "home": "Bournemouth", "away": "Manchester City", "score": "0-1" },
+        { "kickoff": "04/11/2023", "competition": "EPL", "home": "Manchester City", "away": "Bournemouth", "score": "6-1" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Semenyo trở lại Vitality trong vai người có thể giữ Manchester City sống sót ở cuộc đua vô địch.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Từ thông tin trước trận",
+      "imageSrc": "assets/live-commentator-cat.png",
+      "quoteImageAlt": "Bình luận viên trực tiếp tại sân vận động",
+      "liveLabel": "Live tại Vitality",
+      "voiceText": "Điểm nóng là Antoine Semenyo. Anh vừa ghi bàn quyết định ở chung kết FA Cup, và giờ trở lại Vitality trong màu áo Man City, trước đội bóng cũ đang có chuỗi bất bại dài nhất giải.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh trước trận",
+      "subtext": "Premier League 2025-26",
+      "voiceText": "Bối cảnh rất rõ: Arsenal đang hơn Man City năm điểm, nên Guardiola không còn đường lùi. Bournemouth đứng trong nhóm đua châu Âu, chỉ cần thêm một cú hích để biến mùa giải này thành lịch sử.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["BOU", "MCI"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 37, "wins": 25, "draws": 7, "losses": 5, "gf": 69, "ga": 26, "gd": 43, "pts": 82 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 37, "wins": 18, "draws": 12, "losses": 7, "gf": 64, "ga": 49, "gd": 15, "pts": 66 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton", "code": "BHA", "teamType": "club" }, "played": 37, "wins": 14, "draws": 12, "losses": 11, "gf": 53, "ga": 43, "gd": 10, "pts": 54 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 53, "ga": 50, "gd": 3, "pts": 52 },
+        { "rank": 9, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 57, "ga": 50, "gd": 7, "pts": 52 },
+        { "rank": 10, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 37, "wins": 13, "draws": 11, "losses": 13, "gf": 47, "ga": 47, "gd": 0, "pts": 50 },
+        { "rank": 11, "team": { "name": "Fulham", "code": "FUL", "teamType": "club" }, "played": 37, "wins": 14, "draws": 6, "losses": 17, "gf": 44, "ga": 51, "gd": -7, "pts": 48 },
+        { "rank": 12, "team": { "name": "Sunderland", "code": "SUN", "teamType": "club" }, "played": 37, "wins": 12, "draws": 12, "losses": 13, "gf": 37, "ga": 48, "gd": -11, "pts": 48 },
+        { "rank": 13, "team": { "name": "Newcastle United", "code": "NEW", "teamType": "club" }, "played": 37, "wins": 13, "draws": 8, "losses": 16, "gf": 51, "ga": 53, "gd": -2, "pts": 47 },
+        { "rank": 14, "team": { "name": "Leeds United", "code": "LEE", "teamType": "club" }, "played": 37, "wins": 11, "draws": 14, "losses": 12, "gf": 50, "ga": 54, "gd": -4, "pts": 47 },
+        { "rank": 15, "team": { "name": "Crystal Palace", "code": "CRY", "teamType": "club" }, "played": 37, "wins": 11, "draws": 12, "losses": 14, "gf": 39, "ga": 48, "gd": -9, "pts": 45 },
+        { "rank": 16, "team": { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }, "played": 37, "wins": 11, "draws": 11, "losses": 15, "gf": 46, "ga": 48, "gd": -2, "pts": 44 },
+        { "rank": 17, "team": { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club" }, "played": 37, "wins": 9, "draws": 12, "losses": 16, "gf": 47, "ga": 56, "gd": -9, "pts": 39 },
+        { "rank": 18, "team": { "name": "West Ham United", "code": "WHU", "teamType": "club" }, "played": 37, "wins": 9, "draws": 9, "losses": 19, "gf": 42, "ga": 64, "gd": -22, "pts": 36 },
+        { "rank": 19, "team": { "name": "Burnley", "code": "BUR", "teamType": "club" }, "played": 37, "wins": 4, "draws": 9, "losses": 24, "gf": 37, "ga": 74, "gd": -37, "pts": 21 },
+        { "rank": 20, "team": { "name": "Wolverhampton Wanderers", "code": "WOL", "teamType": "club" }, "played": 37, "wins": 3, "draws": 10, "losses": 24, "gf": 26, "ga": 67, "gd": -41, "pts": 19 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#6CABDD" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "City sống tiếp hay Arsenal mở tiệc?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "voiceText": "Bạn nghĩ Man City sẽ kéo cuộc đua vô địch tới vòng cuối, hay Bournemouth lại khiến cả Premier League rung chuyển? Để lại tỉ số của bạn và follow để cập nhật bóng đá Anh mới nhất.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "⚽",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 5.2 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sports Mole preview, team news and predicted lineups",
+      "url": "https://www.sportsmole.co.uk/football/man-city/title-race/preview/bournemouth-vs-man-city-prediction-team-news-lineups_597717.html"
+    },
+    {
+      "name": "SportsGambler predicted lineups, form, odds and table",
+      "url": "https://www.sportsgambler.com/betting-tips/football/bournemouth-vs-manchester-city-prediction-lineups-odds-2026-05-19/"
+    },
+    {
+      "name": "Opta Analyst match preview and win probability",
+      "url": "https://theanalyst.com/articles/bournemouth-vs-man-city-prediction-premier-league-05-2026"
+    },
+    {
+      "name": "Sports Illustrated preview, predictions and lineups",
+      "url": "https://www.si.com/soccer/bournemouth-vs-man-city-preview-predictions-and-lineups-5-19-26"
+    },
+    {
+      "name": "NBC Sports live info, team news and prediction",
+      "url": "https://www.nbcsports.com/soccer/news/how-to-watch-bournemouth-vs-manchester-city-live-stream-tv-channel-team-news-prediction"
+    }
+  ]
+}

@@ -72,8 +72,7 @@ pip install torch torchaudio
 
 3) Cài dependencies cho server
 ```powershell
-pip install -r .\omnivoice_server\requirements.txt --no-deps
-pip install fastapi uvicorn[standard] soundfile numpy omnivoice
+pip install -r .\omnivoice_server\requirements.txt
 ```
 
 4) Chạy server
@@ -146,6 +145,21 @@ npm start -- output/05-06-2024-my-video/storyboard.json
 ```bash
 node run.js example-storyboard.json
 ```
+
+### Tạo lại voice cho video đã xuất
+Khi voice bị lỗi nhưng video đã render xong, truyền vào thư mục output cũ:
+
+```bash
+npm run regen-voice -- output/19-05-2026-storyboards-19-05-2026-chelsea-vs-tottenham-epl-pr
+```
+
+Hoặc dùng runner:
+
+```bash
+node run.js regen-voice output/19-05-2026-storyboards-19-05-2026-chelsea-vs-tottenham-epl-pr
+```
+
+Lệnh này đọc `storyboard-timed.json`, tạo lại toàn bộ `audio/`, rồi ghép vào `video-upscaled-2k.mp4` nếu có, fallback sang `video-raw.mp4`. Audio cũ được chuyển sang `audio-backup-*`, video final cũ được backup thành `*.voice-backup-*.mp4`.
 
 ---
 

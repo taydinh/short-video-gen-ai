@@ -20,6 +20,9 @@ export async function generateTTS(storyboard, outputDir) {
   if (!existsSync(audioDir)) mkdirSync(audioDir, { recursive: true });
 
   const results = [];
+  const scenes = Array.isArray(storyboard.scenes) ? storyboard.scenes : [];
+  const lastSceneIndex = scenes.length - 1;
+  const finalSceneSilenceSeconds = 1;
 
   const extension = config.omnivoice?.outputFormat || "wav";
   const omnivoiceDefaultRefPath = resolvePath(getDefaultOmniVoiceRefAudioPath());
@@ -51,11 +54,36 @@ export async function generateTTS(storyboard, outputDir) {
     }
   }
 
-  for (const scene of storyboard.scenes) {
+  const pushAudioResult = async (scene, index, result) => {
+    if (index !== lastSceneIndex) {
+      results.push(result);
+      return;
+    }
+
+    const originalDuration = Number(result.duration || scene.duration || 0);
+    const baseDuration = Number.isFinite(originalDuration) && originalDuration > 0 ? originalDuration : 0;
+
+    if (result.audioPath && existsSync(result.audioPath)) {
+      const appendedPath = await appendSilenceToAudio(result.audioPath, finalSceneSilenceSeconds);
+      const duration = appendedPath
+        ? await getAudioDuration(appendedPath)
+        : baseDuration + finalSceneSilenceSeconds;
+
+      logger.info(`     ⏱️ Final scene: added ${finalSceneSilenceSeconds.toFixed(1)}s silence (${duration.toFixed(2)}s total)`);
+      results.push({ ...result, audioPath: appendedPath || result.audioPath, duration });
+      return;
+    }
+
+    logger.info(`     ⏱️ Final scene: extending duration by ${finalSceneSilenceSeconds.toFixed(1)}s silence`);
+    results.push({ ...result, duration: baseDuration + finalSceneSilenceSeconds });
+  };
+
+  for (let i = 0; i < scenes.length; i++) {
+    const scene = scenes[i];
     const text = normalizeVoiceTextForTTS(scene.voiceText);
     if (!text || text.trim() === "") {
       logger.warn(`Scene ${scene.id}: no voiceText, skipping TTS`);
-      results.push({ sceneId: scene.id, audioPath: null, duration: scene.duration || 3 });
+      await pushAudioResult(scene, i, { sceneId: scene.id, audioPath: null, duration: scene.duration || 3 });
       continue;
     }
 
@@ -87,7 +115,7 @@ export async function generateTTS(storyboard, outputDir) {
           const finalDuration = await getAudioDuration(enhancedPath);
 
           logger.info(`     ✅ OmniVoice success: ${finalDuration.toFixed(2)}s (speed: ${config.omnivoice?.speed || 1})`);
-          results.push({ sceneId: scene.id, audioPath: enhancedPath, duration: finalDuration });
+          await pushAudioResult(scene, i, { sceneId: scene.id, audioPath: enhancedPath, duration: finalDuration });
           success = true;
         } else {
           logger.warn(`     OmniVoice returned invalid audio`);
@@ -112,7 +140,7 @@ export async function generateTTS(storyboard, outputDir) {
 
           duration = await getAudioDuration(finalPath);
           logger.info(`     ✅ Google TTS success: ${duration.toFixed(2)}s (speed: ${speedFactor})`);
-          results.push({ sceneId: scene.id, audioPath: finalPath, duration });
+          await pushAudioResult(scene, i, { sceneId: scene.id, audioPath: finalPath, duration });
           success = true;
         } else {
           logger.warn(`     Google TTS returned invalid audio`);
@@ -126,7 +154,7 @@ export async function generateTTS(storyboard, outputDir) {
     if (!success) {
       logger.warn(`     ⚠️  All TTS failed, using silent audio placeholder`);
       await createSilentAudio(audioPath, duration);
-      results.push({ sceneId: scene.id, audioPath, duration });
+      await pushAudioResult(scene, i, { sceneId: scene.id, audioPath, duration });
     }
   }
 
@@ -561,6 +589,40 @@ async function createSilentAudio(outputPath, durationSeconds) {
     for (let i = 44; i < buf.length; i++) buf[i] = 0;
     writeFileSync(outputPath, buf);
   }
+}
+
+async function appendSilenceToAudio(audioPath, silenceSeconds) {
+  if (!audioPath || !existsSync(audioPath)) return null;
+
+  const seconds = Number(silenceSeconds);
+  if (!Number.isFinite(seconds) || seconds <= 0) return audioPath;
+
+  const parsedPath = path.parse(audioPath);
+  const outputPath = path.join(parsedPath.dir, `${parsedPath.name}_tail_silence${parsedPath.ext}`);
+  const ext = (parsedPath.ext || "").toLowerCase();
+  const isMp3 = ext === ".mp3";
+  const codecArgs = isMp3
+    ? `-c:a libmp3lame -q:a 2`
+    : `-c:a pcm_s16le -ar 44100 -ac 2`;
+  const filterGraph = `[0:a]aresample=44100,aformat=sample_fmts=s16:channel_layouts=stereo[a0];` +
+    `anullsrc=r=44100:cl=stereo:d=${seconds.toFixed(3)}[silence];` +
+    `[a0][silence]concat=n=2:v=0:a=1[out]`;
+
+  try {
+    execSync(
+      `ffmpeg -i "${audioPath}" -filter_complex "${filterGraph}" -map "[out]" ${codecArgs} "${outputPath}" -y`,
+      { timeout: 30000, stdio: "pipe" }
+    );
+
+    if (existsSync(outputPath)) {
+      try { unlinkSync(audioPath); } catch { }
+      return outputPath;
+    }
+  } catch (err) {
+    logger.warn(`       Append final silence failed: ${err.message}`);
+  }
+
+  return null;
 }
 
 // Helper function to speed up audio (alias for backwards compatibility)

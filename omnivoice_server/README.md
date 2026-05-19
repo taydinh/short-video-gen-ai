@@ -17,7 +17,7 @@ python -m venv .venv
 pip install -r omnivoice_server/requirements.txt
 ```
 
-Install the correct PyTorch build for your CUDA version if needed (see PyTorch official instructions).
+`requirements.txt` pins `omnivoice==0.1.5`, the latest stable upstream release checked on 2026-05-19. Install the correct PyTorch build for your CUDA version if needed (see PyTorch official instructions).
 
 ## 3) Run server
 

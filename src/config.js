@@ -88,8 +88,11 @@ export const config = {
     backgroundMusic: {
       enabled: true,
       src: "assets/audio/stadium-background-music.mp3",
-      volume: 0.18,
+      volume: 0.14,
     },
+
+    // Final gain applied after voice + background music are mixed.
+    masterVolume: 1.25,
 
     // Background layer (rendered in root index.html)
     background: {

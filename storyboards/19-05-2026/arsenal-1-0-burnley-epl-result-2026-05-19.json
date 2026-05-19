@@ -1,0 +1,362 @@
+{
+  "title": "Arsenal 1-0 Burnley: Havertz đưa Pháo thủ chạm tay vào ngôi vương",
+  "slug": "arsenal-1-0-burnley-epl-result-2026-05-19",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ARSENAL THẮNG TỐI THIỂU!",
+      "subtext": "Arsenal 1-0 Burnley",
+      "voiceText": "Arsenal vượt qua Burnley một không tại Emirates. Kai Havertz ghi bàn duy nhất phút ba mươi bảy, giúp Pháo thủ nới cách biệt với Man City lên năm điểm sau vòng ba mươi bảy.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#EF0107",
+      "secondaryAccentColor": "#FDB913",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "Emirates Stadium",
+      "date": "19.05.2026",
+      "time": "02:00",
+      "teams": [
+        { "name": "Arsenal", "code": "ARS", "teamType": "club", "form": ["W", "W", "W", "D", "W", "L"] },
+        { "name": "Burnley", "code": "BUR", "teamType": "club", "form": ["L", "D", "L", "L", "L", "L"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FDB913"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "2025-26 | Matchweek 37",
+      "ctaLabel": "Full-time",
+      "voiceText": "Một bàn là đủ. Arsenal tiến sát chức vô địch.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FDB913"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Arsenal 1-0 Burnley",
+      "subtext": "Havertz ghi bàn từ đường kiến tạo của Saka.",
+      "voiceText": "Full time: Arsenal một, Burnley không. Havertz mở tỉ số phút ba mươi bảy sau pha kiến tạo của Bukayo Saka. Burnley phòng ngự lì lợm, nhưng không có cú sút trúng đích nào.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "minute": "FT",
+      "score": [1, 0],
+      "teams": [
+        { "name": "Arsenal", "code": "ARS", "teamType": "club" },
+        { "name": "Burnley", "code": "BUR", "teamType": "club" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 },
+        { "type": "football-scorebug", "teams": ["ARS", "BUR"], "score": [1, 0], "minute": "FT", "label": "Emirates Stadium" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Arsenal dùng Raya trong khung gỗ, bộ tứ Mosquera, Saliba, Gabriel, Calafiori, còn Saka, Havertz và Trossard đá phía trên. Burnley xuất phát với Weiss, Walker, Tuanzebe, Esteve, Pires, cùng Flemming lĩnh xướng hàng công.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Emirates Stadium",
+      "teams": [
+        { "name": "Arsenal", "code": "ARS", "teamType": "club" },
+        { "name": "Burnley", "code": "BUR", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "David Raya",
+            "Cristhian Mosquera",
+            "William Saliba",
+            "Gabriel",
+            "Riccardo Calafiori",
+            "Martin Odegaard",
+            "Declan Rice",
+            "Eberechi Eze",
+            "Bukayo Saka",
+            "Kai Havertz",
+            "Leandro Trossard"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Max Weiss",
+            "Kyle Walker",
+            "Axel Tuanzebe",
+            "Maxime Esteve",
+            "Lucas Pires",
+            "Florentino Luis",
+            "Lesley Ugochukwu",
+            "Loum Tchaouna",
+            "Hannibal Mejbri",
+            "Jaidon Anthony",
+            "Zian Flemming"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FDB913"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Havertz tạo khác biệt",
+      "subtext": "Bàn thắng quyết định phút 37",
+      "voiceText": "Kai Havertz là người định đoạt trận đấu. Anh ghi bàn phút ba mươi bảy từ đường chuyền của Saka, rồi Arsenal bảo toàn lợi thế cho tới tiếng còi mãn cuộc.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "player": "Kai Havertz",
+      "team": "Arsenal",
+      "number": "29",
+      "playerImageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fdabef71-85e5-4ab8-acd2-5afa63dbbaa0/di19nbi-b54d162a-c53f-4d10-af37-7ebedb01f553.png/v1/fill/w_358,h_655/kai_havertz_render_by_shadowdee16_di19nbi-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU1IiwicGF0aCI6Ii9mL2ZkYWJlZjcxLTg1ZTUtNGFiOC1hY2QyLTVhZmE2M2RiYmFhMC9kaTE5bmJpLWI1NGQxNjJhLWM1M2YtNGQxMC1hZjM3LTdlYmVkYjAxZjU1My5wbmciLCJ3aWR0aCI6Ijw9MzU4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.I-VkPO3-pwWcaL6y6MRwRQ8DiS1DJvUkX2iocagVpPc",
+      "stats": [
+        { "label": "Bàn thắng", "value": "1" },
+        { "label": "Phút ghi bàn", "value": "37", "unit": "'" },
+        { "label": "Kiến tạo", "value": "Bukayo Saka" },
+        { "label": "Điểm nhấn", "value": "Bàn thắng duy nhất" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FDB913"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Arsenal kiểm soát, Burnley chịu trận",
+      "voiceText": "Burnley câu giờ sớm và nhận thẻ vàng phút hai mươi tám. Arsenal phá thế bế tắc phút ba mươi bảy, khi Saka kiến tạo để Havertz ghi bàn. Sang hiệp hai, Pháo thủ thay người để giữ nhịp, còn Burnley không tạo nổi cú sút trúng đích.",
+      "duration": 9,
+      "bgColor": "#111827",
+      "accentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "28'", "title": "Mejbri nhận thẻ", "desc": "Burnley bị phạt thẻ vàng vì câu giờ trong hiệp một." },
+        { "minute": "37'", "title": "1-0: Kai Havertz", "desc": "Bukayo Saka kiến tạo, Havertz ghi bàn duy nhất cho Arsenal." },
+        { "minute": "67'", "title": "Havertz nhận thẻ", "desc": "Tiền đạo Arsenal bị phạt thẻ vàng sau một pha phạm lỗi." },
+        { "minute": "70'-73'", "title": "Hai đội thay người", "desc": "Burnley đưa Amdouni, Laurent vào sân; Arsenal dùng Hincapie, Gyokeres và Lewis-Skelly." },
+        { "minute": "90+1'", "title": "Flemming nhận thẻ", "desc": "Burnley tiếp tục bị phạt trong những phút bù giờ." },
+        { "minute": "90+9'", "title": "FT", "desc": "Hết trận: Arsenal 1-0 Burnley." }
+      ],
+      "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Arsenal thắng bằng sự chắc chắn",
+      "subtext": "Burnley không có cú sút trúng đích",
+      "voiceText": "Arsenal kiểm soát bóng sáu mươi mốt phẩy một phần trăm, tung mười ba cú sút và ba lần trúng đích. Burnley chỉ có năm cú sút, không lần nào đi trúng khung thành của David Raya.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [1, 0],
+      "teams": [
+        { "name": "Arsenal", "code": "ARS", "teamType": "club" },
+        { "name": "Burnley", "code": "BUR", "teamType": "club" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 61.1, "away": 38.9, "unit": "%" },
+            { "label": "xG", "home": 1.03, "away": 0.21 },
+            { "label": "Cú sút", "home": 13, "away": 5 },
+            { "label": "Sút trúng đích", "home": 3, "away": 0 },
+            { "label": "Phạt góc", "home": 3, "away": 3 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FDB913"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Arsenal hơn Man City 5 điểm",
+      "subtext": "BXH Premier League sau trận Arsenal - Burnley",
+      "voiceText": "Chiến thắng đưa Arsenal lên tám mươi hai điểm sau ba mươi bảy trận. Man City còn một trận chưa đá và đang kém năm điểm, trong khi Burnley đứng thứ mười chín với hai mươi mốt điểm.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["ARS", "BUR"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 37, "wins": 25, "draws": 7, "losses": 5, "gf": 69, "ga": 26, "gd": 43, "pts": 82 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 37, "wins": 19, "draws": 11, "losses": 7, "gf": 66, "ga": 50, "gd": 16, "pts": 68 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 17, "team": { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club" }, "played": 36, "wins": 9, "draws": 11, "losses": 16, "gf": 46, "ga": 55, "gd": -9, "pts": 38 },
+        { "rank": 18, "team": { "name": "West Ham United", "code": "WHU", "teamType": "club" }, "played": 37, "wins": 9, "draws": 9, "losses": 19, "gf": 43, "ga": 65, "gd": -22, "pts": 36 },
+        { "rank": 19, "team": { "name": "Burnley", "code": "BUR", "teamType": "club" }, "played": 37, "wins": 4, "draws": 9, "losses": 24, "gf": 37, "ga": 74, "gd": -37, "pts": 21 },
+        { "rank": 20, "team": { "name": "Wolverhampton Wanderers", "code": "WOL", "teamType": "club" }, "played": 37, "wins": 3, "draws": 10, "losses": 24, "gf": 26, "ga": 67, "gd": -41, "pts": 19 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#FDB913"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Arsenal đã đủ bản lĩnh?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Một trận thắng không bùng nổ, nhưng cực kỳ quan trọng. Theo bạn, Arsenal đã đủ lạnh để kết thúc cuộc đua vô địch mùa này chưa? Comment cảm nghĩ và follow để cập nhật nhanh Premier League.",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 4.4 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sky Sports teams and match sheet",
+      "url": "https://www.skysports.com/football/arsenal-vs-burnley/teams/531489"
+    },
+    {
+      "name": "Sky Sports match stats",
+      "url": "https://www.skysports.com/football/arsenal-vs-burnley/stats/531489"
+    },
+    {
+      "name": "Sky Sports Premier League table after match",
+      "url": "https://www.skysports.com/football/arsenal-vs-burnley/table/531489"
+    },
+    {
+      "name": "Sofascore match details and event timeline",
+      "url": "https://www.sofascore.com/football/match/arsenal-burnley/gsR"
+    },
+    {
+      "name": "AS USA live summary",
+      "url": "https://en.as.com/soccer/arsenal-vs-burnley-live-online-score-stats-goals-updates-premier-league-202526-f202605-n/"
+    },
+    {
+      "name": "ESPN player headshot: Kai Havertz",
+      "url": "https://a.espncdn.com/i/headshots/soccer/players/full/231182.png"
+    }
+  ]
+}
