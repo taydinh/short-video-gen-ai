@@ -1,0 +1,566 @@
+{
+  "title": "Neymar dự World Cup 2026: Brazil của Ancelotti có đủ sức săn Hexa?",
+  "slug": "neymar-brazil-world-cup-squad-2026-sofascore",
+  "totalDuration": 59,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "NEYMAR ĐI WORLD CUP, NHƯNG BRAZIL CÓ THẬT SỰ ĐÁNG SỢ?",
+      "subtext": "Danh sách 26 cầu thủ Brazil tại World Cup 2026",
+      "voiceText": "Neymar chính thức có tên trong danh sách Brazil dự World Cup 2026. Nhưng câu hỏi lớn hơn là: Ancelotti đang mang tới giải đấu một tập thể đủ sức săn chiếc cúp vàng thứ sáu hay chỉ là một canh bạc cảm xúc?",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#061B12",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1D9A4A",
+      "textColor": "#ffffff",
+      "label": "BRAZIL WORLD CUP 2026",
+      "imageSrc": "assets/storyboards/neymar-brazil-world-cup-2026/scene-1.png",
+      "cardCaption": "Neymar chính thức có tên trong danh sách Brazil. Nhưng Ancelotti đang mở ra hành trình Hexa, hay một canh bạc cảm xúc?",
+      "chips": [
+        "Neymar trở lại",
+        "Ancelotti chốt 26 người",
+        "Rumo ao Hexa"
+      ],
+      "emoji": "🏆",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Brazil Squad",
+      "seasonLabel": "26 convocados | Sofascore News",
+      "ctaLabel": "HEXA WATCH",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Điểm nóng của danh sách",
+      "subtext": "Neymar trở lại, Ancelotti chốt 26 người",
+      "voiceText": "Theo Sofascore, Carlo Ancelotti đã chọn 26 cầu thủ Brazil cho World Cup 2026. Neymar trở lại trong màu áo Santos, đi cùng các thủ lĩnh quen mặt như Alisson, Casemiro và Marquinhos. Brazil không giấu mục tiêu: theo đuổi chiếc cúp thế giới thứ sáu.",
+      "duration": 6,
+      "startTime": 6,
+      "bgColor": "#061B12",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "stats": [
+        {
+          "label": "Danh sách",
+          "value": "26",
+          "unit": "cầu thủ"
+        },
+        {
+          "label": "Neymar",
+          "value": "4",
+          "unit": "World Cup"
+        },
+        {
+          "label": "Mục tiêu",
+          "value": "6",
+          "unit": "sao"
+        },
+        {
+          "label": "HLV",
+          "value": "Ancelotti"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 82
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Neymar: niềm tin hay rủi ro?",
+      "subtext": "Santos | Số 10 | Vua phá lưới lịch sử Brazil",
+      "voiceText": "Neymar là tâm điểm. Anh đã có 13 bàn và 14 kiến tạo trong 31 trận từ khi trở lại bóng đá Brazil, nhưng vẫn được quản lý thể trạng rất kỹ sau nhiều chấn thương. Với 79 bàn cho đội tuyển, kinh nghiệm của Neymar là thứ Brazil khó bỏ qua.",
+      "duration": 7,
+      "startTime": 12,
+      "bgColor": "#061B12",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Neymar",
+      "team": "Brazil / Santos",
+      "number": "10",
+      "playerImageUrl": "https://img.sofascore.com/api/v1/player/124712/image",
+      "stats": [
+        {
+          "label": "Bàn cho Brazil",
+          "value": "79"
+        },
+        {
+          "label": "Mùa 2025/26",
+          "value": "13",
+          "unit": "bàn"
+        },
+        {
+          "label": "Kiến tạo",
+          "value": "14"
+        },
+        {
+          "label": "Số trận",
+          "value": "31"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Bộ xương sống kinh nghiệm",
+      "subtext": "Alisson, Marquinhos, Casemiro",
+      "voiceText": "Bộ khung Brazil vẫn có rất nhiều kinh nghiệm. Alisson bước vào kỳ World Cup thứ ba, mùa này có 17 trận giữ sạch lưới. Marquinhos đã vượt mốc 100 trận cho đội tuyển, còn Casemiro trở lại mạnh mẽ với 42 trận, 4 bàn và 3 kiến tạo cho Manchester United.",
+      "duration": 7,
+      "startTime": 19,
+      "bgColor": "#061B12",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Trục Dọc Brazil",
+      "team": "Alisson - Marquinhos - Casemiro",
+      "number": "BRA",
+      "stats": [
+        {
+          "label": "Alisson",
+          "value": "17",
+          "unit": "clean sheets"
+        },
+        {
+          "label": "Marquinhos",
+          "value": "100+",
+          "unit": "trận ĐTQG"
+        },
+        {
+          "label": "Casemiro",
+          "value": "42",
+          "unit": "trận mùa này"
+        },
+        {
+          "label": "Copa America",
+          "value": "2019"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Kinh nghiệm",
+              "home": 86,
+              "away": 14,
+              "unit": "%"
+            },
+            {
+              "label": "Lãnh đạo",
+              "home": 82,
+              "away": 18,
+              "unit": "%"
+            },
+            {
+              "label": "Ổn định",
+              "home": 78,
+              "away": 22,
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Ancelotti không chỉ chọn tên tuổi",
+      "subtext": "Lớp trẻ chen vào danh sách",
+      "voiceText": "Điểm thú vị là Ancelotti không chỉ dựa vào những cái tên cũ. Wesley, Danilo của Botafogo, Endrick, Igor Thiago và Rayan đều là tín hiệu của một Brazil trẻ hơn. Trong đó Endrick và Rayan mới 20 tuổi, còn Igor Thiago vào danh sách nhờ mùa giải bùng nổ ở Brentford.",
+      "duration": 7,
+      "startTime": 26,
+      "bgColor": "#061B12",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "Endrick",
+          "value": "14 bàn, 6 kiến tạo"
+        },
+        {
+          "label": "Igor Thiago",
+          "value": "17 bàn sau 39 trận"
+        },
+        {
+          "label": "Rayan",
+          "value": "11 bàn, 7 kiến tạo"
+        },
+        {
+          "label": "Wesley",
+          "value": "hậu vệ phải bứt phá"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.28
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Hàng công rất nhiều hỏa lực",
+      "subtext": "Vini Jr, Raphinha, Cunha, Martinelli",
+      "voiceText": "Nếu Neymar là biểu tượng, thì hỏa lực hiện tại nằm ở hai cánh và nhóm tiền đạo. Vini Junior có 24 bàn và 15 kiến tạo. Raphinha còn khủng hơn với 27 bàn, 18 kiến tạo. Matheus Cunha có 18 bàn, còn Martinelli góp 15 bàn và 10 kiến tạo.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#061B12",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "stats": [
+        {
+          "label": "Vini Jr",
+          "value": "24+15",
+          "unit": "G/A"
+        },
+        {
+          "label": "Raphinha",
+          "value": "27+18",
+          "unit": "G/A"
+        },
+        {
+          "label": "Matheus Cunha",
+          "value": "18+9",
+          "unit": "G/A"
+        },
+        {
+          "label": "Martinelli",
+          "value": "15+10",
+          "unit": "G/A"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 3.8,
+          "top": "73%",
+          "size": 90
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Lịch chạy đà của Brazil",
+      "subtext": "Từ Granja Comary tới trận mở màn",
+      "voiceText": "Brazil sẽ hội quân ngày 27 tháng 5 tại Granja Comary. Trước World Cup, họ đá giao hữu với Panama ngày 31 tháng 5 tại Maracana, gặp Ai Cập ngày 6 tháng 6 tại Mỹ, rồi mở màn World Cup ngày 13 tháng 6 trước Morocco ở New York.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#061B12",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "LỊCH",
+      "tabs": [
+        "LỊCH",
+        "ĐỘI HÌNH",
+        "CẦU THỦ",
+        "MỤC TIÊU"
+      ],
+      "ctaLabel": "ROAD TO WC",
+      "fixtures": [
+        {
+          "group": "Hội quân",
+          "date": "27/5",
+          "time": "Teresopolis",
+          "home": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flag": "assets/football/flags/brazil.svg"
+          },
+          "away": {
+            "name": "Granja Comary",
+            "code": "BASE",
+            "teamType": "national"
+          }
+        },
+        {
+          "group": "Giao hữu",
+          "date": "31/5",
+          "time": "Maracana",
+          "home": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flag": "assets/football/flags/brazil.svg"
+          },
+          "away": {
+            "name": "Panama",
+            "code": "PAN",
+            "teamType": "national",
+            "flag": "https://assets.football-logos.cc/logos/panama/1500x1500/panama-national-team.66beecfd.png"
+          }
+        },
+        {
+          "group": "Giao hữu",
+          "date": "06/6",
+          "time": "USA",
+          "home": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flag": "assets/football/flags/brazil.svg"
+          },
+          "away": {
+            "name": "Ai Cập",
+            "code": "EGY",
+            "teamType": "national"
+          }
+        },
+        {
+          "group": "World Cup",
+          "date": "13/6",
+          "time": "New York",
+          "home": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flag": "assets/football/flags/brazil.svg"
+          },
+          "away": {
+            "name": "Morocco",
+            "code": "MAR",
+            "teamType": "national",
+            "flag": "assets/football/flags/morocco.svg"
+          }
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định của Méo",
+      "subtext": "Canh bạc đáng xem nhất của Brazil",
+      "voiceText": "Theo tôi, Neymar không còn là cầu thủ để Brazil xây cả đội xung quanh, nhưng vẫn là quân bài có thể mở khóa trận đấu lớn. Nếu Ancelotti dùng Neymar như chất xúc tác, còn Vini và Raphinha gánh nhịp tấn công chính, Brazil rất đáng sợ.",
+      "duration": 7,
+      "startTime": 47,
+      "bgColor": "#061B12",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "quote": "Neymar không cần là trung tâm tuyệt đối để vẫn tạo ra khác biệt.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(6,27,18,0.9), rgba(6,27,18,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Brazil có vô địch World Cup 2026 không?",
+      "subtext": "Comment cảm nghĩ của bạn",
+      "voiceText": "Bạn nghĩ sao về danh sách 26 cầu thủ Brazil lần này? Neymar sẽ là chìa khóa, hay Brazil nên trao sân khấu cho Vini Junior và Raphinha? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 54,
+      "bgColor": "#061B12",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.6
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.68,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sofascore News - Neymar in World Cup: Brazil's 26-man squad analyzed",
+      "url": "https://www.sofascore.com/news/neymar-na-copa-do-mundo-veja-lista-e-analise-dos-26-convocados-do-brasil-2"
+    },
+    {
+      "name": "Sofascore News - Neymar na Copa do Mundo! Veja lista e analise dos 26 convocados do Brasil",
+      "url": "https://www.sofascore.com/pt/news/neymar-na-copa-do-mundo-veja-lista-e-analise-dos-26-convocados-do-brasil"
+    },
+    {
+      "name": "Sofascore player image - Neymar",
+      "url": "https://img.sofascore.com/api/v1/player/124712/image"
+    }
+  ]
+}

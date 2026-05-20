@@ -1,0 +1,363 @@
+{
+  "title": "Bournemouth 1-1 Man City: Kroupi khiến Arsenal lên ngôi",
+  "slug": "bournemouth-1-1-man-city-epl-result-2026-05-20",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Man City HẾT CỬA VÔ ĐỊCH!",
+      "subtext": "Bournemouth 1-1 Manchester City",
+      "voiceText": "Manchester City hòa Bournemouth một một tại Vitality Stadium. Eli Junior Kroupi mở tỉ số phút ba mươi chín, Erling Haaland gỡ hòa phút chín mươi cộng năm, nhưng một điểm là không đủ: Arsenal chính thức vô địch Premier League.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#6C1D45",
+      "secondaryAccentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "Vitality Stadium",
+      "date": "20.05.2026",
+      "time": "01:30",
+      "teams": [
+        { "name": "Bournemouth", "code": "BOU", "teamType": "club", "form": ["D", "W", "W", "D", "W", "D"] },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club", "form": ["W", "W", "W", "D", "W", "D"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "2025-26 | Matchweek 37",
+      "ctaLabel": "Full-time",
+      "voiceText": "Một trận hòa, một ngôi vương đổi chủ.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Bournemouth 1-1 Manchester City",
+      "subtext": "Haaland gỡ muộn, nhưng Man City vẫn mất cuộc đua vô địch.",
+      "voiceText": "Full time: Bournemouth một, Manchester City một. Kroupi cứa lòng đẹp mắt trước giờ nghỉ. Haaland gỡ hòa ở phút bù giờ thứ năm, nhưng Man City không tìm được bàn thắng thứ hai.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "minute": "FT",
+      "score": [1, 1],
+      "teams": [
+        { "name": "Bournemouth", "code": "BOU", "teamType": "club" },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 },
+        { "type": "football-scorebug", "teams": ["BOU", "MCI"], "score": [1, 1], "minute": "FT", "label": "Vitality Stadium" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Bournemouth xuất phát với Petrovic, Smith, Hill, Senesi, Truffert ở hàng thủ; Adams, Tavernier, Scott ở tuyến giữa; Rayan, Evanilson và Kroupi phía trên. Man City dùng Donnarumma, Nunes, Khusanov, Guehi, O'Reilly, Rodri, Kovacic, Bernardo, Semenyo, Haaland và Doku.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Vitality Stadium",
+      "teams": [
+        { "name": "Bournemouth", "code": "BOU", "teamType": "club" },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Djordje Petrovic",
+            "Adam Smith",
+            "James Hill",
+            "Marcos Senesi",
+            "Adrien Truffert",
+            "Tyler Adams",
+            "Marcus Tavernier",
+            "Alex Scott",
+            "Rayan",
+            "Evanilson",
+            "Eli Junior Kroupi"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Gianluigi Donnarumma",
+            "Matheus Nunes",
+            "Abdukodir Khusanov",
+            "Marc Guehi",
+            "Nico O'Reilly",
+            "Rodri",
+            "Mateo Kovacic",
+            "Bernardo Silva",
+            "Antoine Semenyo",
+            "Erling Haaland",
+            "Jeremy Doku"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Kroupi bẻ lái cuộc đua",
+      "subtext": "Bàn thắng mở tỉ số phút 39",
+      "voiceText": "Eli Junior Kroupi là khoảnh khắc định mệnh của trận đấu. Cú dứt điểm vào góc cao của tiền đạo tuổi teen khiến Man City phải rượt đuổi, và cuối cùng Arsenal được trao vương miện sớm một vòng.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#6C1D45",
+      "textColor": "#ffffff",
+      "player": "Eli Junior Kroupi",
+      "team": "Bournemouth",
+      "number": "22",
+      "playerImageUrl": "https://assets.sorare.com/playerpicture/6ad0ac62-92be-41b5-8aa0-f6afa8d4b79d/picture/squared-b36940603c48cd61a0c2974ce925e5d1.png",
+      "stats": [
+        { "label": "Bàn thắng", "value": "1" },
+        { "label": "Phút ghi bàn", "value": "39", "unit": "'" },
+        { "label": "Sút trúng đích", "value": "1" },
+        { "label": "Điểm nhấn", "value": "Cú cứa lòng mở tỉ số" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Kroupi mở khóa, Haaland cứu một điểm",
+      "voiceText": "Man City nhập cuộc với vài cơ hội nhỏ, nhưng Bournemouth mới là đội tung cú đấm chính xác. Truffert căng ngang cho Kroupi ghi bàn phút ba mươi chín. Sang hiệp hai, Petrovic nhiều lần cứu thua, Brooks bỏ lỡ cơ hội kết liễu, rồi Haaland gỡ hòa sau cú sút dội cột của Rodri.",
+      "duration": 9,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "39'", "title": "1-0: Eli Junior Kroupi", "desc": "Adrien Truffert trả ngược, Kroupi cứa lòng vào góc cao." },
+        { "minute": "46'", "title": "Petrovic cứu thua", "desc": "Nico O'Reilly có cơ hội đầu hiệp hai nhưng không thắng được thủ môn Bournemouth." },
+        { "minute": "60'-70'", "title": "Man City tăng hỏa lực", "desc": "Foden, Cherki và Savinho vào sân để Pep Guardiola tìm bàn gỡ." },
+        { "minute": "80'", "title": "Bournemouth tiếc nuối", "desc": "David Brooks có cơ hội lớn nhưng không thể chốt trận." },
+        { "minute": "90+5'", "title": "1-1: Erling Haaland", "desc": "Rodri sút trúng cột, Haaland đá bồi đưa bóng vào lưới." },
+        { "minute": "FT", "title": "Arsenal vô địch", "desc": "Man City hòa 1-1 và không thể bắt kịp Arsenal ở vòng cuối." }
+      ],
+      "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Man City cầm bóng nhiều, Bournemouth có xG cao hơn",
+      "subtext": "Chủ nhà bỏ lỡ 3 cơ hội lớn",
+      "voiceText": "Man City kiểm soát bóng năm mươi bốn phẩy chín phần trăm và tung mười bốn cú sút. Nhưng Bournemouth đạt xG một phẩy chín chín, có bảy quả phạt góc và bỏ lỡ ba cơ hội lớn.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [1, 1],
+      "teams": [
+        { "name": "Bournemouth", "code": "BOU", "teamType": "club" },
+        { "name": "Manchester City", "code": "MCI", "teamType": "club" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 45.1, "away": 54.9, "unit": "%" },
+            { "label": "xG", "home": 1.99, "away": 1.67 },
+            { "label": "Cú sút", "home": 10, "away": 14 },
+            { "label": "Sút trúng đích", "home": 2, "away": 5 },
+            { "label": "Cơ hội lớn bỏ lỡ", "home": 3, "away": 1 },
+            { "label": "Phạt góc", "home": 7, "away": 6 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Arsenal chính thức vô địch",
+      "subtext": "BXH Premier League sau Bournemouth - Man City",
+      "voiceText": "Trận hòa khiến Man City có bảy mươi tám điểm sau ba mươi bảy trận, kém Arsenal bốn điểm khi mùa giải chỉ còn một vòng. Bournemouth đứng thứ sáu với năm mươi sáu điểm và chắc chắn có vé châu Âu.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["BOU", "MCI"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 37, "wins": 25, "draws": 7, "losses": 5, "gf": 69, "ga": 26, "gd": 43, "pts": 82 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 37, "wins": 23, "draws": 9, "losses": 5, "gf": 76, "ga": 33, "gd": 43, "pts": 78 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 37, "wins": 19, "draws": 11, "losses": 7, "gf": 66, "ga": 50, "gd": 16, "pts": 68 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 37, "wins": 13, "draws": 17, "losses": 7, "gf": 57, "ga": 53, "gd": 4, "pts": 56 },
+        { "rank": 7, "team": { "name": "Brighton and Hove Albion", "code": "BHA", "teamType": "club" }, "played": 37, "wins": 14, "draws": 11, "losses": 12, "gf": 52, "ga": 43, "gd": 9, "pts": 53 },
+        { "rank": 8, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 57, "ga": 50, "gd": 7, "pts": 52 },
+        { "rank": 9, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 54, "ga": 51, "gd": 3, "pts": 52 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Khoảnh khắc đổi ngôi",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Một cú cứa lòng của Kroupi, một bàn gỡ muộn của Haaland, và Premier League có nhà vua mới. Theo bạn, đây là trận đấu định mệnh nhất mùa của Man City không? Comment cảm nghĩ và follow để cập nhật thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 4.4 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sky Sports match report and player ratings",
+      "url": "https://www.skysports.com/football/bournemouth-vs-manchester-city/report/531491"
+    },
+    {
+      "name": "Sky Sports confirmed teams",
+      "url": "https://www.skysports.com/football/bournemouth-vs-manchester-city/teams/531491"
+    },
+    {
+      "name": "Sky Sports match stats",
+      "url": "https://www.skysports.com/football/bournemouth-vs-manchester-city/stats/531491"
+    },
+    {
+      "name": "Sky Sports Premier League table after match",
+      "url": "https://www.skysports.com/football/bournemouth-vs-manchester-city/table/531491"
+    },
+    {
+      "name": "Sports Mole highlights, man of the match and stats",
+      "url": "https://www.sportsmole.co.uk/football/bournemouth/title-race/result/bournemouth-keep-champions-league-dream-alive-as-arsenal-are-crowned-champions_597845.html"
+    },
+    {
+      "name": "Transfermarkt player portrait: Eli Kroupi",
+      "url": "https://www.transfermarkt.us/eli-kroupi/profil/spieler/955357"
+    }
+  ]
+}

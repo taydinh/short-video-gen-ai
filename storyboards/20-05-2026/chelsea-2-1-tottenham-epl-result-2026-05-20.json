@@ -1,0 +1,360 @@
+{
+  "title": "Chelsea 2-1 Tottenham: Enzo kéo Spurs vào ngày phán quyết",
+  "slug": "chelsea-2-1-tottenham-epl-result-2026-05-20",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "CHELSEA HẠ SPURS Ở DERBY LONDON!",
+      "subtext": "Chelsea 2-1 Tottenham Hotspur",
+      "voiceText": "Chelsea thắng Tottenham hai một tại Stamford Bridge. Enzo Fernandez mở tỉ số phút mười tám, Andrey Santos nhân đôi cách biệt phút sáu mươi bảy, còn Richarlison chỉ kịp rút ngắn phút bảy mươi bốn. Kết quả này khiến những chú gà trống phải chờ vòng cuối để tự cứu mình.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "secondaryAccentColor": "#132257",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 37",
+      "venue": "Stamford Bridge",
+      "date": "20.05.2026",
+      "time": "02:15",
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club", "form": ["L", "D", "L", "W", "L", "W"] },
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "badgeBackgroundColor": "#ffffff", "form": ["D", "W", "W", "D", "L", "L"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#034694"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "2025-26 | Matchweek 37",
+      "ctaLabel": "Full-time",
+      "voiceText": "Một derby London căng như dây đàn, và Chelsea là đội lạnh hơn ở những khoảnh khắc quyết định.",
+      "duration": 3,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#034694"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Chelsea 2-1 Tottenham",
+      "subtext": "Enzo một bàn, một kiến tạo; Spurs vẫn sát mép nguy hiểm.",
+      "voiceText": "Full time: Chelsea hai, Tottenham một. Những chú gà trống có nhiều bóng hơn và tạo ra nhiều cơ hội lớn hơn, nhưng Chelsea tận dụng tốt hơn: bốn cú sút trúng đích, hai bàn thắng và ba điểm ở Stamford Bridge.",
+      "duration": 6,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "minute": "FT",
+      "score": [2, 1],
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club" },
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "badgeBackgroundColor": "#ffffff" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 },
+        { "type": "football-scorebug", "teams": ["CHE", "TOT"], "score": [2, 1], "minute": "FT", "label": "Stamford Bridge" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Chelsea xuất phát với Sanchez trong khung gỗ; Acheampong, Fofana, Hato và Cucurella ở hàng thủ; Santos, Caicedo, Neto, Palmer, Enzo Fernandez phía sau Liam Delap. Tottenham dùng Kinsky, Porro, Danso, Van de Ven, Udogie, Bentancur, Palhinha, Kolo Muani, Gallagher, Mathys Tel và Richarlison.",
+      "duration": 8,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Stamford Bridge",
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club" },
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "badgeBackgroundColor": "#ffffff" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Robert Sanchez",
+            "Josh Acheampong",
+            "Wesley Fofana",
+            "Jorrel Hato",
+            "Marc Cucurella",
+            "Andrey Santos",
+            "Moises Caicedo",
+            "Pedro Neto",
+            "Cole Palmer",
+            "Enzo Fernandez",
+            "Liam Delap"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Antonin Kinsky",
+            "Pedro Porro",
+            "Kevin Danso",
+            "Micky van de Ven",
+            "Destiny Udogie",
+            "Rodrigo Bentancur",
+            "Joao Palhinha",
+            "Randal Kolo Muani",
+            "Conor Gallagher",
+            "Mathys Tel",
+            "Richarlison"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#034694"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Enzo Fernandez định đoạt derby",
+      "subtext": "Một bàn, một kiến tạo, cầu thủ hay nhất trận",
+      "voiceText": "Enzo Fernandez là ngôi sao nổi bật nhất. Anh mở tỉ số bằng cú dứt điểm ngoài vòng cấm, rồi kiến tạo cho Andrey Santos ghi bàn thứ hai. Một trận đấu mà Chelsea không áp đảo thế trận, nhưng Enzo giúp họ thắng bằng chất lượng ở đúng thời điểm.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "player": "Enzo Fernandez",
+      "team": "Chelsea",
+      "number": "8",
+      "playerImageUrl": "https://img.uefa.com/imgml/TP/players/1/2026/cutoff/250174838.webp",
+      "stats": [
+        { "label": "Bàn thắng", "value": "1" },
+        { "label": "Kiến tạo", "value": "1" },
+        { "label": "Key passes", "value": "2" },
+        { "label": "Sofascore", "value": "8.7" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#034694"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Chelsea sắc lạnh, Tottenham tiếc nuối",
+      "voiceText": "Tottenham khởi đầu sáng hơn và Mathys Tel sớm đưa bóng trúng khung gỗ. Nhưng phút mười tám, Pedro Neto kiến tạo để Enzo Fernandez mở tỉ số. Sang hiệp hai, sai lầm chuyền về của Kolo Muani mở ra bàn thứ hai cho Andrey Santos. Richarlison rút ngắn sau pha đánh gót của Pape Matar Sarr, nhưng gà trống không kịp tìm bàn gỡ.",
+      "duration": 9,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "Đầu trận", "title": "Tel dội cột", "desc": "Mathys Tel đánh đầu trúng khung gỗ, Spurs bỏ lỡ cơ hội dẫn trước." },
+        { "minute": "18'", "title": "1-0: Enzo Fernandez", "desc": "Pedro Neto dọn bóng, Enzo dứt điểm mở tỉ số cho Chelsea." },
+        { "minute": "43'", "title": "Van de Ven nhận thẻ", "desc": "Derby nóng dần với nhiều va chạm ở giữa sân." },
+        { "minute": "67'", "title": "2-0: Andrey Santos", "desc": "Kolo Muani chuyền về lỗi, Enzo kiến tạo để Santos ghi bàn." },
+        { "minute": "74'", "title": "2-1: Richarlison", "desc": "Pape Matar Sarr đánh gót kiến tạo, Richarlison thắp lại hy vọng." },
+        { "minute": "FT", "title": "Chelsea giữ ba điểm", "desc": "Spurs ép cuối trận nhưng không thể tránh thất bại." }
+      ],
+      "visuals": { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Tottenham thắng thống kê, Chelsea thắng tỉ số",
+      "subtext": "Spurs bỏ lỡ 4 cơ hội lớn",
+      "voiceText": "Tottenham cầm bóng năm mươi sáu phần trăm và có chỉ số bàn thắng kỳ vọng một phẩy bảy hai, cao hơn nhiều so với không phẩy sáu ba của Chelsea. Nhưng những chú gà trống chỉ ghi một bàn từ năm cơ hội lớn, còn Chelsea sút trúng đích bốn lần và ghi hai bàn.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [2, 1],
+      "teams": [
+        { "name": "Chelsea", "code": "CHE", "teamType": "club" },
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "badgeBackgroundColor": "#ffffff" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 44, "away": 56, "unit": "%" },
+            { "label": "xG", "home": 0.63, "away": 1.72 },
+            { "label": "Cú sút", "home": 9, "away": 9 },
+            { "label": "Sút trúng đích", "home": 4, "away": 3 },
+            { "label": "Cơ hội lớn", "home": 1, "away": 5 },
+            { "label": "Cơ hội lớn bỏ lỡ", "home": 0, "away": 4 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#034694"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Spurs vẫn chưa an toàn",
+      "subtext": "BXH Premier League sau Chelsea - Tottenham",
+      "voiceText": "Chelsea lên năm mươi hai điểm và giữ hy vọng bám nhóm dự cúp châu Âu. Tottenham đứng thứ mười bảy với ba mươi tám điểm, chỉ hơn West Ham hai điểm. Vòng cuối vì thế trở thành trận sinh tử cho gà trống.",
+      "duration": 7,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["CHE", "TOT"],
+      "standings": [
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 37, "wins": 13, "draws": 17, "losses": 7, "gf": 57, "ga": 53, "gd": 4, "pts": 56 },
+        { "rank": 7, "team": { "name": "Brighton and Hove Albion", "code": "BHA", "teamType": "club" }, "played": 37, "wins": 14, "draws": 11, "losses": 12, "gf": 52, "ga": 43, "gd": 9, "pts": 53 },
+        { "rank": 8, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 57, "ga": 50, "gd": 7, "pts": 52 },
+        { "rank": 9, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 54, "ga": 51, "gd": 3, "pts": 52 },
+        { "rank": 15, "team": { "name": "Crystal Palace", "code": "CRY", "teamType": "club" }, "played": 37, "wins": 11, "draws": 12, "losses": 14, "gf": 40, "ga": 49, "gd": -9, "pts": 45 },
+        { "rank": 16, "team": { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }, "played": 37, "wins": 11, "draws": 10, "losses": 16, "gf": 47, "ga": 50, "gd": -3, "pts": 43 },
+        { "rank": 17, "team": { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "badgeBackgroundColor": "#ffffff" }, "played": 37, "wins": 9, "draws": 11, "losses": 17, "gf": 47, "ga": 57, "gd": -10, "pts": 38 },
+        { "rank": 18, "team": { "name": "West Ham United", "code": "WHU", "teamType": "club" }, "played": 37, "wins": 9, "draws": 9, "losses": 19, "gf": 43, "ga": 65, "gd": -22, "pts": 36 },
+        { "rank": 19, "team": { "name": "Burnley", "code": "BUR", "teamType": "club" }, "played": 37, "wins": 4, "draws": 9, "losses": 24, "gf": 37, "ga": 74, "gd": -37, "pts": 21 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#034694"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Spurs còn một trận để sống",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Chelsea thắng bằng sự lạnh lùng, còn Tottenham thua trong ngày họ tạo đủ cơ hội để có điểm. Theo bạn, những chú gà trống có trụ hạng được ở vòng cuối không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#111827",
+      "accentColor": "#034694",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "visuals": { "type": "football-confetti", "particleCount": 80, "duration": 4.4 }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sky Sports match report and player ratings",
+      "url": "https://www.skysports.com/football/chelsea-vs-tottenham-hotspur/report/531493"
+    },
+    {
+      "name": "Sky Sports confirmed teams",
+      "url": "https://www.skysports.com/football/chelsea-vs-tottenham-hotspur/teams/531493"
+    },
+    {
+      "name": "Sky Sports Premier League table after match",
+      "url": "https://www.skysports.com/football/chelsea-vs-tottenham-hotspur/table/531493"
+    },
+    {
+      "name": "Sofascore match stats and ratings",
+      "url": "https://www.sofascore.com/news/chelsea-2-1-tottenham-spurs-run-out-of-time-at-stamford-bridge"
+    },
+    {
+      "name": "Sorare player portrait: Enzo Fernandez",
+      "url": "https://sorare.com/football/players/enzo-jeremias-fernandez"
+    }
+  ]
+}

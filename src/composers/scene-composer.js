@@ -723,9 +723,9 @@ function composerStyles(scene) {
     /* TikTok Follow Card Styles */
     [data-composition-id="${cid}"] .tt-card {
       position: absolute;
-      bottom: 250px;
+      top: 72px;
       left: 50%;
-      transform: translateX(-50%) translateY(300px);
+      transform: translateX(-50%);
       display: flex;
       align-items: center;
       gap: 24px;
@@ -3589,7 +3589,15 @@ const COMPOSERS = {
 
   "stats-cards-grid": (scene) => {
     const title = scene.title || "Đứng Sau Tính Năng";
-    const items = Array.isArray(scene.statsCards) ? scene.statsCards : [];
+    const items = Array.isArray(scene.statsCards)
+      ? scene.statsCards
+      : Array.isArray(scene.stats)
+        ? scene.stats.map((stat) => ({
+            icon: stat.icon || stat.emoji || "",
+            value: stat.unit ? `${stat.value ?? ""} ${stat.unit}`.trim() : stat.value,
+            label: stat.label,
+          }))
+        : [];
     const safeItems = items.length ? items : [
       { icon: "🩺", value: "260+", label: "Bác sĩ tham gia" },
       { icon: "🌍", value: "60", label: "Quốc gia" },
@@ -3600,11 +3608,11 @@ const COMPOSERS = {
     const maxCards = useSingleColumn ? 4 : 6;
     const grid = safeItems.slice(0, maxCards).map((it, i) => `
       <div class="ai-card ai-card-pop ai-stat-card" id="s${scene.id}-statcard-${i}" style="padding:26px 26px; opacity:0;">
-        <div style="font-size:26px; opacity:0.9; margin-bottom:10px;">${escapeHtml(it.icon || "")}</div>
+        ${it.icon ? `<div style="font-size:26px; opacity:0.9; margin-bottom:10px;">${escapeHtml(String(it.icon))}</div>` : ""}
         <div class="ai-gradient-text" style="font-size:62px; font-weight:900; letter-spacing:-0.02em;">
-          <span class="ai-countup" data-final="${escapeHtml(it.value || "")}">${escapeHtml(it.value || "")}</span>
+          <span class="ai-countup" data-final="${escapeHtmlAttr(String(it.value ?? ""))}">${escapeHtml(String(it.value ?? ""))}</span>
         </div>
-        <div class="ai-muted" style="margin-top:6px; font-size:18px; font-weight:800;">${escapeHtml(it.label || "")}</div>
+        <div class="ai-muted" style="margin-top:6px; font-size:18px; font-weight:800;">${escapeHtml(String(it.label ?? ""))}</div>
       </div>
     `).join("");
     return `
@@ -3656,26 +3664,35 @@ const COMPOSERS = {
 
   "context-bars": (scene) => {
     const title = scene.title || "Bối Cảnh Phía Sau";
-    const rows = Array.isArray(scene.rows) ? scene.rows : [];
+    const rows = Array.isArray(scene.rows)
+      ? scene.rows
+      : Array.isArray(scene.bars)
+        ? scene.bars.map((bar) => ({
+            icon: bar.icon || bar.emoji || "",
+            label: bar.label,
+            value: bar.value,
+          }))
+        : [];
     const safeRows = rows.length ? rows : [
       { icon: "📅", label: "Thời điểm", value: "11 / 2025" },
       { icon: "⚖️", label: "Vụ kiện chống OpenAI", value: "7 vụ" },
       { icon: "🚨", label: "Cáo buộc chính", value: "Bỏ qua an toàn" },
     ];
+    const maxRows = rows.length ? 5 : 3;
     return `
     <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:220px;">
       <div class="ai-title ai-gradient-text" style="font-size:54px; font-weight:900; opacity:0.95; margin-bottom:44px;">
         ${escapeHtml(title)}
       </div>
       <div style="width: 900px; max-width: 900px; display:flex; flex-direction:column; gap:18px;">
-        ${safeRows.slice(0, 3).map((r, i) => `
+        ${safeRows.slice(0, maxRows).map((r, i) => `
           <div class="ai-card ai-card-pop ai-row-card" id="s${scene.id}-row-${i}" style="padding:18px 22px; opacity:0;">
             <div class="ai-row">
               <div style="display:flex; align-items:center; gap:14px;">
-                <div style="font-size:24px; opacity:0.9;">${escapeHtml(r.icon || "")}</div>
-                <div class="ai-muted" style="font-size:22px; font-weight:900;">${escapeHtml(r.label || "")}</div>
+                ${r.icon ? `<div style="font-size:24px; opacity:0.9;">${escapeHtml(String(r.icon))}</div>` : ""}
+                <div class="ai-muted" style="font-size:22px; font-weight:900;">${escapeHtml(String(r.label ?? ""))}</div>
               </div>
-              <div class="ai-gradient-text" style="font-size:34px; font-weight:900;">${escapeHtml(r.value || "")}</div>
+              <div class="ai-gradient-text" style="font-size:34px; font-weight:900;">${escapeHtml(String(r.value ?? ""))}</div>
             </div>
           </div>
         `).join("")}
@@ -3930,12 +3947,6 @@ const COMPOSERS = {
     return `
     <div class="canvas" style="background:linear-gradient(160deg,${scene.bgColor},${lighten(scene.bgColor)}); padding-top:220px;">
       <div class="bg-gradient"></div>
-      <div class="cta-hearts" data-layout-allow-overflow>${hearts}</div>
-      <div class="hero-wrap" style="text-align:center; display:flex; flex-direction:column; align-items:center; transform: translateY(-40px);">
-        ${heroMark}
-        <h1 class="cta-title ai-gradient-text" id="s${scene.id}-title" style="margin-bottom:20px;">${escapeHtml(scene.title)}</h1>
-      </div>
-      
       <div class="tt-card">
         <img src="${profileImg}" class="tt-logo" onerror="this.src='https://ui-avatars.com/api/?name=AI&background=random'" />
         <div class="tt-info">
@@ -3946,6 +3957,11 @@ const COMPOSERS = {
           <span class="tt-btn-text tt-btn-follow">Follow</span>
           <span class="tt-btn-text tt-btn-following">✓ Đã Follow</span>
         </div>
+      </div>
+      <div class="cta-hearts" data-layout-allow-overflow>${hearts}</div>
+      <div class="hero-wrap" style="text-align:center; display:flex; flex-direction:column; align-items:center; transform: translateY(-40px);">
+        ${heroMark}
+        <h1 class="cta-title ai-gradient-text" id="s${scene.id}-title" style="margin-bottom:20px;">${escapeHtml(scene.title)}</h1>
       </div>
     </div>`;
   },
@@ -4156,7 +4172,7 @@ function buildAnimationScript(scene) {
         const follow = ttCard.querySelector('.tt-btn-follow');
         const following = ttCard.querySelector('.tt-btn-following');
         const ttBase = 1.2;
-        tl.fromTo(ttCard, { y: 300, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, ttBase);
+        tl.fromTo(ttCard, { y: -130, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, ttBase);
         if (ttBtn) {
           tl.to(ttBtn, { scale: 0.9, duration: 0.15 }, ttBase + 1.0);
           tl.to(ttBtn, { scale: 1, backgroundColor: "#2f2f2f", duration: 0.4, ease: "elastic.out(1, 0.4)" }, ttBase + 1.15);
@@ -5434,9 +5450,20 @@ function footballTeamCard(team, accent, side) {
 
 function footballScoreTeam(team) {
   const badgeClass = team.badgeType === "national" ? "flag" : "logo";
+  const badgeStyleParts = [];
+  if (team.badgeBackgroundColor) badgeStyleParts.push(`background:${escapeHtmlAttr(team.badgeBackgroundColor)}`);
+  if (team.badgePadding) {
+    const padding = typeof team.badgePadding === "number" ? `${team.badgePadding}px` : String(team.badgePadding);
+    badgeStyleParts.push(`padding:${escapeHtmlAttr(padding)}`, "box-sizing:border-box");
+  }
+  if (team.badgeBorderRadius) {
+    const radius = typeof team.badgeBorderRadius === "number" ? `${team.badgeBorderRadius}px` : String(team.badgeBorderRadius);
+    badgeStyleParts.push(`border-radius:${escapeHtmlAttr(radius)}`);
+  }
+  const badgeStyle = badgeStyleParts.length ? ` style="${badgeStyleParts.join(";")}"` : "";
   const badgeHtml = team.badgeSrc
-    ? `<img class="football-score-badge ${badgeClass}" src="${escapeHtmlAttr(team.badgeSrc)}" alt="${escapeHtmlAttr(team.name)}" />`
-    : `<div class="football-score-badge placeholder"></div>`;
+    ? `<img class="football-score-badge ${badgeClass}" src="${escapeHtmlAttr(team.badgeSrc)}" alt="${escapeHtmlAttr(team.name)}"${badgeStyle} />`
+    : `<div class="football-score-badge placeholder"${badgeStyle}></div>`;
 
   return `
     <div class="football-score-team">
