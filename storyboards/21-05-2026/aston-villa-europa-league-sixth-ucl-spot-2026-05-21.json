@@ -1,0 +1,591 @@
+{
+  "title": "Aston Villa vô địch Europa League: Ngoại hạng Anh có thể có suất Champions League thứ 6",
+  "slug": "aston-villa-europa-league-sixth-ucl-spot-2026-05-21",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "title": "Aston Villa vô địch Europa League ảnh hưởng ra sao đến suất dự Champions League của Ngoại hạng Anh?",
+      "url": "https://www.msn.com/vi-vn/sports/other/aston-villa-v%C3%B4-%C4%91%E1%BB%8Bch-europa-league-b%C3%B3ng-%C4%91%C3%A1-anh-c%C3%B3-th%E1%BB%83-gi%C3%A0nh-su%E1%BA%A5t-th%E1%BB%A9-6-d%E1%BB%B1-champions-league/ar-AA23HkN6"
+    },
+    {
+      "title": "Aston Villa vô địch Europa League ảnh hưởng ra sao đến suất dự Champions League của Ngoại hạng Anh?",
+      "url": "https://bongdaplus.vn/ngoai-hang-anh/aston-villa-vo-dich-europa-league-anh-huong-ra-sao-den-suat-du-champions-league-cua-ngoai-hang-anh-5054372605.html"
+    },
+    {
+      "title": "Aston Villa giúp Ngoại hạng Anh có thêm vé dự Champions League",
+      "url": "https://baoxaydung.vn/aston-villa-giup-ngoai-hang-anh-co-them-ve-du-champions-league-192260521091000462.htm"
+    },
+    {
+      "title": "Aston Villa vô địch Europa League 2025/2026: Kỷ lục của Mourinho bị san bằng",
+      "url": "https://www.24h.com.vn/bong-da/aston-villa-vo-dich-europa-league-2025-2026-ky-luc-cua-mourinho-bi-san-bang-c48a1763490.html"
+    },
+    {
+      "title": "Premier League Table - Bournemouth vs Manchester City",
+      "url": "https://www.skysports.com/football/bournemouth-vs-manchester-city/table/531491"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "VILLA VÔ ĐỊCH, BOURNEMOUTH MỞ CỬA CHAMPIONS LEAGUE?",
+      "subtext": "Một chức vô địch Europa League kéo cả Ngoại hạng Anh vào kịch bản lạ",
+      "voiceText": "Aston Villa vừa vô địch Europa League, nhưng cú nổ lớn nhất có thể nằm ở Ngoại hạng Anh: đội xếp thứ sáu vẫn còn cửa dự Champions League mùa tới.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "label": "EUROPEAN SPOT ALERT",
+      "imageSrc": "assets/storyboards/aston-villa-europa-league-sixth-ucl-spot-2026-05-21/scene-1.png",
+      "cardCaption": "Villa nâng cúp, Premier League chờ suất Champions League thứ 6",
+      "chips": [
+        "Aston Villa",
+        "Europa League",
+        "Champions League"
+      ],
+      "emoji": "🏆",
+      "animation": "image-card-rise",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.3,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Tin nóng trong 4 con số",
+      "subtext": "Villa vô địch, nhưng cuộc đua châu Âu chưa khép lại",
+      "voiceText": "Villa đánh bại Freiburg ba không ở chung kết, chấm dứt bốn mươi bốn năm chờ danh hiệu châu Âu. Nhưng cùng lúc, họ cũng làm xuất hiện kịch bản Premier League có sáu đội dự Champions League.",
+      "duration": 7,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "🏆",
+          "value": "3-0",
+          "label": "Villa thắng Freiburg"
+        },
+        {
+          "icon": "⏳",
+          "value": "44",
+          "label": "năm chờ cúp châu Âu"
+        },
+        {
+          "icon": "🎟️",
+          "value": "5",
+          "label": "suất C1 đã chắc cho EPL"
+        },
+        {
+          "icon": "🔥",
+          "value": "6?",
+          "label": "suất có thể mở thêm"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "https://cdn.bongdaplus.vn/assets/Media/2026/05/21/66/aston-villa1.jpg",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.94), rgba(7,26,20,0.52))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Cơ chế suất thứ 6 hoạt động thế nào?",
+      "subtext": "Một chuỗi domino từ cúp châu Âu sang vòng 38 Ngoại hạng Anh",
+      "voiceText": "Cốt lõi nằm ở suất bổ sung EPS của UEFA. Premier League đã có suất cho đội đứng thứ năm. Nếu Villa chỉ về thứ năm nhưng đã có vé nhờ vô địch Europa League, suất EPS sẽ trượt xuống đội đứng thứ sáu.",
+      "duration": 7,
+      "startTime": 13,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "UEFA Access Path",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "1",
+          "title": "Premier League có suất EPS cho top 5"
+        },
+        {
+          "stage": "2",
+          "title": "Villa vô địch Europa League"
+        },
+        {
+          "stage": "3",
+          "title": "Villa cần kết thúc thứ 5"
+        },
+        {
+          "stage": "4",
+          "title": "Đội thứ 6 nhận vé Champions League"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "https://cdn.bongdaplus.vn/Assets/Media/2026/05/21/66/aston-villa2.jpg",
+          "opacity": 0.18,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.96), rgba(7,26,20,0.58))"
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 82
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Unai Emery mở khóa cuộc đua",
+      "subtext": "Một chuyên gia Europa League lại khiến bảng xếp hạng Anh đổi nhịp",
+      "voiceText": "Huấn luyện viên Unai Emery tiếp tục chứng minh cái duyên ở Europa League. Chức vô địch này đưa Villa thẳng vào Champions League, nhưng điều quan trọng hơn là vị trí cuối cùng của họ ở Ngoại hạng Anh.",
+      "duration": 7,
+      "startTime": 20,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Unai Emery",
+      "team": "Aston Villa",
+      "number": "UEL",
+      "playerImageUrl": "assets/storyboards/aston-villa-europa-league-sixth-ucl-spot-2026-05-21/scene-4-unai-emery-europa-league.jpg",
+      "stats": [
+        {
+          "label": "Chung kết Europa League",
+          "value": "6"
+        },
+        {
+          "label": "Cúp châu Âu trong sự nghiệp",
+          "value": "5"
+        },
+        {
+          "label": "Tỉ số chung kết",
+          "value": "3-0"
+        },
+        {
+          "label": "Mục tiêu còn lại",
+          "value": "Top 5"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng xếp hạng đang giữ chìa khóa",
+      "subtext": "Villa, Liverpool, Bournemouth và Brighton cùng nhìn về vòng cuối",
+      "voiceText": "Trên bảng xếp hạng hiện tại, Arsenal dẫn đầu với tám mươi hai điểm. Villa đứng thứ tư, Liverpool thứ năm, Bournemouth thứ sáu và Brighton thứ bảy. Chính khoảng cách này làm vòng cuối căng như dây đàn.",
+      "duration": 7,
+      "startTime": 27,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "TIN CHÍNH",
+        "KỊCH BẢN",
+        "LỊCH ĐẤU",
+        "BẢNG XẾP HẠNG"
+      ],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": [
+        "AVL",
+        "LIV",
+        "BOU",
+        "BHA"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Arsenal",
+            "code": "ARS",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 25,
+          "draws": 7,
+          "losses": 5,
+          "gf": 69,
+          "ga": 26,
+          "gd": 43,
+          "pts": 82
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Man City",
+            "code": "MCI",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 23,
+          "draws": 9,
+          "losses": 5,
+          "gf": 76,
+          "ga": 33,
+          "gd": 43,
+          "pts": 78
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Man U",
+            "code": "MUN",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 19,
+          "draws": 11,
+          "losses": 7,
+          "gf": 66,
+          "ga": 50,
+          "gd": 16,
+          "pts": 68
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Aston Villa",
+            "code": "AVL",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 18,
+          "draws": 8,
+          "losses": 11,
+          "gf": 54,
+          "ga": 48,
+          "gd": 6,
+          "pts": 62
+        },
+        {
+          "rank": 5,
+          "team": {
+            "name": "Liverpool",
+            "code": "LIV",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 17,
+          "draws": 8,
+          "losses": 12,
+          "gf": 62,
+          "ga": 52,
+          "gd": 10,
+          "pts": 59
+        },
+        {
+          "rank": 6,
+          "team": {
+            "name": "Bournemouth",
+            "code": "BOU",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 13,
+          "draws": 17,
+          "losses": 7,
+          "gf": 57,
+          "ga": 53,
+          "gd": 4,
+          "pts": 56
+        },
+        {
+          "rank": 7,
+          "team": {
+            "name": "Brighton",
+            "code": "BHA",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 11,
+          "losses": 12,
+          "gf": 52,
+          "ga": 43,
+          "gd": 9,
+          "pts": 53
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Ba điều kiện để suất thứ 6 xuất hiện",
+      "subtext": "Kịch bản nghe ngược đời nhưng rất rõ ràng",
+      "voiceText": "Muốn suất thứ sáu thành hiện thực, Villa phải thua Man City, Liverpool phải thắng Brentford, và đội đứng thứ sáu cần giữ vị trí của mình sau vòng hạ màn.",
+      "duration": 6,
+      "startTime": 34,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "icon": "1",
+          "label": "Man City vs Aston Villa",
+          "value": "Villa thua để tụt xuống thứ 5"
+        },
+        {
+          "icon": "2",
+          "label": "Liverpool vs Brentford",
+          "value": "Liverpool thắng để vượt Villa"
+        },
+        {
+          "icon": "3",
+          "label": "Nottingham vs Bournemouth",
+          "value": "Bournemouth cần ít nhất 1 điểm"
+        },
+        {
+          "icon": "4",
+          "label": "Brighton vs Man U",
+          "value": "Brighton chờ Bournemouth sảy chân"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Vòng 38 quyết định tất cả",
+      "subtext": "Cùng giờ 22h00 ngày 24/5",
+      "voiceText": "Tâm điểm là Man City gặp Aston Villa, Liverpool gặp Brentford, Brighton gặp Man U và Nottingham gặp Bournemouth. Chỉ một kết quả lệch đi, tấm vé Champions League thứ sáu có thể biến mất.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "VÒNG 38",
+      "tabs": [
+        "VÒNG 38",
+        "TOP 5",
+        "SUẤT 6",
+        "KỊCH BẢN"
+      ],
+      "ctaLabel": "FINAL DAY DRAMA",
+      "fixtures": [
+        {
+          "group": "Premier League",
+          "date": "24/5",
+          "time": "22:00",
+          "home": {
+            "name": "Man City",
+            "code": "MCI",
+            "badge": "assets/football/clubs/epl/manchester-city.svg"
+          },
+          "away": {
+            "name": "Aston Villa",
+            "code": "AVL",
+            "badge": "assets/football/clubs/epl/aston-villa.svg"
+          }
+        },
+        {
+          "group": "Premier League",
+          "date": "24/5",
+          "time": "22:00",
+          "home": {
+            "name": "Liverpool",
+            "code": "LIV",
+            "badge": "assets/football/clubs/epl/liverpool-fc.svg"
+          },
+          "away": {
+            "name": "Brentford",
+            "code": "BRE",
+            "badge": "assets/football/clubs/epl/brentford.svg"
+          }
+        },
+        {
+          "group": "Premier League",
+          "date": "24/5",
+          "time": "22:00",
+          "home": {
+            "name": "Nottingham",
+            "code": "NFO",
+            "badge": "assets/football/clubs/epl/nottingham-forest.svg"
+          },
+          "away": {
+            "name": "Bournemouth",
+            "code": "BOU",
+            "badge": "assets/football/clubs/epl/bournemouth.svg"
+          }
+        },
+        {
+          "group": "Premier League",
+          "date": "24/5",
+          "time": "22:00",
+          "home": {
+            "name": "Brighton",
+            "code": "BHA",
+            "badge": "assets/football/clubs/epl/brighton.svg"
+          },
+          "away": {
+            "name": "Man U",
+            "code": "MUN",
+            "badge": "assets/football/clubs/epl/manchester-united.svg"
+          }
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4,
+          "top": "76%",
+          "size": 82
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định của Méo Bình Luận",
+      "subtext": "Một nghịch lý rất bóng đá hiện đại",
+      "voiceText": "Theo Méo, đây là kiểu kịch bản làm bóng đá hấp dẫn hơn mọi bảng tính. Villa vừa có cúp, vừa có vé Champions League, nhưng lại có thể khiến cả Bournemouth hoặc Brighton sống trong một đêm không ngủ.",
+      "duration": 7,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "quote": "Villa không cần thêm vé cho mình, nhưng vị trí của họ có thể quyết định giấc mơ Champions League của đội khác.",
+      "author": "Méo Bình Luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào cho vòng cuối?",
+      "subtext": "Bournemouth viết cổ tích hay Brighton lật kèo?",
+      "voiceText": "Bạn nghĩ đội xếp thứ sáu Ngoại hạng Anh có thật sự lấy được vé Champions League mùa tới không? Hãy comment kịch bản của bạn. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 54,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Comment: Ai lấy suất C1 thứ 6?",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bournemouth, Brighton hay không có suất thứ 6?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup",
+          "Champions League",
+          "Premier League",
+          "La Liga",
+          "Budesliga"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.6
+        }
+      ]
+    }
+  ]
+}

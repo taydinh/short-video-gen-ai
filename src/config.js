@@ -145,7 +145,7 @@ export const config = {
         fontSize: 46,
         fontWeight: 800,
         letterSpacing: "0.01em",
-        y: 0.76, // 0..1 of height
+        y: 0.80, // 0..1 of height
         color: "#ffffff",
         accentColor: "#8dd3ff",
         shadow: "0 10px 30px rgba(0,0,0,0.45)",

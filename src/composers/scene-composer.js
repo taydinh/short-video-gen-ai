@@ -2758,6 +2758,75 @@ function composerStyles(scene) {
       text-transform: uppercase;
       box-shadow: 0 14px 34px ${hexToRgba(acc || "#F7C948", 0.30)};
     }
+    
+    /* Flashcard Gallery styles */
+    [data-composition-id="${cid}"] .flash-card-stack-container {
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 920px;
+      height: 1150px;
+      perspective: 1200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    [data-composition-id="${cid}"] .flash-card {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 40px;
+      background: #121824;
+      border: 2px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0 40px 90px rgba(0, 0, 0, 0.55), 0 0 60px ${hexToRgba(acc, 0.25)};
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transform-origin: center bottom;
+      will-change: transform, opacity;
+    }
+    [data-composition-id="${cid}"] .flash-card-img {
+      width: 100%;
+      height: 75%;
+      object-fit: cover;
+      display: block;
+    }
+    [data-composition-id="${cid}"] .flash-card-gradient {
+      position: absolute;
+      top: 60%;
+      left: 0;
+      width: 100%;
+      height: 15%;
+      background: linear-gradient(to bottom, transparent, #121824);
+      pointer-events: none;
+    }
+    [data-composition-id="${cid}"] .flash-card-caption-area {
+      height: 25%;
+      padding: 30px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #121824;
+      box-sizing: border-box;
+      z-index: 10;
+      border-top: 4px solid ${acc};
+    }
+    [data-composition-id="${cid}"] .flash-card-caption {
+      font-size: 52px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.35;
+      text-align: center;
+      word-wrap: break-word;
+    }
+    [data-composition-id="${cid}"] .flash-card-stack-container.layout-horizontal {
+      width: 960px;
+      height: 720px;
+    }
+    [data-composition-id="${cid}"] .flash-card-stack-container.layout-horizontal .flash-card-caption {
+      font-size: 42px;
+    }
   `;
 }
 
@@ -3758,6 +3827,37 @@ const COMPOSERS = {
     </div>`;
   },
 
+  "flashcard-gallery": (scene) => {
+    const rawCards = scene.cards || scene.images || scene.visuals || [];
+    const cards = Array.isArray(rawCards) ? rawCards : [];
+    
+    const cardHtml = cards.map((card, i) => {
+      const img = typeof card === 'string' ? card : (card.imageSrc || card.src || card.url || "");
+      const caption = card.caption || card.text || `Image ${i + 1}`;
+      return `
+      <div class="flash-card" id="s${scene.id}-card-${i}">
+        <img class="flash-card-img" src="${escapeHtmlAttr(img)}" alt="${escapeHtmlAttr(caption)}" />
+        <div class="flash-card-gradient"></div>
+        <div class="flash-card-caption-area">
+          <div class="flash-card-caption">${escapeHtml(caption)}</div>
+        </div>
+      </div>`;
+    }).join("");
+
+    return `
+    <div class="canvas" style="align-items:center; justify-content:center; padding: 40px;">
+      <div class="bg-gradient"></div>
+      <div class="bg-grid"></div>
+      <div class="glow-orb" id="s${scene.id}-orb" style="width:700px;height:700px;top:50%;left:50%;transform:translate(-50%,-50%);"></div>
+      
+      ${scene.title ? `<h1 class="ai-title scene-title" style="position:absolute; top:80px; z-index:100; text-align:center; font-size:48px;" id="s${scene.id}-title">${escapeHtml(scene.title)}</h1>` : ""}
+      
+      <div class="flash-card-stack-container layout-${scene.layout || 'vertical'}" id="s${scene.id}-stack-container">
+        ${cardHtml}
+      </div>
+    </div>`;
+  },
+
   "hero-title": (scene) => `
     <div class="canvas">
       <div class="bg-gradient"></div>
@@ -4460,11 +4560,115 @@ function buildAnimationScript(scene) {
       const main = document.querySelector('[data-composition-id="${cid}"] .ai-kinetic-main');
       if (faint) tl.fromTo(faint, { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.75, ease: "power3.out" }, 0.10);
       if (main) tl.fromTo(main, { y: 110, scale: 0.95, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: 0.90, ease: "power3.out" }, 0.35);`,
+
+    "flashcard-gallery": () => `
+      const tl = gsap.timeline({ paused: true });
+      const cardElements = document.querySelectorAll('[data-composition-id="${cid}"] .flash-card');
+      const cardsData = ${JSON.stringify(scene.cards || scene.images || scene.visuals || [])};
+      const dur = ${dur};
+      const voiceText = ${JSON.stringify(scene.voiceText || "")};
+
+      // 1. Zoom/Fade nhẹ tiêu đề scene mở đầu
+      const title = document.querySelector('[data-composition-id="${cid}"] .ai-title');
+      if (title) tl.from(title, { y: -30, opacity: 0, duration: 0.6, ease: "power3.out" }, 0);
+
+      // 2. Tính toán timings thông minh khớp voiceText
+      const timings = [];
+      const cleanText = voiceText.toLowerCase().replace(new RegExp("[^\\\\w\\\\s\\\\u00C0-\\\\u024F\\\\u1E00-\\\\u1EFF]", "g"), "");
+      let lastIdx = 0;
+
+      cardElements.forEach((el, idx) => {
+        if (idx === 0) {
+          timings.push(0);
+          return;
+        }
+        // Mốc chia đều làm fallback
+        let time = (idx / cardElements.length) * dur;
+        const card = cardsData[idx];
+        if (card) {
+          const kw = (card.text || card.keyword || "").toLowerCase().trim();
+          if (kw) {
+            const pos = cleanText.indexOf(kw, lastIdx);
+            if (pos !== -1) {
+              // Tìm thấy từ khóa! Quy đổi tỉ lệ ký tự ra giây
+              // Trừ đi 0.6s để thẻ bắt đầu vuốt sớm hơn (đón trước lời thoại)
+              const ratio = (pos + kw.length / 2) / cleanText.length;
+              time = Math.max(0, (ratio * dur) - 0.6);
+              // Đảm bảo khoảng nghỉ tối thiểu giữa các lần swipe là 0.7 giây
+              if (time <= timings[idx - 1] + 0.6) {
+                time = timings[idx - 1] + 0.7;
+              }
+              lastIdx = pos + kw.length;
+            }
+          }
+        }
+        // Khống chế thời điểm swipe cuối cùng cách điểm kết thúc scene ít nhất 0.5s
+        time = Math.min(time, dur - 0.5);
+        timings.push(time);
+      });
+
+      // 3. Khởi tạo trạng thái chồng 3D của các thẻ
+      cardElements.forEach((card, idx) => {
+        gsap.set(card, {
+          x: 0,
+          y: 55 * idx,
+          scale: 1 - 0.05 * idx,
+          rotation: idx % 2 === 1 ? -1.5 * idx : 1.5 * idx,
+          opacity: idx >= 3 ? 0 : 1 - 0.25 * idx,
+          zIndex: cardElements.length - idx
+        });
+      });
+
+      // Animate nảy nhẹ khi stack xuất hiện ở đầu scene
+      if (cardElements.length) {
+        tl.from(cardElements, {
+          scale: 0.8,
+          y: 180,
+          opacity: 0,
+          duration: 0.85,
+          stagger: 0.08,
+          ease: "back.out(1.4)"
+        }, 0.1);
+      }
+
+      // 4. Lên lịch swipe văng thẻ và dịch chuyển stack
+      for (let i = 1; i < cardElements.length; i++) {
+        const swipeTime = timings[i];
+        const prevCard = cardElements[i - 1];
+        const swipeDir = (i % 2 === 1) ? -1 : 1; // Đổi hướng vuốt trái/phải liên tục
+
+        // Vuốt văng thẻ trên cùng ra ngoài
+        tl.to(prevCard, {
+          x: swipeDir * 1400,
+          rotation: swipeDir * 28,
+          y: "+=100",
+          opacity: 0,
+          duration: 0.72,
+          ease: "power2.inOut"
+        }, swipeTime);
+
+        // Đẩy chồng bài phía sau tiến lên
+        cardElements.forEach((card, idx) => {
+          if (idx >= i) {
+            const p = idx - i; // Vị trí mới tương đối so với đầu stack
+            tl.to(card, {
+              y: 55 * p,
+              scale: 1 - 0.05 * p,
+              rotation: p % 2 === 1 ? -1.5 * p : 1.5 * p,
+              opacity: p >= 3 ? 0 : 1 - 0.25 * p,
+              duration: 0.72,
+              ease: "power3.out"
+            }, swipeTime + 0.05); // Chạy chồng lấp nhẹ tạo cảm giác mượt
+          }
+        });
+      }
+      `,
   };
 
   const animKey = scene.animation || "fade-cascade";
 
   const forceAnimMap = {
+    "flashcard-gallery": "flashcard-gallery",
     "infographic-chart": "infographic-chart",
     "stats-grid": "stats-grid",
     "terminal": "terminal",
@@ -4497,7 +4701,7 @@ function buildAnimationScript(scene) {
   };
 
   const forcedAnim = forceAnimMap[scene.composition];
-  const finalAnim = scene.animation ? scene.animation : (forcedAnim || animKey);
+  const finalAnim = forcedAnim || scene.animation || animKey;
   const animBody = (animFns[finalAnim] || animFns[animKey] || animFns["fade-cascade"])();
 
   return `

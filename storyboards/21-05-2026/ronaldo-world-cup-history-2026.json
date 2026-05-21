@@ -1,0 +1,531 @@
+{
+  "title": "Cristiano Ronaldo đi vào lịch sử World Cup: Kỳ thứ 6 ở tuổi 41",
+  "slug": "ronaldo-world-cup-history-2026",
+  "totalDuration": 59,
+  "sources": [
+    {
+      "title": "CHÍNH THỨC: Ronaldo có lần thứ 6 liên tiếp tham dự World Cup",
+      "url": "https://thethao247.vn/world-cup/493-chinh-thuc-ronaldo-co-lan-thu-6-lien-tiep-tham-du-world-cup-d420712.html"
+    },
+    {
+      "title": "Đội tuyển Bồ Đào Nha chốt danh sách dự World Cup: Chờ Ronaldo đi vào lịch sử!",
+      "url": "https://thanhnien.vn/thoi-trang-tre/doi-tuyen-bo-dao-nha-chot-danh-sach-du-world-cup-cho-ronaldo-di-vao-lich-su-185260519193817201.htm"
+    },
+    {
+      "title": "Cristiano Ronaldo có thể trở thành cầu thủ lớn tuổi thứ tư từng tham dự World Cup",
+      "url": "https://webthethao.vn/world-cup/cristiano-ronaldo-co-the-tro-thanh-cau-thu-lon-tuoi-thu-tu-tung-tham-du-world-cup-l5WHFGkgR.htm"
+    },
+    {
+      "title": "Ronaldo lập kỷ lục với World Cup thứ 6",
+      "url": "https://znews.vn/ronaldo-lap-ky-luc-voi-world-cup-thu-6-post1652685.html"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "RONALDO SẮP LÀM ĐIỀU CHƯA AI TỪNG LÀM Ở WORLD CUP?",
+      "subtext": "Kỳ World Cup thứ 6, tuổi 41 và giấc mơ cuối cùng",
+      "voiceText": "Ronaldo sắp bước vào kỳ World Cup thứ sáu ở tuổi bốn mươi mốt. Một cột mốc khiến cả thế giới phải hỏi: đây là chương cuối huyền thoại, hay cú bứt phá cuối cùng để chạm chiếc cúp vàng?",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "label": "WORLD CUP HISTORY",
+      "imageSrc": "assets/storyboards/ronaldo-world-cup-history-2026/scene-1.png",
+      "cardCaption": "Kỳ World Cup thứ 6. Tuổi 41. Một danh hiệu còn thiếu.",
+      "chips": [
+        "CR7",
+        "World Cup 2026",
+        "Lịch sử bóng đá nam"
+      ],
+      "emoji": "🏆",
+      "animation": "image-card-rise",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Cột mốc chưa từng có",
+      "subtext": "Ronaldo được gọi lên tuyển Bồ Đào Nha dự World Cup 2026",
+      "voiceText": "Tối mười chín tháng năm, huấn luyện viên Roberto Martinez công bố danh sách Bồ Đào Nha dự World Cup hai nghìn không trăm hai mươi sáu. Tâm điểm vẫn là Cristiano Ronaldo: anh chuẩn bị trở thành cầu thủ nam đầu tiên góp mặt ở sáu kỳ World Cup khác nhau.",
+      "duration": 7,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "🏆",
+          "value": "6",
+          "label": "kỳ World Cup"
+        },
+        {
+          "icon": "🇵🇹",
+          "value": "27",
+          "label": "cầu thủ Bồ Đào Nha"
+        },
+        {
+          "icon": "🎂",
+          "value": "41",
+          "label": "tuổi tại giải"
+        },
+        {
+          "icon": "👑",
+          "value": "CR7",
+          "label": "tâm điểm danh sách"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Hành trình kéo dài hai thập kỷ",
+      "subtext": "Từ Đức 2006 tới Bắc Mỹ 2026",
+      "voiceText": "Hành trình World Cup của Ronaldo bắt đầu ở Đức hai nghìn không trăm lẻ sáu. Sau đó là Nam Phi, Brazil, Nga, Qatar, và bây giờ là kỳ World Cup trên đất Mỹ, Canada, Mexico. Hai mươi năm, sáu giải đấu, một biểu tượng vẫn chưa dừng lại.",
+      "duration": 7,
+      "startTime": 13,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "CR7 World Cup Journey",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "2006",
+          "title": "Lần đầu ở Đức"
+        },
+        {
+          "stage": "2010-2014",
+          "title": "Trụ cột Bồ Đào Nha"
+        },
+        {
+          "stage": "2018-2022",
+          "title": "Biểu tượng toàn cầu"
+        },
+        {
+          "stage": "2026",
+          "title": "Kỳ thứ sáu"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2026/5/19/z784249426364019f3166ca8dfaac38fda1ea6ca33ed07-17791811045821275606080.jpg",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 82
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Di sản trong màu áo Bồ Đào Nha",
+      "subtext": "226 trận, 143 bàn, 5 Quả bóng vàng",
+      "voiceText": "Ở cấp đội tuyển, Ronaldo đã vượt mốc hai trăm hai mươi trận và hơn một trăm bốn mươi bàn. Anh là chân sút vĩ đại nhất lịch sử bóng đá nam cấp đội tuyển, sở hữu năm Quả bóng vàng, nhưng World Cup vẫn là mảnh ghép còn thiếu.",
+      "duration": 7,
+      "startTime": 20,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Cristiano Ronaldo",
+      "team": "Bồ Đào Nha / Al Nassr",
+      "number": "7",
+      "playerImageUrl": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2026/5/19/z784249426364019f3166ca8dfaac38fda1ea6ca33ed07-17791811045821275606080.jpg",
+      "stats": [
+        {
+          "label": "Khoác áo ĐTQG",
+          "value": "226"
+        },
+        {
+          "label": "Bàn cho Bồ Đào Nha",
+          "value": "143"
+        },
+        {
+          "label": "Quả bóng vàng",
+          "value": "5"
+        },
+        {
+          "label": "World Cup còn thiếu",
+          "value": "1"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "World Cup của những con số",
+      "subtext": "Một scene kết hợp stats-cards-grid và infographic-chart",
+      "voiceText": "Trong năm kỳ World Cup trước, Ronaldo có tám bàn và hai kiến tạo sau hai mươi hai trận. Điều đặc biệt là anh cũng thuộc nhóm hiếm hoi đã ghi bàn ở năm kỳ World Cup khác nhau. Con số không chỉ kể về thành tích, mà còn kể về độ bền của một sự nghiệp.",
+      "duration": 7,
+      "startTime": 27,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "⚽",
+          "value": "8",
+          "label": "bàn World Cup"
+        },
+        {
+          "icon": "🎯",
+          "value": "2",
+          "label": "kiến tạo"
+        },
+        {
+          "icon": "📊",
+          "value": "22",
+          "label": "lần ra sân"
+        },
+        {
+          "icon": "🔥",
+          "value": "5",
+          "label": "kỳ liên tiếp ghi bàn"
+        }
+      ],
+      "chartTitle": "Dấu ấn tại World Cup",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Trận",
+          "value": 22,
+          "percent": 100
+        },
+        {
+          "label": "Bàn",
+          "value": 8,
+          "percent": 36
+        },
+        {
+          "label": "Kiến tạo",
+          "value": 2,
+          "percent": 9
+        },
+        {
+          "label": "Kỳ ghi bàn",
+          "value": 5,
+          "percent": 83
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Bồ Đào Nha không chỉ có Ronaldo",
+      "subtext": "Một thế hệ đủ dày để mơ lớn",
+      "voiceText": "Điểm khiến câu chuyện đáng chờ là Bồ Đào Nha hiện tại không còn phụ thuộc hoàn toàn vào Ronaldo. Bruno Fernandes, Bernardo Silva, Vitinha, João Neves, Nuno Mendes, Rafael Leão và Rúben Dias tạo nên một bộ khung đồng đều ở cả ba tuyến.",
+      "duration": 6,
+      "startTime": 34,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "icon": "🧠",
+          "label": "Tuyến giữa",
+          "value": "Bruno, Bernardo, Vitinha, Joao Neves"
+        },
+        {
+          "icon": "🛡️",
+          "label": "Hàng thủ",
+          "value": "Rúben Dias, Nuno Mendes, Diogo Dalot"
+        },
+        {
+          "icon": "⚡",
+          "label": "Hàng công",
+          "value": "Ronaldo, Leao, Ramos, Pedro Neto"
+        },
+        {
+          "icon": "🏅",
+          "label": "Đà tâm lý",
+          "value": "Vô địch Nations League 2024-25"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "assets/storyboards/ronaldo-world-cup-history-2026/portugal-wc26-lineups.jpg",
+          "label": "Lineup concept",
+          "top": "800px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#1FAE5B",
+          "cardBg": "rgba(7,26,20,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Bảng đấu và ngày ra quân",
+      "subtext": "Bồ Đào Nha ở bảng K World Cup 2026",
+      "voiceText": "Theo lịch dự kiến, Bồ Đào Nha nằm ở bảng Ka cùng Colombia, Uzbekistan và Cộng hòa Dân chủ Congo. Trận ra quân là ngày mười bảy tháng sáu tại Houston. Chỉ cần bước ra sân hôm đó, Ronaldo sẽ mở khóa thêm một trang lịch sử.",
+      "duration": 6,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG K",
+      "tabs": [
+        "BẢNG K",
+        "LỊCH",
+        "ĐỘI HÌNH",
+        "KỶ LỤC"
+      ],
+      "ctaLabel": "ROAD TO HISTORY",
+      "fixtures": [
+        {
+          "group": "World Cup 2026",
+          "date": "17/6",
+          "time": "Houston",
+          "home": {
+            "name": "Bồ Đào Nha",
+            "code": "POR",
+            "teamType": "national",
+            "flag": "assets/football/flags/portugal.svg"
+          },
+          "away": {
+            "name": "CHDC Congo",
+            "code": "COD",
+            "teamType": "national",
+            "flag": "assets/football/flags/dr-congo.svg"
+          }
+        },
+        {
+          "group": "Bảng K",
+          "date": "2026",
+          "time": "Group stage",
+          "home": {
+            "name": "Bồ Đào Nha",
+            "code": "POR",
+            "teamType": "national",
+            "flag": "assets/football/flags/portugal.svg"
+          },
+          "away": {
+            "name": "Uzbekistan",
+            "code": "UZB",
+            "teamType": "national",
+            "flag": "assets/football/flags/uzbekistan.svg"
+          }
+        },
+        {
+          "group": "Bảng K",
+          "date": "2026",
+          "time": "Group stage",
+          "home": {
+            "name": "Bồ Đào Nha",
+            "code": "POR",
+            "teamType": "national",
+            "flag": "assets/football/flags/portugal.svg"
+          },
+          "away": {
+            "name": "Colombia",
+            "code": "COL",
+            "teamType": "national"
+          }
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4,
+          "top": "76%",
+          "size": 82
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định của Méo Bình Luận",
+      "subtext": "Chương cuối không chỉ là hoài niệm",
+      "voiceText": "Theo Méo, câu chuyện của Ronaldo ở World Cup hai không hai sáu không nên chỉ nhìn bằng tuổi tác. Nếu Bồ Đào Nha biết dùng anh như một điểm nổ trong vòng cấm, còn phần còn lại vận hành bằng tập thể, giấc mơ cuối vẫn có lý do để tồn tại.",
+      "duration": 7,
+      "startTime": 46,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "quote": "Ở tuổi 41, Ronaldo không cần đá như tuổi 25. Anh chỉ cần xuất hiện đúng khoảnh khắc mà lịch sử gọi tên.",
+      "author": "Méo Bình Luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Ronaldo có thể khép lại di sản bằng World Cup không?",
+      "subtext": "Comment cảm nghĩ của bạn",
+      "voiceText": "Bạn nghĩ sao về cơ hội của Ronaldo và Bồ Đào Nha tại World Cup hai nghìn không trăm hai mươi sáu? Hãy comment cảm nghĩ của bạn. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 53,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Comment: CR7 có vô địch World Cup không?",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bạn chọn: chương cuối rực rỡ hay tiếc nuối?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Ronaldo",
+          "Bồ Đào Nha",
+          "World Cup 2026",
+          "CR7",
+          "Méo Bình Luận",
+          "Follow"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.6
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

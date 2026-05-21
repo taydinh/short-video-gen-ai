@@ -75,7 +75,7 @@ Brand safety cho FIFA/World Cup:
 - Dùng icon bóng đá generic, sân cỏ, bảng tỉ số, bracket, stat overlay, cúp generic nếu thật cần nhưng không mô phỏng trophy chính thức.
 
 Ngoài ra vẫn dùng được các composition cũ (nếu cần):
-- "hero-title", "bullet-points", "quote-card", "stat-highlight", "infographic-chart", "stats-grid", "terminal", "callout", "cta-card", "comparison", "code-diff"
+- "hero-title", "bullet-points", "quote-card", "stat-highlight", "infographic-chart", "stats-grid", "terminal", "callout", "cta-card", "comparison", "code-diff", "flashcard-gallery" (cần "cards": [{"imageSrc": "url/query", "text": "keyword in voiceText", "caption": "label"}], có thể tuỳ chọn "layout": "horizontal" hoặc "vertical")
 
 Nhóm Joly-inspired HTML components (không dùng React, render ổn trong HyperFrames):
 1. "joly-typewriter-text": chữ gõ từng ký tự (cần "words": [string] hoặc "title" chứa cụm ngắn)

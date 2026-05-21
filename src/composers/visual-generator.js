@@ -38,6 +38,8 @@ function generateSingleVisualHTML(visuals, cid) {
             return generateFootballConfettiHTML(visuals, cid);
         case 'channel-watermark':
             return generateChannelWatermarkHTML(visuals, cid);
+        case 'highlight-image-card':
+            return generateHighlightImageCardHTML(visuals, cid);
         case 'image':
             return generateImageHTML(visuals, cid);
         case 'animation':
@@ -478,6 +480,140 @@ function generateImageHTML(visuals, cid) {
   `;
 }
 
+function generateHighlightImageCardHTML(visuals, cid) {
+    const imageUrl = visuals.imageUrl || visuals.imageSrc || '';
+    if (!imageUrl) return '';
+
+    const accent = visuals.accentColor || '#F7C948';
+    const secondaryAccent = visuals.secondaryAccentColor || '#1FAE5B';
+    const cardBg = visuals.cardBg || 'rgba(8,17,31,0.78)';
+    const title = visuals.title || '';
+    const label = visuals.label || '';
+    const caption = visuals.caption || '';
+    const zIndex = visuals.zIndex || (visuals.position === 'background' ? 1 : 2);
+    const widthValue = visuals.width || '900px';
+    const heightValue = visuals.height || '640px';
+    const top = visuals.top || '820px';
+    const left = visuals.left || '90px';
+    const right = visuals.right || '90px';
+    const objectFit = visuals.objectFit || 'cover';
+    const objectPosition = visuals.objectPosition || 'center center';
+    const borderRadius = Number.isFinite(visuals.borderRadius) ? visuals.borderRadius : 26;
+    const imageRadius = Math.max(8, borderRadius - 10);
+    const entranceDuration = Number.isFinite(visuals.entranceDuration) ? visuals.entranceDuration : 0.72;
+    const glowDuration = Number.isFinite(visuals.glowDuration) ? visuals.glowDuration : 2.4;
+    const overlay = visuals.overlayColor || 'linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.2))';
+
+    return `
+    <style>
+      @keyframes highlight-card-rise-${cid} {
+        from { opacity: 0; transform: translate3d(0, 28px, 0) scale(0.965); filter: blur(5px); }
+        to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); filter: blur(0); }
+      }
+      @keyframes highlight-card-glow-${cid} {
+        0%, 100% { box-shadow: 0 24px 70px rgba(0,0,0,0.36), 0 0 0 1px rgba(255,255,255,0.12) inset, 0 0 40px ${hexToRgbaForVisuals(accent, 0.20)}; }
+        50% { box-shadow: 0 30px 88px rgba(0,0,0,0.44), 0 0 0 1px ${hexToRgbaForVisuals(accent, 0.50)} inset, 0 0 78px ${hexToRgbaForVisuals(accent, 0.42)}; }
+      }
+      @keyframes highlight-card-sheen-${cid} {
+        from { transform: translateX(-130%) skewX(-18deg); }
+        to { transform: translateX(130%) skewX(-18deg); }
+      }
+      .highlight-image-card-${cid} {
+        animation:
+          highlight-card-rise-${cid} ${entranceDuration}s cubic-bezier(.2,.8,.2,1) both,
+          highlight-card-glow-${cid} ${glowDuration}s ease-in-out ${entranceDuration}s infinite;
+      }
+      .highlight-image-card-${cid}::before {
+        content: "";
+        position:absolute;
+        inset:0;
+        border-radius:${borderRadius}px;
+        padding:2px;
+        background:linear-gradient(135deg, ${accent}, rgba(255,255,255,0.34), ${secondaryAccent});
+        -webkit-mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+        -webkit-mask-composite:xor;
+        mask-composite:exclude;
+        pointer-events:none;
+        z-index:3;
+      }
+      .highlight-image-card-${cid}::after {
+        content:"";
+        position:absolute;
+        top:-12%;
+        bottom:-12%;
+        left:0;
+        width:42%;
+        background:linear-gradient(90deg, transparent, rgba(255,255,255,0.24), transparent);
+        animation:highlight-card-sheen-${cid} 1.25s ease-out ${Math.max(0.2, entranceDuration + 0.18)}s both;
+        pointer-events:none;
+        z-index:4;
+      }
+    </style>
+    <div class="highlight-image-card highlight-image-card-${cid}" data-layout-allow-overflow style="
+      position:absolute;
+      top:${top};
+      left:${left};
+      right:${right};
+      width:${widthValue === 'auto' ? 'auto' : widthValue};
+      max-width:calc(100% - 140px);
+      height:${heightValue};
+      margin:0 auto;
+      z-index:${zIndex};
+      padding:14px;
+      border-radius:${borderRadius}px;
+      background:
+        radial-gradient(circle at 18% 0%, ${hexToRgbaForVisuals(accent, 0.20)}, transparent 42%),
+        linear-gradient(145deg, ${cardBg}, rgba(255,255,255,0.07));
+      border:1px solid ${hexToRgbaForVisuals(accent, 0.34)};
+      overflow:hidden;
+      pointer-events:none;
+      font-family:'Inter', sans-serif;
+    ">
+      <img src="${escapeHtmlForVisuals(imageUrl)}" alt="" style="
+        width:100%;
+        height:100%;
+        object-fit:${objectFit};
+        object-position:${objectPosition};
+        border-radius:${imageRadius}px;
+        display:block;
+        filter:saturate(1.08) contrast(1.04);
+      " />
+      <div style="position:absolute; inset:14px; border-radius:${imageRadius}px; background:${overlay}; pointer-events:none;"></div>
+      ${label ? `<div style="
+        position:absolute;
+        top:28px;
+        left:28px;
+        z-index:5;
+        padding:8px 14px;
+        border-radius:999px;
+        background:${hexToRgbaForVisuals(accent, 0.94)};
+        color:#08111F;
+        font-size:18px;
+        line-height:1;
+        font-weight:950;
+        letter-spacing:0.10em;
+        text-transform:uppercase;
+        box-shadow:0 10px 24px rgba(0,0,0,0.26);
+      ">${escapeHtmlForVisuals(label)}</div>` : ''}
+      ${title || caption ? `<div style="
+        position:absolute;
+        left:28px;
+        right:28px;
+        bottom:28px;
+        z-index:5;
+        padding:16px 18px;
+        border-radius:18px;
+        background:rgba(6,10,18,0.70);
+        border:1px solid rgba(255,255,255,0.16);
+        backdrop-filter:blur(10px);
+      ">
+        ${title ? `<div style="font-size:28px; line-height:1.12; font-weight:950; color:#ffffff;">${escapeHtmlForVisuals(title)}</div>` : ''}
+        ${caption ? `<div style="margin-top:6px; font-size:19px; line-height:1.28; font-weight:800; color:rgba(255,255,255,0.76);">${escapeHtmlForVisuals(caption)}</div>` : ''}
+      </div>` : ''}
+    </div>
+  `;
+}
+
 function generateAnimationHTML(visuals, cid) {
     const animations = {
         'floating-particles': `
@@ -815,4 +951,18 @@ function generateMotionHTML(visuals, cid) {
 function escapeHtmlForVisuals(str) {
     if (!str) return '';
     return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+function hexToRgbaForVisuals(hex, alpha = 1) {
+    if (typeof hex !== 'string') return `rgba(255,255,255,${alpha})`;
+    const normalized = hex.replace('#', '').trim();
+    const value = normalized.length === 3
+        ? normalized.split('').map((x) => x + x).join('')
+        : normalized;
+    if (!/^[0-9a-fA-F]{6}$/.test(value)) return hex;
+    const num = parseInt(value, 16);
+    const r = (num >> 16) & 255;
+    const g = (num >> 8) & 255;
+    const b = num & 255;
+    return `rgba(${r},${g},${b},${alpha})`;
 }

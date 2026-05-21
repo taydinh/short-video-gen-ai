@@ -21,6 +21,7 @@ Nguồn tham chiếu:
 | `context-bars` | Các thanh context xếp chồng, phù hợp để so sánh tín hiệu/ngữ cảnh. |
 | `promo-card` | CTA/promo cuối video, hỗ trợ nút follow/comment/url/logos. |
 | `hero-title` | Tiêu đề lớn full-screen kèm emoji. |
+| `flashcard-gallery` | Bộ sưu tập ảnh (gallery) dạng thẻ xếp chồng 3D, hỗ trợ vuốt chuyển thẻ Tinder-swipe tự động đồng bộ theo từ khóa giọng nói. Hỗ trợ tùy chọn `"layout": "horizontal"` (thẻ ngang 4:3) hoặc `"vertical"` (mặc định, thẻ dọc). |
 | `bullet-points` | Danh sách bullet có animation. |
 | `quote-card` | Quote đơn giản ở giữa màn hình. |
 | `stat-highlight` | Một con số hoặc số liệu lớn nổi bật. |
@@ -45,7 +46,7 @@ Nguồn tham chiếu:
 | `football-player-stat` | Spotlight cầu thủ/đội, số áo, ảnh và thống kê. |
 | `football-odds-h2h` | Bảng kèo kèm lịch sử đối đầu gần đây. |
 | `football-lineup` | Đội hình ra sân trên pitch theo formation. |
-| `football-bracket-flow` | Hành trình giải đấu/knockout/bracket. |
+| `football-bracket-flow` | Hành trình giải đấu/knockout/bracket. Hỗ trợ `flowVariant: "branching"` mặc định dạng phân nhánh và `flowVariant: "linear"` dạng thẳng từ trên xuống. |
 | `football-timeline` | Diễn biến trận theo mốc phút. |
 | `football-upcoming-schedule` | Lịch thi đấu sắp tới/fixtures. |
 | `football-standings-table` | Bảng xếp hạng/group table/league table. |
@@ -104,6 +105,7 @@ Nguồn tham chiếu:
 | Type/Name | Chú thích |
 |---|---|
 | `visuals.type: "image"` | Ảnh nền/foreground, hỗ trợ `motionType: "ken-burns"` để zoom/pan chậm. |
+| `visuals.type: "highlight-image-card"` | Card ảnh tái sử dụng, có nền UI, border gradient/highlight, nhãn, title/caption và animation rise/glow. |
 | `visuals.type: "animation"` + `floating-particles` | Hạt bay lơ lửng trên canvas. |
 | `visuals.type: "animation"` + `wave-lines` | Sóng SVG chạy ngang. |
 | `visuals.type: "animation"` + `glow-orbits` | Vòng sáng quay. |
@@ -126,4 +128,3 @@ Nguồn tham chiếu:
 | `football-stat-radar` | Hiện đang map chung sang renderer stat bars. |
 | `football-confetti` | Canvas confetti rơi. |
 | `channel-watermark` | Logo/handle watermark ở góc màn hình. |
-
