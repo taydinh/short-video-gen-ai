@@ -143,33 +143,36 @@ Từ URL/bài viết bóng đá đã cho, hãy tổng hợp thông tin chính v�
 
 Yêu cầu:
 - Bám nội dung bài viết gốc, có thể bổ sung nguồn tương tự nếu cần kiểm chứng số liệu, lịch, danh sách đội hình hoặc ảnh.
-- Ưu tiên dùng URL ảnh thật trong bài viết/nguồn tham khảo. Nếu scene 1 cần hook mạnh, có thể tạo ảnh riêng và lưu vào assets/storyboards/<slug>/scene-1.png.
+- Ưu tiên dùng URL ảnh thật trong bài viết/nguồn tham khảo.
 - Giữ giọng đọc ngắn, rõ, giàu nhịp bình luận bóng đá; mỗi voiceText nên có 1 ý chính.
-- Scene 1 bắt buộc dùng `composition: "feng-shui-card"` và dùng ChatGPT tạo hình ảnh theo `title` của storyboard để làm ảnh cho `imageSrc` hoặc `imageUrl`. Lưu ảnh vào `assets/storyboards/<slug>/scene-1.png`. Scene 1 không hiển thị visual `channel-watermark`.
+- Scene 1 bắt buộc dùng `composition: "feng-shui-card"`. Ưu tiên lấy hình ảnh từ URL trực tiếp từ bài báo hoặc tìm kiếm hình ảnh từ các bài báo tương tự. Nếu không có hình ảnh thì để trống (để rỗng `imageSrc` hoặc `imageUrl`), tôi sẽ tự thêm vào sau. Scene 1 không hiển thị visual `channel-watermark`.
 - Title của scene 1 phải ngắn gọn, gây tò mò và tạo hứng thú. `voiceText` của scene 1 phải đọc title trước, sau đó mới thêm nội dung dẫn chuyện khác.
-- Scene 2-7 là nội dung chính, không cố định composition. Hãy chọn composition phù hợp nhất với nội dung từng scene: stats, timeline, context, player stat, schedule, bracket, quote, comparison hoặc các composition football/broadcast khác từ presets\composition-catalog.md nếu hợp ngữ cảnh.
-- Với scene 2-7, ưu tiên kết hợp 2 composition trong cùng 1 scene khi dữ liệu phù hợp, ví dụ `stats-cards-grid` + `secondaryComposition: "infographic-chart"`, `context-bars` + `visuals.type: "highlight-image-card"`, `football-scoreboard` + `visuals.type: "football-stat-bars"`, hoặc `football-bracket-flow` + ảnh nền/motion.
-- Khi có số liệu nổi bật, ưu tiên `stats-cards-grid`; nếu cần biểu đồ trong cùng scene, dùng `secondaryComposition: "infographic-chart"` + `chartType: "bar"` + `data`.
-- Khi kể hành trình hoặc mốc thời gian theo chiều dọc, dùng `football-bracket-flow` với `flowVariant: "linear"`. Khi kể nhánh loại trực tiếp/đường vào chung kết, dùng `flowVariant: "branching"`.
-- Scene 8 là nhận định chủ quan của chủ kênh, dùng `composition: "quote-attrib"`, `author: "Méo Bình Luận"`, `role: "Góc nhìn chủ quan"`, `imageUrl: "assets/images/meo-bl-wc-room.png"`.
-- Scene 9 là CTA, hỏi cảm nghĩ, kêu gọi comment và follow.
+- Sử dụng cấu trúc 9 scene khuyến nghị dựa trên storyboard `storyboards\21-05-2026\pep-guardiola-chia-tay-man-city-sau-10-nam.json`.
+- Scene 2: `stats-cards-grid` (tổng quan thông số ban đầu).
+- Scene 3: `football-bracket-flow` với flowVariant: "linear" (hành trình/cột mốc sự kiện).
+- Scene 4: `football-player-stat` (spotlight cầu thủ/HLV/đội bóng).
+- Scene 5: `stats-cards-grid` + `secondaryComposition: "infographic-chart"` (bảng vàng thành tích/số liệu chi tiết).
+- Scene 6: `context-bars` + visual `highlight-image-card` (ứng cử viên/phân tích chiến thuật/danh sách).
+- Scene 7: `football-upcoming-schedule` hoặc linh hoạt (lịch thi đấu/bối cảnh tiếp theo).
+- Scene 8: `quote-attrib` (nhận định chủ quan của Méo Bình Luận: `author: "Méo bình luận"`, `role: "Góc nhìn chủ quan"`, `imageUrl: "assets/images/meo-bl-wc-room.png"`).
+- Scene 9: `promo-card` (CTA tương tác, hỏi ý kiến khán giả kéo comment và kêu gọi follow).
 - Thêm `sources` ở root JSON nếu có dùng nguồn bổ sung.
 - Lưu file vào `storyboards/<ngày hôm nay>/<slug>.json`.
 ```
 
-### Cấu Trúc 9 Scene Khuyến Nghị
+### Cấu Trúc 9 Scene Khuyến Nghị (Dựa trên `storyboards\21-05-2026\pep-guardiola-chia-tay-man-city-sau-10-nam.json`)
 
 | Scene | Composition | Mục đích | Gợi ý field quan trọng |
 |---|---|---|---|
-| 1 | `feng-shui-card` | Hook mở đầu, tiêu đề ngắn gây tò mò, ảnh tạo bằng ChatGPT theo title storyboard | `label`, `imageSrc`, `cardCaption`, `chips`; không dùng `visuals.channel-watermark` |
-| 2 | Linh hoạt | Tóm tắt điểm nóng của tin | Chọn composition hợp dữ liệu; ưu tiên kết hợp thêm visual hoặc `secondaryComposition` |
-| 3 | Linh hoạt | Hành trình/mốc sự kiện hoặc lớp bối cảnh tiếp theo | Có thể dùng `football-bracket-flow` + `flowVariant: "linear"` nếu là timeline thẳng |
-| 4 | Linh hoạt | Spotlight cầu thủ/HLV/đội bóng trung tâm | Có thể dùng `football-player-stat`, `quote-attrib`, `comparison`, hoặc `context-bars` |
-| 5 | Linh hoạt, ưu tiên scene lai | Scene số liệu tổng hợp hoặc góc phân tích | Ví dụ `stats-cards-grid` + `secondaryComposition: "infographic-chart"` |
-| 6 | Linh hoạt, ưu tiên scene lai | Bối cảnh chiến thuật/danh sách/đội hình | Ví dụ `context-bars` + `visuals.type: "highlight-image-card"` |
-| 7 | Linh hoạt | Lịch thi đấu, bảng đấu, diễn biến tiếp theo hoặc tác động của tin | Có thể dùng `football-upcoming-schedule`, `football-timeline`, `football-standings-table` |
-| 8 | `quote-attrib` | Nhận định của Méo Bình Luận | `quote`, `author`, `role`, `imageUrl` |
-| 9 | `promo-card` hoặc `cta-card` | CTA comment/follow | `promo.badge`, `promo.button`, `promo.commentPrompt`, `voiceText` |
+| 1 | `feng-shui-card` | Hook mở đầu, tiêu đề ngắn gây tò mò, ưu tiên lấy ảnh từ url trực tiếp từ bài báo/tin tức tương tự, nếu không có thì để trống | `label`, `imageSrc`, `cardCaption`, `chips`; không dùng `visuals.channel-watermark` |
+| 2 | `stats-cards-grid` | Tóm tắt điểm nóng hoặc tổng quan thông số ban đầu | `statsCards`; có thể dùng `football-pitch-lines` ở background |
+| 3 | `football-bracket-flow` | Hành trình hoặc các mốc sự kiện quan trọng (`flowVariant: "linear"`) | `stages`, `flowVariant`, `secondaryComposition` (ví dụ `flashcard-gallery`), `cards` |
+| 4 | `football-player-stat` | Spotlight cầu thủ/HLV/đội bóng trung tâm | `player`, `team`, `playerImageUrl`, `stats` |
+| 5 | `stats-cards-grid` + `secondaryComposition: "infographic-chart"` | Bảng vàng thành tích hoặc thông số tổng hợp chi tiết | `statsCards`, `chartTitle`, `chartType` ("bar"), `data` |
+| 6 | `context-bars` + visual `highlight-image-card` | Chi tiết ứng cử viên, phân tích chiều sâu hoặc sơ đồ chiến thuật | `bars`, visuals với type `"highlight-image-card"` |
+| 7 | `football-upcoming-schedule` (hoặc linh hoạt) | Lịch thi đấu sắp tới, diễn biến tiếp theo hoặc bối cảnh tiếp diễn | `activeTab`, `tabs`, `fixtures` (home, away, flag, date, time) |
+| 8 | `quote-attrib` | Nhận định của Méo Bình Luận | `quote`, `author`: "Méo bình luận", `role`: "Góc nhìn chủ quan", `imageUrl`: "assets/images/meo-bl-wc-room.png" |
+| 9 | `promo-card` | CTA comment/follow | `promo.badge`, `promo.button`, `promo.commentPrompt`, `promo.logos` |
 
 ### Mẫu Style Mặc Định
 

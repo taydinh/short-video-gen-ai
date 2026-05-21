@@ -15,6 +15,25 @@ import { findFootballAssetForTeam, loadFootballAssetIndex } from "../football/as
 
 const { width, height } = config.hyperframes;
 
+function extractCanvasInner(html) {
+  if (!html) return "";
+  const canvasStart = html.search(/<div[^>]*class="[^"]*canvas[^"]*"[^>]*>/);
+  if (canvasStart === -1) return html;
+  const openingTagEnd = html.indexOf(">", canvasStart) + 1;
+  const lastClosingDiv = html.lastIndexOf("</div>");
+  if (lastClosingDiv === -1 || lastClosingDiv <= openingTagEnd) {
+    return html.substring(openingTagEnd);
+  }
+  let inner = html.substring(openingTagEnd, lastClosingDiv);
+  inner = inner.replace(/<div[^>]*class="[^"]*bg-gradient[^"]*"[^>]*><\/div>/g, "");
+  inner = inner.replace(/<div[^>]*class="[^"]*bg-grid[^"]*"[^>]*><\/div>/g, "");
+  inner = inner.replace(/<div[^>]*class="[^"]*glow-orb[^"]*"[^>]*><\/div>/g, "");
+  inner = inner.replace(/<div[^>]*class="[^"]*football-pitch-bg[^"]*"[^>]*>[\s\S]*?<\/div>/g, "");
+  inner = inner.replace(/<h1[^>]*class="[^"]*title[^"]*"[^>]*>[\s\S]*?<\/h1>/g, "");
+  inner = inner.replace(/<h1[^>]*class="[^"]*scene-title[^"]*"[^>]*>[\s\S]*?<\/h1>/g, "");
+  return inner;
+}
+
 export function buildSceneHtml(scene, audioFile) {
   const isJoly = isJolyComposition(scene.composition);
   const composerFn = COMPOSERS[scene.composition] || COMPOSERS["bullet-points"];
@@ -26,6 +45,15 @@ export function buildSceneHtml(scene, audioFile) {
     if (idx === -1) return html + injection;
     return html.slice(0, idx) + injection + html.slice(idx);
   };
+
+  if (scene.secondaryComposition) {
+    const secComposerFn = COMPOSERS[scene.secondaryComposition];
+    if (secComposerFn) {
+      const secContentRaw = secComposerFn(scene);
+      const secContent = extractCanvasInner(secContentRaw);
+      content = injectBeforeLastClosingDiv(content, secContent);
+    }
+  }
 
   // Thêm visuals nếu có
   const visualsHTML = generateVisualsHTML(scene);
@@ -50,8 +78,11 @@ export function buildSceneHtml(scene, audioFile) {
     ? `<audio id="scene-${scene.id}-audio" data-start="0" data-duration="${sceneDuration.toFixed(3)}" src="assets/${audioFile}" preload="auto"></audio>`
     : "";
 
+  const secClass = scene.secondaryComposition ? `has-secondary-${scene.secondaryComposition}` : "";
+
   return `<div
     data-composition-id="scene-${scene.id}"
+    class="${secClass}"
     data-width="${width}"
     data-height="${height}"
     data-duration="${sceneDuration.toFixed(3)}"
@@ -2771,6 +2802,7 @@ function composerStyles(scene) {
       display: flex;
       justify-content: center;
       align-items: center;
+      z-index: 100 !important;
     }
     [data-composition-id="${cid}"] .flash-card {
       position: absolute;
@@ -2826,6 +2858,118 @@ function composerStyles(scene) {
     }
     [data-composition-id="${cid}"] .flash-card-stack-container.layout-horizontal .flash-card-caption {
       font-size: 42px;
+    }
+
+    /* CSS overrides for combined compositions */
+    [data-composition-id="${cid}"].has-secondary-flashcard-gallery .football-bracket {
+      margin-top: -30px !important;
+      height: 120px !important;
+      margin-bottom: 20px !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-flashcard-gallery .flash-card-stack-container {
+      top: 64% !important;
+      transform: translate(-50%, -50%) scale(0.9) !important;
+      z-index: 100 !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-flashcard-gallery .football-bracket-node {
+      width: 200px !important;
+      min-height: 80px !important;
+      height: 80px !important;
+      padding: 10px 10px 8px !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-flashcard-gallery .football-node-stage {
+      font-size: 12px !important;
+      padding-bottom: 6px !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-flashcard-gallery .football-node-title {
+      font-size: 16px !important;
+      margin-top: 6px !important;
+    }
+
+    [data-composition-id="${cid}"].has-secondary-infographic-chart .canvas {
+      padding-top: 100px !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-infographic-chart .ai-title {
+      margin-bottom: 20px !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-infographic-chart .ai-stat-card {
+      padding: 16px 20px !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-infographic-chart .ai-stat-card .ai-gradient-text {
+      font-size: 46px !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-infographic-chart .ai-stat-card .ai-muted {
+      font-size: 26px !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-infographic-chart .chart-container {
+      margin-top: 30px !important;
+      width: 880px !important;
+      max-width: 880px !important;
+      padding: 24px 34px !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-infographic-chart .chart-container .chart-title {
+      font-size: 38px !important;
+    }
+
+    /* Promo Card Premium Glowing Button */
+    [data-composition-id="${cid}"] .ai-promo-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 18px 48px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, ${scene.accentColor || "#8dd3ff"} 0%, ${scene.secondaryAccentColor || scene.accentColor2 || lighten(scene.accentColor || "#8dd3ff")} 100%);
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 12px 40px ${hexToRgba(scene.accentColor || "#8dd3ff", 0.4)}, 0 0 30px ${hexToRgba(scene.accentColor || "#8dd3ff", 0.25)};
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      animation: promoBtnPulse${scene.id} 2.5s infinite alternate ease-in-out;
+    }
+    
+    [data-composition-id="${cid}"] .ai-promo-btn::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.4),
+        transparent
+      );
+      transform: skewX(-25deg);
+      animation: promoBtnShine${scene.id} 4s infinite linear;
+    }
+
+    [data-composition-id="${cid}"] .ai-promo-btn-text {
+      font-size: 24px;
+      font-weight: 900;
+      color: #0c101c;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.15);
+    }
+
+    @keyframes promoBtnPulse${scene.id} {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 12px 40px ${hexToRgba(scene.accentColor || "#8dd3ff", 0.4)}, 0 0 30px ${hexToRgba(scene.accentColor || "#8dd3ff", 0.2)};
+        border-color: rgba(255, 255, 255, 0.4);
+      }
+      100% {
+        transform: scale(1.05);
+        box-shadow: 0 16px 50px ${hexToRgba(scene.accentColor || "#8dd3ff", 0.65)}, 0 0 45px ${hexToRgba(scene.accentColor || "#8dd3ff", 0.45)};
+        border-color: rgba(255, 255, 255, 0.7);
+      }
+    }
+
+    @keyframes promoBtnShine${scene.id} {
+      0% { left: -100%; }
+      30% { left: 150%; }
+      100% { left: 150%; }
     }
   `;
 }
@@ -3203,58 +3347,96 @@ const COMPOSERS = {
 
   "football-bracket-flow": (scene) => {
     const stages = normalizeFootballStages(scene);
-    const nodes = stages.slice(0, 7);
-    const nodeW = 220;
-    const nodeH = 110;
-    const layout = [
-      { x: (900 - nodeW) / 2, y: 24 }, // root
-      { x: 120, y: 170 }, // mid-left
-      { x: 560, y: 170 }, // mid-right
-      { x: 20, y: 360 }, // leaf-1
-      { x: 240, y: 360 }, // leaf-2
-      { x: 460, y: 360 }, // leaf-3
-      { x: 680, y: 360 }, // leaf-4
-    ];
+    const isLinear = scene.flowVariant === "linear";
+    const hasSecondary = Boolean(scene.secondaryComposition);
+    const nodes = isLinear ? stages.slice(0, 5) : stages.slice(0, 7);
+    
+    let nodeW = 220;
+    let nodeH = 110;
+    let layout = [];
+    let paths = [];
+    
+    if (isLinear) {
+      if (hasSecondary) {
+        nodeW = 200;
+        nodeH = 80;
+        const totalW = 900;
+        const startY = 10;
+        const gap = nodes.length > 1 ? (totalW - nodeW) / (nodes.length - 1) : 0;
+        for (let i = 0; i < nodes.length; i++) {
+          layout.push({ x: i * gap, y: startY });
+        }
+        if (nodes.length > 1) {
+          const cx = (pt) => pt.x + nodeW / 2;
+          const cy = (pt) => pt.y + nodeH / 2;
+          paths.push(`M ${cx(layout[0])} ${cy(layout[0])} H ${cx(layout[nodes.length - 1])}`);
+        }
+      } else {
+        nodeW = 220;
+        nodeH = 100;
+        const startY = 30;
+        const endY = 430;
+        const gapY = nodes.length > 1 ? (endY - startY) / (nodes.length - 1) : 0;
+        for (let i = 0; i < nodes.length; i++) {
+          const y = startY + i * gapY;
+          const x = 450 - nodeW / 2;
+          layout.push({ x, y });
+        }
+        if (nodes.length > 0) {
+          const cx = (pt) => pt.x + nodeW / 2;
+          const cy = (pt) => pt.y + nodeH / 2;
+          paths.push(`M 450 ${cy(layout[0])} V ${cy(layout[nodes.length - 1])}`);
+        }
+      }
+    } else {
+      layout = [
+        { x: (900 - nodeW) / 2, y: 24 }, // root
+        { x: 120, y: 170 }, // mid-left
+        { x: 560, y: 170 }, // mid-right
+        { x: 20, y: 360 }, // leaf-1
+        { x: 240, y: 360 }, // leaf-2
+        { x: 460, y: 360 }, // leaf-3
+        { x: 680, y: 360 }, // leaf-4
+      ];
+      const cx = (pt) => pt.x + nodeW / 2;
+      const topY = (pt) => pt.y;
+      const bottomY = (pt) => pt.y + nodeH;
+      const has = (i) => Boolean(nodes[i]);
+      const trunkY1 = 150;
+      const trunkY2 = 300;
+      if (has(0) && (has(1) || has(2))) {
+        [1, 2].forEach((i) => {
+          if (!has(i)) return;
+          const p0 = layout[0];
+          const pi = layout[i];
+          paths.push(`M ${cx(p0)} ${bottomY(p0)} V ${trunkY1} H ${cx(pi)} V ${topY(pi)}`);
+        });
+      }
+      if (has(1)) {
+        [3, 4].forEach((i) => {
+          if (!has(i)) return;
+          const p1 = layout[1];
+          const pi = layout[i];
+          paths.push(`M ${cx(p1)} ${bottomY(p1)} V ${trunkY2} H ${cx(pi)} V ${topY(pi)}`);
+        });
+      }
+      if (has(2)) {
+        [5, 6].forEach((i) => {
+          if (!has(i)) return;
+          const p2 = layout[2];
+          const pi = layout[i];
+          paths.push(`M ${cx(p2)} ${bottomY(p2)} V ${trunkY2} H ${cx(pi)} V ${topY(pi)}`);
+        });
+      }
+    }
     const palette = ["#F7C948", "#98E58B", "#F6B58D", "#C8B6FF", "#86D8FF", "#FF9DB7", "#FFE35A"];
-    const cx = (pt) => pt.x + nodeW / 2;
-    const topY = (pt) => pt.y;
-    const bottomY = (pt) => pt.y + nodeH;
-
-    const has = (i) => Boolean(nodes[i]);
-    const trunkY1 = 150;
-    const trunkY2 = 300;
-    const paths = [];
-    if (has(0) && (has(1) || has(2))) {
-      [1, 2].forEach((i) => {
-        if (!has(i)) return;
-        const p0 = layout[0];
-        const pi = layout[i];
-        paths.push(`M ${cx(p0)} ${bottomY(p0)} V ${trunkY1} H ${cx(pi)} V ${topY(pi)}`);
-      });
-    }
-    if (has(1)) {
-      [3, 4].forEach((i) => {
-        if (!has(i)) return;
-        const p1 = layout[1];
-        const pi = layout[i];
-        paths.push(`M ${cx(p1)} ${bottomY(p1)} V ${trunkY2} H ${cx(pi)} V ${topY(pi)}`);
-      });
-    }
-    if (has(2)) {
-      [5, 6].forEach((i) => {
-        if (!has(i)) return;
-        const p2 = layout[2];
-        const pi = layout[i];
-        paths.push(`M ${cx(p2)} ${bottomY(p2)} V ${trunkY2} H ${cx(pi)} V ${topY(pi)}`);
-      });
-    }
     return `
     <div class="canvas football-scene football-bracket-flow" style="align-items:center; justify-content:flex-start; padding:150px 76px 170px; background:${footballBg(scene)};">
       ${footballPitchBackdrop(scene)}
       <div class="football-kicker">${escapeHtml(scene.competitionLabel || "TOURNAMENT PATH")}</div>
       <h1 class="football-title" id="s${scene.id}-title">${escapeHtml(scene.title || "Road to the final")}</h1>
       <div class="football-bracket" id="s${scene.id}-bracket">
-        <svg viewBox="0 0 900 560" class="football-bracket-svg">
+        <svg viewBox="0 0 900 ${isLinear && hasSecondary ? 120 : 560}" class="football-bracket-svg">
           ${paths.map((d) => `<path class="football-bracket-path" d="${d}" />`).join("")}
         </svg>
         ${nodes.map((st, i) => {
@@ -3680,7 +3862,8 @@ const COMPOSERS = {
       { icon: "🧠", value: "170+", label: "Chuyên gia tâm lý" },
       { icon: "🔒", value: "Không", label: "Nội dung chia sẻ" },
     ];
-    const useSingleColumn = safeItems.length < 5;
+    const hasSecondary = Boolean(scene.secondaryComposition);
+    const useSingleColumn = safeItems.length < 5 && !hasSecondary;
     const maxCards = useSingleColumn ? 4 : 6;
     const grid = safeItems.slice(0, maxCards).map((it, i) => `
       <div class="ai-card ai-card-pop ai-stat-card" id="s${scene.id}-statcard-${i}" style="padding:26px 26px; opacity:0;">
@@ -3760,7 +3943,7 @@ const COMPOSERS = {
       <div class="ai-title ai-gradient-text" style="font-size:54px; font-weight:900; opacity:0.95; margin-bottom:44px;">
         ${escapeHtml(title)}
       </div>
-      <div style="width: 900px; max-width: 900px; display:flex; flex-direction:column; gap:18px;">
+      <div style="width: 50%; max-width: 50%; display:flex; flex-direction:column; gap:18px;">
         ${safeRows.slice(0, maxRows).map((r, i) => `
           <div class="ai-card ai-card-pop ai-row-card" id="s${scene.id}-row-${i}" style="padding:18px 22px; opacity:0;">
             <div class="ai-row">
@@ -3804,8 +3987,8 @@ const COMPOSERS = {
           <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-bottom:18px;">${pills}</div>
           <div class="ai-gradient-text" style="text-align:center; font-size:44px; font-weight:900; margin-top:14px;">${escapeHtml(badge)}</div>
           <div style="display:flex; justify-content:center; margin-top:18px;">
-            <div class="ai-card" style="padding:18px 34px; border-radius:999px; background: rgba(255,140,90,0.92); border-color: rgba(255,255,255,0.18);">
-              <div style="font-size:22px; font-weight:900; color:#1a0d0d; letter-spacing:0.12em;">${escapeHtml(button)}</div>
+            <div class="ai-promo-btn">
+              <span class="ai-promo-btn-text">${escapeHtml(button)}</span>
             </div>
           </div>
           <div style="text-align:center; margin-top:18px; font-size:26px; font-weight:900; color: rgba(141,211,255,0.95);">${escapeHtml(url)}</div>
@@ -4608,10 +4791,11 @@ function buildAnimationScript(scene) {
       });
 
       // 3. Khởi tạo trạng thái chồng 3D của các thẻ
+      const isHorizontal = ${scene.layout === 'horizontal'};
       cardElements.forEach((card, idx) => {
         gsap.set(card, {
-          x: 0,
-          y: 55 * idx,
+          x: isHorizontal ? 55 * idx : 0,
+          y: isHorizontal ? 0 : 55 * idx,
           scale: 1 - 0.05 * idx,
           rotation: idx % 2 === 1 ? -1.5 * idx : 1.5 * idx,
           opacity: idx >= 3 ? 0 : 1 - 0.25 * idx,
@@ -4623,7 +4807,8 @@ function buildAnimationScript(scene) {
       if (cardElements.length) {
         tl.from(cardElements, {
           scale: 0.8,
-          y: 180,
+          x: isHorizontal ? "+=100" : 0,
+          y: isHorizontal ? 0 : 180,
           opacity: 0,
           duration: 0.85,
           stagger: 0.08,
@@ -4638,21 +4823,33 @@ function buildAnimationScript(scene) {
         const swipeDir = (i % 2 === 1) ? -1 : 1; // Đổi hướng vuốt trái/phải liên tục
 
         // Vuốt văng thẻ trên cùng ra ngoài
-        tl.to(prevCard, {
-          x: swipeDir * 1400,
-          rotation: swipeDir * 28,
-          y: "+=100",
-          opacity: 0,
-          duration: 0.72,
-          ease: "power2.inOut"
-        }, swipeTime);
+        if (isHorizontal) {
+          tl.to(prevCard, {
+            y: swipeDir * 1400,
+            rotation: swipeDir * 28,
+            x: "+=100",
+            opacity: 0,
+            duration: 0.72,
+            ease: "power2.inOut"
+          }, swipeTime);
+        } else {
+          tl.to(prevCard, {
+            x: swipeDir * 1400,
+            rotation: swipeDir * 28,
+            y: "+=100",
+            opacity: 0,
+            duration: 0.72,
+            ease: "power2.inOut"
+          }, swipeTime);
+        }
 
         // Đẩy chồng bài phía sau tiến lên
         cardElements.forEach((card, idx) => {
           if (idx >= i) {
             const p = idx - i; // Vị trí mới tương đối so với đầu stack
             tl.to(card, {
-              y: 55 * p,
+              x: isHorizontal ? 55 * p : 0,
+              y: isHorizontal ? 0 : 55 * p,
               scale: 1 - 0.05 * p,
               rotation: p % 2 === 1 ? -1.5 * p : 1.5 * p,
               opacity: p >= 3 ? 0 : 1 - 0.25 * p,
@@ -4704,8 +4901,22 @@ function buildAnimationScript(scene) {
   const finalAnim = forcedAnim || scene.animation || animKey;
   const animBody = (animFns[finalAnim] || animFns[animKey] || animFns["fade-cascade"])();
 
+  let secondaryAnimScript = "";
+  if (scene.secondaryComposition) {
+    const secForcedAnim = forceAnimMap[scene.secondaryComposition];
+    const secAnimKey = secForcedAnim || "fade-cascade";
+    const secAnimFn = animFns[secAnimKey] || animFns["fade-cascade"];
+    if (secAnimFn) {
+      let secAnimBody = secAnimFn();
+      secAnimBody = secAnimBody.replace(/const\s+tl\s*=\s*gsap\.timeline\(\{[^}]*\}\);?/g, "");
+      secAnimBody = secAnimBody.replace(/let\s+tl\s*=\s*gsap\.timeline\(\{[^}]*\}\);?/g, "");
+      secondaryAnimScript = `\n{ // Secondary composition animations\n${secAnimBody}\n}\n`;
+    }
+  }
+
   return `
     ${animBody}
+    ${secondaryAnimScript}
     tl.to({}, { duration: 0 }, ${dur});
     window.__timelines = window.__timelines || {};
     window.__timelines["${cid}"] = tl;

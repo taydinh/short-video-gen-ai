@@ -1,0 +1,563 @@
+{
+  "title": "Lời chia tay ngọt ngào của Robert Lewandowski với Barcelona: Chương cuối kiêu hãnh",
+  "slug": "robert-lewandowski-chia-tay-barcelona",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "title": "Lời chia tay ngọt ngào của Robert Lewandowski với Barcelona",
+      "url": "https://www.msn.com/vi-vn/sports/other/l%E1%BB%9Di-chia-tay-ng%E1%BB%8Dt-ng%C3%A0o-c%E1%BB%A7a-robert-lewandowski-v%E1%BB%9Bi-barcelona/ar-AA23zB9L"
+    },
+    {
+      "title": "Lời chia tay ngọt ngào của Robert Lewandowski với Barcelona",
+      "url": "https://laodong.vn/the-thao/loi-chia-tay-ngot-ngao-cua-robert-lewandowski-voi-barcelona-1346747.ldo"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "ROBERT LEWANDOWSKI CHÍNH THỨC CHIA TAY BARCELONA!",
+      "subtext": "Hành trình 4 năm ngọt ngào khép lại đầy cảm xúc tại Camp Nou",
+      "voiceText": "Robert Lewandowski chính thức chia tay Barcelona! Tiền đạo người Ba Lan đã xác nhận sẽ rời câu lạc bộ vào mùa hè năm hai nghìn không trăm hai mươi sáu, khép lại hành trình bốn năm đầy ngọt ngào và kiêu hãnh tại Camp Nou.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#EDBB00",
+      "secondaryAccentColor": "#A50044",
+      "textColor": "#FFFFFF",
+      "label": "CHIA TAY HUYỀN THOẠI",
+      "imageSrc": "assets/storyboards/robert-lewandowski-chia-tay-barcelona/scene-1.png",
+      "cardCaption": "Robert Lewandowski chính thức khép lại chương sự nghiệp rực rỡ cùng Gã khổng lồ xứ Catalonia.",
+      "chips": [
+        "Lewandowski",
+        "Barcelona",
+        "Camp Nou"
+      ],
+      "emoji": "👑",
+      "animation": "image-card-rise",
+      "visuals": []
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Điểm nóng ngày Lewandowski rời Barca",
+      "subtext": "Những con số và dấu ấn đọng lại sau màn chia tay",
+      "voiceText": "Trận đấu cuối cùng gặp Real Betis đã trở thành lễ tri ân đẫm nước mắt. Lewandowski đeo băng đội trưởng, thi đấu xuất sắc trước khi rời sân ở phút tám mươi lăm trong tràng pháo tay không ngớt từ người hâm mộ.",
+      "duration": 7,
+      "startTime": 6,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#EDBB00",
+      "secondaryAccentColor": "#A50044",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "🏟️",
+          "value": "Betis",
+          "label": "Trận cuối tại Camp Nou"
+        },
+        {
+          "icon": "⏱️",
+          "value": "85",
+          "label": "Phút rời sân xúc động"
+        },
+        {
+          "icon": "🎗️",
+          "value": "C",
+          "label": "Đeo băng đội trưởng tri ân"
+        },
+        {
+          "icon": "💧",
+          "value": "Lệ rơi",
+          "label": "Khoảnh khắc xúc động"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/05/18/441693.jpg",
+          "label": "TRI ÂN LEWY",
+          "top": "800px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#EDBB00",
+          "secondaryAccentColor": "#A50044",
+          "cardBg": "rgba(10,15,29,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#EDBB00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Hành trình 4 năm rực rỡ",
+      "subtext": "Từ bản hợp đồng bom tấn đến biểu tượng chiến thắng",
+      "voiceText": "Gia nhập năm hai nghìn không trăm hai mươi hai, anh giúp Barca vô địch La Liga ngay mùa đầu tiên. Sau bốn năm gặt hái bảy danh hiệu, anh chính thức nói lời chia tay đầy ngọt ngào vào mùa hè năm hai nghìn không trăm hai mươi sáu.",
+      "duration": 7,
+      "startTime": 13,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#EDBB00",
+      "secondaryAccentColor": "#A50044",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Lewy Barca Legacy",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "2022",
+          "title": "Gia nhập bom tấn"
+        },
+        {
+          "stage": "2023",
+          "title": "Vô địch La Liga"
+        },
+        {
+          "stage": "2022-2026",
+          "title": "Hồi sinh Barca"
+        },
+        {
+          "stage": "2026",
+          "title": "Lời chia tay ngọt ngào"
+        }
+      ],
+      "secondaryComposition": "flashcard-gallery",
+      "layout": "horizontal",
+      "cards": [
+        {
+          "imageSrc": "assets/storyboards/robert-lewandowski-chia-tay-barcelona/scene-3-1.png",
+          "text": "Gia nhập từ Bayern",
+          "caption": "2022"
+        },
+        {
+          "imageSrc": "assets/storyboards/robert-lewandowski-chia-tay-barcelona/scene-3-2.png",
+          "text": "Vô địch La Liga & Siêu cúp",
+          "caption": "2023"
+        },
+        {
+          "imageSrc": "assets/storyboards/robert-lewandowski-chia-tay-barcelona/scene-3-3.png",
+          "text": "Đầu tàu vực dậy đội bóng",
+          "caption": "2022-2026"
+        },
+        {
+          "imageSrc": "assets/storyboards/robert-lewandowski-chia-tay-barcelona/scene-3-4.png",
+          "text": "Tạm biệt Camp Nou",
+          "caption": "2026"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 82
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#EDBB00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Số 9 vĩ đại xứ Catalonia",
+      "subtext": "Robert Lewandowski - Đầu tàu phục hưng Barcelona",
+      "voiceText": "Robert Lewandowski là một trong những trung phong xuất sắc nhất lịch sử câu lạc bộ. Trải qua gần hai trăm trận đấu, anh duy trì hiệu suất săn bàn khủng khiếp và mang về những danh hiệu vô giá cho Barca.",
+      "duration": 7,
+      "startTime": 20,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#EDBB00",
+      "secondaryAccentColor": "#A50044",
+      "textColor": "#FFFFFF",
+      "player": "Robert Lewandowski",
+      "team": "FC Barcelona",
+      "number": "9",
+      "playerImageUrl": "https://preview.redd.it/happy-36th-birthday-to-robert-lewandowski-wish-him-as-many-v0-p3r33ly96wjd1.jpeg?auto=webp&s=d5759da24d6589817ba8bdf9f59d09032a32c6d3",
+      "stats": [
+        {
+          "label": "Số trận đấu",
+          "value": "192"
+        },
+        {
+          "label": "Số bàn thắng",
+          "value": "119"
+        },
+        {
+          "label": "Tổng danh hiệu",
+          "value": "7 cúp lớn"
+        },
+        {
+          "label": "Vô địch La Liga",
+          "value": "3 lần"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#EDBB00"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Bảng vàng thành tựu của Lewy",
+      "subtext": "Chi tiết các danh hiệu lớn cùng gã khổng lồ La Liga",
+      "voiceText": "Đóng góp của Lewandowski cho câu lạc bộ là không thể phủ nhận với ba chức vô địch La Liga, một cúp nhà vua và ba siêu cúp Tây Ban Nha. Anh luôn là nỗi khiếp sợ của mọi hàng phòng ngự đối thủ.",
+      "duration": 7,
+      "startTime": 27,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#EDBB00",
+      "secondaryAccentColor": "#A50044",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "🏆",
+          "value": "3",
+          "label": "La Liga"
+        },
+        {
+          "icon": "🇪🇸",
+          "value": "3",
+          "label": "Siêu Cúp TBN"
+        },
+        {
+          "icon": "👑",
+          "value": "1",
+          "label": "Cúp Nhà Vua"
+        },
+        {
+          "icon": "⚽",
+          "value": "119",
+          "label": "Bàn thắng"
+        }
+      ],
+      "chartTitle": "Tỉ lệ đóng góp cúp vô địch",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "La Liga",
+          "value": 3,
+          "percent": 100
+        },
+        {
+          "label": "Siêu Cúp TBN",
+          "value": 3,
+          "percent": 100
+        },
+        {
+          "label": "Cúp Nhà Vua",
+          "value": 1,
+          "percent": 33
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#EDBB00"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Những bến đỗ tiềm năng tiếp theo",
+      "subtext": "Lewy sẽ đi đâu sau khi chia tay sân Camp Nou?",
+      "voiceText": "Ở tuổi ba mươi bảy, Lewandowski vẫn là cái tên cực hot. Hàng loạt đề nghị từ Ả Rập Xê Út, giải nhà nghề Mỹ hay thậm chí là việc quay trở lại các câu lạc bộ châu Âu lớn đang nằm trên bàn đàm phán.",
+      "duration": 7,
+      "startTime": 34,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#EDBB00",
+      "secondaryAccentColor": "#A50044",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "icon": "🌴",
+          "label": "Saudi Pro League",
+          "value": "Đãi ngộ siêu khủng"
+        },
+        {
+          "icon": "🇺🇸",
+          "label": "Major League Soccer",
+          "value": "Môi trường sống lý tưởng"
+        },
+        {
+          "icon": "🇪🇺",
+          "label": "European Giants",
+          "value": "Tiếp tục chinh chiến đỉnh cao"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "",
+          "label": "TƯƠNG LAI CỦA LEWY",
+          "top": "800px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#EDBB00",
+          "secondaryAccentColor": "#A50044",
+          "cardBg": "rgba(10,15,29,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#EDBB00"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Những dòng tin cảm xúc cuối cùng",
+      "subtext": "Bức tâm thư gửi Catalonia và đồng đội",
+      "voiceText": "Trước khi đi, Lewandowski để lại bức tâm thư đầy xúc động, anh coi Catalonia là nhà và tin tưởng tuyệt đối vào thế hệ trẻ của Barca. Anh khẳng định các đồng đội đã sẵn sàng để vô địch Champions League.",
+      "duration": 6,
+      "startTime": 41,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#EDBB00",
+      "secondaryAccentColor": "#A50044",
+      "textColor": "#FFFFFF",
+      "activeTab": "TÂM THƯ",
+      "tabs": [
+        "TÂM THƯ",
+        "ĐỒNG ĐỘI",
+        "HÀNH TRÌNH",
+        "TRI ÂN"
+      ],
+      "ctaLabel": "THANK YOU LEWY",
+      "fixtures": [
+        {
+          "group": "Bức tâm thư",
+          "date": "Catalonia",
+          "time": "Là nhà",
+          "home": {
+            "name": "Lewandowski",
+            "code": "LEW",
+            "teamType": "club",
+            "flag": ""
+          },
+          "away": {
+            "name": "Barcelona",
+            "code": "FCB",
+            "teamType": "club",
+            "flag": ""
+          }
+        },
+        {
+          "group": "Thông điệp",
+          "date": "Champions",
+          "time": "League",
+          "home": {
+            "name": "Đồng đội Barca",
+            "code": "FCB",
+            "teamType": "club",
+            "flag": ""
+          },
+          "away": {
+            "name": "Vô địch châu Âu",
+            "code": "UCL",
+            "teamType": "club",
+            "flag": ""
+          }
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4,
+          "top": "76%",
+          "size": 82
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#EDBB00"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định của Méo",
+      "subtext": "Cột mốc chuyển giao đầy ngọt ngào",
+      "voiceText": "Theo Méo, sự ra đi của Lewandowski lúc này là một bước đi vô cùng khôn ngoan và ngọt ngào. Anh ra đi trên đỉnh cao, giữ trọn vẹn tình cảm của cổ động viên và nhường lại sân khấu cho các tài năng trẻ bứt phá.",
+      "duration": 7,
+      "startTime": 47,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#EDBB00",
+      "secondaryAccentColor": "#A50044",
+      "textColor": "#FFFFFF",
+      "quote": "Tôi ra đi với cảm giác mình đã hoàn thành nhiệm vụ. Catalonia sẽ mãi là nhà của tôi.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(10,15,29,0.92), rgba(10,15,29,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#EDBB00"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Đâu là khoảnh khắc đáng nhớ nhất của Lewy?",
+      "subtext": "Hãy để lại ý kiến bình luận của bạn",
+      "voiceText": "Bạn ấn tượng nhất với bàn thắng hay danh hiệu nào của Robert Lewandowski trong màu áo Barcelona? Hãy chia sẻ cảm xúc của bạn dưới phần bình luận. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 54,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#EDBB00",
+      "secondaryAccentColor": "#A50044",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Tri ân Lewandowski - Số 9 lịch sử",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bạn nhớ gì nhất về Lewandowski tại Barca?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Lewandowski",
+          "Barcelona",
+          "Camp Nou",
+          "La Liga",
+          "Méo Bình Luận",
+          "Follow"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.6
+        }
+      ]
+    }
+  ]
+}

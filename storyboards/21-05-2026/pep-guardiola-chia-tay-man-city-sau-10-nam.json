@@ -44,7 +44,7 @@
       "composition": "stats-cards-grid",
       "title": "Thập kỷ thống trị Etihad",
       "subtext": "Hành trình 10 năm đầy ắp danh hiệu tại Anh",
-      "voiceText": "Gia nhập từ năm hai nghìn không trăm mười sáu, Pep Guardiola đã trải qua mười mùa giải đầy ắp vinh quang. Ông mang về khoảng hai mươi danh hiệu lớn nhỏ và biến nửa xanh thành Manchester thành một thế lực vô địch tuyệt đối.",
+      "voiceText": "Gia nhập từ năm hai không mười sáu, Pep Guardiola đã trải qua mười mùa giải đầy ắp vinh quang. Ông mang về khoảng hai mươi danh hiệu lớn nhỏ và biến nửa xanh thành Manchester thành một thế lực vô địch tuyệt đối.",
       "duration": 7,
       "startTime": 6,
       "bgColor": "#0A131C",
@@ -385,12 +385,13 @@
             "name": "Manchester City",
             "code": "MCI",
             "teamType": "club",
-            "flag": "assets/football/flags/man-city.png"
+            "flag": "assets/football/clubs/epl/manchester-city.svg"
           },
           "away": {
             "name": "Aston Villa",
             "code": "AVL",
-            "teamType": "club"
+            "teamType": "club",
+            "flag": "assets/football/clubs/epl/aston-villa.svg"
           }
         },
         {
@@ -401,12 +402,13 @@
             "name": "Manchester City",
             "code": "MCI",
             "teamType": "club",
-            "flag": "assets/football/flags/man-city.png"
+            "flag": "assets/football/clubs/epl/manchester-city.svg"
           },
           "away": {
             "name": "Trophy Parade",
             "code": "PARADE",
-            "teamType": "club"
+            "teamType": "club",
+            "flag": "assets/football/tournaments/Premier_League-Logo.wine.svg"
           }
         }
       ],
@@ -430,7 +432,7 @@
       "composition": "quote-attrib",
       "title": "Góc nhìn của Méo",
       "subtext": "Man City đối diện với sóng gió chuyển giao",
-      "voiceText": "Theo Méo, sự ra đi của Pep Guardiola sẽ tạo ra một cơn địa chấn thực sự cho Ngoại Hạng Anh. Man City sẽ phải trải qua một cuộc chuyển giao vô cùng cam go, và kẻ kế vị ông sẽ gánh trên vai áp lực khổng lồ từ cái bóng quá lớn của người tiền nhiệm.",
+      "voiceText": "Theo Méo, sự ra đi của Pep Guardiola sẽ tạo ra một cơn `địa chấn` thực sự cho Ngoại Hạng Anh. Man City sẽ phải trải qua một cuộc chuyển giao vô cùng cam go, và kẻ kế vị ông sẽ gánh trên vai áp lực khổng lồ từ cái bóng quá lớn của người tiền nhiệm.",
       "duration": 7,
       "startTime": 47,
       "bgColor": "#0A131C",

@@ -46,7 +46,7 @@ export const config = {
       highpassHz: 80,
       lowpassHz: 12000,
       denoise: true,
-      normalize: true,
+      normalize: false,
       limiter: true,
     },
     // Optional post-speedup on Node side (ffmpeg). 1.0 = no change.
@@ -88,11 +88,11 @@ export const config = {
     backgroundMusic: {
       enabled: true,
       src: "assets/audio/stadium-background-music.mp3",
-      volume: 0.1,
+      volume: 0.08,
     },
 
     // Final gain applied after voice + background music are mixed.
-    masterVolume: 1.45,
+    masterVolume: 1.8,
 
     // Background layer (rendered in root index.html)
     background: {
