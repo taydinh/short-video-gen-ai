@@ -139,7 +139,7 @@
       },
       "badge": {
         "type": "flag",
-        "path": null,
+        "path": "assets/football/flags/panama.png",
         "sourceUrl": null,
         "licenseName": null,
         "licenseUrl": null

@@ -515,6 +515,7 @@ function composerStyles(scene) {
     }
     [data-composition-id="${cid}"] .quote-attrib-broadcast {
       position: relative;
+      z-index: 2;
       width: 100%;
       height: 100%;
       display: flex;
@@ -550,6 +551,7 @@ function composerStyles(scene) {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      object-position: center top;
       display: block;
       transform: scale(1.02);
       animation: quoteLiveCamera${scene.id} 6s ease-in-out infinite alternate;
@@ -2854,6 +2856,11 @@ const COMPOSERS = {
     const player = scene.player || scene.playerName || scene.title || "Key Player";
     const team = scene.team || scene.club || scene.competitionLabel || "Football focus";
     const playerImage = scene.playerImageSrc || scene.playerImageUrl || "";
+    const formatStatValue = (stat) => {
+      const value = String(stat.value ?? stat.home ?? "").trim();
+      const unit = String(stat.unit || "").trim();
+      return unit ? `${value} ${unit}`.trim() : value;
+    };
     return `
     <div class="canvas football-scene football-player-stat" style="align-items:flex-start; justify-content:flex-start; padding:150px 76px 170px; background:${footballBg(scene)};">
       ${footballPitchBackdrop(scene)}
@@ -2874,7 +2881,7 @@ const COMPOSERS = {
       <div class="football-stat-grid">
         ${stats.slice(0, 4).map((stat, i) => `
           <div class="football-stat-card" id="s${scene.id}-stat-${i}">
-            <div class="football-stat-value">${escapeHtml(String(stat.value ?? stat.home ?? ""))}${escapeHtml(stat.unit || "")}</div>
+            <div class="football-stat-value">${escapeHtml(formatStatValue(stat))}</div>
             <div class="football-stat-label">${escapeHtml(stat.label || "")}</div>
           </div>
         `).join("")}
@@ -3612,7 +3619,7 @@ const COMPOSERS = {
         <div class="ai-gradient-text" style="font-size:62px; font-weight:900; letter-spacing:-0.02em;">
           <span class="ai-countup" data-final="${escapeHtmlAttr(String(it.value ?? ""))}">${escapeHtml(String(it.value ?? ""))}</span>
         </div>
-        <div class="ai-muted" style="margin-top:6px; font-size:18px; font-weight:800;">${escapeHtml(String(it.label ?? ""))}</div>
+        <div class="ai-muted" style="margin-top:6px; font-size:36px; font-weight:800; color:#ffffff;">${escapeHtml(String(it.label ?? ""))}</div>
       </div>
     `).join("");
     return `
@@ -3690,7 +3697,7 @@ const COMPOSERS = {
             <div class="ai-row">
               <div style="display:flex; align-items:center; gap:14px;">
                 ${r.icon ? `<div style="font-size:24px; opacity:0.9;">${escapeHtml(String(r.icon))}</div>` : ""}
-                <div class="ai-muted" style="font-size:22px; font-weight:900;">${escapeHtml(String(r.label ?? ""))}</div>
+                <div class="ai-muted" style="font-size:22px; font-weight:900; color:#ffffff;">${escapeHtml(String(r.label ?? ""))}</div>
               </div>
               <div class="ai-gradient-text" style="font-size:34px; font-weight:900;">${escapeHtml(String(r.value ?? ""))}</div>
             </div>

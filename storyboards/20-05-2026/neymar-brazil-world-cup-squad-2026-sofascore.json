@@ -121,7 +121,7 @@
       "player": "Neymar",
       "team": "Brazil / Santos",
       "number": "10",
-      "playerImageUrl": "https://img.sofascore.com/api/v1/player/124712/image",
+      "playerImageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/05/19/1779156865108_neymar-brazil-441.jpeg",
       "stats": [
         {
           "label": "Bàn cho Brazil",
@@ -177,6 +177,7 @@
       "player": "Trục Dọc Brazil",
       "team": "Alisson - Marquinhos - Casemiro",
       "number": "BRA",
+      "playerImageUrl": "https://cdn.tcdulichtphcm.vn/upload//2-2026/images/2026-05-19/Dan-sao-Brazil-bi-loai-du-lap-doi-hinh-cuc-manh-HLV-Ancelotti-co-hoi-tiec-brazil-1779186389-33-width740height493.jpg",
       "stats": [
         {
           "label": "Alisson",
@@ -412,7 +413,7 @@
             "name": "Panama",
             "code": "PAN",
             "teamType": "national",
-            "flag": "https://assets.football-logos.cc/logos/panama/1500x1500/panama-national-team.66beecfd.png"
+            "flag": "assets/football/flags/panama.png"
           }
         },
         {
