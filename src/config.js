@@ -35,7 +35,11 @@ export const config = {
       serious: "assets/voice/serious.wav",
       sad: "assets/voice/sad.wav",
     },
-    // Optional: leave empty to let OmniVoice auto-transcribe with Whisper.
+    // Transcript of the reference audio clip. When empty, OmniVoice auto-transcribes
+    // using Whisper, which consumes extra GPU VRAM and may produce inconsistent results
+    // across scenes (different transcriptions → inconsistent voice clone quality).
+    // ⚡ RECOMMENDED: Fill in the exact transcript of your ref.wav for stable, high-quality output.
+    // Example: "Xin chào các bạn, hôm nay chúng ta sẽ cùng tìm hiểu về chủ đề rất thú vị."
     refText: "",
     // Output format for generated audio files.
     outputFormat: "wav",
@@ -54,7 +58,9 @@ export const config = {
     // Delay between OmniVoice scene requests to keep local generation stable.
     // Increase this if generated voices contain small glitches when scenes are processed too quickly.
     sceneDelayMs: 2000,
-    timeout: 120000,
+    // Timeout for OmniVoice TTS requests (ms). Increase for slow GPUs (e.g. GTX 1060).
+    // 300s should cover most cases; reduce if you have a powerful GPU (RTX 3080+).
+    timeout: 300000,
   },
 
   googleTTS: {
@@ -88,7 +94,7 @@ export const config = {
     backgroundMusic: {
       enabled: true,
       src: "assets/audio/stadium-background-music.mp3",
-      volume: 0.08,
+      volume: 0.06,
     },
 
     // Final gain applied after voice + background music are mixed.

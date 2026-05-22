@@ -93,35 +93,56 @@ export async function generateTTS(storyboard, outputDir) {
     let duration = scene.duration || 4;
     let success = false;
 
-    // Try OmniVoice first
+    // Try OmniVoice first (with retry for transient GPU errors)
     if (canUseOmniVoice) {
-      try {
-        const { preset, refAudioPath } = resolveOmniVoiceRefForScene(scene, omnivoiceDefaultRefPath);
-        logger.info(`     Ref preset: ${preset} (${refAudioPath})`);
-        if (hasCalledOmniVoice && omnivoiceSceneDelayMs > 0) {
-          logger.info(`     Waiting ${formatDelay(omnivoiceSceneDelayMs)} before next OmniVoice request...`);
-          await sleep(omnivoiceSceneDelayMs);
-        }
-        logger.info(`     Trying OmniVoice...`);
-        hasCalledOmniVoice = true;
-        const ttsResult = await callOmniVoiceTTS(text, audioPath, refAudioPath);
-        const actualPath = ttsResult || audioPath;
-        if (existsSync(actualPath) && (await getAudioDuration(actualPath)) > 0.5) {
-          duration = await getAudioDuration(actualPath);
+      const maxRetries = 2;
+      for (let attempt = 0; attempt <= maxRetries && !success; attempt++) {
+        try {
+          const { preset, refAudioPath } = resolveOmniVoiceRefForScene(scene, omnivoiceDefaultRefPath);
+          if (attempt === 0) {
+            logger.info(`     Ref preset: ${preset} (${refAudioPath})`);
+          }
+          if (hasCalledOmniVoice && omnivoiceSceneDelayMs > 0) {
+            const delayMs = attempt > 0
+              ? omnivoiceSceneDelayMs * (attempt + 1)   // Longer delay on retry
+              : omnivoiceSceneDelayMs;
+            logger.info(`     Waiting ${formatDelay(delayMs)} before ${attempt > 0 ? 'retry' : 'next'} OmniVoice request...`);
+            await sleep(delayMs);
+          } else if (attempt > 0) {
+            // Always wait between retries, even if sceneDelayMs is 0
+            const retryDelay = 2000 * (attempt + 1);
+            logger.info(`     Waiting ${formatDelay(retryDelay)} before retry...`);
+            await sleep(retryDelay);
+          }
+          if (attempt === 0) {
+            logger.info(`     Trying OmniVoice...`);
+          } else {
+            logger.info(`     OmniVoice retry ${attempt}/${maxRetries}...`);
+          }
+          hasCalledOmniVoice = true;
+          const ttsResult = await callOmniVoiceTTS(text, audioPath, refAudioPath);
+          const actualPath = ttsResult || audioPath;
+          if (existsSync(actualPath) && (await getAudioDuration(actualPath)) > 0.5) {
+            duration = await getAudioDuration(actualPath);
 
-          // Apply speed up if needed
-          const spedPath = await applySpeedUp(actualPath, config.omnivoice?.speed);
-          const enhancedPath = await enhanceAudio(spedPath, omnivoiceEnhance);
-          const finalDuration = await getAudioDuration(enhancedPath);
+            // Apply speed up if needed
+            const spedPath = await applySpeedUp(actualPath, config.omnivoice?.speed);
+            const enhancedPath = await enhanceAudio(spedPath, omnivoiceEnhance);
+            const finalDuration = await getAudioDuration(enhancedPath);
 
-          logger.info(`     ✅ OmniVoice success: ${finalDuration.toFixed(2)}s (speed: ${config.omnivoice?.speed || 1})`);
-          await pushAudioResult(scene, i, { sceneId: scene.id, audioPath: enhancedPath, duration: finalDuration });
-          success = true;
-        } else {
-          logger.warn(`     OmniVoice returned invalid audio`);
+            logger.info(`     ✅ OmniVoice success: ${finalDuration.toFixed(2)}s (speed: ${config.omnivoice?.speed || 1})${attempt > 0 ? ` [after ${attempt} retry]` : ''}`);
+            await pushAudioResult(scene, i, { sceneId: scene.id, audioPath: enhancedPath, duration: finalDuration });
+            success = true;
+          } else {
+            logger.warn(`     OmniVoice returned invalid audio${attempt < maxRetries ? ', will retry' : ''}`);
+          }
+        } catch (err) {
+          const isTimeout = err.name === 'AbortError' || err.message?.includes('aborted');
+          const hint = isTimeout
+            ? ` (timeout after ${Math.round((config.omnivoice?.timeout || 300000) / 1000)}s — GPU may be too slow or out of VRAM)`
+            : '';
+          logger.warn(`     OmniVoice attempt ${attempt + 1}/${maxRetries + 1} failed: ${err.message}${hint}`);
         }
-      } catch (err) {
-        logger.warn(`     OmniVoice failed: ${err.message}`);
       }
     }
 
@@ -234,8 +255,10 @@ async function applySpeedUp(audioPath, speedFactor) {
 
     const ext = (parsedPath.ext || "").toLowerCase();
     const isWav = ext === ".wav";
+    // Preserve the original sample rate; don't force resample to 44100.
+    const sr = detectSampleRate(audioPath);
     const codecArgs = isWav
-      ? `-c:a pcm_s16le -ar 44100 -ac 2`
+      ? `-c:a pcm_s16le -ar ${sr} -ac 2`
       : `-c:a libmp3lame -q:a 2`;
 
     execSync(
@@ -290,8 +313,10 @@ async function enhanceAudio(audioPath, enhanceOptions) {
 
     const ext = (parsedPath.ext || "").toLowerCase();
     const isWav = ext === ".wav";
+    // Preserve the original sample rate during enhancement.
+    const sr = detectSampleRate(audioPath);
     const codecArgs = isWav
-      ? `-c:a pcm_s16le -ar 44100 -ac 2`
+      ? `-c:a pcm_s16le -ar ${sr} -ac 2`
       : `-c:a libmp3lame -q:a 2`;
 
     execSync(
@@ -319,7 +344,8 @@ async function probeOmniVoice() {
 
   const res = await fetch(`${baseUrl}/health`, {
     method: "GET",
-    signal: AbortSignal.timeout(config.omnivoice?.timeout || 120000),
+    // Health check should return near-instantly; use a short dedicated timeout.
+    signal: AbortSignal.timeout(15000),
   });
 
   if (!res.ok) return false;
@@ -365,7 +391,7 @@ async function callOmniVoiceTTS(text, outputPath, refAudioPath) {
       output_path: absOutputPath,
       output_sr: 24000,
     }),
-    signal: AbortSignal.timeout(config.omnivoice?.timeout || 120000),
+    signal: AbortSignal.timeout(config.omnivoice?.timeout || 300000),
   });
 
   if (!res.ok) {
@@ -490,6 +516,24 @@ function resolvePath(p) {
   return path.isAbsolute(p) ? p : path.resolve(process.cwd(), p);
 }
 
+/**
+ * Detect audio sample rate via ffprobe. Returns the detected rate or 44100 as fallback.
+ * This avoids hardcoding 44100 when OmniVoice outputs at 24000 — preserving original SR
+ * during intermediate processing and resampling only once at the final merge step.
+ */
+function detectSampleRate(audioPath) {
+  try {
+    const out = execSync(
+      `ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate -of default=noprint_wrappers=1:nokey=1 "${audioPath}"`,
+      { encoding: "utf-8", timeout: 10000 }
+    ).trim();
+    const sr = parseInt(out, 10);
+    return Number.isFinite(sr) && sr > 0 ? sr : 44100;
+  } catch {
+    return 44100;
+  }
+}
+
 function normalizeDelayMs(value) {
   const ms = Number(value);
   return Number.isFinite(ms) && ms > 0 ? Math.round(ms) : 0;
@@ -601,11 +645,13 @@ async function appendSilenceToAudio(audioPath, silenceSeconds) {
   const outputPath = path.join(parsedPath.dir, `${parsedPath.name}_tail_silence${parsedPath.ext}`);
   const ext = (parsedPath.ext || "").toLowerCase();
   const isMp3 = ext === ".mp3";
+  // Match silence sample rate to the input audio to avoid resample artifacts.
+  const sr = detectSampleRate(audioPath);
   const codecArgs = isMp3
     ? `-c:a libmp3lame -q:a 2`
-    : `-c:a pcm_s16le -ar 44100 -ac 2`;
-  const filterGraph = `[0:a]aresample=44100,aformat=sample_fmts=s16:channel_layouts=stereo[a0];` +
-    `anullsrc=r=44100:cl=stereo:d=${seconds.toFixed(3)}[silence];` +
+    : `-c:a pcm_s16le -ar ${sr} -ac 2`;
+  const filterGraph = `[0:a]aresample=${sr},aformat=sample_fmts=s16:channel_layouts=stereo[a0];` +
+    `anullsrc=r=${sr}:cl=stereo:d=${seconds.toFixed(3)}[silence];` +
     `[a0][silence]concat=n=2:v=0:a=1[out]`;
 
   try {

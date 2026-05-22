@@ -14,9 +14,18 @@ Nguồn mẫu:
 - Manchester United có thể ghi tắt và đọc tắt là `Man U` hoặc `MU` (đọc là `Mờ U`), nhưng không được ghi hoặc đọc chỉ là `United`.
 - Manchester City có thể ghi tắt và đọc tắt là `Man City` hoặc `MC` (đọc là `Mờ C`), nhưng không được ghi hoặc đọc chỉ là `City`.
 
-### Hiển Thị Logo Đội Bóng
+### Hiển Thị Logo Và Cấu Hình Flag Đội Bóng
 
 - Khi hiển thị logo của đội bóng Tottenham Hotspur / Tottenham / Spurs, phải dùng `badgeBackgroundColor` màu trắng (`#ffffff`) trong object team để logo nổi rõ, bao gồm các scene dùng `football-match-card`, `football-scoreboard`, `football-lineup`, `football-stat-bars` và `football-standings-table`.
+- **Cơ Chế Tự Động Tìm Kiếm Và Đồng Bộ Logo/Flag (`src/steps/02-generate-storyboard.js`)**:
+  - **Dựa vào Asset Index**: Hệ thống tự động tra cứu trong tệp `assets/football/index.json`. Thuật toán so khớp (`findFootballAssetForTeam`) sẽ chuẩn hóa tên đội bóng/mã đội (loại bỏ dấu tiếng Việt, ký tự đặc biệt, đưa về lowercase) và tính điểm để tìm bản ghi phù hợp nhất.
+  - **Đội tuyển Quốc gia (National Teams)**: Bản ghi được lưu trữ tại `assets/football/flags/` (Ví dụ: `assets/football/flags/portugal.svg` cho Bồ Đào Nha). Thuộc tính tương ứng được tự động điền là `flagSrc` và `badgeSrc`.
+  - **Câu lạc bộ (Clubs)**: Nếu không tìm thấy trong index, hệ thống sẽ cố gắng suy luận giải đấu (như `epl`, `v-league-1`) và tìm kiếm file ảnh cục bộ tại `assets/football/clubs/{competition}/{slug}.{svg|png|webp}`. Thuộc tính tương ứng được điền là `logoSrc` và `badgeSrc`.
+  - **Đồng bộ tự động từ Wikimedia**: Nếu cả hai cách trên đều không tìm thấy logo/flag phù hợp, hệ thống sẽ thực hiện gọi script đồng bộ `syncFootballAssets` để tìm kiếm và tải xuống logo/flag thực tế từ Wikimedia Commons một cách tự động, sau đó cập nhật lại index cục bộ.
+- **Cú Pháp Khai Báo Trong Storyboard JSON**:
+  - Với đội hình (`football-lineup`) hoặc bảng tỉ số (`football-scoreboard`), khi khai báo trực tiếp các đội bóng trong mảng `teams`, các thuộc tính ảnh có thể sử dụng linh hoạt bao gồm: `flag`, `flagUrl`, `flagSrc` (đối với đội tuyển quốc gia) hoặc `logo`, `logoUrl`, `logoSrc` (đối với câu lạc bộ). Nếu các thuộc tính này bị trống hoặc lỗi, hệ thống sẽ chạy cơ chế tự động tìm kiếm trên để điền vào.
+  - Với lịch thi đấu (`football-upcoming-schedule`), các đối tượng đội `home` và `away` trong mảng `fixtures` cũng cần khai báo đường dẫn flag/logo chính xác để render đúng giao diện. Tránh ghi sai định dạng tệp hoặc thư mục (ví dụ: dùng nhầm `.png` thay vì `.svg` hoặc để nhầm thư mục `tournaments` thay vì `flags`). Đường dẫn logo giải đấu chung (ví dụ World Cup) nằm ở `assets/football/tournaments/{tên-logo}.svg`.
+
 
 ### VoiceText Scene Cuối
 
@@ -31,6 +40,13 @@ Nguồn mẫu:
 
 - Với visuals có `"type": "football-stat-bars"`, nếu `voiceText` có xuất hiện chữ `xG` thì phải đọc qua tiếng Việt là `chỉ số bàn thắng kỳ vọng`; không để nguyên `xG` trong `voiceText`.
 - Ví dụ: thay `Bournemouth đạt xG một phẩy chín chín` bằng `Bournemouth có chỉ số bàn thắng kỳ vọng một phẩy chín chín`.
+
+### Cách Đọc Năm Trong VoiceText
+
+- Với các năm dạng bốn chữ số trong `voiceText`, không đọc kiểu `hai nghìn không trăm hai mươi sáu`.
+- Các năm bắt đầu bằng `20` đọc ngắn theo từng cụm số: `2026` đọc là `hai không hai sáu`, `2018` đọc là `hai không mười tám`.
+- Nếu sau `20` có thêm số `0`, đọc số `0` đầu là `không` và số `0` thứ hai là `lẻ`; ví dụ `2006` đọc là `hai không lẻ sáu`.
+- Các năm bắt đầu bằng `19` đọc từng chữ số; ví dụ `1996` đọc là `một chín chín sáu`.
 
 ### Cách Đọc Từ Viết Tắt Trong VoiceText
 

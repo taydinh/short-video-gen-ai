@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-17T05:41:15.000Z",
+  "updatedAt": "2026-05-22T02:37:59.385Z",
   "records": [
     {
       "id": "wc2026:canada",
@@ -2575,6 +2575,440 @@
         "licenseUrl": "https://football-logos.cc/vietnam/v-league/"
       },
       "updatedAt": "2026-05-16T12:11:20.354Z"
+    },
+    {
+      "id": "saudi-pro-league",
+      "kind": "tournament",
+      "competition": "saudi-pro-league",
+      "name": "Saudi Pro League",
+      "aliases": [
+        "Saudi Professional League",
+        "Roshn Saudi League",
+        "SPL"
+      ],
+      "codes": {
+        "short": "SPL"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/tournaments/saudi-arabia_saudi-professional-league.football-logos.cc.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/saudi-professional-league.49a229c2.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-ittihad",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Ittihad",
+      "aliases": [
+        "Al-Ittihad",
+        "Ittihad",
+        "Al Ittihad Club"
+      ],
+      "codes": {
+        "short": "ITT"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-ittihad.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-ittihad/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-ittihad.ae53b0c3.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-hilal",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Hilal",
+      "aliases": [
+        "Al-Hilal",
+        "Hilal",
+        "Al Hilal SFC"
+      ],
+      "codes": {
+        "short": "HIL"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-hilal.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-hilal/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-hilal.9d518dfc.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-qadsiah",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Qadsiah",
+      "aliases": [
+        "Al-Qadsiah",
+        "Qadsiah",
+        "Al Qadsiah FC"
+      ],
+      "codes": {
+        "short": "QAD"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-qadsiah.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-qadsiah/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-qadsiah.f5814af8.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-nassr",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Nassr",
+      "aliases": [
+        "Al-Nassr",
+        "Nassr",
+        "Al Nassr FC"
+      ],
+      "codes": {
+        "short": "NAS"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-nassr.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-nassr/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-nassr.7d38170c.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-ahli",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Ahli",
+      "aliases": [
+        "Al-Ahli",
+        "Ahli",
+        "Al Ahli Saudi FC"
+      ],
+      "codes": {
+        "short": "AHL"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-ahli.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-ahli/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-ahli.9ebe7c40.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-shabab",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Shabab",
+      "aliases": [
+        "Al-Shabab",
+        "Shabab",
+        "Al Shabab FC"
+      ],
+      "codes": {
+        "short": "SHB"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-shabab.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-shabab/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-shabab.787733e5.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-hazem",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Hazem",
+      "aliases": [
+        "Al-Hazem",
+        "Hazem",
+        "Al Hazem FC"
+      ],
+      "codes": {
+        "short": "HAZ"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-hazem.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-hazem/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-hazem.0765ab77.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-najma",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Najma",
+      "aliases": [
+        "Al-Najma",
+        "Najma",
+        "Al Najma SC"
+      ],
+      "codes": {
+        "short": "NAJ"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-najma.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-najma/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-najma.c660028f.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-ettifaq",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Ettifaq",
+      "aliases": [
+        "Al-Ettifaq",
+        "Ettifaq",
+        "Al Ettifaq FC"
+      ],
+      "codes": {
+        "short": "ETT"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-ettifaq.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-ettifaq/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-ettifaq.16bb0f42.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-taawoun",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Taawoun",
+      "aliases": [
+        "Al-Taawoun",
+        "Taawoun",
+        "Al Taawoun FC"
+      ],
+      "codes": {
+        "short": "TA"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-taawoun.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-taawoun/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-taawoun.460b6b0d.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-riyadh",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Riyadh",
+      "aliases": [
+        "Al-Riyadh",
+        "Riyadh",
+        "Al Riyadh SC"
+      ],
+      "codes": {
+        "short": "RIY"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-riyadh.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-riyadh/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-riyadh.23cd4476.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-khaleej",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Khaleej",
+      "aliases": [
+        "Al-Khaleej",
+        "Khaleej",
+        "Al Khaleej FC"
+      ],
+      "codes": {
+        "short": "KHA"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-khaleej.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-khaleej/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-khaleej.84d09b44.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:damac",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Damac",
+      "aliases": [
+        "Damac FC"
+      ],
+      "codes": {
+        "short": "DAM"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/damac.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/damac/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/damac.06ea9eb3.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-kholood",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al-Kholood",
+      "aliases": [
+        "Al-Kholood",
+        "Kholood",
+        "Al Kholood Club"
+      ],
+      "codes": {
+        "short": "KHO"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-kholood.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-kholood/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-kholood.d2da1203.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-fateh",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Fateh",
+      "aliases": [
+        "Al-Fateh",
+        "Fateh",
+        "Al Fateh SC"
+      ],
+      "codes": {
+        "short": "FAT"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-fateh.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-fateh/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-fateh.59fd10b7.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-fayha",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Fayha",
+      "aliases": [
+        "Al-Fayha",
+        "Fayha",
+        "Al Fayha FC"
+      ],
+      "codes": {
+        "short": "FAY"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-fayha.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-fayha/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-fayha.4cf4d38a.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:al-okhdood",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Al Okhdood",
+      "aliases": [
+        "Al-Okhdood",
+        "Okhdood",
+        "Al Okhdood Club"
+      ],
+      "codes": {
+        "short": "OKH"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/al-okhdood.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/al-okhdood/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/al-okhdood.5efdc168.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "saudi-pro-league:neom",
+      "kind": "club",
+      "competition": "saudi-pro-league",
+      "name": "Neom SC",
+      "aliases": [
+        "NEOM SC",
+        "Neom SC"
+      ],
+      "codes": {
+        "short": "NEO"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/saudi-pro-league/neom.svg",
+        "sourceUrl": "https://football-logos.cc/saudi-arabia/neom/",
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/saudi-arabia/1500x1500/neom.134c3889.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
+      },
+      "updatedAt": "2026-05-22T02:37:46.561Z"
     }
   ]
 }

@@ -51,7 +51,10 @@ export function buildSceneHtml(scene, audioFile) {
     if (secComposerFn) {
       const secContentRaw = secComposerFn(scene);
       const secContent = extractCanvasInner(secContentRaw);
-      content = injectBeforeLastClosingDiv(content, secContent);
+      content = injectBeforeLastClosingDiv(
+        content,
+        `<div class="secondary-composition secondary-${scene.secondaryComposition}">${secContent}</div>`
+      );
     }
   }
 
@@ -2901,8 +2904,18 @@ function composerStyles(scene) {
     [data-composition-id="${cid}"].has-secondary-infographic-chart .ai-stat-card .ai-muted {
       font-size: 26px !important;
     }
+    [data-composition-id="${cid}"].has-secondary-infographic-chart .secondary-composition {
+      position: relative !important;
+      z-index: 2 !important;
+      width: 100% !important;
+      display: flex !important;
+      justify-content: center !important;
+    }
+    [data-composition-id="${cid}"].has-secondary-infographic-chart .secondary-infographic-chart {
+      margin-top: 72px !important;
+    }
     [data-composition-id="${cid}"].has-secondary-infographic-chart .chart-container {
-      margin-top: 30px !important;
+      margin-top: 0 !important;
       width: 880px !important;
       max-width: 880px !important;
       padding: 24px 34px !important;
@@ -3863,7 +3876,9 @@ const COMPOSERS = {
       { icon: "🔒", value: "Không", label: "Nội dung chia sẻ" },
     ];
     const hasSecondary = Boolean(scene.secondaryComposition);
-    const useSingleColumn = safeItems.length < 5 && !hasSecondary;
+    const hasHighlightImageCard = Array.isArray(scene.visuals)
+      && scene.visuals.some((visual) => visual?.type === "highlight-image-card");
+    const useSingleColumn = safeItems.length < 5 && !hasSecondary && !hasHighlightImageCard;
     const maxCards = useSingleColumn ? 4 : 6;
     const grid = safeItems.slice(0, maxCards).map((it, i) => `
       <div class="ai-card ai-card-pop ai-stat-card" id="s${scene.id}-statcard-${i}" style="padding:26px 26px; opacity:0;">
@@ -3943,7 +3958,7 @@ const COMPOSERS = {
       <div class="ai-title ai-gradient-text" style="font-size:54px; font-weight:900; opacity:0.95; margin-bottom:44px;">
         ${escapeHtml(title)}
       </div>
-      <div style="width: 50%; max-width: 50%; display:flex; flex-direction:column; gap:18px;">
+      <div style="width: 880px; max-width: 880px; display:flex; flex-direction:column; gap:18px;">
         ${safeRows.slice(0, maxRows).map((r, i) => `
           <div class="ai-card ai-card-pop ai-row-card" id="s${scene.id}-row-${i}" style="padding:18px 22px; opacity:0;">
             <div class="ai-row">

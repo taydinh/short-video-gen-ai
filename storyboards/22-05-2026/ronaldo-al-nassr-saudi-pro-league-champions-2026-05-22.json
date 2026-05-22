@@ -1,0 +1,406 @@
+{
+  "title": "Al Nassr Vô Địch Saudi Pro League 2025/26: Ronaldo Rực Sáng",
+  "slug": "ronaldo-al-nassr-saudi-pro-league-champions-2026-05-22",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "title": "Kết quả bóng đá Al Nassr vs Damac: Ronaldo vô địch Saudi Pro League 2025/26",
+      "url": "https://vietnamnet.vn/ket-qua-bong-da-al-nassr-vs-damac-ronaldo-vo-dich-saudi-pro-league-2025-26-2517891.html"
+    },
+    {
+      "title": "Ronaldo rực cháy, Al Nassr vô địch Saudi Pro League sau 7 năm",
+      "url": "https://www.msn.com/vi-vn/sports/other/ronaldo-r%E1%BB%B1c-ch%C3%A1y-al-nassr-v%C3%B4-%C4%91%E1%BB%8Bch-saudi-pro-league-sau-7-n%C4%83m/ar-AA23LWVU"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "RONALDO RỰC CHÁY, AL NASSR LÊN NGÔI VÔ ĐỊCH SAUDI PRO LEAGUE!",
+      "subtext": "Ronaldo ghi cú đúp giúp Al Nassr vô địch sau 7 năm chờ đợi",
+      "voiceText": "Ronaldo rực cháy, Al Nassr lên ngôi vô địch Saudi Pro League! Cristiano Ronaldo tỏa sáng rực rỡ với một cú đúp, giúp Al Nassr đè bẹp Damac bốn một để chính thức xưng vương đầy cảm xúc.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "label": "CRISTIANO RONALDO",
+      "imageSrc": "assets/storyboards/ronaldo-al-nassr-saudi-pro-league-champions-2026-05-22/scene-1.jpg",
+      "cardCaption": "Cristiano Ronaldo nâng cao cúp vô địch Saudi Pro League mùa giải 2025/26.",
+      "chips": [
+        "Ronaldo",
+        "Al Nassr",
+        "Vô địch"
+      ],
+      "emoji": "👑",
+      "animation": "image-card-rise",
+      "visuals": []
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Al Nassr 4-1 Damac",
+      "subtext": "Mane mở điểm, Coman nhân đôi, Ronaldo lập cú đúp chốt hạ trận đấu.",
+      "voiceText": "Chung cuộc, Al Nassr giành chiến thắng hủy diệt bốn một trước Damac. Sadio Mane mở tỉ số ở hiệp một, Kingsley Coman nhân đôi cách biệt trong hiệp hai, trước khi Cristiano Ronaldo bùng nổ để chốt hạ trận đấu.",
+      "duration": 6,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Saudi Pro League",
+      "minute": "FT",
+      "score": [4, 1],
+      "teams": [
+        { "name": "Al Nassr", "code": "NAS", "teamType": "club", "logoSrc": "assets/football/clubs/saudi-pro-league/al-nassr.svg", "badgeSrc": "assets/football/clubs/saudi-pro-league/al-nassr.svg" },
+        { "name": "Damac", "code": "DAM", "teamType": "club", "logoSrc": "assets/football/clubs/saudi-pro-league/damac.svg", "badgeSrc": "assets/football/clubs/saudi-pro-league/damac.svg" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.28 },
+        { "type": "football-scorebug", "teams": ["NAS", "DAM"], "score": [4, 1], "minute": "FT", "label": "Al-Awwal Park" },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình ra sân",
+      "voiceText": "Al Nassr ra sân với sơ đồ bốn hai ba một, Ronaldo đá cao nhất và được Mane, Felix cùng Coman hỗ trợ phía sau. Damac cũng chọn hệ thống tương tự, nhưng nhanh chóng bị sức ép của đội chủ nhà cuốn đi.",
+      "duration": 8,
+      "startTime": 12,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Al-Awwal Park",
+      "teams": [
+        { "name": "Al Nassr", "code": "NAS", "teamType": "club", "logoSrc": "assets/football/clubs/saudi-pro-league/al-nassr.svg", "badgeSrc": "assets/football/clubs/saudi-pro-league/al-nassr.svg" },
+        { "name": "Damac", "code": "DAM", "teamType": "club", "logoSrc": "assets/football/clubs/saudi-pro-league/damac.svg", "badgeSrc": "assets/football/clubs/saudi-pro-league/damac.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Bento",
+            "Nawaf Bu Washl",
+            "Mohamed Simakan",
+            "Abdulelah Al-Amri",
+            "Ronald Martinez",
+            "Kingsley Coman",
+            "Abdullah Al Khaibari",
+            "Ayman Yahya",
+            "Sadio Mane",
+            "Joao Felix",
+            "Cristiano Ronaldo"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Kerwin",
+            "Al Hawsawi",
+            "Harkass",
+            "Bedrane",
+            "Al-Obaid",
+            "Rabea",
+            "Abdullah",
+            "Okita",
+            "Sylla",
+            "Al Anazi",
+            "Arielson"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Sức mạnh áp đảo của Al Nassr",
+      "subtext": "Chủ nhà kiểm soát trận đấu hoàn toàn.",
+      "voiceText": "Al Nassr kiểm soát bóng năm mươi bảy phần trăm và tung ra mười sáu cú sút. Damac chỉ có bốn ba phần trăm kiểm soát bóng và có chỉ số bàn thắng kỳ vọng một phẩy mười hai. nhờ quả phạt đền rút ngắn tỉ số ở hiệp hai.",
+      "duration": 7,
+      "startTime": 20,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [4, 1],
+      "teams": [
+        { "name": "Al Nassr", "code": "NAS", "teamType": "club", "logoSrc": "assets/football/clubs/saudi-pro-league/al-nassr.svg", "badgeSrc": "assets/football/clubs/saudi-pro-league/al-nassr.svg" },
+        { "name": "Damac", "code": "DAM", "teamType": "club", "logoSrc": "assets/football/clubs/saudi-pro-league/damac.svg", "badgeSrc": "assets/football/clubs/saudi-pro-league/damac.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 57, "away": 43, "unit": "%" },
+            { "label": "xG", "home": 2.45, "away": 1.12 },
+            { "label": "Cú sút", "home": 16, "away": 8 },
+            { "label": "Sút trúng đích", "home": 8, "away": 3 },
+            { "label": "Phạt góc", "home": 6, "away": 3 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Cristiano Ronaldo chói sáng",
+      "subtext": "Cú đúp đẳng cấp đưa Al Nassr lên đỉnh vinh quang",
+      "voiceText": "Cristiano Ronaldo tiếp tục chứng tỏ đẳng cấp siêu sao ở tuổi bốn mươi mốt. Anh ghi một cú sút phạt hàng rào tuyệt đẹp nâng tỉ số lên ba một ở phút sáu mươi ba, trước khi chốt hạ cú đúp cận thành phút tám mươi mốt.",
+      "duration": 7,
+      "startTime": 27,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "player": "Cristiano Ronaldo",
+      "team": "Al Nassr",
+      "number": "7",
+      "playerImageUrl": "assets/storyboards/ronaldo-al-nassr-saudi-pro-league-champions-2026-05-22/scene-1.jpg",
+      "stats": [
+        { "label": "Bàn thắng", "value": "2" },
+        { "label": "Sút phạt", "value": "1" },
+        { "label": "Sofascore", "value": "9.3" },
+        { "label": "Phút ghi bàn", "value": "63', 81'" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Cơn khát danh hiệu 7 năm kết thúc",
+      "subtext": "Chức vô địch Saudi Pro League lịch sử của Al Nassr",
+      "voiceText": "Chiến thắng giúp Al Nassr chính thức vô địch Saudi Pro League lần đầu tiên kể từ mùa giải hai không mười tám - hai không mười chín. Đây cũng là danh hiệu lớn đầu tiên của Cristiano Ronaldo cùng câu lạc bộ.",
+      "duration": 7,
+      "startTime": 34,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "⏳",
+          "value": "7",
+          "label": "năm chờ đợi"
+        },
+        {
+          "icon": "🏆",
+          "value": "1",
+          "label": "danh hiệu đầu của CR7"
+        },
+        {
+          "icon": "⚽",
+          "value": "4-1",
+          "label": "tỉ số thuyết phục"
+        },
+        {
+          "icon": "🌍",
+          "value": "6",
+          "label": "kỳ World Cup trước mắt"
+        }
+      ],
+      "chartTitle": "Số năm chờ vô địch của Al Nassr",
+      "chartType": "bar",
+      "data": [
+        { "label": "Chờ đợi (năm)", "value": 7, "percent": 100 },
+        { "label": "Danh hiệu CR7", "value": 1, "percent": 14 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Hành trình World Cup vĩ đại",
+      "subtext": "Kỳ World Cup thứ 6 lịch sử của Cristiano Ronaldo",
+      "voiceText": "Ngay sau chức vô địch này, Cristiano Ronaldo sẽ hội quân cùng đội tuyển Bồ Đào Nha hướng tới kỳ World Cup hai không hai sáu. Đây sẽ là giải đấu thế giới thứ sáu trong sự nghiệp huy hoàng của anh.",
+      "duration": 6,
+      "startTime": 41,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "WORLD CUP",
+      "tabs": [
+        "WORLD CUP",
+        "AL NASSR",
+        "BỒ ĐÀO NHA",
+        "LỊCH TRÌNH"
+      ],
+      "ctaLabel": "CR7 GOES TO WC",
+      "fixtures": [
+        {
+          "group": "Vòng bảng World Cup",
+          "date": "15/06",
+          "time": "02:00",
+          "home": {
+            "name": "Portugal",
+            "code": "POR",
+            "teamType": "national",
+            "flag": "assets/football/flags/portugal.svg"
+          },
+          "away": {
+            "name": "TBD",
+            "code": "TBD",
+            "teamType": "national",
+            "flag": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+          }
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        { "type": "football-ball-motion", "duration": 4, "top": "76%", "size": 82 }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Méo",
+      "subtext": "Ronaldo đập tan mọi nghi ngờ và chỉ trích",
+      "voiceText": "Theo Méo, chức vô địch này cực kỳ ý nghĩa với Ronaldo. Nó đập tan hoàn toàn những chỉ trích cho rằng anh sang Saudi Arabia chỉ để dưỡng già. Đây là bệ phóng tinh thần hoàn hảo trước khi anh bước vào kỳ World Cup lịch sử cùng đội tuyển Bồ Đào Nha.",
+      "duration": 7,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Chức vô địch này là minh chứng rằng ở bất kỳ độ tuổi nào, khát vọng và sự chuyên nghiệp của Ronaldo vẫn là tiêu chuẩn vàng của bóng đá thế giới.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.5))"
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "CR7 có thể vô địch World Cup?",
+      "subtext": "Hãy để lại comment dự đoán của bạn",
+      "voiceText": "Bạn nghĩ sao về chức vô địch lịch sử của Al Nassr? Liệu Cristiano Ronaldo có thể cùng đội tuyển Bồ Đào Nha tạo nên kỳ tích tại World Cup sắp tới? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 54,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Al Nassr vô địch Saudi Pro League 2025/26",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Nhập ý kiến: CR7 sẽ thế nào ở World Cup?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Cristiano Ronaldo",
+          "World Cup",
+          "Al Nassr",
+          "Champions",
+          "Saudi Pro League",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.6
+        }
+      ]
+    }
+  ]
+}

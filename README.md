@@ -146,6 +146,27 @@ npm start -- output/05-06-2024-my-video/storyboard.json
 node run.js example-storyboard.json
 ```
 
+### Upload video lên YouTube từ storyboard
+
+Storyboard phải có `title`, `slug`, và `caption` hoặc `description`. Script sẽ tìm video MP4 đã render trong `output` theo `slug` rồi upload với trạng thái `public`.
+
+```bash
+node run.js upload-youtube storyboards/22-05-2026/example.json
+npm run upload-youtube -- storyboards/22-05-2026/example.json
+```
+
+Lần đầu chạy, tạo OAuth Client ID trong Google Cloud Console, tải file JSON và lưu tại:
+
+```text
+.youtube/client_secret.json
+```
+
+Script sẽ mở trình duyệt để xác thực YouTube và lưu token tại `.youtube/token.json`. Có thể kiểm tra metadata và đường dẫn video mà không upload bằng:
+
+```bash
+node run.js upload-youtube storyboards/22-05-2026/example.json --dry-run
+```
+
 ### Tạo lại voice cho video đã xuất
 Khi voice bị lỗi nhưng video đã render xong, truyền vào thư mục output cũ:
 

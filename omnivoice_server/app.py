@@ -1,8 +1,11 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import gc
+import logging
 import os
 from pathlib import Path
+import threading
 from typing import Optional
 from uuid import uuid4
 
@@ -12,6 +15,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
+logger = logging.getLogger("omnivoice")
+
 
 @dataclass
 class ModelState:
@@ -20,6 +25,9 @@ class ModelState:
 
 
 STATE = ModelState()
+
+# Prevent concurrent model.generate() calls which corrupt GPU tensors.
+_inference_lock = threading.Lock()
 
 app = FastAPI(title="OmniVoice Server", version="0.1.0")
 
@@ -99,15 +107,21 @@ def _default_ref_for_preset(preset: str) -> Path:
     Resolve a reference clip for a given emotion preset.
     OmniVoice does not take an explicit "emotion" parameter; we approximate it by swapping ref audio clips.
 
-    Defaults (relative to repo root):
-      assets/voice/refs/{preset}.wav
-      fallback: assets/voice/ref.wav
+    Search order (relative to repo root):
+      1. assets/voice/refs/{preset}.wav
+      2. assets/voice/{preset}.wav       (matches Node.js config presets)
+      3. assets/voice/ref.wav            (final fallback)
     """
     p = (preset or "").strip().lower() or "neutral"
     root = _repo_root()
+    # Priority 1: dedicated refs/ subdirectory
     candidate = (root / "assets" / "voice" / "refs" / f"{p}.wav").resolve()
     if candidate.exists():
         return candidate
+    # Priority 2: assets/voice/{preset}.wav (matches Node.js refAudioPresets paths)
+    candidate2 = (root / "assets" / "voice" / f"{p}.wav").resolve()
+    if candidate2.exists():
+        return candidate2
     return (root / "assets" / "voice" / "ref.wav").resolve()
 
 
@@ -219,12 +233,29 @@ def tts(req: TTSRequest) -> TTSResponse:
     try:
         ref_text: Optional[str] = req.ref_text.strip() or None
 
-        # OmniVoice returns a list of np.ndarray at 24 kHz by default.
-        audio_list = STATE.model.generate(
-            text=req.text,
-            ref_audio=str(ref_audio_path),
-            ref_text=ref_text,
-        )
+        import torch
+
+        # Aggressively free VRAM before inference — critical for low-VRAM GPUs (e.g. GTX 1060 6GB)
+        # where the model alone consumes ~95% of available memory.
+        if torch.cuda.is_available():
+            gc.collect()
+            torch.cuda.empty_cache()
+            torch.cuda.ipc_collect()
+
+        # Lock prevents concurrent GPU inference which corrupts tensors.
+        with _inference_lock, torch.inference_mode():
+            # OmniVoice returns a list of np.ndarray at 24 kHz by default.
+            audio_list = STATE.model.generate(
+                text=req.text,
+                ref_audio=str(ref_audio_path),
+                ref_text=ref_text,
+            )
+
+        # Release cached GPU memory to avoid OOM on long pipelines.
+        if torch.cuda.is_available():
+            gc.collect()
+            torch.cuda.empty_cache()
+
         if not audio_list or audio_list[0] is None:
             raise RuntimeError("Empty audio returned from model")
 
@@ -244,6 +275,7 @@ def tts(req: TTSRequest) -> TTSResponse:
     except HTTPException:
         raise
     except Exception as e:  # noqa: BLE001
+        logger.exception("TTS inference failed")
         raise HTTPException(status_code=500, detail=f"{type(e).__name__}: {e}") from e
 
 
@@ -399,11 +431,28 @@ def webui_generate(req: WebUIGenerateRequest) -> WebUIGenerateResponse:
 
     try:
         ref_text: Optional[str] = (req.ref_text or "").strip() or None
-        audio_list = STATE.model.generate(
-            text=req.text,
-            ref_audio=str(ref_audio_path),
-            ref_text=ref_text,
-        )
+
+        import torch
+
+        # Aggressively free VRAM before inference — critical for low-VRAM GPUs.
+        if torch.cuda.is_available():
+            gc.collect()
+            torch.cuda.empty_cache()
+            torch.cuda.ipc_collect()
+
+        # Lock prevents concurrent GPU inference which corrupts tensors.
+        with _inference_lock, torch.inference_mode():
+            audio_list = STATE.model.generate(
+                text=req.text,
+                ref_audio=str(ref_audio_path),
+                ref_text=ref_text,
+            )
+
+        # Release cached GPU memory to avoid OOM on long pipelines.
+        if torch.cuda.is_available():
+            gc.collect()
+            torch.cuda.empty_cache()
+
         if not audio_list or audio_list[0] is None:
             raise RuntimeError("Empty audio returned from model")
 
