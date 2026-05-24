@@ -1,0 +1,140 @@
+{
+  "title": "Lisa Gây Tranh Luận Với Ca Khúc World Cup 2026 Goals",
+  "slug": "lisa-goals-world-cup-2026",
+  "totalDuration": 43,
+  "sources": [
+    "https://baovanhoa.vn/the-thao/lisa-cung-anitta-rema-hat-ca-khuc-co-vu-world-cup-2026-230231.html",
+    "https://kenh14.vn/lisa-khien-ca-world-cup-tranh-luan-ngoai-dep-khong-dong-lai-gi-215260522165658049.chn",
+    "https://www.thatericalper.com/2026/05/22/lisa-anitta-and-rema-unite-on-goals-the-fifa-world-cup-2026-albums-most-global-statement-yet/"
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "label": "WORLD CUP 2026",
+      "title": "Lisa làm World Cup dậy sóng?",
+      "cardCaption": "FIFA xác nhận Lisa, Anitta và Rema cùng góp mặt trong ca khúc cổ vũ mang tên Goals.",
+      "chips": ["Lisa", "BLACKPINK", "Goals"],
+      "imageSrc": "assets/storyboards/lisa-goals-world-cup-2026/scene-1.webp",
+      "voiceText": "Lisa làm World Cup dậy sóng? FIFA vừa xác nhận nữ ca sĩ Lisa của BLACKPINK sẽ tham gia thể hiện ca khúc cổ vũ FIFA World Cup 2026 mang tên Goals, cùng Anitta và Rema.",
+      "duration": 8,
+      "bgColor": "#080D18",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "image-card-rise",
+      "emoji": "⚽"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "flashcard-gallery",
+      "title": "Ba màu nhạc trong một ca khúc",
+      "voiceText": "Điểm đáng chú ý là đội hình này đại diện cho ba vùng âm nhạc rất khác nhau: K-pop từ Lisa, Latin pop từ Anitta, và Afrobeats từ Rema. FIFA đang biến âm nhạc thành cầu nối để kéo khán giả trẻ đến gần World Cup hơn.",
+      "duration": 9,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "fade-cascade",
+      "layout": "vertical",
+      "cards": [
+        {
+          "url": "https://media.baovanhoa.vn/zoom/1000/Uploaded/ngoctrung/2026_05_21/aa_IHGD.jpg",
+          "caption": "Lisa, Anitta và Rema trong dự án âm nhạc đa châu lục"
+        },
+        {
+          "url": "https://www.thatericalper.com/wp-content/uploads/2026/05/download-9-4.jpg",
+          "caption": "Goals thuộc Official FIFA World Cup 2026 Album"
+        },
+        {
+          "url": "https://kenh14cdn.com/thumb_w/1200/203336854389633024/2026/5/22/thiet-ke-chua-co-ten-1-17794436582941845347450-0-0-419-800-crop-17794436857691129712371.png",
+          "caption": "MV nhanh chóng tạo sức nóng trên mạng xã hội"
+        }
+      ],
+      "imageNote": "Nếu các nguồn ảnh chặn hotlink, thay các url trên bằng ảnh local trong assets/storyboards/lisa-goals-world-cup-2026/."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Visual được khen, nhạc gây chia rẽ",
+      "quote": "Goals gây chú ý vì phần hình ảnh chỉn chu, nhưng cũng bị chê thiếu chất World Cup.",
+      "quoteAuthor": "Tranh luận sau khi MV ra mắt",
+      "quoteRole": "Khen visual, tranh cãi tinh thần bóng đá",
+      "imageUrl": "https://kenh14cdn.com/thumb_w/1200/203336854389633024/2026/5/22/thiet-ke-chua-co-ten-1-17794436582941845347450-0-0-419-800-crop-17794436857691129712371.png",
+      "voiceText": "Sau khi audio và MV Goals ra mắt, Lisa được khen ở visual, thần thái và đoạn rap khoảng 18 giây. Nhưng một phần khán giả bóng đá lại cho rằng bài hát thiếu sự hùng tráng, thiếu đoạn điệp khúc dễ hát cùng nhau như những bản World Cup kinh điển.",
+      "duration": 9,
+      "bgColor": "#100B16",
+      "accentColor": "#FF4FA3",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "liveLabel": "Fan debate"
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Vì sao FIFA chọn Lisa?",
+      "voiceText": "Dù tranh luận còn rất nóng, lựa chọn Lisa cho thấy FIFA đang nhắm đến sức ảnh hưởng toàn cầu của pop culture. Khi bóng đá kết hợp K-pop, Latin pop và Afrobeats, câu chuyện không chỉ là một bài hát, mà là cách World Cup mở rộng tệp khán giả.",
+      "duration": 9,
+      "bgColor": "#07140F",
+      "accentColor": "#22C55E",
+      "textColor": "#ffffff",
+      "animation": "stats-grid",
+      "statsCards": [
+        {
+          "icon": "🌏",
+          "value": "3",
+          "label": "châu lục âm nhạc"
+        },
+        {
+          "icon": "🎤",
+          "value": "Goals",
+          "label": "track cổ vũ"
+        },
+        {
+          "icon": "🔥",
+          "value": "3M+",
+          "label": "lượt xem sau 17 giờ theo Kenh14"
+        },
+        {
+          "icon": "🏟️",
+          "value": "12/6",
+          "label": "sân khấu SoFi được nhắc đến"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://www.thatericalper.com/wp-content/uploads/2026/05/download-9-4.jpg",
+          "label": "GLOBAL STATEMENT",
+          "title": "Music x Football",
+          "caption": "Ca khúc đặt World Cup trong dòng chảy văn hóa đại chúng.",
+          "top": "1035px",
+          "left": "90px",
+          "right": "90px",
+          "width": "900px",
+          "height": "520px",
+          "accentColor": "#22C55E",
+          "secondaryAccentColor": "#F7C948"
+        }
+      ],
+      "imageNote": "Có thể thay ảnh bằng poster chính thức của FIFA/Goals nếu bạn có file gốc."
+    },
+    {
+      "id": 5,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Bạn chấm Goals mấy điểm?",
+      "voiceText": "Bạn thấy Goals xứng đáng là nhạc World Cup, hay chỉ đẹp phần nhìn? Comment quan điểm của bạn bên dưới, và follow kênh của Méo, để cập nhật những câu chuyện bóng đá giải trí nóng nhất.",
+      "duration": 8,
+      "bgColor": "#08111F",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "imageSrc": "assets/storyboards/lisa-goals-world-cup-2026/scene-1.webp",
+      "logoSrc": "assets/storyboards/lisa-goals-world-cup-2026/scene-1.webp",
+      "emoji": "💬"
+    }
+  ]
+}

@@ -45,19 +45,7 @@
       "emoji": "🏆",
       "animation": "image-card-rise",
       "visuals": [
-        {
-          "type": "channel-watermark",
-          "logoSrc": "assets/logos/logo.png",
-          "username": "@vibe.bongda",
-          "opacity": 0.6,
-          "top": "70px",
-          "right": "84px",
-          "logoSize": 72,
-          "fontSize": 23,
-          "width": 220,
-          "usernameMinWidth": 164,
-          "accentColor": "#F7C948"
-        }
+       
       ]
     },
     {
@@ -66,7 +54,7 @@
       "composition": "stats-cards-grid",
       "title": "Cột mốc chưa từng có",
       "subtext": "Ronaldo được gọi lên tuyển Bồ Đào Nha dự World Cup 2026",
-      "voiceText": "Tối mười chín tháng năm, huấn luyện viên Roberto Martinez công bố danh sách Bồ Đào Nha dự World Cup hai nghìn không trăm hai mươi sáu. Tâm điểm vẫn là Cristiano Ronaldo: anh chuẩn bị trở thành cầu thủ nam đầu tiên góp mặt ở sáu kỳ World Cup khác nhau.",
+      "voiceText": "Tối mười chín tháng năm, huấn luyện viên Roberto Martinez công bố danh sách `Bồ Đào Nha` dự World Cup hai không hai sáu. Tâm điểm vẫn là Cristiano Ronaldo: anh chuẩn bị trở thành cầu thủ nam đầu tiên góp mặt ở sáu kỳ World Cup khác nhau.",
       "duration": 7,
       "startTime": 6,
       "bgColor": "#071A14",
@@ -291,7 +279,7 @@
       "composition": "context-bars",
       "title": "Bồ Đào Nha không chỉ có Ronaldo",
       "subtext": "Một thế hệ đủ dày để mơ lớn",
-      "voiceText": "Điểm khiến câu chuyện đáng chờ là Bồ Đào Nha hiện tại không còn phụ thuộc hoàn toàn vào Ronaldo. Bruno Fernandes, Bernardo Silva, Vitinha, João Neves, Nuno Mendes, Rafael Leão và Rúben Dias tạo nên một bộ khung đồng đều ở cả ba tuyến.",
+      "voiceText": "Điểm khiến câu chuyện đáng chờ là Bồ Đào Nha hiện tại không còn phụ thuộc hoàn toàn vào Ronaldo. Bruno Fernandes, Bernardo Silva, Vitinha, João Neves, Nuno Mendes, Rafael Leao và Rúben Dias tạo nên một bộ khung đồng đều ở cả ba tuyến.",
       "duration": 6,
       "startTime": 34,
       "bgColor": "#071A14",
@@ -511,19 +499,6 @@
           "type": "football-confetti",
           "particleCount": 90,
           "duration": 4.6
-        },
-        {
-          "type": "channel-watermark",
-          "logoSrc": "assets/logos/logo.png",
-          "username": "@vibe.bongda",
-          "opacity": 0.6,
-          "top": "70px",
-          "right": "84px",
-          "logoSize": 72,
-          "fontSize": 23,
-          "width": 220,
-          "usernameMinWidth": 164,
-          "accentColor": "#F7C948"
         }
       ]
     }

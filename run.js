@@ -2,7 +2,6 @@
 // Standalone runner: node run.js <input>
 import { pipeline } from "./src/pipeline.js";
 import { regenerateVoice } from "./src/regenerate-voice.js";
-import { uploadYoutubeFromStoryboard } from "./src/youtube/upload-video.js";
 import { logger } from "./src/utils/logger.js";
 
 const command = process.argv[2];
@@ -46,6 +45,7 @@ try {
     await regenerateVoice(arg);
   } else if (command === "upload-youtube") {
     logger.info(`📥 Storyboard: ${arg}`);
+    const { uploadYoutubeFromStoryboard } = await import("./src/youtube/upload-video.js");
     await uploadYoutubeFromStoryboard(arg, {
       dryRun: flags.includes("--dry-run"),
     });

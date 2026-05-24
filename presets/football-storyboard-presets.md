@@ -9,6 +9,10 @@ Nguồn mẫu:
 
 ## Ghi Chú Chung
 
+### Composition `football-standings-table`
+
+- Khi dùng composition `football-standings-table`, bảng xếp hạng phải lấy ít nhất 7 đội xung quanh 2 đội bóng đang được nói tới. Nếu bối cảnh cần nhìn rộng hơn, có thể lấy từ vị trí số 1 đến vị trí thấp nhất của đội liên quan, hoặc lấy thêm các đội trong cùng cuộc đua.
+
 ### Cách Đọc Và Viết Tắt Tên Đội Bóng
 
 - Manchester United có thể ghi tắt và đọc tắt là `Man U` hoặc `MU` (đọc là `Mờ U`), nhưng không được ghi hoặc đọc chỉ là `United`.
@@ -16,7 +20,8 @@ Nguồn mẫu:
 
 ### Hiển Thị Logo Và Cấu Hình Flag Đội Bóng
 
-- Khi hiển thị logo của đội bóng Tottenham Hotspur / Tottenham / Spurs, phải dùng `badgeBackgroundColor` màu trắng (`#ffffff`) trong object team để logo nổi rõ, bao gồm các scene dùng `football-match-card`, `football-scoreboard`, `football-lineup`, `football-stat-bars` và `football-standings-table`.
+- Khi hiển thị logo của đội bóng Tottenham Hotspur / Tottenham / Spurs, phải dùng `badgeBackgroundColor` màu trắng (`#ffffff`) trong object team để logo nổi rõ, bao gồm các scene dùng `football-match-card`, `football-scoreboard`, `football-lineup`, `football-odds-h2h`, `football-stat-bars` và `football-standings-table`.
+- Với scene `football-odds-h2h`, nếu Tottenham Hotspur / Tottenham / Spurs xuất hiện trong `h2hMatches`, phải truyền thêm metadata logo cho đúng bên của trận đấu, ví dụ `homeBadgeSrc` hoặc `awayBadgeSrc` trỏ tới logo Tottenham và `homeBadgeBackgroundColor` hoặc `awayBadgeBackgroundColor` là `#ffffff`. Nên thêm `homeBadgePadding` / `awayBadgePadding` khoảng `6` và `homeBadgeBorderRadius` / `awayBadgeBorderRadius` là `999` để logo nổi rõ trên nền tối.
 - **Cơ Chế Tự Động Tìm Kiếm Và Đồng Bộ Logo/Flag (`src/steps/02-generate-storyboard.js`)**:
   - **Dựa vào Asset Index**: Hệ thống tự động tra cứu trong tệp `assets/football/index.json`. Thuật toán so khớp (`findFootballAssetForTeam`) sẽ chuẩn hóa tên đội bóng/mã đội (loại bỏ dấu tiếng Việt, ký tự đặc biệt, đưa về lowercase) và tính điểm để tìm bản ghi phù hợp nhất.
   - **Đội tuyển Quốc gia (National Teams)**: Bản ghi được lưu trữ tại `assets/football/flags/` (Ví dụ: `assets/football/flags/portugal.svg` cho Bồ Đào Nha). Thuộc tính tương ứng được tự động điền là `flagSrc` và `badgeSrc`.
@@ -30,11 +35,16 @@ Nguồn mẫu:
 ### VoiceText Scene Cuối
 
 - `voiceText` của scene cuối cùng phải có lời kêu gọi follow: `Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!`
+- Scene cuối của tất cả storyboard phải dùng `composition: "promo-card"` theo mẫu scene cuối trong `storyboards\21-05-2026\robert-lewandowski-chia-tay-barcelona.json`.
+- Scene cuối nên có object `promo` gồm các field chính: `badge`, `button`, `url`, `commentPrompt`, `logoSrc`, `logos`.
+- `promo.button` mặc định dùng `FOLLOW KÊNH`, `promo.url` mặc định dùng `@vibe.bongda`, `promo.logoSrc` mặc định dùng `assets/logos/logo.png`.
+- Visual scene cuối nên dùng mảng `visuals` với `football-confetti`, ví dụ `particleCount` khoảng 80-90 và `duration` khoảng 4.6-5.2 giây.
 
 ### Tổng Hợp VoiceText Sau Khi Tạo Storyboard
 
 - Tạo storyboard JSON và lưu vào thư mục `/storyboards` với thư mục con có tên theo ngày hôm nay. Nếu thư mục ngày hôm nay chưa có thì tạo thư mục mới trước khi lưu file.
 - Sau khi tạo storyboard JSON, phải tổng hợp toàn bộ `voiceText` trong JSON theo thứ tự scene và gửi lại cho người dùng xem.
+- Khi tạo `voiceText`, nếu một câu quá dài thì phải thêm dấu phẩy `,` vào các điểm ngắt tự nhiên để tạo nhịp đọc, tránh để câu liền mạch quá dài làm TTS tạo voice bị lỗi.
 
 ### Cách Đọc Chỉ Số Thống Kê
 
@@ -52,6 +62,7 @@ Nguồn mẫu:
 
 - Trong `voiceText`, `HLV` là viết tắt của `Huấn luyện viên`, nên phải viết và đọc là `Huấn luyện viên`; không để nguyên `HLV` trong `voiceText`.
 - Trong `voiceText`, `bảng K` phải viết/đọc là `bảng Ka`; `Ka` là phiên âm tiếng Việt cho chữ `K`.
+- Trong `voiceText`, tên sân `Bernabéu` phải viết là `Bernabeu` để TTS đọc ổn định; không dùng ký tự `é` trong lời đọc.
 
 ### Ghi Chú Thêm
 
@@ -77,7 +88,7 @@ Dùng cho storyboard preview / nhận định trước trận.
 | 4 | `content` | `football-odds-h2h` | 8s | Lịch sử đối đầu, bảng thông tin H2H và các trận gần nhất. |
 | 5 | `content` | `quote-attrib` | 6s | Điểm nóng / câu nói nhận định, có quote, nguồn attribution và hình minh họa. |
 | 6 | `content` | `football-standings-table` | 6s | Bối cảnh bảng xếp hạng, highlight các đội liên quan. |
-| 7 | `outro` | `cta-card` | 6s | Kết video bằng câu hỏi dự đoán / CTA bình luận và follow. |
+| 7 | `outro` | `promo-card` | 6s | Kết video bằng câu hỏi dự đoán / CTA bình luận và follow. |
 
 ### Thứ Tự Composition
 
@@ -88,13 +99,15 @@ football-lineup
 football-odds-h2h
 quote-attrib
 football-standings-table
-cta-card
+promo-card
 ```
 
 ### Ghi Chú Riêng Cho Preset Preview
 
+- Scene 1 và scene 2 không dùng visual `channel-watermark`.
 - Scene 1 nên có thông tin trận đấu đầy đủ: competitionLabel, stage, venue, date, time, teams, form.
 - Scene 2 nên dùng `competitionLabel` kiểu preview, ví dụ `Matchweek 37 Preview`.
+- `voiceText` của scene 2 nên ngắn gọn, chỉ giới thiệu nhanh bối cảnh/giải đấu, tránh diễn giải dài.
 - Scene 3 dùng đội hình dự kiến, title có thể là `Đội hình dự kiến`.
 - Scene 4 tập trung vào H2H, lịch sử đối đầu, phong độ, tỷ lệ hoặc thông tin đối đầu nổi bật.
 - Scene 5 nên chọn một điểm nóng trước trận: cầu thủ đáng chú ý, HLV, áp lực vô địch, derby, vé châu Âu, trụ hạng.
@@ -119,7 +132,7 @@ Dùng cho storyboard result / tổng kết kết quả sau trận.
 | 6 | `content` | `football-timeline` | 9s | Timeline diễn biến trận đấu theo phút và các sự kiện quan trọng. |
 | 7 | `content` | `football-scoreboard` | 7s | Thống kê trận đấu bằng scoreboard kết hợp stat bars. |
 | 8 | `content` | `football-standings-table` | 7s | Tác động lên BXH sau trận, highlight các đội liên quan. |
-| 9 | `outro` | `cta-card` | 5s | Kết video bằng câu hỏi cảm nghĩ / CTA bình luận và follow. |
+| 9 | `outro` | `promo-card` | 5s | Kết video bằng câu hỏi cảm nghĩ / CTA bình luận và follow. |
 
 ### Thứ Tự Composition
 
@@ -132,13 +145,15 @@ football-player-stat
 football-timeline
 football-scoreboard
 football-standings-table
-cta-card
+promo-card
 ```
 
 ### Ghi Chú Riêng Cho Preset Result
 
+- Scene 1 và scene 2 không dùng visual `channel-watermark`.
 - Scene 1 nên nói rõ tỉ số, sân đấu, cầu thủ ghi bàn, phút ghi bàn và tác động lớn nhất của kết quả.
 - Scene 2 nên dùng `competitionLabel` kiểu result, ví dụ `Match Result`.
+- `voiceText` của scene 2 nên ngắn gọn, chỉ chuyển nhịp sang phần kết quả/giải đấu, tránh diễn giải dài.
 - Scene 3 là scoreboard full-time, có `minute: FT`, `score`, teams và scorebug nếu cần.
 - Scene 4 dùng đội hình chính thức, title có thể là `Đội hình chính thức`.
 - Scene 5 chọn một cầu thủ nổi bật hoặc khoảnh khắc bước ngoặt để làm player stat.

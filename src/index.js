@@ -10,7 +10,6 @@
 
 import { pipeline } from "./pipeline.js";
 import { regenerateVoice } from "./regenerate-voice.js";
-import { uploadYoutubeFromStoryboard } from "./youtube/upload-video.js";
 import { logger } from "./utils/logger.js";
 
 const command = process.argv[2];
@@ -44,6 +43,7 @@ try {
     await regenerateVoice(arg);
   } else if (command === "upload-youtube") {
     logger.info(`📥 Storyboard: ${arg}`);
+    const { uploadYoutubeFromStoryboard } = await import("./youtube/upload-video.js");
     await uploadYoutubeFromStoryboard(arg, {
       dryRun: flags.includes("--dry-run"),
     });

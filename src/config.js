@@ -50,7 +50,7 @@ export const config = {
       highpassHz: 80,
       lowpassHz: 12000,
       denoise: true,
-      normalize: false,
+      normalize: true,
       limiter: true,
     },
     // Optional post-speedup on Node side (ffmpeg). 1.0 = no change.
@@ -93,8 +93,8 @@ export const config = {
 
     backgroundMusic: {
       enabled: true,
-      src: "assets/audio/stadium-background-music.mp3",
-      volume: 0.06,
+      src: "assets/audio/DanceByYourself-Dyalla.mp3",
+      volume: 0.1,
     },
 
     // Final gain applied after voice + background music are mixed.

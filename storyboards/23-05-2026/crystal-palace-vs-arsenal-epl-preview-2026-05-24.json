@@ -1,0 +1,694 @@
+{
+  "title": "Crystal Palace vs Arsenal: Nhà vua khép mùa ở Selhurst Park",
+  "slug": "crystal-palace-vs-arsenal-epl-preview-2026-05-24",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "SELHURST PARK ĐÓN NHÀ VUA!",
+      "subtext": "Crystal Palace vs Arsenal",
+      "voiceText": "Selhurst Park lên đèn lúc hai mươi hai giờ, ngày hai mươi bốn tháng năm, hai không hai sáu. Crystal Palace tiếp Arsenal ở vòng ba mươi tám Premier League, trong ngày Pháo thủ khép lại mùa giải vô địch.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#081427",
+      "accentColor": "#C4122E",
+      "secondaryAccentColor": "#F6C343",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 38",
+      "venue": "Selhurst Park",
+      "date": "24.05.2026",
+      "time": "22:00",
+      "teams": [
+        {
+          "name": "Crystal Palace",
+          "code": "CRY",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/crystal-palace.svg",
+          "form": ["D", "L", "D", "W", "L", "W"]
+        },
+        {
+          "name": "Arsenal",
+          "code": "ARS",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/arsenal.svg",
+          "form": ["W", "W", "W", "D", "W", "L"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchweek 38 Preview",
+      "seasonLabel": "2025-26 | Final Day",
+      "ctaLabel": "Kickoff 22:00",
+      "voiceText": "Arsenal đã là tân vương Premier League. Palace thì cần giữ chân cho chung kết Conference League, nhưng Selhurst Park không phải nơi dễ đá dạo.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#081427",
+      "accentColor": "#F6C343",
+      "secondaryAccentColor": "#C4122E",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Crystal Palace dự kiến đá ba bốn hai một, với Lacroix ở hàng thủ và Strand Larsen đá cao nhất. Arsenal có thể dùng bốn ba ba, Zubimendi giữ nhịp, Eze trở lại Selhurst Park, còn Gyokeres dẫn đầu hàng công.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#081427",
+      "accentColor": "#C4122E",
+      "secondaryAccentColor": "#F6C343",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Selhurst Park",
+      "teams": [
+        {
+          "name": "Crystal Palace",
+          "code": "CRY",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/crystal-palace.svg"
+        },
+        {
+          "name": "Arsenal",
+          "code": "ARS",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Henderson",
+            "Canvot",
+            "Lacroix",
+            "Riad",
+            "Munoz",
+            "Lerma",
+            "Hughes",
+            "Devenny",
+            "B. Johnson",
+            "Pino",
+            "Strand Larsen"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Raya",
+            "Mosquera",
+            "Noergaard",
+            "Gabriel",
+            "Hincapie",
+            "Dowman",
+            "Zubimendi",
+            "Eze",
+            "Madueke",
+            "Gyokeres",
+            "Martinelli"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F6C343"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "Premier League",
+      "voiceText": "Lịch sử gần đây nghiêng hẳn về Arsenal, với bảy chiến thắng trong mười lần gặp gần nhất. Lượt đi mùa này Arsenal thắng một không, còn lần gần nhất tại Selhurst Park, Pháo thủ từng thắng tới năm một.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#081427",
+      "accentColor": "#C4122E",
+      "secondaryAccentColor": "#F6C343",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Crystal Palace",
+          "code": "CRY",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/crystal-palace.svg",
+          "form": []
+        },
+        {
+          "name": "Arsenal",
+          "code": "ARS",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/arsenal.svg",
+          "form": []
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "10 trận H2H", "Thắng", "Hòa", "Thua", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Crystal Palace",
+            "scoreText": "10",
+            "x12": "1",
+            "hdp": "2",
+            "ou": "7",
+            "htHdp": "Giữ sức cho chung kết"
+          },
+          {
+            "teamName": "Arsenal",
+            "scoreText": "10",
+            "x12": "7",
+            "hdp": "2",
+            "ou": "1",
+            "htHdp": "Tân vương vào form"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "23/12/2025",
+          "competition": "EFL Cup",
+          "home": "Arsenal",
+          "away": "Crystal Palace",
+          "score": "9-8"
+        },
+        {
+          "kickoff": "26/10/2025",
+          "competition": "EPL",
+          "home": "Arsenal",
+          "away": "Crystal Palace",
+          "score": "1-0"
+        },
+        {
+          "kickoff": "23/04/2025",
+          "competition": "EPL",
+          "home": "Arsenal",
+          "away": "Crystal Palace",
+          "score": "2-2"
+        },
+        {
+          "kickoff": "21/12/2024",
+          "competition": "EPL",
+          "home": "Crystal Palace",
+          "away": "Arsenal",
+          "score": "1-5"
+        },
+        {
+          "kickoff": "18/12/2024",
+          "competition": "EFL Cup",
+          "home": "Arsenal",
+          "away": "Crystal Palace",
+          "score": "3-2"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F6C343"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng",
+      "subtext": "Eze trở lại Selhurst Park",
+      "quote": "Eberechi Eze trở lại Selhurst Park trong màu áo nhà vô địch, và đó là chi tiết khiến trận hạ màn này có thêm lửa.",
+      "quoteAuthor": "Méo bình luận",
+      "quoteRole": "Góc nhìn trước trận",
+      "imageSrc": "assets/live-commentator-cat.png",
+      "quoteImageAlt": "Bình luận viên trực tiếp tại sân vận động",
+      "liveLabel": "Live tại Selhurst Park",
+      "voiceText": "Điểm nóng là Eberechi Eze. Anh trở lại Selhurst Park trong màu áo Arsenal, đúng ngày đội khách đã là nhà vô địch, còn Palace đang phải chia sức cho trận chung kết châu Âu đầu tiên của mình.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#081427",
+      "accentColor": "#F6C343",
+      "secondaryAccentColor": "#C4122E",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F6C343"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng xếp hạng",
+      "subtext": "Premier League 2025-26",
+      "voiceText": "Bảng xếp hạng nói rất nhiều: Arsenal đứng đầu với tám mươi hai điểm và đã vô địch, còn Crystal Palace đứng thứ mười lăm với bốn mươi lăm điểm. Với Palace, câu hỏi lớn là đá hết mình, hay giữ đôi chân cho chung kết Conference League.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#081427",
+      "accentColor": "#C4122E",
+      "secondaryAccentColor": "#F6C343",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["CRY", "ARS"],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Arsenal",
+            "code": "ARS",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+          },
+          "played": 37,
+          "wins": 25,
+          "draws": 7,
+          "losses": 5,
+          "gf": 69,
+          "ga": 26,
+          "gd": 43,
+          "pts": 82
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Manchester City",
+            "code": "MCI",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/manchester-city.svg"
+          },
+          "played": 37,
+          "wins": 23,
+          "draws": 9,
+          "losses": 5,
+          "gf": 76,
+          "ga": 33,
+          "gd": 43,
+          "pts": 78
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Manchester United",
+            "code": "MUN",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/manchester-united.svg"
+          },
+          "played": 37,
+          "wins": 19,
+          "draws": 11,
+          "losses": 7,
+          "gf": 66,
+          "ga": 50,
+          "gd": 16,
+          "pts": 68
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Aston Villa",
+            "code": "AVL",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/aston-villa.svg"
+          },
+          "played": 37,
+          "wins": 18,
+          "draws": 8,
+          "losses": 11,
+          "gf": 54,
+          "ga": 48,
+          "gd": 6,
+          "pts": 62
+        },
+        {
+          "rank": 5,
+          "team": {
+            "name": "Liverpool",
+            "code": "LIV",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/liverpool-fc.svg"
+          },
+          "played": 37,
+          "wins": 17,
+          "draws": 8,
+          "losses": 12,
+          "gf": 62,
+          "ga": 52,
+          "gd": 10,
+          "pts": 59
+        },
+        {
+          "rank": 6,
+          "team": {
+            "name": "Bournemouth",
+            "code": "BOU",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/bournemouth.svg"
+          },
+          "played": 37,
+          "wins": 13,
+          "draws": 17,
+          "losses": 7,
+          "gf": 57,
+          "ga": 53,
+          "gd": 4,
+          "pts": 56
+        },
+        {
+          "rank": 7,
+          "team": {
+            "name": "Brighton & Hove Albion",
+            "code": "BHA",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/brighton.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 11,
+          "losses": 12,
+          "gf": 52,
+          "ga": 43,
+          "gd": 9,
+          "pts": 53
+        },
+        {
+          "rank": 8,
+          "team": {
+            "name": "Chelsea",
+            "code": "CHE",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/chelsea.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 10,
+          "losses": 13,
+          "gf": 57,
+          "ga": 50,
+          "gd": 7,
+          "pts": 52
+        },
+        {
+          "rank": 9,
+          "team": {
+            "name": "Brentford",
+            "code": "BRE",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/brentford.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 10,
+          "losses": 13,
+          "gf": 54,
+          "ga": 51,
+          "gd": 3,
+          "pts": 52
+        },
+        {
+          "rank": 10,
+          "team": {
+            "name": "Sunderland",
+            "code": "SUN",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/sunderland.svg"
+          },
+          "played": 37,
+          "wins": 13,
+          "draws": 12,
+          "losses": 12,
+          "gf": 40,
+          "ga": 47,
+          "gd": -7,
+          "pts": 51
+        },
+        {
+          "rank": 11,
+          "team": {
+            "name": "Newcastle United",
+            "code": "NEW",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/newcastle.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 7,
+          "losses": 16,
+          "gf": 53,
+          "ga": 53,
+          "gd": 0,
+          "pts": 49
+        },
+        {
+          "rank": 12,
+          "team": {
+            "name": "Everton",
+            "code": "EVE",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/everton.svg"
+          },
+          "played": 37,
+          "wins": 13,
+          "draws": 10,
+          "losses": 14,
+          "gf": 47,
+          "ga": 49,
+          "gd": -2,
+          "pts": 49
+        },
+        {
+          "rank": 13,
+          "team": {
+            "name": "Fulham",
+            "code": "FUL",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/fulham.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 7,
+          "losses": 16,
+          "gf": 45,
+          "ga": 51,
+          "gd": -6,
+          "pts": 49
+        },
+        {
+          "rank": 14,
+          "team": {
+            "name": "Leeds United",
+            "code": "LEE",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/leeds-united.svg"
+          },
+          "played": 37,
+          "wins": 11,
+          "draws": 14,
+          "losses": 12,
+          "gf": 49,
+          "ga": 53,
+          "gd": -4,
+          "pts": 47
+        },
+        {
+          "rank": 15,
+          "team": {
+            "name": "Crystal Palace",
+            "code": "CRY",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/crystal-palace.svg"
+          },
+          "played": 37,
+          "wins": 11,
+          "draws": 12,
+          "losses": 14,
+          "gf": 40,
+          "ga": 49,
+          "gd": -9,
+          "pts": 45
+        },
+        {
+          "rank": 16,
+          "team": {
+            "name": "Nottingham Forest",
+            "code": "NFO",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/nottingham-forest.svg"
+          },
+          "played": 37,
+          "wins": 11,
+          "draws": 10,
+          "losses": 16,
+          "gf": 47,
+          "ga": 50,
+          "gd": -3,
+          "pts": 43
+        },
+        {
+          "rank": 17,
+          "team": {
+            "name": "Tottenham Hotspur",
+            "code": "TOT",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/tottenham.svg",
+            "badgeBackgroundColor": "#ffffff"
+          },
+          "played": 37,
+          "wins": 9,
+          "draws": 11,
+          "losses": 17,
+          "gf": 47,
+          "ga": 57,
+          "gd": -10,
+          "pts": 38
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F6C343"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Palace phá ngày vui hay Arsenal thắng đẹp?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "voiceText": "Bạn nghĩ Crystal Palace sẽ tạo bất ngờ ở Selhurst Park, hay Arsenal sẽ thắng đẹp trong ngày hạ màn của nhà vô địch? Hãy để lại dự đoán tỉ số dưới phần bình luận. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#081427",
+      "accentColor": "#F6C343",
+      "secondaryAccentColor": "#C4122E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Crystal Palace vs Arsenal - Premier League",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Crystal Palace vs Arsenal?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Crystal Palace",
+          "Arsenal",
+          "Selhurst Park",
+          "Premier League",
+          "Méo Bình Luận",
+          "Follow"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.8
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "SportsGambler Crystal Palace vs Arsenal prediction, lineups and standings",
+      "url": "https://www.sportsgambler.com/betting-tips/football/crystal-palace-vs-arsenal-prediction-lineups-odds-2026-05-24/"
+    },
+    {
+      "name": "Sports Mole Crystal Palace vs Arsenal preview",
+      "url": "https://www.sportsmole.co.uk/football/arsenal/preview/crystal-palace-vs-arsenal-prediction-team-news-lineups_597982.html"
+    },
+    {
+      "name": "Local preset sample: Bournemouth vs Man City EPL preview",
+      "url": "storyboards/19-05-2026/bournemouth-vs-man-city-epl-preview-2026-05-20.json"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "title": "Liverpool vs Brentford: Lữ đoàn đỏ quyết chiến cho tấm vé Champions League",
+  "slug": "liverpool-vs-brentford-epl-preview-2026-05-24",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "QUYẾT CHIẾN ANFIELD VÌ VÉ VÀNG!",
+      "subtext": "Liverpool vs Brentford",
+      "voiceText": "Anfield rực lửa đón tiếp Bầy Ong Brentford lúc hai mươi hai giờ ngày hai mươi tư tháng năm, Lữ đoàn đỏ bắt buộc phải giành ba điểm trọn vẹn, và cầu nguyện cho điều kỳ diệu ở cuộc đua top bốn Ngoại Hạng Anh.",
+      "duration": 6,
+      "bgColor": "#150507",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 38",
+      "venue": "Anfield",
+      "date": "24.05.2026",
+      "time": "22:00",
+      "teams": [
+        { "name": "Liverpool", "code": "LIV", "teamType": "club", "form": ["W", "D", "W", "W", "L", "W"] },
+        { "name": "Brentford", "code": "BRE", "teamType": "club", "form": ["L", "W", "D", "W", "W", "L"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchweek 38 Preview",
+      "seasonLabel": "2025-26 | The Final Day",
+      "ctaLabel": "Kickoff 22:00",
+      "voiceText": "Lữ đoàn đỏ chỉ còn một khe cửa hẹp để lọt vào top bốn. Trong khi đó, Brentford cũng khao khát một chiến thắng lịch sử, để giành vé dự cúp châu Âu.",
+      "duration": 3,
+      "bgColor": "#150507",
+      "accentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Liverpool dự kiến ra sân với sơ đồ bốn ba ba quen thuộc, Alisson ở khung gỗ, cặp trung vệ Konate và Van Dijk, trong khi Salah, Nunez và Diaz lĩnh xướng hàng công. Phía bên kia, Brentford sẽ chơi phòng ngự phản công bốn ba ba với Flekken, Pinnock và Collins án ngữ trước cầu môn, hỗ trợ bởi Norgaard ở tuyến giữa, và Mbeumo, Wissa trên hàng tiền đạo.",
+      "duration": 8,
+      "bgColor": "#150507",
+      "accentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "LINEUPS",
+      "venue": "Anfield",
+      "teams": [
+        { "name": "Liverpool", "code": "LIV", "teamType": "club", "logoSrc": "assets/football/clubs/epl/liverpool-fc.svg", "badgeSrc": "assets/football/clubs/epl/liverpool-fc.svg" },
+        { "name": "Brentford", "code": "BRE", "teamType": "club", "logoSrc": "assets/football/clubs/epl/brentford.svg", "badgeSrc": "assets/football/clubs/epl/brentford.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Alisson",
+            "Alexander-Arnold",
+            "Konate",
+            "Van Dijk",
+            "Robertson",
+            "Szoboszlai",
+            "Mac Allister",
+            "Gravenberch",
+            "Salah",
+            "Nunez",
+            "Diaz"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Flekken",
+            "Roerslev",
+            "Collins",
+            "Pinnock",
+            "Ajer",
+            "Jensen",
+            "Norgaard",
+            "Janelt",
+            "Mbeumo",
+            "Wissa",
+            "Schade"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#C8102E" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "Premier League",
+      "voiceText": "Lịch sử đối đầu đang nghiêng hẳn về Lữ đoàn đỏ, khi Liverpool giành chiến thắng bốn trong năm lần chạm trán gần nhất tại Ngoại Hạng Anh. Trận lượt đi ở mùa giải năm nay trên sân Brentford, Liverpool cũng giành chiến thắng thuyết phục ba - một.",
+      "duration": 8,
+      "bgColor": "#150507",
+      "accentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        { "name": "Liverpool", "code": "LIV", "teamType": "club", "form": [], "logoSrc": "assets/football/clubs/epl/liverpool-fc.svg", "badgeSrc": "assets/football/clubs/epl/liverpool-fc.svg" },
+        { "name": "Brentford", "code": "BRE", "teamType": "club", "form": [], "logoSrc": "assets/football/clubs/epl/brentford.svg", "badgeSrc": "assets/football/clubs/epl/brentford.svg" }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "PL H2H", "Thắng", "Hòa", "Thua", "Ghi chú"],
+        "rows": [
+          { "teamName": "Liverpool", "scoreText": "7", "x12": "5", "hdp": "1", "ou": "1", "htHdp": "Thắng 3-1 lượt đi" },
+          { "teamName": "Brentford", "scoreText": "7", "x12": "1", "hdp": "1", "ou": "5", "htHdp": "Áp đảo bởi Lữ đoàn đỏ" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "18/01/2026", "competition": "EPL", "home": "Brentford", "away": "Liverpool", "score": "1-3" },
+        { "kickoff": "17/02/2025", "competition": "EPL", "home": "Brentford", "away": "Liverpool", "score": "1-4" },
+        { "kickoff": "25/08/2024", "competition": "EPL", "home": "Liverpool", "away": "Brentford", "score": "2-0" },
+        { "kickoff": "17/02/2024", "competition": "EPL", "home": "Brentford", "away": "Liverpool", "score": "1-4" },
+        { "kickoff": "12/11/2023", "competition": "EPL", "home": "Liverpool", "away": "Brentford", "score": "3-0" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#C8102E" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Salah khao khát nổ súng ở Anfield để kéo Liverpool lọt vào top bốn trong ngày hạ màn kịch tính.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Điểm nóng trước trận đấu",
+      "imageSrc": "assets/live-commentator-cat.png",
+      "quoteImageAlt": "Bình luận viên mèo trực tiếp",
+      "liveLabel": "Trận đấu quyết định",
+      "voiceText": "Điểm nóng của trận đấu chính là Mohamed Salah. Tiền đạo người Ai Cập đã có hai mươi mốt bàn thắng mùa này, và anh khao khát nổ súng tại thánh địa Anfield để kéo Liverpool trở lại Champions League.",
+      "duration": 6,
+      "bgColor": "#150507",
+      "accentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#C8102E" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cơ hội lọt vào top 4",
+      "subtext": "Ngoại Hạng Anh trước vòng cuối",
+      "voiceText": "Bảng xếp hạng trước vòng ba mươi tám vô cùng gay cấn. Aston Villa đang đứng thứ tư với sáu mươi hai điểm, Liverpool bám đuổi sát sao ở vị trí thứ năm với năm mươi chín điểm cùng hiệu số phụ vượt trội. Chỉ cần Villa sảy chân và Liverpool giành chiến thắng trước Brentford, tấm vé Champions League sẽ thuộc về Lữ đoàn đỏ.",
+      "duration": 6,
+      "bgColor": "#150507",
+      "accentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["LIV", "BRE"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 37, "wins": 25, "draws": 7, "losses": 5, "gf": 69, "ga": 26, "gd": 43, "pts": 82 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 37, "wins": 18, "draws": 12, "losses": 7, "gf": 64, "ga": 49, "gd": 15, "pts": 66 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton", "code": "BHA", "teamType": "club" }, "played": 37, "wins": 14, "draws": 12, "losses": 11, "gf": 53, "ga": 43, "gd": 10, "pts": 54 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 53, "ga": 50, "gd": 3, "pts": 52 },
+        { "rank": 9, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 57, "ga": 50, "gd": 7, "pts": 52 },
+        { "rank": 10, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 37, "wins": 13, "draws": 11, "losses": 13, "gf": 47, "ga": 47, "gd": 0, "pts": 50 },
+        { "rank": 11, "team": { "name": "Fulham", "code": "FUL", "teamType": "club" }, "played": 37, "wins": 14, "draws": 6, "losses": 17, "gf": 44, "ga": 51, "gd": -7, "pts": 48 },
+        { "rank": 12, "team": { "name": "Sunderland", "code": "SUN", "teamType": "club" }, "played": 37, "wins": 12, "draws": 12, "losses": 13, "gf": 37, "ga": 48, "gd": -11, "pts": 48 },
+        { "rank": 13, "team": { "name": "Newcastle United", "code": "NEW", "teamType": "club" }, "played": 37, "wins": 13, "draws": 8, "losses": 16, "gf": 51, "ga": 53, "gd": -2, "pts": 47 },
+        { "rank": 14, "team": { "name": "Leeds United", "code": "LEE", "teamType": "club" }, "played": 37, "wins": 11, "draws": 14, "losses": 12, "gf": 50, "ga": 54, "gd": -4, "pts": 47 },
+        { "rank": 15, "team": { "name": "Crystal Palace", "code": "CRY", "teamType": "club" }, "played": 37, "wins": 11, "draws": 12, "losses": 14, "gf": 39, "ga": 48, "gd": -9, "pts": 45 },
+        { "rank": 16, "team": { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }, "played": 37, "wins": 11, "draws": 11, "losses": 15, "gf": 46, "ga": 48, "gd": -2, "pts": 44 },
+        { "rank": 17, "team": { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club" }, "played": 37, "wins": 9, "draws": 12, "losses": 16, "gf": 47, "ga": 56, "gd": -9, "pts": 39 },
+        { "rank": 18, "team": { "name": "West Ham United", "code": "WHU", "teamType": "club" }, "played": 37, "wins": 9, "draws": 9, "losses": 19, "gf": 42, "ga": 64, "gd": -22, "pts": 36 },
+        { "rank": 19, "team": { "name": "Burnley", "code": "BUR", "teamType": "club" }, "played": 37, "wins": 4, "draws": 9, "losses": 24, "gf": 37, "ga": 74, "gd": -37, "pts": 21 },
+        { "rank": 20, "team": { "name": "Wolverhampton Wanderers", "code": "WOL", "teamType": "club" }, "played": 37, "wins": 3, "draws": 10, "losses": 24, "gf": 26, "ga": 67, "gd": -41, "pts": 19 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#C8102E" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Liverpool sẽ giật vé Champions League phút chót?",
+      "subtext": "Dự đoán tỉ số trận đấu của bạn",
+      "voiceText": "Bạn tin vào một kịch bản điên rồ đưa Liverpool lọt vào top bốn, hay Brentford sẽ là kẻ ngáng đường vĩ đại ngay tại Anfield? Hãy viết dự đoán của bạn dưới phần bình luận. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#150507",
+      "accentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Đại chiến hạ màn Premier League",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Liverpool có lọt được vào top bốn không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Liverpool",
+          "Brentford",
+          "Anfield",
+          "Ngoại Hạng Anh",
+          "Méo Bình Luận",
+          "Top 4"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5.0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sports Mole Liverpool vs Brentford prediction, team news and predicted lineups",
+      "url": "https://www.sportsmole.co.uk/football/liverpool/preview/liverpool-vs-brentford-prediction-team-news-lineups_epl_final.html"
+    },
+    {
+      "name": "Opta Analyst Premier League Matchweek 38 Preview and predictions",
+      "url": "https://theanalyst.com/articles/liverpool-vs-brentford-prediction-premier-league-matchday-38"
+    }
+  ]
+}

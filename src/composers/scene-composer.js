@@ -51,9 +51,12 @@ export function buildSceneHtml(scene, audioFile) {
     if (secComposerFn) {
       const secContentRaw = secComposerFn(scene);
       const secContent = extractCanvasInner(secContentRaw);
+      const secInlineStyle = scene.secondaryComposition === "infographic-chart"
+        ? ` style="width:90%;max-width:none;margin-top:72px;align-self:center;display:flex;justify-content:center;"`
+        : "";
       content = injectBeforeLastClosingDiv(
         content,
-        `<div class="secondary-composition secondary-${scene.secondaryComposition}">${secContent}</div>`
+        `<div class="secondary-composition secondary-${scene.secondaryComposition}"${secInlineStyle}>${secContent}</div>`
       );
     }
   }
@@ -2907,18 +2910,26 @@ function composerStyles(scene) {
     [data-composition-id="${cid}"].has-secondary-infographic-chart .secondary-composition {
       position: relative !important;
       z-index: 2 !important;
-      width: 100% !important;
+      width: calc(100% + 100px) !important;
+      max-width: none !important;
+      margin-left: -50px !important;
+      margin-right: -50px !important;
       display: flex !important;
       justify-content: center !important;
+      align-self: center !important;
     }
     [data-composition-id="${cid}"].has-secondary-infographic-chart .secondary-infographic-chart {
       margin-top: 72px !important;
+      width: 100% !important;
+      max-width: none !important;
     }
     [data-composition-id="${cid}"].has-secondary-infographic-chart .chart-container {
       margin-top: 0 !important;
-      width: 880px !important;
-      max-width: 880px !important;
-      padding: 24px 34px !important;
+      width: 100% !important;
+      max-width: none !important;
+      box-sizing: border-box !important;
+      border-radius: 0 !important;
+      padding: 24px 50px !important;
     }
     [data-composition-id="${cid}"].has-secondary-infographic-chart .chart-container .chart-title {
       font-size: 38px !important;
@@ -3167,19 +3178,33 @@ const COMPOSERS = {
       </div>`;
     };
 
-    const headerCells = (Array.isArray(table.headers) && table.headers.length ? table.headers : ["Đội bóng", "Tỷ số", "1x2", "HDP", "Tài xỉu", "HT HDP"])
-      .slice(0, 6)
+    const headers = (Array.isArray(table.headers) && table.headers.length ? table.headers : ["Đội bóng", "Tỷ số", "1x2", "HDP", "Tài xỉu", "HT HDP"])
+      .slice(0, 6);
+    const columnTemplates = [
+      "minmax(230px, 3.2fr)",
+      "minmax(68px, 1.1fr)",
+      "minmax(82px, 1.4fr)",
+      "minmax(104px, 1.7fr)",
+      "minmax(112px, 1.7fr)",
+      "minmax(96px, 1.4fr)",
+    ];
+    const tableColumns = columnTemplates.slice(0, headers.length).join(" ");
+    const columnDefs = [
+      { className: "col-team", render: (row, idx) => renderTeamCell(row, idx) },
+      { className: "col-score", render: (row) => renderScoreCell(row) },
+      { className: "col-x12", render: (row) => renderCell(row.x12 || row["1x2"] || row.oneXtwo || row.one_x_two) },
+      { className: "col-hdp", render: (row) => renderCell(row.hdp || row.handicap) },
+      { className: "col-ou", render: (row) => renderCell(row.ou || row.overUnder || row.taiXiu) },
+      { className: "col-hthdp", render: (row) => renderCell(row.htHdp || row.ht_handicap || row.halfTimeHandicap) },
+    ].slice(0, headers.length);
+
+    const headerCells = headers
       .map((h) => `<div class="football-odds-th">${escapeHtml(String(h))}</div>`)
       .join("");
 
     const rowsHtml = table.rows.slice(0, 3).map((row, idx) => {
       return `<div class="football-odds-tr ${idx === 1 ? "is-away" : ""}">
-        <div class="football-odds-td col-team">${renderTeamCell(row, idx)}</div>
-        <div class="football-odds-td col-score">${renderScoreCell(row)}</div>
-        <div class="football-odds-td col-x12">${renderCell(row.x12 || row["1x2"] || row.oneXtwo || row.one_x_two)}</div>
-        <div class="football-odds-td col-hdp">${renderCell(row.hdp || row.handicap)}</div>
-        <div class="football-odds-td col-ou">${renderCell(row.ou || row.overUnder || row.taiXiu)}</div>
-        <div class="football-odds-td col-hthdp">${renderCell(row.htHdp || row.ht_handicap || row.halfTimeHandicap)}</div>
+        ${columnDefs.map((col) => `<div class="football-odds-td ${col.className}">${col.render(row, idx)}</div>`).join("")}
       </div>`;
     }).join("");
 
@@ -3223,22 +3248,37 @@ const COMPOSERS = {
 
     const oddsPanelHtml = rates
       ? `<div class="football-odds3-panel">${renderRates()}</div>`
-      : `<div class="football-odds-table">
+      : `<div class="football-odds-table" style="--football-odds-columns:${tableColumns};">
           <div class="football-odds-thead">${headerCells}</div>
           <div class="football-odds-tbody">${rowsHtml}</div>
         </div>`;
 
     const normalizeKey = (s) => String(s || "").trim().toLowerCase().replace(/\s+/g, " ");
+    const badgeStyle = (b) => {
+      if (!b?.badgeBackgroundColor && !b?.badgePadding && !b?.badgeBorderRadius) return "";
+      const parts = [];
+      if (b.badgeBackgroundColor) parts.push(`background:${escapeHtmlAttr(b.badgeBackgroundColor)}`);
+      if (b.badgePadding || b.badgePadding === 0) parts.push(`padding:${escapeHtmlAttr(String(b.badgePadding))}px`);
+      if (b.badgeBorderRadius || b.badgeBorderRadius === 0) parts.push(`border-radius:${escapeHtmlAttr(String(b.badgeBorderRadius))}px`);
+      parts.push("box-sizing:border-box");
+      return ` style="${parts.join(";")}"`;
+    };
     const pickBadgeByName = (name) => {
       const key = normalizeKey(name);
       const found = teams.find((t) => normalizeKey(t?.name) === key);
-      return found?.badgeSrc ? { badgeSrc: found.badgeSrc, badgeType: found.badgeType } : null;
+      return found?.badgeSrc ? {
+        badgeSrc: found.badgeSrc,
+        badgeType: found.badgeType,
+        badgeBackgroundColor: found.badgeBackgroundColor,
+        badgePadding: found.badgePadding,
+        badgeBorderRadius: found.badgeBorderRadius,
+      } : null;
     };
     const renderMiniLogo = (badgeObj, fallbackName, side) => {
       const b = badgeObj || pickBadgeByName(fallbackName);
       if (b?.badgeSrc) {
         const cls = b.badgeType === "national" ? "flag" : "logo";
-        return `<img class="football-h2h-logo ${cls} ${side}" src="${escapeHtmlAttr(b.badgeSrc)}" alt="${escapeHtmlAttr(fallbackName || "")}" />`;
+        return `<img class="football-h2h-logo ${cls} ${side}" src="${escapeHtmlAttr(b.badgeSrc)}" alt="${escapeHtmlAttr(fallbackName || "")}"${badgeStyle(b)} />`;
       }
       return `<div class="football-h2h-logo placeholder ${side}"></div>`;
     };
@@ -3260,8 +3300,20 @@ const COMPOSERS = {
       const scoreText = m.score || (Number.isFinite(m.homeScore) && Number.isFinite(m.awayScore) ? `${m.homeScore}-${m.awayScore}` : "");
       const { a: homeScore, b: awayScore } = parseScore(scoreText);
 
-      const homeBadge = m.homeBadgeSrc ? { badgeSrc: m.homeBadgeSrc, badgeType: m.homeBadgeType } : null;
-      const awayBadge = m.awayBadgeSrc ? { badgeSrc: m.awayBadgeSrc, badgeType: m.awayBadgeType } : null;
+      const homeBadge = m.homeBadgeSrc ? {
+        badgeSrc: m.homeBadgeSrc,
+        badgeType: m.homeBadgeType,
+        badgeBackgroundColor: m.homeBadgeBackgroundColor,
+        badgePadding: m.homeBadgePadding,
+        badgeBorderRadius: m.homeBadgeBorderRadius,
+      } : null;
+      const awayBadge = m.awayBadgeSrc ? {
+        badgeSrc: m.awayBadgeSrc,
+        badgeType: m.awayBadgeType,
+        badgeBackgroundColor: m.awayBadgeBackgroundColor,
+        badgePadding: m.awayBadgePadding,
+        badgeBorderRadius: m.awayBadgeBorderRadius,
+      } : null;
 
       return `<div class="football-h2h-card" id="s${scene.id}-h2h-${i}">
         <div class="football-h2h-top">
@@ -3368,6 +3420,7 @@ const COMPOSERS = {
     let nodeH = 110;
     let layout = [];
     let paths = [];
+    const longStageW = Math.round(width * 0.8);
     
     if (isLinear) {
       if (hasSecondary) {
@@ -3385,14 +3438,14 @@ const COMPOSERS = {
           paths.push(`M ${cx(layout[0])} ${cy(layout[0])} H ${cx(layout[nodes.length - 1])}`);
         }
       } else {
-        nodeW = 220;
+        nodeW = Math.min(900, longStageW);
         nodeH = 100;
         const startY = 30;
         const endY = 430;
         const gapY = nodes.length > 1 ? (endY - startY) / (nodes.length - 1) : 0;
         for (let i = 0; i < nodes.length; i++) {
           const y = startY + i * gapY;
-          const x = 450 - nodeW / 2;
+          const x = (900 - nodeW) / 2;
           layout.push({ x, y });
         }
         if (nodes.length > 0) {
@@ -3448,7 +3501,7 @@ const COMPOSERS = {
       ${footballPitchBackdrop(scene)}
       <div class="football-kicker">${escapeHtml(scene.competitionLabel || "TOURNAMENT PATH")}</div>
       <h1 class="football-title" id="s${scene.id}-title">${escapeHtml(scene.title || "Road to the final")}</h1>
-      <div class="football-bracket" id="s${scene.id}-bracket">
+      <div class="football-bracket${isLinear ? " football-bracket-linear" : " football-bracket-branching"}${hasSecondary ? " football-bracket-secondary" : ""}" id="s${scene.id}-bracket">
         <svg viewBox="0 0 900 ${isLinear && hasSecondary ? 120 : 560}" class="football-bracket-svg">
           ${paths.map((d) => `<path class="football-bracket-path" d="${d}" />`).join("")}
         </svg>
@@ -3458,7 +3511,7 @@ const COMPOSERS = {
           const stageLabel = st.stage || st.label || (i === 0 ? "START" : i <= 2 ? "BRANCH" : "RESULT");
           const title = st.title || st.team || st.value || "";
           return `
-          <div class="football-bracket-node" id="s${scene.id}-bracket-${i}" style="left:${pt.x}px; top:${pt.y}px; --node-bg:${bg};">
+          <div class="football-bracket-node" id="s${scene.id}-bracket-${i}" style="left:${pt.x}px; top:${pt.y}px; width:${nodeW}px; min-height:${nodeH}px; --node-bg:${bg};">
             <div class="football-node-stage">${escapeHtml(stageLabel)}</div>
             <div class="football-node-title">${escapeHtml(title)}</div>
           </div>`;
@@ -4274,12 +4327,15 @@ const COMPOSERS = {
   "infographic-chart": (scene) => {
     const items = scene.data || [];
     const chartTitle = scene.chartTitle || scene.title || "";
+    const secondaryChartStyle = scene.secondaryComposition === "infographic-chart"
+      ? ` style="width:100%;max-width:none;box-sizing:border-box;padding:24px 50px;margin-top:0;"`
+      : "";
     if (scene.chartType === "donut") {
       const val = items[0]?.value || 75;
       return `
       <div class="canvas">
         <div class="bg-gradient"></div>
-        <div class="chart-container">
+        <div class="chart-container"${secondaryChartStyle}>
           <div class="chart-title">${escapeHtml(chartTitle)}</div>
           <div class="donut-wrap">
             <svg class="donut-svg" viewBox="0 0 42 42">
@@ -4294,7 +4350,7 @@ const COMPOSERS = {
       return `
       <div class="canvas">
         <div class="bg-gradient"></div>
-        <div class="chart-container">
+        <div class="chart-container"${secondaryChartStyle}>
           <div class="chart-title">${escapeHtml(chartTitle)}</div>
           ${items.map((item, i) => `
             <div class="bar-row">
@@ -4925,6 +4981,12 @@ function buildAnimationScript(scene) {
       let secAnimBody = secAnimFn();
       secAnimBody = secAnimBody.replace(/const\s+tl\s*=\s*gsap\.timeline\(\{[^}]*\}\);?/g, "");
       secAnimBody = secAnimBody.replace(/let\s+tl\s*=\s*gsap\.timeline\(\{[^}]*\}\);?/g, "");
+      if (scene.secondaryComposition === "infographic-chart") {
+        secAnimBody = secAnimBody.replace(
+          `if (container) tl.from(container, { y: 60, opacity: 0, duration: 0.8, ease: "power3.out" });`,
+          `if (container) tl.from(container, { y: 60, opacity: 0, duration: 0.8, ease: "power3.out" }, 0.18);`
+        );
+      }
       secondaryAnimScript = `\n{ // Secondary composition animations\n${secAnimBody}\n}\n`;
     }
   }
@@ -5178,6 +5240,16 @@ function normalizeFootballH2HMatches(scene, teams) {
       homeScore,
       awayScore,
       score,
+      homeBadgeSrc: m.homeBadgeSrc || m.homeLogoSrc || m.homeLogo || m.homeBadge || "",
+      homeBadgeType: m.homeBadgeType || m.homeLogoType || "",
+      homeBadgeBackgroundColor: m.homeBadgeBackgroundColor || m.homeLogoBackgroundColor || "",
+      homeBadgePadding: m.homeBadgePadding,
+      homeBadgeBorderRadius: m.homeBadgeBorderRadius,
+      awayBadgeSrc: m.awayBadgeSrc || m.awayLogoSrc || m.awayLogo || m.awayBadge || "",
+      awayBadgeType: m.awayBadgeType || m.awayLogoType || "",
+      awayBadgeBackgroundColor: m.awayBadgeBackgroundColor || m.awayLogoBackgroundColor || "",
+      awayBadgePadding: m.awayBadgePadding,
+      awayBadgeBorderRadius: m.awayBadgeBorderRadius,
       note: m.note || m.stage || m.round || "",
     };
   };

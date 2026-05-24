@@ -1,0 +1,521 @@
+{
+  "title": "Carvajal Rời Real Madrid: Nước Mắt Trong Đêm Chia Tay Bernabéu",
+  "slug": "carvajal-roi-real-madrid-tran-cuoi-athletic-2026-05-24",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "title": "Carvajal bật khóc ở trận cuối cùng cho Real Madrid",
+      "url": "https://znews.vn/carvajal-bat-khoc-o-tran-cuoi-cung-cho-real-madrid-post1653710.html"
+    },
+    {
+      "title": "Lời chia tay nghẹn ngào của Dani Carvajal: Hôm qua, hôm nay và mãi mãi, Hala Madrid",
+      "url": "https://bongdaplus.vn/la-liga/loi-chia-tay-nghen-ngao-cua-dani-carvajal-hom-qua-hom-nay-va-mai-mai-hala-madrid-5057312605.html"
+    },
+    {
+      "title": "Chấm điểm Real Madrid: Carvajal xuất sắc trong ngày chia tay",
+      "url": "https://bongda.com.vn/cham-diem-real-madrid-carvajal-xuat-sac-trong-ngay-chia-tay-d832700.html"
+    },
+    {
+      "title": "Real Madrid 4-2 Athletic Club: Arbeloa, Carvajal and Alaba get winning send off",
+      "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/real-madrid-4-2-athletic-club-arbeloa-carvajal-and-alaba-get-winning-send-off-2026-05-23"
+    },
+    {
+      "title": "El adiós de Dani Carvajal: el Bernabéu se rinde al canterano",
+      "url": "https://cadenaser.com/nacional/2026/05/23/el-adios-de-dani-carvajal-el-bernabeu-se-rinde-al-canterano-y-pone-fin-a-una-etapa-gloriosa-en-el-real-madrid-cadena-ser/"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "CARVAJAL BẬT KHÓC, REAL MADRID KHÉP LẠI MỘT KỶ NGUYÊN!",
+      "subtext": "Đội trưởng áo trắng chia tay Bernabéu sau 451 trận cống hiến",
+      "voiceText": "Carvahal bật khóc, Real Madrid khép lại một kỷ nguyên! Trận thắng Athletic Club bốn hai trở thành đêm chia tay nghẹn ngào, khi Dani Carvahal rời sân trong tiếng vỗ tay của cả Bernabeu.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#101214",
+      "accentColor": "#E7D7A3",
+      "secondaryAccentColor": "#7B1E2B",
+      "textColor": "#FFFFFF",
+      "label": "DANI CARVAJAL",
+      "imageSrc": "assets/storyboards/carvajal-roi-real-madrid-tran-cuoi-athletic-2026-05-24/scene-1.jpg",
+      "cardCaption": "Dani Carvajal trong trận cuối cùng cho Real Madrid trước Athletic Club.",
+      "chips": [
+        "Carvajal",
+        "Real Madrid",
+        "Chia tay"
+      ],
+      "emoji": "🤍",
+      "animation": "image-card-rise",
+      "visuals": []
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Real Madrid 4-2 Athletic Club",
+      "subtext": "Một chiến thắng để tiễn Carvajal và Alaba rời Bernabéu",
+      "voiceText": "Trên bảng điện tử, đây là trận Real Madrid bốn, Athletic Club hai. Nhưng trong cảm xúc của người hâm mộ, đây là đêm Bernabeu cúi chào Carvahal và Alaba, hai cái tên đã đi qua những mùa giải rất lớn.",
+      "duration": 6,
+      "startTime": 6,
+      "bgColor": "#101214",
+      "accentColor": "#E7D7A3",
+      "secondaryAccentColor": "#7B1E2B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "La Liga - Matchday 38",
+      "minute": "FT",
+      "score": [
+        4,
+        2
+      ],
+      "teams": [
+        {
+          "name": "Real Madrid",
+          "code": "RMA",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/laliga/real-madrid.svg",
+          "badgeSrc": "assets/football/clubs/laliga/real-madrid.svg"
+        },
+        {
+          "name": "Athletic Club",
+          "code": "ATH",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/laliga/athletic-club-bilbao.svg",
+          "badgeSrc": "assets/football/clubs/laliga/athletic-club-bilbao.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.28
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "RMA",
+            "ATH"
+          ],
+          "score": [
+            4,
+            2
+          ],
+          "minute": "FT",
+          "label": "Santiago Bernabéu"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E7D7A3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Trận cuối vẫn có dấu ấn",
+      "subtext": "Real Madrid 4-2 Athletic Club tại Santiago Bernabéu",
+      "voiceText": "Trận cuối của Carvahal không chỉ có nước mắt. Real Madrid thắng Athletic Club bốn hai, với các bàn của Gonzalo García, Jude Bellingham, Kylian EM ba pe và Brahim Díaz. Tỉ số đẹp, để một lời tạm biệt đẹp hơn.",
+      "duration": 7,
+      "startTime": 12,
+      "bgColor": "#101214",
+      "accentColor": "#E7D7A3",
+      "secondaryAccentColor": "#7B1E2B",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "icon": "⚽",
+          "label": "12'",
+          "value": "Gonzalo García mở tỉ số từ kiến tạo của Carvajal"
+        },
+        {
+          "icon": "🎯",
+          "label": "40'",
+          "value": "Jude Bellingham nâng tỉ số cho Real Madrid"
+        },
+        {
+          "icon": "🚀",
+          "label": "51'",
+          "value": "Kylian Mbappé ghi bàn đầu hiệp hai"
+        },
+        {
+          "icon": "🏁",
+          "label": "88'",
+          "value": "Brahim Díaz ấn định chiến thắng bốn hai"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://cdn.bongdaplus.vn/Assets/Media/2026/05/24/41/dani-carvajal2.jpg",
+          "label": "Bernabéu Farewell",
+          "title": "451 trận trong màu áo Real",
+          "caption": "Một đêm chia tay có cả chiến thắng, kiến tạo và nước mắt.",
+          "top": "800px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#E7D7A3",
+          "secondaryAccentColor": "#7B1E2B",
+          "cardBg": "rgba(16,18,20,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.56) 100%)"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Di sản của một canterano",
+      "subtext": "Từ La Fábrica đến biểu tượng của Real Madrid",
+      "voiceText": "Carvahal rời Real Madrid với di sản của một canterano đúng nghĩa. Hai mươi bốn năm gắn bó với câu lạc bộ, bốn trăm năm mươi mốt trận cho đội một, và một bộ sưu tập danh hiệu đủ để đưa anh vào hàng huyền thoại.",
+      "duration": 7,
+      "startTime": 19,
+      "bgColor": "#101214",
+      "accentColor": "#E7D7A3",
+      "secondaryAccentColor": "#7B1E2B",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "📅",
+          "value": "24",
+          "label": "năm gắn bó"
+        },
+        {
+          "icon": "🏟️",
+          "value": "451",
+          "label": "trận cho Real"
+        },
+        {
+          "icon": "🏆",
+          "value": "6",
+          "label": "Champions League"
+        },
+        {
+          "icon": "🤍",
+          "value": "1",
+          "label": "biểu tượng Bernabéu"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/storyboards/carvajal-roi-real-madrid-tran-cuoi-athletic-2026-05-24/scene-2.jpg",
+          "opacity": 0.18,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(16,18,20,0.92), rgba(16,18,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E7D7A3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Hành trình áo trắng",
+      "subtext": "Bốn cột mốc làm nên tên tuổi Carvajal",
+      "voiceText": "Hành trình của Carvahal là câu chuyện Real Madrid rất cổ điển. Từ học viện La Fábrica, anh phải đi vòng qua Leverkusen để trưởng thành, rồi trở lại Bernabeu, trở thành hậu vệ phải của kỷ nguyên Champions League huy hoàng.",
+      "duration": 7,
+      "startTime": 26,
+      "bgColor": "#101214",
+      "accentColor": "#E7D7A3",
+      "secondaryAccentColor": "#7B1E2B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Carvajal Milestones",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "La Fábrica",
+          "title": "Cậu bé Madridista"
+        },
+        {
+          "stage": "Leverkusen",
+          "title": "Rèn mình ở Đức"
+        },
+        {
+          "stage": "Bernabéu",
+          "title": "Trở lại đội một"
+        },
+        {
+          "stage": "2026",
+          "title": "Lời chia tay"
+        }
+      ],
+      "secondaryComposition": "flashcard-gallery",
+      "layout": "horizontal",
+      "cards": [
+        {
+          "imageSrc": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/04/03/14912209726819.jpg",
+          "text": "Cậu bé La Fábrica",
+          "caption": "Khởi nguồn"
+        },
+        {
+          "imageSrc": "https://www.caughtoffside.com/wp-content/uploads/2013/06/Carvajal-Real-Madrid.jpg",
+          "text": "Trưởng thành ở Đức",
+          "caption": "Bước ngoặt"
+        },
+        {
+          "imageSrc": "https://publish.realmadrid.com/content/dam/portals/realmadrid-com/es-es/news/generic/2026/05/18/fotos/ND_CARVAJAL_01.jpg",
+          "text": "Huyền thoại áo trắng",
+          "caption": "Đỉnh cao"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/storyboards/carvajal-roi-real-madrid-tran-cuoi-athletic-2026-05-24/scene-2.jpg",
+          "opacity": 0.18,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(16,18,20,0.92), rgba(16,18,20,0.55))"
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 82
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Đội trưởng trong ngày cuối",
+      "subtext": "Một đường kiến tạo, một màn chia tay trọn vẹn",
+      "voiceText": "Trong trận đấu cuối cùng của anh, Real Madrid gặp Athletic Club tại Bernabeu. Ngay phút mười hai, Carvahal để lại dấu ấn bằng đường kiến tạo cho Gonzalo García mở tỉ số. Đến phút tám mươi bốn, anh rời sân trong những tràng pháo tay, khép lại một thước phim tri ân đầy cảm xúc.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#101214",
+      "accentColor": "#E7D7A3",
+      "secondaryAccentColor": "#7B1E2B",
+      "textColor": "#FFFFFF",
+      "player": "Dani Carvajal",
+      "team": "Real Madrid",
+      "number": "2",
+      "playerImageUrl": "https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/536200870_773870371858257_550947019012605821_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=fOQprgOnAXMQ7kNvwEPFtqZ&_nc_oc=Ado0BWX-eDEKT0exdZVnwmDMGc9Ckoitp2mi-EkEbK3o9CchBXsZc8D80y5GSB8nq7-p5DEpp2Vq2Mcmchb5A3Wb&_nc_zt=23&_nc_ht=scontent.fsgn5-15.fna&_nc_gid=DrdJmz2nbsGqLkxqVVnoTg&_nc_ss=7b289&oh=00_Af5PYksuoTwtdHUX3JeKJEubD97PCbxjTLpSiQd7hXWzlg&oe=6A1861C8",
+      "stats": [
+        {
+          "label": "Trận đấu",
+          "value": "451"
+        },
+        {
+          "label": "Kiến tạo",
+          "value": "12'"
+        },
+        {
+          "label": "Rời sân",
+          "value": "84'"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Đội trưởng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E7D7A3"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Bảng vàng của Carvajal",
+      "subtext": "Những chiếc cúp kể lại cả một thế hệ chiến thắng",
+      "voiceText": "Bộ sưu tập của Carvahal ở Madrid là giấc mơ của mọi cầu thủ. Sáu Champions League, bốn La Liga, hai Cúp Nhà vua và hàng loạt siêu cúp biến anh thành một trong những hậu vệ phải thành công nhất thế kỷ.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#101214",
+      "accentColor": "#E7D7A3",
+      "secondaryAccentColor": "#7B1E2B",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "🇪🇺",
+          "value": "6",
+          "label": "Champions League"
+        },
+        {
+          "icon": "🇪🇸",
+          "value": "4",
+          "label": "La Liga"
+        },
+        {
+          "icon": "🏆",
+          "value": "2",
+          "label": "Cúp Nhà vua"
+        },
+        {
+          "icon": "🌍",
+          "value": "6",
+          "label": "Club World Cup"
+        }
+      ],
+      "chartTitle": "Danh hiệu lớn cùng Real Madrid",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Champions League",
+          "value": 6,
+          "percent": 100
+        },
+        {
+          "label": "Club World Cup",
+          "value": 6,
+          "percent": 100
+        },
+        {
+          "label": "La Liga",
+          "value": 4,
+          "percent": 67
+        },
+        {
+          "label": "Cúp Nhà vua",
+          "value": 2,
+          "percent": 33
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Méo",
+      "subtext": "Không chỉ là một hậu vệ phải rời đi",
+      "voiceText": "Theo `Méo`, điều khiến Carvahal đặc biệt không chỉ là số cúp. Anh là kiểu cầu thủ khiến Real Madrid trông giống Real Madrid, lì lợm, gan góc, đúng lúc cần thì xuất hiện, và luôn đặt tập thể lên trước bản thân.",
+      "duration": 7,
+      "startTime": 47,
+      "bgColor": "#101214",
+      "accentColor": "#E7D7A3",
+      "secondaryAccentColor": "#7B1E2B",
+      "textColor": "#FFFFFF",
+      "quote": "Carvajal rời đi như một lời nhắc rằng những triều đại vĩ đại không chỉ được xây bằng siêu sao, mà còn bằng những người luôn chạy thêm một mét vì màu áo.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(16,18,20,0.92), rgba(16,18,20,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E7D7A3"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Carvajal có xứng đáng là hậu vệ phải vĩ đại nhất Real?",
+      "subtext": "Hãy để lại cảm nghĩ của bạn",
+      "voiceText": "Bạn nghĩ sao về lời chia tay của Dani Carvahal? Với những gì đã làm cho Real Madrid, anh có xứng đáng là hậu vệ phải vĩ đại nhất lịch sử câu lạc bộ không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 54,
+      "bgColor": "#101214",
+      "accentColor": "#E7D7A3",
+      "secondaryAccentColor": "#7B1E2B",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Dani Carvajal chia tay Real Madrid",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Nhập ý kiến: Carvajal đứng ở đâu trong lịch sử Real?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Dani Carvajal",
+          "Real Madrid",
+          "Bernabéu",
+          "La Liga",
+          "Thank You Carvajal",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

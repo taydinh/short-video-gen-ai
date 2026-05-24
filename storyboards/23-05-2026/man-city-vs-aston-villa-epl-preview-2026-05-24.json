@@ -1,0 +1,506 @@
+{
+  "title": "Man City vs Aston Villa: Trận hạ màn đầy cảm xúc tại Etihad",
+  "slug": "man-city-vs-aston-villa-epl-preview-2026-05-24",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ETIHAD CHỜ MÀN HẠ MÙA!",
+      "subtext": "Manchester City vs Aston Villa",
+      "voiceText": "Etihad bước vào đêm hạ màn Premier League! Manchester City tiếp Aston Villa lúc hai mươi hai giờ ngày hai mươi bốn tháng năm, hai không hai sáu, trong trận đấu có cả danh dự, cảm xúc và áp lực khép lại mùa giải.",
+      "duration": 6,
+      "bgColor": "#0A131C",
+      "accentColor": "#6CABDD",
+      "secondaryAccentColor": "#95BFE5",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 38",
+      "venue": "Etihad Stadium",
+      "date": "24.05.2026",
+      "time": "22:00",
+      "teams": [
+        {
+          "name": "Manchester City",
+          "code": "MCI",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/manchester-city.svg",
+          "form": ["W", "W", "W", "D", "W", "D"]
+        },
+        {
+          "name": "Aston Villa",
+          "code": "AVL",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/aston-villa.svg",
+          "form": ["W", "D", "L", "W", "W", "W"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchweek 38 Preview",
+      "seasonLabel": "2025-26 | Final Day",
+      "ctaLabel": "Kickoff 22:00",
+      "voiceText": "Man City cần một cái kết đẹp, còn Aston Villa muốn rời Etihad, với khí thế của đội đã chắc suất C1.",
+      "duration": 3,
+      "bgColor": "#0A131C",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Man City có thể đá bốn hai ba một với Donnarumma trong khung gỗ, Rodri và Bernardo Silva giữ nhịp, còn Semenyo, Cherki, Doku hỗ trợ Haaland. Aston Villa cũng nghiêng về bốn hai ba một: Martinez bắt chính, Tielemans điều phối, Sancho, Barkley và Rogers chơi sau Abraham.",
+      "duration": 8,
+      "bgColor": "#0A131C",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Etihad Stadium",
+      "teams": [
+        {
+          "name": "Manchester City",
+          "code": "MCI",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/manchester-city.svg"
+        },
+        {
+          "name": "Aston Villa",
+          "code": "AVL",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/aston-villa.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Donnarumma",
+            "Nunes",
+            "Khusanov",
+            "Guehi",
+            "O'Reilly",
+            "Silva",
+            "Rodri",
+            "Semenyo",
+            "Cherki",
+            "Doku",
+            "Haaland"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Martinez",
+            "Cash",
+            "Konsa",
+            "Mings",
+            "Maatsen",
+            "Bogarde",
+            "Tielemans",
+            "Sancho",
+            "Barkley",
+            "Rogers",
+            "Abraham"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "Premier League",
+      "voiceText": "Lịch sử gần đây vẫn nghiêng về Manchester City, nhưng Aston Villa không còn là đối thủ dễ bắt nạt. Villa từng thắng Man City ở Villa Park mùa trước, còn lượt đi mùa này họ cũng khiến trận đấu rất khó lường.",
+      "duration": 8,
+      "bgColor": "#0A131C",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Manchester City",
+          "code": "MCI",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/manchester-city.svg",
+          "form": []
+        },
+        {
+          "name": "Aston Villa",
+          "code": "AVL",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/aston-villa.svg",
+          "form": []
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "Vị trí", "Điểm", "Phong độ", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Manchester City",
+            "scoreText": "2",
+            "x12": "78",
+            "hdp": "W-W-W-D-W-D",
+            "ou": "Sân nhà Etihad"
+          },
+          {
+            "teamName": "Aston Villa",
+            "scoreText": "4",
+            "x12": "62",
+            "hdp": "W-D-L-W-W-W",
+            "ou": "Top 4 đã chắc"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "06/12/2025",
+          "competition": "EPL",
+          "home": "Aston Villa",
+          "away": "Manchester City",
+          "score": "1-1"
+        },
+        {
+          "kickoff": "22/04/2025",
+          "competition": "EPL",
+          "home": "Manchester City",
+          "away": "Aston Villa",
+          "score": "2-1"
+        },
+        {
+          "kickoff": "21/12/2024",
+          "competition": "EPL",
+          "home": "Aston Villa",
+          "away": "Manchester City",
+          "score": "2-1"
+        },
+        {
+          "kickoff": "03/04/2024",
+          "competition": "EPL",
+          "home": "Manchester City",
+          "away": "Aston Villa",
+          "score": "4-1"
+        },
+        {
+          "kickoff": "06/12/2023",
+          "competition": "EPL",
+          "home": "Aston Villa",
+          "away": "Manchester City",
+          "score": "1-0"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Man City cần thắng để khép lại mùa giải trong tư thế ngẩng cao đầu, nhưng Aston Villa có đủ chất lượng để phá hỏng bữa tiệc Etihad.",
+      "quoteAuthor": "Méo bình luận",
+      "quoteRole": "Góc nhìn trước trận",
+      "imageSrc": "assets/live-commentator-cat.png",
+      "quoteImageAlt": "Bình luận viên trực tiếp tại sân vận động",
+      "liveLabel": "Live tại Etihad",
+      "voiceText": "Điểm nóng là cảm xúc ở Etihad. Manchester City muốn một lời chào đẹp trước khán giả nhà, nhưng Aston Villa có tốc độ chuyển trạng thái đủ sắc để biến trận hạ màn thành một bài kiểm tra thật sự.",
+      "duration": 6,
+      "bgColor": "#0A131C",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh trước trận",
+      "subtext": "Premier League 2025-26",
+      "voiceText": "Trên bảng xếp hạng, Man City đứng thứ hai với bảy mươi tám điểm, Aston Villa đứng thứ tư với sáu mươi hai điểm. Chức vô địch gần như ngoài tầm tay, nhưng một chiến thắng vẫn là cách Man City giữ lại niềm kiêu hãnh ở vòng cuối.",
+      "duration": 6,
+      "bgColor": "#0A131C",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["MCI", "AVL"],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Arsenal",
+            "code": "ARS",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+          },
+          "played": 37,
+          "wins": 25,
+          "draws": 7,
+          "losses": 5,
+          "gf": 69,
+          "ga": 26,
+          "gd": 43,
+          "pts": 82
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Manchester City",
+            "code": "MCI",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/manchester-city.svg"
+          },
+          "played": 37,
+          "wins": 23,
+          "draws": 9,
+          "losses": 5,
+          "gf": 76,
+          "ga": 33,
+          "gd": 43,
+          "pts": 78
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Manchester United",
+            "code": "MUN",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/manchester-united.svg"
+          },
+          "played": 37,
+          "wins": 19,
+          "draws": 11,
+          "losses": 7,
+          "gf": 66,
+          "ga": 50,
+          "gd": 16,
+          "pts": 68
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Aston Villa",
+            "code": "AVL",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/aston-villa.svg"
+          },
+          "played": 37,
+          "wins": 18,
+          "draws": 8,
+          "losses": 11,
+          "gf": 54,
+          "ga": 48,
+          "gd": 6,
+          "pts": 62
+        },
+        {
+          "rank": 5,
+          "team": {
+            "name": "Liverpool",
+            "code": "LIV",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/liverpool-fc.svg"
+          },
+          "played": 37,
+          "wins": 17,
+          "draws": 8,
+          "losses": 12,
+          "gf": 62,
+          "ga": 52,
+          "gd": 10,
+          "pts": 59
+        },
+        {
+          "rank": 6,
+          "team": {
+            "name": "Bournemouth",
+            "code": "BOU",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/bournemouth.svg"
+          },
+          "played": 37,
+          "wins": 13,
+          "draws": 17,
+          "losses": 7,
+          "gf": 57,
+          "ga": 53,
+          "gd": 4,
+          "pts": 56
+        },
+        {
+          "rank": 7,
+          "team": {
+            "name": "Brighton & Hove Albion",
+            "code": "BHA",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/brighton.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 11,
+          "losses": 12,
+          "gf": 52,
+          "ga": 43,
+          "gd": 9,
+          "pts": 53
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#6CABDD"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Man City thắng đẹp hay Villa phá tiệc?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "voiceText": "Bạn dự đoán Man City sẽ thắng để chốt mùa tại Etihad, hay Aston Villa sẽ phá hỏng bữa tiệc hạ màn? Để lại tỉ số của bạn nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#0A131C",
+      "accentColor": "#6CABDD",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Premier League Preview - Man City vs Aston Villa",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bạn dự đoán tỉ số trận này là bao nhiêu?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Manchester City",
+          "Aston Villa",
+          "Etihad Stadium",
+          "Premier League",
+          "Méo Bình Luận",
+          "Follow"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.6
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Local preset sample: Bournemouth vs Man City EPL preview",
+      "url": "storyboards/19-05-2026/bournemouth-vs-man-city-epl-preview-2026-05-20.json"
+    },
+    {
+      "name": "Local standings sample: Fulham vs Newcastle EPL preview",
+      "url": "storyboards/22-05-2026/fulham-vs-newcastle-epl-preview-2026-05-24.json"
+    },
+    {
+      "name": "Local Aston Villa lineup sample",
+      "url": "storyboards/16-05-2026/aston-villa-vs-liverpool-epl-preview-2026-05-15.json"
+    }
+  ]
+}

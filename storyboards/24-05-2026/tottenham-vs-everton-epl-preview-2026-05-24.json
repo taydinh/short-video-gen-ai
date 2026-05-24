@@ -1,0 +1,253 @@
+{
+  "title": "Tottenham vs Everton: Trận chiến sinh tử quyết định tấm vé trụ hạng của Gà trống",
+  "slug": "tottenham-vs-everton-epl-preview-2026-05-24",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "TRẬN CHIẾN SINH TỬ TẠI LONDON!",
+      "subtext": "Tottenham Hotspur vs Everton",
+      "voiceText": "Tottenham Hotspur Stadium lên đèn cho vòng hạ màn Premier League, lúc hai mươi hai giờ ngày hai mươi tư tháng năm, hai không hai sáu. Gà trống tiếp đón Everton trong trận chiến sinh tử, quyết tâm giành ít nhất một điểm để chính thức trụ lại Ngoại Hạng Anh.",
+      "duration": 6,
+      "bgColor": "#0A1128",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#132257",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 38",
+      "venue": "Tottenham Hotspur Stadium",
+      "date": "24.05.2026",
+      "time": "22:00",
+      "teams": [
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "form": ["D", "W", "W", "D", "L", "L"], "badgeBackgroundColor": "#ffffff", "badgePadding": 12, "badgeBorderRadius": 999 },
+        { "name": "Everton", "code": "EVE", "teamType": "club", "form": ["D", "W", "L", "D", "W", "D"] }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchweek 38 Preview",
+      "seasonLabel": "2025-26 | The Final Day",
+      "ctaLabel": "Kickoff 22:00",
+      "voiceText": "Một trận hòa là đủ để Tottenham Hotspur chính thức ở lại Ngoại Hạng Anh. Phía bên kia, Everton đã trụ hạng an toàn, và sẵn sàng cống hiến một trận cầu cởi mở.",
+      "duration": 3,
+      "bgColor": "#0A1128",
+      "accentColor": "#132257",
+      "textColor": "#FFFFFF",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Tottenham Hotspur dự kiến ra sân với sơ đồ bốn hai ba một quen thuộc, Vicario trấn giữ khung thành, Romero và Van de Ven đá trung vệ, Maddison hỗ trợ đắc lực cho Son Heung-min và Richarlison trên hàng công. Về phía Everton, họ sẽ chơi bốn bốn một một với thủ thành Pickford, cặp trung vệ Tarkowski, Branthwaite, còn Calvert-Lewin sắm vai chủ công ở phía trên.",
+      "duration": 8,
+      "bgColor": "#0A1128",
+      "accentColor": "#132257",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "LINEUPS",
+      "venue": "Tottenham Hotspur Stadium",
+      "teams": [
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "logoSrc": "assets/football/clubs/epl/tottenham.svg", "badgeSrc": "assets/football/clubs/epl/tottenham.svg", "badgeBackgroundColor": "#ffffff" },
+        { "name": "Everton", "code": "EVE", "teamType": "club", "logoSrc": "assets/football/clubs/epl/everton.svg", "badgeSrc": "assets/football/clubs/epl/everton.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Vicario",
+            "Porro",
+            "Romero",
+            "Van de Ven",
+            "Udogie",
+            "Bissouma",
+            "Sarr",
+            "Kulusevski",
+            "Maddison",
+            "Son",
+            "Richarlison"
+          ]
+        },
+        "away": {
+          "formation": "4-4-1-1",
+          "players": [
+            "Pickford",
+            "Patterson",
+            "Tarkowski",
+            "Branthwaite",
+            "Mykolenko",
+            "Harrison",
+            "Gueye",
+            "Garner",
+            "McNeil",
+            "Doucoure",
+            "Calvert-Lewin"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#132257" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "Premier League",
+      "voiceText": "Lịch sử đối đầu đang ủng hộ Gà trống London khi họ bất bại trong cả năm lần chạm trán gần nhất trước Everton tại Ngoại Hạng Anh, giành ba chiến thắng và hai trận hòa. Ở trận lượt đi mùa này ngay trên sân Goodison Park, Tottenham cũng ra về với ba điểm trọn vẹn nhờ chiến thắng sát nút hai - một.",
+      "duration": 8,
+      "bgColor": "#0A1128",
+      "accentColor": "#132257",
+      "textColor": "#FFFFFF",
+      "teams": [
+        { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "form": [], "logoSrc": "assets/football/clubs/epl/tottenham.svg", "badgeSrc": "assets/football/clubs/epl/tottenham.svg", "badgeBackgroundColor": "#ffffff", "badgePadding": 6, "badgeBorderRadius": 999 },
+        { "name": "Everton", "code": "EVE", "teamType": "club", "form": [], "logoSrc": "assets/football/clubs/epl/everton.svg", "badgeSrc": "assets/football/clubs/epl/everton.svg" }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "PL H2H", "Thắng", "Hòa", "Thua", "Ghi chú"],
+        "rows": [
+          { "teamName": "Tottenham", "scoreText": "5", "x12": "3", "hdp": "2", "ou": "0", "htHdp": "Thắng 2-1 lượt đi" },
+          { "teamName": "Everton", "scoreText": "5", "x12": "0", "hdp": "2", "ou": "3", "htHdp": "Lép vế trước Spurs" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "15/12/2025", "competition": "EPL", "home": "Everton", "away": "Tottenham Hotspur", "score": "1-2", "awayBadgeSrc": "assets/football/clubs/epl/tottenham.svg", "awayBadgeBackgroundColor": "#ffffff", "awayBadgePadding": 6, "awayBadgeBorderRadius": 999 },
+        { "kickoff": "03/02/2025", "competition": "EPL", "home": "Everton", "away": "Tottenham Hotspur", "score": "2-2", "awayBadgeSrc": "assets/football/clubs/epl/tottenham.svg", "awayBadgeBackgroundColor": "#ffffff", "awayBadgePadding": 6, "awayBadgeBorderRadius": 999 },
+        { "kickoff": "24/08/2024", "competition": "EPL", "home": "Tottenham Hotspur", "away": "Everton", "score": "4-0", "homeBadgeSrc": "assets/football/clubs/epl/tottenham.svg", "homeBadgeBackgroundColor": "#ffffff", "homeBadgePadding": 6, "homeBadgeBorderRadius": 999 },
+        { "kickoff": "03/02/2024", "competition": "EPL", "home": "Everton", "away": "Tottenham Hotspur", "score": "2-2", "awayBadgeSrc": "assets/football/clubs/epl/tottenham.svg", "awayBadgeBackgroundColor": "#ffffff", "awayBadgePadding": 6, "awayBadgeBorderRadius": 999 },
+        { "kickoff": "23/12/2023", "competition": "EPL", "home": "Tottenham Hotspur", "away": "Everton", "score": "2-1", "homeBadgeSrc": "assets/football/clubs/epl/tottenham.svg", "homeBadgeBackgroundColor": "#ffffff", "homeBadgePadding": 6, "homeBadgeBorderRadius": 999 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#132257" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Son Heung-min quyết tâm ghi bàn tại Tottenham Hotspur Stadium để mang về niềm vui trọn vẹn và tấm vé trụ hạng cho người hâm mộ.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Điểm nóng trước trận đấu",
+      "imageSrc": "assets/live-commentator-cat.png",
+      "quoteImageAlt": "Bình luận viên mèo trực tiếp",
+      "liveLabel": "Thánh địa của Spurs",
+      "voiceText": "Điểm nóng chính là thủ quân Son Heung-min. Ngôi sao người Hàn Quốc đã gánh vác Spurs qua những giai đoạn khó khăn nhất mùa này, và anh đang khát khao lập công trên sân nhà để mang lại niềm vui trụ hạng tuyệt đối cho người hâm mộ.",
+      "duration": 6,
+      "bgColor": "#0A1128",
+      "accentColor": "#132257",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#132257" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cuộc chiến trụ hạng",
+      "subtext": "Ngoại Hạng Anh trước vòng cuối",
+      "voiceText": "Tình thế của Tottenham trên bảng xếp hạng lúc này rất rõ ràng. Họ đang đứng thứ mười bảy với ba mươi chín điểm, hơn West Ham ở vị trí cầm đèn đỏ ba điểm. Chỉ cần có được ít nhất một trận hòa trước Everton, Gà trống sẽ chính thức trụ hạng mà không cần quan tâm đến kết quả các trận đấu khác.",
+      "duration": 6,
+      "bgColor": "#0A1128",
+      "accentColor": "#132257",
+      "textColor": "#FFFFFF",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["TOT", "EVE"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Arsenal", "code": "ARS", "teamType": "club" }, "played": 37, "wins": 25, "draws": 7, "losses": 5, "gf": 69, "ga": 26, "gd": 43, "pts": 82 },
+        { "rank": 2, "team": { "name": "Manchester City", "code": "MCI", "teamType": "club" }, "played": 36, "wins": 23, "draws": 8, "losses": 5, "gf": 75, "ga": 32, "gd": 43, "pts": 77 },
+        { "rank": 3, "team": { "name": "Manchester United", "code": "MUN", "teamType": "club" }, "played": 37, "wins": 18, "draws": 12, "losses": 7, "gf": 64, "ga": 49, "gd": 15, "pts": 66 },
+        { "rank": 4, "team": { "name": "Aston Villa", "code": "AVL", "teamType": "club" }, "played": 37, "wins": 18, "draws": 8, "losses": 11, "gf": 54, "ga": 48, "gd": 6, "pts": 62 },
+        { "rank": 5, "team": { "name": "Liverpool", "code": "LIV", "teamType": "club" }, "played": 37, "wins": 17, "draws": 8, "losses": 12, "gf": 62, "ga": 52, "gd": 10, "pts": 59 },
+        { "rank": 6, "team": { "name": "Bournemouth", "code": "BOU", "teamType": "club" }, "played": 36, "wins": 13, "draws": 16, "losses": 7, "gf": 56, "ga": 52, "gd": 4, "pts": 55 },
+        { "rank": 7, "team": { "name": "Brighton", "code": "BHA", "teamType": "club" }, "played": 37, "wins": 14, "draws": 12, "losses": 11, "gf": 53, "ga": 43, "gd": 10, "pts": 54 },
+        { "rank": 8, "team": { "name": "Brentford", "code": "BRE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 53, "ga": 50, "gd": 3, "pts": 52 },
+        { "rank": 9, "team": { "name": "Chelsea", "code": "CHE", "teamType": "club" }, "played": 37, "wins": 14, "draws": 10, "losses": 13, "gf": 57, "ga": 50, "gd": 7, "pts": 52 },
+        { "rank": 10, "team": { "name": "Everton", "code": "EVE", "teamType": "club" }, "played": 37, "wins": 13, "draws": 11, "losses": 13, "gf": 47, "ga": 47, "gd": 0, "pts": 50 },
+        { "rank": 11, "team": { "name": "Fulham", "code": "FUL", "teamType": "club" }, "played": 37, "wins": 14, "draws": 6, "losses": 17, "gf": 44, "ga": 51, "gd": -7, "pts": 48 },
+        { "rank": 12, "team": { "name": "Sunderland", "code": "SUN", "teamType": "club" }, "played": 37, "wins": 12, "draws": 12, "losses": 13, "gf": 37, "ga": 48, "gd": -11, "pts": 48 },
+        { "rank": 13, "team": { "name": "Newcastle United", "code": "NEW", "teamType": "club" }, "played": 37, "wins": 13, "draws": 8, "losses": 16, "gf": 51, "ga": 53, "gd": -2, "pts": 47 },
+        { "rank": 14, "team": { "name": "Leeds United", "code": "LEE", "teamType": "club" }, "played": 37, "wins": 11, "draws": 14, "losses": 12, "gf": 50, "ga": 54, "gd": -4, "pts": 47 },
+        { "rank": 15, "team": { "name": "Crystal Palace", "code": "CRY", "teamType": "club" }, "played": 37, "wins": 11, "draws": 12, "losses": 14, "gf": 39, "ga": 48, "gd": -9, "pts": 45 },
+        { "rank": 16, "team": { "name": "Nottingham Forest", "code": "NFO", "teamType": "club" }, "played": 37, "wins": 11, "draws": 11, "losses": 15, "gf": 46, "ga": 48, "gd": -2, "pts": 44 },
+        { "rank": 17, "team": { "name": "Tottenham Hotspur", "code": "TOT", "teamType": "club", "badgeBackgroundColor": "#ffffff" }, "played": 37, "wins": 9, "draws": 12, "losses": 16, "gf": 47, "ga": 56, "gd": -9, "pts": 39 },
+        { "rank": 18, "team": { "name": "West Ham United", "code": "WHU", "teamType": "club" }, "played": 37, "wins": 9, "draws": 9, "losses": 19, "gf": 42, "ga": 64, "gd": -22, "pts": 36 },
+        { "rank": 19, "team": { "name": "Burnley", "code": "BUR", "teamType": "club" }, "played": 37, "wins": 4, "draws": 9, "losses": 24, "gf": 37, "ga": 74, "gd": -37, "pts": 21 },
+        { "rank": 20, "team": { "name": "Wolverhampton Wanderers", "code": "WOL", "teamType": "club" }, "played": 37, "wins": 3, "draws": 10, "losses": 24, "gf": 26, "ga": 67, "gd": -41, "pts": 19 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#132257" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Tottenham sẽ chính thức trụ hạng thành công?",
+      "subtext": "Dự đoán tỉ số trận đấu của bạn",
+      "voiceText": "Bạn tin Tottenham sẽ giành chiến thắng thuyết phục để tự quyết số phận, hay Everton sẽ gieo sầu cho các cổ động viên tại London? Hãy viết dự đoán của bạn dưới phần bình luận. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#0A1128",
+      "accentColor": "#132257",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Hạ màn Ngoại Hạng Anh",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Spurs có trụ hạng thành công không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Tottenham",
+          "Everton",
+          "London",
+          "Ngoại Hạng Anh",
+          "Méo Bình Luận",
+          "Trụ Hạng"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5.0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sports Mole Tottenham vs Everton prediction, team news and predicted lineups",
+      "url": "https://www.sportsmole.co.uk/football/tottenham-hotspur/preview/tottenham-vs-everton-prediction-team-news-lineups_epl_final.html"
+    },
+    {
+      "name": "Opta Analyst Premier League Matchweek 38 Preview and predictions",
+      "url": "https://theanalyst.com/articles/tottenham-vs-everton-prediction-premier-league-matchday-38"
+    }
+  ]
+}

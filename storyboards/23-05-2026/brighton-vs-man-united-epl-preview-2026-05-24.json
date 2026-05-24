@@ -1,0 +1,526 @@
+{
+  "title": "Brighton vs Man U: Đại chiến chốt mùa ở Amex",
+  "slug": "brighton-vs-man-united-epl-preview-2026-05-24",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "AMEX STADIUM CHỜ MỘT ĐÊM BÙNG NỔ!",
+      "subtext": "Brighton & Hove Albion vs Manchester United",
+      "voiceText": "Amex Stadium lên đèn, lúc hai mươi hai giờ ngày hai mươi bốn tháng năm, Brighton tiếp Manchester United ở vòng ba mươi tám Premier League",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#00AEEF",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 38",
+      "venue": "American Express Stadium",
+      "date": "24.05.2026",
+      "time": "22:00",
+      "teams": [
+        {
+          "name": "Brighton & Hove Albion",
+          "code": "BHA",
+          "teamType": "club",
+          "form": ["W", "D", "W", "L", "W", "L"]
+        },
+        {
+          "name": "Manchester United",
+          "code": "MUN",
+          "teamType": "club",
+          "form": ["L", "W", "W", "W", "D", "W"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchweek 38 Preview",
+      "seasonLabel": "2025-26 | Final Day",
+      "ctaLabel": "Kickoff 22:00",
+      "voiceText": "Ngày hạ màn Premier League luôn có mùi drama. Brighton đang đứng thứ bảy và phải bảo vệ suất châu Âu.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#00AEEF",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Brighton có thể đá bốn hai ba một với Verbruggen trong khung gỗ, Baleba và Pascal Gross giữ nhịp, còn Minteh, Hinshelwood, Kadioglu hỗ trợ Danny Welbeck. Man U cũng dự kiến bốn hai ba một: Lammens bắt chính, Mainoo đá cặp Mount, Bruno Fernandes đứng sau bộ ba Amad, Cunha và Mbeumo.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#00AEEF",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "American Express Stadium",
+      "teams": [
+        {
+          "name": "Brighton & Hove Albion",
+          "code": "BHA",
+          "teamType": "club"
+        },
+        {
+          "name": "Manchester United",
+          "code": "MUN",
+          "teamType": "club"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Verbruggen",
+            "Veltman",
+            "Van Hecke",
+            "Dunk",
+            "De Cuyper",
+            "Baleba",
+            "Gross",
+            "Minteh",
+            "Hinshelwood",
+            "Kadioglu",
+            "Welbeck"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Lammens",
+            "Dalot",
+            "Maguire",
+            "Martinez",
+            "Shaw",
+            "Mainoo",
+            "Mount",
+            "Amad",
+            "Fernandes",
+            "Cunha",
+            "Mbeumo"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "Premier League",
+      "voiceText": "Điểm đáng sợ cho Man U là Brighton đã thắng bảy trong mười lần gặp gần nhất trên mọi đấu trường. Nhưng đội khách bước vào trận này với phong độ rất ổn, Man U có bốn chiến thắng trong năm vòng gần nhất, và hàng công đang có nhịp ghi bàn tốt.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#00AEEF",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Brighton & Hove Albion",
+          "code": "BHA",
+          "teamType": "club",
+          "form": []
+        },
+        {
+          "name": "Manchester United",
+          "code": "MUN",
+          "teamType": "club",
+          "form": []
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "10 trận H2H", "Thắng", "Hòa", "Thua", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Brighton",
+            "scoreText": "10",
+            "x12": "7",
+            "hdp": "1",
+            "ou": "2",
+            "htHdp": "Át vía Man U"
+          },
+          {
+            "teamName": "Manchester United",
+            "scoreText": "10",
+            "x12": "2",
+            "hdp": "1",
+            "ou": "7",
+            "htHdp": "Đã chắc top 3"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "10/01/2026",
+          "competition": "FA Cup",
+          "home": "Manchester United",
+          "away": "Brighton",
+          "score": "1-2"
+        },
+        {
+          "kickoff": "19/01/2025",
+          "competition": "EPL",
+          "home": "Manchester United",
+          "away": "Brighton",
+          "score": "1-3"
+        },
+        {
+          "kickoff": "24/08/2024",
+          "competition": "EPL",
+          "home": "Brighton",
+          "away": "Manchester United",
+          "score": "2-1"
+        },
+        {
+          "kickoff": "19/05/2024",
+          "competition": "EPL",
+          "home": "Brighton",
+          "away": "Manchester United",
+          "score": "0-2"
+        },
+        {
+          "kickoff": "16/09/2023",
+          "competition": "EPL",
+          "home": "Manchester United",
+          "away": "Brighton",
+          "score": "1-3"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng",
+      "subtext": "Bruno Fernandes săn kỷ lục",
+      "quote": "Bruno Fernandes chỉ còn cách kỷ lục kiến tạo Premier League một đường chuyền thành bàn.",
+      "quoteAuthor": "Nhận định tổng hợp",
+      "quoteRole": "Từ thông tin trước trận",
+      "imageSrc": "assets/live-commentator-cat.png",
+      "quoteImageAlt": "Bình luận viên trực tiếp tại sân vận động",
+      "liveLabel": "Live tại Amex",
+      "voiceText": "Điểm nóng là Bruno Fernandes. Anh đang có hai mươi kiến tạo ở Premier League mùa này, chỉ cần thêm một đường chuyền thành bàn, để vượt qua cột mốc lịch sử từng được Kevin Đờ Broai Nơ và Thierry Henry nắm giữ.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://i2-prod.manchestereveningnews.co.uk/article33980656.ece/ALTERNATES/s1200f/0_Manchester-United-v-Nottingham-Forest-Premier-League-Football-Old-Trafford-Manchester-UK-17-M.jpg",
+          "label": "Vua Kiến Tạo Premier League",
+          "top": "1150px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "500px",
+          "accentColor": "#EDBB00",
+          "secondaryAccentColor": "#A50044",
+          "cardBg": "rgba(10,15,29,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng xếp hạng",
+      "subtext": "Premier League 2025-26",
+      "voiceText": "Trên bảng xếp hạng, Manchester United đã chắc vị trí thứ ba với sáu mươi tám điểm. Brighton đứng thứ bảy, chỉ hơn nhóm bám đuổi đúng một điểm, nên một cú sảy chân ở vòng cuối có thể làm bay cả tấm vé châu Âu.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#00AEEF",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["BHA", "MUN"],
+      "standings": [
+        {
+          "rank": 3,
+          "team": {
+            "name": "Manchester United",
+            "code": "MUN",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 19,
+          "draws": 11,
+          "losses": 7,
+          "gf": 66,
+          "ga": 50,
+          "gd": 16,
+          "pts": 68
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Aston Villa",
+            "code": "AVL",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 18,
+          "draws": 8,
+          "losses": 11,
+          "gf": 54,
+          "ga": 48,
+          "gd": 6,
+          "pts": 62
+        },
+        {
+          "rank": 5,
+          "team": {
+            "name": "Liverpool",
+            "code": "LIV",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 17,
+          "draws": 8,
+          "losses": 12,
+          "gf": 62,
+          "ga": 52,
+          "gd": 10,
+          "pts": 59
+        },
+        {
+          "rank": 6,
+          "team": {
+            "name": "Bournemouth",
+            "code": "BOU",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 13,
+          "draws": 17,
+          "losses": 7,
+          "gf": 57,
+          "ga": 53,
+          "gd": 4,
+          "pts": 56
+        },
+        {
+          "rank": 7,
+          "team": {
+            "name": "Brighton & Hove Albion",
+            "code": "BHA",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 11,
+          "losses": 12,
+          "gf": 52,
+          "ga": 43,
+          "gd": 9,
+          "pts": 53
+        },
+        {
+          "rank": 8,
+          "team": {
+            "name": "Chelsea",
+            "code": "CHE",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 10,
+          "losses": 13,
+          "gf": 57,
+          "ga": 50,
+          "gd": 7,
+          "pts": 52
+        },
+        {
+          "rank": 9,
+          "team": {
+            "name": "Brentford",
+            "code": "BRE",
+            "teamType": "club"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 10,
+          "losses": 13,
+          "gf": 53,
+          "ga": 50,
+          "gd": 3,
+          "pts": 52
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Brighton giữ vé hay Man U phá tiệc?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "voiceText": "Bạn nghĩ Brighton sẽ giữ được lợi thế sân nhà, hay Man U sẽ phá tiệc ở Amex trong ngày hạ màn? Hãy để lại dự đoán tỉ số dưới phần bình luận. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Brighton vs Man U - Premier League",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Brighton vs Man U?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Brighton",
+          "Man U",
+          "Premier League",
+          "Amex",
+          "Méo Bình Luận",
+          "Follow"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Premier League predicted line-ups for Final Day",
+      "url": "https://www.premierleague.com/en/news/4664153/predicted-line-ups-for-premier-league-teams-in-matchweek-38"
+    },
+    {
+      "name": "Sports Mole Brighton vs Manchester United preview",
+      "url": "https://www.sportsmole.co.uk/football/man-utd/preview/brighton-vs-man-utd-prediction-team-news-lineups_598035.html"
+    },
+    {
+      "name": "SportsGambler Brighton vs Manchester United prediction, lineups and standings",
+      "url": "https://www.sportsgambler.com/betting-tips/football/brighton-vs-manchester-united-prediction-lineups-odds-2026-05-24/"
+    }
+  ]
+}

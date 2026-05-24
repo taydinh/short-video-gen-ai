@@ -1,0 +1,612 @@
+{
+  "title": "Fulham vs Newcastle: Trận cuối vì danh dự ở Craven Cottage",
+  "slug": "fulham-vs-newcastle-epl-preview-2026-05-24",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "TRẬN CUỐI VÌ NỬA TRÊN!",
+      "subtext": "Fulham vs Newcastle United",
+      "voiceText": "Craven Cottage mở màn, vòng hạ màn Premier League! Fulham tiếp Newcastle United lúc hai mươi hai giờ ngày hai mươi bốn tháng năm, hai không hai sáu, trong trận đấu mà cả hai cùng có bốn mươi chín điểm.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#0B5D3B",
+      "textColor": "#ffffff",
+      "competitionLabel": "Premier League",
+      "stage": "Vòng 38",
+      "venue": "Craven Cottage",
+      "date": "24.05.2026",
+      "time": "22:00",
+      "teams": [
+        {
+          "name": "Fulham",
+          "code": "FUL",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/fulham.svg",
+          "form": ["D", "W", "L", "L", "D"]
+        },
+        {
+          "name": "Newcastle United",
+          "code": "NEW",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/newcastle.svg",
+          "form": ["L", "L", "W", "D", "W"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Premier League",
+      "tournamentName": "Premier League",
+      "competitionLabel": "Matchweek 38 Preview",
+      "seasonLabel": "2025-26 | Final Day",
+      "ctaLabel": "Kickoff 22:00",
+      "voiceText": "Đây không còn là cuộc đua châu Âu, nhưng vẫn là trận để chốt mùa.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/Premier_League-Logo.wine.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ],
+      "notes": "Để thêm transition mechanical giữa các scene: chạy `npx hyperframes add transitions-mechanical`."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Fulham có thể đá bốn hai ba một với Leno bắt chính, Diop và Bassey ở trung vệ, còn Wilson, King và Kevin hỗ trợ Jimenez. Newcastle cũng nghiêng về bốn hai ba một. Pope trong khung gỗ, Guimaraes dẫn tuyến giữa, Barnes, Woltemade và Ramsey chơi phía sau Osula.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Craven Cottage",
+      "teams": [
+        {
+          "name": "Fulham",
+          "code": "FUL",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/fulham.svg"
+        },
+        {
+          "name": "Newcastle United",
+          "code": "NEW",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/newcastle.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Leno",
+            "Castagne",
+            "Diop",
+            "Bassey",
+            "Robinson",
+            "Iwobi",
+            "Lukic",
+            "Wilson",
+            "King",
+            "Kevin",
+            "Jimenez"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Pope",
+            "Trippier",
+            "Thiaw",
+            "Botman",
+            "Hall",
+            "Guimaraes",
+            "Willock",
+            "Barnes",
+            "Woltemade",
+            "Ramsey",
+            "Osula"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "Premier League",
+      "voiceText": "Lịch sử gần đây nghiêng về Newcastle. Họ thắng hai lần gần nhất trước Fulham mùa này, trong đó có trận hai một ở St James' Park hồi tháng mười.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Fulham",
+          "code": "FUL",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/fulham.svg",
+          "form": []
+        },
+        {
+          "name": "Newcastle United",
+          "code": "NEW",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/newcastle.svg",
+          "form": []
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "Vị trí", "Điểm", "Phong độ", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Fulham",
+            "scoreText": "13",
+            "x12": "49",
+            "hdp": "D-W-L-L-D",
+            "ou": "Mạnh ở Craven Cottage"
+          },
+          {
+            "teamName": "Newcastle United",
+            "scoreText": "11",
+            "x12": "49",
+            "hdp": "L-L-W-D-W",
+            "ou": "Nhỉnh hơn về hiệu số"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "25/10/2025",
+          "competition": "EPL",
+          "home": "Newcastle United",
+          "away": "Fulham",
+          "score": "2-1"
+        },
+        {
+          "kickoff": "01/02/2025",
+          "competition": "EPL",
+          "home": "Newcastle United",
+          "away": "Fulham",
+          "score": "1-2"
+        },
+        {
+          "kickoff": "21/09/2024",
+          "competition": "EPL",
+          "home": "Fulham",
+          "away": "Newcastle United",
+          "score": "3-1"
+        },
+        {
+          "kickoff": "06/04/2024",
+          "competition": "EPL",
+          "home": "Fulham",
+          "away": "Newcastle United",
+          "score": "0-1"
+        },
+        {
+          "kickoff": "16/12/2023",
+          "competition": "EPL",
+          "home": "Newcastle United",
+          "away": "Fulham",
+          "score": "3-0"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Nếu đây là lời chia tay của Marco Silva tại Craven Cottage, Fulham sẽ muốn biến nó thành một trận đấu đáng nhớ.",
+      "quoteAuthor": "Méo bình luận",
+      "quoteRole": "Góc nhìn trước trận",
+      "imageSrc": "assets/live-commentator-cat.png",
+      "quoteImageAlt": "Bình luận viên trực tiếp tại sân vận động",
+      "liveLabel": "Live tại Craven Cottage",
+      "voiceText": "Điểm nóng là câu chuyện Marco Silva. Nếu đây thật sự là trận cuối của ông cùng Fulham, Craven Cottage sẽ có thêm một lớp cảm xúc rất khác.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh trước trận",
+      "subtext": "Premier League 2025-26",
+      "voiceText": "Bảng xếp hạng kể câu chuyện khá gọn: Newcastle hạng mười một, Fulham hạng mười ba, cùng bốn mươi chín điểm. Đội thắng có cơ hội chen vào nhóm nửa trên, đội thua sẽ kết mùa với cảm giác lỡ nhịp.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["FUL", "NEW"],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Arsenal",
+            "code": "ARS",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+          },
+          "played": 37,
+          "wins": 25,
+          "draws": 7,
+          "losses": 5,
+          "gf": 69,
+          "ga": 26,
+          "gd": 43,
+          "pts": 82
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Manchester City",
+            "code": "MCI",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/manchester-city.svg"
+          },
+          "played": 37,
+          "wins": 23,
+          "draws": 9,
+          "losses": 5,
+          "gf": 76,
+          "ga": 33,
+          "gd": 43,
+          "pts": 78
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Manchester United",
+            "code": "MUN",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/manchester-united.svg"
+          },
+          "played": 37,
+          "wins": 19,
+          "draws": 11,
+          "losses": 7,
+          "gf": 66,
+          "ga": 50,
+          "gd": 16,
+          "pts": 68
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Aston Villa",
+            "code": "AVL",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/aston-villa.svg"
+          },
+          "played": 37,
+          "wins": 18,
+          "draws": 8,
+          "losses": 11,
+          "gf": 54,
+          "ga": 48,
+          "gd": 6,
+          "pts": 62
+        },
+        {
+          "rank": 5,
+          "team": {
+            "name": "Liverpool",
+            "code": "LIV",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/liverpool-fc.svg"
+          },
+          "played": 37,
+          "wins": 17,
+          "draws": 8,
+          "losses": 12,
+          "gf": 62,
+          "ga": 52,
+          "gd": 10,
+          "pts": 59
+        },
+        {
+          "rank": 6,
+          "team": {
+            "name": "Bournemouth",
+            "code": "BOU",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/bournemouth.svg"
+          },
+          "played": 37,
+          "wins": 13,
+          "draws": 17,
+          "losses": 7,
+          "gf": 57,
+          "ga": 53,
+          "gd": 4,
+          "pts": 56
+        },
+        {
+          "rank": 7,
+          "team": {
+            "name": "Brighton & Hove Albion",
+            "code": "BHA",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/brighton.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 11,
+          "losses": 12,
+          "gf": 52,
+          "ga": 43,
+          "gd": 9,
+          "pts": 53
+        },
+        {
+          "rank": 8,
+          "team": {
+            "name": "Chelsea",
+            "code": "CHE",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/chelsea.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 10,
+          "losses": 13,
+          "gf": 57,
+          "ga": 50,
+          "gd": 7,
+          "pts": 52
+        },
+        {
+          "rank": 9,
+          "team": {
+            "name": "Brentford",
+            "code": "BRE",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/brentford.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 10,
+          "losses": 13,
+          "gf": 53,
+          "ga": 50,
+          "gd": 3,
+          "pts": 52
+        },
+        {
+          "rank": 10,
+          "team": {
+            "name": "Sunderland",
+            "code": "SUN",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/sunderland.svg"
+          },
+          "played": 37,
+          "wins": 13,
+          "draws": 12,
+          "losses": 12,
+          "gf": 38,
+          "ga": 45,
+          "gd": -7,
+          "pts": 51
+        },
+        {
+          "rank": 11,
+          "team": {
+            "name": "Newcastle United",
+            "code": "NEW",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/newcastle.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 7,
+          "losses": 16,
+          "gf": 53,
+          "ga": 53,
+          "gd": 0,
+          "pts": 49
+        },
+        {
+          "rank": 12,
+          "team": {
+            "name": "Everton",
+            "code": "EVE",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/everton.svg"
+          },
+          "played": 37,
+          "wins": 13,
+          "draws": 10,
+          "losses": 14,
+          "gf": 47,
+          "ga": 48,
+          "gd": -1,
+          "pts": 49
+        },
+        {
+          "rank": 13,
+          "team": {
+            "name": "Fulham",
+            "code": "FUL",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/fulham.svg"
+          },
+          "played": 37,
+          "wins": 14,
+          "draws": 7,
+          "losses": 16,
+          "gf": 45,
+          "ga": 51,
+          "gd": -6,
+          "pts": 49
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Fulham giữ nhà hay Newcastle chốt mùa?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "voiceText": "Bạn dự đoán Fulham thắng trên sân nhà, hay Newcastle tiếp tục cái duyên đối đầu? Để lại tỉ số của bạn nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Premier League Preview - Fulham vs Newcastle",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bạn dự đoán tỉ số trận này là bao nhiêu?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Fulham",
+          "Newcastle United",
+          "Craven Cottage",
+          "Premier League",
+          "Méo Bình Luận",
+          "Follow"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.6
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sports Mole preview, team news and predicted lineups",
+      "url": "https://www.sportsmole.co.uk/football/fulham/preview/fulham-vs-newcastle-prediction-team-news-lineups_597973.html"
+    },
+    {
+      "name": "Squawka preview, standings, form and H2H",
+      "url": "https://www.squawka.com/us/news/match-preview-fulham-vs-newcastle-24-05-26-premier-league/"
+    },
+    {
+      "name": "NBC Sports Premier League table 2025-26",
+      "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+      "name": "Premier League Handbook 2025-26 fixture list",
+      "url": "https://resources.premierleague.pulselive.com/premierleague/document/2025/07/24/99839920-d274-42aa-a2ac-e5612b4f6c61/PL_Handbook_25-26_Digital_24.07.pdf"
+    }
+  ]
+}

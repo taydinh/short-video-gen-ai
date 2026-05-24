@@ -1,0 +1,307 @@
+{
+  "title": "Real Madrid vs Athletic Bilbao: Đêm chia tay ở Bernabeu",
+  "slug": "real-madrid-vs-athletic-bilbao-laliga-preview-2026-05-24",
+  "totalDuration": 43,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ĐÊM CHIA TAY Ở BERNABEU",
+      "subtext": "Real Madrid vs Athletic Bilbao",
+      "voiceText": "Santiago Bernabeu khép lại mùa La Liga bằng một trận đấu giàu cảm xúc. Real Madrid tiếp Athletic Bilbao lúc 2 giờ sáng ngày 24 tháng 5, trong ngày Carvahal, Alaba, Arbeloa và Valverde đều chuẩn bị nói lời chia tay.",
+      "duration": 6,
+      "bgColor": "#101820",
+      "accentColor": "#FEBE10",
+      "secondaryAccentColor": "#D71920",
+      "textColor": "#ffffff",
+      "competitionLabel": "La Liga",
+      "stage": "Vòng 38",
+      "venue": "Santiago Bernabeu",
+      "date": "24.05.2026",
+      "time": "02:00",
+      "teams": [
+        {
+          "name": "Real Madrid",
+          "code": "RMA",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/laliga/real-madrid.svg",
+          "form": ["W", "D", "W", "L", "W", "W"]
+        },
+        {
+          "name": "Athletic Bilbao",
+          "code": "ATH",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/laliga/athletic-club-bilbao.svg",
+          "form": ["W", "L", "W", "L", "L", "D"]
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.24 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "La Liga",
+      "tournamentName": "La Liga",
+      "competitionLabel": "Matchweek 38 Preview",
+      "seasonLabel": "2025-26 | Final Day",
+      "ctaLabel": "Kickoff 02:00",
+      "voiceText": "La Liga hạ màn ở Bernabeu, nơi Real Madrid đã chắc ngôi nhì, còn Athletic không còn cửa dự cúp châu Âu.",
+      "duration": 3,
+      "bgColor": "#101820",
+      "accentColor": "#FEBE10",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/laliga.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ],
+      "notes": "Giờ 02:00 là giờ Việt Nam ngày 24/05/2026; lịch Tây Ban Nha ghi 21:00 ngày 23/05/2026."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "voiceText": "Real Madrid có thể đá bốn bốn hai, với Courtois trong khung gỗ, Carvahal và Alaba đá trận chia tay, Camavinga, Valverde và Bellingham giữ nhịp, còn Gonzalo đá cạnh Mbappe. Athletic dự kiến dùng bốn hai ba một, đặt Guruzeta phía trên, sau lưng là Iñaki Williams, Unai Gomez và Robert Navarro.",
+      "duration": 8,
+      "bgColor": "#101820",
+      "accentColor": "#FEBE10",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Santiago Bernabeu",
+      "teams": [
+        {
+          "name": "Real Madrid",
+          "code": "RMA",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/laliga/real-madrid.svg"
+        },
+        {
+          "name": "Athletic Bilbao",
+          "code": "ATH",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/laliga/athletic-club-bilbao.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-4-2",
+          "players": [
+            "Courtois",
+            "Carvajal",
+            "Asencio",
+            "Alaba",
+            "Carreras",
+            "Brahim",
+            "Camavinga",
+            "Valverde",
+            "Bellingham",
+            "Gonzalo",
+            "Mbappe"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Unai Simon",
+            "Gorosabel",
+            "Vivian",
+            "Paredes",
+            "Lekue",
+            "Jauregizar",
+            "Rego",
+            "Inaki Williams",
+            "Unai Gomez",
+            "Robert Navarro",
+            "Guruzeta"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#FEBE10" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "LỊCH SỬ ĐỐI ĐẦU",
+      "subtext": "La Liga",
+      "voiceText": "Lịch sử vẫn nghiêng rõ về Real Madrid. Sau hai trăm bốn mươi chín lần gặp Athletic trên mọi đấu trường, đội bóng áo trắng thắng một trăm hai mươi lăm trận, và lượt đi mùa này cũng thắng ba - không.",
+      "duration": 8,
+      "bgColor": "#101820",
+      "accentColor": "#FEBE10",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Real Madrid",
+          "code": "RMA",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/laliga/real-madrid.svg",
+          "form": []
+        },
+        {
+          "name": "Athletic Bilbao",
+          "code": "ATH",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/laliga/athletic-club-bilbao.svg",
+          "form": []
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "H2H", "Thắng", "Hòa", "Thua", "Ghi chú"],
+        "rows": [
+          { "teamName": "Real Madrid", "scoreText": "249", "x12": "125", "hdp": "45", "ou": "79", "htHdp": "Thắng lượt đi 3-0" },
+          { "teamName": "Athletic Bilbao", "scoreText": "249", "x12": "79", "hdp": "45", "ou": "125", "htHdp": "Chưa thắng tại Bernabeu từ 2021" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "03/12/2025", "competition": "La Liga", "home": "Athletic Bilbao", "away": "Real Madrid", "score": "0-3" },
+        { "kickoff": "20/04/2025", "competition": "La Liga", "home": "Real Madrid", "away": "Athletic Bilbao", "score": "1-0" },
+        { "kickoff": "04/12/2024", "competition": "La Liga", "home": "Athletic Bilbao", "away": "Real Madrid", "score": "2-1" },
+        { "kickoff": "31/03/2024", "competition": "La Liga", "home": "Real Madrid", "away": "Athletic Bilbao", "score": "2-0" },
+        { "kickoff": "12/08/2023", "competition": "La Liga", "home": "Athletic Bilbao", "away": "Real Madrid", "score": "0-2" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#FEBE10" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Trận đấu này không còn là cuộc đua danh hiệu, nhưng lại là lời chào cuối của nhiều gương mặt lớn.",
+      "quoteAuthor": "Méo bình luận",
+      "quoteRole": "Góc nhìn trước trận",
+      "imageSrc": "assets/images/meo-bl-wc-room.png",
+      "quoteImageAlt": "Méo bình luận trong phòng bình luận bóng đá",
+      "liveLabel": "Góc nhìn chủ quan",
+      "voiceText": "Điểm nóng không chỉ nằm ở tỉ số. Đây là đêm Bernabeu tri ân Carvahal và Alaba, còn phía Athletic, Ernesto Valverde cũng khép lại nhiệm kỳ của mình sau một mùa giải hụt hơi.",
+      "duration": 6,
+      "bgColor": "#101820",
+      "accentColor": "#FEBE10",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/706257154_1328881132710488_714833778113551103_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=KPB4m1bAx-wQ7kNvwHBSks6&_nc_oc=Ador7c4whZOwasnaZvEMbbUYy1KJYyWJGz2vVBtwRRPX5wxRy2nVVi20G1Z-EwRO24Dci4zUP5v6gOtsswHgnJan&_nc_zt=23&_nc_ht=scontent.fsgn5-15.fna&_nc_gid=AKlRDesO_ArxerXRgZS48w&_nc_ss=7b289&oh=00_Af4qnPCjI40QrQWwqLwIfLvs_Et2Q-SfbpkWbfsla8oNbQ&oe=6A179D5A",
+          "label": "Bernabeu tri ân Carvajal và Alaba",
+          "top": "1150px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "500px",
+          "accentColor": "#EDBB00",
+          "secondaryAccentColor": "#A50044",
+          "cardBg": "rgba(10,15,29,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#FEBE10" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh trước trận",
+      "subtext": "La Liga 2025-26",
+      "voiceText": "Bảng xếp hạng nói rõ tính chất trận này: Real Madrid đã chắc vị trí thứ hai với tám mươi ba điểm, còn Athletic đứng thứ mười hai với bốn mươi lăm điểm, hết hy vọng dự cúp châu Âu mùa sau.",
+      "duration": 6,
+      "bgColor": "#101820",
+      "accentColor": "#FEBE10",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG XẾP HẠNG"],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": ["RMA", "ATH"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Barcelona", "code": "BAR", "teamType": "club" }, "played": 37, "wins": 29, "draws": 7, "losses": 1, "gf": 94, "ga": 33, "gd": 61, "pts": 94 },
+        { "rank": 2, "team": { "name": "Real Madrid", "code": "RMA", "teamType": "club", "logoSrc": "assets/football/clubs/laliga/real-madrid.svg" }, "played": 37, "wins": 25, "draws": 8, "losses": 4, "gf": 73, "ga": 37, "gd": 36, "pts": 83 },
+        { "rank": 3, "team": { "name": "Villarreal", "code": "VIL", "teamType": "club" }, "played": 37, "wins": 21, "draws": 6, "losses": 10, "gf": 64, "ga": 45, "gd": 19, "pts": 69 },
+        { "rank": 7, "team": { "name": "Getafe", "code": "GET", "teamType": "club" }, "played": 37, "wins": 13, "draws": 9, "losses": 15, "gf": 42, "ga": 44, "gd": -2, "pts": 48 },
+        { "rank": 8, "team": { "name": "Rayo Vallecano", "code": "RAY", "teamType": "club" }, "played": 37, "wins": 12, "draws": 11, "losses": 14, "gf": 40, "ga": 45, "gd": -5, "pts": 47 },
+        { "rank": 9, "team": { "name": "Valencia", "code": "VAL", "teamType": "club" }, "played": 37, "wins": 12, "draws": 10, "losses": 15, "gf": 41, "ga": 49, "gd": -8, "pts": 46 },
+        { "rank": 10, "team": { "name": "Real Sociedad", "code": "RSO", "teamType": "club" }, "played": 37, "wins": 11, "draws": 12, "losses": 14, "gf": 39, "ga": 43, "gd": -4, "pts": 45 },
+        { "rank": 11, "team": { "name": "Espanyol", "code": "ESP", "teamType": "club" }, "played": 37, "wins": 11, "draws": 12, "losses": 14, "gf": 38, "ga": 47, "gd": -9, "pts": 45 },
+        { "rank": 12, "team": { "name": "Athletic Bilbao", "code": "ATH", "teamType": "club", "logoSrc": "assets/football/clubs/laliga/athletic-club-bilbao.svg" }, "played": 37, "wins": 12, "draws": 9, "losses": 16, "gf": 41, "ga": 54, "gd": -13, "pts": 45 },
+        { "rank": 13, "team": { "name": "Sevilla", "code": "SEV", "teamType": "club" }, "played": 37, "wins": 10, "draws": 13, "losses": 14, "gf": 37, "ga": 43, "gd": -6, "pts": 43 },
+        { "rank": 14, "team": { "name": "Alaves", "code": "ALA", "teamType": "club" }, "played": 37, "wins": 10, "draws": 13, "losses": 14, "gf": 36, "ga": 46, "gd": -10, "pts": 43 },
+        { "rank": 15, "team": { "name": "Levante", "code": "LEV", "teamType": "club" }, "played": 37, "wins": 10, "draws": 12, "losses": 15, "gf": 42, "ga": 56, "gd": -14, "pts": 42 },
+        { "rank": 16, "team": { "name": "Osasuna", "code": "OSA", "teamType": "club" }, "played": 37, "wins": 9, "draws": 15, "losses": 13, "gf": 36, "ga": 49, "gd": -13, "pts": 42 },
+        { "rank": 17, "team": { "name": "Elche", "code": "ELC", "teamType": "club" }, "played": 37, "wins": 10, "draws": 12, "losses": 15, "gf": 39, "ga": 53, "gd": -14, "pts": 42 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.20 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#FEBE10" }
+      ],
+      "notes": "Các mốc điểm và vị trí lấy theo nguồn AS trước vòng 38; thống kê W-D-L/GF-GA trong bảng dùng để hiển thị bối cảnh và cần kiểm lại nếu yêu cầu số liệu tuyệt đối."
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Real Madrid thắng đẹp hay Athletic phá tiệc?",
+      "voiceText": "Bạn dự đoán Real Madrid sẽ thắng trong đêm chia tay, hay Athletic Bilbao sẽ phá không khí lễ hội ở Bernabeu? Để lại tỉ số của bạn nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#101820",
+      "accentColor": "#FEBE10",
+      "secondaryAccentColor": "#D71920",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "CẬP NHẬT TIN TỨC BÓNG ĐÁ",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Real Madrid vs Athletic Bilbao?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup",
+          "Champions League",
+          "La Liga",
+          "Premier League",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 86, "duration": 5.0 }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Managing Madrid predicted lineups and match info",
+      "url": "https://www.managingmadrid.com/108064/real-madrid-vs-athletic-bilbao-2026-la-liga-lineups"
+    },
+    {
+      "name": "AS match schedule, standings context and absences",
+      "url": "https://as.com/futbol/primera/a-que-hora-es-el-real-madrid-athletic-club-tv-horario-y-como-ver-hoy-laliga-ea-sports-en-vivo-f202605-n/"
+    },
+    {
+      "name": "AS Real Madrid possible lineup",
+      "url": "https://as.com/futbol/primera/alineacion-posible-del-real-madrid-hoy-contra-el-athletic-club-en-laliga-ea-sports-f202605-n/"
+    },
+    {
+      "name": "Sports Mole preview, form, H2H and team news",
+      "url": "https://www.sportsmole.co.uk/football/real-madrid/preview/real-madrid-vs-athletic-bilbao-prediction-team-news-lineups_597945.html"
+    },
+    {
+      "name": "Sofascore tactical and statistical preview",
+      "url": "https://www.sofascore.com/news/real-madrid-vs-athletic-club-preview-form-lineups-odds"
+    }
+  ]
+}
