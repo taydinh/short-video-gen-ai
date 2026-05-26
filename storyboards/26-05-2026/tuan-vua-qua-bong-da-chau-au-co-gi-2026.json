@@ -1,0 +1,572 @@
+{
+  "title": "Tuần Vừa Qua Bóng Đá Châu Âu Có Gì: Cú Sốc La Liga Và Phép Màu Hull City Lên Hạng",
+  "slug": "tuan-vua-qua-bong-da-chau-au-co-gi-2026",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "title": "La Liga standings and results 2025-26",
+      "url": "https://www.laliga.com/en-GB/stats"
+    },
+    {
+      "title": "Hull City Championship play-off miracle 2026",
+      "url": "https://www.efl.com/championship/"
+    },
+    {
+      "title": "Harry Kane Bayern Munich treble 2025-26",
+      "url": "https://www.bundesliga.com/en/bundesliga"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "TUẦN VỪA QUA BÓNG ĐÁ CHÂU ÂU CÓ GÌ?",
+      "subtext": "Điểm lại các cú sốc và khoảnh khắc điên rồ nhất",
+      "voiceText": "Tuần vừa qua bóng đá Châu Âu có gì? Chào mừng các bạn đã quay trở lại với Vibe Bóng Đá, nơi chúng ta cùng nhìn lại một tuần lễ đầy biến động, ngập tràn những cú sốc và cả những câu chuyện thần kỳ của bóng đá cựu lục địa.",
+      "duration": 7,
+      "startTime": 0,
+      "bgColor": "#051610",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "label": "TUẦN LỄ ĐIÊN RỒ",
+      "imageSrc": "assets/storyboards/tuan-vua-qua-bong-da-chau-au-co-gi-2026/scene-1.png",
+      "cardCaption": "Tuần vừa qua bóng đá Châu Âu có gì nổi bật?",
+      "chips": [
+        "Bóng đá Châu Âu",
+        "La Liga",
+        "Premier League",
+        "Méo Bình Luận"
+      ],
+      "emoji": "🇪🇺",
+      "animation": "image-card-rise",
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 7
+        }
+      ],
+      "subtitle": "Tuần vừa qua bóng đá Châu Âu có gì? Chào mừng các bạn đã quay trở lại với Vibe Bóng Đá, nơi chúng ta cùng nhìn lại một tuần lễ đầy biến động, ngập tràn những cú sốc và cả những câu chuyện thần kỳ của bóng đá cựu lục địa."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Cú sốc: Girona chính thức xuống hạng",
+      "subtext": "Sự sụp đổ không tưởng từ đỉnh cao La Liga",
+      "voiceText": "Cú sốc lớn nhất đến từ Tây Ban Nha! Chỉ mới hai mùa trước, Girona còn chễm chệ ở top ba La Liga, mùa hai không hai ba, hai không hai tư. Nhưng giờ đây, họ đã chính thức phải xuống chơi ở giải hạng hai Segunda, sau khi bị Elche cầm hòa một đều ở vòng cuối.",
+      "duration": 8,
+      "startTime": 7,
+      "bgColor": "#051610",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "icon": "📉",
+          "label": "Mùa 23/24",
+          "value": "Cán đích Top 3 lịch sử với 81 điểm sau 38 trận"
+        },
+        {
+          "icon": "❌",
+          "label": "Mùa 25/26",
+          "value": "Xuống hạng ở vị trí 19 với chỉ 41 điểm"
+        },
+        {
+          "icon": "💔",
+          "label": "Trận cuối",
+          "value": "Hòa Elche 1-1 chính thức định đoạt tấm vé xuống hạng"
+        },
+        {
+          "icon": "⚠️",
+          "label": "Bài học",
+          "value": "Cơn khủng hoảng lực lượng và chiều sâu đội hình"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://photo.znews.vn/w1210/Uploaded/bpivpawv/2024_10_03/Girona.jpeg",
+          "label": "LALIGA SỐC",
+          "title": "Girona xuống chơi Segunda",
+          "caption": "Từ tấm vé dự Champions League lịch sử đến cơn ác mộng xuống hạng chỉ sau 2 năm.",
+          "top": "950px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#C8102E",
+          "secondaryAccentColor": "#F7C948",
+          "cardBg": "rgba(5,22,16,0.85)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.56) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Cú sốc lớn nhất đến từ Tây Ban Nha! Chỉ mới hai mùa trước, Girona còn chễm chệ ở top ba La Liga mùa 2023/24. Nhưng giờ đây, họ đã chính thức phải xuống chơi ở giải hạng hai Segunda sau khi bị Elche cầm hòa một đều ở vòng cuối."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "La Liga điên rồ: Đường đua trụ hạng",
+      "subtext": "Khi cuộc chiến sinh tồn còn hấp dẫn hơn đua vô địch",
+      "voiceText": "Sống đủ lâu để chứng kiến một La Liga điên rồ chưa từng có. Đường đua trụ hạng năm nay khốc liệt gấp đôi cuộc đua vô địch khi đội xếp thứ mười hai chỉ hơn nhóm cầm đèn đỏ đúng ba điểm. Mallorca và Oviedo ngậm ngùi xuống hạng đầy tiếc nuối.",
+      "duration": 8,
+      "startTime": 15,
+      "bgColor": "#051610",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "La Liga Relegation Battle",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "Levante / Osasuna",
+          "title": "Trụ hạng an toàn nhờ đối đầu"
+        },
+        {
+          "stage": "Mallorca [R] / Girona [R]",
+          "title": "Xuống hạng đầy cay đắng (41-42 điểm)"
+        },
+        {
+          "stage": "Oviedo [R]",
+          "title": "Bét bảng với 29 điểm"
+        }
+      ],
+      "secondaryComposition": "flashcard-gallery",
+      "layout": "horizontal",
+      "cards": [
+        {
+          "imageSrc": "https://s.yimg.com/ny/api/res/1.2/Pfqv8Q398mSCMaenV3w02Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTMyNztjZj13ZWJw/https://media.zenfs.com/en/foot_africa_articles_352/24749797e1b3ecf391a327584aef0c3c",
+          "text": "Mallorca",
+          "caption": "Mallorca - 42 điểm - Xuống hạng"
+        },
+        {
+          "imageSrc": "https://ichef.bbci.co.uk/ace/standard/2560/cpsprodpb/bc17/live/f0124390-56ee-11f1-8b8c-6d33e1d5abb6.jpg",
+          "text": "Girona",
+          "caption": "Girona - 41 điểm - Xuống hạng"
+        },
+        {
+          "imageSrc": "https://dailypioneer.com/uploads/2026/story/images/big/real-oviedo-relegated-from-la-liga-2026-05-13.jpg",
+          "text": "Oviedo",
+          "caption": "Oviedo - 29 điểm - Xuống hạng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Sống đủ lâu để chứng kiến một La Liga điên rồ chưa từng có. Đường đua trụ hạng năm nay khốc liệt gấp đôi cuộc đua vô địch khi đội xếp thứ mười hai chỉ hơn nhóm cầm đèn đỏ đúng ba điểm. Mallorca và Oviedo ngậm ngùi xuống hạng đầy tiếc nuối."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Real Madrid: Vĩ biệt Carvajal và kỷ nguyên mới",
+      "subtext": "Thắng Athletic 4-2 đón chào Jose Mourinho",
+      "voiceText": "Trong khi đó, Real Madrid khép lại mùa giải bằng chiến thắng giòn giã bốn hai trước Athletic Bilbao. Đây là trận đấu cuối cùng của Dani Carvahal sau hơn hai thập kỷ cống hiến, đồng thời mở ra chương mới đầy hứa hẹn với sự trở lại của Huấn luyện viên Jose Mourinho.",
+      "duration": 8,
+      "startTime": 23,
+      "bgColor": "#051610",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "icon": "🇪🇸",
+          "label": "Dani Carvajal",
+          "value": "Tỏa sáng với 1 kiến tạo trong trận đấu cuối cùng"
+        },
+        {
+          "icon": "⚽",
+          "label": "Bàn thắng",
+          "value": "Bellingham, Mbappe và Diaz cùng nổ súng hủy diệt Bilbao"
+        },
+        {
+          "icon": "🧠",
+          "label": "Jose Mourinho",
+          "value": "Chính thức trở lại chiếc ghế nóng đầy duyên nợ"
+        },
+        {
+          "icon": "👑",
+          "label": "Mục tiêu",
+          "value": "Tái lập sự thống trị tại Champions League và quốc nội"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://photo.znews.vn/w660/Uploaded/sotnzt/2026_05_24/2026_05_23T212152Z_598802757_UP1EM5N1NCFAM_RTRMADP_3_SOCCER_SPAIN_RMA_ATH.JPG",
+          "label": "REAL MADRID",
+          "title": "Tạm biệt Dani Carvajal",
+          "caption": "Huyền thoại cánh phải khép lại hành trình vĩ đại 20 năm tại Bernabeu.",
+          "top": "950px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#C8102E",
+          "cardBg": "rgba(5,22,16,0.85)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.56) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Trong khi đó, Real Madrid khép lại mùa giải bằng chiến thắng giòn giã bốn hai trước Athletic Bilbao. Đây là trận đấu cuối cùng của Dani Carvajal sau hơn hai thập kỷ cống hiến, đồng thời mở ra chương mới đầy hứa hẹn với sự trở lại của Huấn luyện viên Jose Mourinho."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Hull City và phép màu lên hạng Premier League",
+      "subtext": "Hành trình điên rồ được định đoạt ở phút 90+5",
+      "voiceText": "Nước Anh cũng chứng kiến một câu chuyện thần kỳ! Trải qua muôn vàn biến động, thậm chí đối thủ trận chung kết play-off thăng hạng còn bị thay đổi sát giờ đấu, Hull City vẫn đứng dậy đầy mạnh mẽ, giành chiến thắng nghẹt thở một không trước Middlesbrough ở phút bù giờ cuối cùng.",
+      "duration": 8,
+      "startTime": 31,
+      "bgColor": "#051610",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Championship Play-Off Final",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "Khủng hoảng",
+          "title": "Thay đổi đối thủ sát giờ đá chung kết"
+        },
+        {
+          "stage": "Phút 90+5",
+          "title": "Oliver McBurnie ghi bàn quyết định"
+        },
+        {
+          "stage": "Lên hạng",
+          "title": "Hull City chính thức trở lại Premier League!"
+        }
+      ],
+      "secondaryComposition": "flashcard-gallery",
+      "layout": "vertical",
+      "cards": [
+        {
+          "imageSrc": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/1ac7/live/bc3a2680-7b90-11f0-9835-7fcb9fda4fa6.jpg",
+          "text": "Oliver McBurnie",
+          "caption": "Người hùng phút 90+5"
+        },
+        {
+          "imageSrc": "https://cdn.mos.cms.futurecdn.net/rVCWJstkrhncWXQMXXnvji-1200-80.jpg",
+          "text": "Những chú Hổ",
+          "caption": "Màn ăn mừng bùng nổ của CĐV"
+        },
+        {
+          "imageSrc": "https://scontent.fsgn5-15.fna.fbcdn.net/v/t51.82787-15/670517738_18582336349002681_7428984296601331461_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=exzG15SRytwQ7kNvwFGl7hE&_nc_oc=AdqUjrAmMlqCIy1zMkDBANhTdD09_DqjJOvpw-FwxCbxpADycbWRF2ObJRH2cMQXd67y9L8P-9_drD3L-DkL_A5G&_nc_zt=23&_nc_ht=scontent.fsgn5-15.fna&_nc_gid=DRbOoLDrVlYJUOlOpsrxhA&_nc_ss=7b289&oh=00_Af5q7TIfA24FxysAzj1zyVHG_TH-COnlSBZyXN-eh0Sxig&oe=6A1B6E93",
+          "text": "Wembley",
+          "caption": "Nơi ghi dấu lịch sử thăng hạng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Nước Anh cũng chứng kiến một câu chuyện thần kỳ! Trải qua muôn vàn biến động, thậm chí đối thủ trận chung kết play-off thăng hạng còn bị thay đổi sát giờ đấu, Hull City vẫn đứng dậy đầy mạnh mẽ, giành chiến thắng nghẹt thở một không trước Middlesbrough ở phút bù giờ cuối cùng."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Harry Kane: Hat-trick và cú ăn 3 vĩ đại",
+      "subtext": "Sẵn sàng chinh phục danh hiệu Quả Bóng Vàng",
+      "voiceText": "Tại nước Đức, Hà Duy Kiên tiếp tục gieo rắc nỗi khiếp sợ khi lập hat-trick hủy diệt Stuttgart ba không. Cú hat-trick này giúp Bayern Munich hoàn tất cú ăn ba mùa giải năm nay với Bundesliga, cúp quốc gia và siêu cúp. Cánh cửa giành Quả Bóng Vàng đang rộng mở hơn bao giờ hết.",
+      "duration": 8,
+      "startTime": 39,
+      "bgColor": "#051610",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "icon": "⚽",
+          "label": "Hat-trick",
+          "value": "Hủy diệt Stuttgart ở các phút 55, 80 và 90+2"
+        },
+        {
+          "icon": "🔥",
+          "label": "Thống kê",
+          "value": "Đạt 61 bàn thắng và 7 đường kiến tạo cả mùa giải"
+        },
+        {
+          "icon": "🏆",
+          "label": "Cú ăn 3",
+          "value": "Bundesliga, DFB-Pokal và Siêu cúp Franz Beckenbauer"
+        },
+        {
+          "icon": "🥇",
+          "label": "Quả Bóng Vàng",
+          "value": "Chờ đợi vương miện World Cup cùng tuyển Anh để hoàn tất cú ăn bốn"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/706992317_981235514662037_2014738705192436562_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=guFaJ2ebNzMQ7kNvwFNcNlH&_nc_oc=AdpH5wJJsdmsvNtYJ7ccMCWwUFSVXo-tXL2heoFw2doStiaOhb4-B15tmDiqp0xzbsw&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=UAlhJ2gVIz6pEHGtCs5wOA&_nc_ss=7b289&oh=00_Af5hsIuyGtfBHfkIH5GT-AMSt82zyLN--_g54_8yoJR1_g&oe=6A1B6EAB",
+          "label": "HARRY KANE",
+          "title": "Cú ăn 3 ngọt ngào",
+          "caption": "Hà Duy Kiên chứng minh đẳng cấp săn bàn thượng hạng tại Đức.",
+          "top": "950px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#C8102E",
+          "cardBg": "rgba(5,22,16,0.85)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.56) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Tại nước Đức, Hà Duy Kiên tiếp tục gieo rắc nỗi khiếp sợ khi lập hat-trick hủy diệt Stuttgart ba không. Cú hat-trick này giúp Bayern Munich hoàn tất cú ăn ba mùa giải năm nay với Bundesliga, cúp quốc gia và siêu cúp. Cánh cửa giành Quả Bóng Vàng đang rộng mở hơn bao giờ hết."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Arsenal: Hướng tới cú đúp lịch sử",
+      "subtext": "Champions League gọi tên Pháo Thủ sau vương miện EPL",
+      "voiceText": "Cuối cùng, niềm vui vô địch Ngoại Hạng Anh của a se nồ vẫn chưa nguội thì họ đã phải hướng mắt về Budapest. Trận chung kết Champions League lịch sử, chống lại pa rís sen ger mình, sẽ diễn ra vào lúc hai giờ sáng ngày ba mươi mốt tháng năm theo giờ Việt Nam.",
+      "duration": 6,
+      "startTime": 47,
+      "bgColor": "#051610",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "CHUNG KẾT C1",
+      "tabs": [
+        "CHUNG KẾT C1",
+        "LỊCH",
+        "ĐỘI HÌNH",
+        "NHẬN ĐỊNH"
+      ],
+      "ctaLabel": "BUDAPEST FINAL",
+      "fixtures": [
+        {
+          "group": "UEFA Champions League Final",
+          "date": "31/05",
+          "time": "02:00 VN",
+          "home": {
+            "name": "PSG",
+            "code": "PSG",
+            "teamType": "club",
+            "flag": "assets/football/clubs/ligue-1/paris-saint-germain.svg",
+            "logoSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg",
+            "badgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+          },
+          "away": {
+            "name": "Arsenal",
+            "code": "ARS",
+            "teamType": "club",
+            "flag": "assets/football/clubs/epl/arsenal.svg"
+          }
+        }
+      ],
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://cdn.tienphong.vn/images/bdfc554ea35983ad68a96e0050b6e2cbecf42da7fad9aae72521e8fa9029205fff0b9ec645e76f9d92bd8cfe7ca2543dca736d7165b26cfae1253eaf6e40ed784c380bb60a3da757bfc9c35318a9488331a055737e7ea5757c5009670bbd6f38f55f4d4cf291e10c38303c5c973ba32b/690861991-1420555010100764-4555065667761703073-n.jpg.webp",
+          "label": "BUDAPEST FINAL",
+          "title": "PSG - Arsenal",
+          "caption": "Chung kết C1 31/05 2:00",
+          "top": "950px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#C8102E",
+          "cardBg": "rgba(5,22,16,0.85)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.56) 100%)"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ],
+      "subtitle": "Cuối cùng, niềm vui vô địch Ngoại Hạng Anh của Arsenal vẫn chưa nguội thì họ đã phải hướng mắt về Budapest. Trận chung kết Champions League lịch sử chống lại PSG sẽ diễn ra vào lúc hai giờ sáng ngày ba mươi mốt tháng năm theo giờ Việt Nam."
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Méo",
+      "subtext": "Tuần lễ bóng đá điên rồ bậc nhất lịch sử",
+      "voiceText": "Theo Méo, đây chính là tuần lễ điên rồ bậc nhất lịch sử bóng đá Châu Âu đương đại. Sự sụp đổ của Girona hay phép màu của Hull City chứng minh một sự thật hiển nhiên: bóng đá luôn ẩn chứa những kịch bản không ai có thể ngờ tới.",
+      "duration": 7,
+      "startTime": 53,
+      "bgColor": "#051610",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Bóng đá Châu Âu tuần qua như một cuốn phim bom tấn. Kẻ khóc, người cười, hào quang và vực thẳm chỉ cách nhau một khoảnh khắc nhỏ trên sân cỏ.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(5,22,16,0.92), rgba(5,22,16,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Theo Méo, đây chính là tuần lễ điên rồ bậc nhất lịch sử bóng đá Châu Âu đương đại. Sự sụp đổ của Girona hay phép màu của Hull City chứng minh một sự thật hiển nhiên: bóng đá luôn ẩn chứa những kịch bản không ai có thể ngờ tới."
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Sự kiện nào làm bạn sốc nhất tuần qua?",
+      "subtext": "Hãy để lại bình luận của bạn",
+      "voiceText": "Theo bạn, sự kiện nào làm bạn bất ngờ nhất trong tuần qua? Và liệu a se nồ có thể nâng cao chiếc cúp tai voi Champions League vĩ đại, trước pi s ji không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 7,
+      "startTime": 60,
+      "bgColor": "#051610",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Tổng hợp bóng đá Châu Âu tuần qua cùng Méo Bình Luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Ý kiến của bạn về Girona, Real Madrid hay Arsenal?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Girona xuống hạng",
+          "Dani Carvajal chia tay",
+          "Hull City thăng hạng",
+          "Harry Kane hattrick",
+          "Arsenal chung kết C1",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5.2
+        }
+      ],
+      "subtitle": "Theo bạn, sự kiện nào làm bạn bất ngờ nhất trong tuần qua? Và liệu Arsenal có thể nâng cao chiếc cúp tai voi Champions League vĩ đại trước PSG không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}
