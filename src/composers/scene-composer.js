@@ -164,7 +164,8 @@ function buildSceneCaptionHTML(scene) {
 
 function buildKaraokeSubtitleCSSHTML(scene) {
   if (!config.video.karaokeSubtitle.enabled) return '';
-  if (!scene.voiceText || scene.voiceText.trim() === '') return '';
+  const subtitleText = getSceneSubtitleText(scene);
+  if (!subtitleText) return '';
 
   const style = config.video.karaokeSubtitle.style;
   // HyperFrames sẽ preload tất cả scene từ t=0 (dù scene đang opacity:0),
@@ -172,7 +173,7 @@ function buildKaraokeSubtitleCSSHTML(scene) {
   // Offset animation theo scene.startTime để subtitle chạy đúng lúc scene bắt đầu.
   const startOffset = Number.isFinite(scene.startTime) ? scene.startTime : 0;
   const wordsPerChunk = style.wordsPerChunk || 4;
-  const words = scene.voiceText.trim().split(/\s+/);
+  const words = subtitleText.split(/\s+/);
   const totalWords = words.length;
   const durationPerWord = scene.duration / totalWords;
 
@@ -233,12 +234,13 @@ function buildKaraokeSubtitleCSSHTML(scene) {
 
 function buildKaraokeStylesCSS(scene) {
   if (!config.video.karaokeSubtitle.enabled) return '';
-  if (!scene.voiceText || scene.voiceText.trim() === '') return '';
+  const subtitleText = getSceneSubtitleText(scene);
+  if (!subtitleText) return '';
 
   const style = config.video.karaokeSubtitle.style;
   const startOffset = Number.isFinite(scene.startTime) ? scene.startTime : 0;
   const wordsPerChunk = style.wordsPerChunk || 4;
-  const words = scene.voiceText.trim().split(/\s+/);
+  const words = subtitleText.split(/\s+/);
   const totalWords = words.length;
   const durationPerWord = scene.duration / totalWords;
   const totalDuration = scene.duration;
@@ -4768,8 +4770,8 @@ function buildAnimationScript(scene) {
             const parsed = parseCompact(finalRaw);
             if (!parsed) return;
 
-            const start = parsed.unit ? parsed.mult : 1;
-            const end = Math.max(start, parsed.target);
+            const start = parsed.target <= 0 ? 0 : (parsed.unit ? parsed.mult : 1);
+            const end = parsed.target <= 0 ? 0 : Math.max(start, parsed.target);
             el.textContent = formatCompact(start, parsed.unit, parsed.plus);
 
             gsap.fromTo(
@@ -5038,6 +5040,10 @@ function initKaraokeSubtitle(sceneId, duration, voiceText) {
 function escapeHtmlForKaraoke(str) {
   if (!str) return '';
   return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+function getSceneSubtitleText(scene) {
+  return String(scene.subtitle || scene.voiceText || "").trim();
 }
 
 // Note: The initKaraokeSubtitle function needs to be available globally

@@ -14,11 +14,11 @@ export function generateSRT(storyboard, audioFiles, outputDir) {
     let srtContent = '';
     let subtitleIndex = 1;
 
-    logger.info("  Generating SRT subtitles from voiceText...");
+    logger.info("  Generating SRT subtitles from subtitle...");
 
     for (const scene of storyboard.scenes) {
-        const voiceText = scene.voiceText;
-        if (!voiceText || voiceText.trim() === '') {
+        const subtitleText = getSceneSubtitleText(scene);
+        if (!subtitleText) {
             continue;
         }
 
@@ -28,7 +28,7 @@ export function generateSRT(storyboard, audioFiles, outputDir) {
         }
 
         const startTime = scene.startTime;
-        const words = voiceText.trim().split(/\s+/);
+        const words = subtitleText.split(/\s+/);
         const durationPerWord = scene.duration / words.length;
 
         let wordStartTime = startTime;
@@ -196,4 +196,8 @@ function hexToBgr(hex) {
         return `${b}${g}${r}`;
     }
     return "FFFFFF";
+}
+
+function getSceneSubtitleText(scene) {
+    return String(scene.subtitle || scene.voiceText || '').trim();
 }

@@ -1,0 +1,653 @@
+{
+  "title": "Arsenal Chính Thức Vô Địch EPL: Từ Selhurst Park Đến Chung Kết C1 Với PSG",
+  "slug": "arsenal-vo-dich-epl-palace-chung-ket-c1-psg-2026-05-26",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "title": "Premier League 2025-26 final table - NBC Sports",
+      "url": "https://www.nbcsports.com/premier-league-table-2025-26-season-standings"
+    },
+    {
+      "title": "Crystal Palace 1-2 Arsenal: Champions finish historic season on a high",
+      "url": "https://www.skysports.com/football/crystal-palace-vs-arsenal/report/531501"
+    },
+    {
+      "title": "Arsenal celebrate Premier League in style with relaxed win at Crystal Palace",
+      "url": "https://www.theguardian.com/football/2026/may/24/crystal-palace-arsenal-premier-league-match-report"
+    },
+    {
+      "title": "PSG vs Arsenal: Champions League final preview",
+      "url": "https://www.ladbrokes.com/en/news/psg-arsenal-champions-league-final-preview-predictions-2026-05-30/"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "ARSENAL CHÍNH THỨC LÀ NHÀ VUA NƯỚC ANH!",
+      "subtext": "Premier League 2025-26 gọi tên Pháo thủ",
+      "voiceText": "a se nồ chính thức là nhà vua nước Anh! Sau hai mươi hai năm chờ đợi, Pháo thủ nâng cúp Premier League mùa hai không hai sáu, khép lại một mùa giải bản lĩnh với tám mươi lăm điểm.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#101214",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "label": "ARSENAL CHAMPIONS",
+      "imageSrc": "assets/storyboards/arsenal-vo-dich-epl-palace-chung-ket-c1-psg-2026-05-26/scene-1.jpg",
+      "cardCaption": "Arsenal ăn mừng chức vô địch Premier League 2025-26.",
+      "chips": [
+        "Arsenal",
+        "Premier League",
+        "Champions"
+      ],
+      "emoji": "🏆",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Arsenal chính thức là nhà vua nước Anh! Sau hai mươi hai năm chờ đợi, Pháo thủ nâng cúp Premier League mùa hai không hai sáu, khép lại một mùa giải bản lĩnh với tám mươi lăm điểm."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Mùa giải của nhà vô địch",
+      "subtext": "Những con số gói lại hành trình Premier League 2025-26",
+      "voiceText": "Không còn là cuộc đua dang dở. a se nồ về đích với tám mươi lăm điểm, hai mươi sáu chiến thắng, mười chín trận giữ sạch lưới, và chỉ năm lần thất bại. Một chức vô địch được xây từ kỷ luật, chiều sâu và sự lì lợm.",
+      "duration": 7,
+      "startTime": 6,
+      "bgColor": "#101214",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "🏆",
+          "value": "85",
+          "label": "điểm"
+        },
+        {
+          "icon": "⚽",
+          "value": "26",
+          "label": "trận thắng"
+        },
+        {
+          "icon": "🧤",
+          "value": "19",
+          "label": "sạch lưới"
+        },
+        {
+          "icon": "🛡️",
+          "value": "5",
+          "label": "thất bại"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Không còn là cuộc đua dang dở. Arsenal về đích với tám mươi lăm điểm, hai mươi sáu chiến thắng, mười chín trận giữ sạch lưới, và chỉ năm lần thất bại. Một chức vô địch được xây từ kỷ luật, chiều sâu và sự lì lợm."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Crystal Palace 1-2 Arsenal",
+      "subtext": "Ngày hạ màn ở Selhurst Park có cúp, bàn thắng và cả lời cảnh báo",
+      "voiceText": "Ở vòng cuối, a se nồ thắng Crystal Palace hai một tại Selhurst Park. Gabriel Jesus mở tỉ số phút bốn mươi hai, Noni Madueke nhân đôi cách biệt phút bốn mươi tám, trước khi Jean Philippe Mateta rút ngắn ở phút tám mươi chín.",
+      "duration": 6,
+      "startTime": 13,
+      "bgColor": "#101214",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Premier League - Matchday 38",
+      "minute": "FT",
+      "score": [
+        1,
+        2
+      ],
+      "teams": [
+        {
+          "name": "Crystal Palace",
+          "code": "CRY",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/crystal-palace.svg",
+          "badgeSrc": "assets/football/clubs/epl/crystal-palace.svg"
+        },
+        {
+          "name": "Arsenal",
+          "code": "ARS",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/arsenal.svg",
+          "badgeSrc": "assets/football/clubs/epl/arsenal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.28
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "CRY",
+            "ARS"
+          ],
+          "score": [
+            1,
+            2
+          ],
+          "minute": "FT",
+          "label": "Selhurst Park"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Ở vòng cuối, Arsenal thắng Crystal Palace hai một tại Selhurst Park. Gabriel Jesus mở tỉ số phút bốn mươi hai, Noni Madueke nhân đôi cách biệt phút bốn mươi tám, trước khi Jean Philippe Mateta rút ngắn ở phút tám mươi chín."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Diễn biến đáng chú ý",
+      "subtext": "Arsenal vừa xoay tua, vừa giữ nhịp chiến thắng",
+      "voiceText": "Trận hạ màn không quá căng, nhưng vẫn có nhiều chi tiết đáng xem. Max Dowman đá chính khi mới mười sáu tuổi một trăm bốn mươi bốn ngày, Martinelli dọn cỗ cho Jesus, Havertz kiến tạo từ phạt góc, còn Palace bị từ chối bàn gỡ hòa vì lỗi việt vị.",
+      "duration": 7,
+      "startTime": 19,
+      "bgColor": "#101214",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "icon": "42'",
+          "label": "Jesus",
+          "value": "Dứt điểm mở tỉ số sau pha châm ngòi của Dowman và đường chuyền của Martinelli"
+        },
+        {
+          "icon": "48'",
+          "label": "Madueke",
+          "value": "Vô lê trong vòng cấm, sau pha đánh đầu trả bóng của Havertz"
+        },
+        {
+          "icon": "89'",
+          "label": "Mateta",
+          "value": "Đánh đầu rút ngắn cho Palace, giữ trận đấu nóng đến cuối"
+        },
+        {
+          "icon": "VAR",
+          "label": "Pino",
+          "value": "Bàn gỡ hòa muộn bị hủy vì Guessand việt vị trong pha lên bóng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://static.independent.co.uk/2026/05/24/19/2278000159..",
+          "label": "Matchday 38",
+          "title": "Selhurst Park chứng kiến lễ đăng quang",
+          "caption": "",
+          "top": "950px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#E11D2E",
+          "secondaryAccentColor": "#F7C948",
+          "cardBg": "rgba(16,18,20,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.56) 100%)"
+        }
+      ],
+      "subtitle": "Trận hạ màn không quá căng, nhưng vẫn có nhiều chi tiết đáng xem. Max Dowman đá chính khi mới mười sáu tuổi một trăm bốn mươi bốn ngày, Martinelli dọn cỗ cho Jesus, Havertz kiến tạo từ phạt góc, còn Palace bị từ chối bàn gỡ hòa vì lỗi việt vị."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Cỗ máy bóng chết và hàng thủ thép",
+      "subtext": "Hai nền móng lớn nhất trong chức vô địch",
+      "voiceText": "Điểm khác biệt của a se nồ nằm ở tính ổn định. Mười chín bàn từ phạt góc là kỷ lục trong một mùa Premier League, hàng thủ giữ mười chín trận sạch lưới, và cả mùa họ không nhận thẻ đỏ, cũng không bị thổi phạt đền.",
+      "duration": 7,
+      "startTime": 26,
+      "bgColor": "#101214",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "🚩",
+          "value": "19",
+          "label": "bàn từ phạt góc"
+        },
+        {
+          "icon": "🧤",
+          "value": "19",
+          "label": "trận sạch lưới"
+        },
+        {
+          "icon": "🟥",
+          "value": "0",
+          "label": "thẻ đỏ"
+        },
+        {
+          "icon": "🎯",
+          "value": "0",
+          "label": "penalty conceded"
+        }
+      ],
+      "chartTitle": "Các trụ cột thống kê của Arsenal",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Điểm số",
+          "value": 85,
+          "percent": 100
+        },
+        {
+          "label": "Trận thắng",
+          "value": 26,
+          "percent": 82
+        },
+        {
+          "label": "Sạch lưới",
+          "value": 19,
+          "percent": 60
+        },
+        {
+          "label": "Bàn phạt góc",
+          "value": 19,
+          "percent": 60
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ],
+      "subtitle": "Điểm khác biệt của Arsenal nằm ở tính ổn định. Mười chín bàn từ phạt góc là kỷ lục trong một mùa Premier League, hàng thủ giữ mười chín trận sạch lưới, và cả mùa họ không nhận thẻ đỏ, cũng không bị thổi phạt đền."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Arsenal về đích trước Man City",
+      "subtext": "Bảy điểm tạo ra tiếng nói của nhà vô địch",
+      "voiceText": "Bảng xếp hạng cuối mùa xác nhận quyền lực mới. a se nồ vô địch với tám mươi lăm điểm, hơn Man City bảy điểm. mờ u, Aston Villa và Liverpool cùng lấy vé Champions League, trong khi Crystal Palace kết thúc ở vị trí mười lăm.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#101214",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "SỐ LIỆU",
+        "C1",
+        "BẢNG XẾP HẠNG"
+      ],
+      "standingsVariant": "club-league",
+      "season": "2025-26",
+      "highlightTeams": [
+        "ARS",
+        "CRY"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Arsenal",
+            "code": "ARS",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+          },
+          "played": 38,
+          "wins": 26,
+          "draws": 7,
+          "losses": 5,
+          "gf": 71,
+          "ga": 27,
+          "gd": 44,
+          "pts": 85
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Manchester City",
+            "code": "MCI",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/manchester-city.svg"
+          },
+          "played": 38,
+          "wins": 23,
+          "draws": 9,
+          "losses": 6,
+          "gf": 77,
+          "ga": 35,
+          "gd": 42,
+          "pts": 78
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Manchester United",
+            "code": "MUN",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/manchester-united.svg"
+          },
+          "played": 38,
+          "wins": 20,
+          "draws": 11,
+          "losses": 7,
+          "gf": 69,
+          "ga": 50,
+          "gd": 19,
+          "pts": 71
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Aston Villa",
+            "code": "AVL",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/aston-villa.svg"
+          },
+          "played": 38,
+          "wins": 19,
+          "draws": 8,
+          "losses": 11,
+          "gf": 56,
+          "ga": 49,
+          "gd": 7,
+          "pts": 65
+        },
+        {
+          "rank": 5,
+          "team": {
+            "name": "Liverpool",
+            "code": "LIV",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/liverpool-fc.svg"
+          },
+          "played": 38,
+          "wins": 17,
+          "draws": 9,
+          "losses": 12,
+          "gf": 63,
+          "ga": 53,
+          "gd": 10,
+          "pts": 60
+        },
+        {
+          "rank": 6,
+          "team": {
+            "name": "Bournemouth",
+            "code": "BOU",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/bournemouth.svg"
+          },
+          "played": 38,
+          "wins": 13,
+          "draws": 18,
+          "losses": 7,
+          "gf": 58,
+          "ga": 54,
+          "gd": 4,
+          "pts": 57
+        },
+        {
+          "rank": 7,
+          "team": {
+            "name": "Sunderland",
+            "code": "SUN",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/sunderland.svg"
+          },
+          "played": 38,
+          "wins": 14,
+          "draws": 12,
+          "losses": 12,
+          "gf": 43,
+          "ga": 49,
+          "gd": -6,
+          "pts": 54
+        },
+        {
+          "rank": 8,
+          "team": {
+            "name": "Brighton & Hove Albion",
+            "code": "BHA",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/brighton.svg"
+          },
+          "played": 38,
+          "wins": 14,
+          "draws": 11,
+          "losses": 13,
+          "gf": 53,
+          "ga": 47,
+          "gd": 6,
+          "pts": 53
+        },
+        {
+          "rank": 15,
+          "team": {
+            "name": "Crystal Palace",
+            "code": "CRY",
+            "teamType": "club",
+            "logoSrc": "assets/football/clubs/epl/crystal-palace.svg"
+          },
+          "played": 38,
+          "wins": 11,
+          "draws": 12,
+          "losses": 15,
+          "gf": 41,
+          "ga": 51,
+          "gd": -10,
+          "pts": 45
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Bảng xếp hạng cuối mùa xác nhận quyền lực mới. Arsenal vô địch với tám mươi lăm điểm, hơn Man City bảy điểm. Man U, Aston Villa và Liverpool cùng lấy vé Champions League, trong khi Crystal Palace kết thúc ở vị trí mười lăm."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Trước mắt là PSG ở Budapest",
+      "subtext": "Chung kết Champions League, ngày 30 tháng 5",
+      "voiceText": "Niềm vui Premier League chưa nguội, a se nồ đã phải nhìn sang Budapest. Chung kết Champions League gặp pa rís sen ger mình diễn ra lúc hai giờ sáng, ngày ba mươi mốt tháng năm theo giờ Việt Nam, tại Puskas Arena.",
+      "duration": 6,
+      "startTime": 40,
+      "bgColor": "#101214",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "activeTab": "CHUNG KẾT C1",
+      "tabs": [
+        "CHUNG KẾT C1",
+        "LỊCH",
+        "ĐỘI HÌNH",
+        "NHẬN ĐỊNH"
+      ],
+      "ctaLabel": "BUDAPEST FINAL",
+      "fixtures": [
+        {
+          "group": "UEFA Champions League Final",
+          "date": "31/05",
+          "time": "02:00 VN",
+          "home": {
+            "name": "PSG",
+            "code": "PSG",
+            "teamType": "club",
+            "flag": "assets/football/clubs/ligue-1/paris-saint-germain.svg",
+            "logoSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg",
+            "badgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+          },
+          "away": {
+            "name": "Arsenal",
+            "code": "ARS",
+            "teamType": "club",
+            "flag": "assets/football/clubs/epl/arsenal.svg"
+          }
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4,
+          "top": "76%",
+          "size": 82
+        }
+      ],
+      "subtitle": "Niềm vui Premier League chưa nguội, Arsenal đã phải nhìn sang Budapest. Chung kết Champions League gặp Paris Saint Germain diễn ra lúc hai giờ sáng, ngày ba mươi mốt tháng năm theo giờ Việt Nam, tại Puskas Arena."
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Méo",
+      "subtext": "Arsenal có thể mơ cú đúp lịch sử?",
+      "voiceText": "Theo Méo, trận gặp Pi S Ji sẽ là bài kiểm tra tàn nhẫn nhất cho a se nồ. Pháo thủ có cấu trúc phòng ngự tốt, tinh thần đang ở đỉnh, nhưng Pi S Ji sở hữu tốc độ và chất lượng cá nhân đủ để trừng phạt chỉ một khoảnh khắc mất tập trung.",
+      "duration": 8,
+      "startTime": 46,
+      "bgColor": "#101214",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "quote": "Nếu Arsenal thắng PSG, mùa giải này sẽ không chỉ là chức vô địch nước Anh, mà là tuyên ngôn rằng một chu kỳ lớn thật sự đã bắt đầu ở Emirates.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(16,18,20,0.92), rgba(16,18,20,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Theo Méo, trận gặp PSG sẽ là bài kiểm tra tàn nhẫn nhất cho Arsenal. Pháo thủ có cấu trúc phòng ngự tốt, tinh thần đang ở đỉnh, nhưng PSG sở hữu tốc độ và chất lượng cá nhân đủ để trừng phạt chỉ một khoảnh khắc mất tập trung."
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Arsenal có hoàn tất cú đúp trước PSG?",
+      "subtext": "Hãy để lại dự đoán của bạn",
+      "voiceText": "Bạn nghĩ sao về mùa giải vô địch của a se nồ? Và trong trận chung kết Champions League với Pi S Ji, Pháo thủ có đủ bản lĩnh để hoàn tất cú đúp lịch sử không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 54,
+      "bgColor": "#101214",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Arsenal vô địch EPL - Hướng tới chung kết C1",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán Arsenal vs PSG: ai nâng cúp C1?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Arsenal",
+          "Premier League",
+          "PSG",
+          "Champions League",
+          "Budapest",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.8
+        }
+      ],
+      "subtitle": "Bạn nghĩ sao về mùa giải vô địch của Arsenal? Và trong trận chung kết Champions League với PSG, Pháo thủ có đủ bản lĩnh để hoàn tất cú đúp lịch sử không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}

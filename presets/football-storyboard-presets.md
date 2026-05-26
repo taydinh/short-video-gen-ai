@@ -9,6 +9,12 @@ Nguồn mẫu:
 
 ## Ghi Chú Chung
 
+### Quy Đổi Múi Giờ Lịch Thi Đấu
+
+- Toàn bộ lịch thi đấu trong storyboard phải quy đổi sang múi giờ Việt Nam (`UTC+7`) trước khi ghi vào JSON, bao gồm `voiceText`, `date`, `time`, `ctaLabel`, `subtext`, `fixtures` và mọi field hiển thị thời gian khác.
+- Khi nguồn dùng múi giờ khác như BST, CET, CEST, GMT, ET hoặc giờ địa phương của sân, phải tính lại ngày giờ theo Việt Nam. Nếu sau quy đổi bị sang ngày hôm sau, phải ghi đúng ngày mới trong cả lời đọc và field lịch thi đấu.
+- Trong `voiceText`, không đọc theo giờ nước ngoài nếu nội dung hướng tới khán giả Việt Nam. Ví dụ: `20:00 BST ngày 30/05` phải đổi thành `hai giờ sáng, ngày ba mươi mốt tháng năm theo giờ Việt Nam`.
+
 ### Composition `football-standings-table`
 
 - Khi dùng composition `football-standings-table`, bảng xếp hạng phải lấy ít nhất 7 đội xung quanh 2 đội bóng đang được nói tới. Nếu bối cảnh cần nhìn rộng hơn, có thể lấy từ vị trí số 1 đến vị trí thấp nhất của đội liên quan, hoặc lấy thêm các đội trong cùng cuộc đua.
@@ -17,6 +23,13 @@ Nguồn mẫu:
 
 - Manchester United có thể ghi tắt và đọc tắt là `Man U` hoặc `MU` (đọc là `Mờ U`), nhưng không được ghi hoặc đọc chỉ là `United`.
 - Manchester City có thể ghi tắt và đọc tắt là `Man City` hoặc `MC` (đọc là `Mờ C`), nhưng không được ghi hoặc đọc chỉ là `City`.
+- Trong `voiceText`, các tên đội sau phải viết theo phiên âm để TTS đọc ổn định. Quy tắc này chỉ áp dụng cho `voiceText`; các field hiển thị trên video như `subtitle`, `title`, `subtext`, `teams`, `promo`, `sources` phải giữ tên chính thức/bản gốc để người xem đọc đúng thương hiệu:
+  - `Arsenal` viết là `a se nồ`.
+  - `Paris Saint Germain` viết là `pa rís sen ger mình`.
+  - `PSG` viết là `Pi S Ji`.
+  - `Man U` viết là `mờ u`.
+- Trong `voiceText`, tên đội tuyển/quốc gia `Uzbekistan` phải viết là `Uz bê kits tan` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `teams`, `fixtures`, `sources` vẫn giữ tên chính thức/bản gốc.
+- Trong `voiceText`, tên cầu thủ `Kevin De Bruyne` phải viết là `Kê Vin Đờ Broai Nơ` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `player`, `cards`, `sources` vẫn giữ tên chính thức/bản gốc.
 
 ### Hiển Thị Logo Và Cấu Hình Flag Đội Bóng
 

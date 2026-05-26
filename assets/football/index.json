@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-22T02:37:59.385Z",
+  "updatedAt": "2026-05-26T04:29:30.729Z",
   "records": [
     {
       "id": "wc2026:canada",
@@ -499,7 +499,7 @@
       },
       "badge": {
         "type": "flag",
-        "path": null,
+        "path": "assets/football/flags/colombia.png",
         "sourceUrl": null,
         "licenseName": null,
         "licenseUrl": null
@@ -3009,6 +3009,445 @@
         "licenseUrl": "https://football-logos.cc/saudi-arabia/saudi-professional-league/"
       },
       "updatedAt": "2026-05-22T02:37:46.561Z"
+    },
+    {
+      "id": "ligue-1",
+      "kind": "tournament",
+      "competition": "ligue-1",
+      "name": "Ligue 1",
+      "aliases": [
+        "Ligue 1 McDonald's",
+        "French Ligue 1"
+      ],
+      "codes": {
+        "short": "L1"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/tournaments/france_ligue-1.football-logos.cc.svg",
+        "sourceUrl": "https://football-logos.cc/france/ligue-1/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/ligue-1.0cc44ebd.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:paris-saint-germain",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Paris Saint-Germain (PSG)",
+      "aliases": [
+        "PSG",
+        "Paris SG",
+        "Paris Saint-Germain"
+      ],
+      "codes": {
+        "short": "PSG"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/paris-saint-germain.svg",
+        "sourceUrl": "https://football-logos.cc/france/paris-saint-germain/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/paris-saint-germain.3259f37e.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:angers",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Angers",
+      "aliases": [
+        "Angers SCO",
+        "SCO Angers"
+      ],
+      "codes": {
+        "short": "ANG"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/angers.svg",
+        "sourceUrl": "https://football-logos.cc/france/angers/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/angers.ab05fa15.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:auxerre",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Auxerre",
+      "aliases": [
+        "AJ Auxerre",
+        "AJA"
+      ],
+      "codes": {
+        "short": "AJA"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/auxerre.svg",
+        "sourceUrl": "https://football-logos.cc/france/auxerre/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/auxerre.6efc07b8.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:brest",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Brest",
+      "aliases": [
+        "Stade Brestois",
+        "Stade Brestois 29"
+      ],
+      "codes": {
+        "short": "BRE"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/brest.svg",
+        "sourceUrl": "https://football-logos.cc/france/brest/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/brest.b0b54212.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:le-havre-ac",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Le Havre AC",
+      "aliases": [
+        "Le Havre",
+        "HAC"
+      ],
+      "codes": {
+        "short": "HAC"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/le-havre-ac.svg",
+        "sourceUrl": "https://football-logos.cc/france/le-havre-ac/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/le-havre-ac.8beb3c76.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:rc-lens",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "RC Lens",
+      "aliases": [
+        "Lens",
+        "Racing Club de Lens"
+      ],
+      "codes": {
+        "short": "RCL"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/rc-lens.svg",
+        "sourceUrl": "https://football-logos.cc/france/rc-lens/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/rc-lens.05ddeba2.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:lille",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Lille",
+      "aliases": [
+        "LOSC Lille",
+        "LOSC"
+      ],
+      "codes": {
+        "short": "LOSC"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/lille.svg",
+        "sourceUrl": "https://football-logos.cc/france/lille/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/lille.682b7a4f.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:lorient",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Lorient FC",
+      "aliases": [
+        "FC Lorient",
+        "Lorient"
+      ],
+      "codes": {
+        "short": "FCL"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/lorient.svg",
+        "sourceUrl": "https://football-logos.cc/france/lorient/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/lorient.a67166bb.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:lyon",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Olympique Lyonnais",
+      "aliases": [
+        "Lyon",
+        "Olympique Lyonnais",
+        "OL"
+      ],
+      "codes": {
+        "short": "OL"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/lyon.svg",
+        "sourceUrl": "https://football-logos.cc/france/lyon/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/lyon.05fe1f9a.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:marseille",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Marseille",
+      "aliases": [
+        "Olympique de Marseille",
+        "OM"
+      ],
+      "codes": {
+        "short": "OM"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/marseille.svg",
+        "sourceUrl": "https://football-logos.cc/france/marseille/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/marseille.6f770410.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:as-monaco",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "AS Monaco",
+      "aliases": [
+        "Monaco",
+        "AS Monaco FC"
+      ],
+      "codes": {
+        "short": "ASM"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/as-monaco.svg",
+        "sourceUrl": "https://football-logos.cc/france/as-monaco/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/as-monaco.1d58091e.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:nantes",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Nantes",
+      "aliases": [
+        "FC Nantes"
+      ],
+      "codes": {
+        "short": "FCN"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/nantes.svg",
+        "sourceUrl": "https://football-logos.cc/france/nantes/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/nantes.0b1f15bf.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:nice",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Nice",
+      "aliases": [
+        "OGC Nice",
+        "Nice"
+      ],
+      "codes": {
+        "short": "OGCN"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/nice.svg",
+        "sourceUrl": "https://football-logos.cc/france/nice/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/nice.56debe22.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:paris-fc",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Paris FC",
+      "aliases": [
+        "Paris FC",
+        "PFC"
+      ],
+      "codes": {
+        "short": "PFC"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/paris-fc.svg",
+        "sourceUrl": "https://football-logos.cc/france/paris-fc/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/paris-fc.761834b9.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:rennes",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Rennes",
+      "aliases": [
+        "Stade Rennais",
+        "Stade Rennais FC"
+      ],
+      "codes": {
+        "short": "SRFC"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/rennes.svg",
+        "sourceUrl": "https://football-logos.cc/france/rennes/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/rennes.f07dde44.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:rc-strasbourg-alsace",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "RC Strasbourg Alsace",
+      "aliases": [
+        "Strasbourg",
+        "RC Strasbourg",
+        "RCSA"
+      ],
+      "codes": {
+        "short": "RCSA"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/rc-strasbourg-alsace.svg",
+        "sourceUrl": "https://football-logos.cc/france/rc-strasbourg-alsace/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/rc-strasbourg-alsace.fdc28595.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:toulouse",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "Toulouse",
+      "aliases": [
+        "Toulouse FC",
+        "TFC"
+      ],
+      "codes": {
+        "short": "TFC"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/toulouse.svg",
+        "sourceUrl": "https://football-logos.cc/france/toulouse/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/toulouse.c663409c.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
+    },
+    {
+      "id": "ligue-1:fc-metz",
+      "kind": "club",
+      "competition": "ligue-1",
+      "name": "FC Metz",
+      "aliases": [
+        "Metz",
+        "FC Metz"
+      ],
+      "codes": {
+        "short": "FCM"
+      },
+      "badge": {
+        "type": "logo",
+        "path": "assets/football/clubs/ligue-1/fc-metz.svg",
+        "sourceUrl": "https://football-logos.cc/france/fc-metz/",
+        "sourceSvgUrl": null,
+        "sourcePngUrl": "https://assets.football-logos.cc/logos/france/1500x1500/fc-metz.d284830e.png",
+        "licenseName": "Editorial use; logos are property of their respective owners",
+        "licenseUrl": "https://football-logos.cc/france/ligue-1/"
+      },
+      "updatedAt": "2026-05-26T04:29:18.261Z"
     }
   ]
 }

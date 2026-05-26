@@ -13,6 +13,7 @@
  *       composition: string,
  *       title: string,
  *       voiceText: string,   // Dùng cho TTS
+ *       subtitle: string,    // Dùng để hiển thị subtitle trên video
  *       omnivoiceRefPreset?: "neutral"|"hype"|"serious"|"sad", // (optional) cảm xúc giọng (approx bằng ref audio preset)
  *       omnivoiceRefAudioPath?: string, // (optional) override đường dẫn ref audio theo scene
  *       subtext: string,     // Hiển thị trên màn hình (karaoke)
@@ -108,14 +109,16 @@ QUY TẮC RIÊNG CHO "kinetic-title" (Scene 6):
 - Cách làm khuyến nghị: thêm "terminalTitle" và "terminalLines" (3–6 dòng) để tạo hiệu ứng kinetic-title + terminal (log/command/metrics ngắn, đúng ngữ cảnh scene).
 - "terminalLines": mỗi dòng có { "type": "prompt" | "output", "text": string }. Ưu tiên 1 dòng prompt + 2–5 dòng output.
 
-⚠️ PHÂN BIỆT voiceText VÀ subtext:
+⚠️ PHÂN BIỆT voiceText, subtitle VÀ subtext:
 - voiceText: Lời thoại TTS (ƯU TIÊN < 200 từ/scene để tránh giới hạn TTS; có thể vượt 200 nếu thật cần thiết) - TỰ NHIÊN, ĐỌC TOÀN BỘ NỘI DUNG
+- subtitle: Nội dung subtitle hiển thị theo lời thoại trên video. Mặc định giống voiceText, nhưng có thể chỉnh riêng cho dễ đọc mà không ảnh hưởng TTS.
 - subtext: Văn bản hiển thị trên màn hình (5-15 từ) - NGẮN GỌN, SÚC TÍCH, DỄ NHÌN
 - karaokeStyle: "highlight" (tô màu từ đang đọc) | "underline" (gạch chân) | "none"
 
 Ví dụ đúng:
 {
   "voiceText": "Trí tuệ nhân tạo đang thay đổi cách chúng ta làm việc và sinh sống mỗi ngày. Đây là cuộc cách mạng công nghệ lớn nhất thế kỷ 21.",
+  "subtitle": "Trí tuệ nhân tạo đang thay đổi cách chúng ta làm việc và sinh sống mỗi ngày. Đây là cuộc cách mạng công nghệ lớn nhất thế kỷ 21.",
   "subtext": "AI: Cuộc cách mạng công nghệ",
   "karaokeStyle": "highlight"
 }
@@ -218,6 +221,7 @@ export async function generateStoryboard(content, title, outputDir) {
       composition: scene.composition || getDefaultComposition(i),
       title: scene.title || `Scene ${i + 1}`,
       voiceText,
+      subtitle: scene.subtitle || voiceText,
       subtext: scene.subtext || generateSubtext(scene.title, scene.voiceText),
       karaokeStyle: scene.karaokeStyle || "underline",
       bgColor: scene.bgColor || config.video.themes[i % config.video.themes.length].bg,

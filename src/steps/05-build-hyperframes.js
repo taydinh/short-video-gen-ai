@@ -360,8 +360,8 @@ function buildPhraseCaptionCalls(storyboard) {
   for (const scene of storyboard.scenes) {
     const start = Number.isFinite(scene.startTime) ? scene.startTime : 0;
     const dur = Number.isFinite(scene.duration) ? scene.duration : 4;
-    const voiceText = scene.voiceText || "";
-    const parts = splitVoiceTextToPhrases(voiceText, { minWords, maxWords });
+    const subtitleText = getSceneSubtitleText(scene);
+    const parts = splitVoiceTextToPhrases(subtitleText, { minWords, maxWords });
     if (parts.length === 0) continue;
 
     // allocate time by word count (smoother than equal split)
@@ -396,6 +396,10 @@ function buildPhraseCaptionCalls(storyboard) {
         gsap.to("#phrase-caption", { opacity: 0, duration: ${fadeOut}, ease: "power2.in" });
       }, [], ${hideAt.toFixed(3)});`;
   }).join("");
+}
+
+function getSceneSubtitleText(scene) {
+  return String(scene.subtitle || scene.voiceText || "").trim();
 }
 
 function splitVoiceTextToPhrases(text, { minWords, maxWords }) {

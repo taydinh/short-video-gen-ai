@@ -1,0 +1,538 @@
+{
+  "title": "Bruno Fernandes Đi Vào Lịch Sử Premier League: Kỷ Lục 21 Kiến Tạo Vô Tiền Khoáng Hậu",
+  "slug": "bruno-fernandes-ky-luc-kien-tao-premier-league-2026",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "title": "Bruno Fernandes đi vào lịch sử Premier League",
+      "url": "https://www.msn.com/vi-vn/sports/other/bruno-fernandes-%C4%91i-v%C3%A0o-l%E1%BB%8Bch-s%E1%BB%AD-premier-league/ar-AA23XToT"
+    },
+    {
+      "title": "Bruno Fernandes breaks Premier League single-season assist record",
+      "url": "https://www.premierleague.com/news/bruno-fernandes-assist-record-2025-26"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "BRUNO FERNANDES CHÍNH THỨC ĐI VÀO LỊCH SỬ PREMIER LEAGUE!",
+      "subtext": "Kỷ lục vô tiền khoáng hậu với 21 pha dọn cỗ",
+      "voiceText": "Bruno Fernandes chính thức đi vào lịch sử Premier League! Xin chúc mừng Bruno và các fan Quỷ Đỏ thành Manchester, khi người đội trưởng mẫu mực đã chính thức thiết lập kỷ lục dọn cỗ vĩ đại nhất kỷ nguyên Ngoại Hạng Anh.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#0B0C0E",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#FFE500",
+      "textColor": "#FFFFFF",
+      "label": "KỶ LỤC LỊCH SỬ",
+      "imageSrc": "assets/storyboards/bruno-fernandes-ky-luc-kien-tao-premier-league-2026/scene-1.jpg",
+      "cardCaption": "Bruno Fernandes chính thức thiết lập kỷ lục 21 pha kiến tạo trong một mùa giải.",
+      "chips": [
+        "Bruno Fernandes",
+        "Manchester United",
+        "Kiến tạo"
+      ],
+      "emoji": "😈",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Bruno Fernandes chính thức đi vào lịch sử Premier League! Xin chúc mừng Bruno và các fan Quỷ Đỏ thành Manchester, khi người đội trưởng mẫu mực đã chính thức thiết lập kỷ lục dọn cỗ vĩ đại nhất kỷ nguyên Ngoại Hạng Anh."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Ông hoàng gánh team mùa giải",
+      "subtext": "Tổng quan những con số biết nói của Bruno Fernandes",
+      "voiceText": "Không chỉ dừng lại ở con số hai mươi mốt pha kiến tạo siêu uy tín, Bruno còn ẵm luôn giải Cầu thủ xuất sắc nhất mùa của giải đấu, giúp mờ u chễm chệ cán đích trong top ba kèm một tấm vé trở lại Champions League danh giá.",
+      "duration": 7,
+      "startTime": 6,
+      "bgColor": "#0B0C0E",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#FFE500",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "🎯",
+          "value": "21",
+          "label": "kiến tạo kỷ lục"
+        },
+        {
+          "icon": "👑",
+          "value": "1",
+          "label": "Cầu thủ xuất sắc nhất"
+        },
+        {
+          "icon": "😈",
+          "value": "Top 3",
+          "label": "thành tích Quỷ Đỏ"
+        },
+        {
+          "icon": "🇪🇺",
+          "value": "C1",
+          "label": "vé Champions League"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DA020E"
+        }
+      ],
+      "subtitle": "Không chỉ dừng lại ở con số 21 pha kiến tạo siêu uy tín, Bruno còn ẵm luôn giải Cầu thủ xuất sắc nhất mùa của giải đấu, giúp Man U chễm chệ cán đích trong top 3 kèm một tấm vé trở lại Champions League danh giá."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Vượt mặt các huyền thoại",
+      "subtext": "Hành trình Bruno bước lên ngai vàng chân chuyền",
+      "voiceText": "Để đạt cột mốc này, nhạc trưởng người Bồ đã chính thức vượt qua kỷ lục hai mươi kiến tạo, của Thierry Henry mùa hai không lẻ hai, hai không lẻ ba, và Kê Vin Đờ Broai Nơ mùa hai không mười chín, hai không hai mươi. Đúng là đẳng cấp không cần bàn cãi!",
+      "duration": 7,
+      "startTime": 13,
+      "bgColor": "#0B0C0E",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#FFE500",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Assist Milestones",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "Henry 02/03",
+          "title": "20 kiến tạo"
+        },
+        {
+          "stage": "KDB 19/20",
+          "title": "20 kiến tạo"
+        },
+        {
+          "stage": "Bruno 25/26",
+          "title": "21 kiến tạo - Kỷ lục mới"
+        }
+      ],
+      "secondaryComposition": "flashcard-gallery",
+      "layout": "horizontal",
+      "cards": [
+        {
+          "imageSrc": "assets/storyboards/bruno-fernandes-ky-luc-kien-tao-premier-league-2026/henry.png",
+          "text": "Thierry Henry",
+          "caption": "20 kiến tạo"
+        },
+        {
+          "imageSrc": "assets/storyboards/bruno-fernandes-ky-luc-kien-tao-premier-league-2026/debruyne.png",
+          "text": "Kevin De Bruyne",
+          "caption": "20 kiến tạo"
+        },
+        {
+          "imageSrc": "assets/storyboards/bruno-fernandes-ky-luc-kien-tao-premier-league-2026/bruno.png",
+          "text": "Bruno Fernandes",
+          "caption": "21 kiến tạo"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/storyboards/bruno-fernandes-ky-luc-kien-tao-premier-league-2026/scene-1.jpg",
+          "opacity": 0.18,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(11,12,14,0.92), rgba(11,12,14,0.55))"
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 82
+        }
+      ],
+      "subtitle": "Để đạt cột mốc này, nhạc trưởng người Bồ đã chính thức vượt qua kỷ lục 20 kiến tạo của Thierry Henry mùa 2002/03 và Kevin De Bruyne mùa 2019/20. Đúng là đẳng cấp không cần bàn cãi!"
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Spotlight: Bruno Fernandes",
+      "subtext": "Trái tim và buồng phổi của Quỷ Đỏ",
+      "voiceText": "Cày ải không biết mệt mỏi, Bruno Fernandes chính là linh hồn của Quỷ Đỏ. Pha kiến tạo lịch sử cho Patrick Dorgu ghi bàn ở vòng cuối trước Brighton chính là phần thưởng ngọt ngào cho nỗ lực phi thường suốt cả mùa giải.",
+      "duration": 7,
+      "startTime": 20,
+      "bgColor": "#0B0C0E",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#FFE500",
+      "textColor": "#FFFFFF",
+      "player": "Bruno Fernandes",
+      "team": "Manchester United",
+      "number": "8",
+      "playerImageUrl": "https://scontent.fsgn2-3.fna.fbcdn.net/v/t51.82787-15/706483505_18595616500048574_5727681289416771172_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tuqRtKOVH9wQ7kNvwE5iaQW&_nc_oc=AdoIeTCD_otIPwMYc0OuBVYC-bpFueReoRrcypwv53UpwIahjOfkOIMR-DCmEwuUHds&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=ELHOLVAURB0tlZyRb-WsWA&_nc_ss=7b2a8&oh=00_Af7kYeinH-ZGsh0kRZYe73WypTzWaUtC6y1Guq8DIqXvIw&oe=6A1B49AE",
+      "stats": [
+        {
+          "label": "Kiến tạo",
+          "value": "21"
+        },
+        {
+          "label": "Bàn thắng",
+          "value": "15"
+        },
+        {
+          "label": "Số trận",
+          "value": "38"
+        },
+        {
+          "label": "Danh hiệu",
+          "value": "Player of the Season"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DA020E"
+        }
+      ],
+      "subtitle": "Cày ải không biết mệt mỏi, Bruno Fernandes chính là linh hồn của Quỷ Đỏ. Pha kiến tạo lịch sử cho Patrick Dorgu ghi bàn ở vòng cuối trước Brighton chính là phần thưởng ngọt ngào cho nỗ lực phi thường suốt cả mùa giải."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Sánh vai cùng các siêu sao châu Âu",
+      "subtext": "Top những chân chuyền vĩ đại nhất một mùa giải ở châu Âu",
+      "voiceText": "Với hai mươi mốt pha dọn cỗ, Bruno không chỉ xưng vương tại nước Anh mà còn chính thức cân bằng kỷ lục chân chuyền đỉnh nhất năm giải vô địch quốc gia hàng đầu châu Âu của Lionel Messi và Thomas Muller.",
+      "duration": 7,
+      "startTime": 27,
+      "bgColor": "#0B0C0E",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#FFE500",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "🇵🇹",
+          "value": "21",
+          "label": "Bruno (25/26)"
+        },
+        {
+          "icon": "🇦🇷",
+          "value": "21",
+          "label": "Messi (19/20)"
+        },
+        {
+          "icon": "🇩🇪",
+          "value": "21",
+          "label": "Müller (19/20)"
+        },
+        {
+          "icon": "👑",
+          "value": "Top 1",
+          "label": "Châu Âu"
+        }
+      ],
+      "chartTitle": "Kỷ lục kiến tạo một mùa giải tại châu Âu",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Bruno Fernandes",
+          "value": 21,
+          "percent": 100
+        },
+        {
+          "label": "Lionel Messi",
+          "value": 21,
+          "percent": 100
+        },
+        {
+          "label": "Thomas Müller",
+          "value": 21,
+          "percent": 100
+        },
+        {
+          "label": "Thierry Henry",
+          "value": 20,
+          "percent": 95
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ],
+      "subtitle": "Với 21 pha dọn cỗ, Bruno không chỉ xưng vương tại nước Anh mà còn chính thức cân bằng kỷ lục chân chuyền đỉnh nhất 5 giải vô địch quốc gia hàng đầu châu Âu của Lionel Messi và Thomas Müller."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Nhạc trưởng Bồ Đào Nha tại World Cup",
+      "subtext": "Vai trò then chốt của Bruno tại ngày hội bóng đá lớn nhất hành tinh",
+      "voiceText": "Không dừng lại ở cấp câu lạc bộ, Bruno Fernandes sẽ là hạt nhân cực kỳ quan trọng dẫn dắt đội tuyển Bồ Đào Nha tại World Cup hai không hai sáu sắp tới. Khi Ronaldo đã bước sang sườn dốc sự nghiệp, mọi đường bóng tấn công của Selecao châu Âu sẽ phải qua chân của nhạc trưởng mờ u.",
+      "duration": 7,
+      "startTime": 34,
+      "bgColor": "#0B0C0E",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#FFE500",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "icon": "🎼",
+          "label": "Nhạc trưởng",
+          "value": "Linh hồn tuyến giữa của Selecao châu Âu"
+        },
+        {
+          "icon": "🚀",
+          "label": "Kiến thiết",
+          "value": "Cung cấp bóng cho các siêu sao tấn công"
+        },
+        {
+          "icon": "🎯",
+          "label": "Đá phạt",
+          "value": "Ông vua của các tình huống cố định"
+        },
+        {
+          "icon": "👑",
+          "label": "Thủ lĩnh",
+          "value": "Chỗ dựa tinh thần cực lớn khi Ronaldo lùi lại"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://images.performgroup.com/di/library/omnisport/af/7d/cristiano-ronaldo-and-bruno-fernandes_1pfgyofvxt5sz1d72b9farx9h7.png?t=898937755&w=1200&h=630",
+          "label": "WORLD CUP 2026",
+          "title": "Nhạc trưởng gánh vác Selecao",
+          "caption": "Bruno Fernandes sẵn sàng dẫn dắt Bồ Đào Nha chinh phục cúp vàng thế giới.",
+          "top": "950px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#DA020E",
+          "secondaryAccentColor": "#FFE500",
+          "cardBg": "rgba(10,19,28,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        }
+      ],
+      "subtitle": "Không dừng lại ở cấp câu lạc bộ, Bruno Fernandes sẽ là hạt nhân cực kỳ quan trọng dẫn dắt đội tuyển Bồ Đào Nha tại World Cup 2026 sắp tới. Khi Ronaldo đã bước sang sườn dốc sự nghiệp, mọi đường bóng tấn công của Selecao châu Âu sẽ phải qua chân của nhạc trưởng Man U."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Hành trình World Cup 2026",
+      "subtext": "Lịch thi đấu vòng bảng của đội tuyển Bồ Đào Nha",
+      "voiceText": "World Cup hai không hai sáu sẽ khởi tranh vào tháng sáu này. Bồ Đào Nha nằm ở bảng Ca, gặp Cộng hòa dân chủ Công gô, Uz bê kits tan, và Cô lôm bi a. Hãy cùng chờ xem nhạc trưởng của chúng ta sẽ đưa đội bóng đi xa đến đâu nhé.",
+      "duration": 6,
+      "startTime": 41,
+      "bgColor": "#0B0C0E",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#FFE500",
+      "textColor": "#FFFFFF",
+      "activeTab": "VÒNG BẢNG",
+      "tabs": [
+        "VÒNG BẢNG",
+        "CHUẨN BỊ",
+        "ĐỘI HÌNH",
+        "MỤC TIÊU"
+      ],
+      "ctaLabel": "WORLD CUP 2026",
+      "fixtures": [
+        {
+          "group": "Bảng K - World Cup 2026",
+          "date": "18/06",
+          "time": "00:00 VN",
+          "home": {
+            "name": "DR Congo",
+            "code": "COD",
+            "teamType": "national",
+            "flag": "assets/football/flags/dr-congo.svg",
+            "flagSrc": "assets/football/flags/dr-congo.svg",
+            "badgeSrc": "assets/football/flags/dr-congo.svg"
+          },
+          "away": {
+            "name": "Bồ Đào Nha",
+            "code": "POR",
+            "teamType": "national",
+            "flag": "assets/football/flags/portugal.svg",
+            "flagSrc": "assets/football/flags/portugal.svg",
+            "badgeSrc": "assets/football/flags/portugal.svg"
+          }
+        },
+        {
+          "group": "Bảng K - World Cup 2026",
+          "date": "24/06",
+          "time": "00:00 VN",
+          "home": {
+            "name": "Uzbekistan",
+            "code": "UZB",
+            "teamType": "national",
+            "flag": "assets/football/flags/uzbekistan.svg",
+            "flagSrc": "assets/football/flags/uzbekistan.svg",
+            "badgeSrc": "assets/football/flags/uzbekistan.svg"
+          },
+          "away": {
+            "name": "Bồ Đào Nha",
+            "code": "POR",
+            "teamType": "national",
+            "flag": "assets/football/flags/portugal.svg",
+            "flagSrc": "assets/football/flags/portugal.svg",
+            "badgeSrc": "assets/football/flags/portugal.svg"
+          }
+        },
+        {
+          "group": "Bảng K - World Cup 2026",
+          "date": "28/06",
+          "time": "06:30 VN",
+          "home": {
+            "name": "Bồ Đào Nha",
+            "code": "POR",
+            "teamType": "national",
+            "flag": "assets/football/flags/portugal.svg",
+            "flagSrc": "assets/football/flags/portugal.svg",
+            "badgeSrc": "assets/football/flags/portugal.svg"
+          },
+          "away": {
+            "name": "Colombia",
+            "code": "COL",
+            "teamType": "national",
+            "flag": "assets/football/flags/colombia.png",
+            "flagSrc": "assets/football/flags/colombia.png",
+            "badgeSrc": "assets/football/flags/colombia.png"
+          }
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4,
+          "top": "76%",
+          "size": 82
+        }
+      ],
+      "subtitle": "World Cup 2026 sẽ khởi tranh vào tháng 6 này. Bồ Đào Nha nằm ở bảng K, gặp CHDC Congo, Uzbekistan, và Colombia. Hãy cùng chờ xem nhạc trưởng của chúng ta sẽ đưa đội bóng đi xa đến đâu nhé."
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Méo",
+      "subtext": "Gánh nặng lịch sử trên vai Bruno",
+      "voiceText": "Theo Méo, danh hiệu Cầu thủ xuất sắc nhất năm của Premier League hoàn toàn thuộc về Bruno mà không cần bàn cãi. Ở độ chín của sự nghiệp, Bruno Fernandes đang mang trên mình kỳ vọng khổng lồ của cả câu lạc bộ lẫn đội tuyển quốc gia.",
+      "duration": 7,
+      "startTime": 47,
+      "bgColor": "#0B0C0E",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#FFE500",
+      "textColor": "#FFFFFF",
+      "quote": "Kỷ lục kiến tạo chỉ là con số, nhưng cách Bruno Fernandes cày ải và dẫn dắt tập thể mới là điều biến anh trở thành một trong những tiền vệ vĩ đại nhất kỷ nguyên hiện đại.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(16,18,20,0.92), rgba(16,18,20,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DA020E"
+        }
+      ],
+      "subtitle": "Theo Méo, danh hiệu Cầu thủ xuất sắc nhất năm của Premier League hoàn toàn thuộc về Bruno mà không cần bàn cãi. Ở độ chín của sự nghiệp, Bruno Fernandes đang mang trên mình kỳ vọng khổng lồ của cả câu lạc bộ lẫn đội tuyển quốc gia."
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bruno Fernandes có xứng đáng là tiền vệ xuất sắc nhất lịch sử MU?",
+      "subtext": "Hãy để lại bình luận của bạn",
+      "voiceText": "Bạn nghĩ sao về mùa giải siêu hạng của Bruno Fernandes? Và liệu anh có thể gánh Bồ Đào Nha lên ngôi vô địch World Cup hai không hai sáu không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 54,
+      "bgColor": "#0B0C0E",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#FFE500",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Bruno Fernandes lập kỷ lục kiến tạo Premier League",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Nhập ý kiến: Bruno Fernandes đứng thứ mấy trong các huyền thoại MU?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Bruno Fernandes",
+          "Manchester United",
+          "Kỷ lục kiến tạo",
+          "Premier League",
+          "World Cup 2026",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.8
+        }
+      ],
+      "subtitle": "Bạn nghĩ sao về mùa giải siêu hạng của Bruno Fernandes? Và liệu anh có thể gánh Bồ Đào Nha lên ngôi vô địch World Cup 2026 không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}
