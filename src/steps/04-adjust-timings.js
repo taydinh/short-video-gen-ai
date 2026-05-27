@@ -11,6 +11,18 @@ import { logger } from "../utils/logger.js";
 const AUDIO_BUFFER = 0.3;    // Seconds after audio ends before scene transitions
 const MIN_SCENE_DURATION = 2; // Minimum scene duration in seconds
 
+function parseTimestampToSeconds(ts) {
+  if (!ts) return 0;
+  const parts = ts.replace(",", ".").split(":");
+  if (parts.length === 3) {
+    return parseFloat(parts[0]) * 3600 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
+  }
+  if (parts.length === 2) {
+    return parseFloat(parts[0]) * 60 + parseFloat(parts[1]);
+  }
+  return parseFloat(ts);
+}
+
 export async function adjustTimings(storyboard, audioFiles, outputDir) {
   logger.info("  Matching scene durations to audio...");
 
@@ -26,9 +38,22 @@ export async function adjustTimings(storyboard, audioFiles, outputDir) {
     const audio = audioMap[scene.id];
     let duration = scene.duration || 4;
 
-    if (audio && audio.duration) {
-      // Scene duration = audio duration + buffer
-      duration = Math.max(MIN_SCENE_DURATION, audio.duration + AUDIO_BUFFER);
+    let clipDuration = 0;
+    if (scene.videoClip && scene.videoClip.duration) {
+      clipDuration = scene.videoClip.duration;
+    }
+    if (Array.isArray(scene.visuals)) {
+      for (const v of scene.visuals) {
+        if ((v.type === 'video' || v.type === 'video-clip-card') && v.duration > clipDuration) {
+          clipDuration = v.duration;
+        }
+      }
+    }
+
+    const audioDur = (audio && audio.duration) ? audio.duration : 0;
+    
+    if (audioDur > 0 || clipDuration > 0) {
+      duration = Math.max(MIN_SCENE_DURATION, audioDur + AUDIO_BUFFER, clipDuration + AUDIO_BUFFER);
     }
 
     const timedScene = {

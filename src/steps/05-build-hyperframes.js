@@ -30,6 +30,7 @@ export async function buildHyperFrames(storyboard, audioFiles, outputDir) {
     if (!existsSync(d)) mkdirSync(d, { recursive: true });
   });
 
+
   // Copy audio files into assets
   const audioMap = {};
   for (const a of audioFiles) {
@@ -38,6 +39,32 @@ export async function buildHyperFrames(storyboard, audioFiles, outputDir) {
       const destPath = path.join(assetsDir, destName);
       copyFileSync(a.audioPath, destPath);
       audioMap[a.sceneId] = destName;
+    }
+  }
+
+  // Copy trimmed video clips into assets
+  for (const scene of storyboard.scenes) {
+    const clipConfigs = [];
+    if (scene.videoClip && scene.videoClip.trimmedPath) clipConfigs.push(scene.videoClip);
+    if (Array.isArray(scene.visuals)) {
+      for (const v of scene.visuals) {
+        if ((v.type === 'video' || v.type === 'video-clip-card') && v.trimmedPath) {
+          clipConfigs.push(v);
+        }
+      }
+    }
+
+    for (let j = 0; j < clipConfigs.length; j++) {
+      const clip = clipConfigs[j];
+      if (clip.trimmedPath && existsSync(clip.trimmedPath)) {
+        const clipDestDir = path.join(assetsDir, "video-clips");
+        if (!existsSync(clipDestDir)) mkdirSync(clipDestDir, { recursive: true });
+        const destName = `clip-scene-${scene.id}${clipConfigs.length > 1 ? `-${j}` : ''}.mp4`;
+        const clipDest = path.join(clipDestDir, destName);
+        copyFileSync(clip.trimmedPath, clipDest);
+        // Update relative path for HTML reference
+        clip._assetPath = `assets/video-clips/${destName}`;
+      }
     }
   }
 

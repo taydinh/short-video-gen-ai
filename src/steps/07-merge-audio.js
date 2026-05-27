@@ -22,10 +22,24 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
     return af && af.audioPath && existsSync(af.audioPath);
   });
 
+  const scenesWithClipAudio = [];
+  storyboard.scenes.forEach(s => {
+    if (s.videoClip?.trimmedAudioPath && existsSync(s.videoClip.trimmedAudioPath) && (s.videoClip.videoVolume ?? 0.5) > 0) {
+      scenesWithClipAudio.push({ scene: s, clip: s.videoClip });
+    }
+    if (Array.isArray(s.visuals)) {
+      s.visuals.forEach(v => {
+        if ((v.type === 'video' || v.type === 'video-clip-card') && v.trimmedAudioPath && existsSync(v.trimmedAudioPath) && (v.volume ?? v.videoVolume ?? 0.5) > 0) {
+          scenesWithClipAudio.push({ scene: s, clip: v });
+        }
+      });
+    }
+  });
+
   const backgroundMusic = resolveBackgroundMusic();
 
-  if (scenesWithAudio.length === 0 && !backgroundMusic) {
-    logger.warn("  No audio files or background music found, copying video without audio merge");
+  if (scenesWithAudio.length === 0 && scenesWithClipAudio.length === 0 && !backgroundMusic) {
+    logger.warn("  No audio files, clip audio, or background music found, copying video without audio merge");
     copyFileSync(renderedMp4, finalPath);
     return finalPath;
   }
@@ -59,6 +73,9 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
         const af = audioFiles.find((a) => a.sceneId === scene.id);
         return `-i "${af.audioPath}"`;
       }),
+      ...scenesWithClipAudio.map((obj) => {
+        return `-i "${obj.clip.trimmedAudioPath}"`;
+      }),
       ...(backgroundMusic ? [`-stream_loop -1 -i "${backgroundMusic.src}"`] : [])
     ];
 
@@ -67,19 +84,27 @@ export async function mergeAudio(renderedMp4, audioFiles, storyboard, outputDir,
       return `[${i + 1}:a]aformat=channel_layouts=stereo,adelay=${delayMs}|${delayMs}[a${i}]`;
     });
 
-    const backgroundInputIndex = scenesWithAudio.length + 1;
+    const clipDelayFilters = scenesWithClipAudio.map((obj, i) => {
+      const delayMs = Math.round(obj.scene.startTime * 1000);
+      const vol = obj.clip.volume ?? obj.clip.videoVolume ?? 0.5;
+      const inputIdx = scenesWithAudio.length + 1 + i;
+      return `[${inputIdx}:a]aformat=channel_layouts=stereo,adelay=${delayMs}|${delayMs},volume=${vol}[c${i}]`;
+    });
+
+    const backgroundInputIndex = scenesWithAudio.length + scenesWithClipAudio.length + 1;
     const backgroundFilter = backgroundMusic
       ? `[${backgroundInputIndex}:a]aformat=channel_layouts=stereo,atrim=0:${totalDuration.toFixed(3)},asetpts=PTS-STARTPTS,volume=${backgroundMusic.volume}[bg]`
       : null;
 
     const mixInputs = `[0:a]`
       + scenesWithAudio.map((_, i) => `[a${i}]`).join("")
+      + scenesWithClipAudio.map((_, i) => `[c${i}]`).join("")
       + (backgroundMusic ? "[bg]" : "");
-    const numInputs = scenesWithAudio.length + 1 + (backgroundMusic ? 1 : 0);
+    const numInputs = scenesWithAudio.length + scenesWithClipAudio.length + 1 + (backgroundMusic ? 1 : 0);
 
     const mixFilter = `${mixInputs}amix=inputs=${numInputs}:duration=longest:normalize=0,volume=${masterVolume},alimiter=limit=0.95[amix]`;
 
-    const filterComplex = [...delayFilters, backgroundFilter, mixFilter].filter(Boolean).join(";");
+    const filterComplex = [...delayFilters, ...clipDelayFilters, backgroundFilter, mixFilter].filter(Boolean).join(";");
 
     const mixedAudioPath = path.join(audioDir, `mixed.${extension}`);
     const mixCodec = extension === "mp3" ? "libmp3lame" : "pcm_s16le";

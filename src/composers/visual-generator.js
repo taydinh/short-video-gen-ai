@@ -12,11 +12,15 @@ export function generateVisualsHTML(scene) {
 
     const { id } = scene;
     const baseCid = `scene-${id}`;
+    const sceneDuration = Number.isFinite(scene.duration) ? scene.duration : null;
 
     // Back-compat: allow a single visuals object OR an array of layered visuals
     const visualsList = Array.isArray(scene.visuals) ? scene.visuals : [scene.visuals];
     return visualsList
-        .map((visuals, idx) => generateSingleVisualHTML(visuals, `${baseCid}-v${idx + 1}`))
+        .map((visuals, idx) => generateSingleVisualHTML(
+            sceneDuration === null ? visuals : { ...visuals, _sceneDuration: sceneDuration },
+            `${baseCid}-v${idx + 1}`
+        ))
         .filter(Boolean)
         .join('\n');
 }
@@ -40,6 +44,9 @@ function generateSingleVisualHTML(visuals, cid) {
             return generateChannelWatermarkHTML(visuals, cid);
         case 'highlight-image-card':
             return generateHighlightImageCardHTML(visuals, cid);
+        case 'video-clip-card':
+        case 'video':
+            return generateVideoClipCardHTML(visuals, cid);
         case 'image':
             return generateImageHTML(visuals, cid);
         case 'animation':
@@ -478,6 +485,146 @@ function generateImageHTML(visuals, cid) {
       "></div>
     </div>
   `;
+}
+
+// ----------------------------------------------------------------------------
+// VIDEO CLIP CARD GENERATOR
+// ----------------------------------------------------------------------------
+function generateVideoClipCardHTML(visuals, cid) {
+    const videoUrl = visuals._assetPath || visuals.videoUrl;
+    if (!videoUrl) return '';
+
+    const position = visuals.position || 'top';
+    const sourceDuration = Number.isFinite(visuals.duration) ? visuals.duration : null;
+    const sceneDuration = Number.isFinite(visuals._sceneDuration) ? visuals._sceneDuration : sourceDuration;
+    const clipDuration = Math.max(0.1, Number.isFinite(sceneDuration) ? sceneDuration : (sourceDuration || 0));
+    const trackIndex = Number.isFinite(visuals.trackIndex)
+        ? visuals.trackIndex
+        : (position === 'background' ? 0 : 2);
+    const fit = visuals.objectFit || 'cover';
+    const objectPosition = visuals.objectPosition || 'center center';
+    const safeVideoUrl = escapeHtmlAttrForVisuals(videoUrl);
+    const safeId = escapeHtmlAttrForVisuals(cid);
+    const loopAttr = visuals.loop === false ? '' : ' loop';
+    const videoAttrs = `id="${safeId}-video" data-start="0" data-duration="${clipDuration.toFixed(3)}" data-track-index="${trackIndex}" data-volume="0" muted${loopAttr} playsinline preload="auto" src="${safeVideoUrl}"`;
+
+    // Background Video Mode
+    if (position === 'background') {
+        const opacity = visuals.opacity !== undefined ? visuals.opacity : 1.0;
+        return `
+        <!-- BACKGROUND VIDEO -->
+        <div id="${cid}-bg-video" style="
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            overflow: hidden;
+            opacity: ${opacity};
+        ">
+            <video ${videoAttrs}
+                   style="width: 100%; height: 100%; object-fit: ${fit}; object-position: ${objectPosition};">
+            </video>
+        </div>
+        `;
+    }
+
+    if (position === 'top' || position === 'bottom') {
+        const cardWidth = visuals.width || '100%';
+        const cardHeight = visuals.height || '680px';
+        const order = position === 'top' ? -10 : 10;
+        const margin = position === 'top' ? '-72px 0 46px 0' : '52px 0 -72px 0';
+        const borderRadius = Number.isFinite(visuals.borderRadius) ? visuals.borderRadius : 30;
+        const opacity = visuals.opacity !== undefined ? visuals.opacity : 1.0;
+        const accent = visuals.accentColor || '#F7C948';
+
+        return `
+        <style>
+          .video-card-${cid} {
+            animation: video-card-rise-${cid} 620ms cubic-bezier(.2,.8,.2,1) both;
+          }
+          @keyframes video-card-rise-${cid} {
+            from { opacity: 0; transform: translate3d(0, ${position === 'top' ? '-24px' : '24px'}, 0) scale(0.985); filter: blur(8px); }
+            to { opacity: ${opacity}; transform: translate3d(0, 0, 0) scale(1); filter: blur(0); }
+          }
+        </style>
+        <div class="video-card-${cid}" data-layout-allow-overflow style="
+          order:${order};
+          position:relative;
+          z-index:2;
+          width:${cardWidth};
+          height:${cardHeight};
+          margin:${margin};
+          flex:0 0 auto;
+          align-self:stretch;
+          border-radius:${borderRadius}px;
+          padding:12px;
+          background:
+            linear-gradient(145deg, rgba(255,255,255,0.18), rgba(255,255,255,0.04)),
+            rgba(8,17,31,0.74);
+          border:1px solid ${hexToRgbaForVisuals(accent, 0.46)};
+          box-shadow:0 28px 72px rgba(0,0,0,0.42), 0 0 0 1px rgba(255,255,255,0.10) inset;
+          overflow:hidden;
+          pointer-events:none;
+        ">
+            <video ${videoAttrs}
+                   style="width:100%; height:100%; object-fit:${fit}; object-position:${objectPosition}; border-radius:${Math.max(8, borderRadius - 12)}px; display:block;">
+            </video>
+            <div style="
+              position:absolute;
+              inset:12px;
+              border-radius:${Math.max(8, borderRadius - 12)}px;
+              pointer-events:none;
+              box-shadow:inset 0 0 0 1px rgba(255,255,255,0.18), inset 0 -100px 120px rgba(6,10,18,0.18);
+            "></div>
+        </div>`;
+    }
+
+    const title = visuals.videoTitle || '';
+    const description = visuals.videoDescription || '';
+    const layout = visuals.layout === 'horizontal' ? 'horizontal' : 'vertical';
+    const width = visuals.width || (layout === 'horizontal' ? '800px' : '500px');
+    const height = visuals.height || (layout === 'horizontal' ? 'auto' : '700px');
+    const top = position === 'top' ? '80px' : 'auto';
+    const accent = visuals.accentColor || '#F7C948';
+    
+    return `
+    <style>
+      @keyframes glow-border-${cid} {
+        0%, 100% { border-color: rgba(255, 255, 255, 0.2); box-shadow: 0 0 20px rgba(0,0,0,0.5); }
+        50% { border-color: ${accent}; box-shadow: 0 0 30px ${accent}66, 0 0 10px ${accent}33 inset; }
+      }
+      .video-card-${cid} {
+        animation: glow-border-${cid} 3s infinite;
+      }
+    </style>
+    <!-- VIDEO CARD -->
+    <div class="video-card-${cid}" style="
+      position: absolute;
+      ${top !== 'auto' ? `top: ${top};` : `bottom: 80px;`}
+      left: 50%;
+      transform: translateX(-50%);
+      width: ${width};
+      height: ${height};
+      z-index: 2;
+      background: rgba(10, 15, 29, 0.6);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 2px solid rgba(255, 255, 255, 0.15);
+      border-radius: 24px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: ${layout === 'horizontal' ? 'row' : 'column'};
+    ">
+        <video ${videoAttrs}
+               style="flex: 1; width: 100%; height: 100%; object-fit: ${fit}; object-position: ${objectPosition}; max-height: ${layout === 'horizontal' ? '100%' : '500px'};">
+        </video>
+        ${title || description ? `
+        <div style="padding: 20px; color: white;">
+            ${title ? `<div style="font-size: 24px; font-weight: bold; margin-bottom: 8px; color: ${accent};">${escapeHtmlForVisuals(title)}</div>` : ''}
+            ${description ? `<div style="font-size: 18px; opacity: 0.9; line-height: 1.4;">${escapeHtmlForVisuals(description)}</div>` : ''}
+        </div>
+        ` : ''}
+    </div>
+    `;
 }
 
 function generateHighlightImageCardHTML(visuals, cid) {
@@ -951,6 +1098,10 @@ function generateMotionHTML(visuals, cid) {
 function escapeHtmlForVisuals(str) {
     if (!str) return '';
     return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+function escapeHtmlAttrForVisuals(str) {
+    return escapeHtmlForVisuals(String(str || '')).replace(/'/g, "&#39;");
 }
 
 function hexToRgbaForVisuals(hex, alpha = 1) {

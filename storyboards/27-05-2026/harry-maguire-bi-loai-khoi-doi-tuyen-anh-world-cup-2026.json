@@ -1,0 +1,414 @@
+{
+  "title": "Harry Maguire Bị Loại Khỏi Đội Tuyển Anh Tham Dự World Cup 2026: Nỗi Bất Hạnh Của Trung Vệ Thép",
+  "slug": "harry-maguire-bi-loai-khoi-doi-tuyen-anh-world-cup-2026",
+  "totalDuration": 54,
+  "sources": [
+    {
+      "title": "Harry Maguire bi loai khoi doi tuyen Anh tham du World Cup 2026",
+      "url": "https://www.msn.com/vi-vn/sports/other/harry-maguire-bi-loai-khoi-doi-tuyen-anh"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "HARRY MAGUIRE BỊ LOẠI KHỎI WORLD CUP 2026!",
+      "subtext": "Quyết định gây sốc của huấn luyện viên Thomas Tuchel",
+      "voiceText": "ha ri mác gai bị loại khỏi World Cup hai không hai sáu! Một quyết định gây sốc và tranh cãi dữ dội từ tân huấn luyện viên đội tuyển Anh, thôm mát tu cồ.",
+      "duration": 7,
+      "startTime": 0,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#CE1126",
+      "secondaryAccentColor": "#002040",
+      "textColor": "#FFFFFF",
+      "label": "TIN SỐC WORLD CUP",
+      "cardCaption": "Harry Maguire chính thức vắng mặt tại ngày hội bóng đá lớn nhất hành tinh năm 2026.",
+      "imageSrc": "assets/storyboards/harry-maguire-bi-loai-khoi-doi-tuyen-anh-world-cup-2026/scene-1.png",
+      "chips": [
+        "Harry Maguire",
+        "Đội tuyển Anh",
+        "World Cup 2026"
+      ],
+      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Harry Maguire bị loại khỏi World Cup 2026! Một quyết định gây sốc và tranh cãi dữ dội từ tân Huấn luyện viên đội tuyển Anh, Thomas Tuchel."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nỗi thất vọng cùng cực",
+      "subtext": "Lời tự sự đầy cay đắng của trung vệ Anh trưởng",
+      "voiceText": "Tôi dám tự tin khẳng định rằng, mình có thể đóng vai trò quan trọng cho đội tuyển Quốc gia vào mùa hè này, sau mùa giải tuyệt vời vừa qua. Tôi vô cùng sốc và thất vọng trước quyết định này, tôi chúc các cầu thủ mọi điều tốt đẹp nhất.",
+      "duration": 8,
+      "startTime": 7,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#CE1126",
+      "secondaryAccentColor": "#002040",
+      "textColor": "#FFFFFF",
+      "quote": "Tôi dám tự tin khẳng định rằng mình có thể đóng vai trò quan trọng cho đội tuyển Quốc gia vào mùa hè này sau mùa giải tuyệt vời vừa qua. Tôi vô cùng sốc và thất vọng...",
+      "author": "Harry Maguire",
+      "role": "Trung vệ tuyển Anh & MU",
+      "imageUrl": "assets/storyboards/harry-maguire-bi-loai-khoi-doi-tuyen-anh-world-cup-2026/scene-1.png",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#CE1126"
+        }
+      ],
+      "subtitle": "Tôi dám tự tin khẳng định rằng mình có thể đóng vai trò quan trọng cho đội tuyển Quốc gia vào mùa hè này, sau mùa giải tuyệt vời vừa qua. Tôi vô cùng sốc và thất vọng trước quyết định này, tôi chúc các cầu thủ mọi điều tốt đẹp nhất."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Siêu phẩm lật ngược Atalanta",
+      "subtext": "Top 5: Harry Maguire ghi bàn lịch sử",
+      "voiceText": "ha ri mác gai đã có một mùa giải tuyệt vời cùng mờ u. Hãy cùng nhìn lại những đóng góp vĩ đại của anh. Đầu tiên, là cú dứt điểm chuẩn xác làm rung lưới A ta lan ta tại đấu trường cúp C một châu Âu, mang về chiến thắng ngược dòng đầy cảm xúc.",
+      "duration": 7,
+      "startTime": 15,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#CE1126",
+      "secondaryAccentColor": "#002040",
+      "textColor": "#FFFFFF",
+      "player": "Harry Maguire",
+      "team": "Manchester United",
+      "number": "5",
+      "stats": [
+        {
+          "label": "Trận đấu",
+          "value": "vs Atalanta"
+        },
+        {
+          "label": "Giải đấu",
+          "value": "Champions League"
+        },
+        {
+          "label": "Ý nghĩa",
+          "value": "Ngược dòng kịch tính"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "video",
+          "videoUrl": "C:\\Users\\Taydinh\\Downloads\\TOP-5-Harry-Maguire-Goals-of-All-Time.mp4",
+          "trim": {
+            "start": "00:00.000",
+            "end": "00:04.000"
+          },
+          "volume": 0.3,
+          "opacity": 1,
+          "position": "top"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#CE1126"
+        }
+      ],
+      "subtitle": "Harry Maguire đã có một mùa giải tuyệt vời cùng MU. Hãy cùng nhìn lại những đóng góp vĩ đại của anh. Đầu tiên, là cú dứt điểm chuẩn xác làm rung lưới Atalanta tại đấu trường cúp C1 châu Âu, mang về chiến thắng ngược dòng đầy cảm xúc."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Cú đánh đầu xé lưới Liverpool",
+      "subtext": "Top 4: Người hùng của trận Derby nước Anh",
+      "voiceText": "Tiếp theo: cú bật cao đánh đầu tung lưới Li vơ pun, đúng chất trung vệ thép.",
+      "duration": 6,
+      "startTime": 21,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#CE1126",
+      "secondaryAccentColor": "#002040",
+      "textColor": "#FFFFFF",
+      "player": "Harry Maguire",
+      "team": "Manchester United",
+      "number": "5",
+      "stats": [
+        {
+          "label": "Trận đấu",
+          "value": "vs Liverpool"
+        },
+        {
+          "label": "Kiểu bàn thắng",
+          "value": "Đánh đầu dũng mãnh"
+        },
+        {
+          "label": "Đại kình địch",
+          "value": "Liverpool"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "video",
+          "videoUrl": "C:\\Users\\Taydinh\\Downloads\\TOP-5-Harry-Maguire-Goals-of-All-Time.mp4",
+          "trim": {
+            "start": "00:04.500",
+            "end": "00:09.500"
+          },
+          "volume": 0.3,
+          "opacity": 1,
+          "position": "top"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#CE1126"
+        }
+      ],
+      "subtitle": "Tiếp theo: cú bật cao đánh đầu tung lưới Liverpool, đúng chất trung vệ thép."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Cú sút sấm sét tung lưới Lyon",
+      "subtext": "Top 2: Đẳng cấp bắn phá của Anh trưởng",
+      "voiceText": "Rồi tới cú sút xa cháy lưới Li ông, cho thấy Mác gai không chỉ biết không chiến.",
+      "duration": 6,
+      "startTime": 27,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#CE1126",
+      "secondaryAccentColor": "#002040",
+      "textColor": "#FFFFFF",
+      "player": "Harry Maguire",
+      "team": "Manchester United",
+      "number": "5",
+      "stats": [
+        {
+          "label": "Trận đấu",
+          "value": "vs Lyon"
+        },
+        {
+          "label": "Kỹ thuật",
+          "value": "Sút xa quyết đoán"
+        },
+        {
+          "label": "Cúp châu Âu",
+          "value": "Europa League"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "video",
+          "videoUrl": "C:\\Users\\Taydinh\\Downloads\\TOP-5-Harry-Maguire-Goals-of-All-Time.mp4",
+          "trim": {
+            "start": "00:16.000",
+            "end": "00:20.000"
+          },
+          "volume": 0.3,
+          "opacity": 1,
+          "position": "top"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#CE1126"
+        }
+      ],
+      "subtitle": "Rồi tới cú sút xa cháy lưới Lyon, cho thấy Maguire không chỉ biết không chiến."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Cú nã đại bác xé lưới Tranmere",
+      "subtext": "Top 1: Bàn thắng đẹp nhất sự nghiệp Quỷ Đỏ",
+      "voiceText": "Cuối cùng: đại bác vào lưới Tran me re tại cúp FA, bàn thắng đẹp nhất của anh.",
+      "duration": 6,
+      "startTime": 33,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#CE1126",
+      "secondaryAccentColor": "#002040",
+      "textColor": "#FFFFFF",
+      "player": "Harry Maguire",
+      "team": "Manchester United",
+      "number": "5",
+      "stats": [
+        {
+          "label": "Trận đấu",
+          "value": "vs Tranmere Rovers"
+        },
+        {
+          "label": "Giải đấu",
+          "value": "FA Cup"
+        },
+        {
+          "label": "Xếp hạng",
+          "value": "Bàn thắng đẹp nhất"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "video",
+          "videoUrl": "C:\\Users\\Taydinh\\Downloads\\TOP-5-Harry-Maguire-Goals-of-All-Time.mp4",
+          "trim": {
+            "start": "00:20.000",
+            "end": "00:25.500"
+          },
+          "volume": 0.3,
+          "opacity": 1,
+          "position": "top"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#CE1126"
+        }
+      ],
+      "subtitle": "Cuối cùng: đại bác vào lưới Tranmere tại FA Cup, bàn thắng đẹp nhất của anh."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nỗi bất bình của Méo bình luận",
+      "subtext": "Sự thiếu vắng lịch sử tại ngày hội bóng đá",
+      "voiceText": "Theo Méo, đây là một quyết định cực kỳ bất công và sai lầm của thôm mát tu cồ. World Cup hai không hai sáu, chắc chắn sẽ bớt đi sự hấp dẫn, và chất thép khi thiếu vắng ha ri mác gai, một chiến binh thực thụ, luôn cháy hết mình mỗi khi khoác lên mình màu áo Tam Sư.",
+      "duration": 9,
+      "startTime": 39,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#CE1126",
+      "secondaryAccentColor": "#002040",
+      "textColor": "#FFFFFF",
+      "quote": "Quyết định loại Harry Maguire là một sự bất công lớn. Thiếu đi chất thép và kinh nghiệm của anh, hàng phòng ngự Tam Sư sẽ phải trả giá đắt tại World Cup 2026.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(10,15,29,0.92), rgba(10,15,29,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#CE1126"
+        }
+      ],
+      "subtitle": "Theo Méo, đây là một quyết định cực kỳ bất công và sai lầm của Thomas Tuchel. World Cup 2026 chắc chắn sẽ bớt đi sự hấp dẫn và chất thép khi thiếu vắng Harry Maguire, một chiến binh thực thụ luôn cháy hết mình mỗi khi khoác lên mình màu áo Tam Sư."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn nghĩ sao về quyết định loại Harry Maguire?",
+      "subtext": "Hãy để lại bình luận của bạn",
+      "voiceText": "Quyết định loại ha ri mác gai, của thôm mát tu cồ là đúng hay sai? Tam Sư liệu có phải ôm hận tại World Cup hai không hai sáu không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 48,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#CE1126",
+      "secondaryAccentColor": "#002040",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Tranh cãi loại Harry Maguire khỏi ĐT Anh",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Ý kiến của bạn: Loại Maguire là đúng hay sai?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Harry Maguire",
+          "Đội tuyển Anh",
+          "Thomas Tuchel",
+          "Manchester United",
+          "World Cup 2026",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Quyết định loại Harry Maguire của Thomas Tuchel là đúng hay sai? Tam Sư liệu có phải ôm hận tại World Cup 2026 không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}

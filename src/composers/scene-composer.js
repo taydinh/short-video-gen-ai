@@ -67,6 +67,22 @@ export function buildSceneHtml(scene, audioFile) {
     content = injectBeforeLastClosingDiv(content, visualsHTML);
   }
 
+  // Thêm video clip card nếu có
+  if (scene.videoClip && scene.videoClip._assetPath) {
+    // Generate an inline structure for videoClip to reuse generateVisualsHTML logic
+    // We already added video-clip-card to visual-generator
+    const videoClipHTML = generateVisualsHTML({
+      visuals: {
+        type: 'video-clip-card',
+        ...scene.videoClip
+      },
+      id: scene.id
+    });
+    if (videoClipHTML) {
+      content = injectBeforeLastClosingDiv(content, videoClipHTML);
+    }
+  }
+
   // Thêm subtext/caption trên scene
   const captionHTML = buildSceneCaptionHTML(scene);
   if (captionHTML) {

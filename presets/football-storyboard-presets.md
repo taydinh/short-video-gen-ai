@@ -28,6 +28,7 @@ Nguồn mẫu:
   - `Paris Saint Germain` viết là `pa rís sen ger mình`.
   - `PSG` viết là `Pi S Ji`.
   - `Man U` viết là `mờ u`.
+  - `Liverpool` viết là `li vơ pun`.
 - Trong `voiceText`, tên đội tuyển/quốc gia `Uzbekistan` phải viết là `Uz bê kits tan` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `teams`, `fixtures`, `sources` vẫn giữ tên chính thức/bản gốc.
 - Trong `voiceText`, tên cầu thủ `Kevin De Bruyne` phải viết là `Kê Vin Đờ Broai Nơ` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `player`, `cards`, `sources` vẫn giữ tên chính thức/bản gốc.
 
@@ -74,16 +75,22 @@ Nguồn mẫu:
 ### Cách Đọc Từ Viết Tắt Trong VoiceText
 
 - Trong `voiceText`, `HLV` là viết tắt của `Huấn luyện viên`, nên phải viết và đọc là `Huấn luyện viên`; không để nguyên `HLV` trong `voiceText`.
+- Trong `voiceText`, `cúp FA` phải viết/đọc là `cúp ép a`; không để nguyên `FA` trong lời đọc.
 - Trong `voiceText`, `bảng K` phải viết/đọc là `bảng Ka`; `Ka` là phiên âm tiếng Việt cho chữ `K`.
 - Trong `voiceText`, tên sân `Bernabéu` phải viết là `Bernabeu` để TTS đọc ổn định; không dùng ký tự `é` trong lời đọc.
 
+- Trong `voiceText`, tên cầu thủ `Harry Maguire` phải viết là `ha ri mác gai` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `player`, `cards`, `sources` still keep official names.
+- Trong `voiceText`, tên HLV `Thomas Tuchel` phải viết là `thôm mát tu cồ` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `sources` vẫn giữ tên chính thức/bản gốc.
+
 ### Ghi Chú Thêm
+
 
 - TODO: Thêm quy tắc đọc tên đội bóng.
 - TODO: Thêm quy tắc viết tắt tên giải đấu.
 - TODO: Thêm quy tắc đọc tên cầu thủ.
 - TODO: Thêm quy tắc viết tỉ số, thời gian, vòng đấu.
 - TODO: Thêm các nội dung đặc biệt cần có trong từng scene.
+
 
 ## Preset Football Preview
 

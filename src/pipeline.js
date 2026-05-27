@@ -18,6 +18,7 @@ import { readInput } from "./steps/01-read-input.js";
 import { generateStoryboard, enrichFootballTeams } from "./steps/02-generate-storyboard.js";
 import { generateTTS } from "./steps/03-generate-tts.js";
 import { adjustTimings } from "./steps/04-adjust-timings.js";
+import { trimVideoClips } from "./steps/04b-trim-video-clips.js";
 import { buildHyperFrames } from "./steps/05-build-hyperframes.js";
 import { renderVideo } from "./steps/06-render-video.js";
 import { upscaleVideo } from "./steps/07-upscale-video.js";
@@ -58,9 +59,13 @@ export async function pipeline(input) {
   const audioFiles = await generateTTS(storyboard, outputDir);
   logger.info(`✅ Audio generated for ${audioFiles.length} scenes`);
 
-  // ── Step 4: Adjust scene timings ──────────────────────────────────────────
-  logger.step(4, "Adjusting scene timings to match audio...");
-  const timedStoryboard = await adjustTimings(storyboard, audioFiles, outputDir);
+  // ── Step 4a: Trim video clips ──────────────────────────────────────────────
+  logger.step("4a", "Trimming video clips (if any)...");
+  const storyboardWithClips = await trimVideoClips(storyboard, outputDir);
+
+  // ── Step 4b: Adjust scene timings ──────────────────────────────────────────
+  logger.step("4b", "Adjusting scene timings to match audio...");
+  const timedStoryboard = await adjustTimings(storyboardWithClips, audioFiles, outputDir);
   logger.info(`✅ Timings adjusted. Total duration: ${timedStoryboard.totalDuration.toFixed(2)}s`);
 
   // ── Step 5: Build HyperFrames project ─────────────────────────────────────
@@ -88,7 +93,10 @@ export async function pipeline(input) {
   }
 
   // ── Step 7: Upscale raw video before audio merge ──────────────────────────
-  logger.step(7, "Upscaling raw video to 2K with FFmpeg Lanczos...");
+  const upscaleMethod = config.video?.upscale?.method === "realesrgan"
+    ? "Real-ESRGAN 2x"
+    : "FFmpeg Lanczos";
+  logger.step(7, `Upscaling raw video with ${upscaleMethod}...`);
   let videoForAudioMerge;
   try {
     videoForAudioMerge = await upscaleVideo(renderedMp4, outputDir);

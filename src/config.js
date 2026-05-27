@@ -86,9 +86,18 @@ export const config = {
 
     upscale: {
       enabled: true,
+      method: "ffmpeg", // "ffmpeg" | "realesrgan"
       width: 1440,
       height: 2560,
       algorithm: "lanczos",
+      realesrgan: {
+        binPath: "tools/realesrgan-ncnn-vulkan/realesrgan-ncnn-vulkan.exe",
+        modelPath: "tools/realesrgan-ncnn-vulkan/models",
+        model: "realesrgan-x4plus",
+        scale: 2,
+        crf: 18,
+        timeoutMs: 3600000,
+      },
     },
 
     backgroundMusic: {
