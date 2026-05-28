@@ -1,0 +1,395 @@
+{
+  "title": "Arsenal Chi 100 Triệu Bảng Cho Morgan Rogers",
+  "slug": "arsenal-morgan-rogers-dream-team-2026-05-28",
+  "totalDuration": 64,
+  "sources": [],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "ARSENAL CHI 100 TRIỆU BẢNG!",
+      "subtext": "Xây Dream Team thống trị nước Anh",
+      "voiceText": "a se nồ chi một trăm triệu bảng cho Morgan Rogers. Huấn luyện viên mi ken a tê ta, đang quyết tâm xây dựng một đội hình trong mơ, ngay sau khi vô địch mùa này.",
+      "duration": 8,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "label": "TIN CHUYỂN NHƯỢNG",
+      "imageSrc": "assets/storyboards/arsenal_dream_team.png",
+      "cardCaption": "Arsenal nhắm Morgan Rogers để xây Dream Team",
+      "chips": [
+        "Ngoại Hạng Anh",
+        "Morgan Rogers",
+        "Arsenal"
+      ],
+      "emoji": "🔥",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Arsenal chi một trăm triệu bảng cho Morgan Rogers. Huấn luyện viên Mikel Arteta đang quyết tâm xây dựng một đội hình trong mơ, ngay sau khi vô địch mùa này."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Morgan Rogers",
+      "subtext": "Ngôi sao đột phá của Aston Villa",
+      "voiceText": "Mùa vừa rồi, Morgan Rogers ghi mười bốn bàn, và có mười hai kiến tạo trên mọi đấu trường. Góp công cực lớn giúp Aston Villa vô địch cúp ơ rô pa lít, và trở lại cúp C1.",
+      "duration": 8,
+      "startTime": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "statsCardsPosition": "center",
+      "statsCardsOffsetY": 80,
+      "statsCards": [
+        {
+          "label": "Bàn Thắng",
+          "value": "14",
+          "icon": "⚽"
+        },
+        {
+          "label": "Kiến Tạo",
+          "value": "12",
+          "icon": "🎯"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a17bfd2a63be.mp4",
+          "trim": {
+            "start": 14,
+            "end": 22
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Mùa vừa rồi, Morgan Rogers ghi 14 bàn và có 12 kiến tạo trên mọi đấu trường. Góp công cực lớn giúp Aston Villa vô địch Europa League, và trở lại cúp C1."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Hồ Sơ Cầu Thủ",
+      "subtext": "Sự đa năng và bùng nổ",
+      "voiceText": "Anh là một cầu thủ đa năng, có thể chất bùng nổ. Có thể đá cánh, hộ công, hay thậm chí tiền đạo lùi, trong hệ thống rét sing của a se nồ.",
+      "duration": 8,
+      "startTime": 16,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "label": "Thể chất",
+          "value": "Bùng nổ",
+          "icon": "💪"
+        },
+        {
+          "label": "Lối chơi",
+          "value": "Đa năng",
+          "icon": "⚡"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://cdn1.astonvilla.news/uploads/9/2024/09/GettyImages-2173613427-scaled.jpg",
+          "label": "Hồ Sơ Cầu Thủ",
+          "title": "Sự đa năng và bùng nổ",
+          "caption": "Anh là một cầu thủ đa năng, có thể chất bùng nổ.",
+          "top": "850px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#DA020E",
+          "secondaryAccentColor": "#FFE500",
+          "cardBg": "rgba(10,19,28,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Anh là một cầu thủ đa năng, có thể chất bùng nổ. Có thể đá cánh, hộ công, hay thậm chí tiền đạo lùi trong hệ thống pressing của Arsenal."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Tài Năng Đặc Biệt",
+      "subtext": "Sự tiếc nuối của Pep Guardiola",
+      "voiceText": "Đến pép goác đi ô la cũng phải thừa nhận, Man City đã đánh mất một tài năng đặc biệt, khi bán Morgan Rogers trước đây.",
+      "duration": 8,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "player": "Morgan Rogers",
+      "team": "Aston Villa",
+      "number": "27",
+      "playerImageUrl": "https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/472307643_18502346506036669_6365154155367765240_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dmQYC4Y4algQ7kNvwGawU9_&_nc_oc=Adpmv1jfwTYtmyPUaT3Nn2TyVkqMjB50e8eAUQV_epJTnO13zkUBCkrZwUTJgn8q208&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=Hqhzdd3J1XgLmITyYsKAAA&_nc_ss=7b2a8&oh=00_Af5d0DJwhZ94_fmrp12jJ6YRumLSbxvu0MeDlkWvq9MRag&oe=6A1DC4CB",
+      "stats": [
+        {
+          "label": "Tốc độ",
+          "value": "Tuyệt vời"
+        },
+        {
+          "label": "Kỹ thuật",
+          "value": "Lắt léo"
+        },
+        {
+          "label": "Tự tin",
+          "value": "Cao"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a17bfd2a63be.mp4",
+          "trim": {
+            "start": 23,
+            "end": 34
+          },
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Đến Pep Guardiola cũng phải thừa nhận, Man City đã đánh mất một tài năng đặc biệt khi bán Morgan Rogers trước đây."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Arsenal Dream Team",
+      "subtext": "Đội hình trong mơ của Pháo Thủ",
+      "voiceText": "Cỗ xe tăng a se nồ muốn dát thêm vàng với đội hình trong mơ. Trên hàng công sẽ là dích kơ rét, Martinelli, Saka, cùng tân binh Morgan Rogers.",
+      "duration": 9,
+      "startTime": 32,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Arsenal",
+          "code": "ARS",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Raya",
+            "White",
+            "Saliba",
+            "Gabriel",
+            "Calafiori",
+            "Rice",
+            "Ødegaard",
+            "Saka",
+            "Rogers",
+            "Martinelli",
+            "Gyökeres"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Cỗ xe tăng Arsenal muốn dát thêm vàng với đội hình trong mơ. Trên hàng công sẽ là Gyökeres, Martinelli, Saka, cùng tân binh Morgan Rogers."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Rào cản chuyển nhượng",
+      "subtext": "Aston Villa không dễ nhả người",
+      "voiceText": "Tuy nhiên rào cản lớn nhất là mức giá. Aston Villa không dễ nhả người, khi hợp đồng của anh, còn đến năm hai không ba mốt.",
+      "duration": 8,
+      "startTime": 41,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "Mức giá yêu cầu",
+          "value": "100 Triệu Bảng",
+          "color": "#F7C948"
+        },
+        {
+          "label": "Hợp đồng đến năm",
+          "value": "2031",
+          "color": "#C8102E"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a17bfd2a63be.mp4",
+          "trim": {
+            "start": "2:02",
+            "end": "2:10"
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Tuy nhiên rào cản lớn nhất là mức giá. Aston Villa không dễ nhả người khi hợp đồng của anh còn đến năm 2031."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn Méo Bình Luận",
+      "subtext": "Galacticos phiên bản Pháo Thủ",
+      "voiceText": "Theo tôi, giới chủ sân Ê mi rết thật sự nghiêm túc. Họ sẵn sàng thanh lý bớt đội hình phụ, để có ngân sách cho thương vụ này.",
+      "duration": 7,
+      "startTime": 49,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "quote": "Sẵn sàng thanh lý đội hình phụ để xây Galacticos phiên bản Pháo Thủ.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a17bfd2a63be.mp4",
+          "trim": {
+            "start": 44,
+            "end": 51
+          },
+          "layout": "horizontal",
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Theo tôi, giới chủ sân Emirates thật sự nghiêm túc. Họ sẵn sàng thanh lý bớt đội hình phụ để có ngân sách cho thương vụ này."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Arsenal sẽ vô địch với Dream Team?",
+      "subtext": "Hãy để lại dự đoán của bạn",
+      "voiceText": "Với hàng công này, a se nồ đã đủ sức xưng vương chưa? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 8,
+      "startTime": 56,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "GÓC KHÁN ĐÀI",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Arsenal có thể vô địch C1 với Rogers?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Với hàng công này, Arsenal đã đủ sức xưng vương chưa? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}

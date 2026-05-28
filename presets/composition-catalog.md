@@ -116,7 +116,7 @@ Nguồn tham chiếu:
 | `visuals.type: "motion"` + `rotate` | Xoay tròn. |
 | `visuals.type: "motion"` + `bounce` | Nảy lên xuống. |
 | `visuals.type: "motion"` + `shake` | Rung lắc ngang. |
-
+| `visuals.type: "video"` / `"video-clip-card"` | Thẻ video clip hoặc ảnh nền video chuyển động. Các field hỗ trợ:<br/>- `videoUrl`: đường dẫn file mp4<br/>- `trim.start`, `trim.end` hoặc `startTime`, `endTime`: thời gian cắt video. **Schema khuyến nghị là số giây** để rõ ràng và ổn định, ví dụ `{"trim":{"start":122,"end":130}}` cho đoạn 2:02-2:10. Code hiện vẫn hỗ trợ string dạng `"MM:SS"`, `"HH:MM:SS"`, `"00:04.500"` hoặc `"122.5"` khi cần đọc thủ công.<br/>- `videoVolume`: âm lượng audio của clip (mặc định 0.5)<br/>- `position`: vị trí hiển thị (`background` - toàn màn hình, `top` - thẻ card nằm ở trên, `bottom` - thẻ card nằm ở dưới)<br/>- `layout`: `horizontal` hoặc `vertical`<br/>- `videoTitle`, `videoDescription`: thông tin hiển thị trên thẻ (chỉ cho card)|
 ## Football visuals
 
 | Visual Type | Chú thích |

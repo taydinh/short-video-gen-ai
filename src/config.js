@@ -54,7 +54,7 @@ export const config = {
       limiter: true,
     },
     // Optional post-speedup on Node side (ffmpeg). 1.0 = no change.
-    speed: 1.0,
+    speed: 1.2,
     // Delay between OmniVoice scene requests to keep local generation stable.
     // Increase this if generated voices contain small glitches when scenes are processed too quickly.
     sceneDelayMs: 2000,
@@ -102,8 +102,8 @@ export const config = {
 
     backgroundMusic: {
       enabled: true,
-      src: "assets/audio/DanceByYourself-Dyalla.mp3",
-      volume: 0.1,
+      src: "assets/audio/TrainingintheFire.mp3",
+      volume: 0.09,
     },
 
     // Final gain applied after voice + background music are mixed.

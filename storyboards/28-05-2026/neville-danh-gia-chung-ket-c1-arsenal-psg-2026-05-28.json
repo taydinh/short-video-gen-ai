@@ -1,0 +1,451 @@
+{
+  "title": "Neville: Hàng Thủ Có Thể Giúp Arsenal Hạ PSG Trong Trận Chung Kết C1",
+  "slug": "neville-danh-gia-chung-ket-c1-arsenal-psg-2026-05-28",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "title": "Neville: Hàng thủ có thể giúp Arsenal hạ PSG",
+      "url": "https://www.msn.com/vi-vn/sports/other/neville-h%C3%A0ng-th%E1%BB%A7-c%C3%B3-th%E1%BB%83-gi%C3%BAp-arsenal-h%E1%BA%A1-psg/ar-AA247nbc"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "NEVILLE: HÀNG THỦ SẼ GIÚP ARSENAL HẠ PSG!",
+      "subtext": "Nhận định trước thềm chung kết Champions League",
+      "voiceText": "Gari Nê vin tin rằng, hàng thủ vững chắc sẽ là chìa khóa để a se nồ khuất phục, Pa rís sen ger mình, trong trận chung kết cúp C một sắp tới.",
+      "duration": 7,
+      "startTime": 0,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#004170",
+      "textColor": "#FFFFFF",
+      "label": "TÂM ĐIỂM C1",
+      "imageSrc": "assets/storyboards/neville-danh-gia-chung-ket-c1-arsenal-psg-2026-05-28/scene-1.png",
+      "cardCaption": "Arsenal và PSG chuẩn bị bước vào trận chiến quyết định tại chung kết Champions League.",
+      "chips": [
+        "Arsenal vs PSG",
+        "Champions League",
+        "Gary Neville"
+      ],
+      "emoji": "🔥",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Gary Neville tin rằng hàng thủ vững chắc sẽ là chìa khóa để Arsenal khuất phục Paris Saint-Germain, trong trận chung kết cúp C1 sắp tới."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Gary Neville",
+      "subtext": "Điểm tựa từ bức tường thành",
+      "voiceText": "Theo cựu danh thủ người Anh, Pháo thủ hiện đang sở hữu cấu trúc phòng ngự, tốt nhất châu Âu. Họ có đủ sự kỷ luật, và tính tổ chức để bẻ gãy mọi mũi nhọn tấn công từ đại diện nước Pháp.",
+      "duration": 8,
+      "startTime": 7,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#004170",
+      "textColor": "#FFFFFF",
+      "quote": "Arsenal có cấu trúc phòng ngự tốt nhất châu Âu hiện tại. Tính tổ chức và sự kỷ luật của họ đủ sức bẻ gãy mọi mũi nhọn tấn công từ PSG.",
+      "author": "Gary Neville",
+      "role": "Chuyên gia bóng đá",
+      "imageUrl": "https://media.bongda.com.vn/news/editor/20251222_140951_bc5s6f89.jpg",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E11D2E"
+        }
+      ],
+      "subtitle": "Theo cựu danh thủ người Anh, Pháo thủ hiện đang sở hữu cấu trúc phòng ngự tốt nhất châu Âu. Họ có đủ sự kỷ luật và tính tổ chức để bẻ gãy mọi mũi nhọn tấn công từ đại diện nước Pháp."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Cuộc chiến của những ngôi sao",
+      "voiceText": "Đội hình dự kiến của a se nồ, không thể thiếu bộ đôi trung vệ thép: Sa li ba và Ga b ri el. Bên kia chiến tuyến, Pi S Ji sẵn sàng đáp trả bằng đội trưởng Mác qui nhốt, và sự bùng nổ của Ba cô la.",
+      "duration": 9,
+      "startTime": 15,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#004170",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Arsenal",
+          "code": "ARS",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+        },
+        {
+          "name": "PSG",
+          "code": "PSG",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Raya",
+            "White",
+            "Saliba",
+            "Gabriel",
+            "Calafiori",
+            "Ødegaard",
+            "Rice",
+            "Merino",
+            "Saka",
+            "Havertz",
+            "Martinelli"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Donnarumma",
+            "Hakimi",
+            "Marquinhos",
+            "Pacho",
+            "Nuno Mendes",
+            "Zaïre-Emery",
+            "Vitinha",
+            "Fabián Ruiz",
+            "Dembélé",
+            "Asensio",
+            "Barcola"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E11D2E"
+        }
+      ],
+      "subtitle": "Đội hình dự kiến của Arsenal không thể thiếu bộ đôi trung vệ thép Saliba và Gabriel. Bên kia chiến tuyến, PSG sẵn sàng đáp trả bằng đội trưởng Marquinhos và sự bùng nổ của Barcola."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Lịch sử đối đầu",
+      "subtext": "Món nợ ở bán kết năm ngoái",
+      "voiceText": "Lịch sử đối đầu, đang chứng kiến sự cân bằng kịch tính. Ở bán kết mùa trước, Pi S Ji đã vượt qua a se nồ đầy nghẹt thở. Trận chung kết này sẽ là cơ hội hoàn hảo, để Huấn luyện viên Mikel A tê ta đòi lại món nợ.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#004170",
+      "textColor": "#FFFFFF",
+      "h2hMatches": [
+        {
+          "date": "07/05/2025",
+          "homeTeam": "PSG",
+          "awayTeam": "Arsenal",
+          "homeScore": 2,
+          "awayScore": 1,
+          "homeBadgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg",
+          "awayBadgeSrc": "assets/football/clubs/epl/arsenal.svg"
+        },
+        {
+          "date": "29/04/2025",
+          "homeTeam": "Arsenal",
+          "awayTeam": "PSG",
+          "homeScore": 0,
+          "awayScore": 1,
+          "homeBadgeSrc": "assets/football/clubs/epl/arsenal.svg",
+          "awayBadgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        },
+        {
+          "date": "01/10/2024",
+          "homeTeam": "Arsenal",
+          "awayTeam": "PSG",
+          "homeScore": 2,
+          "awayScore": 0,
+          "homeBadgeSrc": "assets/football/clubs/epl/arsenal.svg",
+          "awayBadgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        },
+        {
+          "date": "23/11/2016",
+          "homeTeam": "Arsenal",
+          "awayTeam": "PSG",
+          "homeScore": 2,
+          "awayScore": 2,
+          "homeBadgeSrc": "assets/football/clubs/epl/arsenal.svg",
+          "awayBadgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E11D2E"
+        }
+      ],
+      "subtitle": "Lịch sử đối đầu đang chứng kiến sự cân bằng kịch tính. Ở bán kết mùa trước, PSG đã vượt qua Arsenal đầy nghẹt thở. Trận chung kết này sẽ là cơ hội hoàn hảo để Huấn luyện viên Mikel Arteta đòi lại món nợ."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "William Saliba",
+      "subtext": "Đá tảng của hàng phòng ngự Arsenal",
+      "voiceText": "Niềm hi vọng lớn nhất của hàng thủ a se nồ, chắc chắn là Ui li am Sa li ba. Trung vệ người Pháp sẽ có một ngày làm việc cực kỳ vất vả, để phong tỏa những người đồng hương đầy tốc độ bên phía đối thủ.",
+      "duration": 8,
+      "startTime": 33,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "player": "William Saliba",
+      "team": "Arsenal",
+      "number": "2",
+      "playerImageUrl": "https://s.yimg.com/ny/api/res/1.2/nEa6Bhsvi_hd0H419QANwg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTg2MDtjZj13ZWJw/https://media.zenfs.com/en/evening_standard_239/17c458549c5851210c6f4812d60cde54",
+      "stats": [
+        {
+          "label": "Giải đấu",
+          "value": "Champions League"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Trung vệ"
+        },
+        {
+          "label": "Điểm mạnh",
+          "value": "Cắt bóng, đọc tình huống"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E11D2E"
+        }
+      ],
+      "subtitle": "Niềm hi vọng lớn nhất của hàng thủ Arsenal chắc chắn là William Saliba. Trung vệ người Pháp sẽ có một ngày làm việc cực kỳ vất vả để phong tỏa những người đồng hương đầy tốc độ bên phía đối thủ."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Bradley Barcola",
+      "subtext": "Mũi khoan tốc độ của PSG",
+      "voiceText": "Bên phía Pi S Ji, B rát li Ba cô la đang là ngòi nổ đáng sợ nhất. Tốc độ và sự lắt léo của tiền đạo trẻ này, sẽ là bài toán cực khó mà hàng thủ Pháo thủ bắt buộc phải giải quyết.",
+      "duration": 8,
+      "startTime": 41,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#004170",
+      "secondaryAccentColor": "#E11D2E",
+      "textColor": "#FFFFFF",
+      "player": "Bradley Barcola",
+      "team": "PSG",
+      "number": "29",
+      "playerImageUrl":"https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/548529705_1350672053093971_6106994695541437275_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=M7o3R7067GsQ7kNvwElqZzy&_nc_oc=Adp6WnTjbFMaqNpd8x7_z44h7o9rCJ263hh9dUI5e-BwAQBj2ayzIO8GxX-2GFdpb0A&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=rdSRApQdnsiJIvfMq6CQIQ&_nc_ss=7b2a8&oh=00_Af7pIqPdbnFU8H7Du7RvCYQgtnNuhZhnfX1q3facNF4qxg&oe=6A1D72F9",
+      "stats": [
+        {
+          "label": "Giải đấu",
+          "value": "Champions League"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Tiền đạo cánh"
+        },
+        {
+          "label": "Điểm mạnh",
+          "value": "Tốc độ, rê dắt"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#004170"
+        }
+      ],
+      "subtitle": "Bên phía PSG, Bradley Barcola đang là ngòi nổ đáng sợ nhất. Tốc độ và sự lắt léo của tiền đạo trẻ này sẽ là bài toán cực khó mà hàng thủ Pháo thủ bắt buộc phải giải quyết."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Cuộc chạm trán kinh điển",
+      "subtext": "Phòng ngự thép gặp tấn công vũ bão",
+      "voiceText": "Đây sẽ là màn chạm trán kinh điển, giữa chiếc khiên vững chắc của a se nồ, và ngọn giáo sắc bén của Pi S Ji. Đội bóng nào tận dụng tốt hơn những khoảnh khắc quyết định, sẽ là người chiến thắng.",
+      "duration": 8,
+      "startTime": 49,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#004170",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "🛡️",
+          "value": "Arsenal",
+          "label": "Phòng ngự kỷ luật"
+        },
+        {
+          "icon": "⚔️",
+          "value": "PSG",
+          "label": "Tấn công tốc độ"
+        },
+        {
+          "icon": "🏆",
+          "value": "Chung kết",
+          "label": "Champions League"
+        },
+        {
+          "icon": "🔥",
+          "value": "Quyết định",
+          "label": "Khoảnh khắc"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://thethaovanhoa.mediacdn.vn/372676912336973824/2025/4/29/arsenal-vs-psg-six-subplots-17459118148701543801447.jpg",
+          "label": "Chung Kết C1 2026",
+          "title": "Cuộc chạm trán kinh điển",
+          "caption": "Phòng ngự thép gặp tấn công vũ bão",
+          "top": "850px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#DA020E",
+          "secondaryAccentColor": "#FFE500",
+          "cardBg": "rgba(10,19,28,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E11D2E"
+        }
+      ],
+      "subtitle": "Đây sẽ là màn chạm trán kinh điển giữa chiếc khiên vững chắc của Arsenal, và ngọn giáo sắc bén của PSG. Đội bóng nào tận dụng tốt hơn những khoảnh khắc quyết định, sẽ là người chiến thắng."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Arsenal hay PSG sẽ lên ngôi vô địch?",
+      "subtext": "Hãy để lại dự đoán của bạn",
+      "voiceText": "Liệu bức tường thành của a se nồ, có đứng vững trước sức ép từ Pi S Ji, hay đại diện nước Pháp sẽ mang cúp về Pa ri? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 8,
+      "startTime": 57,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#004170",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Chung kết Champions League 2026",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số trận đấu?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Arsenal",
+          "PSG",
+          "Champions League",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Liệu bức tường thành của Arsenal có đứng vững trước sức ép từ PSG, hay đại diện nước Pháp sẽ mang cúp về Paris? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}

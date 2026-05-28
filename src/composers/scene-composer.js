@@ -359,6 +359,10 @@ function buildBaseStyles(scene) {
       justify-content: center;
       padding: 60px 50px;
     }
+    [data-composition-id="${cid}"] .canvas > :not(.bg-gradient):not(.bg-grid):not([id$="-bg-video"]) {
+      position: relative;
+      z-index: 2;
+    }
     [data-composition-id="${cid}"] .bg-gradient {
       position: absolute;
       inset: 0;
@@ -3384,21 +3388,35 @@ const COMPOSERS = {
     const teams = normalizeFootballTeams(scene);
     const lineup = normalizeFootballLineups(scene, teams);
     const venue = scene.venue || scene.stadium || scene.location || scene.subtext || "";
+    const hasHomeLineup = Boolean(lineup.home?.players?.length);
+    const hasAwayLineup = Boolean(lineup.away?.players?.length);
 
-    const homePlayers = buildFootballLineupPlayersHtml({
+    const homePlayers = hasHomeLineup ? buildFootballLineupPlayersHtml({
       sceneId: scene.id,
       side: "home",
       team: teams[0],
       formation: lineup.home.formation,
       players: lineup.home.players,
-    });
-    const awayPlayers = buildFootballLineupPlayersHtml({
+    }) : "";
+    const awayPlayers = hasAwayLineup ? buildFootballLineupPlayersHtml({
       sceneId: scene.id,
       side: "away",
       team: teams[1],
       formation: lineup.away.formation,
       players: lineup.away.players,
-    });
+    }) : "";
+    const homeTeamBlock = hasHomeLineup ? `
+      <div class="football-lineup-teamblock top" id="s${scene.id}-team-home">
+        <div class="football-lineup-teamcode">${escapeHtml(teams[0]?.code || "")}</div>
+        <div class="football-lineup-teamname">${escapeHtml(teams[0]?.name || "")}</div>
+        <div class="football-lineup-formation-label">${escapeHtml(lineup.home.formation)}</div>
+      </div>` : "";
+    const awayTeamBlock = hasAwayLineup ? `
+      <div class="football-lineup-teamblock bottom" id="s${scene.id}-team-away">
+        <div class="football-lineup-teamcode">${escapeHtml(teams[1]?.code || "")}</div>
+        <div class="football-lineup-teamname">${escapeHtml(teams[1]?.name || "")}</div>
+        <div class="football-lineup-formation-label">${escapeHtml(lineup.away.formation)}</div>
+      </div>` : "";
 
     return `
     <div class="canvas football-scene football-lineup" style="align-items:center; justify-content:flex-start; padding:86px 76px 90px; background:${footballBg(scene)};">
@@ -3409,22 +3427,14 @@ const COMPOSERS = {
       </div>
       <h1 class="football-title" id="s${scene.id}-title" style="margin-top:20px;">${escapeHtml(scene.title || "Đội hình ra sân")}</h1>
 
-      <div class="football-lineup-teamblock top" id="s${scene.id}-team-home">
-        <div class="football-lineup-teamcode">${escapeHtml(teams[0].code)}</div>
-        <div class="football-lineup-teamname">${escapeHtml(teams[0].name)}</div>
-        <div class="football-lineup-formation-label">${escapeHtml(lineup.home.formation)}</div>
-      </div>
+      ${homeTeamBlock}
 
       <div class="football-lineup-pitch" id="s${scene.id}-lineup-pitch">
         ${homePlayers}
         ${awayPlayers}
       </div>
 
-      <div class="football-lineup-teamblock bottom" id="s${scene.id}-team-away">
-        <div class="football-lineup-teamcode">${escapeHtml(teams[1].code)}</div>
-        <div class="football-lineup-teamname">${escapeHtml(teams[1].name)}</div>
-        <div class="football-lineup-formation-label">${escapeHtml(lineup.away.formation)}</div>
-      </div>
+      ${awayTeamBlock}
     </div>`;
   },
 
@@ -3951,8 +3961,20 @@ const COMPOSERS = {
       && scene.visuals.some((visual) => visual?.type === "highlight-image-card");
     const useSingleColumn = safeItems.length < 5 && !hasSecondary && !hasHighlightImageCard;
     const maxCards = useSingleColumn ? 4 : 6;
+    const statsLayout = (scene.statsCardsLayout && typeof scene.statsCardsLayout === "object")
+      ? scene.statsCardsLayout
+      : {};
+    const statsPosition = String(scene.statsCardsPosition || scene.statsPosition || statsLayout.position || "top").toLowerCase();
+    const isCentered = ["center", "middle"].includes(statsPosition);
+    const offsetY = scene.statsCardsOffsetY ?? statsLayout.offsetY ?? 0;
+    const offsetYValue = typeof offsetY === "number" ? `${offsetY}px` : String(offsetY || "0");
+    const top = scene.statsCardsTop ?? statsLayout.top ?? 220;
+    const topValue = typeof top === "number" ? `${top}px` : String(top || "220px");
+    const canvasJustify = isCentered ? "center" : "flex-start";
+    const canvasPaddingTop = isCentered ? "0" : topValue;
+    const darkCardStyle = "background:rgba(3,8,15,0.88); border:1px solid rgba(255,255,255,0.18); box-shadow:0 30px 76px rgba(0,0,0,0.52), 0 0 0 1px rgba(247,201,72,0.12) inset; backdrop-filter:blur(14px);";
     const grid = safeItems.slice(0, maxCards).map((it, i) => `
-      <div class="ai-card ai-card-pop ai-stat-card" id="s${scene.id}-statcard-${i}" style="padding:26px 26px; opacity:0;">
+      <div class="ai-card ai-card-pop ai-stat-card" id="s${scene.id}-statcard-${i}" style="padding:26px 26px; opacity:0; ${darkCardStyle}">
         ${it.icon ? `<div style="font-size:26px; opacity:0.9; margin-bottom:10px;">${escapeHtml(String(it.icon))}</div>` : ""}
         <div class="ai-gradient-text" style="font-size:62px; font-weight:900; letter-spacing:-0.02em;">
           <span class="ai-countup" data-final="${escapeHtmlAttr(String(it.value ?? ""))}">${escapeHtml(String(it.value ?? ""))}</span>
@@ -3961,12 +3983,14 @@ const COMPOSERS = {
       </div>
     `).join("");
     return `
-    <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:220px;">
+    <div class="canvas" style="align-items:center; justify-content:${canvasJustify}; padding-top:${canvasPaddingTop};">
+      <div class="stats-cards-positioner" style="width:100%; display:flex; flex-direction:column; align-items:center; transform:translateY(${offsetYValue});">
       <div class="ai-title ai-gradient-text" style="font-size:54px; font-weight:900; opacity:0.95; margin-bottom:44px;">
         ${escapeHtml(title)}
       </div>
       <div style="display:grid; grid-template-columns: ${useSingleColumn ? "1fr" : "1fr 1fr"}; gap:18px; width: 880px; max-width: 880px;">
         ${grid}
+      </div>
       </div>
     </div>`;
   },
@@ -4024,6 +4048,7 @@ const COMPOSERS = {
       { icon: "🚨", label: "Cáo buộc chính", value: "Bỏ qua an toàn" },
     ];
     const maxRows = rows.length ? 5 : 3;
+    const darkRowStyle = "background:rgba(3,8,15,0.88); border:1px solid rgba(255,255,255,0.18); box-shadow:0 26px 68px rgba(0,0,0,0.50), 0 0 0 1px rgba(247,201,72,0.10) inset; backdrop-filter:blur(14px);";
     return `
     <div class="canvas" style="align-items:center; justify-content:flex-start; padding-top:220px;">
       <div class="ai-title ai-gradient-text" style="font-size:54px; font-weight:900; opacity:0.95; margin-bottom:44px;">
@@ -4031,7 +4056,7 @@ const COMPOSERS = {
       </div>
       <div style="width: 880px; max-width: 880px; display:flex; flex-direction:column; gap:18px;">
         ${safeRows.slice(0, maxRows).map((r, i) => `
-          <div class="ai-card ai-card-pop ai-row-card" id="s${scene.id}-row-${i}" style="padding:18px 22px; opacity:0;">
+          <div class="ai-card ai-card-pop ai-row-card" id="s${scene.id}-row-${i}" style="padding:18px 22px; opacity:0; ${darkRowStyle}">
             <div class="ai-row">
               <div style="display:flex; align-items:center; gap:14px;">
                 ${r.icon ? `<div style="font-size:24px; opacity:0.9;">${escapeHtml(String(r.icon))}</div>` : ""}
@@ -5068,12 +5093,13 @@ function getSceneSubtitleText(scene) {
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function normalizeFootballTeams(scene) {
-  const raw = Array.isArray(scene.teams) && scene.teams.length >= 2
-    ? scene.teams
-    : [
-        { name: scene.homeTeam || "Home XI", code: scene.homeCode || "HOME", form: ["W", "D", "W"] },
-        { name: scene.awayTeam || "Away XI", code: scene.awayCode || "AWAY", form: ["W", "L", "W"] },
-      ];
+  const fallbackTeams = [
+    { name: scene.homeTeam || "Home XI", code: scene.homeCode || "HOME", form: ["W", "D", "W"] },
+    { name: scene.awayTeam || "Away XI", code: scene.awayCode || "AWAY", form: ["W", "L", "W"] },
+  ];
+  const raw = Array.isArray(scene.teams) && scene.teams.length
+    ? [...scene.teams, ...fallbackTeams.slice(scene.teams.length)]
+    : fallbackTeams;
 
   return raw.slice(0, 2).map((team, i) => {
     if (typeof team === "string") {
@@ -5298,32 +5324,53 @@ function normalizeFootballLineups(scene, teams) {
     }));
 
   const raw = scene.lineups || scene.lineup || scene.squads || scene.teamsLineup || null;
+  const coerceFormation = (...values) => {
+    for (const value of values) {
+      if (typeof value === "string" && value.trim()) return value.trim();
+      if (typeof value === "number" && Number.isFinite(value)) return String(value);
+    }
+    return "4-3-3";
+  };
+  const getPlayersRaw = (value) =>
+    value?.players ||
+    value?.xi ||
+    value?.starting ||
+    value?.startingXI ||
+    value?.starting11 ||
+    value?.startingXl ||
+    value?.lineup ||
+    value?.items ||
+    [];
+  const hasSideLineup = (value) => {
+    if (!value) return false;
+    if (Array.isArray(value)) return value.length > 0;
+    if (typeof value !== "object") return false;
+    return Boolean(value.formation || value.form || value.scheme || getPlayersRaw(value).length);
+  };
 
   const coerceSide = (value, fallbackTeam, seed) => {
     if (!value) {
       return {
-        formation: fallbackTeam?.formation || fallbackTeam?.scheme || fallbackTeam?.form || "4-3-3",
+        formation: coerceFormation(fallbackTeam?.formation, fallbackTeam?.scheme, fallbackTeam?.form),
         players: defaultPlayers(fallbackTeam?.name || "", seed),
       };
     }
 
-    const formation = value.formation || value.form || value.scheme || fallbackTeam?.formation || "4-3-3";
-    const playersRaw =
-      value.players ||
-      value.xi ||
-      value.starting ||
-      value.startingXI ||
-      value.starting11 ||
-      value.startingXl ||
-      value.lineup ||
-      value.items ||
-      [];
+    const formation = coerceFormation(value.formation, value.form, value.scheme, fallbackTeam?.formation, fallbackTeam?.scheme);
+    const playersRaw = getPlayersRaw(value);
 
     const players = normalizeFootballPlayers(playersRaw, fallbackTeam?.name || "", seed);
-    return { formation: String(formation || "4-3-3"), players };
+    return { formation, players };
   };
 
   if (Array.isArray(raw)) {
+    if (hasSideLineup(raw[0]) || hasSideLineup(raw[1])) {
+      return {
+        home: hasSideLineup(raw[0]) ? coerceSide(raw[0], teams?.[0], 10) : null,
+        away: hasSideLineup(raw[1]) ? coerceSide(raw[1], teams?.[1], 30) : null,
+      };
+    }
+
     return {
       home: coerceSide(raw[0], teams?.[0], 10),
       away: coerceSide(raw[1], teams?.[1], 30),
@@ -5331,9 +5378,24 @@ function normalizeFootballLineups(scene, teams) {
   }
 
   if (raw && typeof raw === "object") {
+    const homeRaw = raw.home || raw.team1 || raw.left || raw.a;
+    const awayRaw = raw.away || raw.team2 || raw.right || raw.b;
+    if (hasSideLineup(homeRaw) || hasSideLineup(awayRaw)) {
+      return {
+        home: hasSideLineup(homeRaw) ? coerceSide(homeRaw, teams?.[0], 10) : null,
+        away: hasSideLineup(awayRaw) ? coerceSide(awayRaw, teams?.[1], 30) : null,
+      };
+    }
+    if (hasSideLineup(raw)) {
+      return {
+        home: coerceSide(raw, teams?.[0], 10),
+        away: null,
+      };
+    }
+
     return {
-      home: coerceSide(raw.home || raw.team1 || raw.left || raw.a, teams?.[0], 10),
-      away: coerceSide(raw.away || raw.team2 || raw.right || raw.b, teams?.[1], 30),
+      home: coerceSide(homeRaw, teams?.[0], 10),
+      away: coerceSide(awayRaw, teams?.[1], 30),
     };
   }
 
@@ -6004,7 +6066,7 @@ function footballScoreTeam(team) {
 }
 
 function escapeHtml(str) {
-  return (str || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  return String(str ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
 function escapeHtmlAttr(str) {

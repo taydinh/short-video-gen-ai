@@ -5,17 +5,26 @@ import { logger } from "../utils/logger.js";
 
 /**
  * Parses a timestamp string like "00:15:23.000" or "00:15:23,000" into seconds.
+ * Numeric values are treated as seconds.
  */
 function parseTimestampToSeconds(ts) {
-  if (!ts) return 0;
-  const parts = ts.replace(",", ".").split(":");
+  if (ts == null || ts === "") return 0;
+  if (typeof ts === "number") return Number.isFinite(ts) ? ts : 0;
+
+  const normalized = String(ts).replace(",", ".");
+  const parts = normalized.split(":");
   if (parts.length === 3) {
     return parseFloat(parts[0]) * 3600 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
   }
   if (parts.length === 2) {
     return parseFloat(parts[0]) * 60 + parseFloat(parts[1]);
   }
-  return parseFloat(ts);
+  return parseFloat(normalized);
+}
+
+function formatTimestampForFfmpeg(ts) {
+  if (ts == null || ts === "") return "0";
+  return String(ts).replace(",", ".");
 }
 
 export async function trimVideoClips(storyboard, outputDir) {
@@ -83,6 +92,8 @@ export async function trimVideoClips(storyboard, outputDir) {
       clip.duration = duration;
       clip.startTimeStr = startTimeStr;
       clip.endTimeStr = endTimeStr;
+      const ffmpegStartTime = formatTimestampForFfmpeg(startTimeStr);
+      const ffmpegEndTime = formatTimestampForFfmpeg(endTimeStr);
 
       const clipId = clipConfigs.length > 1 ? `${scene.id}-${j}` : scene.id;
       const trimmedPath = path.join(clipsDir, `clip-scene-${clipId}.mp4`);
@@ -93,13 +104,13 @@ export async function trimVideoClips(storyboard, outputDir) {
       try {
         // 1. Trim video
         execSync(
-          `ffmpeg -ss ${clip.startTimeStr.replace(",", ".")} -to ${clip.endTimeStr.replace(",", ".")} -i "${videoSrc}" -c:v libx264 -c:a aac -y "${trimmedPath}"`,
+          `ffmpeg -ss ${ffmpegStartTime} -to ${ffmpegEndTime} -i "${videoSrc}" -c:v libx264 -c:a aac -y "${trimmedPath}"`,
           { stdio: "ignore" } // Hide ffmpeg output
         );
 
         // 2. Extract audio for merging
         execSync(
-          `ffmpeg -ss ${clip.startTimeStr.replace(",", ".")} -to ${clip.endTimeStr.replace(",", ".")} -i "${videoSrc}" -vn -acodec pcm_s16le -ar 44100 -ac 2 -y "${trimmedAudioPath}"`,
+          `ffmpeg -ss ${ffmpegStartTime} -to ${ffmpegEndTime} -i "${videoSrc}" -vn -acodec pcm_s16le -ar 44100 -ac 2 -y "${trimmedAudioPath}"`,
           { stdio: "ignore" }
         );
 

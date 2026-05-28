@@ -1,0 +1,392 @@
+{
+  "title": "Premier League Lập Kỷ Lục: 9 Đội Dự Cúp Châu Âu 2026/27",
+  "slug": "premier-league-9-doi-du-cup-chau-au-2026-05-28",
+  "totalDuration": 65,
+  "sources": [
+    {
+      "title": "9 Premier League teams qualify for European football 2026/27",
+      "url": "https://www.thethao247.vn"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "9 ĐỘI PREMIER LEAGUE DỰ CÚP CHÂU ÂU!",
+      "subtext": "Kỷ lục chưa từng có trong lịch sử bóng đá Anh",
+      "voiceText": "Ngoại Hạng Anh vừa lập một kỷ lục lịch sử chưa từng có, khi có đến chín đội đại diện, góp mặt ở các đấu trường châu Âu, mùa giải hai không hai sáu, hai bảy.",
+      "duration": 7,
+      "startTime": 0,
+      "bgColor": "#03142E",
+      "accentColor": "#E8B84B",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "label": "KỶ LỤC PREMIER LEAGUE",
+      "imageSrc": "assets/storyboards/premier-league-9-europe.png",
+      "cardCaption": "Premier League thống trị bóng đá châu Âu 2026/27",
+      "chips": [
+        "Premier League",
+        "Champions League",
+        "Europa League"
+      ],
+      "emoji": "🏆",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Ngoại Hạng Anh vừa lập kỷ lục lịch sử chưa từng có khi có đến 9 đội đại diện góp mặt ở các đấu trường châu Âu mùa giải 2026/27."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Kỷ Lục Lịch Sử",
+      "subtext": "9 đội. 3 giải đấu. 1 mục tiêu",
+      "voiceText": "Chín đội từ Ngoại Hạng Anh, phân bổ trên ba đấu trường. Năm đội dự cúp C một, ba đội dự cúp ơ rô pa lít, và một đội đại diện ở Conference League.",
+      "duration": 7,
+      "startTime": 7,
+      "bgColor": "#03142E",
+      "accentColor": "#E8B84B",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "🌟",
+          "value": "5 đội",
+          "label": "Champions League"
+        },
+        {
+          "icon": "🔶",
+          "value": "3 đội",
+          "label": "Europa League"
+        },
+        {
+          "icon": "🟢",
+          "value": "1 đội",
+          "label": "Conference League"
+        },
+        {
+          "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "value": "9 đội",
+          "label": "Tổng đại diện"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a17fa8780cb1.mp4",
+          "trim": {
+            "start": 20,
+            "end": 27
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E8B84B"
+        }
+      ],
+      "subtitle": "9 đội từ Ngoại Hạng Anh phân bổ trên 3 đấu trường: 5 đội dự Champions League, 3 đội dự Europa League và 1 đội dự Conference League."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "5 Đội Dự Champions League",
+      "subtext": "Arsenal, Man City, Man United, Aston Villa, Liverpool",
+      "voiceText": "Năm đại diện góp mặt ở cúp C một gồm: a se nồ, Man City, Mờ U, Aston Villa và li vơ pun. Đây là những tên tuổi hàng đầu Ngoại Hạng Anh.",
+      "duration": 8,
+      "startTime": 14,
+      "bgColor": "#03142E",
+      "accentColor": "#E8B84B",
+      "secondaryAccentColor": "#1D56A5",
+      "textColor": "#ffffff",
+      "highlightTeams": ["Arsenal", "Man City", "Man United", "Aston Villa", "Liverpool"],
+      "teams": [
+        { "rank": 1, "name": "Arsenal", "logoSrc": "assets/football/clubs/epl/arsenal.svg", "tag": "UCL", "tagColor": "#1D56A5" },
+        { "rank": 2, "name": "Man City", "logoSrc": "assets/football/clubs/epl/manchester-city.svg", "tag": "UCL", "tagColor": "#1D56A5" },
+        { "rank": 3, "name": "Man United", "logoSrc": "assets/football/clubs/epl/manchester-united.svg", "tag": "UCL", "tagColor": "#1D56A5" },
+        { "rank": 4, "name": "Aston Villa", "logoSrc": "assets/football/clubs/epl/aston-villa.svg", "tag": "UCL", "tagColor": "#1D56A5" },
+        { "rank": 5, "name": "Liverpool", "logoSrc": "assets/football/clubs/epl/liverpool.svg", "tag": "UCL", "tagColor": "#1D56A5" }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a17fa8780cb1.mp4",
+          "trim": {
+            "start": 27,
+            "end": 35
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E8B84B"
+        }
+      ],
+      "subtitle": "5 đại diện góp mặt ở Champions League: Arsenal, Man City, Man United, Aston Villa và Liverpool — những tên tuổi hàng đầu Ngoại Hạng Anh."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "3 Đội Dự Europa League",
+      "subtext": "Bournemouth, Sunderland, Crystal Palace",
+      "voiceText": "Ở đấu trường cúp ơ rô pa lít, Ngoại Hạng Anh cử ba đại diện gồm: Bournemouth, Sunderland, và Crystal Palace. Đặc biệt, Sunderland lần đầu trở lại sân chơi châu Âu sau nhiều thập kỷ vắng bóng.",
+      "duration": 8,
+      "startTime": 22,
+      "bgColor": "#03142E",
+      "accentColor": "#F05000",
+      "secondaryAccentColor": "#E8B84B",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "Bournemouth",
+          "value": "Europa League",
+          "color": "#C8102E"
+        },
+        {
+          "label": "Sunderland",
+          "value": "Europa League — Lần đầu trở lại",
+          "color": "#EB172B"
+        },
+        {
+          "label": "Crystal Palace",
+          "value": "Europa League — Vô địch Conference",
+          "color": "#1B458F"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a17fa8780cb1.mp4",
+          "trim": {
+            "start": 5,
+            "end": 14
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F05000"
+        }
+      ],
+      "subtitle": "Ở đấu trường Europa League, Ngoại Hạng Anh cử 3 đại diện: Bournemouth, Sunderland và Crystal Palace. Đặc biệt Sunderland lần đầu trở lại sân chơi châu Âu sau nhiều thập kỷ vắng bóng."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Crystal Palace — Câu Chuyện Cổ Tích",
+      "subtext": "Từ Conference League đến Europa League",
+      "voiceText": "Crystal Palace là câu chuyện cổ tích lớn nhất mùa này. Họ vô địch Conference League ngay ở mùa đầu góp mặt, và giờ đây được thăng hạng lên đấu trường cúp ơ rô pa lít mùa tới.",
+      "duration": 8,
+      "startTime": 30,
+      "bgColor": "#03142E",
+      "accentColor": "#C8102E",
+      "secondaryAccentColor": "#1B458F",
+      "textColor": "#ffffff",
+      "player": "Crystal Palace F.C.",
+      "team": "Crystal Palace",
+      "number": "🏆",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Thành tích",
+          "value": "Vô địch Conference League"
+        },
+        {
+          "label": "Mùa tới",
+          "value": "Europa League"
+        },
+        {
+          "label": "Kỳ tích",
+          "value": "Lần đầu vô địch châu Âu"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a17fa8780cb1.mp4",
+          "trim": {
+            "start": 3,
+            "end": 11
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#C8102E"
+        }
+      ],
+      "subtitle": "Crystal Palace là câu chuyện cổ tích lớn nhất mùa này. Họ vô địch Conference League ngay ở mùa đầu góp mặt và giờ được thăng hạng lên đấu trường Europa League mùa tới."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Brighton — Đại Diện Conference League",
+      "subtext": "Lần đầu trong lịch sử CLB",
+      "voiceText": "Brighton là đội duy nhất dự Conference League, và đây là lần đầu tiên trong lịch sử câu lạc bộ họ góp mặt tại một giải đấu cúp châu Âu. Một cột mốc lịch sử với Chim Hải Âu.",
+      "duration": 7,
+      "startTime": 38,
+      "bgColor": "#03142E",
+      "accentColor": "#00A550",
+      "secondaryAccentColor": "#E8B84B",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "🐦",
+          "value": "Brighton",
+          "label": "Conference League"
+        },
+        {
+          "icon": "🏅",
+          "value": "Lần đầu",
+          "label": "Dự cúp châu Âu"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://static.bongda24h.vn/medias/original/2023/08/26/brihgton-2608110258.jpg",
+          "label": "Conference League 2026/27",
+          "title": "Brighton & Hove Albion",
+          "caption": "Lần đầu tiên trong lịch sử CLB",
+          "top": "570px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "550px",
+          "accentColor": "#00A550",
+          "cardBg": "rgba(3,20,46,0.88)",
+          "objectFit": "contain",
+          "objectPosition": "center center"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#00A550"
+        }
+      ],
+      "subtitle": "Brighton là đội duy nhất dự Conference League. Đây là lần đầu tiên trong lịch sử câu lạc bộ họ góp mặt tại sân chơi châu Âu — một cột mốc lịch sử với Chim Hải Âu."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc Nhìn Méo Bình Luận",
+      "subtext": "Nước Anh đang thống trị châu Âu",
+      "voiceText": "Theo tôi, đây là mùa giải minh chứng rõ nhất cho sự thống trị của bóng đá Anh. Khi mà chín đội trong top chín đều có vé châu Âu, thì không có giải đấu nào trên thế giới làm được điều này.",
+      "duration": 7,
+      "startTime": 45,
+      "bgColor": "#03142E",
+      "accentColor": "#E8B84B",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Không có giải đấu nào trên thế giới có thể làm điều này — 9/9 đội từ top 9 cuối mùa đều có vé châu Âu. Nước Anh đang thống trị!",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.15
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E8B84B"
+        }
+      ],
+      "subtitle": "Không có giải đấu nào trên thế giới có thể làm điều này. 9/9 đội từ top 9 cuối mùa đều có vé châu Âu. Nước Anh đang thống trị!"
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Đội nào bạn muốn xem nhất tại châu Âu?",
+      "subtext": "Hãy để lại bình luận của bạn",
+      "voiceText": "Trong chín đội Anh dự châu Âu mùa tới, bạn muốn xem đội nào nhất? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 8,
+      "startTime": 57,
+      "bgColor": "#03142E",
+      "accentColor": "#E8B84B",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "PREMIER LEAGUE 2026/27",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Đội Anh nào bạn muốn xem nhất tại châu Âu?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Trong 9 đội Anh dự châu Âu mùa tới, bạn muốn xem đội nào nhất? Hãy để lại bình luận nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}

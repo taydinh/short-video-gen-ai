@@ -12,15 +12,18 @@ const AUDIO_BUFFER = 0.3;    // Seconds after audio ends before scene transition
 const MIN_SCENE_DURATION = 2; // Minimum scene duration in seconds
 
 function parseTimestampToSeconds(ts) {
-  if (!ts) return 0;
-  const parts = ts.replace(",", ".").split(":");
+  if (ts == null || ts === "") return 0;
+  if (typeof ts === "number") return Number.isFinite(ts) ? ts : 0;
+
+  const normalized = String(ts).replace(",", ".");
+  const parts = normalized.split(":");
   if (parts.length === 3) {
     return parseFloat(parts[0]) * 3600 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
   }
   if (parts.length === 2) {
     return parseFloat(parts[0]) * 60 + parseFloat(parts[1]);
   }
-  return parseFloat(ts);
+  return parseFloat(normalized);
 }
 
 export async function adjustTimings(storyboard, audioFiles, outputDir) {
