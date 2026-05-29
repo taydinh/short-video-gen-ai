@@ -1,0 +1,337 @@
+{
+  "title": "Koeman Nhận Định Tuyển Anh Sẽ Dùng Bài Của Arsenal Tại World Cup 2026",
+  "slug": "koeman-nhan-dinh-tuyen-anh-dung-bai-arsenal-wc-2026-05-29",
+  "totalDuration": 64,
+  "sources": [],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "TUYỂN ANH COPY BÀI ARSENAL?",
+      "subtext": "Vũ khí bí mật tại World Cup 2026",
+      "voiceText": "Huấn luyện viên Rô nan Koeman thẳng thắn cho rằng, đội tuyển Anh sẽ dùng bài tủ của a se nồ tại World Cup hai không hai sáu. Đó là dùng tình huống cố định để vô địch!",
+      "duration": 8,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "label": "TIN ĐỘI TUYỂN",
+      "imageSrc": "assets/storyboards/tuyen-anh-wc-2026.png",
+      "cardCaption": "Koeman dự đoán ĐT Anh sẽ dùng bóng chết",
+      "chips": [
+        "World Cup 2026",
+        "Tuyển Anh",
+        "Arsenal"
+      ],
+      "emoji": "🔥",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Huấn luyện viên Ronald Koeman thẳng thắn cho rằng, đội tuyển Anh sẽ dùng bài tủ của Arsenal tại World Cup 2026. Đó là dùng tình huống cố định để vô địch!"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc Nhìn Của Koeman",
+      "subtext": "Cố định là chìa khóa",
+      "voiceText": "Chiến lược gia người Hà Lan nhận định, Tam Sư nhiều khả năng sẽ biến các pha bóng chết thành vũ khí chủ lực, trên đất Bắc Mỹ mùa hè này.",
+      "duration": 8,
+      "startTime": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "quote": "Tam Sư sẽ như Arsenal thôi và cần cố định để có thể vô địch.",
+      "author": "Ronald Koeman",
+      "role": "HLV Trưởng ĐT Hà Lan",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a191a37e4edc.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "layout": "horizontal",
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Chiến lược gia người Hà Lan nhận định, Tam Sư nhiều khả năng sẽ biến các pha bóng chết thành vũ khí chủ lực trên đất Bắc Mỹ mùa hè này."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Chiến thuật của Tam Sư",
+      "subtext": "Lựa chọn nhân sự lộ rõ ý đồ",
+      "voiceText": "Theo Koeman, việc lựa chọn nhân sự đã hé lộ định hướng của đội tuyển Anh. Họ sẽ ưu tiên phạt góc, ném biên và bóng bổng nhằm giảm tải thể lực.",
+      "duration": 8,
+      "startTime": 16,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "Ưu tiên 1",
+          "value": "Phạt góc",
+          "color": "#F7C948"
+        },
+        {
+          "label": "Ưu tiên 2",
+          "value": "Ném biên dài",
+          "color": "#C8102E"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a191df509f91.mp4",
+          "trim": {
+            "start": 0,
+            "end": 9
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Theo Koeman, việc lựa chọn nhân sự đã hé lộ định hướng của đội tuyển Anh. Họ sẽ ưu tiên phạt góc, ném biên và bóng bổng nhằm giảm tải thể lực."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Cảm Hứng Từ Pháo Thủ",
+      "subtext": "Bài học thành công của Mikel Arteta",
+      "voiceText": "Ông liên hệ trực tiếp với thành công của a se nồ. Dưới thời mi ken a tê ta, Pháo thủ đã vô địch Ngoại hạng Anh, nhờ vào những pha dàn xếp đá phạt góc.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "label": "Vũ khí",
+          "value": "Bóng chết",
+          "icon": "⚽"
+        },
+        {
+          "label": "Thành công",
+          "value": "Vô địch",
+          "icon": "🏆"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a191d150fd71.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "position": "background",
+          "videoVolume": 0.3
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Ông liên hệ trực tiếp với thành công của Arsenal. Dưới thời Mikel Arteta, Pháo thủ đã vô địch Ngoại hạng Anh, nhờ vào những pha dàn xếp đá phạt góc."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "bullet-points",
+      "title": "Tranh Cãi Nổ Ra",
+      "subtext": "Phản ứng từ người hâm mộ",
+      "voiceText": "Nhận định này lập tức tạo ra tranh luận. Một số tin rằng bóng chết là yếu tố quyết định, trong khi số khác kỳ vọng, tuyển Anh sẽ chơi tấn công đa dạng hơn.",
+      "duration": 9,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "bullets": [
+        "Chìa khóa ở giải đấu ngắn?",
+        "Cần tấn công đa dạng hơn?"
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a191a37e4edc.mp4",
+          "trim": {
+            "start": 72,
+            "end": 81
+          },
+          "position": "background",
+          "videoVolume": 0,
+          "opacity": 1
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Nhận định này lập tức tạo ra tranh luận. Một số tin rằng bóng chết là yếu tố quyết định, trong khi số khác kỳ vọng tuyển Anh sẽ chơi tấn công đa dạng hơn."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "kinetic-title",
+      "title": "CHÌA KHÓA VÀNG",
+      "subtext": "Cho hành trình vô địch",
+      "voiceText": "Dù sao đi nữa, phát biểu của cựu huấn luyện viên ba xa cho thấy, bóng chết hoàn toàn có thể là chìa khóa vàng của Tam Sư tại giải đấu sắp tới.",
+      "duration": 7,
+      "startTime": 42,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a191eb06c81d.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Dù sao đi nữa, phát biểu của cựu huấn luyện viên Barca cho thấy, bóng chết hoàn toàn có thể là chìa khóa vàng của Tam Sư tại giải đấu sắp tới."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn Méo Bình Luận",
+      "subtext": "Hoàn toàn hợp lý",
+      "voiceText": "Theo tôi, với một đội hình có những chuyên gia tạt bóng và dàn đánh đầu cực khét, việc dùng bóng chết là hoàn toàn hợp lý.",
+      "duration": 7,
+      "startTime": 49,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "quote": "Với những chuyên gia tạt bóng và dàn đánh đầu cực khét, bài này quá chuẩn cho Tam Sư.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://cms.jtravel2.okhub-tech.com/jtravel/api/v1/files/stream/331e508445f6093a05799.png",
+          "label": "World Cup 2026",
+          "title": "Tam Sư Ứng Cử Viên Nặng Ký",
+          "caption": "Tuyển Anh có đội hình phù hợp để tận dụng bóng chết",
+          "top": "1050px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "500px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#EF0107",
+          "cardBg": "rgba(10,19,28,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        }
+      ],
+      "subtitle": "Theo tôi, với một đội hình có những chuyên gia tạt bóng và dàn đánh đầu cực khét, việc dùng bóng chết là hoàn toàn hợp lý."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Tuyển Anh Sẽ Vô Địch Bằng Bóng Chết?",
+      "subtext": "Hãy để lại dự đoán của bạn",
+      "voiceText": "Theo anh em, tuyển Anh có thể xưng vương với chiến thuật này không? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 8,
+      "startTime": 56,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "GÓC KHÁN ĐÀI",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Tuyển Anh vô địch World Cup 2026?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Theo anh em, tuyển Anh có thể xưng vương với chiến thuật này không? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}

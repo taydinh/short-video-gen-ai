@@ -1,4 +1,4 @@
-# Football Storyboard Presets
+﻿# Football Storyboard Presets
 
 Tài liệu này lưu cấu trúc preset khi tạo storyboard JSON cho video bóng đá.
 
@@ -79,15 +79,15 @@ Nguồn mẫu:
 - Trong `voiceText`, `bảng K` phải viết/đọc là `bảng Ka`; `Ka` là phiên âm tiếng Việt cho chữ `K`.
 - Trong `voiceText`, tên sân `Bernabéu` phải viết là `Bernabeu` để TTS đọc ổn định; không dùng ký tự `é` trong lời đọc.
 
-- Trong `voiceText`, tên cầu thủ `Harry Maguire` phải viết là `ha ri mác gai` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `player`, `cards`, `sources` still keep official names.
-- Trong `voiceText`, tên HLV `Thomas Tuchel` phải viết là `thôm mát tu cồ` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `sources` vẫn giữ tên chính thức/bản gốc.
+### Cách Đọc Tên Cầu Thủ / HLV Trong VoiceText
+
+- Trong `voiceText`, tên cầu thủ `Harry Maguire` phải viết là `ha ri mác gai` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
+- Trong `voiceText`, tên HLV `Thomas Tuchel` phải viết là `thôm mát tu cồ` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
+- Trong `voiceText`, tên cầu thủ `Mbappé` phải viết là `em pa bê` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
+- Trong `voiceText`, tên cầu thủ `Dembélé` phải viết là `đem bê lê` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
 
 ### Ghi Chú Thêm
 
-
-- TODO: Thêm quy tắc đọc tên đội bóng.
-- TODO: Thêm quy tắc viết tắt tên giải đấu.
-- TODO: Thêm quy tắc đọc tên cầu thủ.
 - TODO: Thêm quy tắc viết tỉ số, thời gian, vòng đấu.
 - TODO: Thêm các nội dung đặc biệt cần có trong từng scene.
 

@@ -1,0 +1,432 @@
+{
+  "title": "Top 5 Đội Tuyển Sở Hữu Hàng Công Mạnh Nhất World Cup 2026",
+  "slug": "top-5-hang-cong-manh-nhat-world-cup-2026-05-29",
+  "totalDuration": 62,
+  "sources": [
+    {
+      "title": "Top 5 đội tuyển sở hữu hàng công mạnh nhất World Cup 2026",
+      "url": "https://www.thethao247.vn"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "5 HÀNG CÔNG ĐÁNG SỢ NHẤT WORLD CUP 2026",
+      "subtext": "Bồ Đào Nha hay Pháp mới là số 1?",
+      "voiceText": "World Cup hai không hai sáu, đang đến rất gần, và đây là năm đội tuyển sở hữu hàng công đáng sợ nhất giải đấu. Pháp hay Tây Ban Nha mới là số một? Cùng tìm hiểu ngay!",
+      "duration": 8,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#8B1538",
+      "textColor": "#ffffff",
+      "label": "WORLD CUP 2026",
+      "imageSrc": "assets/storyboards/top-5-hang-cong-manh-nhat-wc-2026.jpg",
+      "cardCaption": "5 hàng công mạnh nhất World Cup 2026",
+      "chips": [
+        "World Cup 2026",
+        "Hàng Công",
+        "Top 5"
+      ],
+      "emoji": "🔥",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "World Cup 2026 đang đến rất gần, và đây là 5 đội tuyển sở hữu hàng công đáng sợ nhất giải đấu. Pháp hay Tây Ban Nha mới là số 1?"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "5 Hàng Công Khủng Nhất",
+      "subtext": "Những cỗ máy ghi bàn tại World Cup 2026",
+      "voiceText": "Năm đội tuyển lọt vào danh sách gồm: Anh, Bồ Đào Nha, Brazil, Tây Ban Nha và Pháp. Mỗi đội đều sở hữu những ngôi sao hàng đầu thế giới, trên hàng công.",
+      "duration": 7,
+      "startTime": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "value": "Anh",
+          "label": "Kane, Saka, Rashford"
+        },
+        {
+          "icon": "🇵🇹",
+          "value": "Bồ Đào Nha",
+          "label": "Ronaldo, Leão, B. Silva"
+        },
+        {
+          "icon": "🇧🇷",
+          "value": "Brazil",
+          "label": "Vinicius Jr, Neymar"
+        },
+        {
+          "icon": "🇪🇸",
+          "value": "Tây Ban Nha",
+          "label": "Yamal, Williams"
+        },
+        {
+          "icon": "🇫🇷",
+          "value": "Pháp",
+          "label": "Mbappé, Dembélé"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a19388060fe9.mp4",
+          "trim": {
+            "start": 5,
+            "end": 11
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "5 đội tuyển lọt vào danh sách: Anh, Bồ Đào Nha, Brazil, Tây Ban Nha và Pháp. Mỗi đội đều sở hữu những ngôi sao hàng đầu thế giới trên hàng công."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Tuyển Anh — Tam Sư Gầm Vang",
+      "subtext": "Hàng công đa dạng và sáng tạo",
+      "voiceText": "Tuyển Anh sở hữu hàng công cực kỳ đa dạng, với Harry Kane trên hàng tiền đạo, Bukayo Saka và Rashford hai cánh, cùng Bellingham đá số mười. Đây là đội hình tấn công hoàn hảo, cho thôm mát tu cồ.",
+      "duration": 8,
+      "startTime": 15,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#CF1124",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "Tiền đạo",
+          "value": "Harry Kane — 62 bàn ĐTQG",
+          "color": "#CF1124"
+        },
+        {
+          "label": "Cánh phải",
+          "value": "Bukayo Saka — Tốc độ & kỹ thuật",
+          "color": "#F7C948"
+        },
+        {
+          "label": "Số 10",
+          "value": "Jude Bellingham — Thủ lĩnh trẻ",
+          "color": "#1B458F"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a191df509f91.mp4",
+          "trim": {
+            "start": 0,
+            "end": 9
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Tuyển Anh sở hữu hàng công đa dạng với Harry Kane, Bukayo Saka, Rashford và Jude Bellingham. Đội hình tấn công hoàn hảo cho Thomas Tuchel."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Bồ Đào Nha — Ronaldo Và Thế Hệ Vàng",
+      "subtext": "CR7 dẫn dắt hàng công siêu khủng",
+      "voiceText": "Bồ Đào Nha có lẽ là đội sở hữu hàng công toàn diện nhất. Cristiano Ronaldo dù đã bốn mươi mốt tuổi, vẫn là thủ lĩnh tinh thần. Bên cạnh anh là Ra pha ên Lê ão, Bruno Phơ nan dét, và Bernardo Silva.",
+      "duration": 9,
+      "startTime": 23,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#006847",
+      "textColor": "#ffffff",
+      "player": "Cristiano Ronaldo",
+      "team": "Bồ Đào Nha",
+      "number": "7",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng ĐTQG",
+          "value": "135+"
+        },
+        {
+          "label": "World Cup",
+          "value": "Lần thứ 6"
+        },
+        {
+          "label": "Tuổi",
+          "value": "41"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a1947cddc0d9.mp4",
+          "trim": {
+            "start": 0,
+            "end": 10
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Bồ Đào Nha sở hữu hàng công toàn diện nhất. Cristiano Ronaldo dù 41 tuổi vẫn là thủ lĩnh tinh thần, bên cạnh Rafael Leão, Bruno Fernandes và Bernardo Silva."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Brazil — Samba Trở Lại",
+      "subtext": "Vinicius Jr dẫn đầu thế hệ mới",
+      "voiceText": "Brazil luôn là ứng cử viên nặng ký với hàng công tốc độ và kỹ thuật. Vi ni xi út Junior là ngôi sao sáng nhất, cùng Raphinha, Cunha và sự trở lại của Neymar.",
+      "duration": 7,
+      "startTime": 32,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "⭐",
+          "value": "Vinicius Jr",
+          "label": "Quả bóng vàng 2024"
+        },
+        {
+          "icon": "🔥",
+          "value": "Raphinha",
+          "label": "Cánh phải sắc bén"
+        },
+        {
+          "icon": "🎯",
+          "value": "Neymar",
+          "label": "Sự trở lại đầy cảm xúc"
+        },
+        {
+          "icon": "💪",
+          "value": "5 lần vô địch",
+          "label": "Kỷ lục World Cup"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a1948f03a9aa.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Brazil luôn là ứng cử viên nặng ký với hàng công tốc độ và kỹ thuật. Vinicius Jr là ngôi sao sáng nhất, cùng Raphinha, Cunha và sự trở lại của Neymar."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Tây Ban Nha — Đương Kim Vô Địch Châu Âu",
+      "subtext": "Lamine Yamal và thế hệ vàng mới",
+      "voiceText": "Tây Ban Nha là đương kim vô địch Euro, và hàng công của họ đang ở đỉnh cao. Lamine Yamal mới mười tám tuổi nhưng đã là ngôi sao hàng đầu thế giới, cùng Nico Williams và Rodri ở tuyến giữa.",
+      "duration": 8,
+      "startTime": 39,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#AA151B",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "🌟",
+          "value": "Lamine Yamal",
+          "label": "Thần đồng 18 tuổi"
+        },
+        {
+          "icon": "⚡",
+          "value": "Nico Williams",
+          "label": "Tốc độ cánh trái"
+        },
+        {
+          "icon": "🏆",
+          "value": "ĐKVĐ Euro 2024",
+          "label": "Thế hệ vàng mới"
+        },
+        {
+          "icon": "🎯",
+          "value": "Rodri",
+          "label": "Quả bóng vàng tuyến giữa"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a1949a246ff7.mp4",
+          "trim": {
+            "start": 0,
+            "end": 9
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Tây Ban Nha là đương kim vô địch Euro, hàng công đang ở đỉnh cao. Lamine Yamal mới 18 tuổi nhưng đã là ngôi sao hàng đầu thế giới."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Pháp — Gà Trống Gô-loa",
+      "subtext": "Mbappé dẫn đầu dàn sao khủng",
+      "voiceText": "Theo tôi, Pháp vẫn là đội có hàng công đáng sợ nhất World Cup hai không hai sáu. Với em pa bê, đem bê lê, và hàng loạt ngôi sao từ các giải đấu hàng đầu, Gà trống Gô loa xứng đáng là ứng cử viên số một.",
+      "duration": 8,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#002395",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "👑",
+          "value": "Mbappé",
+          "label": "Siêu sao số 1 thế giới"
+        },
+        {
+          "icon": "⚡",
+          "value": "Dembélé",
+          "label": "Tốc độ và kỹ thuật"
+        },
+        {
+          "icon": "🎖️",
+          "value": "Á quân WC 2022",
+          "label": "Khát khao phục thù"
+        },
+        {
+          "icon": "💎",
+          "value": "Chiều sâu đội hình",
+          "label": "Griezmann, Thuram, Coman"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a194ab6cc364.mp4",
+          "trim": {
+            "start": 7,
+            "end": 18
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Pháp vẫn là đội có hàng công đáng sợ nhất World Cup 2026. Với Mbappé, Dembélé và dàn sao khủng, Gà trống Gô-loa xứng đáng là ứng cử viên số 1."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Đội nào có hàng công mạnh nhất?",
+      "subtext": "Hãy để lại bình luận của bạn",
+      "voiceText": "Theo anh em, đội nào mới thực sự sở hữu hàng công mạnh nhất World Cup hai không hai sáu? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 56,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#8B1538",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "WORLD CUP 2026",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Đội nào có hàng công mạnh nhất WC 2026?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [],
+      "subtitle": "Theo anh em, đội nào mới thực sự sở hữu hàng công mạnh nhất World Cup 2026? Hãy để lại bình luận bên dưới. Đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}

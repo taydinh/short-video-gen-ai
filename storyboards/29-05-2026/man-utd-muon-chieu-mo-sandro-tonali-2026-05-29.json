@@ -1,0 +1,389 @@
+{
+  "title": "MU Nổ Bom Tấn 86 Triệu Bảng?",
+  "slug": "man-utd-muon-chieu-mo-sandro-tonali-2026-05-29",
+  "totalDuration": 64,
+  "sources": [],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "MU NỔ BOM TẤN 86 TRIỆU BẢNG?",
+      "subtext": "Sandro Tonali vào tầm ngắm",
+      "voiceText": "mờ u đang tạo nên cơn địa chấn trên thị trường chuyển nhượng, khi đưa San đờ rô Tô na li vào danh sách ưu tiên hàng đầu, với mức giá tám mươi sáu triệu bảng.",
+      "duration": 8,
+      "startTime": 0,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "label": "TIN CHUYỂN NHƯỢNG",
+      "imageSrc": "assets/storyboards/man-utd-muon-chieu-mo-sandro-tonali-2026-05-29/scene-1.png",
+      "cardCaption": "Manchester United sẵn sàng phá két vì Sandro Tonali",
+      "chips": [
+        "Chuyển nhượng",
+        "Sandro Tonali",
+        "Manchester United"
+      ],
+      "emoji": "🔥",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Manchester United đang tạo nên cơn địa chấn trên thị trường chuyển nhượng, khi đưa Sandro Tonali vào danh sách ưu tiên hàng đầu, với mức giá 86 triệu bảng."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Mảnh ghép hoàn hảo",
+      "subtext": "Giải bài toán tuyến giữa của Quỷ Đỏ",
+      "voiceText": "Tô na li được đánh giá là mẫu tiền vệ toàn diện mà mờ u đang thiếu. Khả năng cầm nhịp, tranh chấp quyết liệt và tư duy chiến thuật hiện đại của anh, là điều Quỷ đỏ rất cần.",
+      "duration": 8,
+      "startTime": 8,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "player": "Sandro Tonali",
+      "team": "Newcastle",
+      "number": "8",
+      "playerImageUrl": "https://scontent.fsgn2-8.fna.fbcdn.net/v/t51.82787-15/653801063_18573375436003654_7255303241606717685_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=t60w2UFulukQ7kNvwGG3Mst&_nc_oc=AdonJ8AiVb-O_HYEYP3ZUTLeHKBAHMY8TwuhX8P1e3Ol9pOfMi8WPstkBVC9y7Udzhk&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=AqVuXZLHn3xChvM3xR7LhA&_nc_ss=7b2a8&oh=00_Af6phL1G8yIjH1ZlfpU33BfkXO04wZ_P8GkaOielTf_neg&oe=6A1EE211",
+      "stats": [
+        {
+          "label": "Vai trò",
+          "value": "Tiền vệ trung tâm"
+        },
+        {
+          "label": "Điểm mạnh",
+          "value": "Tranh chấp, chuyền bóng"
+        },
+        {
+          "label": "Phong cách",
+          "value": "Cầm nhịp"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a18f3586bd2a.mp4",
+          "trim": {
+            "start": 18,
+            "end": 26
+          },
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Tonali được đánh giá là mẫu tiền vệ toàn diện mà MU đang thiếu. Khả năng cầm nhịp, tranh chấp quyết liệt và tư duy chiến thuật hiện đại của anh, là điều Quỷ đỏ rất cần."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Rào cản từ Newcastle",
+      "subtext": "Không muốn bán trụ cột",
+      "voiceText": "Dù Niu cát xô không muốn chia tay trụ cột quan trọng bậc nhất, nhưng áp lực tài chính cùng sức hút từ mờ u, khiến thương vụ này trở nên đáng chú ý hơn bao giờ hết.",
+      "duration": 8,
+      "startTime": 16,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "label": "Mức giá yêu cầu",
+          "value": "86 Triệu Bảng",
+          "color": "#F7C948"
+        },
+        {
+          "label": "Trạng thái",
+          "value": "Đang đàm phán",
+          "color": "#E11D2E"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a18f3586bd2a.mp4",
+          "trim": {
+            "start": 6,
+            "end": 14
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Dù Newcastle không muốn chia tay trụ cột quan trọng bậc nhất, nhưng áp lực tài chính cùng sức hút từ MU, khiến thương vụ này trở nên đáng chú ý hơn bao giờ hết."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Cuộc đua song mã",
+      "subtext": "MU đối đầu Juventus",
+      "voiceText": "Bên cạnh đó, Ju ven tút cũng theo sát tình hình của cầu thủ người Ý. Tuy nhiên, mờ u chiếm ưu thế hơn nhờ tiềm lực tài chính mạnh mẽ, và sự quyết đoán trên bàn đàm phán.",
+      "duration": 8,
+      "startTime": 24,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "statsCardsPosition": "center",
+      "statsCardsOffsetY": 450,
+      "statsCards": [
+        {
+          "label": "Đối thủ cạnh tranh",
+          "value": "Juventus",
+          "icon": "⚔️"
+        },
+        {
+          "label": "Lợi thế của MU",
+          "value": "Tài chính",
+          "icon": "💰"
+        }
+      ],
+      "visuals": [
+         {
+          "type": "highlight-image-card",
+          "imageUrl": "https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/481916033_968531645418025_1123115704811361256_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=x12ZZfbafPUQ7kNvwFEMEsV&_nc_oc=Adoda1zQf3fzq_IfievJZw2kY-xmVPa0VLoEOBLYQWegdPuDdjjgK4cGUBHL3DBYGDw&_nc_zt=23&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=bjwopT4U9e7mbQ1sW_5ojQ&_nc_ss=7b2a8&oh=00_Af7NunQ9odkwM1gv5MYyvIGEXVmJUkRJFEINCmvhndgTfw&oe=6A1EDB1A",
+          "label": "Conference League 2026/27",
+          "title": "MU đối đầu Juventus",
+          "caption": "Juventus cũng theo sát tình hình",
+          "top": "70px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "1100px",
+          "accentColor": "#00A550",
+          "cardBg": "rgba(3,20,46,0.88)",
+          "objectFit": "contain",
+          "objectPosition": "center center"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Juventus cũng theo sát tình hình của cầu thủ người Italia. Tuy nhiên, MU chiếm ưu thế hơn nhờ tiềm lực tài chính mạnh mẽ, và sự quyết đoán trên bàn đàm phán."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Đãi ngộ hấp dẫn",
+      "subtext": "Trung tâm kế hoạch tái thiết",
+      "voiceText": "Nhiều nguồn tin tiết lộ rằng, các cuộc trao đổi sơ bộ về điều khoản cá nhân đã được tiến hành. Quỷ đỏ sẵn sàng trao cho Tô na li mức đãi ngộ cực kỳ hấp dẫn.",
+      "duration": 8,
+      "startTime": 32,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "quote": "Các cuộc đàm phán sơ bộ đã bắt đầu. Tonali sẽ là trung tâm trong kế hoạch tái thiết.",
+      "author": "Truyền thông Italia",
+      "role": "Tin chuyển nhượng",
+      "imageUrl": "https://www.thesun.ie/wp-content/uploads/sites/3/2026/02/KH_08_02_TRANSFER_LINK_MAN_UTD_OP_2549e7.webp?w=1920&h=1080&crop=1",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Nhiều nguồn tin tiết lộ rằng, các cuộc trao đổi sơ bộ về điều khoản cá nhân đã được tiến hành. Quỷ đỏ sẵn sàng trao cho Tonali mức đãi ngộ cực kỳ hấp dẫn."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Tuyến giữa trong mơ",
+      "subtext": "Bộ ba tiền vệ hoàn hảo",
+      "voiceText": "Không dừng lại ở đó, mờ u còn tiến rất gần đến việc hoàn tất thương vụ Ê đéc sơn từ A ta lan ta. Ban lãnh đạo muốn tạo ra một hàng tiền vệ đủ sức cạnh tranh danh hiệu.",
+      "duration": 9,
+      "startTime": 40,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Man Utd",
+          "code": "MUN",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/manchester-united.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Onana",
+            "Dalot",
+            "Yoro",
+            "Martínez",
+            "Shaw",
+            "Ederson",
+            "Tonali",
+            "Fernandes",
+            "Garnacho",
+            "Højlund",
+            "Rashford"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Không dừng lại ở đó, MU còn tiến rất gần đến việc hoàn tất thương vụ Ederson từ Atalanta. Ban lãnh đạo muốn tạo ra một hàng tiền vệ đủ sức cạnh tranh danh hiệu."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Khẳng định tham vọng",
+      "subtext": "Bản hợp đồng đắt giá",
+      "voiceText": "Nếu thương vụ thành công, Tô na li không chỉ là bản hợp đồng đắt giá, mà còn là tuyên bố mạnh mẽ cho tham vọng trở lại đỉnh cao của mờ u.",
+      "duration": 8,
+      "startTime": 49,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "statsCardsPosition": "bottom",
+      "statsCardsOffsetY": 80,
+      "statsCards": [
+        {
+          "label": "Giá trị thương vụ",
+          "value": "Kỷ lục",
+          "icon": "📈"
+        },
+        {
+          "label": "Mục tiêu lớn",
+          "value": "Đỉnh cao châu Âu",
+          "icon": "🏆"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snapsave.vn_tiktok_6a18f3586bd2a.mp4",
+          "trim": {
+            "start": 52,
+            "end": 60
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Nếu thương vụ thành công, Tonali không chỉ là bản hợp đồng đắt giá, mà còn là tuyên bố mạnh mẽ cho tham vọng trở lại đỉnh cao của MU."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Sandro Tonali có hợp với MU?",
+      "subtext": "Hãy để lại dự đoán của bạn",
+      "voiceText": "Theo bạn, San đờ rô Tô na li có phải là bản hợp đồng giúp mờ u trở lại thời kỳ hoàng kim? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 7,
+      "startTime": 57,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "GÓC KHÁN ĐÀI",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Tonali có hợp với MU không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Theo bạn, Sandro Tonali có phải là bản hợp đồng giúp MU trở lại thời kỳ hoàng kim? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}

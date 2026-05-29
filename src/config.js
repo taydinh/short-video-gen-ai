@@ -103,7 +103,7 @@ export const config = {
     backgroundMusic: {
       enabled: true,
       src: "assets/audio/TrainingintheFire.mp3",
-      volume: 0.09,
+      volume: 0.07,
     },
 
     // Final gain applied after voice + background music are mixed.
