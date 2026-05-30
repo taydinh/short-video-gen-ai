@@ -1,0 +1,432 @@
+{
+  "title": "MU Chuyển Hướng Chiêu Mộ Tonali Sau Khi Hụt Anderson",
+  "slug": "mu-chuyen-huong-chieu-mo-tonali-2026-05-28",
+  "totalDuration": 62,
+  "sources": [
+    {
+      "title": "Không thể chốt được Anderson, Manchester United chuyển hướng chiêu mộ Tonali",
+      "url": "https://www.tiktok.com/@28sport"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "MU HỤT ANDERSON, NHẮM TONALI!",
+      "subtext": "Bom tấn tuyến giữa từ Newcastle",
+      "voiceText": "Mờ U hụt Anderson, nhắm Tonali! Thương vụ Anderson đổ bể, khiến mờ u phải nhanh chóng chuyển hướng, sang mục tiêu tiền vệ bom tấn Sandro Tonali của Newcastle.",
+      "duration": 8,
+      "startTime": 0,
+      "bgColor": "#0A0A1A",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "label": "TIN CHUYỂN NHƯỢNG",
+      "imageSrc": "assets/storyboards/mu-tonali-chuyen-nhuong-scene1.png",
+      "cardCaption": "Manchester United chuyển hướng chiêu mộ Sandro Tonali từ Newcastle",
+      "chips": [
+        "Manchester United",
+        "Sandro Tonali",
+        "Chuyển nhượng"
+      ],
+      "emoji": "🔥",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "MU hụt Anderson, nhắm Tonali! Thương vụ Anderson đổ bể khiến Manchester United phải nhanh chóng chuyển hướng sang mục tiêu tiền vệ bom tấn Sandro Tonali của Newcastle."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Vì Sao Anderson Đổ Bể?",
+      "subtext": "Thương vụ bất thành và kế hoạch B",
+      "voiceText": "Mờ U đã theo đuổi Anderson suốt nhiều tuần, nhưng cuối cùng không thể đạt được thỏa thuận. Nguyên nhân đến từ yêu cầu lương quá cao, và phí chuyển nhượng không thể thương lượng.",
+      "duration": 8,
+      "startTime": 8,
+      "bgColor": "#0A0A1A",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "label": "Thương vụ Anderson",
+          "value": "Đổ bể",
+          "icon": "❌"
+        },
+        {
+          "label": "Nguyên nhân",
+          "value": "Yêu cầu lương cao",
+          "icon": "💰"
+        },
+        {
+          "label": "Kế hoạch B",
+          "value": "Sandro Tonali",
+          "icon": "🎯"
+        },
+        {
+          "label": "Vị trí cần",
+          "value": "Tiền vệ trung tâm",
+          "icon": "⚽"
+        }
+      ],
+      "visuals": [
+       {
+          "type": "highlight-image-card",
+          "imageUrl": "https://baoquocte.vn/stores/news_dataimages/2026/052026/27/08/mu-va-man-city-tranh-ngoi-sao-elliot-anderson-20260527080215.webp?rt=202605270836",
+          "label": "Anderson Đổ Bể",
+          "title": "Anderson Đổ Bể",
+          "caption": "Thương vụ bất thành và kế hoạch B",
+          "top": "850px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "550px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#C8102E",
+          "cardBg": "rgba(5,22,16,0.85)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.56) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DA020E"
+        }
+      ],
+      "subtitle": "MU đã theo đuổi Anderson suốt nhiều tuần nhưng cuối cùng không thể đạt được thỏa thuận. Nguyên nhân đến từ yêu cầu lương quá cao và phí chuyển nhượng không thể thương lượng."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Sandro Tonali",
+      "subtext": "Tiền vệ bom tấn từ Newcastle",
+      "voiceText": "Sandro Tô na li, chính là cái tên, được ban lãnh đạo Old Trafford chọn thay thế. Tiền vệ người Ý đã chứng minh đẳng cấp, với những màn trình diễn ấn tượng ở cả Ngoại Hạng Anh, lẫn Champions League mùa này.",
+      "duration": 8,
+      "startTime": 16,
+      "bgColor": "#0A0A1A",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Sandro Tonali",
+      "team": "Newcastle United",
+      "number": "8",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Quốc tịch",
+          "value": "Ý 🇮🇹"
+        },
+        {
+          "label": "Vị trí",
+          "value": "Tiền vệ trung tâm"
+        },
+        {
+          "label": "Tuổi",
+          "value": "26"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/thait/Downloads/snapsave.vn_tiktok_6a184dc6e0359.mp4",
+          "trim": {
+            "start": 8,
+            "end": 18
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DA020E"
+        }
+      ],
+      "subtitle": "Sandro Tonali chính là cái tên được ban lãnh đạo Old Trafford chọn thay thế. Tiền vệ người Ý đã chứng minh đẳng cấp với những màn trình diễn ấn tượng ở cả Ngoại Hạng Anh lẫn Champions League mùa này."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Thông Số Ấn Tượng",
+      "subtext": "Mùa giải đỉnh cao của Tonali",
+      "voiceText": "Mùa này Tô na li ghi năm bàn, và có tám kiến tạo trên mọi đấu trường. Tỉ lệ chuyền bóng chính xác lên đến chín mươi hai phần trăm, cho thấy anh là một tiền vệ toàn diện bậc nhất Ngoại Hạng Anh.",
+      "duration": 8,
+      "startTime": 24,
+      "bgColor": "#0A0A1A",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "statsCardsPosition": "center",
+      "statsCardsOffsetY": 80,
+      "statsCards": [
+        {
+          "label": "Bàn Thắng",
+          "value": "5",
+          "icon": "⚽"
+        },
+        {
+          "label": "Kiến Tạo",
+          "value": "8",
+          "icon": "🎯"
+        },
+        {
+          "label": "Chuyền chính xác",
+          "value": "92%",
+          "icon": "📊"
+        },
+        {
+          "label": "Tắc bóng/trận",
+          "value": "3.2",
+          "icon": "🛡️"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/thait/Downloads/snapsave.vn_tiktok_6a184dc6e0359.mp4",
+          "trim": {
+            "start": 28,
+            "end": 38
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DA020E"
+        }
+      ],
+      "subtitle": "Mùa này Tonali ghi 5 bàn và có 8 kiến tạo trên mọi đấu trường. Tỉ lệ chuyền bóng chính xác lên đến 92%, cho thấy anh là một tiền vệ toàn diện bậc nhất Ngoại Hạng Anh."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Rào Cản Thương Vụ",
+      "subtext": "Newcastle không dễ nhả người",
+      "voiceText": "Tuy nhiên thương vụ này không hề đơn giản. Newcastle định giá Tô na li khoảng tám mươi triệu bảng, và hợp đồng của anh còn đến năm hai không hai chín. Chừng nào Chích Chòe còn giữ giá, mờ u sẽ phải rất kiên nhẫn.",
+      "duration": 8,
+      "startTime": 32,
+      "bgColor": "#0A0A1A",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "Mức giá yêu cầu",
+          "value": "~80 Triệu Bảng",
+          "color": "#DA020E"
+        },
+        {
+          "label": "Hợp đồng hiện tại",
+          "value": "Đến 2029",
+          "color": "#F7C948"
+        },
+        {
+          "label": "Newcastle",
+          "value": "Không muốn bán",
+          "color": "#241F20"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/thait/Downloads/snapsave.vn_tiktok_6a184dc6e0359.mp4",
+          "trim": {
+            "start": 51.5,
+            "end": 61.5
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DA020E"
+        }
+      ],
+      "subtitle": "Tuy nhiên thương vụ này không hề đơn giản. Newcastle định giá Tonali khoảng 80 triệu bảng và hợp đồng của anh còn đến năm 2029. Chừng nào Chích Chòe còn giữ giá, MU sẽ phải rất kiên nhẫn."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Tuyến Giữa Mơ Ước Của MU",
+      "subtext": "Nếu Tonali cập bến Old Trafford",
+      "voiceText": "Nếu thương vụ thành công, tuyến giữa của mờ u sẽ cực kỳ đáng sợ. Tô na li sẽ sánh vai cùng Bruno Fernandes, tạo nên bộ đôi tiền vệ toàn diện, vừa phòng ngự chắc chắn, vừa sáng tạo trong tấn công.",
+      "duration": 8,
+      "startTime": 40,
+      "bgColor": "#0A0A1A",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Manchester United",
+          "code": "MUN",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/manchester-united.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Onana",
+            "Mazraoui",
+            "De Ligt",
+            "Martínez",
+            "Dalot",
+            "Tonali",
+            "Ugarte",
+            "Diallo",
+            "Bruno",
+            "Garnacho",
+            "Zirkzee"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DA020E"
+        }
+      ],
+      "subtitle": "Nếu thương vụ thành công, tuyến giữa của MU sẽ cực kỳ đáng sợ. Tonali sẽ sánh vai cùng Bruno Fernandes, tạo nên bộ đôi tiền vệ toàn diện, vừa phòng ngự chắc chắn, vừa sáng tạo trong tấn công."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc Nhìn Méo Bình Luận",
+      "subtext": "Tonali - Lựa chọn hoàn hảo?",
+      "voiceText": "Theo tôi, Tô na li là sự thay thế hoàn hảo. Anh có kinh nghiệm thi đấu Champions League, sự cứng cỏi của bóng đá Ý, và đã thích nghi tốt với nhịp độ Ngoại Hạng Anh. Đây có thể là bản hợp đồng thay đổi cục diện của mờ u.",
+      "duration": 8,
+      "startTime": 48,
+      "bgColor": "#0A0A1A",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "quote": "Tonali là sự thay thế hoàn hảo cho Anderson. Kinh nghiệm Champions League, sự cứng cỏi của bóng đá Ý, và khả năng thích nghi với nhịp độ Ngoại Hạng Anh — đây có thể là bản hợp đồng thay đổi cục diện.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://cdn.tienphong.vn/images/bdfc554ea35983ad68a96e0050b6e2cbecf42da7fad9aae72521e8fa9029205fff0b9ec645e76f9d92bd8cfe7ca2543dca736d7165b26cfae1253eaf6e40ed784c380bb60a3da757bfc9c35318a9488331a055737e7ea5757c5009670bbd6f38f55f4d4cf291e10c38303c5c973ba32b/690861991-1420555010100764-4555065667761703073-n.jpg.webp",
+          "label": "Góc Nhìn Méo Bình Luận",
+          "title": "Góc Nhìn Méo Bình Luận",
+          "caption": "Tonali là sự thay thế hoàn hảo cho Anderson",
+          "top": "950px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#C8102E",
+          "cardBg": "rgba(5,22,16,0.85)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.56) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DA020E"
+        }
+      ],
+      "subtitle": "Tonali là sự thay thế hoàn hảo cho Anderson. Kinh nghiệm Champions League, sự cứng cỏi của bóng đá Ý, và khả năng thích nghi với nhịp độ Ngoại Hạng Anh — đây có thể là bản hợp đồng thay đổi cục diện."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "MU có nên mua Tonali?",
+      "subtext": "Hãy để lại bình luận của bạn",
+      "voiceText": "Theo bạn, mờ u có nên chi mạnh tay để mang Tô na li về Old Trafford không? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 56,
+      "bgColor": "#0A0A1A",
+      "accentColor": "#DA020E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "TIN CHUYỂN NHƯỢNG HÈ 2026",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "MU có nên mua Tonali với giá 80 triệu bảng?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["Manchester United","ChuyenNhuong2026", "Premier League"]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 4.8
+        }
+      ],
+      "subtitle": "Theo bạn, MU có nên chi mạnh tay để mang Tonali về Old Trafford không? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}
