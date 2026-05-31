@@ -1509,6 +1509,9 @@ function composerStyles(scene) {
       gap: 22px;
       width: 100%;
     }
+    [data-composition-id="${cid}"] .football-odds-panels.h2h-only {
+      margin-top: 42px;
+    }
     [data-composition-id="${cid}"] .football-odds-panel,
     [data-composition-id="${cid}"] .football-h2h-panel {
       border-radius: 26px;
@@ -1518,6 +1521,9 @@ function composerStyles(scene) {
       backdrop-filter: blur(12px);
       padding: 18px 18px;
       overflow: hidden;
+    }
+    [data-composition-id="${cid}"] .football-odds-panels.h2h-only .football-h2h-panel {
+      padding: 22px 22px 24px;
     }
     [data-composition-id="${cid}"] .football-odds-table {
       --football-odds-columns: minmax(230px, 3.2fr) minmax(68px, 1.1fr) minmax(82px, 1.4fr) minmax(104px, 1.7fr) minmax(112px, 1.7fr) minmax(96px, 1.4fr);
@@ -1780,6 +1786,9 @@ function composerStyles(scene) {
       display: flex;
       flex-direction: column;
       gap: 12px;
+    }
+    [data-composition-id="${cid}"] .football-odds-panels.h2h-only .football-h2h-list {
+      gap: 14px;
     }
 
     /* H2H card UI (match screenshot) */
@@ -3152,6 +3161,7 @@ const COMPOSERS = {
     const teams = normalizeFootballTeams(scene);
     const rates = normalizeFootballOddsRates(scene);
     const table = normalizeFootballOddsTable(scene, teams);
+    const hasOddsPanel = Boolean(rates || table?.hasData);
     const matches = normalizeFootballH2HMatches(scene, teams);
     const header = scene.title || "TỶ LỆ KÈO & ĐỐI ĐẦU";
     const sub = scene.subtext || scene.competitionLabel || scene.stage || "3 trận gần nhất";
@@ -3274,6 +3284,11 @@ const COMPOSERS = {
           <div class="football-odds-thead">${headerCells}</div>
           <div class="football-odds-tbody">${rowsHtml}</div>
         </div>`;
+    const oddsPanelBlock = hasOddsPanel
+      ? `<div class="football-odds-panel" id="s${scene.id}-odds">
+          ${oddsPanelHtml}
+        </div>`
+      : "";
 
     const normalizeKey = (s) => String(s || "").trim().toLowerCase().replace(/\s+/g, " ");
     const badgeStyle = (b) => {
@@ -3371,11 +3386,8 @@ const COMPOSERS = {
         <h1 class="football-title" id="s${scene.id}-title" style="margin-top:16px;">${escapeHtml(header)}</h1>
       </div>
 
-      <div class="football-odds-panels">
-        <div class="football-odds-panel" id="s${scene.id}-odds">
-          ${oddsPanelHtml}
-        </div>
-
+      <div class="football-odds-panels ${hasOddsPanel ? "" : "h2h-only"}">
+        ${oddsPanelBlock}
         <div class="football-h2h-panel" id="s${scene.id}-h2h">
           <div class="football-h2h-title">Lịch sử đối đầu (${visibleMatches.length} trận gần nhất)</div>
           <div class="football-h2h-list">${matchesHtml}</div>
@@ -5130,6 +5142,38 @@ function normalizeFootballTeams(scene) {
 function normalizeFootballOddsTable(scene, teams) {
   const raw = scene.oddsTable || scene.odds || scene.market || scene.keo || null;
   const defaultHeaders = ["Đội bóng", "Tỷ số", "1x2", "HDP", "Tài xỉu", "HT HDP"];
+  const hasValue = (value) => {
+    if (value === 0) return true;
+    if (value === null || value === undefined) return false;
+    return String(value).trim() !== "";
+  };
+  const cellHasValue = (cell) => {
+    if (!cell || typeof cell !== "object") return hasValue(cell);
+    return hasValue(cell.main)
+      || hasValue(cell.value)
+      || hasValue(cell.text)
+      || hasValue(cell.sub)
+      || hasValue(cell.secondary)
+      || hasValue(cell.note);
+  };
+  const rowHasOddsData = (row) => Boolean(row && (
+    hasValue(row.scoreText)
+    || hasValue(row.score)
+    || hasValue(row.minute)
+    || hasValue(row.time)
+    || cellHasValue(row.x12)
+    || cellHasValue(row["1x2"])
+    || cellHasValue(row.oneXtwo)
+    || cellHasValue(row.one_x_two)
+    || cellHasValue(row.hdp)
+    || cellHasValue(row.handicap)
+    || cellHasValue(row.ou)
+    || cellHasValue(row.overUnder)
+    || cellHasValue(row.taiXiu)
+    || cellHasValue(row.htHdp)
+    || cellHasValue(row.ht_handicap)
+    || cellHasValue(row.halfTimeHandicap)
+  ));
 
   const coerceRow = (row) => {
     if (!row || typeof row !== "object") return null;
@@ -5148,7 +5192,7 @@ function normalizeFootballOddsTable(scene, teams) {
     const rowsRaw = Array.isArray(raw.rows) ? raw.rows : (Array.isArray(raw.items) ? raw.items : null);
     if (rowsRaw && rowsRaw.length) {
       const rows = rowsRaw.map(coerceRow).filter(Boolean);
-      if (rows.length) return { headers, rows };
+      if (rows.length) return { headers, rows, hasData: rows.some(rowHasOddsData) };
     }
   }
 
@@ -5189,7 +5233,7 @@ function normalizeFootballOddsTable(scene, teams) {
     },
   ];
 
-  return { headers: defaultHeaders, rows };
+  return { headers: defaultHeaders, rows, hasData: rows.some(rowHasOddsData) };
 }
 
 function normalizeFootballOddsRates(scene) {
@@ -5203,6 +5247,7 @@ function normalizeFootballOddsRates(scene) {
   if (!raw || typeof raw !== "object") return null;
 
   const normalizeSide = (v) => (v === 0 || v) ? String(v) : "";
+  const hasRateValue = (row) => [row?.a, row?.b, row?.c].some((v) => String(v ?? "").trim() !== "");
   const normalizeBlock = (block) => {
     if (!block || typeof block !== "object") return null;
     const coerce = (obj) => {
@@ -5224,7 +5269,7 @@ function normalizeFootballOddsRates(scene) {
         label: row.label || row.name || row.type || (i === 1 ? "Live" : "Sớm"),
         ...coerce(row),
       }));
-      return rows.length ? { early: rows[0], live: rows[1], rows } : null;
+      return rows.length && rows.some(hasRateValue) ? { early: rows[0], live: rows[1], rows } : null;
     }
 
     const early = block.early || block.open || block.som || block.pre || null;
@@ -5237,6 +5282,7 @@ function normalizeFootballOddsRates(scene) {
       live ? { label: "Live", ...coerce(live) } : null,
       late ? { label: "Sớm", ...coerce(late) } : null,
     ].filter(Boolean);
+    if (!rows.some(hasRateValue)) return null;
 
     return {
       early: rows[0] || { label: "Sớm", a: "", b: "", c: "" },
@@ -5303,6 +5349,7 @@ function normalizeFootballH2HMatches(scene, teams) {
   };
 
   const normalized = list.map(toMatch).filter(Boolean);
+  if (Array.isArray(raw) || (raw && typeof raw === "object" && Array.isArray(raw.items))) return normalized.slice(0, 8);
   if (normalized.length) return normalized.slice(0, 8);
 
   const t0 = teams?.[0]?.name || "Đội 1";

@@ -1,0 +1,420 @@
+{
+  "title": "PSG 1-1 Arsenal: Nhà vua Champions League không nhường ngôi",
+  "slug": "psg-1-1-arsenal-penalties-4-3-ucl-final-2026",
+  "totalDuration": 50,
+  "sources": [
+    {
+      "name": "MSN Việt Nam - Chung kết Champions League: PSG, những nhà vua không nhường ngôi",
+      "url": "https://www.msn.com/vi-vn/sports/other/chung-k%E1%BA%BFt-champions-league-psg-nh%E1%BB%AFng-nh%C3%A0-vua-kh%C3%B4ng-nh%C6%B0%E1%BB%9Dng-ng%C3%B4i/ar-AA24sfgz"
+    },
+    {
+      "name": "Sky Sports - PSG 1-1 Arsenal, PSG win 4-3 on penalties",
+      "url": "https://www.skysports.com/football/news/11945/13548240/psg-1-1-arsenal-psg-win-4-3-on-penalties-gunners-heartbreak-in-champions-league-final-as-paris-saint-germain-win-in-budapest"
+    },
+    {
+      "name": "Sports Mole - PSG 1-1 Arsenal, highlights and stats",
+      "url": "https://www.sportsmole.co.uk/football/psg/champions-league/result/paris-saint-germain-crowned-champions-league-champions-as-penalties-cost-arsenal_598433.html"
+    },
+    {
+      "name": "Live Football On Sat - Opta data and starting XIs",
+      "url": "https://livefootballonsat.com/articles/psg-arsenal-champions-league-final"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "PSG KHÔNG NHƯỜNG NGÔI!",
+      "subtext": "Chung kết Champions League 2025-26",
+      "voiceText": "Pi S Ji không nhường ngôi! Sau một trăm hai mươi phút nghẹt thở trước a se nồ, nhà vua châu Âu giữ cúp bằng loạt luân lưu, và biến Budapest thành đêm hội của Paris.",
+      "subtitle": "PSG không nhường ngôi! Sau 120 phút nghẹt thở trước Arsenal, nhà vua châu Âu giữ cúp bằng loạt luân lưu, và biến Budapest thành đêm hội của Paris.",
+      "duration": 7,
+      "startTime": 0,
+      "bgColor": "#08111F",
+      "accentColor": "#E30613",
+      "secondaryAccentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "label": "UCL FINAL",
+      "imageSrc": "C:/Users/thait/Downloads/psg.jpg",
+      "cardCaption": "PSG bảo vệ ngôi vương Champions League sau chiến thắng 4-3 trên chấm luân lưu.",
+      "chips": [
+        "PSG",
+        "Arsenal",
+        "Penalties 4-3"
+      ],
+      "emoji": "🏆",
+      "animation": "image-card-rise",
+      "visuals": []
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "PSG 1-1 Arsenal",
+      "subtext": "120': 1-1 | Penalties: PSG 4-3 Arsenal",
+      "voiceText": "Tỉ số sau một trăm hai mươi phút là Pi S Ji một, a se nồ một. Nhưng trên chấm luân lưu, Pi S Ji thắng bốn ba, với cú đá cuối của Gabriel bay vọt xà.",
+      "subtitle": "Tỉ số sau 120 phút là PSG 1-1 Arsenal. Nhưng trên chấm luân lưu, PSG thắng 4-3, với cú đá cuối của Gabriel bay vọt xà.",
+      "duration": 7,
+      "startTime": 7,
+      "bgColor": "#08111F",
+      "accentColor": "#E30613",
+      "secondaryAccentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "UEFA Champions League Final",
+      "minute": "120'",
+      "score": [
+        1,
+        1
+      ],
+      "penaltyScore": [
+        4,
+        3
+      ],
+      "penaltyLabel": "Penalties: PSG 4-3 Arsenal",
+      "teams": [
+        {
+          "name": "Paris Saint-Germain",
+          "code": "PSG",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        },
+        {
+          "name": "Arsenal",
+          "code": "ARS",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/thait/Downloads/snaptik.vn_7645771048746552599.mp4",
+          "trim": {
+            "start": 0,
+            "end": 7
+          },
+          "position": "background",
+          "videoVolume": 0.5,
+          "opacity": 0.86
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "PSG",
+            "ARS"
+          ],
+          "score": [
+            1,
+            1
+          ],
+          "minute": "120'",
+          "label": "Pens PSG 4-3 Arsenal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình ra sân",
+      "subtext": "PSG 4-3-3 | Arsenal 4-2-3-1",
+      "voiceText": "Đội hình xuất phát, Pi S Ji dùng Safonov, Hakimi, Marquinhos, Pacho, Nuno Mendes, Vitinha, Joao Neves, Fabian Ruiz, Doue, đem bê lê và Kvaratskhelia. A se nồ có Raya, Mosquera, Saliba, Gabriel, Hincapie, Rice, Lewis Skelly, Odegaard, Saka, ha vớt và Trossard.",
+      "subtitle": "Đội hình xuất phát, PSG dùng Safonov, Hakimi, Marquinhos, Pacho, Nuno Mendes, Vitinha, Joao Neves, Fabian Ruiz, Doue, Dembélé và Kvaratskhelia. Arsenal có Raya, Mosquera, Saliba, Gabriel, Hincapie, Rice, Lewis-Skelly, Odegaard, Saka, Havertz và Trossard.",
+      "duration": 8,
+      "startTime": 14,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E30613",
+      "secondaryAccentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH CHÍNH THỨC",
+      "venue": "Puskas Arena, Budapest",
+      "teams": [
+        {
+          "name": "Paris Saint-Germain",
+          "code": "PSG",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        },
+        {
+          "name": "Arsenal",
+          "code": "ARS",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Matvei Safonov",
+            "Achraf Hakimi",
+            "Marquinhos",
+            "Willian Pacho",
+            "Nuno Mendes",
+            "Vitinha",
+            "Joao Neves",
+            "Fabian Ruiz",
+            "Desire Doue",
+            "Ousmane Dembele",
+            "Khvicha Kvaratskhelia"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "David Raya",
+            "Cristhian Mosquera",
+            "William Saliba",
+            "Gabriel Magalhaes",
+            "Piero Hincapie",
+            "Declan Rice",
+            "Myles Lewis-Skelly",
+            "Martin Odegaard",
+            "Bukayo Saka",
+            "Kai Havertz",
+            "Leandro Trossard"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DAA520"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline nghẹt thở",
+      "subtext": "Havertz mở màn, Dembélé kéo trận đấu về vạch xuất phát",
+      "voiceText": "A se nồ mơ thật đẹp khi ha vớt ghi bàn ngay phút thứ sáu. Nhưng Pi S Ji bóp nghẹt thế trận bằng quyền kiểm soát bóng, rồi đem bê lê gỡ hòa trên chấm phạt đền sau khi Kvaratskhelia bị phạm lỗi. Hiệp phụ không có thêm bàn, và mọi thứ được đưa lên chấm mười một mét.",
+      "subtitle": "Arsenal mơ thật đẹp khi Havertz ghi bàn ngay phút thứ 6. Nhưng PSG bóp nghẹt thế trận bằng quyền kiểm soát bóng, rồi Dembélé gỡ hòa trên chấm phạt đền sau khi Kvaratskhelia bị phạm lỗi. Hiệp phụ không có thêm bàn, và mọi thứ được đưa lên chấm 11 mét.",
+      "duration": 8,
+      "startTime": 22,
+      "bgColor": "#08111F",
+      "accentColor": "#E30613",
+      "secondaryAccentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "6'",
+          "title": "0-1: Kai Havertz",
+          "desc": "Havertz thoát xuống và dứt điểm góc hẹp, đưa Arsenal vượt lên rất sớm."
+        },
+        {
+          "minute": "45'",
+          "title": "Arsenal dẫn sau hiệp một",
+          "desc": "PSG cầm bóng nhiều, nhưng khối phòng ngự Arsenal vẫn đứng vững."
+        },
+        {
+          "minute": "65'",
+          "title": "1-1: Ousmane Dembele",
+          "desc": "Mosquera phạm lỗi với Kvaratskhelia, Dembele lạnh lùng đá penalty gỡ hòa."
+        },
+        {
+          "minute": "ET",
+          "title": "Hiệp phụ căng cứng",
+          "desc": "Arsenal đòi penalty sau pha bóng của Madueke, nhưng trọng tài không đổi quyết định."
+        },
+        {
+          "minute": "PEN",
+          "title": "PSG thắng 4-3",
+          "desc": "Raya cản Nuno Mendes, Eze đá hỏng, rồi Gabriel sút vọt xà ở lượt quyết định."
+        },
+        {
+          "minute": "FT",
+          "title": "PSG bảo vệ ngôi vương",
+          "desc": "Paris Saint-Germain vô địch Champions League mùa thứ hai liên tiếp."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DAA520"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Vitinha: nhịp tim của PSG",
+      "subtext": "UEFA Man of the Match",
+      "voiceText": "Vitinha là nhịp tim trong chiến thắng này. Anh giữ nhịp, kéo Pi S Ji thoát áp lực, và biến trận chung kết thành cuộc kiểm soát bóng dài hơi, nơi a se nồ chỉ còn một cú sút trúng đích trong một trăm hai mươi phút.",
+      "subtitle": "Vitinha là nhịp tim trong chiến thắng này. Anh giữ nhịp, kéo PSG thoát áp lực, và biến trận chung kết thành cuộc kiểm soát bóng dài hơi, nơi Arsenal chỉ còn một cú sút trúng đích trong 120 phút.",
+      "duration": 7,
+      "startTime": 30,
+      "bgColor": "#08111F",
+      "accentColor": "#E30613",
+      "secondaryAccentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "player": "Vitinha",
+      "team": "Paris Saint-Germain",
+      "number": "17",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Danh hiệu trận",
+          "value": "MOTM"
+        },
+        {
+          "label": "Kiểm soát bóng PSG",
+          "value": "75",
+          "unit": "%"
+        },
+        {
+          "label": "Cú sút PSG",
+          "value": "21"
+        },
+        {
+          "label": "xG",
+          "value": "1.77"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "430px",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 75,
+              "away": 24.7,
+              "unit": "%"
+            },
+            {
+              "label": "xG",
+              "home": 1.77,
+              "away": 0.44
+            },
+            {
+              "label": "Cú sút",
+              "home": 21,
+              "away": 7
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": 4,
+              "away": 1
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#DAA520"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "title": "Cú đá định mệnh",
+      "subtext": "Nỗi đau Arsenal, niềm vui PSG",
+      "voiceText": "Và rồi đến khoảnh khắc định mệnh. Gabriel bước lên, a se nồ cần bàn để còn hy vọng, nhưng cú sút lại bay vọt xà. Một giây im lặng bên phía London, rồi cả khán đài Pi S Ji nổ tung. Đó là ranh giới nghiệt ngã giữa tiếc nuối và vinh quang.",
+      "subtitle": "Và rồi đến khoảnh khắc định mệnh. Gabriel bước lên, Arsenal cần bàn để còn hy vọng, nhưng cú sút lại bay vọt xà. Một giây im lặng bên phía London, rồi cả khán đài PSG nổ tung. Đó là ranh giới nghiệt ngã giữa tiếc nuối và vinh quang.",
+      "duration": 7,
+      "startTime": 37,
+      "bgColor": "#08111F",
+      "accentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/thait/Downloads/snaptik.vn_7645771496740179232.mp4",
+          "trim": {
+            "start": 26,
+            "end": 46
+          },
+          "position": "background",
+          "videoVolume": 0.8,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn nghĩ sao về trận chung kết này?",
+      "subtext": "Để lại cảm nghĩ dưới phần bình luận",
+      "voiceText": "Theo bạn, Pi S Ji xứng đáng giữ ngôi vương, hay a se nồ đã thua theo cách quá nghiệt ngã? Hãy để lại cảm nghĩ dưới phần bình luận. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, PSG xứng đáng giữ ngôi vương, hay Arsenal đã thua theo cách quá nghiệt ngã? Hãy để lại cảm nghĩ dưới phần bình luận. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 44,
+      "bgColor": "#08111F",
+      "accentColor": "#E30613",
+      "secondaryAccentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "PSG VÔ ĐỊCH C1",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "PSG xứng đáng hay Arsenal quá đen?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "PSG",
+          "Arsenal",
+          "Champions League",
+          "Méo Bình Luận",
+          "Follow"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

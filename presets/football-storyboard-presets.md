@@ -85,6 +85,7 @@ Nguồn mẫu:
 - Trong `voiceText`, tên HLV `Thomas Tuchel` phải viết là `thôm mát tu cồ` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
 - Trong `voiceText`, tên cầu thủ `Mbappé` phải viết là `em pa bê` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
 - Trong `voiceText`, tên cầu thủ `Dembélé` phải viết là `đem bê lê` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
+- Trong `voiceText`, tên cầu thủ `Havertz` phải viết là `ha vớt` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
 
 ### Ghi Chú Thêm
 

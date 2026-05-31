@@ -1,0 +1,495 @@
+{
+  "title": "Siêu Máy Tính Dự Đoán PSG vs Arsenal Chung Kết Champions League 2026",
+  "slug": "psg-arsenal-sieu-may-tinh-du-doan-chung-ket-c1-2026-05-30",
+  "totalDuration": 68,
+  "sources": [
+    {
+      "name": "MSN Việt Nam - Siêu máy tính dự đoán trận chung kết Champions League",
+      "url": "https://www.msn.com/vi-vn/sports/other/si%C3%AAu-m%C3%A1y-t%C3%ADnh-d%E1%BB%B1-%C4%91o%C3%A1n-tr%E1%BA%ADn-chung-k%E1%BA%BFt-champions-league/ar-AA24kFg4"
+    },
+    {
+      "name": "Opta Analyst - PSG vs Arsenal supercomputer prediction",
+      "url": "https://theanalyst.com/articles/psg-vs-arsenal-prediction-champions-league-final-05-2026"
+    },
+    {
+      "name": "Sports Illustrated - PSG vs Arsenal preview, predictions and lineups",
+      "url": "https://www.si.com/soccer/psg-vs-arsenal-preview-predictions-lineups-5-30-26"
+    },
+    {
+      "name": "Sports Mole - PSG vs Arsenal prediction, team news, lineups",
+      "url": "https://www.sportsmole.co.uk/football/psg/champions-league/preview/psg-vs-arsenal-prediction-team-news-lineups_598297.html"
+    },
+    {
+      "name": "Sports Mole - Arsenal vs PSG head-to-head record",
+      "url": "https://www.sportsmole.co.uk/football/arsenal/champions-league/head-to-head/arsenal-vs-psg-head-to-head-record-and-past-meetings_554175.html"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "SIÊU MÁY TÍNH CHỌN PSG?",
+      "subtext": "Chung kết Champions League: PSG vs Arsenal",
+      "voiceText": "Siêu máy tính Opta vừa đưa ra dự đoán cho trận chung kết Champions League, giữa Pa rís sen ger mình, và a se nồ. Kết quả khá gắt: lợi thế đang nghiêng về nhà đương kim vô địch.",
+      "duration": 8,
+      "startTime": 0,
+      "bgColor": "#140020",
+      "accentColor": "#F43F8B",
+      "secondaryAccentColor": "#B92BD4",
+      "textColor": "#FFFFFF",
+      "label": "TÂM ĐIỂM C1",
+      "imageSrc": "C:/Users/thait/Downloads/psg-vs-arsenal-champions-league-final-prediction-1024x1024.png",
+      "cardCaption": "Opta: PSG 43.5% thắng trong 90 phút, Arsenal 29.7%",
+      "chips": [
+        "PSG vs Arsenal",
+        "Opta Prediction",
+        "Champions League"
+      ],
+      "emoji": "🔥",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Siêu máy tính Opta vừa đưa ra dự đoán cho trận chung kết Champions League giữa Paris Saint-Germain và Arsenal. Kết quả khá gắt: lợi thế đang nghiêng về nhà đương kim vô địch."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Opta dự đoán thế nào?",
+      "subtext": "10.000 mô phỏng trước giờ bóng lăn",
+      "voiceText": "Theo Opta, Pi S Ji có năm mươi sáu phần trăm cơ hội bảo vệ danh hiệu, còn a se nồ là bốn mươi bốn phần trăm. Nếu chỉ tính chín mươi phút, Pi S Ji thắng bốn mươi ba phẩy năm phần trăm, Arsenal thắng hai mươi chín phẩy bảy phần trăm, và hai mươi sáu phẩy tám phần trăm phải đá hiệp phụ hoặc luân lưu.",
+      "duration": 10,
+      "startTime": 8,
+      "bgColor": "#140020",
+      "accentColor": "#F43F8B",
+      "secondaryAccentColor": "#B92BD4",
+      "textColor": "#FFFFFF",
+      "statsCardsPosition": "center",
+      "statsCardsOffsetY": 300,
+      "statsCards": [
+        {
+          "label": "Vô địch",
+          "value": "PSG 56%",
+          "icon": "🏆"
+        },
+        {
+          "label": "Vô địch",
+          "value": "ARS 44%",
+          "icon": "⚔️"
+        },
+        {
+          "label": "90 phút",
+          "value": "PSG 43.5%",
+          "icon": "📊"
+        },
+        {
+          "label": "90 phút",
+          "value": "ARS 29.7%",
+          "icon": "📈"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/thait/Downloads/snaptik.vn_7644878030871039265.mp4",
+          "trim": {
+            "start": 0,
+            "end": 10
+          },
+          "position": "background",
+          "videoVolume": 0,
+          "opacity": 0.88
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "C:/Users/thait/Downloads/psg-vs-arsenal-champions-league-final-prediction-1024x1024.png",
+          "label": "OPTA PREDICTION",
+          "title": "PSG đang nhỉnh hơn",
+          "caption": "26.8% kịch bản kéo trận đấu sang hiệp phụ hoặc luân lưu",
+          "top": "50px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "850px",
+          "accentColor": "#F43F8B",
+          "secondaryAccentColor": "#B92BD4",
+          "cardBg": "rgba(20,0,32,0.78)",
+          "objectFit": "contain",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.08) 60%, rgba(0,0,0,0.42) 100%)"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F43F8B"
+        }
+      ],
+      "subtitle": "Theo Opta, PSG có 56% cơ hội bảo vệ danh hiệu, còn Arsenal là 44%. Nếu chỉ tính 90 phút, PSG thắng 43.5%, Arsenal thắng 29.7%, và 26.8% phải đá hiệp phụ hoặc luân lưu."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Line-up dự kiến",
+      "subtext": "Hai đội đều có vài điểm cần chốt",
+      "voiceText": "Đội hình dự kiến, Pi S Ji có Sa fo nốp trong khung gỗ, bộ ba tuyến giữa Vi ti nha, Joao Nê vết, Fa bi an Ruiz, phía trên là Đu ê, Đem bê lê và Kvara. A se nồ nhiều khả năng dùng Raya, Saliba, Gabriel, Rice, Ô đê gác, Saka, Trossard và một trung phong như Giu kê rét hoặc ha vớt.",
+      "duration": 9,
+      "startTime": 18,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#004170",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Paris Saint-Germain",
+          "code": "PSG",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        },
+        {
+          "name": "Arsenal",
+          "code": "ARS",
+          "teamType": "club",
+          "logoSrc": "assets/football/clubs/epl/arsenal.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Matvey Safonov",
+            "Achraf Hakimi",
+            "Marquinhos",
+            "Willian Pacho",
+            "Nuno Mendes",
+            "Joao Neves",
+            "Vitinha",
+            "Fabian Ruiz",
+            "Desire Doue",
+            "Ousmane Dembele",
+            "Khvicha Kvaratskhelia"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "David Raya",
+            "Jurrien Timber",
+            "William Saliba",
+            "Gabriel Magalhaes",
+            "Riccardo Calafiori",
+            "Declan Rice",
+            "Myles Lewis-Skelly",
+            "Bukayo Saka",
+            "Martin Odegaard",
+            "Leandro Trossard",
+            "Kai Havertz"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E11D2E"
+        }
+      ],
+      "subtitle": "Đội hình dự kiến, PSG có Safonov trong khung gỗ, bộ ba tuyến giữa Vitinha, Joao Neves, Fabian Ruiz, phía trên là Doue, Dembele và Kvaratskhelia. Arsenal nhiều khả năng dùng Raya, Saliba, Gabriel, Rice, Odegaard, Saka, Trossard và một trung phong như Gyokeres hoặc Havertz."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Arsenal sẽ đá ra sao?",
+      "subtext": "Khối phòng ngự + chuyển trạng thái biên",
+      "voiceText": "Với Arsenal, chìa khóa là giữ cấu trúc thật chặt, kéo trận đấu vào nhịp kiểm soát, rồi tăng tốc qua Saka và Trossard. Declan Rice là máy cân bằng ở giữa sân, còn Saliba và Gabriel phải thắng các pha một đấu một trước tốc độ của Pi S Ji.",
+      "duration": 8,
+      "startTime": 27,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "label": "Ý tưởng 1",
+          "value": "Phòng ngự kỷ luật",
+          "color": "#E11D2E"
+        },
+        {
+          "label": "Ý tưởng 2",
+          "value": "Đánh biên phải với Saka",
+          "color": "#F7C948"
+        },
+        {
+          "label": "Cầu thủ chủ chốt",
+          "value": "Rice, Saka, Saliba",
+          "color": "#FFFFFF"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/thait/Downloads/Ars-Psg.mp4",
+          "trim": {
+            "start": 0,
+            "end": 10
+          },
+          "position": "background",
+          "videoVolume": 0,
+          "opacity": 0.88
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E11D2E"
+        }
+      ],
+      "subtitle": "Với Arsenal, chìa khóa là giữ cấu trúc thật chặt, kéo trận đấu vào nhịp kiểm soát, rồi tăng tốc qua Saka và Trossard. Declan Rice là máy cân bằng ở giữa sân, còn Saliba và Gabriel phải thắng các pha một đấu một trước tốc độ của PSG."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "PSG nguy hiểm ở đâu?",
+      "subtext": "Pressing cao + tam giác tốc độ",
+      "voiceText": "Còn Pi S Ji của Luis Enrique chơi rất trực diện sau khi đoạt bóng. Vitinha điều nhịp, Joao Nê vết cắn tuyến giữa, Hakimi và Nuno Mendes đẩy biên, còn Đem bê lê, Đu ê và Kvara có thể biến một pha thoát pressing thành bàn thắng trong vài giây.",
+      "duration": 8,
+      "startTime": 35,
+      "bgColor": "#071A2C",
+      "accentColor": "#004170",
+      "secondaryAccentColor": "#E11D2E",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "label": "Ý tưởng 1",
+          "value": "Pressing và thu hồi nhanh",
+          "color": "#004170"
+        },
+        {
+          "label": "Ý tưởng 2",
+          "value": "Bùng nổ hai cánh",
+          "color": "#E11D2E"
+        },
+        {
+          "label": "Cầu thủ chủ chốt",
+          "value": "Vitinha, Dembele, Kvara",
+          "color": "#FFFFFF"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/thait/Downloads/Ars-Psg.mp4",
+          "trim": {
+            "start": 12,
+            "end": 25
+          },
+          "position": "background",
+          "videoVolume": 0,
+          "opacity": 0.88
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#004170"
+        }
+      ],
+      "subtitle": "Còn PSG của Luis Enrique chơi rất trực diện sau khi đoạt bóng. Vitinha điều nhịp, Joao Neves cắn tuyến giữa, Hakimi và Nuno Mendes đẩy biên, còn Dembele, Doue và Kvaratskhelia có thể biến một pha thoát pressing thành bàn thắng trong vài giây."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "5 lần gặp nhau gần nhất",
+      "subtext": "PSG thắng 2, Arsenal thắng 1, hòa 2",
+      "voiceText": "Năm trận gần nhất giữa hai đội khá cân. Pi S Ji thắng hai trận bán kết mùa trước, a se nồ thắng hai không ở vòng bảng năm hai không hai bốn, còn hai trận vòng bảng năm hai không mười sáu đều hòa. Tức là Arsenal có duyên gây khó, nhưng Pi S Ji đang giữ lợi thế tâm lý mới hơn.",
+      "duration": 9,
+      "startTime": 43,
+      "bgColor": "#0A0F1D",
+      "accentColor": "#E11D2E",
+      "secondaryAccentColor": "#004170",
+      "textColor": "#FFFFFF",
+      "h2hMatches": [
+        {
+          "date": "07/05/2025",
+          "homeTeam": "PSG",
+          "awayTeam": "Arsenal",
+          "homeScore": 2,
+          "awayScore": 1,
+          "homeBadgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg",
+          "awayBadgeSrc": "assets/football/clubs/epl/arsenal.svg"
+        },
+        {
+          "date": "29/04/2025",
+          "homeTeam": "Arsenal",
+          "awayTeam": "PSG",
+          "homeScore": 0,
+          "awayScore": 1,
+          "homeBadgeSrc": "assets/football/clubs/epl/arsenal.svg",
+          "awayBadgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        },
+        {
+          "date": "01/10/2024",
+          "homeTeam": "Arsenal",
+          "awayTeam": "PSG",
+          "homeScore": 2,
+          "awayScore": 0,
+          "homeBadgeSrc": "assets/football/clubs/epl/arsenal.svg",
+          "awayBadgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        },
+        {
+          "date": "23/11/2016",
+          "homeTeam": "Arsenal",
+          "awayTeam": "PSG",
+          "homeScore": 2,
+          "awayScore": 2,
+          "homeBadgeSrc": "assets/football/clubs/epl/arsenal.svg",
+          "awayBadgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg"
+        },
+        {
+          "date": "13/09/2016",
+          "homeTeam": "PSG",
+          "awayTeam": "Arsenal",
+          "homeScore": 1,
+          "awayScore": 1,
+          "homeBadgeSrc": "assets/football/clubs/ligue-1/paris-saint-germain.svg",
+          "awayBadgeSrc": "assets/football/clubs/epl/arsenal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#E11D2E"
+        }
+      ],
+      "subtitle": "Năm trận gần nhất giữa hai đội khá cân. PSG thắng hai trận bán kết mùa trước, Arsenal thắng 2-0 ở vòng bảng năm 2024, còn hai trận vòng bảng năm 2016 đều hòa. Tức là Arsenal có duyên gây khó, nhưng PSG đang giữ lợi thế tâm lý mới hơn."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định tổng quan",
+      "subtext": "Cửa PSG sáng hơn, nhưng Arsenal không hề lép",
+      "voiceText": "Nhìn tổng thể, Opta nghiêng về Pi S Ji vì họ có hàng công biến ảo, kinh nghiệm vô địch và phong độ knockout rất đáng sợ. Nhưng Arsenal lại có cấu trúc phòng ngự tốt, bóng chết nguy hiểm và đủ ngôi sao để kéo trận đấu vào thế năm mươi năm mươi. Dự đoán của Méo: Pi S Ji nhỉnh hơn, nhưng kịch bản hiệp phụ hoặc luân lưu rất dễ xảy ra.",
+      "duration": 8,
+      "startTime": 52,
+      "bgColor": "#140020",
+      "accentColor": "#F43F8B",
+      "secondaryAccentColor": "#B92BD4",
+      "textColor": "#FFFFFF",
+      "quote": "PSG nhỉnh hơn theo mô hình, nhưng Arsenal đủ bản lĩnh để kéo trận đấu tới khoảnh khắc cuối.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://cdn-images.vtv.vn/thumb_w/1200/66349b6076cb4dee98746cf1/2026/05/28/6-11050503519807896629118-24129130197498537067665.jpg",
+          "label": "NHẬN ĐỊNH",
+          "title": "Một trận cực sít sao",
+          "caption": "Đừng xem 56% là cách biệt quá lớn trong một trận chung kết",
+          "top": "1070px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "500px",
+          "accentColor": "#F43F8B",
+          "secondaryAccentColor": "#B92BD4",
+          "cardBg": "rgba(20,0,32,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        }
+      ],
+      "subtitle": "Nhìn tổng thể, Opta nghiêng về PSG vì họ có hàng công biến ảo, kinh nghiệm vô địch và phong độ knockout rất đáng sợ. Nhưng Arsenal lại có cấu trúc phòng ngự tốt, bóng chết nguy hiểm và đủ ngôi sao để kéo trận đấu vào thế 50-50. Dự đoán của Méo: PSG nhỉnh hơn, nhưng kịch bản hiệp phụ hoặc luân lưu rất dễ xảy ra."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn PSG hay Arsenal?",
+      "subtext": "Để lại tỉ số dưới phần bình luận",
+      "voiceText": "Còn anh em nghĩ sao? Siêu máy tính chọn Pi S Ji, nhưng trái tim bạn chọn ai: Pa rís sên ger mình, bảo vệ ngai vàng, hay a se nồ lần đầu chạm tay vào Champions League? Bình luận tỉ số, và follow Méo bình luận để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 8,
+      "startTime": 60,
+      "bgColor": "#140020",
+      "accentColor": "#F43F8B",
+      "secondaryAccentColor": "#B92BD4",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "CHUNG KẾT C1",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số PSG vs Arsenal?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "PSG",
+          "Arsenal",
+          "Opta",
+          "Champions League"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Còn anh em nghĩ sao? Siêu máy tính chọn PSG, nhưng trái tim bạn chọn ai: Paris Saint-Germain bảo vệ ngai vàng, hay Arsenal lần đầu chạm tay vào Champions League? Bình luận tỉ số và follow Méo bình luận để xem thêm các câu chuyện bóng đá nóng nhất nhé!"
+    }
+  ]
+}

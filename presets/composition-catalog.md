@@ -8,6 +8,14 @@ Nguồn tham chiếu:
 - `src/composers/visual-generator.js`
 - `compositions/transitions-mechanical.html`
 
+## Quy tắc subtitle
+
+- Mỗi scene trong storyboard nên có field `subtitle` đi cùng `voiceText`, kể cả scene chỉ dùng video nền hoặc scene outro.
+- `voiceText` dùng để TTS đọc ổn định nên có thể dùng phiên âm, cách đọc số bằng chữ, hoặc cách đọc rút gọn theo rule riêng.
+- `subtitle` dùng để hiển thị cho người xem, vì vậy phải viết theo dạng đọc tự nhiên trên màn hình: giữ tên chính thức như `PSG`, `Paris Saint-Germain`, `Arsenal`, `Dembélé`, `Havertz`; dùng số/ký hiệu gọn như `120 phút`, `4-3`, `75%`, `2026`, `50-50`; không dùng phiên âm TTS như `Pi S Ji`, `a se nồ`, `đem bê lê`.
+- Nội dung `subtitle` nên bám sát ý của `voiceText`, nhưng có thể chuẩn hóa tên riêng, số liệu, ký hiệu và dấu câu để dễ đọc hơn.
+- Khi scene có `voiceText` dài, `subtitle` vẫn nên là một đoạn hoàn chỉnh theo đúng thứ tự ý chính, tránh thêm thông tin mới không có trong lời đọc.
+
 ## Composition chính
 
 | Composition | Chú thích |
