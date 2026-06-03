@@ -25,6 +25,7 @@ import { upscaleVideo } from "./steps/07-upscale-video.js";
 import { mergeAudio } from "./steps/07-merge-audio.js";
 import { createOutputDir } from "./utils/fs-helpers.js";
 import { config } from "./config.js";
+import { alignSubtitles } from "./utils/subtitle-alignment.js";
 
 export async function pipeline(input) {
   const startTime = Date.now();
@@ -68,9 +69,18 @@ export async function pipeline(input) {
   const timedStoryboard = await adjustTimings(storyboardWithClips, audioFiles, outputDir);
   logger.info(`✅ Timings adjusted. Total duration: ${timedStoryboard.totalDuration.toFixed(2)}s`);
 
+  // ── Step 4c: Align display subtitles to spoken audio ─────────────────────
+  logger.step("4c", "Aligning subtitles to audio (optional)...");
+  const subtitleTimings = alignSubtitles(timedStoryboard, audioFiles, outputDir);
+  if (subtitleTimings) {
+    logger.info("✅ Subtitle alignment ready");
+  } else {
+    logger.info("Subtitle alignment unavailable; using estimated caption timing");
+  }
+
   // ── Step 5: Build HyperFrames project ─────────────────────────────────────
   logger.step(5, "Building HyperFrames HTML project...");
-  const projectDir = await buildHyperFrames(timedStoryboard, audioFiles, outputDir);
+  const projectDir = await buildHyperFrames(timedStoryboard, audioFiles, outputDir, { subtitleTimings });
   logger.info(`✅ HyperFrames project built: ${projectDir}`);
 
   // ── Step 6: Render video ──────────────────────────────────────────────────

@@ -1,0 +1,148 @@
+{
+  "title": "Cú sút penalty ám ảnh của Gabriel ở chung kết Champions League",
+  "slug": "gabriel-missed-penalty-ucl-final-2026",
+  "totalDuration": 79,
+  "sources": [],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "content",
+      "title": "Khoảnh khắc ấn tượng",
+      "subtext": "Chung kết Champions League",
+      "voiceText": "Trận chung kết Champions League đã khép lại, với chiến thắng nghẹt thở dành cho Pi S Ji. Nhưng khoảnh khắc ấn tượng nhất, đọng lại mãi trong tâm trí fan của cả hai đội cho đến tận ngày hôm nay, có lẽ lại là cú sút penalty định mệnh của Gabriel.",
+      "subtitle": "Trận chung kết Champions League đã khép lại với chiến thắng nghẹt thở dành cho PSG. Nhưng khoảnh khắc ấn tượng nhất, đọng lại mãi trong tâm trí fan của cả hai đội cho đến tận ngày hôm nay, có lẽ lại là cú sút penalty định mệnh của Gabriel.",
+      "duration": 10,
+      "startTime": 0,
+      "bgColor": "#08111F",
+      "accentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/AGAIN 🏆 @championsleague.mp4",
+          "trim": {
+            "start": 5,
+            "end": 15
+          },
+          "position": "background",
+          "videoVolume": 0.3,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title": "Cú sút bay vọt xà",
+      "subtext": "Giấc mơ vụn vỡ",
+      "voiceText": "Khoảnh khắc Gabriel bước lên chấm mười một mét, cả thế giới như nín thở. Một sự tĩnh lặng đáng sợ bao trùm lấy khán đài. Và rồi... oành! Bóng đi vọt xà ngang, mang theo cả giấc mơ vô địch C một của các pháo thủ bay vào hư không. Giây phút ấy, thế giới chia làm hai nửa buồn vui. Trong khi các cầu thủ Pi S Ji vỡ òa chạy tới ôm lấy nhau ăn mừng chức vô địch, thì bên kia chiến tuyến, những người con của a se nồ gục ngã trên mặt cỏ. Thật xót xa cho Gabriel, một mùa giải tuyệt vời bỗng chốc kết thúc bằng một nốt trầm cay đắng. Nước mắt đã rơi, và nỗi đau này có lẽ sẽ còn ám ảnh các cổ động viên London thêm một thời gian dài nữa.",
+      "subtitle": "Khoảnh khắc Gabriel bước lên chấm 11 mét, cả thế giới như nín thở. Một sự tĩnh lặng đáng sợ bao trùm lấy khán đài. Và rồi... oành! Bóng đi vọt xà ngang, mang theo cả giấc mơ vô địch C1 của các pháo thủ bay vào hư không. Giây phút ấy, thế giới chia làm hai nửa buồn vui. Trong khi các cầu thủ PSG vỡ òa chạy tới ôm lấy nhau ăn mừng chức vô địch, thì bên kia chiến tuyến, những người con của Arsenal gục ngã trên mặt cỏ. Thật xót xa cho Gabriel, một mùa giải tuyệt vời bỗng chốc kết thúc bằng một nốt trầm cay đắng. Nước mắt đã rơi, và nỗi đau này có lẽ sẽ còn ám ảnh các cổ động viên London thêm một thời gian dài nữa.",
+      "duration": 30,
+      "startTime": 10,
+      "bgColor": "#08111F",
+      "accentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/kết bộ phim #viral #fyp #foryou .mp4",
+          "trim": {
+            "start": 0,
+            "end": 30
+          },
+          "position": "background",
+          "videoVolume": 0.2,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "title": "Nước mắt rơi",
+      "subtext": "Nỗi đau của fan trẻ tuổi",
+      "voiceText": "Với những người theo dõi trận đấu qua màn ảnh nhỏ, nỗi đau cũng được cảm nhận thật rõ ràng. Những giọt nước mắt lăn dài trên má của các cổ động viên trẻ tuổi, bao nhiêu hy vọng, bao nhiêu chờ đợi, cuối cùng lại tan vỡ chỉ sau một cú sút.",
+      "subtitle": "Với những người theo dõi trận đấu qua màn ảnh nhỏ, nỗi đau cũng được cảm nhận thật rõ ràng. Những giọt nước mắt lăn dài trên má của các cổ động viên trẻ tuổi, bao nhiêu hy vọng, bao nhiêu chờ đợi, cuối cùng lại tan vỡ chỉ sau một cú sút.",
+      "duration": 9,
+      "startTime": 40,
+      "bgColor": "#08111F",
+      "accentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Đang còn trẻ khóc tiếp 20 năm nữa vẫn được mà #vtvcabsports #Sportson....mp4",
+          "trim": {
+            "start": 6,
+            "end": 15
+          },
+          "position": "background",
+          "videoVolume": 0.3,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "title": "Có gì đó sai sai?",
+      "subtext": "Có gì đó sai sai?",
+      "voiceText": "Tại buổi offline xem trận đấu, nhiều fan a se nồ cũng đã suy sụp hoàn toàn, không dám tin vào mắt mình. Thế nhưng... ủa? Khoan... hình như có gì đó sai sai ở đây thì phải...",
+      "subtitle": "Tại buổi offline xem trận đấu, nhiều fan Arsenal cũng đã suy sụp hoàn toàn, không dám tin vào mắt mình. Thế nhưng... ủa? Khoan... hình như có gì đó sai sai ở đây thì phải...",
+      "duration": 24,
+      "startTime": 49,
+      "bgColor": "#08111F",
+      "accentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Thôi nào, không trêu bạn  #vtvcabsports #SportsonTikTok #thethaomoing....mp4",
+          "trim": {
+            "start": 6,
+            "end": 30
+          },
+          "position": "background",
+          "videoVolume": 0.2,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn nghĩ sao về tình huống này?",
+      "subtext": "Để lại cảm nghĩ dưới phần bình luận",
+      "voiceText": "Các fan a se nồ ơi, các bạn đã vượt qua được cú sốc này chưa? Hãy để lại cảm nghĩ dưới phần bình luận nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Các fan Arsenal ơi, các bạn đã vượt qua được cú sốc này chưa? Hãy để lại cảm nghĩ dưới phần bình luận nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 73,
+      "bgColor": "#08111F",
+      "accentColor": "#E30613",
+      "secondaryAccentColor": "#DAA520",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Fan Arsenal ổn không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Arsenal",
+          "Gabriel",
+          "Méo Bình Luận",
+          "Champions League"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

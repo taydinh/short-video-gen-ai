@@ -103,7 +103,7 @@ export const config = {
     backgroundMusic: {
       enabled: true,
       src: "assets/audio/DanceByYourself-Dyalla.mp3",
-      volume: 0.1,
+      volume: 0.06,
     },
 
     // Final gain applied after voice + background music are mixed.
@@ -122,7 +122,21 @@ export const config = {
         "linear-gradient(135deg, rgba(10,16,28,1) 0%, rgba(11,20,36,1) 45%, rgba(6,10,18,1) 100%)",
     },
 
-    // Karaoke subtitle from voiceText (HTML/CSS overlay - KHÔNG cần SRT)
+    // Optional subtitle/audio alignment. Uses voiceText for alignment and subtitle for display.
+    subtitleAlignment: {
+      enabled: true,
+      provider: "stable-ts",
+      pythonPath: "python",
+      model: "base",
+      language: "vi",
+      maxWordsPerCaption: 6,
+      // Negative shows subtitles earlier; positive shows them later.
+      timingOffsetSeconds: 0,
+      fallbackToEstimatedTiming: true,
+      timeoutMs: 600000,
+    },
+
+    // Karaoke subtitle from subtitle text (HTML/CSS overlay - KHÔNG cần SRT)
     karaokeSubtitle: {
       enabled: false,
       style: {

@@ -20,7 +20,7 @@ import { config } from "../config.js";
 import { logger } from "../utils/logger.js";
 import { buildSceneHtml } from "../composers/scene-composer.js";
 
-export async function buildHyperFrames(storyboard, audioFiles, outputDir) {
+export async function buildHyperFrames(storyboard, audioFiles, outputDir, options = {}) {
   const projectDir = path.join(outputDir, "hyperframes");
   const compositionsDir = path.join(projectDir, "compositions");
   const assetsDir = path.join(projectDir, "assets");
@@ -101,7 +101,10 @@ export async function buildHyperFrames(storyboard, audioFiles, outputDir) {
 
   // Build root index.html
   logger.info("  Building root index.html...");
-  const indexHtml = buildIndexHtml(storyboard, audioMap, { backgroundMode: effectiveBackgroundMode });
+  const indexHtml = buildIndexHtml(storyboard, audioMap, {
+    backgroundMode: effectiveBackgroundMode,
+    subtitleTimings: options.subtitleTimings || null,
+  });
   writeFileSync(path.join(projectDir, "index.html"), indexHtml, "utf-8");
 
   // Write config files
@@ -221,7 +224,7 @@ function buildIndexHtml(storyboard, audioMap, options = {}) {
   }).join("");
 
   const captionCalls = phraseCaption.enabled
-    ? buildPhraseCaptionCalls(storyboard)
+    ? buildPhraseCaptionCalls(storyboard, options.subtitleTimings)
     : "";
 
   return `<!doctype html>
@@ -374,7 +377,7 @@ function escapeHtml(str) {
   return (str || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
-function buildPhraseCaptionCalls(storyboard) {
+function buildPhraseCaptionCalls(storyboard, subtitleTimings = null) {
   const cfg = config.video.phraseCaption || {};
   const segCfg = cfg.segment || {};
   const minWords = segCfg.minWords ?? 2;
@@ -384,24 +387,16 @@ function buildPhraseCaptionCalls(storyboard) {
   const fadeOut = segCfg.fadeOut ?? 0.18;
 
   const segments = [];
+  const alignedByScene = buildAlignedSegmentsByScene(subtitleTimings);
   for (const scene of storyboard.scenes) {
-    const start = Number.isFinite(scene.startTime) ? scene.startTime : 0;
-    const dur = Number.isFinite(scene.duration) ? scene.duration : 4;
-    const subtitleText = getSceneSubtitleText(scene);
-    const parts = splitVoiceTextToPhrases(subtitleText, { minWords, maxWords });
-    if (parts.length === 0) continue;
+    const aligned = alignedByScene.get(String(scene.id));
+    if (aligned?.length) {
+      segments.push(...aligned);
+      continue;
+    }
 
-    // allocate time by word count (smoother than equal split)
-    const wordCounts = parts.map((p) => p.split(/\s+/).filter(Boolean).length);
-    const totalWords = wordCounts.reduce((a, b) => a + b, 0) || 1;
-
-    let cursor = start;
-    for (let i = 0; i < parts.length; i++) {
-      const alloc = (dur * (wordCounts[i] / totalWords));
-      const segStart = cursor;
-      const segEnd = Math.min(start + dur, cursor + alloc);
-      cursor = segEnd;
-      segments.push({ start: segStart, end: segEnd, text: parts[i] });
+    if (config.video?.subtitleAlignment?.fallbackToEstimatedTiming !== false) {
+      segments.push(...buildEstimatedCaptionSegments(scene, { minWords, maxWords }));
     }
   }
 
@@ -429,7 +424,57 @@ function getSceneSubtitleText(scene) {
   return String(scene.subtitle || scene.voiceText || "").trim();
 }
 
-function splitVoiceTextToPhrases(text, { minWords, maxWords }) {
+function buildAlignedSegmentsByScene(subtitleTimings) {
+  const byScene = new Map();
+  if (!subtitleTimings || !Array.isArray(subtitleTimings.scenes)) {
+    return byScene;
+  }
+
+  for (const scene of subtitleTimings.scenes) {
+    const sceneId = String(scene.sceneId ?? "");
+    if (!sceneId || !Array.isArray(scene.segments)) continue;
+
+    const segments = scene.segments
+      .map((segment) => {
+        const start = Number(segment.start);
+        const end = Number(segment.end);
+        const text = String(segment.text || "").trim();
+        if (!Number.isFinite(start) || !Number.isFinite(end) || end <= start || !text) {
+          return null;
+        }
+        return { start, end, text };
+      })
+      .filter(Boolean);
+
+    if (segments.length) {
+      byScene.set(sceneId, segments);
+    }
+  }
+
+  return byScene;
+}
+
+function buildEstimatedCaptionSegments(scene, { minWords, maxWords }) {
+  const start = Number.isFinite(scene.startTime) ? scene.startTime : 0;
+  const dur = Number.isFinite(scene.duration) ? scene.duration : 4;
+  const subtitleText = getSceneSubtitleText(scene);
+  const parts = splitSubtitleTextToPhrases(subtitleText, { minWords, maxWords });
+  if (parts.length === 0) return [];
+
+  const wordCounts = parts.map((p) => p.split(/\s+/).filter(Boolean).length);
+  const totalWords = wordCounts.reduce((a, b) => a + b, 0) || 1;
+
+  let cursor = start;
+  return parts.map((part, index) => {
+    const alloc = dur * (wordCounts[index] / totalWords);
+    const segStart = cursor;
+    const segEnd = Math.min(start + dur, cursor + alloc);
+    cursor = segEnd;
+    return { start: segStart, end: segEnd, text: part };
+  });
+}
+
+function splitSubtitleTextToPhrases(text, { minWords, maxWords }) {
   const clean = String(text || "")
     .replace(/\s+/g, " ")
     .trim();

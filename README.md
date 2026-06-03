@@ -317,23 +317,82 @@ npm start -- my-storyboard.json
 
 Điều này bỏ qua bước LLM và đi thẳng vào TTS + render.
 
-## Tùy chỉnh
+## Tùy chỉnh subtitle
 
-Bạn có thể tắt subtitle embedding bằng cách set trong config.js:
-```
+Pipeline có hai field text khác nhau trong storyboard:
+
+- `voiceText`: lời thoại đưa vào TTS để tạo audio.
+- `subtitle`: chữ hiển thị lên video. Field này có thể khác `voiceText` để dễ đọc hơn, ví dụ audio đọc "Pi S Ji" nhưng subtitle hiển thị "PSG".
+
+Subtitle root-level hiện được render bằng `config.video.phraseCaption`. Bạn có thể bật/tắt hoặc chỉnh style trong `src/config.js`:
+```js
 video: {
-  embedSubtitles: false,  // Không nhúng subtitle vào video
+  phraseCaption: {
+    enabled: true,
+    style: {
+      fontSize: 46,
+      color: "#ffffff",
+      accentColor: "#8dd3ff",
+      y: 0.80,
+    },
+    segment: {
+      minWords: 2,
+      maxWords: 6,
+      fadeIn: 0.12,
+      fadeOut: 0.18,
+    },
+  },
 }
 ```
 
-Hoặc điều chỉnh style subtitle:
+### Đồng bộ subtitle với audio bằng stable-ts
+
+Mặc định pipeline có bước optional `Step 4c` để align subtitle với audio:
+
+- Align bằng `voiceText`, vì đây là text thật sự được đọc.
+- Hiển thị bằng `subtitle`, vì đây là text dành cho người xem.
+- Nếu stable-ts/Python lỗi hoặc chưa cài, pipeline tự fallback về timing ước lượng và vẫn render video.
+
+Cài stable-ts trong Python environment dùng để chạy project:
+```powershell
+pip install stable-ts
 ```
-subtitleStyle: {
-  fontSize: 40,
-  color: "#FFD700",  // Màu vàng
-  backgroundColor: "rgba(0,0,0,0.8)",
+
+Cấu hình trong `src/config.js`:
+```js
+video: {
+  subtitleAlignment: {
+    enabled: true,
+    provider: "stable-ts",
+    pythonPath: "python",
+    model: "base",
+    language: "vi",
+    maxWordsPerCaption: 6,
+    timingOffsetSeconds: 0,
+    fallbackToEstimatedTiming: true,
+    timeoutMs: 600000,
+  },
 }
 ```
+
+Nếu máy dùng Python path khác, đổi `pythonPath`, ví dụ:
+```js
+pythonPath: ".venv/Scripts/python.exe"
+```
+
+Nếu subtitle bị trễ hoặc sớm đều trên toàn video, chỉnh `timingOffsetSeconds`:
+```js
+timingOffsetSeconds: -0.15 // hiện subtitle sớm hơn 0.15 giây
+timingOffsetSeconds: 0.15  // hiện subtitle muộn hơn 0.15 giây
+```
+
+Khi align thành công, output folder sẽ có:
+```text
+subtitle-align-input.json
+subtitle-timings.json
+```
+
+Trong log sẽ thấy `Subtitle alignment ready`. Nếu log báo `Subtitle alignment unavailable; using estimated caption timing`, video vẫn render bình thường nhưng caption dùng timing ước lượng theo số từ.
 
 ## Storyboard JSON mở rộng
 ```
