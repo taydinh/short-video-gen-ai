@@ -1,0 +1,381 @@
+{
+  "title": "Ederson - Tân Binh Cập Bến Nhà Hát?",
+  "slug": "ederson-tan-binh-cap-ben-nha-hat-2026-06-04",
+  "totalDuration": 64,
+  "sources": [
+    {
+      "title": "P25 | Ederson - Tân binh cập bến nhà hát",
+      "url": "https://www.tiktok.com/@lovefootball93.2/video/7647001032941194516"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "EDERSON CẬP BẾN NHÀ HÁT?",
+      "subtext": "Mảnh ghép mới cho tuyến giữa Man U",
+      "voiceText": "Ederson cập bến Nhà hát của những giấc mơ? Nếu thương vụ xảy ra, tiền vệ Atalanta có thể thay đổi tuyến giữa mờ u, bằng sức mạnh và khả năng đưa bóng tiến lên.",
+      "duration": 8,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "label": "TIN CHUYỂN NHƯỢNG",
+      "imageSrc": "assets/storyboards/ederson-tan-binh-cap-ben-nha-hat-2026-06-04/scene-1-ederson-man-utd.webp",
+      "cardCaption": "Mảnh ghép mới cho tuyến giữa MU",
+      "chips": [
+        "Ederson",
+        "Man U",
+        "Atalanta"
+      ],
+      "emoji": "🔥",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Ederson cập bến Nhà hát của những giấc mơ? Nếu thương vụ xảy ra, tiền vệ Atalanta có thể thay đổi tuyến giữa Man U bằng sức mạnh và khả năng đưa bóng tiến lên."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Chất Thép Tuyến Giữa",
+      "subtext": "Không ngại va chạm, luôn tiến về phía trước",
+      "voiceText": "Thay đổi đầu tiên Ederson có thể mang lại, là chất thép ở trung tuyến. Khả năng tranh chấp và thu hồi bóng của anh, sẽ giúp mờ u phản ứng nhanh hơn sau khi mất bóng.",
+      "duration": 8,
+      "startTime": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "💪",
+          "value": "Mạnh mẽ",
+          "label": "Tranh chấp"
+        },
+        {
+          "icon": "⚡",
+          "value": "Trực diện",
+          "label": "Chuyển trạng thái"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Ederson - Tân binh cập bến nhà hát.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Thay đổi đầu tiên Ederson có thể mang lại là chất thép ở trung tuyến. Khả năng tranh chấp và thu hồi bóng của anh sẽ giúp Man U phản ứng nhanh hơn sau khi mất bóng."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Thoát Pressing Và Kéo Bóng",
+      "subtext": "Tự mở đường xuyên qua tuyến giữa",
+      "voiceText": "Nhưng khác biệt lớn nhất, nằm ở khả năng tự kéo bóng qua lớp pressing đầu tiên. Nhờ Ederson, mờ u có thể chuyển trạng thái nhanh hơn, thay vì chuyền ngang và để đối thủ kịp lùi về.",
+      "duration": 8,
+      "startTime": 16,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "Khả năng 1",
+          "value": "Thoát pressing",
+          "color": "#F7C948"
+        },
+        {
+          "label": "Khả năng 2",
+          "value": "Kéo bóng vượt tuyến",
+          "color": "#DA291C"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Ederson - Tân binh cập bến nhà hát.mp4",
+          "trim": {
+            "start": 8,
+            "end": 16
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Nhưng khác biệt lớn nhất nằm ở khả năng tự kéo bóng qua lớp pressing đầu tiên. Nhờ Ederson, Man U có thể chuyển trạng thái nhanh hơn, thay vì chuyền ngang và để đối thủ kịp lùi về."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Tiền Vệ Box-to-box",
+      "subtext": "Có mặt ở cả hai đầu sân",
+      "voiceText": "Sau khi đưa bóng vượt tuyến, Ederson không dừng lại. Anh tiếp tục dâng cao, tạo thêm một người ở khu vực tấn công, đúng với vai trò tiền vệ box to box mà mờ u còn thiếu.",
+      "duration": 8,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "player": "Ederson",
+      "team": "Atalanta",
+      "number": "13",
+      "playerImageUrl": "https://scontent.fsgn5-11.fna.fbcdn.net/v/t51.82787-15/713805022_18452551594116941_8956632932291507423_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=An-kFxboTY8Q7kNvwGo9Rbw&_nc_oc=Adp0p84rxEImiimvwpXEz3KlC7nJYBTR5f2Eleoqzji75_Rw_wtvtSYFaNHcRK7yl4E&_nc_zt=23&_nc_ht=scontent.fsgn5-11.fna&_nc_gid=eE94L_Hnm3ijarYqNn2SWw&_nc_ss=7b2a8&oh=00_Af8UUg-cElzdFZwbQKPj3TNvN3ofK_tN9Amua_S1_4e1Zw&oe=6A26EAEC",
+      "stats": [
+        {
+          "label": "Vai trò",
+          "value": "Box-to-box"
+        },
+        {
+          "label": "Di chuyển",
+          "value": "Cơ động"
+        },
+        {
+          "label": "Tinh thần",
+          "value": "Quyết liệt"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Ederson - Tân binh cập bến nhà hát.mp4",
+          "trim": {
+            "start": 16,
+            "end": 25
+          },
+          "layout": "horizontal",
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Sau khi đưa bóng vượt tuyến, Ederson không dừng lại. Anh tiếp tục dâng cao, tạo thêm một người ở khu vực tấn công, đúng với vai trò tiền vệ box-to-box mà Man U còn thiếu."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "bullet-points",
+      "title": "Tạo Sát Thương Khi Dâng Cao",
+      "subtext": "Chuyền quyết định và chọn vị trí",
+      "voiceText": "Sự hiện diện đó, sẽ giúp mờ u kết nối tuyến giữa với hàng công tốt hơn. Các tiền đạo có thêm người phối hợp, còn tuyến trên không phải liên tục lùi sâu để tự tìm bóng.",
+      "duration": 8,
+      "startTime": 32,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "bullets": [
+        "Xâm nhập đúng thời điểm",
+        "Phối hợp nhanh ở cự ly hẹp",
+        "Tạo cơ hội cho đồng đội"
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Ederson - Tân binh cập bến nhà hát.mp4",
+          "trim": {
+            "start": 25,
+            "end": 34
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Sự hiện diện đó sẽ giúp Man U kết nối tuyến giữa với hàng công tốt hơn. Các tiền đạo có thêm người phối hợp, còn tuyến trên không phải liên tục lùi sâu để tự tìm bóng."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Bản Lĩnh Ở Thời Khắc Lớn",
+      "subtext": "Tự tin nhận trách nhiệm",
+      "voiceText": "Không chỉ hỗ trợ lối chơi, Ederson còn mang tới sự tự tin trong thời khắc áp lực. Anh dám nhận trách nhiệm, dứt điểm quyết đoán, và có thể tạo ra khác biệt khi thế trận bế tắc.",
+      "duration": 8,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "🧊",
+          "value": "Lạnh lùng",
+          "label": "Tâm lý"
+        },
+        {
+          "icon": "🎯",
+          "value": "Quyết đoán",
+          "label": "Dứt điểm"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Ederson - Tân binh cập bến nhà hát.mp4",
+          "trim": {
+            "start": 43,
+            "end": 52
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Không chỉ hỗ trợ lối chơi, Ederson còn mang tới sự tự tin trong thời khắc áp lực. Anh dám nhận trách nhiệm, dứt điểm quyết đoán và có thể tạo ra khác biệt khi thế trận bế tắc."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc Nhìn Méo Bình Luận",
+      "subtext": "Mảnh ghép hợp lý cho Man U",
+      "voiceText": "Theo tôi, đó là lý do Ederson rất phù hợp với mờ u. Anh không chỉ bổ sung thể lực, mà còn giúp đội đoạt lại bóng, thoát pressing, và đưa hàng công vào cuộc sớm hơn.",
+      "duration": 8,
+      "startTime": 48,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "quote": "Giàu thể lực, chơi trực diện và luôn dám tiến về phía trước: đúng mẫu tiền vệ Man U đang cần.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://unicorn-images.b-cdn.net/2904d906-b903-401b-8370-cfc509e61a06?optimizer=gif",
+          "label": "Hồ sơ tân binh",
+          "title": "Ederson",
+          "caption": "Nguồn năng lượng mới cho tuyến giữa Man U",
+          "top": "1020px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "500px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#DA291C",
+          "cardBg": "rgba(7,26,20,0.88)",
+          "objectFit": "cover",
+          "objectPosition": "center center"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Theo tôi, đó là lý do Ederson rất phù hợp với Man U. Anh không chỉ bổ sung thể lực, mà còn giúp đội đoạt lại bóng, thoát pressing và đưa hàng công vào cuộc sớm hơn."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Ederson Có Thể Tỏa Sáng Tại Man U?",
+      "subtext": "Hãy để lại bình luận của bạn",
+      "voiceText": "Với những thay đổi đó, Ederson có phải mảnh ghép mờ u đang cần không? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 8,
+      "startTime": 56,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#DA291C",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "GÓC KHÁN ĐÀI",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Ederson có phù hợp với Man U?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Với những thay đổi đó, Ederson có phải mảnh ghép Man U đang cần không? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}
