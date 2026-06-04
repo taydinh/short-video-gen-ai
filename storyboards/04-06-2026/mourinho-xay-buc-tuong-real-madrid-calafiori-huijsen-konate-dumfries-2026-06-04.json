@@ -1,0 +1,385 @@
+{
+  "title": "Mourinho Dựng Bức Tường Real Madrid Với Huijsen, Konaté, Dumfries Và Calafiori",
+  "slug": "mourinho-xay-buc-tuong-real-madrid-calafiori-huijsen-konate-dumfries-2026-06-04",
+  "totalDuration": 64,
+  "sources": [
+    {
+      "title": "Calafiori - Huijsen - Konate - Dumfries, cứng đấy",
+      "url": "https://www.tiktok.com/@hoanganhquan_blv/video/7647324896883674389"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "MOURINHO DỰNG BỨC TƯỜNG REAL!",
+      "subtext": "Huijsen, Konaté, Dumfries và Calafiori",
+      "voiceText": "Mu ri nhô dựng bức tường Rê an Madrid! Thay vì săn thêm một siêu sao tấn công, kế hoạch trong video lại bắt đầu bằng bốn mảnh ghép phòng ngự.",
+      "duration": 8,
+      "startTime": 0,
+      "bgColor": "#07101F",
+      "accentColor": "#D4AF37",
+      "secondaryAccentColor": "#5B8CFF",
+      "textColor": "#ffffff",
+      "label": "KẾ HOẠCH TÁI THIẾT",
+      "imageSrc": "assets/storyboards/mourinho-xay-buc-tuong-real-madrid-calafiori-huijsen-konate-dumfries-2026-06-04/scene-1.png",
+      "cardCaption": "Muốn chinh phục châu Âu, hãy dựng bức tường trước",
+      "chips": [
+        "Real Madrid",
+        "Mourinho",
+        "Defense First"
+      ],
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Mourinho dựng bức tường Real Madrid! Thay vì săn thêm một siêu sao tấn công, kế hoạch trong video lại bắt đầu bằng bốn mảnh ghép phòng ngự."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Vì Sao Phải Sửa Hàng Thủ?",
+      "subtext": "Huijsen là viên gạch đầu tiên, nhưng chưa đủ",
+      "voiceText": "Hôi sen mang tới nền tảng trẻ và khả năng triển khai bóng. Nhưng khi các trụ cột sa sút hoặc chấn thương, Rê an Madrid vẫn thiếu chiều sâu, tốc độ và cảm giác vững chãi ở những trận lớn.",
+      "duration": 8,
+      "startTime": 8,
+      "bgColor": "#07101F",
+      "accentColor": "#D4AF37",
+      "secondaryAccentColor": "#5B8CFF",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "🧱",
+          "value": "Huijsen",
+          "label": "Nền móng trẻ"
+        },
+        {
+          "icon": "⚠️",
+          "value": "Thiếu chiều sâu",
+          "label": "Bài toán hàng thủ"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "assets/storyboards/mourinho-xay-buc-tuong-real-madrid-calafiori-huijsen-konate-dumfries-2026-06-04/real-defense-problem.jpg",
+          "label": "Thực trạng Real Madrid",
+          "title": "Có ngôi sao, chưa có sự vững chãi",
+          "caption": "Hàng công mạnh vẫn cần một nền móng phòng ngự ổn định",
+          "top": "880px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "590px",
+          "accentColor": "#D4AF37",
+          "secondaryAccentColor": "#5B8CFF",
+          "cardBg": "rgba(7,16,31,0.88)",
+          "objectFit": "cover",
+          "objectPosition": "center center"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D4AF37"
+        }
+      ],
+      "subtitle": "Huijsen mang tới nền tảng trẻ và khả năng triển khai bóng. Nhưng khi các trụ cột sa sút hoặc chấn thương, Real Madrid vẫn thiếu chiều sâu, tốc độ và cảm giác vững chãi ở những trận lớn."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Konaté: Sức Mạnh Trung Tâm",
+      "subtext": "Mẫu thủ lĩnh cho hệ thống dâng cao",
+      "voiceText": "Cô na tê là viên gạch sức mạnh. Anh cao lớn, nhanh, tranh chấp tốt, đã quen với phòng ngự dâng cao, và có thể trở thành thủ lĩnh hàng thủ trong nhiều năm.",
+      "duration": 8,
+      "startTime": 16,
+      "bgColor": "#07101F",
+      "accentColor": "#D4AF37",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Ibrahima Konaté",
+      "team": "Liverpool",
+      "number": "5",
+      "playerImageUrl": "https://www.lequipe.fr/_medias/img-photo-jpg/ibrahima-konate-defenseur-de-liverpool-picture-alliance-presse-sports/1500000002090752/325:213,1620:1508-828-828-75/4cb7f",
+      "stats": [
+        {
+          "label": "Điểm mạnh",
+          "value": "Sức mạnh"
+        },
+        {
+          "label": "Hệ thống",
+          "value": "Dâng cao"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Thủ lĩnh"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "assets/storyboards/mourinho-xay-buc-tuong-real-madrid-calafiori-huijsen-konate-dumfries-2026-06-04/scene-3-konate.mp4",
+          "layout": "horizontal",
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D4AF37"
+        }
+      ],
+      "subtitle": "Konaté là viên gạch sức mạnh. Anh cao lớn, nhanh, tranh chấp tốt, đã quen với phòng ngự dâng cao và có thể trở thành thủ lĩnh hàng thủ trong nhiều năm."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Dumfries: Động Cơ Cánh Phải",
+      "subtext": "Thể chất và kinh nghiệm trận mạc",
+      "voiceText": "Đăm phờ rít là lựa chọn rất đúng chất Mu ri nhô. Anh chạy không biết mệt, tranh chấp mạnh, hỗ trợ tấn công tốt, và giúp cánh phải không trở thành tử huyệt.",
+      "duration": 8,
+      "startTime": 24,
+      "bgColor": "#07101F",
+      "accentColor": "#D4AF37",
+      "secondaryAccentColor": "#00529F",
+      "textColor": "#ffffff",
+      "player": "Denzel Dumfries",
+      "team": "Inter Milan",
+      "number": "2",
+      "playerImageUrl": "https://cdn.bongdaplus.vn/Assets/Media/2025/05/07/77/dumfries2.jpg",
+      "stats": [
+        {
+          "label": "Năng lượng",
+          "value": "90 phút"
+        },
+        {
+          "label": "Tranh chấp",
+          "value": "Mạnh mẽ"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Cánh phải"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "assets/storyboards/mourinho-xay-buc-tuong-real-madrid-calafiori-huijsen-konate-dumfries-2026-06-04/scene-4-dumfries.mp4",
+          "layout": "horizontal",
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D4AF37"
+        }
+      ],
+      "subtitle": "Dumfries là lựa chọn rất đúng chất Mourinho. Anh chạy không biết mệt, tranh chấp mạnh, hỗ trợ tấn công tốt và giúp cánh phải không trở thành tử huyệt."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Calafiori: Quân Bài Đa Năng",
+      "subtext": "Một người giải quyết nhiều vị trí",
+      "voiceText": "Ca la phi ô ri đại diện cho sự linh hoạt. Anh đá được trung vệ, hậu vệ trái, tham gia triển khai bóng, và giúp Huấn luyện viên giải quyết nhiều vấn đề chỉ bằng một con người.",
+      "duration": 8,
+      "startTime": 32,
+      "bgColor": "#07101F",
+      "accentColor": "#D4AF37",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "player": "Riccardo Calafiori",
+      "team": "Arsenal",
+      "number": "33",
+      "playerImageUrl": "https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-6/497934140_1240503944317828_2775391391898803013_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VXBqnlLjJfkQ7kNvwF6y9eb&_nc_oc=AdqYgtJmepAQAQlOa7_sWBVDFy8-pRg_dnmrjFq2UqvUXTBjfrFvlCjv-tX39pIJ9p5P1jiQC3f8dyP4QNvDbvA_&_nc_zt=23&_nc_ht=scontent.fsgn5-6.fna&_nc_gid=5VPFO-JNjOUQ2ZAycfFReQ&_nc_ss=7b289&oh=00_Af9qnTQ8SkuXuvUQS8gTUCy1_MBh36GYj8_Qbk-MF5Va7A&oe=6A27631A",
+      "stats": [
+        {
+          "label": "Vị trí 1",
+          "value": "Trung vệ"
+        },
+        {
+          "label": "Vị trí 2",
+          "value": "Hậu vệ trái"
+        },
+        {
+          "label": "Giá trị",
+          "value": "Đa năng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "assets/storyboards/mourinho-xay-buc-tuong-real-madrid-calafiori-huijsen-konate-dumfries-2026-06-04/scene-5-calafiori.mp4",
+          "layout": "horizontal",
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D4AF37"
+        }
+      ],
+      "subtitle": "Calafiori đại diện cho sự linh hoạt. Anh đá được trung vệ, hậu vệ trái, tham gia triển khai bóng và giúp Huấn luyện viên giải quyết nhiều vấn đề chỉ bằng một con người."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Triết Lý: Sửa Móng Trước",
+      "subtext": "Bốn mảnh ghép, một bức tường",
+      "voiceText": "Ý tưởng của Mu ri nhô không phải bỏ quên tuyến giữa. Triết lý ở đây rất rõ: muốn sửa nhà, phải sửa móng trước, rồi mới bổ sung sáng tạo và sức mạnh tấn công.",
+      "duration": 8,
+      "startTime": 40,
+      "bgColor": "#07101F",
+      "accentColor": "#D4AF37",
+      "secondaryAccentColor": "#5B8CFF",
+      "textColor": "#ffffff",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "Nền móng",
+          "title": "Huijsen: triển khai bóng"
+        },
+        {
+          "stage": "Trung tâm",
+          "title": "Konaté: sức mạnh"
+        },
+        {
+          "stage": "Hai cánh",
+          "title": "Dumfries + Calafiori"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "assets/storyboards/mourinho-xay-buc-tuong-real-madrid-calafiori-huijsen-konate-dumfries-2026-06-04/scene-6-philosophy.mp4",
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D4AF37"
+        }
+      ],
+      "subtitle": "Ý tưởng của Mourinho không phải bỏ quên tuyến giữa. Triết lý ở đây rất rõ: muốn sửa nhà, phải sửa móng trước, rồi mới bổ sung sáng tạo và sức mạnh tấn công."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc Nhìn Méo Bình Luận",
+      "subtext": "Nhà vô địch cần cảm giác vững chãi",
+      "voiceText": "Theo tôi, đây là logic đáng chú ý nhất của video. Một tiền đạo có thể ghi thêm bàn, nhưng một hàng thủ đủ mạnh, mới quyết định đội bóng có thể thống trị châu Âu lâu dài hay không.",
+      "duration": 8,
+      "startTime": 48,
+      "bgColor": "#07101F",
+      "accentColor": "#D4AF37",
+      "secondaryAccentColor": "#5B8CFF",
+      "textColor": "#ffffff",
+      "quote": "Dựng lên một bức tường trước, sau đó mới nghĩ đến việc chinh phục cả thế giới.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "assets/storyboards/mourinho-xay-buc-tuong-real-madrid-calafiori-huijsen-konate-dumfries-2026-06-04/scene-7-wall.mp4",
+          "layout": "horizontal",
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D4AF37"
+        }
+      ],
+      "subtitle": "Theo tôi, đây là logic đáng chú ý nhất của video. Một tiền đạo có thể ghi thêm bàn, nhưng một hàng thủ đủ mạnh mới quyết định đội bóng có thể thống trị châu Âu lâu dài hay không."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bộ Tứ Này Có Đủ Sức Thống Trị?",
+      "subtext": "Hãy để lại lựa chọn của bạn",
+      "voiceText": "Trong bốn cái tên Hôi sen, Cô na tê, Đăm phờ rít và Ca la phi ô ri, bạn muốn thấy ai ở Rê an Madrid nhất? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 8,
+      "startTime": 56,
+      "bgColor": "#07101F",
+      "accentColor": "#D4AF37",
+      "secondaryAccentColor": "#5B8CFF",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "GÓC KHÁN ĐÀI",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bạn chọn Huijsen, Konaté, Dumfries hay Calafiori?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Trong bốn cái tên Huijsen, Konaté, Dumfries và Calafiori, bạn muốn thấy ai ở Real Madrid nhất? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}
