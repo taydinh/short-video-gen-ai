@@ -1,0 +1,564 @@
+{
+  "title": "Đội Tuyển Brazil Đã Đến Mỹ Chuẩn Bị Cho World Cup 2026",
+  "slug": "brazil-den-my-world-cup-2026-06-05",
+  "totalDuration": 69,
+  "sources": [
+    {
+      "title": "Brasil embarca para os Estados Unidos para a disputa da Copa do Mundo",
+      "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/01/brasil-embarca-para-os-estados-unidos-para-a-disputa-da-copa-do-mundo-com-apoio-de-torcedores.ghtml"
+    },
+    {
+      "title": "Ancelotti announces Brazil's World Cup squad",
+      "url": "https://agenciabrasil.ebc.com.br/en/esportes/noticia/2026-05/ancelotti-announces-brazils-world-cup-squad"
+    },
+    {
+      "title": "In Search of the Hexa! Brazil Arrives in the United States for the World Cup",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/in-search-of-the-hexa-brazil-arrives-in-the-united-states-for-the-world-cup-2026-06-02"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "BRAZIL ĐÃ ĐẾN MỸ!",
+      "subtext": "Hành trình săn chiếc cúp vàng thứ sáu bắt đầu",
+      "voiceText": "Brazil đã đến Mỹ! Neymar và các đồng đội vừa đáp máy bay, để bước vào giai đoạn chuẩn bị cuối cùng cho World Cup hai không hai sáu.",
+      "duration": 7,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#ffffff",
+      "label": "WORLD CUP 2026",
+      "imageUrl": "C:/Users/Taydinh/Downloads/4a47172bfcf546d4ae4ee62f40c5063f.jpeg",
+      "cardCaption": "Brazil đáp xuống Mỹ, bắt đầu chiến dịch World Cup 2026",
+      "chips": [
+        "Brazil",
+        "Neymar",
+        "World Cup"
+      ],
+      "emoji": "🏆",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Brazil đã đến Mỹ! Neymar và các đồng đội vừa đáp máy bay để bước vào giai đoạn chuẩn bị cuối cùng cho World Cup 2026."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Sứ Mệnh Hexa",
+      "subtext": "Ancelotti mang theo 26 cái tên đến Mỹ",
+      "voiceText": "Đoàn quân của Huấn luyện viên Carlo Ancelotti rời Rio de Janeiro tối mùng một tháng sáu, và có buổi tập đầu tiên tại New Jersey ngay hôm sau. Mục tiêu rất rõ, chấm dứt hai mươi bốn năm chờ đợi chiếc cúp thứ sáu.",
+      "duration": 8,
+      "startTime": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#ffffff",
+      "statsCardsPosition": "center",
+      "statsCardsOffsetY": 70,
+      "statsCards": [
+        {
+          "icon": "🛬",
+          "value": "New Jersey",
+          "label": "Điểm tập kết tại Mỹ"
+        },
+        {
+          "icon": "👥",
+          "value": "26",
+          "label": "Cầu thủ dự World Cup"
+        },
+        {
+          "icon": "🎩",
+          "value": "Ancelotti",
+          "label": "Thuyền trưởng mới"
+        },
+        {
+          "icon": "⭐",
+          "value": "Hexa",
+          "label": "Giấc mơ cúp thứ sáu"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Đội tuyển Brazil.mp4",
+          "trim": {
+            "start": 6,
+            "end": 14
+          },
+          "position": "background",
+          "videoVolume": 0.3
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Đoàn quân của Huấn luyện viên Carlo Ancelotti rời Rio de Janeiro tối 1/6 và có buổi tập đầu tiên tại New Jersey ngay hôm sau. Mục tiêu rất rõ: chấm dứt 24 năm chờ đợi chiếc cúp thứ sáu."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Lộ Trình Trước Giờ G",
+      "subtext": "Từ Rio đến trận ra quân ở New Jersey",
+      "voiceText": "Lộ trình của Brazil khá dày. Chia tay cổ động viên tại Maracana, bay sang Mỹ, đá giao hữu với Ai Cập tại Cleveland, rồi mở màn World Cup bằng trận gặp Morocco.",
+      "duration": 8,
+      "startTime": 15,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#ffffff",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "label": "31/05",
+          "title": "Giao hữu Panama",
+          "subtitle": "Lời chào tại Maracana"
+        },
+        {
+          "label": "01/06",
+          "title": "Rời Rio",
+          "subtitle": "Bay sang Mỹ"
+        },
+        {
+          "label": "02/06",
+          "title": "New Jersey",
+          "subtitle": "Tập luyện trên đất Mỹ"
+        },
+        {
+          "label": "07/06 VN",
+          "title": "Brazil vs Ai Cập",
+          "subtitle": "Tổng duyệt tại Cleveland"
+        },
+        {
+          "label": "14/06 VN",
+          "title": "Brazil vs Morocco",
+          "subtitle": "Trận ra quân World Cup"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Đội tuyển Brazil.mp4",
+          "trim": {
+            "start": 14,
+            "end": 22
+          },
+          "layout": "vertical",
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Lộ trình của Brazil khá dày: chia tay cổ động viên tại Maracanã, bay sang Mỹ, đá giao hữu với Ai Cập tại Cleveland, rồi mở màn World Cup bằng trận gặp Morocco."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Neymar Trở Lại",
+      "subtext": "Biểu tượng lớn nhất của Selecao",
+      "voiceText": "Tâm điểm vẫn là Neymar. Ở tuổi ba mươi bốn, số mười của Brazil bước vào kỳ World Cup thứ tư, mang theo kinh nghiệm, sự sáng tạo, và cả dấu hỏi lớn về thể trạng.",
+      "duration": 8,
+      "startTime": 23,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#ffffff",
+      "player": "Neymar",
+      "team": "Brazil",
+      "number": "10",
+      "playerImageUrl": "https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/704287625_1568466465289293_8141476570629247245_n.jpg?stp=cp6_dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=U8ru4diObz8Q7kNvwGj4Atm&_nc_oc=AdpQZFRod-S6jYL5fq6W9ktl-3oE5J9EQ3MjYmD7ZVMOgCwdg41sAGutkyBc5caLI5Q&_nc_zt=23&_nc_ht=scontent.fsgn5-3.fna&_nc_gid=affccdpANcMUN9SmfQxGRw&_nc_ss=7b2a8&oh=00_Af-GX2B6cBHUCQdv2n61P5aJ_M7r8Y9WuCb4f-H0k9MUfw&oe=6A28265A",
+      "stats": [
+        {
+          "label": "Tuổi",
+          "value": "34"
+        },
+        {
+          "label": "World Cup",
+          "value": "Kỳ thứ 4"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Nhạc trưởng tấn công"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Đội tuyển Brazil.mp4",
+          "trim": {
+            "start": 52,
+            "end": 60
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Tâm điểm vẫn là Neymar. Ở tuổi 34, số 10 của Brazil bước vào kỳ World Cup thứ tư, mang theo kinh nghiệm, sự sáng tạo và cả dấu hỏi lớn về thể trạng."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Hàng Công Rực Lửa",
+      "subtext": "Vini, Raphinha, Neymar và những quân bài tốc độ",
+      "voiceText": "Điểm nổi bật đầu tiên nằm ở hàng công. Vini Junior tạo đột biến bên trái, Raphinha có nhịp pressing và dứt điểm bên phải, còn Neymar nếu đạt trạng thái tốt, sẽ là bộ não ở trung lộ.",
+      "duration": 8,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "⚡",
+          "value": "Vini Jr.",
+          "label": "Tốc độ và một đối một"
+        },
+        {
+          "icon": "🎯",
+          "value": "Raphinha",
+          "label": "Pressing và dứt điểm"
+        },
+        {
+          "icon": "🧠",
+          "value": "Neymar",
+          "label": "Sáng tạo giữa sân"
+        },
+        {
+          "icon": "🚀",
+          "value": "Endrick",
+          "label": "Phương án tăng tốc"
+        }
+      ],
+      "chartTitle": "Tam giác tấn công Brazil",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Tốc độ",
+          "value": 92
+        },
+        {
+          "label": "Kỹ thuật",
+          "value": 95
+        },
+        {
+          "label": "Đột biến",
+          "value": 90
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Đội tuyển Brazil.mp4",
+          "trim": {
+            "start": 60,
+            "end": 68
+          },
+          "position": "background",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Điểm nổi bật đầu tiên nằm ở hàng công. Vini Junior tạo đột biến bên trái, Raphinha có nhịp pressing và dứt điểm bên phải, còn Neymar nếu đạt trạng thái tốt sẽ là bộ não ở trung lộ."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Xương Sống Kinh Nghiệm",
+      "subtext": "Từ Alisson đến Casemiro và Bruno Guimarães",
+      "voiceText": "Brazil không chỉ có vũ điệu tấn công. Alisson đem lại sự chắc chắn trong khung gỗ, Marquinhos và Gabriel Magalhaes là cặp trung vệ giàu va chạm, còn Casemiro cùng Bruno Guimaraes giữ nhịp ở giữa sân.",
+      "duration": 8,
+      "startTime": 39,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "Khung gỗ",
+          "value": "Alisson / Ederson",
+          "color": "#F7C948"
+        },
+        {
+          "label": "Trung vệ",
+          "value": "Marquinhos - Gabriel",
+          "color": "#1E9B4B"
+        },
+        {
+          "label": "Tuyến giữa",
+          "value": "Casemiro - Bruno Guimarães",
+          "color": "#2F80ED"
+        },
+        {
+          "label": "Điểm cần cân bằng",
+          "value": "Chuyển trạng thái phòng ngự",
+          "color": "#C8102E"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://i.ytimg.com/vi/9NINPDui_5g/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAM0q4JqQjeaurfoGgyLc-WIKmSBA",
+          "label": "XƯƠNG SỐNG SELECAO",
+          "title": "Kinh nghiệm + tốc độ",
+          "caption": "Brazil cần cân bằng giữa ngôi sao tấn công và lớp phòng ngự giàu trận mạc.",
+          "top": "880px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "560px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#1E9B4B",
+          "cardBg": "rgba(7,26,20,0.86)",
+          "objectFit": "cover",
+          "objectPosition": "center center"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Brazil không chỉ có vũ điệu tấn công. Alisson đem lại sự chắc chắn trong khung gỗ, Marquinhos và Gabriel Magalhães là cặp trung vệ giàu va chạm, còn Casemiro cùng Bruno Guimarães giữ nhịp ở giữa sân."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội Hình Dự Kiến",
+      "subtext": "Sơ đồ 4-3-3 giàu tốc độ và kinh nghiệm",
+      "voiceText": "Đội hình dự kiến có thể là bốn ba ba. Alisson trong khung thành, hàng thủ gồm Wesley, Marquinhos, Gabriel Magalhaes và Alex Sandro. Tuyến giữa là Casemiro, Bruno Guimaraes, Lucas Paqueta, phía trên là Raphinha, Neymar và Vini Junior.",
+      "duration": 9,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Alisson",
+            "Wesley",
+            "Marquinhos",
+            "Gabriel Magalhães",
+            "Alex Sandro",
+            "Casemiro",
+            "Bruno Guimarães",
+            "Lucas Paquetá",
+            "Raphinha",
+            "Neymar",
+            "Vini Jr."
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Đội hình dự kiến có thể là 4-3-3: Alisson; Wesley, Marquinhos, Gabriel Magalhães, Alex Sandro; Casemiro, Bruno Guimarães, Lucas Paquetá; Raphinha, Neymar và Vini Junior."
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Lịch Vòng Bảng",
+      "subtext": "Toàn bộ giờ đã quy đổi sang Việt Nam",
+      "voiceText": "Ở vòng bảng, Brazil gặp Morocco lúc sáu giờ sáng ngày mười bốn tháng sáu, gặp Haiti lúc tám giờ ba mươi sáng ngày hai mươi tháng sáu, và gặp Scotland lúc sáu giờ sáng ngày hai mươi lăm tháng sáu, theo giờ Việt Nam.",
+      "duration": 8,
+      "startTime": 56,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#ffffff",
+      "activeTab": "Group C",
+      "tabs": [
+        "Group C"
+      ],
+      "fixtures": [
+        {
+          "date": "14/06/2026",
+          "time": "06:00",
+          "venue": "MetLife Stadium, New Jersey",
+          "home": {
+            "name": "Brazil",
+            "code": "BRA",
+            "flagSrc": "assets/football/flags/brazil.svg"
+          },
+          "away": {
+            "name": "Morocco",
+            "code": "MAR",
+            "flagSrc": "assets/football/flags/morocco.svg"
+          }
+        },
+        {
+          "date": "20/06/2026",
+          "time": "08:30",
+          "venue": "Lincoln Financial Field, Philadelphia",
+          "home": {
+            "name": "Brazil",
+            "code": "BRA",
+            "flagSrc": "assets/football/flags/brazil.svg"
+          },
+          "away": {
+            "name": "Haiti",
+            "code": "HAI",
+            "flagSrc": "assets/football/flags/haiti.svg"
+          }
+        },
+        {
+          "date": "25/06/2026",
+          "time": "06:00",
+          "venue": "Hard Rock Stadium, Miami",
+          "home": {
+            "name": "Brazil",
+            "code": "BRA",
+            "flagSrc": "assets/football/flags/brazil.svg"
+          },
+          "away": {
+            "name": "Scotland",
+            "code": "SCO",
+            "flagSrc": "assets/football/flags/scotland.svg"
+          }
+        }
+      ],
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Ở vòng bảng, Brazil gặp Morocco lúc 06:00 ngày 14/06, gặp Haiti lúc 08:30 ngày 20/06, và gặp Scotland lúc 06:00 ngày 25/06 theo giờ Việt Nam."
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Brazil có đủ sức vô địch?",
+      "subtext": "Để lại dự đoán của bạn",
+      "voiceText": "Theo bạn, Brazil của Ancelotti có đủ sức mang chiếc cúp vàng thứ sáu về Nam Mỹ không? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 64,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "WORLD CUP 2026",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Brazil sẽ đi tới đâu ở World Cup 2026?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Brazil",
+          "World Cup",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 4.8
+        }
+      ],
+      "subtitle": "Theo bạn, Brazil của Ancelotti có đủ sức mang chiếc cúp vàng thứ sáu về Nam Mỹ không? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}

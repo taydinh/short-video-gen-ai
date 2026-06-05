@@ -1,0 +1,388 @@
+{
+  "title": "Sức Mạnh Tuyển Anh World Cup 2026",
+  "slug": "england-world-cup-2026-squad-2026-06-05",
+  "totalDuration": 71,
+  "sources": [],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "SỨC MẠNH TUYỂN ANH",
+      "subtext": "Ứng viên vô địch World Cup 2026",
+      "voiceText": "Sức mạnh tuyển Anh. Đội tuyển Anh đang sở hữu một thế hệ vàng mới, với những ngôi sao tấn công hàng đầu thế giới. Tam sư được đánh giá là ứng cử viên nặng ký nhất, cho chức vô địch World Cup hai không hai sáu.",
+      "duration": 10,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "label": "ĐỘI HÌNH TRONG MƠ",
+      "imageUrl": "https://sohanews.sohacdn.com/160588918557773824/2026/5/24/chatgpt-image-101550-24-thg-5-2026-1779592665977-1779592666256754090446.png",
+      "cardCaption": "Tuyển Anh sẵn sàng chinh phục World Cup 2026",
+      "chips": [
+        "Đội Tuyển Anh",
+        "World Cup 2026",
+        "Tam Sư"
+      ],
+      "emoji": "🦁",
+      "animation": "image-card-rise",
+      "visuals": [],
+      "subtitle": "Đội tuyển Anh đang sở hữu một thế hệ vàng mới, với những ngôi sao tấn công hàng đầu thế giới. Tam sư được đánh giá là ứng cử viên nặng ký nhất cho chức vô địch World Cup 2026."
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Hỏa Lực Tấn Công",
+      "subtext": "Dàn sao trị giá tỷ bảng",
+      "voiceText": "Dàn hỏa lực của họ là niềm mơ ước của mọi huấn luyện viên. Từ Jude Bellingham, Marcus Rashford cho đến Bukayo Saka, tất cả đều đang ở độ chín của sự nghiệp.",
+      "duration": 9,
+      "startTime": 10,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "label": "Sức mạnh",
+          "value": "Tấn công",
+          "icon": "🔥"
+        },
+        {
+          "label": "Độ tuổi",
+          "value": "Đỉnh cao",
+          "icon": "⭐"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/610782117_1252614860252138_5031998796894365872_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ETafX7rngn8Q7kNvwH389Sc&_nc_oc=AdoBxQcNixmy1euUOEDZMp4Z5ixUGTc62tf6sKN83DOCpszonZi5PB9b4kfVff9uZjw&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=gYREPCEDpY5t0s27DqAmjQ&_nc_ss=7b2a8&oh=00_Af_dvARI23FJATWeFFiqrt6WWx0FBJhf7SZKOywkxVfdew&oe=6A284935",
+          "label": "Hỏa Lực Tấn Công",
+          "title": "Hỏa Lực Tấn Công",
+          "caption": "",
+          "top": "730px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "840px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#1E9B4B",
+          "cardBg": "rgba(7,26,20,0.86)",
+          "objectFit": "cover",
+          "objectPosition": "center center"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Dàn hỏa lực của họ là niềm mơ ước của mọi huấn luyện viên. Từ Jude Bellingham, Marcus Rashford cho đến Bukayo Saka, tất cả đều đang ở độ chín của sự nghiệp."
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Nhạc Trưởng",
+      "subtext": "Jude Bellingham",
+      "voiceText": "Jude Bellingham chắc chắn là hạt nhân trong lối chơi. Ngôi sao của Rê an ma rít mang đến sự đột biến, khả năng dứt điểm hoàn hảo và tinh thần thủ lĩnh.",
+      "duration": 9,
+      "startTime": 19,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "player": "Jude Bellingham",
+      "team": "England",
+      "number": "10",
+      "playerImageUrl": "https://media.s-bol.com/KVG8XrVq5YYJ/5yl7rAK/550x824.jpg",
+      "stats": [
+        {
+          "label": "Vai trò",
+          "value": "Nhạc trưởng"
+        },
+        {
+          "label": "Đột biến",
+          "value": "Cao"
+        },
+        {
+          "label": "Thủ lĩnh",
+          "value": "Tuyệt vời"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:\\Users\\Taydinh\\Downloads\\YTDown_Shorts_JUDE-BELLINGHAM-REVERSE-EDIT-Smoothest-F_Media_K46mXifBEMA_001_1080p.mp4",
+          "trim": {
+            "start": 9,
+            "end": 17
+          },
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Jude Bellingham chắc chắn là hạt nhân trong lối chơi. Ngôi sao của Real Madrid mang đến sự đột biến, khả năng dứt điểm hoàn hảo và tinh thần thủ lĩnh."
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Sự Hồi Sinh Mạnh Mẽ",
+      "subtext": "Marcus Rashford",
+      "voiceText": "Bên cạnh đó, Marcus Rashford sẽ là mũi khoan cực kỳ nguy hiểm. Phong độ chói sáng trong màu áo Barcelona, giúp anh trở thành ngòi nổ đáng sợ bên hành lang cánh.",
+      "duration": 8,
+      "startTime": 28,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "player": "Marcus Rashford",
+      "team": "England",
+      "number": "11",
+      "playerImageUrl": "https://scontent.fsgn5-13.fna.fbcdn.net/v/t39.30808-6/713823884_880655028388463_8151852586705891186_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=aTgKvICBtAgQ7kNvwF7--Ee&_nc_oc=Adr2ybRstPH7Rwo54JqnM7p6q0dGBaMZNKhq2ygwoG8enFudMDqk32JFUSh8tvTj7Aw&_nc_zt=23&_nc_ht=scontent.fsgn5-13.fna&_nc_gid=0pMOSmwxw_Hq2ShKVHDDGw&_nc_ss=7b2a8&oh=00_Af_OPw9hDxuNgbxPSQaf2HbIgA7OBuHd9Kg_D6S20acyuQ&oe=6A285121",
+      "stats": [
+        {
+          "label": "Vai trò",
+          "value": "Tiền đạo cánh"
+        },
+        {
+          "label": "Tốc độ",
+          "value": "Chóng mặt"
+        },
+        {
+          "label": "Đột biến",
+          "value": "Cao"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:\\Users\\Taydinh\\Downloads\\YTDown_Shorts_RASHFORD_Media_jYw7h-sQlZo_001_480p.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Bên cạnh đó, Marcus Rashford sẽ là mũi khoan cực kỳ nguy hiểm. Phong độ chói sáng trong màu áo Barcelona giúp anh trở thành ngòi nổ đáng sợ bên hành lang cánh."
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội Hình Dự Kiến",
+      "subtext": "Sơ đồ 4-2-3-1 tối ưu",
+      "voiceText": "Đội hình tối ưu nhất của Tam sư tại World Cup hai không hai sáu, khả năng cao vẫn là sơ đồ bốn hai ba một, với đầy rẫy các hảo thủ.",
+      "duration": 9,
+      "startTime": 36,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "England",
+          "code": "ENG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/england.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Pickford",
+            "James",
+            "Stones",
+            "Guehi",
+            "Burn",
+            "Rice",
+            "Mainoo",
+            "Saka",
+            "Bellingham",
+            "Rashford",
+            "Kane"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Đội hình tối ưu nhất của Tam sư tại World Cup 2026 khả năng cao vẫn là sơ đồ 4-2-3-1 với đầy rẫy các hảo thủ."
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Dấu Hỏi Hàng Thủ",
+      "subtext": "Nỗi lo trước giải đấu",
+      "voiceText": "Tuy nhiên, hàng phòng ngự vẫn để lại những dấu hỏi. Việc tìm người đá cặp ăn ý với John Stones, sẽ là bài toán mà ban huấn luyện cần phải giải quyết triệt để.",
+      "duration": 9,
+      "startTime": 45,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "Hàng công",
+          "value": "Đẳng cấp TG",
+          "color": "#F7C948"
+        },
+        {
+          "label": "Hàng thủ",
+          "value": "Chưa ổn định",
+          "color": "#C8102E"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Tuy nhiên, hàng phòng ngự vẫn để lại những dấu hỏi. Việc tìm người đá cặp ăn ý với John Stones sẽ là bài toán mà ban huấn luyện cần phải giải quyết triệt để."
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn Méo Bình Luận",
+      "subtext": "Thời cơ chín muồi",
+      "voiceText": "Theo tôi, đây là thời cơ chín muồi nhất để bóng đá Anh mang cúp về nhà. Nếu không vô địch kỳ này, đó sẽ là một sự lãng phí lịch sử.",
+      "duration": 8,
+      "startTime": 54,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "quote": "Nếu không vô địch kỳ World Cup này, đó sẽ là một sự lãng phí lịch sử của thế hệ vàng.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Đội hình mạnh nhất của đội tuyển Anh.mp4",
+          "trim": {
+            "start": 32,
+            "end": 40
+          },
+          "layout": "horizontal",
+          "position": "bottom",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ],
+      "subtitle": "Theo tôi, đây là thời cơ chín muồi nhất để bóng đá Anh mang cúp về nhà. Nếu không vô địch kỳ này, đó sẽ là một sự lãng phí lịch sử."
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Anh có lên đỉnh thế giới?",
+      "subtext": "Hãy để lại dự đoán của bạn",
+      "voiceText": "Theo bạn, đội tuyển Anh liệu có thể làm nên chuyện tại World Cup tới? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 9,
+      "startTime": 62,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#EF0107",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "GÓC KHÁN ĐÀI",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Tuyển Anh có vô địch World Cup 2026?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        }
+      ],
+      "subtitle": "Theo bạn, đội tuyển Anh liệu có thể làm nên chuyện tại World Cup tới? Hãy để lại bình luận bên dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!"
+    }
+  ]
+}
