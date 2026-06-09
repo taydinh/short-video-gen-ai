@@ -19,6 +19,13 @@ Nguồn mẫu:
 
 - Khi dùng composition `football-standings-table`, bảng xếp hạng phải lấy ít nhất 7 đội xung quanh 2 đội bóng đang được nói tới. Nếu bối cảnh cần nhìn rộng hơn, có thể lấy từ vị trí số 1 đến vị trí thấp nhất của đội liên quan, hoặc lấy thêm các đội trong cùng cuộc đua.
 
+### Quan Hệ Giữa `voiceText` Và `subtitle`
+
+- `voiceText` và `subtitle` phải là cùng một nội dung/kịch bản của scene: cùng ý chính, cùng thứ tự thông tin, không thêm dữ kiện mới ở một field mà field còn lại không có.
+- `voiceText` là bản chỉnh riêng để tạo audio TTS: được Việt hóa, phiên âm tên riêng, viết số thành chữ, thêm dấu phẩy ngắt nhịp, hoặc dùng cách đọc tối ưu để giọng đọc ổn định.
+- `subtitle` là bản hiển thị ngoài video cho người xem đọc: giữ tên chính thức/bản gốc, dùng ký hiệu và số liệu gọn như `2026`, `3-1`, `32'`, `75%`, `World Cup`, `PSG`, `Real Madrid`; không đưa phiên âm TTS vào subtitle.
+- Hai field có thể nhìn không giống hệt từng chữ, nhưng phải kể cùng một kịch bản. Ví dụ `voiceText` đọc `World Cup hai không hai sáu` thì `subtitle` hiển thị `World Cup 2026`; `voiceText` đọc `Pi S Ji` thì `subtitle` hiển thị `PSG`.
+
 ### Cách Đọc Và Viết Tắt Tên Đội Bóng
 
 - Manchester United có thể ghi tắt và đọc tắt là `Man U` hoặc `MU` (đọc là `Mờ U`), nhưng không được ghi hoặc đọc chỉ là `United`.
@@ -36,6 +43,15 @@ Nguồn mẫu:
 
 - Khi hiển thị logo của đội bóng Tottenham Hotspur / Tottenham / Spurs, phải dùng `badgeBackgroundColor` màu trắng (`#ffffff`) trong object team để logo nổi rõ, bao gồm các scene dùng `football-match-card`, `football-scoreboard`, `football-lineup`, `football-odds-h2h`, `football-stat-bars` và `football-standings-table`.
 - Với scene `football-odds-h2h`, nếu Tottenham Hotspur / Tottenham / Spurs xuất hiện trong `h2hMatches`, phải truyền thêm metadata logo cho đúng bên của trận đấu, ví dụ `homeBadgeSrc` hoặc `awayBadgeSrc` trỏ tới logo Tottenham và `homeBadgeBackgroundColor` hoặc `awayBadgeBackgroundColor` là `#ffffff`. Nên thêm `homeBadgePadding` / `awayBadgePadding` khoảng `6` và `homeBadgeBorderRadius` / `awayBadgeBorderRadius` là `999` để logo nổi rõ trên nền tối.
+- **Tra Cứu Logo/Flag Có Sẵn Trước Khi Ghi Storyboard**:
+  - Trước khi tự tìm logo bên ngoài, luôn kiểm tra `assets/football/index.json` để lấy logo câu lạc bộ và flag đội tuyển quốc gia đã có sẵn trong repo.
+  - Tìm bản ghi theo `name`, `aliases`, `codes.short`, `competition` hoặc `id`. Với câu lạc bộ, ưu tiên bản ghi có `kind: "club"` và đúng giải đấu ở `competition` như `epl`, `bundesliga`, `ligue-1`, `v-league-1`, `saudi-pro-league`. Với đội tuyển quốc gia, ưu tiên `kind: "national"`; các đội tuyển World Cup thường có `competition: "wc2026"`.
+  - Đường dẫn cần dùng trong storyboard nằm tại `badge.path`. Nếu `badge.type` là `logo`, dùng giá trị này cho `logoSrc` và/hoặc `badgeSrc`. Nếu `badge.type` là `flag`, dùng giá trị này cho `flagSrc` và/hoặc `badgeSrc`.
+  - Không tự đoán sai thư mục hoặc phần mở rộng file. Luôn copy chính xác `badge.path` từ index, ví dụ `assets/football/clubs/ligue-1/paris-saint-germain.svg` hoặc `assets/football/flags/uzbekistan.svg`.
+  - Nếu nhiều bản ghi cùng tên, chọn bản ghi khớp bối cảnh trận đấu nhất theo `competition`, `kind`, `aliases` và `codes.short`; ví dụ `Paris Saint-Germain (PSG)` phải dùng bản ghi club của `ligue-1`, còn `France` phải dùng bản ghi national.
+  - Kiểm tra `badge.path` không được là `null` trước khi đưa vào JSON. Nếu bản ghi có `badge.path: null`, coi như chưa có asset render được; cần tìm/tải asset mới hoặc để trống và báo lại cho người dùng.
+  - Khi cần ghi nguồn hoặc kiểm tra license, đọc `assets/football/ATTRIBUTION.md` và/hoặc các field trong index: `badge.sourceUrl`, `badge.licenseName`, `badge.licenseUrl`, `badge.sourceSvgUrl`, `badge.sourcePngUrl`. Với logo có license editorial, chỉ dùng cho ngữ cảnh minh họa/editorial trong video bóng đá.
+  - Nếu thêm hoặc thay thế logo/flag thủ công, phải cập nhật cả `assets/football/index.json` và `assets/football/ATTRIBUTION.md` để lần sau có thể tra cứu lại đúng asset và attribution.
 - **Cơ Chế Tự Động Tìm Kiếm Và Đồng Bộ Logo/Flag (`src/steps/02-generate-storyboard.js`)**:
   - **Dựa vào Asset Index**: Hệ thống tự động tra cứu trong tệp `assets/football/index.json`. Thuật toán so khớp (`findFootballAssetForTeam`) sẽ chuẩn hóa tên đội bóng/mã đội (loại bỏ dấu tiếng Việt, ký tự đặc biệt, đưa về lowercase) và tính điểm để tìm bản ghi phù hợp nhất.
   - **Đội tuyển Quốc gia (National Teams)**: Bản ghi được lưu trữ tại `assets/football/flags/` (Ví dụ: `assets/football/flags/portugal.svg` cho Bồ Đào Nha). Thuộc tính tương ứng được tự động điền là `flagSrc` và `badgeSrc`.

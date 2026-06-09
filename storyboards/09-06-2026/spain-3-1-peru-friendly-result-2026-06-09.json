@@ -1,0 +1,642 @@
+{
+  "title": "Tây Ban Nha 3-1 Peru: La Roja chốt bài test cuối trước World Cup 2026",
+  "slug": "spain-3-1-peru-friendly-result-2026-06-09",
+  "totalDuration": 58,
+  "sources": [
+    {
+      "title": "Victoria en el último test previo al Mundial (1-3) - RFEF",
+      "url": "https://rfef.es/es/noticias/victoria-en-el-ultimo-test-previo-al-mundial-1-3"
+    },
+    {
+      "title": "Peru vs Spain teams - Sky Sports",
+      "url": "https://www.skysports.com/football/peru-vs-spain/teams/555761"
+    },
+    {
+      "title": "Spain beat Peru 3-1 in friendly as World Cup fever grips Puebla - Reuters reprint",
+      "url": "https://www.thestar.com.my/sport/football/2026/06/09/soccer-spain-beat-peru-3-1-in-friendly-as-world-cup-fever-grips-puebla"
+    },
+    {
+      "title": "Spain vs Peru live score, H2H and lineups - Sofascore",
+      "url": "https://www.sofascore.com/football/match/peru-spain/YTbsPVb"
+    },
+    {
+      "title": "Spain v Cabo Verde: Live stream, team news, tickets and more - FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-v-cabo-verde-live-stream-team-news-tickets-and-more?searchOverlay=1"
+    },
+    {
+      "title": "World Cup 2026: Group H in focus - FIFA",
+      "url": "https://www.fifa.com/en/articles/group-h-teams-fixtures-standings"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "LA ROJA CHỐT BÀI TEST!",
+      "subtext": "Tây Ban Nha 3-1 Peru",
+      "subtitle": "Tây Ban Nha thắng Peru 3-1 tại Estadio Cuauhtémoc, trong bài test cuối trước World Cup 2026. Oyarzabal mở tỷ số phút 2, Pedri nhân đôi cách biệt phút 32, rồi một bàn phản lưới giúp La Roja khép lại đêm diễn áp đảo.",
+      "voiceText": "Tây Ban Nha thắng Peru ba một tại sân Cuauhtemoc, trong bài test cuối trước World Cup hai không hai sáu. Oyarzabal mở tỷ số ngay phút hai, Pedri nhân đôi cách biệt ở phút ba mươi hai, rồi một bàn phản lưới giúp La Roja khép lại đêm diễn với nhịp áp đảo.",
+      "duration": 6,
+      "bgColor": "#0B1220",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "International Friendly",
+      "stage": "World Cup 2026 Warm-up",
+      "venue": "Estadio Cuauhtemoc",
+      "date": "09.06.2026",
+      "time": "09:00",
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+        },
+        {
+          "name": "Peru",
+          "code": "PER",
+          "teamType": "national",
+          "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/0609.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "International Friendly",
+      "tournamentName": "World Cup 2026 Warm-up",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Spain 3-1 Peru | 09.06.2026",
+      "ctaLabel": "Full-time",
+      "subtitle": "Tây Ban Nha khép lại đợt chạy đà bằng một chiến thắng gọn gàng, rồi giờ là lúc mọi ánh nhìn dồn về World Cup 2026.",
+      "voiceText": "Tây Ban Nha khép lại đợt chạy đà bằng một chiến thắng gọn gàng, rồi giờ là lúc mọi ánh nhìn dồn về World Cup hai không hai sáu.",
+      "duration": 3,
+      "bgColor": "#0B1220",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Tây Ban Nha 3-1 Peru",
+      "subtext": "Oyarzabal, Pedri và bàn phản lưới",
+      "subtitle": "Full-time: Tây Ban Nha 3-1 Peru. La Roja dẫn 2 bàn sau hiệp một, chốt thế trận ở đầu hiệp hai, rồi chỉ để Peru gỡ một bàn danh dự ở phút 66.",
+      "voiceText": "Full time, Tây Ban Nha ba, Peru một. La Roja dẫn hai bàn sau hiệp một, chốt luôn thế trận ở đầu hiệp hai, rồi chỉ để Peru gỡ lại một bàn danh dự ở phút sáu mươi sáu.",
+      "duration": 6,
+      "bgColor": "#0B1220",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "International Friendly",
+      "minute": "FT",
+      "score": [
+        3,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+        },
+        {
+          "name": "Peru",
+          "code": "PER",
+          "teamType": "national",
+          "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/0609.mp4",
+          "trim": {
+            "start": 18,
+            "end": 26
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "FT 3-1",
+          "videoDescription": "La Roja thắng gọn trước ngày vào World Cup",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "ESP",
+            "PER"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "minute": "FT",
+          "label": "Puebla"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "HLV Luis de la Fuente tung bộ khung rất sát đội hình chính, với Unai Simón, Cubarsí, Laporte, Cucurella, Rodri, Pedri và Oyarzabal đều xuất phát. Peru có Gallese, Yotún và Ugarriza, nhưng không giữ được nhịp trước cường độ luân chuyển bóng của Tây Ban Nha.",
+      "voiceText": "Huấn luyện viên Luis de la Fuente tung ra bộ khung rất sát với đội hình chính, khi Unai Simon, Cubarsi, Laporte, Cucurella, Rodri, Pedri và Oyarzabal đều xuất phát từ đầu. Peru cũng vào trận với bộ khung giàu kinh nghiệm quanh Gallese, Yotun và Ugarriza, nhưng không giữ được nhịp trước cường độ luân chuyển bóng của Tây Ban Nha.",
+      "duration": 8,
+      "bgColor": "#0B1220",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Estadio Cuauhtemoc",
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+        },
+        {
+          "name": "Peru",
+          "code": "PER",
+          "teamType": "national",
+          "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Unai Simon",
+            "Marcos Llorente",
+            "Pau Cubarsi",
+            "Aymeric Laporte",
+            "Marc Cucurella",
+            "Rodri",
+            "Pedri",
+            "Fabian Ruiz",
+            "Ferran Torres",
+            "Alex Baena",
+            "Mikel Oyarzabal"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Pedro Gallese",
+            "Oliver Sonne",
+            "Flavio Gruber",
+            "Renzo Garces",
+            "Marcos Lopez",
+            "Jesus Pretell",
+            "Erick Noriega",
+            "Yoshimar Yotun",
+            "Maxloren Nuno Lopes",
+            "Jairo Velez",
+            "Alex Ugarriza"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/0609.mp4",
+          "trim": {
+            "start": 4,
+            "end": 12
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Spain XI",
+          "videoDescription": "La Roja kiểm soát nhịp trận từ sớm",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Pedri giữ nhịp cực gọn",
+      "subtext": "Một bàn thắng, một trận diễn đúng chất nhạc trưởng",
+      "subtitle": "Pedri cho thấy vì sao anh là trục xoay rất quan trọng của La Roja. Bàn thắng phút 32 đến từ pha băng vào tuyến hai đúng nhịp, còn trong phần lớn hiệp một, anh liên tục kết nối Rodri với hai cánh để Tây Ban Nha bóp nghẹt Peru bằng những mảng miếng ngắn và nhanh.",
+      "voiceText": "Pedri lại cho thấy vì sao anh là trục xoay rất quan trọng của La Roja. Bàn thắng phút ba mươi hai đến từ pha băng vào tuyến hai đúng nhịp, còn trong phần lớn hiệp một, anh liên tục kết nối Rodri với hai cánh để Tây Ban Nha bóp nghẹt Peru bằng những mảng miếng ngắn và nhanh.",
+      "duration": 7,
+      "bgColor": "#0B1220",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Pedri",
+      "team": "Tây Ban Nha",
+      "number": "20",
+      "playerImageUrl": "https://sumstore.vn/wp-content/uploads/2024/09/Pedri-20-2.jpeg",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút lập công",
+          "value": "32'"
+        },
+        {
+          "label": "Đá chính",
+          "value": "Có"
+        },
+        {
+          "label": "Rời sân",
+          "value": "61'"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/0609.mp4",
+          "trim": {
+            "start": 48,
+            "end": 56
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Pedri 32'",
+          "videoDescription": "Pha băng vào tuyến hai đúng nhịp",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Spain giải quyết trận đấu từ rất sớm",
+      "subtitle": "Trận này được định đoạt rất sớm. Phút 2, Oyarzabal xoay người dứt điểm sau đường chọc khe của Cubarsí. Phút 32, Ferran Torres căng ngang để Pedri ghi bàn. Đầu hiệp hai, đường bóng khó chịu của Yeremy Pino khiến Gallese phản lưới, trước khi Jairo Vélez rút ngắn còn 1-3 ở phút 66.",
+      "voiceText": "Trận này được định đoạt rất sớm. Phút hai, Oyarzabal xoay người dứt điểm mở tỷ số sau đường chọc khe của Cubarsi. Phút ba mươi hai, Ferran Torres căng ngang để Pedri băng vào ghi bàn. Đầu hiệp hai, quả đưa bóng khó chịu của Yeremy Pino khiến Gallese phản lưới, trước khi Jairo Velez rút ngắn còn một ba ở phút sáu mươi sáu.",
+      "duration": 9,
+      "bgColor": "#0B1220",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "2'",
+          "title": "0-1: Oyarzabal",
+          "desc": "Pau Cubarsi chọc khe để Mikel Oyarzabal xoay người dứt điểm mở tỷ số."
+        },
+        {
+          "minute": "32'",
+          "title": "0-2: Pedri",
+          "desc": "Ferran Torres căng ngang để Pedri băng vào dứt điểm cận thành."
+        },
+        {
+          "minute": "53'",
+          "title": "0-3: Gallese phản lưới",
+          "desc": "Đường đưa bóng của Yeremy Pino khiến Pedro Gallese lúng túng phản lưới."
+        },
+        {
+          "minute": "66'",
+          "title": "1-3: Jairo Velez",
+          "desc": "Marcos Lopez kiến tạo để Jairo Velez ghi bàn danh dự cho Peru."
+        },
+        {
+          "minute": "86'",
+          "title": "Thẻ vàng Peru",
+          "desc": "Renzo Garces nhận thẻ vàng trong cuối trận."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/0609.mp4",
+          "trim": {
+            "start": 112,
+            "end": 126
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Timeline",
+          "videoDescription": "Từ 0-3 tới bàn danh dự của Peru",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Thông số từ biên bản trận",
+      "subtext": "Spain thắng gọn và xoay tua rất mạnh",
+      "subtitle": "Từ biên bản trận, Tây Ban Nha kiểm soát cuộc chơi theo đúng cách họ muốn: ghi 3 bàn, dẫn 2-0 ngay trong hiệp một, dùng 22 cầu thủ và thay 11 người mà thế trận vẫn mượt. Peru dùng 20 cầu thủ, có 1 bàn gỡ và 1 thẻ vàng, nhưng nhìn chung vẫn bị ép chạy theo nhịp trận.",
+      "voiceText": "Nếu nhìn vào biên bản trận, Tây Ban Nha kiểm soát cuộc chơi theo đúng cách họ muốn. Họ ghi ba bàn, dẫn hai không ngay trong hiệp một, dùng tới hai mươi hai cầu thủ và thay mười một người mà thế trận vẫn mượt. Peru dùng hai mươi cầu thủ, có một bàn gỡ và một thẻ vàng, nhưng nhìn chung vẫn bị ép chạy theo nhịp trận.",
+      "duration": 7,
+      "bgColor": "#0B1220",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [
+        3,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+        },
+        {
+          "name": "Peru",
+          "code": "PER",
+          "teamType": "national",
+          "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Bàn thắng",
+              "home": 3,
+              "away": 1
+            },
+            {
+              "label": "Bàn hiệp một",
+              "home": 2,
+              "away": 0
+            },
+            {
+              "label": "Thay người",
+              "home": 11,
+              "away": 9
+            },
+            {
+              "label": "Cầu thủ sử dụng",
+              "home": 22,
+              "away": 20
+            },
+            {
+              "label": "Thẻ vàng",
+              "home": 0,
+              "away": 1
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng H chờ La Roja",
+      "subtext": "Chiến thắng Peru không tính điểm, nhưng đà vào giải đã lên",
+      "subtitle": "Chiến thắng trước Peru không cộng điểm nào, nhưng giúp Tây Ban Nha bước vào bảng H với khí thế tốt hơn. Theo lịch FIFA, La Roja ra quân gặp Cabo Verde lúc 23:00 ngày 15/06 theo giờ Việt Nam, trước khi lần lượt chạm Saudi Arabia và Uruguay.",
+      "voiceText": "Chiến thắng trước Peru không cộng điểm nào, nhưng nó giúp Tây Ban Nha bước vào bảng H với khí thế tốt hơn. Theo lịch FIFA, La Roja sẽ ra quân gặp Cabo Verde lúc hai mươi ba giờ ngày mười lăm tháng sáu theo giờ Việt Nam, trước khi lần lượt chạm Saudi Arabia và Uruguay ở vòng bảng.",
+      "duration": 7,
+      "bgColor": "#0B1220",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG H",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "KẾT QUẢ",
+        "CẦU THỦ",
+        "BẢNG H"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "ESP"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Tây Ban Nha",
+            "code": "ESP",
+            "teamType": "national",
+            "flagSrc": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Cabo Verde",
+            "code": "CPV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cabo-verde.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Saudi Arabia",
+            "code": "KSA",
+            "teamType": "national",
+            "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Uruguay",
+            "code": "URU",
+            "teamType": "national",
+            "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/0609.mp4",
+          "trim": {
+            "start": 150,
+            "end": 160
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "World Cup mode",
+          "videoDescription": "Spain tăng tốc trước bảng H",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "La Roja đã đủ chín chưa?",
+      "subtext": "Bình luận ngay cảm nhận của bạn",
+      "subtitle": "Theo bạn, chiến thắng 3-1 trước Peru đã đủ để khẳng định Tây Ban Nha sẵn sàng bùng nổ ở World Cup 2026 chưa? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, chiến thắng ba một trước Peru đã đủ để khẳng định Tây Ban Nha sẵn sàng bùng nổ ở World Cup hai không hai sáu chưa? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#0B1220",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "GÓC KHÁN ĐÀI",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Spain có đủ bản lĩnh vào sâu ở World Cup 2026?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

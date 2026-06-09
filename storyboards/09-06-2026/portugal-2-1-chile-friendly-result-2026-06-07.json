@@ -1,0 +1,445 @@
+{
+  "title": "Bồ Đào Nha 2-1 Chile: Bruno lên tiếng khi Ronaldo kém duyên",
+  "slug": "portugal-2-1-chile-friendly-result-2026-06-07",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "BRUNO GIẢI CỨU BỒ ĐÀO NHA!",
+      "subtext": "Bồ Đào Nha 2-1 Chile",
+      "subtitle": "Bồ Đào Nha thắng Chile 2-1 tại Estádio Nacional do Jamor, trong trận giao hữu trước World Cup 2026.",
+      "voiceText": "Bồ Đào Nha thắng Chile hai một tại Estadio Nacional do Jamor. Guedes và Bruno Fernandes ghi bàn trong hiệp hai, còn Cepeda chỉ kịp rút ngắn ở phút bù giờ. Một trận chạy đà có chiến thắng, nhưng cũng đầy drama với hai thẻ đỏ cuối hiệp một.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#D7B56D",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "International Friendly",
+      "stage": "World Cup 2026 Warm-up",
+      "venue": "Estadio Nacional do Jamor",
+      "date": "07.06.2026",
+      "time": "00:45",
+      "teams": [
+        {
+          "name": "Bồ Đào Nha",
+          "code": "POR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "form": ["W", "W", "L", "W", "W", "W"]
+        },
+        {
+          "name": "Chile",
+          "code": "CHI",
+          "teamType": "national",
+          "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
+          "form": ["W", "D", "W", "L", "W", "L"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/BỒ ĐÀO NHA - CHILE.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "International Friendly",
+      "tournamentName": "World Cup 2026 Warm-up",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Portugal 2-1 Chile | 07.06.2026",
+      "ctaLabel": "Full-time",
+      "subtitle": "Một trận giao hữu biến thành bài test về bản lĩnh, nhịp tấn công và cả sự tỉnh táo của Bồ Đào Nha.",
+      "voiceText": "Một trận giao hữu tưởng nhẹ nhàng, lại biến thành bài test rất thật cho Bồ Đào Nha trước World Cup hai không hai sáu.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#D7B56D",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Bồ Đào Nha 2-1 Chile",
+      "subtext": "Guedes phá thế bế tắc, Bruno đóng dấu chiến thắng",
+      "subtitle": "Full-time: Bồ Đào Nha 2-1 Chile. Guedes ghi bàn ở phút 58, Bruno Fernandes ghi phút 75, Cepeda gỡ ở 90+2.",
+      "voiceText": "Full time, Bồ Đào Nha hai, Chile một. Ronaldo đá chính nhưng kém duyên, Leao và Roman cùng bị đuổi ở phút bốn mươi lăm cộng hai, rồi hiệp hai mới là lúc ghế dự bị của Bồ Đào Nha tạo khác biệt.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#D7B56D",
+      "textColor": "#ffffff",
+      "competitionLabel": "International Friendly",
+      "minute": "FT",
+      "score": [2, 1],
+      "teams": [
+        { "name": "Bồ Đào Nha", "code": "POR", "teamType": "national", "flagSrc": "assets/football/flags/portugal.svg" },
+        { "name": "Chile", "code": "CHI", "teamType": "national", "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/BỒ ĐÀO NHA - CHILE.mp4",
+          "trim": {
+            "start": 248,
+            "end": 255
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "FT 2-1",
+          "videoDescription": "Bồ Đào Nha giữ nhịp thắng trước World Cup",
+          "videoVolume": 0
+        },
+        { "type": "football-scorebug", "teams": ["POR", "CHI"], "score": [2, 1], "minute": "FT", "label": "Jamor" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "Portugal dùng Ronaldo, Bruno, Bernardo và Rafael Leão từ đầu; Chile xuất phát với Vigouroux, Maripán, Román, Suazo và Osorio.",
+      "voiceText": "Bồ Đào Nha ra sân với đội hình mạnh, Ronaldo đá cao nhất, còn Bruno Fernandes và Bernardo Silva giữ nhịp phía sau. Chile chọn khối đội hình khá chặt, ưu tiên tranh chấp và phản công nhanh, nhưng không thể đứng vững sau giờ nghỉ.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#D7B56D",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Estadio Nacional do Jamor",
+      "teams": [
+        { "name": "Bồ Đào Nha", "code": "POR", "teamType": "national", "flagSrc": "assets/football/flags/portugal.svg" },
+        { "name": "Chile", "code": "CHI", "teamType": "national", "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Jose Sa",
+            "Nelson Semedo",
+            "Ruben Dias",
+            "Renato Veiga",
+            "Joao Cancelo",
+            "Samu Costa",
+            "Bernardo Silva",
+            "Francisco Conceicao",
+            "Bruno Fernandes",
+            "Rafael Leao",
+            "Cristiano Ronaldo"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Lawrence Vigouroux",
+            "Guillermo Maripan",
+            "Ivan Roman",
+            "Felipe Faundez",
+            "Gabriel Suazo",
+            "Felipe Loyola",
+            "Vicente Pizarro",
+            "Agustin Arce",
+            "Maximiliano Gutierrez",
+            "Dario Osorio",
+            "Gonzalo Tapia"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/BỒ ĐÀO NHA - CHILE.mp4",
+          "trim": {
+            "start": 32,
+            "end": 40
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Ronaldo, Bruno và Bernardo cùng đá chính",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D7B56D"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Bruno Fernandes lên tiếng",
+      "subtext": "Bàn thắng phút 75, cú sút xa chốt trận",
+      "subtitle": "Bruno Fernandes ghi bàn phút 75 sau pha phối hợp với Guedes và Francisco Conceição.",
+      "voiceText": "Bruno Fernandes là điểm sáng lớn nhất. Anh điều tiết tuyến giữa, chuyền mở biên nhiều lần, rồi ở phút bảy mươi lăm tự mình kết thúc pha phối hợp với Guedes và Francisco Conceicao bằng cú sút chìm ngoài vòng cấm.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#D7B56D",
+      "textColor": "#ffffff",
+      "player": "Bruno Fernandes",
+      "team": "Bồ Đào Nha",
+      "number": "8",
+      "playerImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Portugal_national_football_team_0866_%28Bruno_Fernandes%29.jpg",
+      "stats": [
+        { "label": "Bàn thắng", "value": "1" },
+        { "label": "Phút ghi bàn", "value": "75'" },
+        { "label": "Số áo", "value": "8" },
+        { "label": "Vai trò", "value": "Nhạc trưởng" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/BỒ ĐÀO NHA - CHILE.mp4",
+          "trim": {
+            "start": 272,
+            "end": 280
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Bruno 75'",
+          "videoDescription": "Cú sút xa nhân đôi cách biệt",
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D7B56D"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Từ Ronaldo việt vị tới Bruno kết liễu",
+      "subtitle": "Ronaldo bị từ chối bàn ở phút 36, Leão và Román nhận thẻ đỏ 45+2, Guedes và Bruno ghi bàn trong hiệp hai.",
+      "voiceText": "Ronaldo từng đưa bóng vào lưới phút ba mươi sáu, nhưng bị bắt việt vị. Cuối hiệp một, Leao và Roman cùng nhận thẻ đỏ sau pha nóng nảy. Sau giờ nghỉ, Guedes vào sân thay Ronaldo và ghi bàn phút năm mươi tám, trước khi Bruno nâng tỉ số lên hai không. Cepeda gỡ một bàn ở phút chín mươi cộng hai, nhưng Chile không còn đủ thời gian.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#D7B56D",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "36'", "title": "Ronaldo việt vị", "desc": "CR7 đưa bóng vào lưới Chile nhưng bàn thắng không được công nhận." },
+        { "minute": "45+2'", "title": "Hai thẻ đỏ", "desc": "Rafael Leao và Ivan Roman cùng bị truất quyền thi đấu." },
+        { "minute": "46'", "title": "Portugal thay 6 người", "desc": "Guedes, Ruben Neves, Pedro Neto, Diogo Dalot, Goncalo Inacio và Rui Silva vào sân." },
+        { "minute": "58'", "title": "1-0: Goncalo Guedes", "desc": "Ruben Neves chọc khe, Guedes dứt điểm mở tỉ số." },
+        { "minute": "75'", "title": "2-0: Bruno Fernandes", "desc": "Bruno sút xa hiểm hóc sau pha phối hợp với Guedes và Conceicao." },
+        { "minute": "90+2'", "title": "2-1: Lucas Cepeda", "desc": "Cepeda ghi bàn danh dự cho Chile trong thời gian bù giờ." }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/BỒ ĐÀO NHA - CHILE.mp4",
+          "trim": {
+            "start": 320,
+            "end": 333
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "45+2'",
+          "videoDescription": "Leao và Roman cùng rời sân",
+          "videoVolume": 0
+        },
+        { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Portugal áp đảo thế trận",
+      "subtext": "18 cú sút, 8 lần trúng đích, 9 quả phạt góc",
+      "subtitle": "Portugal cầm bóng 61.8%, sút 18 lần, trúng đích 8 lần và hưởng 9 quả phạt góc.",
+      "voiceText": "Các con số nghiêng rõ về Bồ Đào Nha. Họ cầm bóng sáu mốt phẩy, tám phần trăm, tung mười tám cú sút, tám lần trúng đích, và tạo mười lăm cơ hội. Chile vẫn có bốn cú sút trúng đích, nhưng chỉ tìm được bàn gỡ khi trận đấu gần khép lại.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#D7B56D",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [2, 1],
+      "teams": [
+        { "name": "Bồ Đào Nha", "code": "POR", "teamType": "national", "flagSrc": "assets/football/flags/portugal.svg" },
+        { "name": "Chile", "code": "CHI", "teamType": "national", "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 61.8, "away": 38.2, "unit": "%" },
+            { "label": "Cú sút", "home": 18, "away": 11 },
+            { "label": "Sút trúng đích", "home": 8, "away": 4 },
+            { "label": "Cơ hội tạo ra", "home": 15, "away": 8 },
+            { "label": "Phạt góc", "home": 9, "away": 3 },
+            { "label": "Thẻ đỏ", "home": 1, "away": 1 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D7B56D"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng K chờ Ronaldo",
+      "subtext": "Portugal chạy đà trước World Cup 2026",
+      "subtitle": "Portugal nằm ở bảng K World Cup 2026 cùng DR Congo, Colombia và Uzbekistan; Chile không vượt qua vòng loại.",
+      "voiceText": "Chiến thắng này không tạo điểm số trên bảng xếp hạng, nhưng nó đặt Bồ Đào Nha vào trạng thái tốt hơn trước World Cup. Ở bảng Ka, họ sẽ gặp Đờ Rờ Congo, Colombia, và U bê kits tan. Còn Chile tiếp tục đứng ngoài ngày hội lớn, sau khi không vượt qua vòng loại Nam Mỹ.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#D7B56D",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG K",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG K"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["POR"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Bồ Đào Nha", "code": "POR", "teamType": "national", "flagSrc": "assets/football/flags/portugal.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 2, "team": { "name": "DR Congo", "code": "COD", "teamType": "national", "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 3, "team": { "name": "Colombia", "code": "COL", "teamType": "national", "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 4, "team": { "name": "Uzbekistan", "code": "UZB", "teamType": "national", "flagSrc": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/BỒ ĐÀO NHA - CHILE.mp4",
+          "trim": {
+            "start": 265,
+            "end": 275
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "World Cup mode",
+          "videoDescription": "Bồ Đào Nha tăng tốc trước bảng K",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#D7B56D"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bruno nên là trung tâm?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Theo bạn, Portugal nên xây lối chơi quanh Bruno Fernandes hay vẫn đặt Ronaldo ở trung tâm?",
+      "voiceText": "Bồ Đào Nha thắng, nhưng câu hỏi vẫn rất rõ: ở World Cup hai không hai sáu, đội bóng này nên xoay quanh Bruno Fernandes nhiều hơn, hay tiếp tục đặt Ronaldo làm tâm điểm? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#D7B56D",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Portugal nên xoay quanh Bruno hay Ronaldo?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+              "Bồ Đào Nha",
+          "World Cup 2026",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 4.8 }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "VietNamNet: Bruno Fernandes tỏa sáng thay Ronaldo",
+      "url": "https://vietnamnet.vn/ket-qua-bong-da-bo-dao-nha-vs-chile-bruno-fernandes-toa-sang-thay-ronaldo-2523053.html"
+    },
+    {
+      "name": "PortuGOAL match report and lineups",
+      "url": "https://www.portugoal.net/selecao/5813-portugal-2-1-chile-match-report"
+    },
+    {
+      "name": "Sofascore timeline and match details",
+      "url": "https://www.sofascore.com/football/match/chile-portugal/eUbseVb"
+    },
+    {
+      "name": "Sky Sports teams and match stats",
+      "url": "https://www.skysports.com/football/portugal-vs-chile/teams/554937"
+    },
+    {
+      "name": "Sky Sports match stats",
+      "url": "https://www.skysports.com/football/portugal-vs-chile/stats/554937"
+    },
+    {
+      "name": "Wikimedia Commons Bruno Fernandes portrait",
+      "url": "https://commons.wikimedia.org/wiki/File:Portugal_national_football_team_0866_(Bruno_Fernandes).jpg"
+    }
+  ]
+}

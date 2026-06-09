@@ -1,0 +1,512 @@
+{
+  "title": "Jurriën Timber lỡ World Cup 2026: Hà Lan mất mắt xích quan trọng trước giờ G",
+  "slug": "jurrien-timber-lo-world-cup-netherlands-2026-06-09",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "title": "Netherlands rules out Jurrien Timber for the World Cup; Lutsharel Geertruida called up",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/08/netherlands-world-cup-jurrien-timber-injury/e496beaa-6365-11f1-bdd4-805ebb99a693_story.html"
+    },
+    {
+      "title": "Reuters reprint: Defender cut from Netherlands World Cup squad",
+      "url": "https://br.investing.com/news/world-news/com-lesao-na-virilha-defensor-da-holanda-e-cortado-da-copa-do-mundo-1966204"
+    },
+    {
+      "title": "Netherlands name FIFA World Cup 2026 squad - FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-ronald-koeman-squad-announced"
+    },
+    {
+      "title": "World Cup 2026: Group F in focus - FIFA",
+      "url": "https://www.fifa.com/en/articles/group-f-focus-teams-fixtures-standings"
+    },
+    {
+      "title": "Netherlands v Japan | World Cup | Match preview - FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-japan-preview-live-stream-team-news-tickets?searchOverlay=1"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "TIMBER LỠ HẸN WORLD CUP!",
+      "subtext": "Hà Lan phải vá hàng thủ ngay trước giờ ra quân",
+      "voiceText": "Timber lỡ hẹn World Cup! Jurriën Timber chính thức rời danh sách Hà Lan vì chấn thương háng, khiến Huấn luyện viên Ronald Koeman mất đi một mắt xích rất quan trọng ngay sát ngày ra quân.",
+      "subtitle": "Jurriën Timber chính thức rời danh sách Hà Lan vì chấn thương háng, khiến Ronald Koeman mất đi một mắt xích rất quan trọng ngay sát ngày ra quân.",
+      "duration": 6,
+      "bgColor": "#0B1324",
+      "accentColor": "#F97316",
+      "secondaryAccentColor": "#2563EB",
+      "textColor": "#ffffff",
+      "label": "TIN NÓNG HÀ LAN",
+      "imageUrl": "",
+      "cardCaption": "Jurriën Timber lỡ World Cup 2026, Lutsharel Geertruida được gọi thay.",
+      "chips": [
+        "Netherlands",
+        "World Cup 2026",
+        "Jurriën Timber"
+      ],
+      "emoji": "🇳🇱",
+      "animation": "image-card-rise",
+      "visuals": []
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Cú sốc sát giờ G",
+      "subtext": "Hà Lan đổi người ngay trước trận mở màn",
+      "voiceText": "Đây là một thay đổi cực muộn. Timber mới hai mươi bốn tuổi, nhưng đã phải rời giải vì chấn thương háng. Hà Lan giờ chỉ còn ít ngày để chỉnh lại bộ khung, trước trận ra quân gặp Nhật Bản lúc không giờ ngày mười lăm tháng sáu theo giờ Việt Nam.",
+      "subtitle": "Timber mới 24 tuổi nhưng đã phải rời giải vì chấn thương háng. Hà Lan chỉ còn ít ngày để chỉnh lại bộ khung trước trận ra quân gặp Nhật Bản lúc 00:00 ngày 15/06 theo giờ Việt Nam.",
+      "duration": 7,
+      "bgColor": "#0B1324",
+      "accentColor": "#F97316",
+      "secondaryAccentColor": "#2563EB",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "🩺",
+          "value": "Háng",
+          "label": "vị trí chấn thương"
+        },
+        {
+          "icon": "🎂",
+          "value": "24",
+          "label": "tuổi của Timber"
+        },
+        {
+          "icon": "🔁",
+          "value": "1",
+          "label": "ca thay người muộn"
+        },
+        {
+          "icon": "⏰",
+          "value": "15/06 00:00",
+          "label": "ra quân giờ Việt Nam"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F97316"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Chuỗi sự kiện rất nhanh",
+      "subtext": "Từ danh sách chính thức tới ca rút lui bất đắc dĩ",
+      "voiceText": "Hà Lan công bố đội hình World Cup vào cuối tháng năm, nhưng bước ngoặt xấu đến trong giai đoạn chuẩn bị cuối. Ngày mùng tám tháng sáu, liên đoàn xác nhận Timber không đủ thể trạng để dự giải. Geertruida được gọi thay, và toàn bộ sự chú ý giờ dồn vào trận gặp Nhật Bản ở Dallas.",
+      "subtitle": "Hà Lan công bố đội hình World Cup vào cuối tháng 5. Ngày 08/06, liên đoàn xác nhận Timber không đủ thể trạng để dự giải. Geertruida được gọi thay, và toàn bộ sự chú ý giờ dồn vào trận gặp Nhật Bản ở Dallas.",
+      "duration": 7,
+      "bgColor": "#0B1324",
+      "accentColor": "#F97316",
+      "secondaryAccentColor": "#2563EB",
+      "textColor": "#ffffff",
+      "competitionLabel": "Netherlands World Cup Timeline",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "Cuối 05",
+          "title": "Koeman chốt 26 cầu thủ"
+        },
+        {
+          "stage": "08/06",
+          "title": "Timber bị loại"
+        },
+        {
+          "stage": "09/06",
+          "title": "Geertruida hội quân"
+        },
+        {
+          "stage": "15/06",
+          "title": "Ra quân gặp Nhật Bản"
+        }
+      ],
+      "secondaryComposition": "flashcard-gallery",
+      "layout": "horizontal",
+      "cards": [
+        {
+          "imageUrl": "",
+          "text": "Danh sách chốt xong",
+          "caption": "Koeman"
+        },
+        {
+          "imageUrl": "",
+          "text": "Timber rời World Cup",
+          "caption": "08/06"
+        },
+        {
+          "imageUrl": "",
+          "text": "Geertruida thay thế",
+          "caption": "09/06"
+        },
+        {
+          "imageUrl": "",
+          "text": "Nhật Bản chờ sẵn",
+          "caption": "15/06"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 82
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Mất mắt xích đa năng",
+      "subtext": "Jurriën Timber rời giải ở tuổi 24",
+      "voiceText": "Thiệt hại ở đây không chỉ nằm ở một cái tên bị gạch khỏi danh sách. Timber là mẫu hậu vệ có thể lấp nhiều vai trò trong khối phòng ngự, nên việc anh vắng mặt khiến Hà Lan mất đi một phương án xoay chuyển rất đáng giá ngay từ vòng bảng.",
+      "subtitle": "Timber là mẫu hậu vệ có thể lấp nhiều vai trò trong khối phòng ngự, nên việc anh vắng mặt khiến Hà Lan mất đi một phương án xoay chuyển rất đáng giá ngay từ vòng bảng.",
+      "duration": 7,
+      "bgColor": "#0B1324",
+      "accentColor": "#F97316",
+      "secondaryAccentColor": "#2563EB",
+      "textColor": "#ffffff",
+      "player": "Jurriën Timber",
+      "team": "Netherlands",
+      "number": "24",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Tuổi",
+          "value": "24"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Chấn thương háng"
+        },
+        {
+          "label": "Kết luận",
+          "value": "Rút khỏi World Cup"
+        },
+        {
+          "label": "Ảnh hưởng",
+          "value": "Mất hậu vệ đa năng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F97316"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Tác động được đo bằng thời gian",
+      "subtext": "Hà Lan phải sửa hàng thủ rất gấp",
+      "voiceText": "Cái khó nhất của Ronald Koeman là thời gian. Từ lúc xác nhận Timber vắng mặt tới khi Hà Lan đá trận đầu, khoảng trống để thử nghiệm gần như không còn. Khi nằm ở bảng F với Nhật Bản, Thụy Điển và Tunisia, mọi cú chệch nhịp ở hàng thủ đều có thể phải trả giá ngay.",
+      "subtitle": "Cái khó nhất của Ronald Koeman là thời gian. Từ lúc xác nhận Timber vắng mặt tới khi Hà Lan đá trận đầu, khoảng trống để thử nghiệm gần như không còn. Bảng F của Hà Lan có Nhật Bản, Thụy Điển và Tunisia.",
+      "duration": 7,
+      "bgColor": "#0B1324",
+      "accentColor": "#F97316",
+      "secondaryAccentColor": "#2563EB",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "icon": "📆",
+          "value": "6",
+          "label": "ngày tới trận đầu"
+        },
+        {
+          "icon": "🌍",
+          "value": "3",
+          "label": "đối thủ vòng bảng"
+        },
+        {
+          "icon": "🧩",
+          "value": "1",
+          "label": "mắt xích bị mất"
+        },
+        {
+          "icon": "🟠",
+          "value": "F",
+          "label": "bảng đấu của Hà Lan"
+        }
+      ],
+      "chartTitle": "Áp lực trước giờ ra quân",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Ngày tới trận đầu",
+          "value": 6,
+          "percent": 100
+        },
+        {
+          "label": "Đối thủ bảng F",
+          "value": 3,
+          "percent": 50
+        },
+        {
+          "label": "Ca thay muộn",
+          "value": 1,
+          "percent": 17
+        },
+        {
+          "label": "Tuổi của Timber",
+          "value": 24,
+          "percent": 80
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Koeman vá hàng thủ thế nào?",
+      "subtext": "Geertruida vào thay, nhưng bài toán vẫn còn",
+      "voiceText": "Geertruida là phương án thay thế trực tiếp trên danh sách, nhưng câu chuyện không dừng ở đó. Hà Lan vẫn cần Van Dijk giữ trục chỉ huy, các biên phải vận hành ổn, và quan trọng nhất là cả hàng thủ phải tìm lại cảm giác phối hợp thật nhanh trước khi gặp Nhật Bản.",
+      "subtitle": "Geertruida là phương án thay thế trực tiếp trên danh sách. Hà Lan vẫn cần Van Dijk giữ trục chỉ huy, các biên phải vận hành ổn, và cả hàng thủ phải tìm lại cảm giác phối hợp thật nhanh trước khi gặp Nhật Bản.",
+      "duration": 7,
+      "bgColor": "#0B1324",
+      "accentColor": "#F97316",
+      "secondaryAccentColor": "#2563EB",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "icon": "🛡️",
+          "label": "Van Dijk",
+          "value": "Phải ôm vai trò chỉ huy lớn hơn"
+        },
+        {
+          "icon": "🔁",
+          "label": "Geertruida",
+          "value": "Được gọi vào để vá ngay khoảng trống"
+        },
+        {
+          "icon": "⚙️",
+          "label": "Khối phòng ngự",
+          "value": "Cần đồng bộ lại thật nhanh"
+        },
+        {
+          "icon": "🇯🇵",
+          "label": "Trận gặp Nhật Bản",
+          "value": "Bài test tức thì cho phương án mới"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "",
+          "label": "HÀNG THỦ HÀ LAN",
+          "title": "Bài toán sau Timber",
+          "caption": "Chưa có ảnh phù hợp từ nguồn sạch, đang để trống để bổ sung sau.",
+          "top": "800px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#F97316",
+          "secondaryAccentColor": "#2563EB",
+          "cardBg": "rgba(11,19,36,0.82)",
+          "objectFit": "cover",
+          "objectPosition": "center center",
+          "overlayColor": "linear-gradient(180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.18) 62%, rgba(0,0,0,0.52) 100%)"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Lịch trước mắt của Oranje",
+      "subtext": "Nhật Bản đến ngay, rồi là Thụy Điển",
+      "voiceText": "Lịch của Hà Lan không cho phép họ chậm nhịp. Trận mở màn gặp Nhật Bản diễn ra lúc không giờ ngày mười lăm tháng sáu theo giờ Việt Nam. Sau đó là cuộc đọ sức với Thụy Điển lúc sáu giờ sáng ngày hai mươi mốt tháng sáu, trước khi cục diện bảng F bắt đầu nóng thật sự.",
+      "subtitle": "Trận mở màn gặp Nhật Bản diễn ra lúc 00:00 ngày 15/06 theo giờ Việt Nam. Sau đó Hà Lan gặp Thụy Điển lúc 06:00 ngày 21/06, trước khi cục diện bảng F bắt đầu nóng thật sự.",
+      "duration": 6,
+      "bgColor": "#0B1324",
+      "accentColor": "#F97316",
+      "secondaryAccentColor": "#2563EB",
+      "textColor": "#ffffff",
+      "activeTab": "LỊCH THI ĐẤU",
+      "tabs": [
+        "LỊCH THI ĐẤU",
+        "BẢNG F",
+        "HÀNG THỦ",
+        "NHẬN ĐỊNH"
+      ],
+      "ctaLabel": "GROUP F",
+      "fixtures": [
+        {
+          "group": "World Cup 2026",
+          "date": "15/06",
+          "time": "00:00",
+          "home": {
+            "name": "Netherlands",
+            "code": "NED",
+            "teamType": "national",
+            "flag": "assets/football/flags/netherlands.svg"
+          },
+          "away": {
+            "name": "Japan",
+            "code": "JPN",
+            "teamType": "national",
+            "flag": "assets/football/flags/japan.svg"
+          }
+        },
+        {
+          "group": "World Cup 2026",
+          "date": "21/06",
+          "time": "06:00",
+          "home": {
+            "name": "Netherlands",
+            "code": "NED",
+            "teamType": "national",
+            "flag": "assets/football/flags/netherlands.svg"
+          },
+          "away": {
+            "name": "Sweden",
+            "code": "SWE",
+            "teamType": "national",
+            "flag": "assets/football/flags/sweden.svg"
+          }
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4,
+          "top": "76%",
+          "size": 82
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Méo",
+      "subtext": "Hà Lan chưa sụp đổ, nhưng mất độ linh hoạt",
+      "voiceText": "Theo Méo, việc Timber rút lui chưa đủ để khiến Hà Lan gãy hẳn tham vọng, nhưng nó cắt đi một mắt xích giúp Ronald Koeman chuyển trạng thái phòng ngự mượt hơn. Nếu Oranje vào giải chậm nhịp ở hai trận đầu, ai cũng sẽ nhìn lại cú mất người này như một bước ngoặt sớm.",
+      "subtitle": "Theo Méo, việc Timber rút lui chưa đủ để khiến Hà Lan gãy hẳn tham vọng, nhưng nó cắt đi một mắt xích giúp Ronald Koeman chuyển trạng thái phòng ngự mượt hơn. Nếu Oranje vào giải chậm nhịp ở hai trận đầu, ai cũng sẽ nhìn lại cú mất người này như một bước ngoặt sớm.",
+      "duration": 7,
+      "bgColor": "#0B1324",
+      "accentColor": "#F97316",
+      "secondaryAccentColor": "#2563EB",
+      "textColor": "#ffffff",
+      "quote": "Timber vắng mặt không làm Hà Lan hết cửa, nhưng nó lấy đi một quân cờ giúp họ linh hoạt hơn rất nhiều trong các trận đấu lớn.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(11,19,36,0.92), rgba(11,19,36,0.5))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F97316"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Hà Lan có vượt qua cú sốc này?",
+      "subtext": "Comment ngay góc nhìn của bạn",
+      "voiceText": "Theo bạn, Hà Lan có đủ chiều sâu để vượt qua cú sốc Timber và vẫn vào World Cup với hình ảnh chắc chắn không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Hà Lan có đủ chiều sâu để vượt qua cú sốc Timber và vẫn vào World Cup với hình ảnh chắc chắn không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#0B1324",
+      "accentColor": "#F97316",
+      "secondaryAccentColor": "#2563EB",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "GÓC KHÁN ĐÀI",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Hà Lan có thiếu Timber quá nhiều không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": []
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.9
+        }
+      ]
+    }
+  ]
+}
