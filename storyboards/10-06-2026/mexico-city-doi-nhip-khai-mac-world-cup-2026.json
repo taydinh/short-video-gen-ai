@@ -1,0 +1,503 @@
+{
+  "title": "Mexico City đổi nhịp vì trận khai mạc World Cup 2026",
+  "slug": "mexico-city-doi-nhip-khai-mac-world-cup-2026",
+  "preset": "football-news-roundup",
+  "totalDuration": 60,
+  "summary": "Tin nóng về lệnh nghỉ học, làm từ xa và lịch khai mạc World Cup 2026 tại Mexico City. Không lấy được URL ảnh bài viết trực tiếp phù hợp nên các field ảnh bài viết/cầu thủ để trống.",
+  "sources": [
+    {
+      "title": "EL PAIS - Suspension de clases y trabajo a distancia por la inauguracion del Mundial",
+      "url": "https://elpais.com/mexico/2026-06-09/suspension-de-clases-y-trabajo-a-distancia-por-la-inauguracion-del-mundial-para-quien-aplica.html"
+    },
+    {
+      "title": "FourFourTwo - World Cup 2026 fixtures in full",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-fixtures-and-results"
+    },
+    {
+      "title": "AP - Teachers and families of disappeared protest in Mexico City before World Cup",
+      "url": "https://apnews.com/article/world-cup-mexico-city-protests-teachers-disappeared-sheinbaum-7aae14e134143f97093f146c36b9443c"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "MEXICO CITY ĐỔI NHỊP!",
+      "subtext": "Nghỉ học, làm từ xa trước ngày khai mạc World Cup",
+      "voiceText": "Còn hai ngày nữa, là World Cup hai không hai sáu khai mạc! Mexico City đổi nhịp, chính quyền cho nghỉ học và khuyến khích làm từ xa để giảm áp lực giao thông quanh ngày hội bóng đá.",
+      "subtitle": "Còn 2 ngày nữa, là World Cup 2026 khai mạc! Mexico City đổi nhịp, chính quyền cho nghỉ học và khuyến khích làm từ xa để giảm áp lực giao thông quanh ngày hội bóng đá.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "label": "WORLD CUP 2026",
+      "imageSrc": "https://imagenes.elpais.com/resizer/v2/CZGS3TUTNBCKNHGUN76LNMA2IE.jpg?auth=67e52b0ccd8b1ca8f36e22a402aebcfa04759de28706c06fa0be12690e0f34c4&width=1200",
+      "cardCaption": "Mexico City chuẩn bị cho lễ khai mạc và trận Mexico - Nam Phi.",
+      "chips": [
+        "Mexico City",
+        "Khai mạc",
+        "11/06"
+      ],
+      "emoji": "🏟️",
+      "animation": "image-card-rise",
+      "visuals": []
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Ba điểm nóng trong một ngày",
+      "subtext": "Lệnh hành chính, giao thông và áp lực đám đông",
+      "voiceText": "Có ba con số đáng chú ý, ngày mười một tháng sáu là ngày khai mạc, toàn bộ cấp học ở thủ đô được nghỉ, và khu vực hành chính liên bang chuyển sang làm việc không trực tiếp.",
+      "subtitle": "Có 3 con số đáng chú ý: ngày 11/06 là ngày khai mạc, toàn bộ cấp học ở thủ đô được nghỉ, và khu vực hành chính liên bang chuyển sang làm việc không trực tiếp.",
+      "duration": 7,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "📅",
+          "value": "11/06",
+          "label": "ngày khai mạc"
+        },
+        {
+          "icon": "🏫",
+          "value": "mọi cấp",
+          "label": "trường học tạm nghỉ"
+        },
+        {
+          "icon": "💻",
+          "value": "WFH",
+          "label": "hành chính liên bang"
+        },
+        {
+          "icon": "🚦",
+          "value": "ưu tiên",
+          "label": "giao thông & an toàn"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Hành trình tới ngày mở màn",
+      "subtext": "Từ sắc lệnh tới tiếng còi khai cuộc",
+      "voiceText": "Chuỗi sự kiện rất nhanh, sắc lệnh được công bố, trường học tạm dừng, khu văn phòng chuyển sang làm từ xa, rồi mọi ánh mắt đổ về Estadio Azteca.",
+      "subtitle": "Chuỗi sự kiện rất nhanh: sắc lệnh được công bố, trường học tạm dừng, khu văn phòng chuyển sang làm từ xa, rồi mọi ánh mắt đổ về Estadio Azteca.",
+      "duration": 7,
+      "startTime": 13,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Mexico Opening Day",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "stage": "09/06",
+          "title": "Công bố biện pháp"
+        },
+        {
+          "stage": "11/06",
+          "title": "Nghỉ học & làm từ xa"
+        },
+        {
+          "stage": "12/06 VN",
+          "title": "Mexico - Nam Phi"
+        },
+        {
+          "stage": "Sau đó",
+          "title": "Guadalajara vào cuộc"
+        }
+      ],
+      "secondaryComposition": "flashcard-gallery",
+      "layout": "horizontal",
+      "cards": [
+        {
+          "imageSrc": "https://i.guim.co.uk/img/media/eae0c0361a1076120f0462432b74c760f672fe23/0_0_4984_3276/master/4984.jpg?width=465&dpr=1&s=none&crop=none",
+          "text": "Sắc lệnh di chuyển",
+          "caption": "Mexico City"
+        },
+        {
+          "imageSrc": "https://www.bssnews.net/assets/news_photos/2026/05/12/image-386242-1778554275.jpg",
+          "text": "Trường học tạm nghỉ",
+          "caption": "Mọi cấp"
+        },
+        {
+          "imageSrc": "https://images.squarespace-cdn.com/content/v1/620fa2b385fdee7a3f84588d/4650e7e0-defd-486f-9d73-1d8a21186ac9/8067532112_e8fcf81a52_b.jpg",
+          "text": "Mở màn World Cup",
+          "caption": "Estadio Azteca"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 82
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Tâm điểm: Claudia Sheinbaum",
+      "subtext": "Quyết định hành chính trước trận mở màn",
+      "voiceText": "Tâm điểm ngoài sân là Tổng thống Claudia Sheinbaum. Bà xác nhận tạm nghỉ lớp học, áp dụng làm việc từ xa cho khối công, và kêu gọi khu vực tư nhân hỗ trợ nếu không phải hoạt động thiết yếu.",
+      "subtitle": "Tâm điểm ngoài sân là Tổng thống Claudia Sheinbaum. Bà xác nhận tạm nghỉ lớp học, áp dụng làm việc từ xa cho khối công, và kêu gọi khu vực tư nhân hỗ trợ nếu không phải hoạt động thiết yếu.",
+      "duration": 7,
+      "startTime": 20,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "player": "Claudia Sheinbaum",
+      "team": "Mexico",
+      "number": "CDMX",
+      "playerImageUrl": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSlH91JyfaASQhv9webOwPBiiAJ1zC57q-BJtN5uMzwEqM5AHfU7KC93NIyguZOaK9r5Y4DC9kkv9o1Oyw",
+      "stats": [
+        {
+          "label": "Phạm vi",
+          "value": "Mexico City"
+        },
+        {
+          "label": "Trường học",
+          "value": "Tạm nghỉ"
+        },
+        {
+          "label": "Khối công",
+          "value": "Làm từ xa"
+        },
+        {
+          "label": "Tư nhân",
+          "value": "Khuyến khích"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Vì sao phải giảm tải?",
+      "subtext": "Giao thông, du khách và biểu tình cùng lúc",
+      "voiceText": "Lý do không chỉ là trận bóng. Mexico City còn dự báo lượng khách lớn, áp lực di chuyển quanh sân, và các nhóm xã hội có thể tận dụng spotlight World Cup để biểu tình.",
+      "subtitle": "Lý do không chỉ là trận bóng. Mexico City còn dự báo lượng khách lớn, áp lực di chuyển quanh sân, và các nhóm xã hội có thể tận dụng spotlight World Cup để biểu tình.",
+      "duration": 7,
+      "startTime": 27,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {
+          "icon": "🚇",
+          "value": "cao",
+          "label": "áp lực di chuyển"
+        },
+        {
+          "icon": "🌍",
+          "value": "du khách",
+          "label": "đổ về thủ đô"
+        },
+        {
+          "icon": "📢",
+          "value": "có thể",
+          "label": "biểu tình song song"
+        },
+        {
+          "icon": "🛡️",
+          "value": "ưu tiên",
+          "label": "an toàn đường phố"
+        }
+      ],
+      "chartTitle": "Áp lực ngày khai mạc",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Giao thông",
+          "value": 90,
+          "percent": 90
+        },
+        {
+          "label": "Du khách",
+          "value": 82,
+          "percent": 82
+        },
+        {
+          "label": "Biểu tình",
+          "value": 68,
+          "percent": 68
+        },
+        {
+          "label": "An ninh",
+          "value": 88,
+          "percent": 88
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Không chỉ thủ đô",
+      "subtext": "Jalisco cũng chọn giảm tải trong ngày khai mạc",
+      "voiceText": "Jalisco cũng nhập cuộc, vì Guadalajara có trận Hàn Quốc gặp Séc cùng ngày. Một ngày khai mạc, nhưng bài toán vận hành trải rộng hơn một thành phố.",
+      "subtitle": "Jalisco cũng nhập cuộc, vì Guadalajara có trận Hàn Quốc gặp Czechia cùng ngày. Một ngày khai mạc, nhưng bài toán vận hành trải rộng hơn một thành phố.",
+      "duration": 7,
+      "startTime": 34,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {
+          "icon": "🏙️",
+          "label": "Mexico City",
+          "value": "Mexico - Nam Phi tại Estadio Azteca"
+        },
+        {
+          "icon": "🏟️",
+          "label": "Jalisco",
+          "value": "Hàn Quốc - Czechia tại Estadio Akron"
+        },
+        {
+          "icon": "🚌",
+          "label": "Mục tiêu",
+          "value": "Giảm ùn tắc và tăng khả năng tiếp cận"
+        },
+        {
+          "icon": "⚠️",
+          "label": "Lưu ý",
+          "value": "Dịch vụ thiết yếu vẫn hoạt động"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "https://wheretostaymexico.com/app/uploads/world-cup-2026-opening-ceremony-1024x683.png",
+          "label": "Mexico Opening Day",
+          "top": "800px",
+          "left": "90px",
+          "right": "90px",
+          "width": "880px",
+          "height": "660px",
+          "accentColor": "#F7C948",
+          "secondaryAccentColor": "#C8102E",
+          "cardBg": "rgba(7,26,20,0.82)"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Lịch mở màn theo giờ Việt Nam",
+      "subtext": "Tất cả đã quy đổi sang UTC+7",
+      "voiceText": "Theo giờ Việt Nam, Mexico gặp Nam Phi lúc hai giờ sáng ngày mười hai tháng sáu. Cùng ngày, Hàn Quốc gặp Séc lúc chín giờ sáng, rồi Canada và Mỹ lần lượt đá vào sáng ngày mười ba tháng sáu.",
+      "subtitle": "Theo giờ Việt Nam, Mexico gặp Nam Phi lúc 02:00 ngày 12/06. Cùng ngày, Hàn Quốc gặp Czechia lúc 09:00, rồi Canada và Mỹ lần lượt đá vào sáng 13/06.",
+      "duration": 7,
+      "startTime": 41,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "Group A",
+      "tabs": [
+        "Group A",
+        "Hosts"
+      ],
+      "fixtures": [
+        {
+          "home": {
+            "name": "Mexico",
+            "flagSrc": "assets/football/flags/mexico.svg"
+          },
+          "away": {
+            "name": "Nam Phi",
+            "flagSrc": "assets/football/flags/south-africa.svg"
+          },
+          "date": "12/06/2026",
+          "time": "02:00 VN",
+          "venue": "Estadio Azteca"
+        },
+        {
+          "home": {
+            "name": "Hàn Quốc",
+            "flagSrc": "assets/football/flags/korea-republic.svg"
+          },
+          "away": {
+            "name": "Séc",
+            "flagSrc": "https://flagcdn.com/cz.svg"
+          },
+          "date": "12/06/2026",
+          "time": "09:00 VN",
+          "venue": "Estadio Akron"
+        },
+        {
+          "home": {
+            "name": "Canada",
+            "flagSrc": "assets/football/flags/canada.svg"
+          },
+          "away": {
+            "name": "Bosnia và Herzegovina",
+            "flagSrc": "https://flagcdn.com/ba.svg"
+          },
+          "date": "13/06/2026",
+          "time": "02:00 VN",
+          "venue": "BMO Field"
+        },
+        {
+          "home": {
+            "name": "Mỹ",
+            "flagSrc": "assets/football/flags/united-states.svg"
+          },
+          "away": {
+            "name": "Paraguay",
+            "flagSrc": "https://flagcdn.com/py.svg"
+          },
+          "date": "13/06/2026",
+          "time": "08:00 VN",
+          "venue": "Los Angeles Stadium"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Méo",
+      "subtext": "World Cup bắt đầu từ ngoài sân cỏ",
+      "voiceText": "Méo nghĩ rằng, trận khai mạc chưa đá mà Mexico đã cho thấy, World Cup hai không hai sáu khổng lồ đến mức nào. Đây không chỉ là bóng đá, đây là bài kiểm tra vận hành quốc gia.",
+      "subtitle": "Méo nghĩ rằng, trận khai mạc chưa đá mà Mexico đã cho thấy, World Cup 2026 khổng lồ đến mức nào. Đây không chỉ là bóng đá, đây là bài kiểm tra vận hành quốc gia.",
+      "duration": 7,
+      "startTime": 48,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "World Cup 2026 bắt đầu bằng một bài kiểm tra vận hành, trước cả tiếng còi khai cuộc.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chờ trận nào nhất?",
+      "subtext": "Follow để cập nhật World Cup mỗi ngày",
+      "voiceText": "Bạn chờ Mexico, Canada hay Mỹ ra quân nhất? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn chờ Mexico, Canada hay Mỹ ra quân nhất? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 55,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bạn chờ trận mở màn nào nhất?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

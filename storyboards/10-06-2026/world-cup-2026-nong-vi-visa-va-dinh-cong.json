@@ -1,0 +1,266 @@
+{
+  "title": "World Cup 2026 nóng vì visa và nguy cơ đình công",
+  "slug": "world-cup-2026-nong-vi-visa-va-dinh-cong",
+  "preset": "football-news-roundup",
+  "totalDuration": 60,
+  "summary": "Tin nóng về rào cản visa, giấy tờ đội tuyển và áp lực lao động tại các thành phố đăng cai World Cup 2026. Không lấy được URL ảnh bài viết/cầu thủ trực tiếp phù hợp nên các field ảnh liên quan để trống.",
+  "sources": [
+    {
+      "title": "The Guardian - World Cup 2026 visa chaos",
+      "url": "https://www.theguardian.com/football/2026/jun/09/world-cup-2026-visa-restrictions-referee-omar-artan-iran-officials"
+    },
+    {
+      "title": "The Guardian - US stadium and hotel workers threaten strikes during World Cup",
+      "url": "https://www.theguardian.com/football/2026/jun/09/stadium-hotel-workers-strike-world-cup"
+    },
+    {
+      "title": "FourFourTwo - World Cup 2026 fixtures in full",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-fixtures-and-results"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "WORLD CUP VƯỚNG VISA!",
+      "subtext": "Giải đấu lớn nhất lại nóng từ cửa khẩu",
+      "voiceText": "World Cup vướng visa! Trước ngày khai mạc World Cup hai không hai sáu, hàng loạt câu chuyện về giấy tờ, nhập cảnh và quyền lao động đang khiến giải đấu nóng lên ngoài sân cỏ.",
+      "subtitle": "World Cup vướng visa! Trước ngày khai mạc World Cup 2026, hàng loạt câu chuyện về giấy tờ, nhập cảnh và quyền lao động đang khiến giải đấu nóng lên ngoài sân cỏ.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#0B1220",
+      "accentColor": "#38BDF8",
+      "secondaryAccentColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "label": "WORLD CUP 2026",
+      "imageSrc": "",
+      "imageUrl": "",
+      "cardCaption": "Visa, giấy tờ và đình công trở thành chủ đề nóng sát ngày khai mạc.",
+      "chips": ["Visa", "Nhập cảnh", "Đình công"],
+      "emoji": "🛂",
+      "animation": "image-card-rise",
+      "visuals": []
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Những con số gây chú ý",
+      "subtext": "Từ trọng tài tới công nhân sân vận động",
+      "voiceText": "Guardian nêu nhiều trường hợp bị ảnh hưởng, một trọng tài Somalia bị từ chối nhập cảnh, ít nhất mười lăm quan chức Iran gặp vấn đề visa, và khoảng hai nghìn lao động SoFi từng bỏ phiếu ủng hộ đình công.",
+      "subtitle": "Guardian nêu nhiều trường hợp bị ảnh hưởng: một trọng tài Somalia bị từ chối nhập cảnh, ít nhất 15 quan chức Iran gặp vấn đề visa, và khoảng 2.000 lao động SoFi từng bỏ phiếu ủng hộ đình công.",
+      "duration": 7,
+      "startTime": 6,
+      "bgColor": "#0B1220",
+      "accentColor": "#38BDF8",
+      "secondaryAccentColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {"icon": "🧑‍⚖️", "value": "1", "label": "trọng tài Somalia"},
+        {"icon": "🇮🇷", "value": "15+", "label": "quan chức Iran"},
+        {"icon": "🏟️", "value": "2.000", "label": "lao động SoFi"},
+        {"icon": "🌎", "value": "48", "label": "đội tuyển dự giải"}
+      ],
+      "visuals": [
+        {"type": "football-pitch-lines", "position": "background", "opacity": 0.22},
+        {"type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#38BDF8"}
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Chuỗi rắc rối ngoài sân",
+      "subtext": "Một giải đấu khổng lồ, nhiều cửa kiểm soát",
+      "voiceText": "Bức tranh đang nối thành chuỗi, người điều hành trận đấu gặp cửa nhập cảnh, đội tuyển phải đổi kế hoạch di chuyển, cổ động viên bị treo giấy phép, còn lao động địa phương đòi hợp đồng công bằng hơn.",
+      "subtitle": "Bức tranh đang nối thành chuỗi: người điều hành trận đấu gặp cửa nhập cảnh, đội tuyển phải đổi kế hoạch di chuyển, cổ động viên bị treo giấy phép, còn lao động địa phương đòi hợp đồng công bằng hơn.",
+      "duration": 7,
+      "startTime": 13,
+      "bgColor": "#0B1220",
+      "accentColor": "#38BDF8",
+      "secondaryAccentColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Operational Pressure",
+      "flowVariant": "linear",
+      "stages": [
+        {"stage": "Visa", "title": "Trọng tài và quan chức"},
+        {"stage": "Đội tuyển", "title": "Iran, Iraq, Nam Phi"},
+        {"stage": "CĐV", "title": "Esta bị hủy"},
+        {"stage": "Lao động", "title": "Nguy cơ đình công"}
+      ],
+      "secondaryComposition": "flashcard-gallery",
+      "layout": "horizontal",
+      "cards": [
+        {"imageSrc": "", "text": "Cửa khẩu căng thẳng", "caption": "Visa"},
+        {"imageSrc": "", "text": "Đổi kế hoạch di chuyển", "caption": "Đội tuyển"},
+        {"imageSrc": "", "text": "Đòi hợp đồng công bằng", "caption": "Lao động"}
+      ],
+      "visuals": [
+        {"type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 82}
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Omar Artan bị chặn cửa",
+      "subtext": "Một câu chuyện biểu tượng trước giải",
+      "voiceText": "Trường hợp gây chú ý nhất là Omar Artan. Ông là một trong năm mươi hai trọng tài được chỉ định, nhưng bị từ chối nhập cảnh Mỹ và không thể tập luyện, cũng như làm nhiệm vụ tại giải.",
+      "subtitle": "Trường hợp gây chú ý nhất là Omar Artan. Ông là một trong 52 trọng tài được chỉ định, nhưng bị từ chối nhập cảnh Mỹ và không thể tập luyện, cũng như làm nhiệm vụ tại giải.",
+      "duration": 7,
+      "startTime": 20,
+      "bgColor": "#0B1220",
+      "accentColor": "#38BDF8",
+      "secondaryAccentColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "player": "Omar Artan",
+      "team": "Somalia / FIFA Referee",
+      "number": "REF",
+      "playerImageUrl": "",
+      "stats": [
+        {"label": "Vai trò", "value": "Trọng tài FIFA"},
+        {"label": "Danh sách", "value": "52 trọng tài"},
+        {"label": "Vấn đề", "value": "Bị từ chối nhập cảnh"},
+        {"label": "Tác động", "value": "Không làm nhiệm vụ"}
+      ],
+      "visuals": [
+        {"type": "football-pitch-lines", "position": "background", "opacity": 0.22},
+        {"type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#38BDF8"}
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Iran và Iraq cũng bị cuốn vào",
+      "subtext": "Giấy tờ trở thành bài toán chiến dịch",
+      "voiceText": "Iran bị ảnh hưởng ở nhóm quan chức và phải đặt đại bản doanh tại Tijuana, còn Iraq có tiền đạo Aymen Hussein từng bị hỏi giữ nhiều giờ tại sân bay. Đây là áp lực không nằm trong giáo án chiến thuật.",
+      "subtitle": "Iran bị ảnh hưởng ở nhóm quan chức và phải đặt đại bản doanh tại Tijuana, còn Iraq có tiền đạo Aymen Hussein từng bị hỏi giữ nhiều giờ tại sân bay. Đây là áp lực không nằm trong giáo án chiến thuật.",
+      "duration": 7,
+      "startTime": 27,
+      "bgColor": "#0B1220",
+      "accentColor": "#38BDF8",
+      "secondaryAccentColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "statsCards": [
+        {"icon": "🇮🇷", "value": "Tijuana", "label": "đại bản doanh Iran"},
+        {"icon": "🛂", "value": "15+", "label": "quan chức bị nêu"},
+        {"icon": "🇮🇶", "value": "7 giờ", "label": "Aymen Hussein bị hỏi giữ"},
+        {"icon": "📸", "value": "1", "label": "nhiếp ảnh gia bị từ chối"}
+      ],
+      "chartTitle": "Mức độ ảnh hưởng vận hành",
+      "chartType": "bar",
+      "data": [
+        {"label": "Iran", "value": 92, "percent": 92},
+        {"label": "Iraq", "value": 78, "percent": 78},
+        {"label": "Nam Phi", "value": 65, "percent": 65},
+        {"label": "CĐV", "value": 70, "percent": 70}
+      ],
+      "visuals": [
+        {"type": "football-pitch-lines", "position": "background", "opacity": 0.18}
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Đình công cũng là điểm nóng",
+      "subtext": "SoFi, Seattle, Philadelphia chịu áp lực lao động",
+      "voiceText": "Ở Mỹ, chuyện không chỉ nằm ở visa. Lao động sân vận động và khách sạn tại Los Angeles, Seattle, Philadelphia gây sức ép về lương, bảo hiểm, nhân sự và bảo vệ trước rủi ro nhập cư.",
+      "subtitle": "Ở Mỹ, chuyện không chỉ nằm ở visa. Lao động sân vận động và khách sạn tại Los Angeles, Seattle, Philadelphia gây sức ép về lương, bảo hiểm, nhân sự và bảo vệ trước rủi ro nhập cư.",
+      "duration": 7,
+      "startTime": 34,
+      "bgColor": "#0B1220",
+      "accentColor": "#38BDF8",
+      "secondaryAccentColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "bars": [
+        {"icon": "🏟️", "label": "Los Angeles", "value": "SoFi đạt thỏa thuận tạm thời nhưng vẫn căng"},
+        {"icon": "🏨", "label": "Seattle", "value": "Nhân viên khách sạn cho phép đình công"},
+        {"icon": "🔔", "label": "Philadelphia", "value": "Hạn hợp đồng sát ngày 12/06"},
+        {"icon": "💵", "label": "Yêu cầu", "value": "Lương, bảo hiểm, nhân sự, bảo vệ nhập cư"}
+      ],
+      "visuals": [
+        {"type": "football-pitch-lines", "position": "background", "opacity": 0.18},
+        {"type": "highlight-image-card", "imageUrl": "", "label": "Host City Pressure", "top": "800px", "left": "90px", "right": "90px", "width": "880px", "height": "660px", "accentColor": "#38BDF8", "secondaryAccentColor": "#F97316", "cardBg": "rgba(11,18,32,0.82)"}
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Các trận bị soi sát nhất",
+      "subtext": "Quy đổi sang giờ Việt Nam UTC+7",
+      "voiceText": "Các điểm nóng kế tiếp theo giờ Việt Nam là Mexico gặp Nam Phi lúc hai giờ sáng ngày mười hai tháng sáu, Mỹ gặp Paraguay lúc tám giờ sáng ngày mười ba tháng sáu, và Qatar gặp Thụy Sĩ lúc ba giờ sáng ngày mười bốn tháng sáu.",
+      "subtitle": "Các điểm nóng kế tiếp theo giờ Việt Nam là Mexico gặp Nam Phi lúc 02:00 ngày 12/06, Mỹ gặp Paraguay lúc 08:00 ngày 13/06, và Qatar gặp Thụy Sĩ lúc 03:00 ngày 14/06.",
+      "duration": 7,
+      "startTime": 41,
+      "bgColor": "#0B1220",
+      "accentColor": "#38BDF8",
+      "secondaryAccentColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "activeTab": "Watchlist",
+      "tabs": ["Watchlist", "Group Stage"],
+      "fixtures": [
+        {"home": {"name": "Mexico", "flagSrc": "assets/football/flags/mexico.svg"}, "away": {"name": "South Africa", "flagSrc": "assets/football/flags/south-africa.svg"}, "date": "12/06/2026", "time": "02:00 VN", "venue": "Estadio Azteca"},
+        {"home": {"name": "United States", "flagSrc": "assets/football/flags/united-states.svg"}, "away": {"name": "Paraguay"}, "date": "13/06/2026", "time": "08:00 VN", "venue": "Los Angeles Stadium"},
+        {"home": {"name": "Qatar"}, "away": {"name": "Switzerland"}, "date": "14/06/2026", "time": "03:00 VN", "venue": "Levi's Stadium"},
+        {"home": {"name": "Haiti", "flagSrc": "assets/football/flags/haiti.svg"}, "away": {"name": "Scotland"}, "date": "14/06/2026", "time": "08:00 VN", "venue": "MetLife Stadium"}
+      ],
+      "visuals": [
+        {"type": "football-pitch-lines", "position": "background", "opacity": 0.2},
+        {"type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#38BDF8"}
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Méo",
+      "subtext": "World Cup lớn thì rủi ro cũng lớn",
+      "voiceText": "Méo bình luận nghĩ rằng, World Cup hai không hai sáu càng mở rộng, bài toán ngoài sân càng khó. Nếu visa, lao động và di chuyển không được xử lý mượt, trải nghiệm bóng đá sẽ bị kéo xuống rất nhanh.",
+      "subtitle": "Méo bình luận nghĩ rằng, World Cup 2026 càng mở rộng, bài toán ngoài sân càng khó. Nếu visa, lao động và di chuyển không được xử lý mượt, trải nghiệm bóng đá sẽ bị kéo xuống rất nhanh.",
+      "duration": 7,
+      "startTime": 48,
+      "bgColor": "#0B1220",
+      "accentColor": "#38BDF8",
+      "secondaryAccentColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "quote": "Giải đấu 48 đội không chỉ cần sân đẹp, mà cần cả hệ thống vận hành không nghẽn.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {"type": "animation", "animationType": "wave-lines", "opacity": 0.24}
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn lo điểm nào nhất?",
+      "subtext": "Follow để cập nhật World Cup mỗi ngày",
+      "voiceText": "Bạn nghĩ World Cup hai không hai sáu sẽ nóng nhất ở sân cỏ, visa, hay khâu tổ chức? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn nghĩ World Cup 2026 sẽ nóng nhất ở sân cỏ, visa, hay khâu tổ chức? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 55,
+      "bgColor": "#0B1220",
+      "accentColor": "#38BDF8",
+      "secondaryAccentColor": "#F97316",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bạn lo nhất vấn đề nào của World Cup 2026?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["assets/logos/logo.png"]
+      },
+      "visuals": [
+        {"type": "football-confetti", "particleCount": 86, "duration": 5}
+      ]
+    }
+  ]
+}
