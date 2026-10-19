@@ -7,3 +7,4 @@ assets/storyboards/
 .DS_Store
 *.log
 .venv/
+tmp/

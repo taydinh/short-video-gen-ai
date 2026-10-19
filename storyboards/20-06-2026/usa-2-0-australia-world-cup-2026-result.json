@@ -1,0 +1,452 @@
+{
+  "title": "Mỹ 2-0 Australia | Kết quả World Cup 2026",
+  "preset": "Preset Football Result",
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "https://www.vietnam.vn/en/tuyen-my-danh-bai-uc-tao-dau-an-lich-su-tai-world-cup"
+  ],
+  "summary": "Kết quả Mỹ 2-0 Australia. playerImageUrl để trống vì chưa có nguồn ảnh cầu thủ trực tiếp phù hợp.",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "voiceText": "Mỹ thắng Australia hai không tại Seattle, nhờ pha phản lưới của Cameron Burgess phút mười một và bàn của Freeman phút bốn mươi tư, qua đó rộng cửa đi tiếp.",
+      "subtitle": "Mỹ thắng Australia 2-0 tại Seattle, nhờ pha phản lưới của Cameron Burgess phút 11 và bàn của Freeman phút 44, qua đó rộng cửa đi tiếp.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "FULL-TIME",
+      "subtext": "Bảng D • Seattle Stadium",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": "2-0",
+      "teams": [
+        {
+          "name": "Mỹ",
+          "shortName": "USA",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg",
+          "form": ""
+        },
+        {
+          "name": "Australia",
+          "shortName": "AUS",
+          "flagSrc": "assets/football/flags/australia.svg",
+          "badgeSrc": "assets/football/flags/australia.svg",
+          "form": ""
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "home": "Mỹ",
+          "away": "Australia",
+          "score": "2-0"
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "voiceText": "Kết quả lượt hai bảng Đê, World Cup hai không hai sáu.",
+      "subtitle": "Kết quả lượt 2 Bảng D, World Cup 2026.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "MATCH RESULT",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Canada • Mexico • USA",
+      "ctaLabel": "20/06/2026 • UTC+7",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "voiceText": "Mỹ xuất phát với Freese, Freeman, Richards, Ream, Robinson, Adams, Tillman, Dest, McKennie, Pepi và Balogun. Australia dùng Beach, Circati, Souttar, Burgess, Italiano, O Neill, Okon Engstler, Bos, Leckie, Velupillay và Toure.",
+      "subtitle": "Mỹ xuất phát với Freese, Freeman, Richards, Ream, Robinson, Adams, Tillman, Dest, McKennie, Pepi và Balogun. Australia dùng Beach, Circati, Souttar, Burgess, Italiano, O'Neill, Okon-Engstler, Bos, Leckie, Velupillay và Toure.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Đội hình chính thức",
+      "competitionLabel": "Bảng D",
+      "venue": "Seattle Stadium",
+      "teams": [
+        {
+          "name": "Mỹ",
+          "shortName": "USA",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg",
+          "form": ""
+        },
+        {
+          "name": "Australia",
+          "shortName": "AUS",
+          "flagSrc": "assets/football/flags/australia.svg",
+          "badgeSrc": "assets/football/flags/australia.svg",
+          "form": ""
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Mỹ",
+          "formation": "4-3-3",
+          "players": [
+            "Freese",
+            "Freeman",
+            "Richards",
+            "Ream",
+            "Robinson",
+            "Adams",
+            "Tillman",
+            "Dest",
+            "McKennie",
+            "Pepi",
+            "Balogun"
+          ]
+        },
+        {
+          "team": "Australia",
+          "formation": "3-4-2-1",
+          "players": [
+            "Beach",
+            "Circati",
+            "Souttar",
+            "Burgess",
+            "Italiano",
+            "O'Neill",
+            "Okon-Engstler",
+            "Bos",
+            "Leckie",
+            "Velupillay",
+            "Toure"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "voiceText": "Alex Freeman ghi bàn phút bốn mươi tư, giúp Mỹ bước vào giờ nghỉ với lợi thế hai bàn và kiểm soát hoàn toàn thế trận.",
+      "subtitle": "Alex Freeman ghi bàn phút 44, giúp Mỹ bước vào giờ nghỉ với lợi thế 2 bàn và kiểm soát hoàn toàn thế trận.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Cầu thủ nổi bật",
+      "subtext": "Alex Freeman ghi bàn phút 44, giúp Mỹ bước vào giờ nghỉ với lợi thế 2 bàn và kiểm soát hoàn toàn thế trận.",
+      "player": "Alex Freeman",
+      "team": "Mỹ",
+      "number": "",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút",
+          "value": "44'"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "football-ball-motion"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-5",
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "voiceText": "Phút mười một, Burgess phản lưới. Phút bốn mươi tư, Freeman nâng tỉ số. Sang hiệp hai, Australia dồn ép nhưng Mỹ bảo toàn chiến thắng hai không.",
+      "subtitle": "Phút 11, Burgess phản lưới. Phút 44, Freeman nâng tỉ số. Sang hiệp 2, Australia dồn ép nhưng Mỹ bảo toàn chiến thắng 2-0.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Diễn biến chính",
+      "subtext": "Mỹ 2-0 Australia",
+      "competitionLabel": "Bảng D",
+      "events": [
+        {
+          "minute": "11'",
+          "team": "Australia",
+          "type": "own-goal",
+          "text": "Cameron Burgess phản lưới"
+        },
+        {
+          "minute": "44'",
+          "team": "Mỹ",
+          "type": "goal",
+          "text": "Alex Freeman ghi bàn"
+        },
+        {
+          "minute": "63'",
+          "team": "Australia",
+          "type": "chance",
+          "text": "Volpato dứt điểm vọt xà"
+        },
+        {
+          "minute": "FT",
+          "team": "Mỹ",
+          "type": "full-time",
+          "text": "Mỹ thắng 2-0"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "football-scorebug",
+          "home": "Mỹ",
+          "away": "Australia",
+          "score": "2-0"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-6",
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "voiceText": "Hai bàn thắng, một trận giữ sạch lưới và ba điểm trọn vẹn cho Mỹ. Australia gây sức ép cuối trận nhưng không thể ghi bàn.",
+      "subtitle": "2 bàn thắng, 1 trận giữ sạch lưới và 3 điểm trọn vẹn cho Mỹ. Australia gây sức ép cuối trận nhưng không thể ghi bàn.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Thông số nổi bật",
+      "subtext": "Số liệu được nguồn trận đấu xác nhận",
+      "competitionLabel": "Bảng D",
+      "minute": "FT",
+      "score": "2-0",
+      "teams": [
+        {
+          "name": "Mỹ",
+          "shortName": "USA",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg",
+          "form": ""
+        },
+        {
+          "name": "Australia",
+          "shortName": "AUS",
+          "flagSrc": "assets/football/flags/australia.svg",
+          "badgeSrc": "assets/football/flags/australia.svg",
+          "form": ""
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Bàn thắng",
+              "home": 2,
+              "away": 0
+            },
+            {
+              "label": "Giữ sạch lưới",
+              "home": 1,
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-7",
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "voiceText": "Mỹ có sáu điểm sau hai trận và tiến gần vòng loại trực tiếp. Australia vẫn có ba điểm, còn Thổ Nhĩ Kỳ cùng Pa Ra Quay chưa có điểm trước trận đối đầu.",
+      "subtitle": "Mỹ có 6 điểm sau 2 trận và tiến gần vòng loại trực tiếp. Australia vẫn có 3 điểm, còn Thổ Nhĩ Kỳ cùng Paraguay chưa có điểm trước trận đối đầu.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Bảng D",
+      "subtext": "Cục diện sau trận",
+      "activeTab": "Bảng D",
+      "tabs": [
+        "Bảng D"
+      ],
+      "standingsVariant": "group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Mỹ",
+        "Australia"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Mỹ",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 6,
+          "goalsAgainst": 1,
+          "goalDifference": 5,
+          "points": 6,
+          "flagSrc": "assets/football/flags/united-states.svg"
+        },
+        {
+          "position": 2,
+          "team": "Australia",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 3,
+          "flagSrc": "assets/football/flags/australia.svg"
+        },
+        {
+          "position": 3,
+          "team": "Thổ Nhĩ Kỳ",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
+          "points": 0,
+          "flagSrc": "assets/football/flags/turkiye.svg"
+        },
+        {
+          "position": 4,
+          "team": "Paraguay",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "goalDifference": -3,
+          "points": 0,
+          "flagSrc": "assets/football/flags/paraguay.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-8",
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 6,
+      "voiceText": "Bạn ấn tượng nhất với hàng thủ Mỹ hay bàn thắng của Freeman? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn ấn tượng nhất với hàng thủ Mỹ hay bàn thắng của Freeman? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Theo dõi Méo bình luận",
+      "subtext": "Bạn ấn tượng nhất với hàng thủ Mỹ hay bàn thắng của Freeman?",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Bạn ấn tượng nhất với hàng thủ Mỹ hay bàn thắng của Freeman?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    }
+  ]
+}

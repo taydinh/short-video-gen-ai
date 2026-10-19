@@ -1,0 +1,514 @@
+{
+  "title": "Hà Lan 5-1 Thụy Điển: Kết quả World Cup 2026",
+  "slug": "netherlands-5-1-sweden-world-cup-2026-result",
+  "totalDuration": 52,
+  "summary": {
+    "preset": "Preset Football Result",
+    "imageNotes": [
+      "Không tìm được ảnh chân dung phù hợp cho Brian Brobbey; playerImageUrl để trống."
+    ]
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Hà Lan 5-1 Thụy Điển",
+      "subtext": "Toàn thời gian | Bảng F",
+      "voiceText": "Hà Lan thắng Thụy Điển 5-1 tại World Cup hai không hai sáu. Brobbey ghi hai bàn ở phút 5 và 17, Cody Gakpo lập cú đúp ở phút 47 và 54, Summerville ghi bàn phút 89; Elanga gỡ một bàn cho Thụy Điển phút 59.",
+      "subtitle": "Hà Lan thắng Thụy Điển 5-1 tại World Cup 2026. Brobbey ghi hai bàn ở phút 5 và 17, Cody Gakpo lập cú đúp ở phút 47 và 54, Summerville ghi bàn phút 89; Elanga gỡ một bàn cho Thụy Điển phút 59.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [
+        5,
+        1
+      ],
+      "venue": "Houston Stadium",
+      "date": "21.06.2026",
+      "time": "00:00",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Sweden",
+          "code": "SWE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/sweden.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "NED",
+            "SWE"
+          ],
+          "score": [
+            5,
+            1
+          ],
+          "minute": "FT"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Bảng F",
+      "ctaLabel": "Kết quả",
+      "voiceText": "Kết quả bảng F: Hà Lan 5, Thụy Điển 1.",
+      "subtitle": "Kết quả bảng F: Hà Lan 5, Thụy Điển 1.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtext": "Hà Lan 5-1 Thụy Điển",
+      "voiceText": "Đội hình xuất phát của hai đội được hiển thị trên sân. Hà Lan đặt niềm tin vào Brian Brobbey, còn Thụy Điển giữ bộ khung quen thuộc.",
+      "subtitle": "Đội hình xuất phát của hai đội được hiển thị trên sân. Hà Lan đặt niềm tin vào Brian Brobbey, còn Thụy Điển giữ bộ khung quen thuộc.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Sweden",
+          "code": "SWE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/sweden.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Bart Verbruggen",
+            "Denzel Dumfries",
+            "Matthijs de Ligt",
+            "Virgil van Dijk",
+            "Micky van de Ven",
+            "Frenkie de Jong",
+            "Tijjani Reijnders",
+            "Xavi Simons",
+            "Cody Gakpo",
+            "Jeremie Frimpong",
+            "Brian Brobbey"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Robin Olsen",
+            "Emil Holm",
+            "Isak Hien",
+            "Victor Lindelöf",
+            "Gabriel Gudmundsson",
+            "Jesper Karlström",
+            "Hugo Larsson",
+            "Dejan Kulusevski",
+            "Anthony Elanga",
+            "Viktor Gyökeres",
+            "Alexander Isak"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Tâm điểm: Brian Brobbey",
+      "subtext": "Người tạo bước ngoặt",
+      "voiceText": "Brian Brobbey là tâm điểm. Màn trình diễn của anh tạo ra bước ngoặt lớn nhất trong chiến thắng này.",
+      "subtitle": "Brian Brobbey là tâm điểm. Màn trình diễn của anh tạo ra bước ngoặt lớn nhất trong chiến thắng này.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Brian Brobbey",
+      "team": "Netherlands",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Kết quả",
+          "value": "5-1"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Tạo bước ngoặt"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Diễn biến chính",
+      "subtext": "Hà Lan 5-1 Thụy Điển",
+      "voiceText": "Diễn biến chính: Brobbey ghi hai bàn ở phút 5 và 17, Cody Gakpo lập cú đúp ở phút 47 và 54, Summerville ghi bàn phút 89; Elanga gỡ một bàn cho Thụy Điển phút 59.",
+      "subtitle": "Diễn biến chính: Brobbey ghi hai bàn ở phút 5 và 17, Cody Gakpo lập cú đúp ở phút 47 và 54, Summerville ghi bàn phút 89; Elanga gỡ một bàn cho Thụy Điển phút 59.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "events": [
+        {
+          "minute": "5'",
+          "title": "1-0: Brian Brobbey",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "17'",
+          "title": "2-0: Brian Brobbey",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "47'",
+          "title": "3-0: Cody Gakpo",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "54'",
+          "title": "4-0: Cody Gakpo",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "59'",
+          "title": "4-1: Anthony Elanga",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "89'",
+          "title": "5-1: Crysencio Summerville",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "FT",
+          "title": "Hà Lan thắng 5-1",
+          "desc": "Mốc quan trọng của trận đấu."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Tổng kết trận đấu",
+      "subtext": "Hà Lan 5-1 Thụy Điển",
+      "voiceText": "Tỉ số chung cuộc là 5-1. Hiệu quả ở các khoảnh khắc quyết định đã phân định trận đấu.",
+      "subtitle": "Tỉ số chung cuộc là 5-1. Hiệu quả ở các khoảnh khắc quyết định đã phân định trận đấu.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Summary",
+      "minute": "FT",
+      "score": [
+        5,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Sweden",
+          "code": "SWE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/sweden.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "NED",
+            "SWE"
+          ],
+          "score": [
+            5,
+            1
+          ],
+          "minute": "FT"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện Bảng F",
+      "subtext": "Sau trận",
+      "voiceText": "Kết quả này tác động trực tiếp tới cục diện Bảng F, với Hà Lan chiếm lợi thế lớn trong cuộc đua đi tiếp.",
+      "subtitle": "Kết quả này tác động trực tiếp tới cục diện Bảng F, với Hà Lan chiếm lợi thế lớn trong cuộc đua đi tiếp.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "BẢNG XẾP HẠNG"
+      ],
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "NED",
+        "SWE"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Netherlands",
+            "code": "NED",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/netherlands.svg"
+          },
+          "played": 2,
+          "pts": 4
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Sweden",
+            "code": "SWE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/sweden.svg"
+          },
+          "played": 2,
+          "pts": 3
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Japan",
+            "code": "JPN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/japan.svg"
+          },
+          "played": 1,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Tunisia",
+            "code": "TUN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/tunisia.svg"
+          },
+          "played": 1,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Méo bình luận",
+      "subtext": "Bạn ấn tượng nhất với khoảnh khắc nào trong trận Hà Lan gặp Thụy Điển?",
+      "voiceText": "Bạn ấn tượng nhất với khoảnh khắc nào trong trận Hà Lan gặp Thụy Điển? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn ấn tượng nhất với khoảnh khắc nào trong trận Hà Lan gặp Thụy Điển? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Bạn ấn tượng nhất với khoảnh khắc nào trong trận Hà Lan gặp Thụy Điển?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 84,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "FIFA/ESPN match report",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-sweden-match-report-highlights"
+    },
+    {
+      "name": "ESPN match page",
+      "url": "https://www.espn.co.uk/football/match/_/gameId/760447/sweden-netherlands"
+    },
+    {
+      "name": "ESPN World Cup schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "name": "Sky Sports World Cup schedule and results",
+      "url": "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    }
+  ]
+}

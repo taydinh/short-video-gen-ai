@@ -1,0 +1,505 @@
+{
+  "title": "Panama vs Croatia: Lượt 2 bảng L World Cup 2026",
+  "slug": "panama-vs-croatia-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Panama gặp Croatia ở bảng L World Cup 2026, quy đổi giờ Việt Nam là 06:00 ngày 24/06/2026. Lời đọc bảng L chuyển thành bảng Lờ, Croatia đọc thành Cờ rốt ti a và tên cầu thủ được phiên âm trong voiceText để TTS đọc ổn định.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "ESPN - 2026 FIFA World Cup fixtures, results, match schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Panama vs Croatia",
+      "subtext": "Trận chiến sinh tử ở bảng L",
+      "voiceText": "Chào anh em! Vào lúc sáu giờ sáng ngày hai mươi tư tháng sáu theo giờ Việt Nam, cặp đấu tiếp theo của bảng Lờ sẽ diễn ra giữa Panama và Cờ rốt ti a. Cả hai đội đều đang đặt mục tiêu tối thượng là giành ba điểm để tiếp tục nuôi hy vọng đi tiếp tại World Cup hai không hai sáu!",
+      "subtitle": "Chào anh em! Vào lúc 06:00 ngày 24/06 theo giờ Việt Nam, cặp đấu tiếp theo của bảng L sẽ diễn ra giữa Panama và Croatia. Cả hai đội đều đang đặt mục tiêu tối thượng là giành 3 điểm để tiếp tục nuôi hy vọng đi tiếp tại World Cup 2026!",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group L - Matchday 2",
+      "venue": "Atlanta Stadium, Atlanta",
+      "date": "24/06/2026",
+      "time": "06:00 VN",
+      "teams": [
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "form": "Hòa 0-0",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "form": "Thua 2-4",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng L sinh tử",
+      "subtext": "Anh, Ghana, Panama, Croatia",
+      "voiceText": "Trận đấu này hứa hẹn cực kỳ căng thẳng. Cờ rốt ti a buộc phải thắng sau trận thua ngày ra quân, còn Panama cũng muốn tận dụng một điểm có được trước Ghana để bứt phá.",
+      "subtitle": "Trận đấu này hứa hẹn cực kỳ căng thẳng. Croatia buộc phải thắng sau trận thua ngày ra quân, còn Panama cũng muốn tận dụng 1 điểm có được trước Ghana để bứt phá.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group L Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Panama tử thủ, Croatia dốc toàn lực công",
+      "voiceText": "Panama dự kiến sẽ tiếp tục chơi phòng ngự phản công với sơ đồ năm bốn một, dựa vào sự cơ động của Các-rát-ki-la. Trong khi đó, Cờ rốt ti a nhiều khả năng sẽ dồn toàn lực tấn công với nhạc trưởng Ma-tê-ô Cô-va-cíc điều phối nhịp độ tuyến giữa.",
+      "subtitle": "Panama dự kiến sẽ tiếp tục chơi phòng ngự phản công với sơ đồ 5-4-1, dựa vào sự cơ động của Carrasquilla. Trong khi đó, Croatia nhiều khả năng sẽ dồn toàn lực tấn công với nhạc trưởng Mateo Kovačić điều phối nhịp độ tuyến giữa.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Panama",
+          "formation": "5-4-1",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "players": [
+            "Mosquera",
+            "Murillo",
+            "Escobar",
+            "Cummings",
+            "Davis",
+            "Carrasquilla",
+            "Godoy",
+            "Barcenas",
+            "Quintero",
+            "Fajardo",
+            "Blackman"
+          ]
+        },
+        {
+          "team": "Croatia",
+          "formation": "3-4-2-1",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "players": [
+            "Dominik Livakovic",
+            "Josip Sutalo",
+            "Marco Pasalic",
+            "Josko Gvardiol",
+            "Josip Stanisic",
+            "Mateo Kovacic",
+            "Andrej Kramaric",
+            "Ivan Perisic",
+            "Petar Sucic",
+            "Nikola Vlasic",
+            "Igor Matanovic"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Lượt đấu thứ nhất bảng L",
+      "voiceText": "Ở lượt trận thứ nhất, Panama đã thi đấu quả cảm để giành một điểm trước Ghana. Còn Cờ rốt ti a dù đã rất cố gắng nhưng vẫn phải nhận thất bại hai bốn trước một tuyển Anh quá bùng nổ.",
+      "subtitle": "Ở lượt trận thứ nhất, Panama đã thi đấu quả cảm để giành 1 điểm trước Ghana. Còn Croatia dù đã rất cố gắng nhưng vẫn phải nhận thất bại 2-4 trước một tuyển Anh quá bùng nổ.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Panama",
+      "awayTeam": "Croatia",
+      "teams": [
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "18/06/2026",
+          "home": "Anh",
+          "away": "Croatia",
+          "score": "4-2",
+          "note": "Croatia thủng lưới 4 bàn",
+          "homeBadgeSrc": "assets/football/flags/england.svg",
+          "awayBadgeSrc": "assets/football/flags/croatia.svg"
+        },
+        {
+          "date": "18/06/2026",
+          "home": "Ghana",
+          "away": "Panama",
+          "score": "0-0",
+          "note": "Panama giữ sạch lưới",
+          "homeBadgeSrc": "assets/football/flags/ghana.svg",
+          "awayBadgeSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Phong độ Panama",
+          "value": "Hòa 0-0"
+        },
+        {
+          "label": "Phong độ Croatia",
+          "value": "Thua 2-4"
+        },
+        {
+          "label": "Dự đoán",
+          "value": "Croatia thắng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Sức ép tấn công",
+              "home": 45,
+              "away": 75
+            },
+            {
+              "label": "Cơ hội đi tiếp",
+              "home": 35,
+              "away": 72
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Croatia dồn toa",
+      "subtext": "Panama phản công nguy hiểm",
+      "voiceText": "Bị dồn vào chân tường, Cờ rốt ti a bắt buộc phải thắng. Đại diện châu Âu sẽ kiểm soát thế trận từ đầu, nhưng họ phải dè chừng những pha phản công tốc độ của Panama.",
+      "subtitle": "Bị dồn vào chân tường, Croatia bắt buộc phải thắng. Đại diện châu Âu sẽ kiểm soát thế trận từ đầu, nhưng họ phải dè chừng những pha phản công tốc độ của Panama.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Bị dồn vào chân tường, Croatia bắt buộc phải thắng. Đại diện châu Âu sẽ kiểm soát thế trận từ đầu, nhưng họ phải dè chừng những pha phản công tốc độ của Panama.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng L sau lượt đầu",
+      "subtext": "Anh chiếm đỉnh bảng",
+      "voiceText": "Với cục diện hiện tại ở bảng Lờ, Anh đang đứng đầu, Panama và Ghana xếp ngay sau với một điểm. Cờ rốt ti a tạm đứng cuối và buộc phải giành chiến thắng nếu không muốn sớm nói lời chia tay giải đấu.",
+      "subtitle": "Với cục diện hiện tại ở bảng L, Anh đang đứng đầu, Panama và Ghana xếp ngay sau với 1 điểm. Croatia tạm đứng cuối và buộc phải giành chiến thắng nếu không muốn sớm nói lời chia tay giải đấu.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group L",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "Trận đấu",
+        "Đội hình",
+        "Thống kê",
+        "Bảng xếp hạng"
+      ],
+      "highlightTeams": [
+        "Panama",
+        "Croatia"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "rank": 1,
+          "position": 1,
+          "team": {
+            "name": "Anh",
+            "code": "ENG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/england.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 1,
+          "won": 1,
+          "w": 1,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "pts": 3,
+          "points": 3
+        },
+        {
+          "pos": 2,
+          "rank": 2,
+          "position": 2,
+          "team": {
+            "name": "Ghana",
+            "code": "GHA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ghana.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 1,
+          "drawn": 1,
+          "d": 1,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1,
+          "points": 1
+        },
+        {
+          "pos": 3,
+          "rank": 3,
+          "position": 3,
+          "team": {
+            "name": "Panama",
+            "code": "PAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/panama.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 1,
+          "drawn": 1,
+          "d": 1,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1,
+          "points": 1,
+          "highlight": true
+        },
+        {
+          "pos": 4,
+          "rank": 4,
+          "position": 4,
+          "team": {
+            "name": "Croatia",
+            "code": "CRO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/croatia.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 1,
+          "lost": 1,
+          "l": 1,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "pts": 0,
+          "points": 0,
+          "highlight": true
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Bình luận bên dưới",
+      "voiceText": "Anh em dự đoán Cờ rốt ti a sẽ có chiến thắng đầu tay hay Panama sẽ tạo nên bất ngờ thú vị? Hãy để lại ý kiến dưới phần bình luận nhé! Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Anh em dự đoán Croatia sẽ có chiến thắng đầu tay hay Panama sẽ tạo nên bất ngờ thú vị? Hãy để lại ý kiến dưới phần bình luận nhé! Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Panama hay Croatia thắng?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Panama",
+          "Croatia"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

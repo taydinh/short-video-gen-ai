@@ -1,0 +1,354 @@
+{
+  "title": "Colombia vs Bồ Đào Nha: Tranh ngôi đầu bảng K",
+  "slug": "colombia-vs-portugal-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Nhận định trận đấu phân định ngôi đầu bảng K giữa Colombia và Bồ Đào Nha tại World Cup 2026. Lịch thi đấu theo giờ Việt Nam là 06:30 ngày 28/06/2026.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "Sports Mole - Colombia vs Portugal preview",
+      "url": "https://www.sportsmole.co.uk/football/portugal/world-cup/preview/preview-colombia-vs-portugal.html"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Colombia vs Bồ Đào Nha",
+      "subtext": "Đại chiến tranh ngôi đầu bảng K",
+      "voiceText": "Cuộc đối đầu cực nóng giữa Colombia và Bồ Đào Nha sẽ diễn ra lúc sáu giờ ba mươi phút sáng ngày hai mươi tám tháng sáu theo giờ Việt Nam. Cả hai đội tuyển đều đã giành vé sớm đi tiếp và đây là trận đấu phân định ngôi vị đầu bảng Ka.",
+      "subtitle": "Cuộc đối đầu cực nóng giữa Colombia và Bồ Đào Nha sẽ diễn ra lúc 06:30 ngày 28/06 theo giờ Việt Nam. Cả hai đội tuyển đều đã giành vé sớm đi tiếp và đây là trận đấu phân định ngôi vị đầu bảng K.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group K - Matchday 3",
+      "venue": "Hard Rock Stadium",
+      "date": "28/06/2026",
+      "time": "06:30 VN",
+      "teams": [
+        {
+          "name": "Colombia",
+          "code": "COL",
+          "form": "6 điểm",
+          "flagSrc": "assets/football/flags/colombia.svg",
+          "badgeSrc": "assets/football/flags/colombia.svg"
+        },
+        {
+          "name": "Bồ Đào Nha",
+          "code": "POR",
+          "form": "4 điểm",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Cuộc chiến ngôi đầu",
+      "subtext": "Colombia nắm lợi thế hiệu số",
+      "voiceText": "Colombia đang dẫn đầu bảng Ka với hai trận toàn thắng. Chỉ cần một kết quả hòa là họ sẽ bảo vệ thành công ngôi đầu, trong khi Bồ Đào Nha bắt buộc phải giành chiến thắng.",
+      "subtitle": "Colombia đang dẫn đầu bảng K với 2 trận toàn thắng. Chỉ cần một kết quả hòa là họ sẽ bảo vệ thành công ngôi đầu, trong khi Bồ Đào Nha bắt buộc phải giành chiến thắng.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group K Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Những ngôi sao tấn công thượng thặng",
+      "voiceText": "Colombia sở hữu Luis Diaz chơi đầy biến ảo bên hành lang cánh, kết hợp cùng Jhon Arias. Phía bên kia chiến tuyến, siêu sao Cristiano Ronaldo vẫn là đầu tàu dẫn dắt hàng công Bồ Đào Nha, được hỗ trợ bởi Bruno Fernandes và Bernardo Silva.",
+      "subtitle": "Colombia sở hữu Luis Díaz chơi đầy biến ảo bên hành lang cánh, kết hợp cùng Jhon Arias. Phía bên kia chiến tuyến, siêu sao Cristiano Ronaldo vẫn là đầu tàu dẫn dắt hàng công Bồ Đào Nha, được hỗ trợ bởi Bruno Fernandes và Bernardo Silva.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Colombia",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/colombia.svg",
+          "players": [
+            "Vargas",
+            "Munoz",
+            "Lucumi",
+            "Sanchez",
+            "Mojica",
+            "Rios",
+            "Lerma",
+            "Arias",
+            "Rodriguez",
+            "Diaz",
+            "Cordoba"
+          ]
+        },
+        {
+          "team": "Bồ Đào Nha",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "players": [
+            "Costa",
+            "Dalot",
+            "Dias",
+            "Inacio",
+            "Mendes",
+            "Vitinha",
+            "Palhinha",
+            "Fernandes",
+            "Jota",
+            "Ronaldo",
+            "Leao"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H & Phong độ",
+      "subtext": "Lịch sử đối đầu đầu tiên",
+      "voiceText": "Đây là lần đầu tiên hai đội tuyển đụng độ chính thức. Colombia đang có chuỗi bất bại đầy ấn tượng, còn Bồ Đào Nha vừa đè bẹp U bê kits tan năm không, trận đấu mà Ronaldo đi vào lịch sử khi ghi bàn ở sáu kỳ World Cup liên tiếp.",
+      "subtitle": "Đây là lần đầu tiên hai đội tuyển đụng độ chính thức. Colombia đang có chuỗi bất bại đầy ấn tượng, còn Bồ Đào Nha vừa đè bẹp Uzbekistan 5-0, trận đấu mà Ronaldo đi vào lịch sử khi ghi bàn ở 6 kỳ World Cup liên tiếp.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Colombia",
+      "awayTeam": "Bồ Đào Nha",
+      "h2hMatches": [],
+      "odds": [
+        {
+          "label": "Mục tiêu Colombia",
+          "value": "Chỉ cần hòa"
+        },
+        {
+          "label": "Mục tiêu Bồ Đào Nha",
+          "value": "Buộc phải thắng"
+        },
+        {
+          "label": "Kỷ lục Ronaldo",
+          "value": "6 kỳ World Cup"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 45,
+              "away": 55
+            },
+            {
+              "label": "Cơ hội ghi bàn nguy hiểm",
+              "home": 78,
+              "away": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: cánh biên",
+      "subtext": "Luis Diaz vs Diogo Dalot",
+      "voiceText": "Cuộc đối đầu tay đôi giữa Luis Diaz và Diogo Dalot sẽ quyết định cục diện trận đấu. Tốc độ kinh hoàng của ngôi sao Colombia sẽ thử thách tối đa hàng phòng ngự kỷ luật của huấn luyện viên Roberto Martinez.",
+      "subtitle": "Cuộc đối đầu tay đôi giữa Luis Díaz và Diogo Dalot sẽ quyết định cục diện trận đấu. Tốc độ kinh hoàng của ngôi sao Colombia sẽ thử thách tối đa hàng phòng ngự kỷ luật của HLV Roberto Martínez.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Colombia phản công biên cực sắc bén, Bồ Đào Nha cần kiểm soát tốt nhịp độ để tránh dính đòn hồi mã thương.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng K",
+      "subtext": "Bảo vệ vị trí đầu bảng",
+      "voiceText": "Colombia đang dẫn đầu với sáu điểm, hiệu số cộng ba. Bồ Đào Nha bám sát phía sau với bốn điểm và hiệu số dương năm nhờ chiến thắng đậm đà. Đội giành chiến thắng trận này sẽ giành ngôi đầu bảng Ka đầy danh giá.",
+      "subtitle": "Colombia đang dẫn đầu với 6 điểm, hiệu số +3. Bồ Đào Nha bám sát phía sau with 4 điểm và hiệu số +5 nhờ chiến thắng đậm đà. Đội giành chiến thắng trận này sẽ giành ngôi đầu bảng K đầy danh giá.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group K",
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Colombia",
+          "played": 2,
+          "points": 6,
+          "gd": 3,
+          "flagSrc": "assets/football/flags/colombia.svg",
+          "highlight": true
+        },
+        {
+          "pos": 2,
+          "team": "Portugal",
+          "played": 2,
+          "points": 4,
+          "gd": 5,
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "team": "DR Congo",
+          "played": 2,
+          "points": 1,
+          "gd": -1,
+          "flagSrc": "assets/football/flags/dr-congo.svg"
+        },
+        {
+          "pos": 4,
+          "team": "Uzbekistan",
+          "played": 2,
+          "points": 0,
+          "gd": -7,
+          "flagSrc": "assets/football/flags/uzbekistan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Ai sẽ đứng đầu bảng K?",
+      "subtext": "Comment lựa chọn của bạn",
+      "voiceText": "Liệu Colombia sẽ tiếp tục thăng hoa, hay đẳng cấp của Bồ Đào Nha sẽ lên tiếng để chiếm ngôi đầu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu Colombia sẽ tiếp tục thăng hoa, hay đẳng cấp của Bồ Đào Nha sẽ lên tiếng để chiếm ngôi đầu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Colombia vs Bồ Đào Nha",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Colombia",
+          "Bồ Đào Nha"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

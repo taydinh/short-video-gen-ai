@@ -1,0 +1,509 @@
+{
+  "title": "Ghana 0-0 Panama: trận mưa không bàn thắng ở bảng L",
+  "slug": "ghana-0-0-panama-world-cup-result-2026-06-18",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Result Ghana - Panama, full-time 0-0 lúc khoảng 08:00 ngày 18/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "The Guardian - Ghana v Panama live",
+      "url": "https://www.theguardian.com/football/live/2026/jun/17/ghana-v-panama-world-cup-2026-live"
+    },
+    {
+      "title": "FIFA - Ghana vs Panama Match Centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021510"
+    },
+    {
+      "title": "Sky Sports - World Cup 2026 fixture schedule",
+      "url": "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Ghana 0-0 Panama",
+      "subtext": "Mưa Toronto, bảng L chia điểm",
+      "voiceText": "Full time ở Toronto, Ghana hòa Panama không không. Trận đấu lúc sáu giờ sáng theo giờ Việt Nam khép lại trong cơn mưa, với ít cơ hội rõ ràng và một điểm khiến cả hai đội vẫn phải nhìn rất sát England cùng Croatia.",
+      "subtitle": "Full-time ở Toronto, Ghana hòa Panama 0-0. Trận đấu lúc 06:00 theo giờ Việt Nam khép lại trong cơn mưa, với ít cơ hội rõ ràng và một điểm khiến cả hai đội vẫn phải nhìn rất sát England cùng Croatia.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group L - Matchday 1",
+      "venue": "Toronto Stadium",
+      "date": "18/06/2026",
+      "time": "06:00 VN",
+      "minute": "FT",
+      "score": [
+        0,
+        0
+      ],
+      "teams": [
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        },
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "GHA",
+            "PAN"
+          ],
+          "score": [
+            0,
+            0
+          ],
+          "minute": "FT",
+          "label": "Toronto"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Group L Result",
+      "subtext": "Không ai bứt lên sau lượt mở màn",
+      "voiceText": "Bảng L sau lượt mở màn có England tạm dẫn, còn Ghana và Panama cùng giữ lại một điểm. Video này là phần chốt nhanh kết quả trận hòa không bàn thắng.",
+      "subtitle": "Bảng L sau lượt mở màn có England tạm dẫn, còn Ghana và Panama cùng giữ lại một điểm. Video này là phần chốt nhanh kết quả trận hòa không bàn thắng.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Result",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Ghana 0-0 Panama | 18/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình trận đấu",
+      "subtext": "Hai đội ưu tiên an toàn",
+      "voiceText": "Ghana đặt Ati Zigi trong khung gỗ, phía trên là Lamptey, Djiku, Salisu, Mensah, Partey, Kudus, Jordan Ayew, Inaki Williams và Semenyo. Panama giữ khối thấp với Mosquera, Murillo, Escobar, Cummings, Davis, Carrasquilla, Godoy, Barcenas, Quintero và Fajardo.",
+      "subtitle": "Ghana đặt Ati Zigi trong khung gỗ, phía trên là Lamptey, Djiku, Salisu, Mensah, Partey, Kudus, Jordan Ayew, Inaki Williams và Semenyo. Panama giữ khối thấp với Mosquera, Murillo, Escobar, Cummings, Davis, Carrasquilla, Godoy, Barcenas, Quintero và Fajardo.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "teams": [
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        },
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Ati Zigi",
+            "Lamptey",
+            "Djiku",
+            "Salisu",
+            "Mensah",
+            "Partey",
+            "Samed",
+            "Kudus",
+            "Jordan Ayew",
+            "Semenyo",
+            "Inaki Williams"
+          ]
+        },
+        "away": {
+          "formation": "5-4-1",
+          "players": [
+            "Mosquera",
+            "Murillo",
+            "Escobar",
+            "Cummings",
+            "Davis",
+            "Carrasquilla",
+            "Godoy",
+            "Barcenas",
+            "Quintero",
+            "Fajardo",
+            "Blackman"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Ati Zigi giữ lại một điểm",
+      "subtext": "Điểm sáng trong trận ít bàn",
+      "voiceText": "Lawrence Ati Zigi là cái tên đáng nhắc nhất bên phía Ghana. Những pha can thiệp của anh trong hiệp một giúp Ghana đứng vững, trước khi trận đấu trôi dần về thế bế tắc.",
+      "subtitle": "Lawrence Ati-Zigi là cái tên đáng nhắc nhất bên phía Ghana. Những pha can thiệp của anh trong hiệp một giúp Ghana đứng vững, trước khi trận đấu trôi dần về thế bế tắc.",
+      "duration": 7,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Lawrence Ati-Zigi",
+      "team": "Ghana",
+      "number": "1",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Kết quả",
+          "value": "0-0"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Giữ sạch lưới"
+        },
+        {
+          "label": "Điểm nhấn",
+          "value": "Cản phá hiệp 1"
+        },
+        {
+          "label": "Bảng L",
+          "value": "+1 điểm"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline: không có bàn thắng",
+      "subtext": "Càng đá càng chặt",
+      "voiceText": "Đầu trận, Panama cầm bóng nhiều hơn và buộc Ghana phải phòng ngự sâu. Giữa hiệp một, Ati Zigi có những pha xử lý quan trọng. Sang hiệp hai, hai đội thay người để tìm nhịp mới, nhưng full time vẫn là không không.",
+      "subtitle": "Đầu trận, Panama cầm bóng nhiều hơn và buộc Ghana phải phòng ngự sâu. Giữa hiệp một, Ati-Zigi có những pha xử lý quan trọng. Sang hiệp hai, hai đội thay người để tìm nhịp mới, nhưng full-time vẫn là 0-0.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "1'",
+          "title": "Kick-off",
+          "desc": "Ghana và Panama nhập cuộc thận trọng tại Toronto."
+        },
+        {
+          "minute": "25'",
+          "title": "Panama kiểm soát bóng",
+          "desc": "Panama luân chuyển nhiều, Ghana lùi sâu."
+        },
+        {
+          "minute": "HT",
+          "title": "0-0",
+          "desc": "Ati-Zigi là điểm tựa đáng chú ý của Ghana."
+        },
+        {
+          "minute": "70'",
+          "title": "Thay người tìm nhịp",
+          "desc": "Hai đội cố làm mới hàng công nhưng thiếu pha chốt hạ."
+        },
+        {
+          "minute": "FT",
+          "title": "Ghana 0-0 Panama",
+          "desc": "Bảng L có thêm một trận chia điểm."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Thông số kể chuyện bế tắc",
+      "subtext": "Kiểm soát có, đột biến ít",
+      "voiceText": "Điểm chung của trận này là hai đội đều thiếu pha xử lý cuối cùng. Panama có quãng kiểm soát bóng tốt hơn ở hiệp một, còn Ghana chỉ thật sự tăng tốc ở cuối trận nhưng không đủ để phá tỉ số.",
+      "subtitle": "Điểm chung của trận này là hai đội đều thiếu pha xử lý cuối cùng. Panama có quãng kiểm soát bóng tốt hơn ở hiệp một, còn Ghana chỉ thật sự tăng tốc ở cuối trận nhưng không đủ để phá tỉ số.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [
+        0,
+        0
+      ],
+      "teams": [
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        },
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát nhịp hiệp 1",
+              "home": 42,
+              "away": 58
+            },
+            {
+              "label": "Đột biến cuối trận",
+              "home": 55,
+              "away": 45
+            },
+            {
+              "label": "Hiệu quả dứt điểm",
+              "home": 35,
+              "away": 35
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng L sau lượt mở màn",
+      "subtext": "England dẫn, Ghana và Panama bám sau",
+      "voiceText": "Sau hai trận đầu bảng L, England có ba điểm, Ghana và Panama cùng một điểm, còn Croatia chưa có điểm. Trận hòa này khiến cả hai đội vẫn còn cửa, nhưng không đội nào được phép hụt hơi ở lượt kế tiếp.",
+      "subtitle": "Sau hai trận đầu bảng L, England có 3 điểm, Ghana và Panama cùng 1 điểm, còn Croatia chưa có điểm. Trận hòa này khiến cả hai đội vẫn còn cửa, nhưng không đội nào được phép hụt hơi ở lượt kế tiếp.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group L",
+      "highlightTeams": [
+        "Ghana",
+        "Panama"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": "England",
+          "played": 1,
+          "points": 3,
+          "gd": "+2",
+          "badgeSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "pos": 2,
+          "team": "Ghana",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        },
+        {
+          "pos": 3,
+          "team": "Panama",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        },
+        {
+          "pos": 4,
+          "team": "Croatia",
+          "played": 1,
+          "points": 0,
+          "gd": "-2",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Ghana và Panama chia điểm, vậy theo bạn ai còn cửa sáng hơn ở bảng L? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Ghana và Panama chia điểm, vậy theo bạn ai còn cửa sáng hơn ở bảng L? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số của bạn là gì?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

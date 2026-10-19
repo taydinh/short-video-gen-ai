@@ -1,0 +1,436 @@
+{
+  "title": "Na Uy 1-4 Pháp: Dembélé lập hat-trick lịch sử",
+  "slug": "norway-1-4-france-world-cup-result-2026-06-26",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "HAT-TRICK SIÊU TỐC CỦA DEMBÉLÉ!",
+      "subtext": "Na Uy 1-4 Pháp",
+      "subtitle": "Tuyển Pháp đè bẹp Na Uy 4-1 tại Bảng I World Cup 2026. Ousmane Dembélé rực sáng với cú hat-trick siêu tốc chỉ trong 32 phút, đưa Les Bleus bay cao.",
+      "voiceText": "Tuyển Pháp đè bẹp Na Uy bốn một tại bảng Y World Cup hai không hai sáu. Ousmane đem bê lê rực sáng với cú hat-trick siêu tốc chỉ trong ba mươi hai phút, đưa các chiến binh lam bay cao.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group Stage | Group I",
+      "venue": "Gillette Stadium",
+      "date": "27.06.2026",
+      "time": "02:00",
+      "teams": [
+        {
+          "name": "Na Uy",
+          "code": "NOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "form": ["W", "W", "L"]
+        },
+        {
+          "name": "Pháp",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "form": ["W", "W", "W"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7655815890306419989.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "Group Stage | Group I",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Norway 1-4 France | 27.06.2026",
+      "ctaLabel": "Full-time",
+      "subtitle": "Trận đấu phân định ngôi đầu Bảng I đã diễn ra vô cùng kịch tính với show diễn chói sáng của Ousmane Dembélé.",
+      "voiceText": "Trận đấu phân định ngôi đầu bảng Y đã diễn ra vô cùng kịch tính với show diễn chói sáng của đem bê lê.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Na Uy 1-4 Pháp",
+      "subtext": "Pháp khẳng định sức mạnh tuyệt đối",
+      "subtitle": "Full-time: Na Uy 1-4 Pháp. Ousmane Dembélé lập hat-trick ở các phút 7, 20, 32 và Désiré Doué ấn định tỉ số ở phút 90+4. Bàn duy nhất của Na Uy do Thelo Aasgaard ghi ở phút 21.",
+      "voiceText": "Full time, Na Uy một, Pháp bốn. Đem bê lê lập cú hat-trick siêu tốc trong hiệp một. Khoảnh khắc lóe sáng của át gát ở phút hai mươi mốt chỉ giúp Na Uy có bàn danh dự, trước khi đê xi rê đu ê đóng hòm trận đấu ở phút bù giờ.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [1, 4],
+      "teams": [
+        { "name": "Na Uy", "code": "NOR", "teamType": "national", "flagSrc": "assets/football/flags/norway.svg" },
+        { "name": "Pháp", "code": "FRA", "teamType": "national", "flagSrc": "assets/football/flags/france.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7655815890306419989.mp4",
+          "trim": {
+            "start": 55,
+            "end": 61
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Hiệp 1 bùng nổ",
+          "videoDescription": "Dembélé lập cú đúp siêu chớp nhoáng",
+          "videoVolume": 0
+        },
+        { "type": "football-scorebug", "teams": ["NOR", "FRA"], "score": [1, 4], "minute": "FT", "label": "Foxborough" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "Pháp xuất phát với đội hình mạnh gồm Mbappé, Dembélé và Olise; Na Uy xoay tua tới 10 vị trí, cất cả Erling Haaland lẫn Ødegaard trên ghế dự bị.",
+      "voiceText": "Pháp xuất phát với đội hình cực mạnh, em pa bê mang băng đội trưởng, sát cánh cùng đem bê lê và ô li sê, trong sơ đồ bốn hai ba một. Na Uy xoay tua tới mười vị trí, cất cả hà lan lẫn ốt đơ gát, trên ghế dự bị và chơi với sơ đồ bốn ba ba.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Gillette Stadium",
+      "teams": [
+        { "name": "Na Uy", "code": "NOR", "teamType": "national", "flagSrc": "assets/football/flags/norway.svg" },
+        { "name": "Pháp", "code": "FRA", "teamType": "national", "flagSrc": "assets/football/flags/france.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Egil Selvik",
+            "Fredrik Aursnes",
+            "Leo Østigård",
+            "Henrik Falchener",
+            "Fredrik Bjørkan",
+            "Thelo Aasgaard",
+            "Patrick Berg",
+            "Kristian Thorstvedt",
+            "Oscar Bobb",
+            "Jørgen Strand Larsen",
+            "Andreas Schjelderup"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Mike Maignan",
+            "Jules Koundé",
+            "Dayot Upamecano",
+            "Maxence Lacroix",
+            "Théo Hernández",
+            "Manu Koné",
+            "Aurélien Tchouaméni",
+            "Ousmane Dembélé",
+            "Michael Olise",
+            "Désiré Doué",
+            "Kylian Mbappé"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7655815890306419989.mp4",
+          "trim": {
+            "start": 8,
+            "end": 15
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Đội hình tuyển Pháp",
+          "videoDescription": "Mbappé mang băng đội trưởng dẫn dắt",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Ousmane Dembélé rực sáng",
+      "subtext": "Hat-trick lịch sử sau 32 phút",
+      "subtitle": "Ousmane Dembélé lập hat-trick ở các phút 7, 20 và 32, trở thành cầu thủ ghi hat-trick nhanh thứ hai lịch sử World Cup.",
+      "voiceText": "Đem bê lê là ngôi sao sáng nhất trận. Chỉ mất ba mươi hai phút hiệp một, anh đã hoàn thành cú hat-trick siêu hạng với những pha dứt điểm hiểm hóc và cú cứa lòng bằng chân trái thương hiệu.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Ousmane Dembélé",
+      "team": "Pháp",
+      "number": "7",
+      "playerImageUrl": "https://photo.znews.vn/w660/Uploaded/anqyy/2026_06_27/dembele_1.jpeg",
+      "stats": [
+        { "label": "Bàn thắng", "value": "3" },
+        { "label": "Thời gian hat-trick", "value": "32 phút" },
+        { "label": "Kiến tạo từ Mbappé", "value": "3" },
+        { "label": "Cú sút", "value": "5" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7655815890306419989.mp4",
+          "trim": {
+            "start": 105,
+            "end": 112
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Ousmane Dembélé",
+          "videoDescription": "Cú hat-trick siêu hạng trong hiệp một",
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Từ hat-trick siêu tốc tới penalty hỏng ăn",
+      "subtitle": "Dembélé lập hat-trick ở phút 7, 20, 32; Aasgaard rút ngắn 1-2 ở phút 21; Strand Larsen sút hỏng penalty ở phút 50; Doué ghi bàn phút 90+4.",
+      "voiceText": "Dẫn trước hai không, Pháp để át gát rút ngắn tỷ số ở phút hai mươi mốt. Nhưng chỉ mười một phút sau, đem bê lê tái lập cách biệt hai bàn. Sang hiệp hai, lát xen bỏ lỡ cơ hội vàng trên chấm phạt đền ở phút năm mươi, dập tắt mọi hy vọng lội ngược dòng của Na Uy.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "7'", "title": "1-0: Ousmane Dembélé", "desc": "Mbappé chuyền bóng thuận lợi, Dembélé dứt điểm chéo góc mở tỉ số." },
+        { "minute": "20'", "title": "2-0: Ousmane Dembélé", "desc": "Dembélé thực hiện cú cứa lòng chân trái đẳng cấp nhân đôi cách biệt." },
+        { "minute": "21'", "title": "2-1: Thelo Aasgaard", "desc": "Aasgaard tận dụng cơ hội rút ngắn tỉ số chớp nhoáng cho Na Uy." },
+        { "minute": "32'", "title": "3-1: Ousmane Dembélé", "desc": "Dembélé hoàn tất cú hat-trick lịch sử ngay trong hiệp một." },
+        { "minute": "50'", "title": "Larsen hỏng penalty", "desc": "Jørgen Strand Larsen bỏ lỡ quả phạt đền ngon ăn đầu hiệp hai." },
+        { "minute": "90+4'", "title": "4-1: Désiré Doué", "desc": "Tài năng trẻ vào sân thay người lập công ấn định chiến thắng cho Pháp." }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7655815890306419989.mp4",
+          "trim": {
+            "start": 238,
+            "end": 247
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Bỏ lỡ penalty",
+          "videoDescription": "Larsen không thắng được Mike Maignan",
+          "videoVolume": 0
+        },
+        { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Pháp làm chủ thế trận",
+      "subtext": "18 cú sút, 9 lần trúng đích, 57% kiểm soát bóng",
+      "subtitle": "Pháp kiểm soát bóng 57%, tung ra 18 cú sút với 9 lần trúng đích. Na Uy có 10 cú sút và 4 lần trúng đích.",
+      "voiceText": "Pháp hoàn toàn áp đảo với năm mươi bảy phần trăm kiểm soát bóng, tung ra mười tám cú sút và chín lần trúng đích. Dù thiếu vắng hà lan, Na Uy cũng có mười cú sút, nhưng sự sắc bén là điều họ còn thiếu.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [1, 4],
+      "teams": [
+        { "name": "Na Uy", "code": "NOR", "teamType": "national", "flagSrc": "assets/football/flags/norway.svg" },
+        { "name": "Pháp", "code": "FRA", "teamType": "national", "flagSrc": "assets/football/flags/france.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 43, "away": 57, "unit": "%" },
+            { "label": "Tổng cú sút", "home": 10, "away": 18 },
+            { "label": "Sút trúng đích", "home": 4, "away": 9 },
+            { "label": "Phạt góc", "home": 4, "away": 5 },
+            { "label": "Cứu thua", "home": 5, "away": 3 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện Bảng I",
+      "subtext": "Pháp và Na Uy dắt tay nhau đi tiếp",
+      "subtitle": "Kết thúc vòng bảng, Pháp dẫn đầu Bảng I với 9 điểm tuyệt đối. Na Uy đứng thứ hai với 6 điểm. Cả hai cùng giành vé vào vòng 32 đội.",
+      "voiceText": "Với chiến thắng này, Pháp giành ngôi nhất bảng Y với chín điểm tuyệt đối. Na Uy đứng nhì bảng với sáu điểm và hai đội cùng dắt tay nhau vào vòng ba mươi hai đội. Đóng góp cuối cùng thuộc về đê xi rê đu ê ở phút bù giờ cuối cùng.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG I",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG I"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["FRA", "NOR"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Pháp", "code": "FRA", "teamType": "national", "flagSrc": "assets/football/flags/france.svg" }, "played": 3, "wins": 3, "draws": 0, "losses": 0, "gf": 10, "ga": 2, "gd": 8, "pts": 9 },
+        { "rank": 2, "team": { "name": "Na Uy", "code": "NOR", "teamType": "national", "flagSrc": "assets/football/flags/norway.svg" }, "played": 3, "wins": 2, "draws": 0, "losses": 1, "gf": 8, "ga": 7, "gd": 1, "pts": 6 },
+        { "rank": 3, "team": { "name": "Senegal", "code": "SEN", "teamType": "national", "flagSrc": "assets/football/flags/senegal.svg" }, "played": 3, "wins": 1, "draws": 0, "losses": 2, "gf": 8, "ga": 6, "gd": 2, "pts": 3 },
+        { "rank": 4, "team": { "name": "Iraq", "code": "IRQ", "teamType": "national", "flagSrc": "assets/football/flags/iraq.svg" }, "played": 3, "wins": 0, "draws": 0, "losses": 3, "gf": 2, "ga": 13, "gd": -11, "pts": 0 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7655815890306419989.mp4",
+          "trim": {
+            "start": 297,
+            "end": 304
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Désiré Doué lập công",
+          "videoDescription": "Ấn định chiến thắng 4-1 cho Les Bleus",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dembélé hay Mbappé?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Theo bạn, Ousmane Dembélé hay Kylian Mbappé mới là nhân tố quan trọng nhất của tuyển Pháp tại giải đấu năm nay?",
+      "voiceText": "Theo bạn, đem bê lê hay em pa bê mới là nhân tố quan trọng nhất của tuyển Pháp tại giải đấu năm nay? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Ai là nhân tố quan trọng nhất của tuyển Pháp?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Pháp",
+          "World Cup 2026",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 4.8 }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 Group I France vs Norway Match Report",
+      "url": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026/matches/france-norway"
+    },
+    {
+      "name": "Al Jazeera: Dembele scores fastest hat-trick as France beat Norway 4-1",
+      "url": "https://www.aljazeera.com/sports/2026/6/26/france-norway-world-cup-dembele-hat-trick"
+    },
+    {
+      "name": "New York Soccer Journal: France dominates Norway at Gillette Stadium",
+      "url": "https://www.nysoccerjournal.com/france-norway-world-cup-2026-recap"
+    },
+    {
+      "name": "Wikimedia Commons: Ousmane Dembélé portrait",
+      "url": "https://commons.wikimedia.org/wiki/File:Ousmane_Demb%C3%A9l%C3%A9_2018.jpg"
+    }
+  ]
+}

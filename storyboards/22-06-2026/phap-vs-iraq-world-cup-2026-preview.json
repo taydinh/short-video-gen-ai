@@ -1,0 +1,505 @@
+{
+  "title": "Pháp vs Iraq: Sức mạnh vượt trội hay địa chấn từ Trung Đông?",
+  "slug": "phap-vs-iraq-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Pháp gặp Iraq ở bảng I World Cup 2026, quy đổi giờ Việt Nam là 04:00 ngày 23/06/2026. Lời đọc bảng I chuyển thành bảng Y và Iraq chuyển thành Y Rắc để TTS đọc ổn định.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "ESPN - 2026 FIFA World Cup fixtures, results, match schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Pháp vs Iraq",
+      "subtext": "Cơ hội sớm đi tiếp của Les Bleus",
+      "voiceText": "Pháp gặp Y Rắc lúc bốn giờ sáng ngày hai mươi ba tháng sáu theo giờ Việt Nam. Đây là lượt trận thứ hai bảng Y World Cup hai không hai sáu, nơi gà trống gô-loa đặt mục tiêu sớm giành vé đi tiếp.",
+      "subtitle": "Pháp gặp Iraq lúc 04:00 ngày 23/06 theo giờ Việt Nam. Đây là lượt trận thứ hai bảng I World Cup 2026, nơi Gà trống Gaulois đặt mục tiêu sớm giành vé đi tiếp.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group I - Matchday 2",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "date": "23/06/2026",
+      "time": "04:00 VN",
+      "teams": [
+        {
+          "name": "Pháp",
+          "code": "FRA",
+          "form": "Thắng 3-1",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg"
+        },
+        {
+          "name": "Iraq",
+          "code": "IRQ",
+          "form": "Thua 1-4",
+          "flagSrc": "assets/football/flags/iraq.svg",
+          "badgeSrc": "assets/football/flags/iraq.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Cơ hội bứt phá bảng I",
+      "subtext": "Pháp, Iraq, Senegal và Na Uy",
+      "voiceText": "Cục diện bảng Y đang nóng dần. Một chiến thắng nữa sẽ giúp tuyển Pháp xây chắc ngôi đầu và sớm ghi tên mình vào vòng knock-out.",
+      "subtitle": "Cục diện bảng I đang nóng dần. Một chiến thắng nữa sẽ giúp tuyển Pháp xây chắc ngôi đầu và sớm ghi tên mình vào vòng knock-out.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group I Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Pháp xoay tua lực lượng, Iraq chơi phòng ngự",
+      "voiceText": "Huấn luyện viên Đê-cham có thể trao cơ hội cho Bar-cô-la đá chính ngay từ đầu cùng với em pa bê và đem bê lê. Trong khi đó, Y Rắc dự kiến sẽ sử dụng sơ đồ bốn bốn hai để hạn chế khoảng trống trước hàng công rất mạnh của Pháp.",
+      "subtitle": "Huấn luyện viên Deschamps có thể trao cơ hội cho Barcola đá chính ngay từ đầu cùng với Mbappé và Dembélé. Trong khi đó, Iraq dự kiến sẽ sử dụng sơ đồ 4-4-2 để hạn chế khoảng trống trước hàng công rất mạnh của Pháp.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Pháp",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg"
+        },
+        {
+          "name": "Iraq",
+          "code": "IRQ",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/iraq.svg",
+          "badgeSrc": "assets/football/flags/iraq.svg"
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Pháp",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/france.svg",
+          "players": [
+            "Maignan",
+            "Koundé",
+            "Saliba",
+            "Upamecano",
+            "Theo Hernandez",
+            "Tchouaméni",
+            "Rabiot",
+            "Griezmann",
+            "Dembélé",
+            "Mbappé",
+            "Barcola"
+          ]
+        },
+        {
+          "team": "Iraq",
+          "formation": "4-4-2",
+          "flagSrc": "assets/football/flags/iraq.svg",
+          "players": [
+            "Jalal Hassan",
+            "Hussein Ali",
+            "Saad Natiq",
+            "Rebin Sulaka",
+            "Merchas Doski",
+            "Ibrahim Bayesh",
+            "Amir Al-Ammari",
+            "Osama Rashid",
+            "Ali Jasim",
+            "Aymen Hussein",
+            "Ali Al-Hamadi"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Lượt mở màn bảng I",
+      "voiceText": "Ở lượt trận ra quân, Pháp có chiến thắng thuyết phục ba một trước Senegal nhờ cú đúp của em pa bê. Ngược lại, Y Rắc để thua Na Uy một bốn và bộc lộ rất nhiều lỗ hổng trong sơ đồ phòng ngự.",
+      "subtitle": "Ở lượt trận ra quân, Pháp có chiến thắng thuyết phục 3-1 trước Senegal nhờ cú đúp của Mbappé. Ngược lại, Iraq để thua Na Uy 1-4 và bộc lộ rất nhiều lỗ hổng trong sơ đồ phòng ngự.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Pháp",
+      "awayTeam": "Iraq",
+      "teams": [
+        {
+          "name": "Pháp",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg"
+        },
+        {
+          "name": "Iraq",
+          "code": "IRQ",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/iraq.svg",
+          "badgeSrc": "assets/football/flags/iraq.svg"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "17/06/2026",
+          "home": "Pháp",
+          "away": "Senegal",
+          "score": "3-1",
+          "note": "Pháp thắng thuyết phục",
+          "homeBadgeSrc": "assets/football/flags/france.svg",
+          "awayBadgeSrc": "assets/football/flags/senegal.svg"
+        },
+        {
+          "date": "17/06/2026",
+          "home": "Iraq",
+          "away": "Na Uy",
+          "score": "1-4",
+          "note": "Iraq thua đậm",
+          "homeBadgeSrc": "assets/football/flags/iraq.svg",
+          "awayBadgeSrc": "assets/football/flags/norway.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Phong độ Pháp",
+          "value": "Thắng 3-1"
+        },
+        {
+          "label": "Phong độ Iraq",
+          "value": "Thua 1-4"
+        },
+        {
+          "label": "Dự đoán",
+          "value": "Pháp thắng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Sức ép tấn công",
+              "home": 85,
+              "away": 45
+            },
+            {
+              "label": "Cơ hội đi tiếp",
+              "home": 92,
+              "away": 25
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Ngăn chặn Mbappé",
+      "subtext": "Nhiệm vụ bất khả thi của Iraq",
+      "voiceText": "Khóa chặt em pa bê lúc này là bất khả thi. Y Rắc buộc phải chơi thu hẹp cự ly đội hình tối đa để không cho tiền đạo Pháp có khoảng trống bứt tốc.",
+      "subtitle": "Khóa chặt Mbappé lúc này là bất khả thi. Iraq buộc phải chơi thu hẹp cự ly đội hình tối đa để không cho tiền đạo Pháp có khoảng trống bứt tốc.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Khóa chặt Mbappé lúc này là bất khả thi. Iraq buộc phải chơi thu hẹp cự ly đội hình tối đa để không cho tiền đạo Pháp có khoảng trống tăng tốc.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng I sau lượt đầu",
+      "subtext": "Pháp bám đuổi Na Uy",
+      "voiceText": "Na Uy đang tạm dẫn đầu bảng Y nhờ hiệu số tốt hơn Pháp. Một chiến thắng trước Y Rắc sẽ giúp tuyển Pháp tiến gần hơn tới tấm vé đi tiếp, trong khi Y Rắc cần chắt chiu cơ hội nếu không muốn sớm dừng bước.",
+      "subtitle": "Na Uy đang tạm dẫn đầu bảng I nhờ hiệu số tốt hơn Pháp. Một chiến thắng trước Iraq sẽ giúp tuyển Pháp tiến gần hơn tới tấm vé đi tiếp, trong khi Iraq cần chắt chiu cơ hội nếu không muốn sớm dừng bước.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group I",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "Trận đấu",
+        "Đội hình",
+        "Thống kê",
+        "Bảng xếp hạng"
+      ],
+      "highlightTeams": [
+        "Pháp",
+        "Iraq"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "rank": 1,
+          "position": 1,
+          "team": {
+            "name": "Na Uy",
+            "code": "NOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/norway.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 1,
+          "won": 1,
+          "w": 1,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 3,
+          "points": 3
+        },
+        {
+          "pos": 2,
+          "rank": 2,
+          "position": 2,
+          "team": {
+            "name": "Pháp",
+            "code": "FRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/france.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 1,
+          "won": 1,
+          "w": 1,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3,
+          "points": 3,
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "rank": 3,
+          "position": 3,
+          "team": {
+            "name": "Senegal",
+            "code": "SEN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/senegal.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 1,
+          "lost": 1,
+          "l": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "pts": 0,
+          "points": 0
+        },
+        {
+          "pos": 4,
+          "rank": 4,
+          "position": 4,
+          "team": {
+            "name": "Iraq",
+            "code": "IRQ",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/iraq.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 1,
+          "lost": 1,
+          "l": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "pts": 0,
+          "points": 0,
+          "highlight": true
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Bình luận bên dưới",
+      "voiceText": "Bạn dự đoán Pháp sẽ thắng cách biệt bao nhiêu bàn trước Y Rắc? Hãy để lại bình luận phía dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Pháp sẽ thắng cách biệt bao nhiêu bàn trước Iraq? Hãy để lại bình luận phía dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Pháp thắng cách biệt mấy bàn?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Pháp",
+          "Iraq"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "title": "Bờ Biển Ngà vs Na Uy: Voi chiến gặp máy săn bàn Haaland",
+  "slug": "cote-divoire-vs-norway-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Bờ Biển Ngà vs Na Uy tại vòng 32 đội World Cup 2026, diễn ra lúc 00:00 ngày 01/07/2026 theo giờ Việt Nam tại Dallas Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Côte d'Ivoire v Norway World Cup Round of 32 match preview",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cote-divoire-norway-live-stream-team-news-tickets"
+    },
+    {
+      "title": "FOX Sports - 2026 World Cup schedule and results",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    },
+    {
+      "title": "FOX Sports - Brazil next World Cup opponent",
+      "url": "https://www.foxsports.com/stories/soccer/brazil-next-world-cup-opponent-path-to-final"
+    },
+    {
+      "title": "Sports Mole - Ivory Coast vs Norway prediction, team news and lineups",
+      "url": "https://www.sportsmole.co.uk/football/ivory-coast/world-cup-2026/preview/ivory-coast-vs-norway-prediction-team-news-lineups_600294.html"
+    },
+    {
+      "title": "RotoWire - Ivory Coast vs Norway predicted lineups and tactical analysis",
+      "url": "https://www.rotowire.com/soccer/article/ivory-coast-vs-norway-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120216"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "BỜ BIỂN NGÀ VS NA UY",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Không giờ, ngày mùng một tháng bảy theo giờ Việt Nam, Bờ Biển Ngà gặp Na Uy tại Dallas Stadium. Một bên là Voi chiến lần đầu vào vòng knock-out World Cup, một bên là Na Uy có Ha Lan đứng trước khung thành như cái thông báo thanh toán: ít vui nhưng rất khó tránh.",
+      "subtitle": "00:00 ngày 01/07 theo giờ Việt Nam, Bờ Biển Ngà gặp Na Uy tại Dallas Stadium. Một bên là Voi chiến lần đầu vào vòng knock-out World Cup, một bên là Na Uy có Haaland đứng trước khung thành như cái thông báo thanh toán: ít vui nhưng rất khó tránh.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#F77F00",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Dallas Stadium",
+      "date": "01/07/2026",
+      "time": "00:00 VN",
+      "teams": [
+        {
+          "name": "Côte d'Ivoire",
+          "code": "CIV",
+          "teamType": "national",
+          "form": ["W", "L", "W"],
+          "flagSrc": "assets/football/flags/cote-divoire.svg",
+          "badgeSrc": "assets/football/flags/cote-divoire.svg"
+        },
+        {
+          "name": "Norway",
+          "code": "NOR",
+          "teamType": "national",
+          "form": ["W", "W", "L"],
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Knockout: sai một nhịp là xách vali",
+      "voiceText": "Bờ Biển Ngà đi tiếp sau khi xếp nhì bảng E, còn Na Uy vượt qua bảng I nhờ hai chiến thắng đầu cực bốc, trước khi cất vài trụ cột ở trận gặp Pháp.",
+      "subtitle": "Bờ Biển Ngà đi tiếp sau khi xếp nhì bảng E, còn Na Uy vượt qua bảng I nhờ hai chiến thắng đầu cực bốc, trước khi cất vài trụ cột ở trận gặp Pháp.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#F77F00",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Côte d'Ivoire vs Norway | 01/07/2026 VN",
+      "ctaLabel": "Kickoff 00:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Diomande, Pepe đấu Haaland, Ødegaard",
+      "voiceText": "Bờ Biển Ngà dự kiến đá sơ đồ bốn một bốn một, với Fofana trong khung gỗ, Kossounou và Diomande án ngữ trung tâm, Kessie kéo nhịp tuyến giữa, còn Yan Diomande và Pepe tạo tốc độ phía trên. Na Uy cũng thiên về bốn ba ba, Odegaard làm bộ não, Sorloth và Nusa kéo hai biên, còn Ha Lan chỉ cần nửa cơ hội là đủ làm hàng thủ toát mồ hôi.",
+      "subtitle": "Bờ Biển Ngà dự kiến đá sơ đồ 4-1-4-1, với Fofana trong khung gỗ, Kossounou và Diomande án ngữ trung tâm, Kessié kéo nhịp tuyến giữa, còn Yan Diomandé và Pépé tạo tốc độ phía trên. Na Uy cũng thiên về 4-3-3, Ødegaard làm bộ não, Sørloth và Nusa kéo hai biên, còn Haaland chỉ cần nửa cơ hội là đủ làm hàng thủ toát mồ hôi.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#F77F00",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Dallas Stadium",
+      "teams": [
+        {
+          "name": "Côte d'Ivoire",
+          "code": "CIV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cote-divoire.svg",
+          "badgeSrc": "assets/football/flags/cote-divoire.svg"
+        },
+        {
+          "name": "Norway",
+          "code": "NOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-1-4-1",
+          "players": [
+            "Fofana",
+            "Doue",
+            "Kossounou",
+            "O Diomande",
+            "Konan",
+            "Sangare",
+            "Diallo",
+            "Kessie",
+            "Oulai",
+            "Y Diomande",
+            "Pepe"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Nyland",
+            "Aursnes",
+            "Ajer",
+            "Heggem",
+            "Moller Wolfe",
+            "Odegaard",
+            "Berg",
+            "Berge",
+            "Sorloth",
+            "Haaland",
+            "Nusa"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & PHONG ĐỘ",
+      "subtext": "Na Uy nhỉnh hơn, nhưng Bờ Biển Ngà rất khó chịu",
+      "voiceText": "Về kèo chuyên môn, Na Uy nhỉnh hơn nhờ Ha Lan đang có bốn bàn ở giải này, nhưng Bờ Biển Ngà không phải đội chỉ biết phòng ngự chịu trận. Họ thắng Ecuador một không, thua Đức hai một, trong thế trận có lúc làm cửa trên đứng hình, rồi hạ Curaçao hai không. Nói gọn: Na Uy sáng cửa, nhưng ai all-in cảm xúc thì nên để não cầm chìa khóa ví.",
+      "subtitle": "Về kèo chuyên môn, Na Uy nhỉnh hơn nhờ Haaland đang có 4 bàn ở giải này, nhưng Bờ Biển Ngà không phải đội chỉ biết phòng ngự chịu trận. Họ thắng Ecuador 1-0, thua Đức 2-1 trong thế trận có lúc làm cửa trên đứng hình, rồi hạ Curaçao 2-0. Nói gọn: Na Uy sáng cửa, nhưng ai all-in cảm xúc thì nên để não cầm chìa khóa ví.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#F77F00",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Côte d'Ivoire",
+          "code": "CIV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cote-divoire.svg",
+          "badgeSrc": "assets/football/flags/cote-divoire.svg"
+        },
+        {
+          "name": "Norway",
+          "code": "NOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Côte d'Ivoire", "Norway", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Có upset",
+            "x12": "Nhỉnh hơn",
+            "hdp": "Norway sáng nhưng không dễ ăn"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Tốc độ biên",
+            "x12": "Dồn bóng cho Haaland",
+            "hdp": "BTTS khá đáng bàn"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "Kessie, Diomande",
+            "x12": "Odegaard, Haaland",
+            "hdp": "Trung lộ quyết định nhịp trận"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "25/06/2026",
+          "competition": "World Cup",
+          "home": "Curaçao",
+          "away": "Côte d'Ivoire",
+          "score": "0-2",
+          "homeBadgeSrc": "assets/football/flags/curacao.svg",
+          "awayBadgeSrc": "assets/football/flags/cote-divoire.svg"
+        },
+        {
+          "kickoff": "22/06/2026",
+          "competition": "World Cup",
+          "home": "Norway",
+          "away": "Senegal",
+          "score": "3-2",
+          "homeBadgeSrc": "assets/football/flags/norway.svg",
+          "awayBadgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Sức ép tấn công dự kiến",
+              "home": 48,
+              "away": 52
+            },
+            {
+              "label": "Nguy cơ phản công",
+              "home": 53,
+              "away": 47
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng",
+      "subtext": "Kessie khóa nhịp hay Ødegaard mở két?",
+      "quote": "Bờ Biển Ngà cần kéo trận đấu về tốc độ va chạm và chuyển trạng thái. Na Uy thì cần một đường chuyền đúng nhịp cho Haaland, vì với anh này, cơ hội nhỏ đôi khi vẫn hóa đơn bàn thua rất to.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng nằm ở tuyến giữa. Nếu Kessie và Sangare bóp được khoảng trống trước vòng cấm, Bờ Biển Ngà có đất để phản công. Nhưng nếu Odegaard được quay người thoải mái, bóng sẽ tìm đến Ha Lan nhanh hơn cách người yêu cũ trở mặt.",
+      "subtitle": "Điểm nóng nằm ở tuyến giữa. Nếu Kessié và Sangaré bóp được khoảng trống trước vòng cấm, Bờ Biển Ngà có đất để phản công. Nhưng nếu Ødegaard được quay người thoải mái, bóng sẽ tìm đến Haaland nhanh hơn cách người yêu cũ trở mặt.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#F77F00",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng sẽ gặp Brazil lúc 03:00 ngày 06/07 VN",
+      "voiceText": "Nhánh này đã có Brazil chờ sẵn, sau trận thắng Nhật Bản hai một đêm qua. Đội nào thắng trận này, sẽ gặp Brazil ở vòng mười sáu đội, lúc ba giờ sáng, ngày mùng sáu tháng bảy theo giờ Việt Nam. Thắng trận này là qua cửa một, rồi ngay lập tức thấy Brazil đứng ở cửa hai",
+      "subtitle": "Nhánh này đã có Brazil chờ sẵn, sau trận thắng Nhật Bản 2-1 đêm qua. Đội nào thắng trận này, sẽ gặp Brazil ở vòng 16 đội, lúc 03:00 ngày 06/07 theo giờ Việt Nam. Thắng trận này là qua cửa một, rồi ngay lập tức thấy Brazil đứng ở cửa hai",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#F77F00",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Brazil",
+          "away": "Japan",
+          "score": "2-1",
+          "note": "Brazil đã vào vòng 16 đội",
+          "homeBadgeSrc": "assets/football/flags/brazil.svg",
+          "awayBadgeSrc": "assets/football/flags/japan.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Brazil",
+          "away": "Winner Côte d'Ivoire/Norway",
+          "score": "03:00 06/07 VN",
+          "note": "New York New Jersey Stadium | Đội thắng Bờ Biển Ngà vs Na Uy",
+          "homeBadgeSrc": "assets/football/flags/brazil.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Voi chiến tạo sốc hay Haaland mở khóa?",
+      "voiceText": "Theo bạn, Bờ Biển Ngà đủ lực kéo Na Uy vào một trận đấu cực khó chịu, hay Ha Lan lại gõ cửa bảng tỉ số như đi thu tiền điện? Bình luận tỉ số và nhận định kèo nhẹ nhàng của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Bờ Biển Ngà đủ lực kéo Na Uy vào một trận đấu cực khó chịu, hay Haaland lại gõ cửa bảng tỉ số như đi thu tiền điện? Bình luận tỉ số và nhận định kèo nhẹ nhàng của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#F77F00",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Bờ Biển Ngà vs Na Uy",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Côte d'Ivoire",
+          "Norway",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

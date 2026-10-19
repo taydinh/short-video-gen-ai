@@ -1,0 +1,429 @@
+{
+  "title": "Tây Ban Nha vs Ả Rập Saudi: Preview World Cup 2026",
+  "slug": "spain-vs-saudi-arabia-world-cup-2026-preview",
+  "totalDuration": 43,
+  "summary": {
+    "preset": "Preset Football Preview",
+    "imageNotes": [
+      "Không dùng ảnh cầu thủ hoặc ảnh bài viết vì chưa tìm được nguồn ảnh phù hợp."
+    ]
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Tây Ban Nha vs Ả Rập Saudi",
+      "subtext": "Bảng H | 23:00 UTC+7",
+      "voiceText": "Tây Ban Nha gặp Ả Rập Saudi lúc 23 giờ 00 ngày hai mươi mốt tháng sáu, theo giờ Việt Nam, tại Atlanta Stadium, USA.",
+      "subtitle": "Tây Ban Nha gặp Ả Rập Saudi lúc 23:00 ngày hai mươi mốt tháng sáu, theo giờ Việt Nam, tại Atlanta Stadium, USA.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng H",
+      "venue": "Atlanta Stadium, USA",
+      "date": "21.06.2026",
+      "time": "23:00",
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "competitionLabel": "Bảng H Preview",
+      "seasonLabel": "Vòng bảng",
+      "ctaLabel": "Kickoff 23:00 UTC+7",
+      "voiceText": "Đây là trận đấu Bảng H của World Cup hai không hai sáu, nơi cả hai đội đều cần điểm cho cuộc đua đi tiếp.",
+      "subtitle": "Đây là trận đấu Bảng H của World Cup 2026, nơi cả hai đội đều cần điểm cho cuộc đua đi tiếp.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Mỗi đội đủ 11 cầu thủ",
+      "voiceText": "Đội hình dự kiến được bố trí theo sơ đồ bốn ba ba. Tây Ban Nha và Ả Rập Saudi đều có thể ưu tiên bộ khung giàu kinh nghiệm.",
+      "subtitle": "Đội hình dự kiến được bố trí theo sơ đồ 4-3-3. Tây Ban Nha và Ả Rập Saudi đều có thể ưu tiên bộ khung giàu kinh nghiệm.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Unai Simón",
+            "Pedro Porro",
+            "Robin Le Normand",
+            "Pau Cubarsí",
+            "Marc Cucurella",
+            "Rodri",
+            "Pedri",
+            "Dani Olmo",
+            "Lamine Yamal",
+            "Nico Williams",
+            "Mikel Oyarzabal"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Nawaf Al-Aqidi",
+            "Saud Abdulhamid",
+            "Hassan Tambakti",
+            "Ali Al-Bulaihi",
+            "Yasser Al-Shahrani",
+            "Mohamed Kanno",
+            "Nasser Al-Dawsari",
+            "Salem Al-Dawsari",
+            "Musab Al-Juwayr",
+            "Ayman Yahya",
+            "Firas Al-Buraikan"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Dùng thay H2H trực tiếp",
+      "voiceText": "Hai đội chưa có dữ liệu đối đầu đáng tin cậy gần đây, nên hãy nhìn vào kết quả gần nhất: Spain 0-0 Cabo Verde, và Saudi Arabia 1-1 Uruguay.",
+      "subtitle": "Hai đội chưa có dữ liệu đối đầu đáng tin cậy gần đây, nên hãy nhìn vào kết quả gần nhất: Spain 0-0 Cabo Verde, và Saudi Arabia 1-1 Uruguay.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": [
+          "Đội",
+          "Trận gần nhất",
+          "Kết quả"
+        ],
+        "rows": [
+          {
+            "teamName": "Spain",
+            "scoreText": "0-0",
+            "htHdp": "Trận gần nhất của Tây Ban Nha"
+          },
+          {
+            "teamName": "Saudi Arabia",
+            "scoreText": "1-1",
+            "htHdp": "Trận gần nhất của Ả Rập Saudi"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "date": "15/06/2026",
+          "home": "Spain",
+          "away": "Cabo Verde",
+          "score": "0-0",
+          "note": "Trận gần nhất của Tây Ban Nha",
+          "homeBadgeSrc": "assets/football/flags/spain.svg",
+          "awayBadgeSrc": "assets/football/flags/cabo-verde.svg"
+        },
+        {
+          "date": "16/06/2026",
+          "home": "Saudi Arabia",
+          "away": "Uruguay",
+          "score": "1-1",
+          "note": "Trận gần nhất của Ả Rập Saudi",
+          "homeBadgeSrc": "assets/football/flags/saudi-arabia.svg",
+          "awayBadgeSrc": "assets/football/flags/uruguay.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Trận đấu sẽ được định đoạt bởi chất lượng ở tuyến giữa và khả năng tận dụng cơ hội.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng nằm ở khả năng kiểm soát tuyến giữa và tận dụng cơ hội. Đội giữ được cự ly tốt hơn sẽ có lợi thế.",
+      "subtitle": "Điểm nóng nằm ở khả năng kiểm soát tuyến giữa và tận dụng cơ hội. Đội giữ được cự ly tốt hơn sẽ có lợi thế.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện Bảng H",
+      "subtext": "Trước trận",
+      "voiceText": "Cục diện Bảng H vẫn rất mở. Một chiến thắng ở lượt này có thể tạo khác biệt lớn trước vòng cuối.",
+      "subtitle": "Cục diện Bảng H vẫn rất mở. Một chiến thắng ở lượt này có thể tạo khác biệt lớn trước vòng cuối.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "BẢNG XẾP HẠNG"
+      ],
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "ESP",
+        "KSA"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Spain",
+            "code": "ESP",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/spain.svg"
+          },
+          "played": 1,
+          "pts": 1
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Saudi Arabia",
+            "code": "KSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/saudi-arabia.svg"
+          },
+          "played": 1,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Uruguay",
+            "code": "URU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uruguay.svg"
+          },
+          "played": 1,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Cabo Verde",
+            "code": "CPV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cabo-verde.svg"
+          },
+          "played": 1,
+          "pts": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Méo bình luận",
+      "subtext": "Bạn dự đoán tỉ số trận Tây Ban Nha gặp Ả Rập Saudi là bao nhiêu?",
+      "voiceText": "Bạn dự đoán tỉ số trận Tây Ban Nha gặp Ả Rập Saudi là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán tỉ số trận Tây Ban Nha gặp Ả Rập Saudi là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Bạn dự đoán tỉ số trận Tây Ban Nha gặp Ả Rập Saudi là bao nhiêu?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 84,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESPN World Cup schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "name": "Sky Sports fixtures and latest results",
+      "url": "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    },
+    {
+      "name": "FIFA official schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums"
+    }
+  ]
+}

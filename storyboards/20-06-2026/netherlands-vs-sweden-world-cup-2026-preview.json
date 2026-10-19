@@ -1,0 +1,423 @@
+{
+  "title": "Hà Lan vs Thụy Điển | Preview World Cup 2026",
+  "slug": "netherlands-vs-sweden-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+    "https://furamavietnam.com/the-full-schedule-of-all-104-matches-in-the-2026-world-cup-updated-in-vietnam-time-latest-update/"
+  ],
+  "summary": "Preview Hà Lan vs Thụy Điển, 00:00 21/06/2026 (UTC+7). Không dùng ảnh bài viết/cầu thủ.",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "type": "intro",
+      "composition": "football-match-card",
+      "duration": 6,
+      "startTime": 0,
+      "voiceText": "Hà Lan gặp Thụy Điển, lúc không giờ, ngày hai mươi mốt tháng sáu theo giờ Việt Nam. Thụy Điển có lợi thế sau chiến thắng đậm ở lượt đầu.",
+      "subtitle": "Hà Lan gặp Thụy Điển, lúc 00:00, ngày 21/06/2026 theo giờ Việt Nam. Thụy Điển có lợi thế sau chiến thắng đậm ở lượt đầu.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Hà Lan vs Thụy Điển",
+      "subtext": "Bảng F • Houston Stadium",
+      "teams": [
+        {
+          "name": "Hà Lan",
+          "shortName": "NET",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg",
+          "form": "D"
+        },
+        {
+          "name": "Thụy Điển",
+          "shortName": "SWE",
+          "flagSrc": "assets/football/flags/sweden.svg",
+          "badgeSrc": "assets/football/flags/sweden.svg",
+          "form": "W"
+        }
+      ],
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng F",
+      "venue": "Houston Stadium",
+      "date": "21/06/2026",
+      "time": "00:00",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "startTime": 6,
+      "voiceText": "World Cup hai không hai sáu, lượt hai bảng Ép, cuộc đua giành vé đi tiếp đang nóng lên.",
+      "subtitle": "World Cup 2026, lượt 2 Bảng F, cuộc đua giành vé đi tiếp đang nóng lên.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "WORLD CUP 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Bảng F Preview",
+      "seasonLabel": "Canada • Mexico • USA",
+      "ctaLabel": "00:00 • 21/06/2026 • UTC+7",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "startTime": 9,
+      "voiceText": "Hà Lan có thể dựa vào Bart Verbruggen, Virgil van Dijk, Frenkie de Jong, Cody Gakpo, Xavi Simons. Thụy Điển kỳ vọng ở Robin Olsen, Victor Lindelöf, Dejan Kulusevski, Alexander Isak, Viktor Gyökeres.",
+      "subtitle": "Hà Lan có thể dựa vào Bart Verbruggen, Virgil van Dijk, Frenkie de Jong, Cody Gakpo, Xavi Simons. Thụy Điển kỳ vọng ở Robin Olsen, Victor Lindelöf, Dejan Kulusevski, Alexander Isak, Viktor Gyökeres.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Đội hình dự kiến",
+      "competitionLabel": "Bảng F",
+      "venue": "Houston Stadium",
+      "teams": [
+        {
+          "name": "Hà Lan",
+          "shortName": "NET",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg",
+          "form": ""
+        },
+        {
+          "name": "Thụy Điển",
+          "shortName": "SWE",
+          "flagSrc": "assets/football/flags/sweden.svg",
+          "badgeSrc": "assets/football/flags/sweden.svg",
+          "form": ""
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Hà Lan",
+          "formation": "4-3-3",
+          "players": [
+            "Bart Verbruggen",
+            "Denzel Dumfries",
+            "Jan Paul van Hecke",
+            "Virgil van Dijk",
+            "Micky van de Ven",
+            "Frenkie de Jong",
+            "Ryan Gravenberch",
+            "Tijjani Reijnders",
+            "Cody Gakpo",
+            "Xavi Simons",
+            "Donyell Malen"
+          ]
+        },
+        {
+          "team": "Thụy Điển",
+          "formation": "4-3-3",
+          "players": [
+            "Robin Olsen",
+            "Emil Holm",
+            "Victor Lindelöf",
+            "Isak Hien",
+            "Ludwig Augustinsson",
+            "Hugo Larsson",
+            "Yasin Ayari",
+            "Anthony Elanga",
+            "Dejan Kulusevski",
+            "Alexander Isak",
+            "Viktor Gyökeres"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "duration": 8,
+      "startTime": 17,
+      "voiceText": "Hà Lan hòa Nhật Bản hai đều, trong khi Thụy Điển thắng Tunisia năm một. Hiệu suất tấn công đang nghiêng về đội Bắc Âu.",
+      "subtitle": "Hà Lan hòa Nhật Bản 2-2, trong khi Thụy Điển thắng Tunisia 5-1. Hiệu suất tấn công đang nghiêng về đội Bắc Âu.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Kết quả gần nhất",
+      "subtext": "Hai đội chưa có lịch sử đối đầu",
+      "teams": [
+        {
+          "name": "Hà Lan",
+          "shortName": "NET",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg",
+          "form": ""
+        },
+        {
+          "name": "Thụy Điển",
+          "shortName": "SWE",
+          "flagSrc": "assets/football/flags/sweden.svg",
+          "badgeSrc": "assets/football/flags/sweden.svg",
+          "form": ""
+        }
+      ],
+      "oddsTable": [
+        {
+          "label": "Lượt 1",
+          "home": "Hòa Nhật Bản 2-2",
+          "away": "Thắng Tunisia 5-1"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "Lượt 1 World Cup 2026",
+          "home": "Hà Lan",
+          "away": "Nhật Bản",
+          "score": "2-2",
+          "note": "Hà Lan bị gỡ hòa ở cuối trận",
+          "homeBadgeSrc": "assets/football/flags/netherlands.svg",
+          "awayBadgeSrc": "assets/football/flags/japan.svg"
+        },
+        {
+          "date": "Lượt 1 World Cup 2026",
+          "home": "Thụy Điển",
+          "away": "Tunisia",
+          "score": "5-1",
+          "note": "Thụy Điển thắng đậm trận ra quân",
+          "homeBadgeSrc": "assets/football/flags/sweden.svg",
+          "awayBadgeSrc": "assets/football/flags/tunisia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Điểm",
+              "home": 1,
+              "away": 3
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-5",
+      "type": "content",
+      "composition": "quote-attrib",
+      "duration": 6,
+      "startTime": 25,
+      "voiceText": "Virgil van Dijk phải khóa được cặp tiền đạo Alexander Isak và Viktor Gyökeres, nếu Hà Lan muốn giành chiến thắng đầu tiên.",
+      "subtitle": "Virgil van Dijk phải khóa được cặp tiền đạo Alexander Isak và Viktor Gyökeres, nếu Hà Lan muốn giành chiến thắng đầu tiên.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Virgil van Dijk phải khóa được cặp tiền đạo Alexander Isak và Viktor Gyökeres, nếu Hà Lan muốn giành chiến thắng đầu tiên.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "quoteImageAlt": "",
+      "liveLabel": "ĐIỂM NÓNG",
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-6",
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 6,
+      "startTime": 31,
+      "voiceText": "Thụy Điển dẫn đầu với ba điểm, Hà Lan và Nhật Bản cùng có một điểm, Tunisia chưa có điểm.",
+      "subtitle": "Thụy Điển dẫn đầu với 3 điểm, Hà Lan và Nhật Bản cùng có 1 điểm, Tunisia chưa có điểm.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Bảng F",
+      "subtext": "Sau lượt 1",
+      "activeTab": "Bảng F",
+      "tabs": [
+        "Bảng F"
+      ],
+      "standingsVariant": "group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Hà Lan",
+        "Thụy Điển"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Thụy Điển",
+            "code": "SWE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/sweden.svg"
+          },
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 5,
+          "goalsAgainst": 1,
+          "goalDifference": 4,
+          "points": 3
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Hà Lan",
+            "code": "NED",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/netherlands.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Japan",
+            "code": "JPN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/japan.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Tunisia",
+            "code": "TUN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/tunisia.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 5,
+          "goalDifference": -4,
+          "points": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-7",
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 6,
+      "startTime": 37,
+      "voiceText": "Bạn dự đoán tỉ số Hà Lan gặp Thụy Điển là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán tỉ số Hà Lan gặp Thụy Điển là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Theo dõi Méo bình luận",
+      "subtext": "Dự đoán tỉ số Hà Lan - Thụy Điển",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Hà Lan - Thụy Điển",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    }
+  ]
+}

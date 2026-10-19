@@ -1,0 +1,437 @@
+{
+  "title": "Hàn Quốc 2-1 Czechia: Hwang In-beom kéo ngược trận đấu",
+  "slug": "south-korea-2-1-czechia-world-cup-result-2026-06-12",
+  "preset": "Preset Football Result",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "HÀN QUỐC NGƯỢC DÒNG!",
+      "subtext": "Korea Republic 2-1 Czechia",
+      "subtitle": "Hàn Quốc thắng Czechia 2-1 tại Estadio Guadalajara. Krejčí mở tỉ số phút 59, Hwang In-beom gỡ hòa phút 67, rồi Oh Hyeon-gyu ghi bàn quyết định phút 80.",
+      "voiceText": "Hàn Quốc ngược dòng thắng Cộng Hòa Sec, hai một tại Estadio Guadalajara. Krejci mở tỉ số phút năm mươi chín, Hwang In-beom gỡ hòa phút sáu mươi bảy, rồi Oh Hyeon-gyu ghi bàn quyết định phút tám mươi.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group A - Matchday 1",
+      "venue": "Estadio Guadalajara, Zapopan",
+      "date": "12.06.2026",
+      "time": "09:00",
+      "teams": [
+        {
+          "name": "Korea Republic",
+          "code": "KOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/korea-republic.svg",
+          "badgeSrc": "assets/football/flags/korea-republic.svg",
+          "form": ["W", "W", "L", "L", "W", "W"]
+        },
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg",
+          "form": ["W", "W", "D", "D", "W", "L"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Hàn Quốc vs Cộng Hoà Séc.mp4",
+          "trim": { "start": 0, "end": 6 },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Korea Republic 2-1 Czechia | 12.06.2026 VN",
+      "ctaLabel": "Full-time",
+      "subtitle": "Bảng A có thêm một cú bẻ lái: Hàn Quốc cùng Mexico lên 3 điểm, còn Czechia phải sửa sai ngay ở lượt kế tiếp.",
+      "voiceText": "Bảng A có thêm một cú bẻ lái: Hàn Quốc cùng Mexico lên ba điểm, còn Cộng Hòa Sec phải sửa sai ngay ở lượt kế tiếp.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Korea Republic 2-1 Czechia",
+      "subtext": "Hwang gỡ hòa, Oh Hyeon-gyu chốt hạ",
+      "subtitle": "Full-time: Korea Republic 2-1 Czechia. Czechia dẫn trước nhờ Krejčí phút 59, nhưng Hwang In-beom ghi bàn và kiến tạo để Hàn Quốc thắng ngược.",
+      "voiceText": "Full time, Hàn Quốc hai, Cộng Hòa Sec một. Cộng Hòa Sec dẫn trước nhờ Krejci phút năm mươi chín, nhưng Hwang In-beom vừa ghi bàn, vừa kiến tạo để Hàn Quốc thắng ngược.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [2, 1],
+      "teams": [
+        { "name": "Korea Republic", "code": "KOR", "teamType": "national", "flagSrc": "assets/football/flags/korea-republic.svg", "badgeSrc": "assets/football/flags/korea-republic.svg" },
+        { "name": "Czechia", "code": "CZE", "teamType": "national", "flagSrc": "assets/football/flags/czechia.svg", "badgeSrc": "assets/football/flags/czechia.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Highlight Hàn Quốc- CH Czech.mp4",
+          "trim": { "start": 90, "end": 98 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "FT 2-1",
+          "videoDescription": "Hàn Quốc thắng ngược ở bảng A",
+          "videoVolume": 0
+        },
+        { "type": "football-scorebug", "teams": ["KOR", "CZE"], "score": [2, 1], "minute": "FT", "label": "Guadalajara" },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "Hàn Quốc dùng sơ đồ 3-4-3 với Son Heung-min, Lee Kang-in, Lee Jae-sung và Kim Min-jae; Czechia cũng đá 3-4-3 với Patrik Schick, Tomáš Souček, Vladimír Coufal và Ladislav Krejčí.",
+      "voiceText": "Hàn Quốc dùng sơ đồ ba bốn ba với Son Heung-min, Lee Kang-in, Lee Jae-sung và Kim Min-jae. Cộng Hòa Sec cũng đá ba bốn ba với Patrik Schick, Tomas Soucek, Vladimir Coufal và Ladislav Krejci.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Estadio Guadalajara",
+      "teams": [
+        { "name": "Korea Republic", "code": "KOR", "teamType": "national", "flagSrc": "assets/football/flags/korea-republic.svg", "badgeSrc": "assets/football/flags/korea-republic.svg" },
+        { "name": "Czechia", "code": "CZE", "teamType": "national", "flagSrc": "assets/football/flags/czechia.svg", "badgeSrc": "assets/football/flags/czechia.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-3",
+          "players": [
+            "Kim Seung-gyu",
+            "Lee Gi-hyuk",
+            "Kim Min-jae",
+            "Lee Han-beom",
+            "Seol Young-woo",
+            "Hwang In-beom",
+            "Paik Seung-ho",
+            "Lee Tae-seok",
+            "Lee Kang-in",
+            "Lee Jae-sung",
+            "Son Heung-min"
+          ]
+        },
+        "away": {
+          "formation": "3-4-3",
+          "players": [
+            "Matej Kovar",
+            "Stepan Chaloupek",
+            "Robin Hranac",
+            "Ladislav Krejci",
+            "Vladimir Coufal",
+            "Tomas Soucek",
+            "Alexandr Sojka",
+            "Jaroslav Zeleny",
+            "Lukas Provod",
+            "Pavel Sulc",
+            "Patrik Schick"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Highlight Hàn Quốc- CH Czech.mp4",
+          "trim": { "start": 109, "end": 118 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Hai đội cùng nhập cuộc với sơ đồ 3-4-3",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Hwang In-beom xoay trận",
+      "subtext": "1 bàn, 1 kiến tạo, nhịp giữa sân",
+      "subtitle": "Hwang In-beom là nhân vật chính: anh gỡ hòa phút 67 sau pha xử lý loại hai cầu thủ Czechia, rồi kiến tạo cho Oh Hyeon-gyu ghi bàn ở phút 80.",
+      "voiceText": "Hwang In-beom là nhân vật chính của trận này. Anh gỡ hòa phút sáu mươi bảy sau pha xử lý loại hai cầu thủ Cộng Hòa Sec, rồi kiến tạo cho Oh Hyeon-gyu ghi bàn ở phút tám mươi.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Hwang In-beom",
+      "team": "Korea Republic",
+      "number": "6",
+      "playerImageUrl": "https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/721310493_122132751207089901_8522877267420802554_n.jpg?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=D1XpMtxJvQIQ7kNvwFxnrPD&_nc_oc=AdphdR6RHoIAJGUAn6UnwBFclz1aUAWl2sDjUBroJ2Wkp3l3O8PyUsUDVt5KnkHm38s&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=nSdDUIAg9nujvnctgDDclg&_nc_ss=7b2a8&oh=00_Af-YfiX36as5RqforwBKEx4FtcjbmgMhvfAcxsrxUqgtIQ&oe=6A3150CC",
+      "stats": [
+        { "label": "Bàn thắng", "value": "1" },
+        { "label": "Kiến tạo", "value": "1" },
+        { "label": "Phút ghi bàn", "value": "67'" },
+        { "label": "Vai trò", "value": "Nhịp trưởng" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Highlight Hàn Quốc- CH Czech.mp4",
+          "trim": { "start": 145, "end": 155 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Hwang In-beom",
+          "videoDescription": "Một bàn, một kiến tạo trong màn ngược dòng",
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Từ hiệp một bế tắc tới cú lật kèo phút 80",
+      "subtitle": "Hiệp một khép lại 0-0. Krejčí đánh đầu mở tỉ số phút 59, Hwang In-beom gỡ hòa phút 67, Oh Hyeon-gyu ghi bàn thắng 2-1 phút 80, rồi Lee Gi-hyuk nhận thẻ vàng ở 90+6.",
+      "voiceText": "Hiệp một khép lại không - không, trong tiếng la ó từ khán đài. Krejci đánh đầu mở tỉ số phút năm mươi chín, Hwang In-beom gỡ hòa phút sáu mươi bảy, Oh Hyeon-gyu ghi bàn thắng hai một phút tám mươi, rồi Lee Gi-hyuk nhận thẻ vàng ở phút chín mươi cộng sáu.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "45+3'", "title": "Hiệp một 0-0", "desc": "Hai đội chơi chặt, cơ hội rõ ràng chưa đủ để mở tỉ số." },
+        { "minute": "59'", "title": "0-1: Ladislav Krejci", "desc": "Czechia tận dụng tình huống ném biên dài, Krejci đánh đầu ghi bàn." },
+        { "minute": "67'", "title": "1-1: Hwang In-beom", "desc": "Hwang xử lý gọn trong vòng vây trước khi dứt điểm gỡ hòa." },
+        { "minute": "80'", "title": "2-1: Oh Hyeon-gyu", "desc": "Hwang tạt thấp từ cánh phải, Oh Hyeon-gyu kết thúc màn ngược dòng." },
+        { "minute": "90+6'", "title": "Lee Gi-hyuk nhận thẻ", "desc": "Hàn Quốc bảo vệ lợi thế trong những phút cuối căng thẳng." }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Highlight Hàn Quốc- CH Czech.mp4",
+          "trim": { "start": 147, "end": 158 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Match flow",
+          "videoDescription": "Trận đấu đổi nhịp mạnh sau giờ nghỉ",
+          "videoVolume": 0
+        },
+        { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Hàn Quốc áp đảo thông số",
+      "subtext": "61.7% bóng, 15 cú sút, 6 lần trúng đích",
+      "subtitle": "Hàn Quốc cầm bóng 61.7%, sút 15 lần, trúng đích 6 lần và buộc thủ môn Czechia cứu thua 4 lần. Czechia có 7 cú sút, 4 lần trúng đích và 5 quả phạt góc.",
+      "voiceText": "Các con số nghiêng rõ về Hàn Quốc. Họ cầm bóng sáu mốt chấm bảy phần trăm, sút mười lăm lần, trúng đích sáu lần, và buộc thủ môn Cộng Hòa Sec cứu thua bốn lần. Cộng Hòa Sec có bảy cú sút, bốn lần trúng đích, và năm quả phạt góc.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [2, 1],
+      "teams": [
+        { "name": "Korea Republic", "code": "KOR", "teamType": "national", "flagSrc": "assets/football/flags/korea-republic.svg", "badgeSrc": "assets/football/flags/korea-republic.svg" },
+        { "name": "Czechia", "code": "CZE", "teamType": "national", "flagSrc": "assets/football/flags/czechia.svg", "badgeSrc": "assets/football/flags/czechia.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 61.7, "away": 38.3, "unit": "%" },
+            { "label": "Cú sút", "home": 15, "away": 7 },
+            { "label": "Sút trúng đích", "home": 6, "away": 4 },
+            { "label": "Phạt góc", "home": 4, "away": 5 },
+            { "label": "Cứu thua", "home": 3, "away": 4 },
+            { "label": "Thẻ vàng", "home": 1, "away": 0 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng A sau ngày mở màn",
+      "subtext": "Mexico và Hàn Quốc cùng có 3 điểm",
+      "subtitle": "Sau hai trận đầu bảng A, Mexico dẫn đầu với hiệu số +2, Hàn Quốc đứng thứ hai với 3 điểm và hiệu số +1. Czechia đứng thứ ba, còn South Africa xếp cuối.",
+      "voiceText": "Sau hai trận đầu bảng A, Mexico dẫn đầu với hiệu số cộng hai, Hàn Quốc đứng thứ hai với ba điểm và hiệu số cộng một. Cộng Hòa Sec đứng thứ ba, còn Nam Phi xếp cuối.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG A",
+      "tabs": ["TRẬN ĐẤU", "LỊCH THI ĐẤU", "CẦU THỦ", "BẢNG A"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["KOR", "CZE"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Mexico", "code": "MEX", "teamType": "national", "flagSrc": "assets/football/flags/mexico.svg", "badgeSrc": "assets/football/flags/mexico.svg" }, "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 2, "ga": 0, "gd": 2, "pts": 3 },
+        { "rank": 2, "team": { "name": "Korea Republic", "code": "KOR", "teamType": "national", "flagSrc": "assets/football/flags/korea-republic.svg", "badgeSrc": "assets/football/flags/korea-republic.svg" }, "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 2, "ga": 1, "gd": 1, "pts": 3 },
+        { "rank": 3, "team": { "name": "Czechia", "code": "CZE", "teamType": "national", "flagSrc": "assets/football/flags/czechia.svg", "badgeSrc": "assets/football/flags/czechia.svg" }, "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 1, "ga": 2, "gd": -1, "pts": 0 },
+        { "rank": 4, "team": { "name": "South Africa", "code": "RSA", "teamType": "national", "flagSrc": "assets/football/flags/south-africa.svg", "badgeSrc": "assets/football/flags/south-africa.svg" }, "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 0, "ga": 2, "gd": -2, "pts": 0 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Hwang là MVP trận này?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Theo bạn, Hwang In-beom là cầu thủ hay nhất trận, hay Oh Hyeon-gyu mới là người tạo khác biệt lớn nhất? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, Hwang In-beom là cầu thủ hay nhất trận, hay Oh Hyeon-gyu mới là người tạo khác biệt lớn nhất? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Hwang hay Oh Hyeon-gyu là MVP?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["Hàn Quốc", "World Cup 2026", "Méo Bình Luận"]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 4.8 }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESPN match commentary, stats and Group A standings",
+      "url": "https://www.espn.com.au/football/match/_/gameId/760414/czechia-south-korea"
+    },
+    {
+      "name": "AP match report",
+      "url": "https://apnews.com/article/496e7772dde95ca0af90b5074fdb13d9"
+    },
+    {
+      "name": "The Guardian live report",
+      "url": "https://www.theguardian.com/football/live/2026/jun/12/fifa-world-cup-2026-live-south-korea-v-czechia-updates-kor-vs-cze-group-a-match-score-latest"
+    },
+    {
+      "name": "Ahram Online live score and scorers",
+      "url": "https://english.ahram.org.eg/WorldCup2026/AfricaInner.aspx?NewsContentID=570598"
+    },
+    {
+      "name": "Wikimedia Commons Hwang In-beom portrait",
+      "url": "https://commons.wikimedia.org/wiki/File:Hwang_In-beom_2020.jpg"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "title": "Bosnia & Herzegovina vs Qatar: Trận chiến sinh tử cho hy vọng cuối cùng",
+  "slug": "bosnia-vs-qatar-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Bosnia & Herzegovina vs Qatar ở lượt cuối bảng B World Cup 2026, diễn ra lúc 02:00 ngày 25/06/2026 giờ Việt Nam. Cả hai đội có 1 điểm và tranh tấm vé vớt.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Schedule and Standings",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Bosnia & Herzegovina vs Qatar",
+      "subtext": "Hy vọng mong manh cho chiếc vé vớt",
+      "voiceText": "Bosnia đối đầu Ka Ta lúc hai giờ sáng ngày hai mươi lăm tháng sáu theo giờ Việt Nam. Cả hai đội đều chỉ có một điểm sau hai lượt trận đầu tiên và đây là cơ hội cuối cùng để nuôi hy vọng đi tiếp.",
+      "subtitle": "Bosnia & Herzegovina đối đầu Qatar lúc 02:00 ngày 25/06 theo giờ Việt Nam. Cả hai đội đều chỉ có 1 điểm sau 2 lượt trận đầu tiên và đây là cơ hội cuối cùng để nuôi hy vọng đi tiếp.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group B - Matchday 3",
+      "venue": "Lumen Field",
+      "date": "25/06/2026",
+      "time": "02:00 VN",
+      "teams": [
+        {
+          "name": "Bosnia & Herzegovina",
+          "code": "BIH",
+          "form": "GD -3",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "form": "GD -6",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng B quyết liệt",
+      "subtext": "Trận đấu sinh tử",
+      "voiceText": "Cả Bosnia lẫn Ka Ta đều cần một chiến thắng đậm, đồng thời hy vọng trận đấu cùng giờ có kết quả thuận lợi để chen chân vào nhóm các đội đứng thứ ba xuất sắc nhất.",
+      "subtitle": "Cả Bosnia & Herzegovina lẫn Qatar đều cần một chiến thắng đậm, đồng thời hy vọng trận đấu cùng giờ có kết quả thuận lợi để chen chân vào nhóm các đội đứng thứ 3 xuất sắc nhất.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group B Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Bosnia & Herzegovina vs Qatar | 25/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Dzeko lĩnh xướng hàng công",
+      "voiceText": "Bosnia ra sân với sơ đồ bốn hai ba một quen thuộc, đặt trọn niềm tin vào lão tướng Edin Dzeko. Trong khi đó, Ka Ta đá ba năm hai nhưng chịu tổn thất lớn khi mất cả Homam Ahmed và Assim Madibo vì thẻ phạt.",
+      "subtitle": "Bosnia & Herzegovina ra sân với sơ đồ 4-2-3-1 quen thuộc, đặt trọn niềm tin vào lão tướng Edin Džeko. Trong khi đó, Qatar đá 3-5-2 nhưng chịu tổn thất lớn khi mất cả Homam Ahmed và Assim Madibo vì thẻ phạt.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Bosnia & Herzegovina",
+          "code": "BIH",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Sehic",
+            "Dedic",
+            "Ahmedhodzic",
+            "Kolasinac",
+            "Civic",
+            "Tahirovic",
+            "Hadziahmetovic",
+            "Stevanovic",
+            "Krunic",
+            "Demirovic",
+            "Dzeko"
+          ]
+        },
+        "away": {
+          "formation": "3-5-2",
+          "players": [
+            "Barsham",
+            "Mendes",
+            "Miguel",
+            "Khoukhi",
+            "Al-Rawi",
+            "Boudiaf",
+            "Gaber",
+            "Waad",
+            "Edmilson",
+            "Afif",
+            "Ali"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Lịch sử đối đầu",
+      "subtext": "Lần gặp nhau chính thức đầu tiên",
+      "voiceText": "Hai đội từng gặp nhau hai lần trong quá khứ ở các trận giao hữu, với một chiến thắng hai không cho Ka Ta vào năm hai nghìn và một trận hòa một đều năm hai không mười. Đây mới là lần đầu họ chạm trán ở một giải đấu chính thức.",
+      "subtitle": "Hai đội từng gặp nhau 2 lần trong quá khứ ở các trận giao hữu, với 1 chiến thắng 2-0 cho Qatar vào năm 2000 và 1 trận hòa 1-1 năm 2010. Đây mới là lần đầu họ chạm trán ở một giải đấu chính thức.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Bosnia & Herzegovina",
+      "awayTeam": "Qatar",
+      "h2hMatches": [
+        {
+          "date": "10/08/2010",
+          "home": "Bosnia & Herzegovina",
+          "away": "Qatar",
+          "score": "1-1",
+          "note": "Giao hữu quốc tế gần nhất",
+          "homeBadgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "awayBadgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Khả năng dứt điểm",
+          "value": "Bosnia"
+        },
+        {
+          "label": "Sức sáng tạo",
+          "value": "Qatar"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Tận dụng sai lầm"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Không chiến",
+              "home": 82,
+              "away": 65
+            },
+            {
+              "label": "Chọc khe bứt tốc",
+              "home": 68,
+              "away": 80
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trận đấu",
+      "quote": "Bosnia nhỉnh hơn về thể hình và kinh nghiệm, nhưng sự đột biến của Akram Afif là vũ khí cực kỳ đáng sợ.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng sẽ là cuộc đối đầu giữa Kolašinac và ngôi sao Akram Afif. Nếu Bosnia phong tỏa được ngòi nổ này, Ka Ta gần như sẽ không còn phương án tiếp cận vòng cấm.",
+      "subtitle": "Điểm nóng sẽ là cuộc đối đầu giữa Kolašinac và ngôi sao Akram Afif. Nếu Bosnia phong tỏa được ngòi nổ này, Qatar gần như sẽ không còn phương án tiếp cận vòng cấm.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng B trước lượt cuối",
+      "subtext": "Quyết định số phận hai đội",
+      "voiceText": "Lúc này tại bảng B, Canada và Thụy Sĩ đang dẫn đầu với bốn điểm. Bosnia đứng thứ ba nhờ hiệu số tốt hơn Ka Ta. Cả hai buộc phải thắng thật đậm để mong lọt vào nhóm đi tiếp.",
+      "subtitle": "Lúc này tại bảng B, Canada và Switzerland đang dẫn đầu với 4 điểm. Bosnia & Herzegovina đứng thứ 3 nhờ hiệu số tốt hơn Qatar. Cả hai buộc phải thắng thật đậm để mong lọt vào nhóm đi tiếp.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group B Standings",
+      "highlightTeams": [
+        "Bosnia & Herzegovina",
+        "Qatar"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Canada",
+            "code": "CAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/canada.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+6"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Switzerland",
+            "code": "SUI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/switzerland.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+3"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Bosnia & Herzegovina",
+            "code": "BIH",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-3"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Qatar",
+            "code": "QAT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/qatar.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-6"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn nghĩ Edin Dzeko sẽ ghi bàn, hay Akram Afif sẽ gánh Ka Ta đi tiếp? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn nghĩ Edin Džeko sẽ ghi bàn, hay Akram Afif sẽ gánh Qatar đi tiếp? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Bosnia vs Qatar",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

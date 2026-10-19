@@ -1,0 +1,451 @@
+{
+  "title": "Argentina vs Áo: Preview World Cup 2026",
+  "slug": "argentina-vs-ao-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Argentina gặp Áo ở bảng J World Cup 2026, quy đổi giờ Việt Nam là 00:00 ngày 23/06/2026. Lịch thi đấu đã quy đổi sang giờ Việt Nam, lineups đầy đủ 11 cầu thủ mỗi đội, và voiceText bảng J đọc là bảng Ji.",
+  "sources": [
+    {
+      "title": "ESPN - 2026 FIFA World Cup fixtures, results, match schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "title": "ESPN - Soccer Schedule",
+      "url": "https://www.espn.com/soccer/schedule/_/league/fifa.world/date/20260622"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Argentina vs Áo",
+      "subtext": "Bảng J • Lượt trận 2",
+      "voiceText": "Argentina gặp Áo lúc không giờ ngày hai mươi ba tháng sáu theo giờ Việt Nam. Đây là lượt trận thứ hai bảng Ji World Cup hai không hai sáu, trận đấu hứa hẹn sẽ vô cùng kịch tính tại sân vận động A tê en tê.",
+      "subtitle": "Argentina gặp Áo lúc 00:00 ngày 23/06 theo giờ Việt Nam. Đây là lượt trận thứ hai bảng J World Cup 2026, trận đấu hứa hẹn sẽ vô cùng kịch tính tại sân vận động AT&T.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group J - Matchday 2",
+      "venue": "AT&T Stadium, Arlington",
+      "date": "23/06/2026",
+      "time": "00:00 VN",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "form": "CONMEBOL",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg"
+        },
+        {
+          "name": "Áo",
+          "code": "AUT",
+          "form": "UEFA",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng J căng thẳng",
+      "subtext": "Argentina, Áo, Algeria và Jordan",
+      "voiceText": "Bảng Ji mở ra với cơ hội bứt phá cho cả hai đội. Một chiến thắng sẽ giúp Argentina hoặc Áo chạm một tay vào tấm vé đi tiếp trước khi đối đầu Jordan hay An giê ri.",
+      "subtitle": "Bảng J mở ra với cơ hội bứt phá cho cả hai đội. Một chiến thắng sẽ giúp Argentina hoặc Áo chạm một tay vào tấm vé đi tiếp trước khi đối đầu Jordan hay Algeria.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group J Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Đầy đủ ngôi sao của cả hai bên",
+      "voiceText": "Đội hình dự kiến của Argentina vẫn giữ bộ khung nguyên tử với En dô Phéc nan đét và Mác An lít tơ ở tuyến giữa. Phía bên kia, tuyển Áo sẽ dựa vào sự cơ động của Sa bít dơ cùng lối chơi áp sát tầm cao khó chịu.",
+      "subtitle": "Đội hình dự kiến của Argentina vẫn giữ bộ khung nguyên tử với Enzo Fernández và Mac Allister ở tuyến giữa. Phía bên kia, tuyển Áo sẽ dựa vào sự cơ động của Sabitzer cùng lối chơi áp sát tầm cao khó chịu.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Argentina",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "players": [
+            "E. Martinez",
+            "Molina",
+            "Romero",
+            "Otamendi",
+            "Tagliafico",
+            "De Paul",
+            "Enzo Fernandez",
+            "Mac Allister",
+            "Di Maria",
+            "Lautaro Martinez",
+            "Alvarez"
+          ]
+        },
+        {
+          "team": "Áo",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "players": [
+            "Pentz",
+            "Posch",
+            "Danso",
+            "Lienhart",
+            "Mwene",
+            "Seiwald",
+            "Laimer",
+            "Sabitzer",
+            "Baumgartner",
+            "Wimmer",
+            "Arnautovic"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Lượt mở màn đầy ấn tượng",
+      "voiceText": "Ở lượt trận ra quân, Argentina thắng dễ An giê ri ba không. Trong khi đó, tuyển Áo cũng khẳng định sức mạnh bằng việc đánh bại Gioóc đan với tỉ số ba một.",
+      "subtitle": "Ở lượt trận ra quân, Argentina thắng dễ Algeria 3-0. Trong khi đó, tuyển Áo cũng khẳng định sức mạnh bằng việc đánh bại Jordan với tỉ số 3-1.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Argentina",
+      "awayTeam": "Áo",
+      "oddsTable": {
+        "headers": [
+          "Đội bóng",
+          "Tỷ số",
+          "Lượt trận 1",
+          "Tỷ lệ thắng",
+          "Lối chơi"
+        ],
+        "rows": [
+          {
+            "teamName": "Argentina",
+            "scoreText": "3-0",
+            "x12": "Thắng Algeria",
+            "hdp": "60%",
+            "ou": "Tấn công áp đảo"
+          },
+          {
+            "teamName": "Áo",
+            "scoreText": "3-1",
+            "x12": "Thắng Jordan",
+            "hdp": "40%",
+            "ou": "Pressing đồng đều"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "date": "17/06/2026",
+          "home": "Argentina",
+          "away": "Algeria",
+          "score": "3-0",
+          "note": "Lượt trận 1",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/algeria.svg"
+        },
+        {
+          "date": "17/06/2026",
+          "home": "Áo",
+          "away": "Jordan",
+          "score": "3-1",
+          "note": "Lượt trận 1",
+          "homeBadgeSrc": "assets/football/flags/austria.svg",
+          "awayBadgeSrc": "assets/football/flags/jordan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tỷ lệ kiểm soát bóng",
+              "home": 62,
+              "away": 48
+            },
+            {
+              "label": "Chỉ số bàn thắng kỳ vọng",
+              "home": 75,
+              "away": 60
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trận đấu",
+      "subtext": "Đẳng cấp ngôi sao đối đầu lối chơi tập thể",
+      "voiceText": "Argentina sở hữu những cá nhân có thể thay đổi trận đấu trong tích tắc, nhưng lối chơi pressing đồng đều của tuyển Áo sẽ là bài toán không hề dễ giải.",
+      "subtitle": "Argentina sở hữu những cá nhân có thể thay đổi trận đấu trong tích tắc, nhưng lối chơi pressing đồng đều của tuyển Áo sẽ là bài toán không hề dễ giải.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Argentina có chất lượng ngôi sao vượt trội, nhưng Áo đã cho thấy khả năng pressing và trừng phạt sai lầm cực tốt.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng J",
+      "subtext": "Sau lượt trận đầu tiên",
+      "voiceText": "Sau lượt đấu đầu tiên, Argentina tạm dẫn đầu với ba điểm, tuyển Áo bám sát phía sau cũng với ba điểm. Trận đối đầu trực tiếp tại bảng Ji sẽ quyết định ngôi đầu.",
+      "subtitle": "Sau lượt đấu đầu tiên, Argentina tạm dẫn đầu với 3 điểm, tuyển Áo bám sát phía sau cũng với 3 điểm. Trận đối đầu trực tiếp tại bảng J sẽ quyết định ngôi đầu.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group J",
+      "activeTab": "Bảng J",
+      "tabs": [
+        "Bảng J"
+      ],
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Argentina",
+        "Áo"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Argentina",
+            "code": "ARG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/argentina.svg",
+            "badgeSrc": "assets/football/flags/argentina.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": "+3",
+          "pts": 3,
+          "highlight": true
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Áo",
+            "code": "AUT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/austria.svg",
+            "badgeSrc": "assets/football/flags/austria.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": "+2",
+          "pts": 3,
+          "highlight": true
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Jordan",
+            "code": "JOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/jordan.svg",
+            "badgeSrc": "assets/football/flags/jordan.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gd": "-2",
+          "pts": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Algeria",
+            "code": "ALG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/algeria.svg",
+            "badgeSrc": "assets/football/flags/algeria.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gd": "-3",
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Bình luận bên dưới",
+      "voiceText": "Liệu Argentina sẽ khẳng định sức mạnh của nhà đương kim vô địch, hay tuyển Áo sẽ tạo nên địa chấn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu Argentina sẽ khẳng định sức mạnh của nhà đương kim vô địch, hay tuyển Áo sẽ tạo nên địa chấn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Argentina vs Áo",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Argentina",
+          "Áo"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

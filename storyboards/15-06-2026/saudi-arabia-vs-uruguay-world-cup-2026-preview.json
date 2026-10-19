@@ -1,0 +1,481 @@
+{
+  "title": "Saudi Arabia vs Uruguay: Bielsa mở màn bảng H trong biến động",
+  "slug": "saudi-arabia-vs-uruguay-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Saudi Arabia - Uruguay ở bảng H World Cup 2026, quy đổi giờ Việt Nam là 05:00 ngày 16/06/2026. Trận đấu diễn ra tại Miami Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Saudi Arabia v Uruguay match preview",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/saudi-arabia-uruguay-preview-live-stream-team-news-tickets"
+    },
+    {
+      "title": "FIFA - Saudi Arabia vs Uruguay match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021486"
+    },
+    {
+      "title": "The Guardian - Uruguay delayed before World Cup opener",
+      "url": "https://www.theguardian.com/football/2026/jun/15/uruguay-delayed-by-plane-paperwork-as-world-cup-travel-challenges-continue"
+    },
+    {
+      "title": "ESPN - Saudi Arabia vs Uruguay how to watch and kickoff",
+      "url": "https://www.espn.com/soccer/story/_/id/49050294/fifa-world-cup-2026-saudi-arabia-vs-uruguay-tv-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Saudi Arabia vs Uruguay",
+      "subtext": "Uruguay mạnh hơn, nhưng chuẩn bị bị xáo trộn",
+      "voiceText": "Ả rập Saudi gặp Uruguay lúc năm giờ sáng ngày mười sáu tháng sáu theo giờ Việt Nam. Đây là trận ra quân World Cup hai không hai sáu tại Miami, nơi Uruguay được đánh giá cao hơn, nhưng hành trình chuẩn bị lại bị ảnh hưởng bởi sự cố di chuyển sát trận.",
+      "subtitle": "Saudi Arabia gặp Uruguay lúc 05:00 ngày 16/06 theo giờ Việt Nam. Đây là trận ra quân World Cup 2026 tại Miami, nơi Uruguay được đánh giá cao hơn, nhưng hành trình chuẩn bị lại bị ảnh hưởng bởi sự cố di chuyển sát trận.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group H - Matchday 1",
+      "venue": "Miami Stadium, Miami",
+      "date": "16/06/2026",
+      "time": "05:00 VN",
+      "teams": [
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "teamType": "national",
+          "form": "Đại diện châu Á",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg",
+          "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+        },
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "teamType": "national",
+          "form": "Sức mạnh Nam Mỹ",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.7,
+          "top": "76%",
+          "size": 84
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng H có hai nhánh áp lực",
+      "subtext": "Spain, Cabo Verde, Saudi Arabia và Uruguay",
+      "voiceText": "Bảng H đã có Tây Ban Nha ở cửa trên, nên Uruguay không muốn đánh rơi điểm trước Ả rập Saudi. Ngược lại, đại diện châu Á chỉ cần có điểm ở Miami, cục diện bảng sẽ mở ra rất khác.",
+      "subtitle": "Bảng H đã có Tây Ban Nha ở cửa trên, nên Uruguay không muốn đánh rơi điểm trước Saudi Arabia. Ngược lại, đại diện châu Á chỉ cần có điểm ở Miami, cục diện bảng sẽ mở ra rất khác.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group H Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Saudi Arabia vs Uruguay | 16/06/2026 VN",
+      "ctaLabel": "Kick-off 05:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Valverde là nhịp tim của Uruguay",
+      "voiceText": "Ả rập Saudi có thể đá bốn hai ba một, với Al Owais, Abdulhamid, Al Amri, Tambakti, Al Shahrani, Kanno, Al Malki, Al Dawsari, Al Ghannam, Al Buraikan và Al Shehri. Uruguay nhiều khả năng đá bốn ba ba, với Rochet, Gimenez, Araujo, Ugarte, Bentancur, Valverde, De Arrascaeta, Nunez và Pellistri.",
+      "subtitle": "Saudi Arabia có thể đá 4-2-3-1, với Al Owais, Abdulhamid, Al Amri, Tambakti, Al Shahrani, Kanno, Al Malki, Al Dawsari, Al Ghannam, Al Buraikan và Al Shehri. Uruguay nhiều khả năng đá 4-3-3, với Rochet, Giménez, Araujo, Ugarte, Bentancur, Valverde, De Arrascaeta, Núñez và Pellistri.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg",
+          "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+        },
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Mohammed Al Owais",
+            "Saud Abdulhamid",
+            "Abdulelah Al Amri",
+            "Hassan Tambakti",
+            "Yasser Al Shahrani",
+            "Mohamed Kanno",
+            "Abdulellah Al Malki",
+            "Salem Al Dawsari",
+            "Khalid Al Ghannam",
+            "Firas Al Buraikan",
+            "Saleh Al Shehri"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Sergio Rochet",
+            "Nahitan Nandez",
+            "Jose Maria Gimenez",
+            "Ronald Araujo",
+            "Matias Vina",
+            "Manuel Ugarte",
+            "Rodrigo Bentancur",
+            "Federico Valverde",
+            "Facundo Pellistri",
+            "Darwin Nunez",
+            "Giorgian De Arrascaeta"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: Uruguay có ký ức 2018",
+      "subtext": "Saudi Arabia không dễ bị cuốn đi",
+      "voiceText": "Hai đội từng gặp nhau ba lần, và lần gần nhất ở World Cup hai không mười tám, Uruguay thắng Ả rập Saudi một không. Kịch bản lần này có thể vẫn chặt chẽ, vì Ả rập Saudi sẽ muốn kéo nhịp chậm, còn Uruguay cần tránh mất bình tĩnh sau một tuần chuẩn bị lộn xộn.",
+      "subtitle": "Hai đội từng gặp nhau 3 lần, và lần gần nhất ở World Cup 2018, Uruguay thắng Saudi Arabia 1-0. Kịch bản lần này có thể vẫn chặt chẽ, vì Saudi Arabia sẽ muốn kéo nhịp chậm, còn Uruguay cần tránh mất bình tĩnh sau một tuần chuẩn bị lộn xộn.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg",
+          "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+        },
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg"
+        }
+      ],
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "odds": [
+        {
+          "label": "Sức mạnh Nam Mỹ",
+          "value": "Uruguay"
+        },
+        {
+          "label": "Kỷ luật khối thấp",
+          "value": "Saudi Arabia"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Valverde"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "World Cup 2018",
+          "home": "Uruguay",
+          "away": "Saudi Arabia",
+          "score": "1-0",
+          "note": "Uruguay thắng tối thiểu",
+          "homeBadgeSrc": "assets/football/flags/uruguay.svg",
+          "awayBadgeSrc": "assets/football/flags/saudi-arabia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Chất lượng tuyến giữa",
+              "home": 58,
+              "away": 88
+            },
+            {
+              "label": "Kỷ luật phòng ngự",
+              "home": 78,
+              "away": 82
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Uruguay có đủ tỉnh táo?",
+      "subtext": "Sự cố di chuyển có thể ảnh hưởng nhịp nhập cuộc",
+      "voiceText": "Điểm nóng là mười lăm phút đầu của Uruguay. Nếu đội của Bielsa nhập cuộc chậm vì lịch di chuyển bị xáo trộn, Ả rập Saudi sẽ có cơ hội kéo trận đấu vào thế phòng ngự phản công. Nhưng nếu Valverde kiểm soát được nhịp, Uruguay vẫn có quá nhiều vũ khí để mở khóa.",
+      "subtitle": "Điểm nóng là 15 phút đầu của Uruguay. Nếu đội của Bielsa nhập cuộc chậm vì lịch di chuyển bị xáo trộn, Saudi Arabia sẽ có cơ hội kéo trận đấu vào thế phòng ngự phản công. Nhưng nếu Valverde kiểm soát được nhịp, Uruguay vẫn có quá nhiều vũ khí để mở khóa.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "quote": "Uruguay mạnh hơn trên giấy, nhưng trận mở màn sau một hành trình xáo trộn luôn là bài test về cái đầu.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng H",
+      "subtext": "Uruguay không muốn đuổi theo Tây Ban Nha",
+      "voiceText": "Bảng H có Tây Ban Nha, Cabo Verde, Ả rập Saudi và Uruguay. Trước lượt đầu tất cả cùng không điểm, nhưng Uruguay cần thắng để không bị đẩy vào thế phải quyết đấu với Tây Ban Nha quá sớm, còn Ả rập Saudi chỉ cần có điểm là đã thay đổi trật tự bảng.",
+      "subtitle": "Bảng H có Tây Ban Nha, Cabo Verde, Saudi Arabia và Uruguay. Trước lượt đầu tất cả cùng 0 điểm, nhưng Uruguay cần thắng để không bị đẩy vào thế phải quyết đấu với Tây Ban Nha quá sớm, còn Saudi Arabia chỉ cần có điểm là đã thay đổi trật tự bảng.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group H",
+      "activeTab": "BẢNG H",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "LỊCH THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG H"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "KSA",
+        "URU"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Spain",
+            "code": "ESP",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/spain.svg",
+            "badgeSrc": "assets/football/flags/spain.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Cabo Verde",
+            "code": "CPV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cabo-verde.svg",
+            "badgeSrc": "assets/football/flags/cabo-verde.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Saudi Arabia",
+            "code": "KSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/saudi-arabia.svg",
+            "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Uruguay",
+            "code": "URU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uruguay.svg",
+            "badgeSrc": "assets/football/flags/uruguay.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Uruguay thắng hay Saudi Arabia có điểm?",
+      "voiceText": "Bạn dự đoán Uruguay thắng bằng sức mạnh tuyến giữa, hay Ả rập Saudi sẽ tạo một trận đấu cực rát ở Miami? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Uruguay thắng bằng sức mạnh tuyến giữa, hay Saudi Arabia sẽ tạo một trận đấu cực rát ở Miami? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Saudi Arabia vs Uruguay?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Saudi Arabia",
+          "Uruguay",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

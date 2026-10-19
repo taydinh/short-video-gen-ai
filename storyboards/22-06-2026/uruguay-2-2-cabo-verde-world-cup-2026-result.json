@@ -1,0 +1,510 @@
+{
+  "slug": "uruguay-2-2-cabo-verde-world-cup-2026-result",
+  "title": "Uruguay 2-2 Cabo Verde: Kết quả World Cup 2026",
+  "summary": "Cabo Verde ngược dòng giữ hòa Uruguay 2-2; ảnh cầu thủ để trống.",
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+    "https://www.espn.com/soccer/story/_/id/49139293/cape-verde-uruguay-2026-world-cup-upset"
+  ],
+  "totalDuration": 52,
+  "scenes": [
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-1",
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "title": "Uruguay 2-2 Cabo Verde",
+      "subtext": "Toàn thời gian • Bảng H",
+      "competitionLabel": "FIFA World Cup 2026",
+      "date": "22.06.2026",
+      "time": "05:00",
+      "venue": "Miami Stadium",
+      "minute": "FT",
+      "score": "2-2",
+      "teams": [
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg",
+          "form": []
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg",
+          "form": []
+        }
+      ],
+      "voiceText": "Uruguay hòa Cabo Verde hai đều, lúc năm giờ sáng ngày hai mươi hai tháng sáu theo giờ Việt Nam. Cabo Verde mở tỉ số, Uruguay lội ngược dòng, rồi Hélio Varela ghi bàn gỡ hòa trong hiệp hai.",
+      "subtitle": "Uruguay hòa Cabo Verde 2-2, lúc 05:00 ngày 22/06 theo giờ Việt Nam. Cabo Verde mở tỉ số, Uruguay lội ngược dòng, rồi Hélio Varela ghi bàn gỡ hòa trong hiệp hai.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "homeCode": "URU",
+          "awayCode": "CPV",
+          "score": "2-2"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-2",
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "title": "KẾT QUẢ WORLD CUP",
+      "competitionLabel": "Bảng H • Match Result",
+      "seasonLabel": "2026",
+      "ctaLabel": "FULL TIME",
+      "tournamentLogoSrc": "assets/football/tournaments/fifa-world-cup-2026.svg",
+      "voiceText": "Kết quả bảng H World Cup hai không hai sáu, Cabo Verde tiếp tục tạo bất ngờ.",
+      "subtitle": "Kết quả bảng H World Cup 2026, Cabo Verde tiếp tục tạo bất ngờ.",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-3",
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "title": "Đội hình chính thức",
+      "subtext": "Uruguay • Cabo Verde",
+      "teams": [
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg",
+          "form": []
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg",
+          "form": []
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Sergio Rochet",
+            "Nahitan Nández",
+            "Ronald Araújo",
+            "José María Giménez",
+            "Mathías Olivera",
+            "Federico Valverde",
+            "Manuel Ugarte",
+            "Rodrigo Bentancur",
+            "Facundo Pellistri",
+            "Darwin Núñez",
+            "Maximiliano Araújo"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Vozinha",
+            "Steven Moreira",
+            "Logan Costa",
+            "Roberto Lopes",
+            "João Paulo Fernandes",
+            "Jamiro Monteiro",
+            "Kevin Pina",
+            "Kenny Rocha Santos",
+            "Ryan Mendes",
+            "Jovane Cabral",
+            "Bebé"
+          ]
+        }
+      },
+      "voiceText": "Đây là đội hình xuất phát của Uruguay và Cabo Verde trong trận cầu giàu kịch tính tại Miami.",
+      "subtitle": "Đây là đội hình xuất phát của Uruguay và Cabo Verde trong trận cầu giàu kịch tính tại Miami.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-4",
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "title": "Nhân vật nổi bật",
+      "subtext": "Bàn gỡ hòa sau khi vào sân",
+      "player": "Hélio Varela",
+      "team": "Uruguay",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Dự bị"
+        },
+        {
+          "label": "Kết quả",
+          "value": "2-2"
+        }
+      ],
+      "voiceText": "Hélio Varela là người tạo bước ngoặt, vào sân từ ghế dự bị rồi tận dụng việc thủ môn dâng cao để gỡ hòa cho Cabo Verde.",
+      "subtitle": "Hélio Varela là người tạo bước ngoặt, vào sân từ ghế dự bị rồi tận dụng việc thủ môn dâng cao để gỡ hòa cho Cabo Verde.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-5",
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "title": "Diễn biến chính",
+      "subtext": "Các mốc đáng chú ý",
+      "events": [
+        {
+          "minute": "21'",
+          "title": "Kevin Pina",
+          "description": "Cabo Verde mở tỉ số"
+        },
+        {
+          "minute": "Cuối H1",
+          "title": "Maxi Araújo",
+          "description": "Uruguay gỡ hòa"
+        },
+        {
+          "minute": "Cuối H1",
+          "title": "Agustín Canobbio",
+          "description": "Uruguay vượt lên"
+        },
+        {
+          "minute": "H2",
+          "title": "Hélio Varela",
+          "description": "Gỡ hòa 2-2"
+        },
+        {
+          "minute": "FT",
+          "title": "Uruguay 2-2 Cabo Verde",
+          "description": "Hai đội chia điểm"
+        }
+      ],
+      "voiceText": "Kevin Pina mở tỉ số phút hai mươi mốt. Maxi Araújo và Agustín Canobbio giúp Uruguay dẫn hai một trước giờ nghỉ. Sang hiệp hai, Hélio Varela ấn định tỉ số hai đều.",
+      "subtitle": "Kevin Pina mở tỉ số phút 21. Maxi Araújo và Agustín Canobbio giúp Uruguay dẫn 2-1 trước giờ nghỉ. Sang hiệp hai, Hélio Varela ấn định tỉ số 2-2.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-6",
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "title": "Thống kê trận đấu",
+      "subtext": "Uruguay vs Cabo Verde",
+      "competitionLabel": "MATCH STATS",
+      "minute": "FT",
+      "score": "2-2",
+      "teams": [
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg",
+          "form": []
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg",
+          "form": []
+        }
+      ],
+      "voiceText": "Hai đội cùng ghi hai bàn. Cabo Verde có một bàn trong hiệp một và một bàn trong hiệp hai, còn Uruguay không thể bảo toàn lợi thế.",
+      "subtitle": "Hai đội cùng ghi 2 bàn. Cabo Verde có 1 bàn trong hiệp một và 1 bàn trong hiệp hai, còn Uruguay không thể bảo toàn lợi thế.",
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tỉ số",
+              "home": "2",
+              "away": "2"
+            },
+            {
+              "label": "Bàn hiệp một",
+              "home": "2",
+              "away": "1"
+            },
+            {
+              "label": "Điểm sau 2 trận",
+              "home": "2",
+              "away": "2"
+            },
+            {
+              "label": "Thủ môn trên 40 tuổi",
+              "home": "1",
+              "away": "1"
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-7",
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "title": "Cục diện bảng H",
+      "subtext": "Sau trận đấu",
+      "activeTab": "Bảng H",
+      "tabs": [
+        "Bảng H"
+      ],
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Uruguay",
+        "Cabo Verde"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Tây Ban Nha",
+            "code": "ESP",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/spain.svg",
+            "badgeSrc": "assets/football/flags/spain.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalDifference": "+4",
+          "points": 4
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Uruguay",
+            "code": "URU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uruguay.svg",
+            "badgeSrc": "assets/football/flags/uruguay.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalDifference": "0",
+          "points": 2
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Cabo Verde",
+            "code": "CPV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cabo-verde.svg",
+            "badgeSrc": "assets/football/flags/cabo-verde.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalDifference": "0",
+          "points": 2
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Ả Rập Saudi",
+            "code": "KSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/saudi-arabia.svg",
+            "badgeSrc": "assets/football/flags/saudi-arabia.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalDifference": "-4",
+          "points": 1
+        }
+      ],
+      "voiceText": "Tây Ban Nha dẫn đầu bảng H với bốn điểm. Uruguay và Cabo Verde cùng có hai điểm, nên cuộc đua đi tiếp vẫn rất căng.",
+      "subtitle": "Tây Ban Nha dẫn đầu bảng H với 4 điểm. Uruguay và Cabo Verde cùng có 2 điểm, nên cuộc đua đi tiếp vẫn rất căng.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-8",
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 5,
+      "title": "Bạn nghĩ sao?",
+      "subtext": "Bình luận bên dưới",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Cabo Verde có thể đi tiếp không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "voiceText": "Bạn có tin Cabo Verde sẽ giành vé đi tiếp không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn có tin Cabo Verde sẽ giành vé đi tiếp không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

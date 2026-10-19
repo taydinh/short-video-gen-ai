@@ -1,0 +1,494 @@
+{
+  "title": "Brazil vs Morocco: bài test cực nặng của Selecao ở World Cup 2026",
+  "slug": "brasil-vs-maroc-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Brazil - Morocco ở bảng C World Cup 2026, quy đổi giờ Việt Nam là 05:00 ngày 14/06/2026. Trận đấu diễn ra tại New York/New Jersey Stadium, East Rutherford.",
+  "sources": [
+    {
+      "title": "FIFA - Brazil vs Morocco match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021456"
+    },
+    {
+      "title": "FIFA - Brazil fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/teams/brazil/fixtures"
+    },
+    {
+      "title": "CBS Sports - Brazil vs Morocco preview, prediction and lineups",
+      "url": "https://www.cbssports.com/soccer/news/brazil-morocco-world-cup-2026-preview-predictions-watch/"
+    },
+    {
+      "title": "The Analyst - Brazil vs Morocco prediction",
+      "url": "https://theanalyst.com/articles/brazil-vs-morocco-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "title": "The Guardian - Ancelotti sets out to end Brazil's World Cup drought",
+      "url": "https://www.theguardian.com/football/2026/jun/12/more-pressure-than-the-president-ancelotti-sets-out-to-end-brazils-world-cup-drought"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Brazil vs Morocco",
+      "subtext": "Trận mở màn bảng C cực căng",
+      "voiceText": "Brazil gặp Ma rốc lúc năm giờ sáng ngày mười bốn tháng sáu theo giờ Việt Nam. Đây là trận ra quân World Cup hai không hai sáu của Selecao tại New York New Jersey, và đối thủ không hề mềm, vì Ma rốc từng hạ Brazil hai một ở lần gặp gần nhất.",
+      "subtitle": "Brazil gặp Morocco lúc 05:00 ngày 14/06 theo giờ Việt Nam. Đây là trận ra quân World Cup 2026 của Selecao tại New York/New Jersey, và đối thủ không hề mềm, vì Morocco từng hạ Brazil 2-1 ở lần gặp gần nhất.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group C - Match 7",
+      "venue": "New York/New Jersey Stadium, East Rutherford",
+      "date": "14/06/2026",
+      "time": "05:00 VN",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "form": "Ứng viên vô địch",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "form": "Bán kết 2022",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.6,
+          "top": "76%",
+          "size": 84
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng C mở màn rực lửa",
+      "subtext": "Brazil, Morocco, Haiti và Scotland",
+      "voiceText": "Bảng Xê có một trận mở màn rất đáng xem. Brazil muốn khởi động hành trình săn cúp vàng thứ sáu, còn Ma rốc bước vào giải với vị thế không còn là ngựa ô nữa.",
+      "subtitle": "Bảng C có một trận mở màn rất đáng xem. Brazil muốn khởi động hành trình săn cúp vàng thứ sáu, còn Morocco bước vào giải với vị thế không còn là ngựa ô nữa.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group C Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Brazil vs Morocco | 14/06/2026 VN",
+      "ctaLabel": "Kick-off 05:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Neymar vắng mặt, Vini và Raphinha gánh biên",
+      "voiceText": "Brazil nhiều khả năng đá bốn hai ba một, với Alisson, Marquinhos, Gabriel Magalhaes, Casemiro, Bruno Guimaraes, Raphinha, Paqueta, Vini Junior và Matheus Cunha. Ma rốc có Bounou, Hakimi, Mazraoui, Ounahi, Brahim Diaz và El Kaabi, đủ sức phản công rất sắc.",
+      "subtitle": "Brazil nhiều khả năng đá 4-2-3-1, với Alisson, Marquinhos, Gabriel Magalhães, Casemiro, Bruno Guimarães, Raphinha, Paquetá, Vini Junior và Matheus Cunha. Morocco có Bounou, Hakimi, Mazraoui, Ounahi, Brahim Diaz và El Kaabi, đủ sức phản công rất sắc.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Alisson",
+            "Wesley",
+            "Marquinhos",
+            "Gabriel Magalhães",
+            "Alex Sandro",
+            "Casemiro",
+            "Bruno Guimarães",
+            "Raphinha",
+            "Lucas Paquetá",
+            "Vini Jr.",
+            "Matheus Cunha"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Yassine Bounou",
+            "Achraf Hakimi",
+            "Issa Diop",
+            "Chadi Riad",
+            "Noussair Mazraoui",
+            "Neil El Aynaoui",
+            "Ayyoub Bouaddi",
+            "Azzedine Ounahi",
+            "Brahim Diaz",
+            "Ayoub El Kaabi",
+            "Ismael Saibari"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: Morocco từng thắng Brazil",
+      "subtext": "Lịch sử nhỏ, tín hiệu lớn",
+      "voiceText": "Về lịch sử, Brazil thắng Ma rốc ở World Cup một chín chín tám, nhưng lần gặp gần nhất năm hai không hai ba, Ma rốc thắng hai một. Các mô hình trước trận vẫn nghiêng về Brazil, nhưng đây là kiểu trận mà chỉ một pha mất bóng cũng có thể đổi nhịp.",
+      "subtitle": "Về lịch sử, Brazil thắng Morocco ở World Cup 1998, nhưng lần gặp gần nhất năm 2023, Morocco thắng 2-1. Các mô hình trước trận vẫn nghiêng về Brazil, nhưng đây là kiểu trận mà chỉ một pha mất bóng cũng có thể đổi nhịp.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "homeTeam": "Brazil",
+      "awayTeam": "Morocco",
+      "odds": [
+        {
+          "label": "Opta Brazil thắng",
+          "value": "57.7%"
+        },
+        {
+          "label": "Khả năng hòa",
+          "value": "23.5%"
+        },
+        {
+          "label": "Morocco thắng",
+          "value": "18.8%"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "World Cup 1998",
+          "home": "Brazil",
+          "away": "Morocco",
+          "score": "3-0",
+          "note": "Ronaldo và Rivaldo ghi bàn",
+          "homeBadgeSrc": "assets/football/flags/brazil.svg",
+          "awayBadgeSrc": "assets/football/flags/morocco.svg"
+        },
+        {
+          "date": "03/2023",
+          "home": "Morocco",
+          "away": "Brazil",
+          "score": "2-1",
+          "note": "Morocco thắng giao hữu",
+          "homeBadgeSrc": "assets/football/flags/morocco.svg",
+          "awayBadgeSrc": "assets/football/flags/brazil.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Cửa thắng trước trận",
+              "home": 58,
+              "away": 19
+            },
+            {
+              "label": "Độ nguy hiểm phản công",
+              "home": 82,
+              "away": 86
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Brazil không có Neymar",
+      "subtext": "Ancelotti phải thắng bằng hệ thống",
+      "voiceText": "Điểm nóng nằm ở cách Huấn luyện viên Ancelotti bù khoảng trống Neymar. Nếu Vini Junior và Raphinha bị Ma rốc khóa biên, Brazil sẽ cần Paqueta và Bruno Guimaraes tạo nhịp ở nửa không gian, thay vì chỉ chờ khoảnh khắc cá nhân.",
+      "subtitle": "Điểm nóng nằm ở cách Huấn luyện viên Ancelotti bù khoảng trống Neymar. Nếu Vini Junior và Raphinha bị Morocco khóa biên, Brazil sẽ cần Paquetá và Bruno Guimarães tạo nhịp ở nửa không gian, thay vì chỉ chờ khoảnh khắc cá nhân.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "quote": "Brazil có nhiều ngôi sao hơn, nhưng trận này sẽ kiểm tra cấu trúc tấn công của Ancelotti.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng C",
+      "subtext": "Trận này có thể định hình ngôi đầu",
+      "voiceText": "Bảng Xê có Brazil, Ma rốc, Haiti và Scotland. Trước lượt đầu, tất cả cùng không điểm, nhưng nếu thắng trận này, Brazil hoặc Ma rốc sẽ có lợi thế cực lớn trong cuộc đua ngôi đầu bảng.",
+      "subtitle": "Bảng C có Brazil, Morocco, Haiti và Scotland. Trước lượt đầu, tất cả cùng 0 điểm, nhưng nếu thắng trận này, Brazil hoặc Morocco sẽ có lợi thế cực lớn trong cuộc đua ngôi đầu bảng.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group C",
+      "activeTab": "BẢNG C",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "LỊCH THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG C"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "BRA",
+        "MAR"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/brazil.svg",
+            "badgeSrc": "assets/football/flags/brazil.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Morocco",
+            "code": "MAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/morocco.svg",
+            "badgeSrc": "assets/football/flags/morocco.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Haiti",
+            "code": "HAI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/haiti.svg",
+            "badgeSrc": "assets/football/flags/haiti.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Scotland",
+            "code": "SCO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/scotland.svg",
+            "badgeSrc": "assets/football/flags/scotland.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Brazil thắng hay Morocco gây sốc?",
+      "voiceText": "Bạn dự đoán Brazil mở màn bằng ba điểm, hay Ma rốc lại tạo cú sốc như năm hai không hai ba? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Brazil mở màn bằng 3 điểm, hay Morocco lại tạo cú sốc như năm 2023? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1E9B4B",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Brazil vs Morocco?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Brazil",
+          "Morocco",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "title": "Austria vs Jordan: trận bản lề cho tham vọng bảng J",
+  "slug": "austria-vs-jordan-world-cup-2026-preview-2026-06-17",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Austria - Jordan, kickoff 11:00 ngày 17/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FIFA match centre - Austria vs Jordan",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021498"
+    },
+    {
+      "title": "Levi's Stadium - Austria vs Jordan",
+      "url": "https://levisstadium.com/event/fifa-world-cup-group-stage-2026-06-16/"
+    },
+    {
+      "title": "FIFA - Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "title": "FOX Sports - 2026 World Cup schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Austria vs Jordan",
+      "subtext": "Một trận có thể định giá vé đi tiếp",
+      "voiceText": "Áo gặp Jordan lúc mười một giờ trưa, ngày mười bảy tháng sáu theo giờ Việt Nam. Đây là trận mở màn bảng J World Cup hai không hai sáu, và với cả hai đội, đây có thể là trận dễ kiếm điểm nhất trước khi gặp Argentina hoặc Algeria.",
+      "subtitle": "Austria gặp Jordan lúc 11:00 ngày 17/06 theo giờ Việt Nam. Đây là trận mở màn bảng J World Cup 2026, và với cả hai đội, đây có thể là trận dễ kiếm điểm nhất trước khi gặp Argentina hoặc Algeria.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group J - Matchday 1",
+      "venue": "San Francisco Bay Area Stadium",
+      "date": "17/06/2026",
+      "time": "11:00 VN",
+      "teams": [
+        {
+          "name": "Austria",
+          "code": "AUT",
+          "form": "Pressing cường độ cao",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg"
+        },
+        {
+          "name": "Jordan",
+          "code": "JOR",
+          "form": "Ẩn số Tây Á",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/jordan.svg",
+          "badgeSrc": "assets/football/flags/jordan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng J: cơ hội nằm ở trận này",
+      "subtext": "Austria và Jordan cùng cần điểm",
+      "voiceText": "Khi Argentina là cửa trên của bảng, Áo và Jordan hiểu rằng cuộc đua thật sự có thể nằm ở những trận đối đầu trực tiếp. Ba điểm ở trận này sẽ thay đổi toàn bộ tâm thế trước hai lượt còn lại.",
+      "subtitle": "Khi Argentina là cửa trên của bảng, Austria và Jordan hiểu rằng cuộc đua thật sự có thể nằm ở những trận đối đầu trực tiếp. 3 điểm ở trận này sẽ thay đổi toàn bộ tâm thế trước hai lượt còn lại.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group J Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Austria vs Jordan | 17/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Austria pressing, Jordan chờ phản công",
+      "voiceText": "Áo có thể dùng Pentz, Posch, Danso, Lienhart, Mwene, Seiwald, Laimer, Sabitzer, Baumgartner, Wimmer và Arnautovic. Jordan nhiều khả năng xoay quanh Abulaila, Al Arab, Nasib, Haddad, Al Mardi, Nizar Al Rashdan, Noor Al Rawabdeh, Olwan, Al Naimat, Tamari và Saleh Rateb.",
+      "subtitle": "Austria có thể dùng Pentz, Posch, Danso, Lienhart, Mwene, Seiwald, Laimer, Sabitzer, Baumgartner, Wimmer và Arnautovic. Jordan nhiều khả năng xoay quanh Abulaila, Al Arab, Nasib, Haddad, Al Mardi, Nizar Al Rashdan, Noor Al Rawabdeh, Olwan, Al Naimat, Tamari và Saleh Rateb.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Austria",
+          "code": "AUT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg"
+        },
+        {
+          "name": "Jordan",
+          "code": "JOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/jordan.svg",
+          "badgeSrc": "assets/football/flags/jordan.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Pentz",
+            "Posch",
+            "Danso",
+            "Lienhart",
+            "Mwene",
+            "Seiwald",
+            "Laimer",
+            "Sabitzer",
+            "Baumgartner",
+            "Wimmer",
+            "Arnautovic"
+          ]
+        },
+        "away": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Abulaila",
+            "Al Arab",
+            "Nasib",
+            "Haddad",
+            "Al Mardi",
+            "Nizar Al Rashdan",
+            "Noor Al Rawabdeh",
+            "Olwan",
+            "Al Naimat",
+            "Tamari",
+            "Saleh Rateb"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Thế trận: nhịp pressing của Austria",
+      "subtext": "Jordan cần thoát vây thật sạch",
+      "voiceText": "Áo có xu hướng đẩy nhịp trận đấu lên rất cao bằng pressing và những pha xâm nhập từ tuyến hai. Jordan cần thoát pressing bằng đường chuyền đầu tiên thật chuẩn, bởi nếu mất bóng gần vòng cấm, trận đấu có thể trôi rất nhanh khỏi tay.",
+      "subtitle": "Austria có xu hướng đẩy nhịp trận đấu lên rất cao bằng pressing và những pha xâm nhập từ tuyến hai. Jordan cần thoát pressing bằng đường chuyền đầu tiên thật chuẩn, bởi nếu mất bóng gần vòng cấm, trận đấu có thể trôi rất nhanh khỏi tay.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Austria",
+          "away": "Jordan",
+          "score": "Preview",
+          "note": "Pressing cường độ cao gặp phản công Tây Á",
+          "homeBadgeSrc": "assets/football/flags/austria.svg",
+          "awayBadgeSrc": "assets/football/flags/jordan.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Cường độ pressing",
+          "value": "Austria"
+        },
+        {
+          "label": "Phản công biên",
+          "value": "Jordan"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Mất bóng khu giữa"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Pressing",
+              "home": 86,
+              "away": 64
+            },
+            {
+              "label": "Chuyển trạng thái",
+              "home": 78,
+              "away": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Sabitzer và Tamari",
+      "subtext": "Một bên điều nhịp, một bên chờ khoảnh khắc",
+      "voiceText": "Điểm nóng là Sabitzer ở giữa sân và Tamari ở những pha phản công. Nếu Sabitzer kiểm soát được nhịp pressing, Áo sẽ bóp Jordan rất sâu.",
+      "subtitle": "Điểm nóng là Sabitzer ở giữa sân và Tamari ở những pha phản công. Nếu Sabitzer kiểm soát được nhịp pressing, Austria sẽ bóp Jordan rất sâu.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Đây là kiểu trận mà đội nào ghi bàn trước sẽ được chơi đúng thế mạnh của mình.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng J",
+      "subtext": "Không được hụt hơi trước khi gặp cửa trên",
+      "voiceText": "Bảng J gồm Argentina, Algeria, Áo và Jordan. Với Áo, ba điểm là cách tốt nhất để bước vào hai trận khó sau đó. Với Jordan, chỉ cần có điểm, họ sẽ buộc cả bảng phải nhìn mình bằng con mắt khác.",
+      "subtitle": "Bảng J gồm Argentina, Algeria, Austria và Jordan. Với Austria, 3 điểm là cách tốt nhất để bước vào hai trận khó sau đó. Với Jordan, chỉ cần có điểm, họ sẽ buộc cả bảng phải nhìn mình bằng con mắt khác.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026 - Group J",
+      "activeTab": "GROUP J",
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "AUT",
+        "JOR"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Argentina",
+            "code": "ARG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/argentina.svg",
+            "badgeSrc": "assets/football/flags/argentina.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Algeria",
+            "code": "ALG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/algeria.svg",
+            "badgeSrc": "assets/football/flags/algeria.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Austria",
+            "code": "AUT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/austria.svg",
+            "badgeSrc": "assets/football/flags/austria.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Jordan",
+            "code": "JOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/jordan.svg",
+            "badgeSrc": "assets/football/flags/jordan.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số Austria vs Jordan",
+      "subtext": "Comment góc nhìn của bạn",
+      "voiceText": "Bạn dự đoán Áo thắng bằng pressing cường độ cao, hay Jordan sẽ tạo bất ngờ bằng phản công? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Austria thắng bằng pressing cường độ cao, hay Jordan sẽ tạo bất ngờ bằng phản công? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Austria vs Jordan",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Austria vs Jordan",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png",
+          "Austria",
+          "Jordan",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

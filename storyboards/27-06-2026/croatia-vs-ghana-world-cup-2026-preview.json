@@ -1,0 +1,354 @@
+{
+  "title": "Croatia vs Ghana: Chung kết cho tấm vé đi tiếp",
+  "slug": "croatia-vs-ghana-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Nhận định trận đấu sinh tử giữa Croatia và Ghana tại bảng L World Cup 2026. Lịch thi đấu theo giờ Việt Nam là 04:00 ngày 28/06/2026.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "Sports Mole - Croatia vs Ghana preview",
+      "url": "https://www.sportsmole.co.uk/football/croatia/world-cup/preview/preview-croatia-vs-ghana.html"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Croatia vs Ghana",
+      "subtext": "Trận đấu sinh tử bảng L",
+      "voiceText": "Cuộc đối đầu sinh tử giữa Cờ rốt ti a và Ghana, sẽ diễn ra lúc bốn giờ sáng, ngày hai mươi tám tháng sáu theo giờ Việt Nam. Một trận đấu quyết định trực tiếp tấm vé vào vòng ba mươi hai đội, của cả hai đối thủ.",
+      "subtitle": "Cuộc đối đầu sinh tử giữa Croatia và Ghana sẽ diễn ra lúc 04:00 ngày 28/06 theo giờ Việt Nam. Một trận đấu quyết định trực tiếp tấm vé vào vòng 32 đội của cả hai đối thủ.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group L - Matchday 3",
+      "venue": "Lincoln Financial Field",
+      "date": "28/06/2026",
+      "time": "04:00 VN",
+      "teams": [
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "form": "3 điểm",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        },
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "form": "4 điểm",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Cục diện bảng L",
+      "subtext": "Ghana nắm lợi thế chỉ cần hòa",
+      "voiceText": "Cục diện bảng Lờ hiện tại đang có lợi cho Ghana khi họ xếp thứ hai với bốn điểm, trong khi Cờ rốt ti a xếp thứ ba với ba điểm và buộc phải thắng.",
+      "subtitle": "Cục diện Bảng L hiện tại đang có lợi cho Ghana khi họ xếp thứ hai với 4 điểm, trong khi Croatia xếp thứ ba với 3 điểm và buộc phải thắng.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group L Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Kinh nghiệm đối đầu sức trẻ",
+      "voiceText": "Đội hình Cờ rốt ti a vẫn xoay quanh bộ ba tiền vệ kỳ cựu là Luka Modric, Mateo Kovacic và Mario Pasalic. Trong khi đó, Ghana với lối chơi phòng ngự kỷ luật của huấn luyện viên Carlos Queiroz sẽ sử dụng sơ đồ bốn hai ba một đầy thực dụng.",
+      "subtitle": "Đội hình Croatia vẫn xoay quanh bộ ba tiền vệ kỳ cựu, là Luka Modric, Mateo Kovacic và Mario Pasalic. Trong khi đó, Ghana với lối chơi phòng ngự kỷ luật của HLV Carlos Queiroz, sẽ sử dụng sơ đồ 4-2-3-1 đầy thực dụng.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Croatia",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "players": [
+            "Livakovic",
+            "Stanisic",
+            "Sutalo",
+            "Gvardiol",
+            "Sosa",
+            "Modric",
+            "Kovacic",
+            "Pasalic",
+            "Pasalic",
+            "Kramaric",
+            "Perisic"
+          ]
+        },
+        {
+          "team": "Ghana",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "players": [
+            "Ati-Zigi",
+            "Seidu",
+            "Djiku",
+            "Salisu",
+            "Mensah",
+            "Samed",
+            "Ashimeru",
+            "Semenyo",
+            "Kudus",
+            "J. Ayew",
+            "Williams"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H & Phong độ",
+      "subtext": "Hai phong cách đối lập",
+      "voiceText": "Đây là lần đầu tiên hai đội đụng độ tại một kỳ World Cup. Về phong độ, Cờ rốt ti a vừa thắng tối thiểu Panama một không, còn Ghana đã xuất sắc cầm hòa tuyển Anh không đều.",
+      "subtitle": "Đây là lần đầu tiên hai đội đụng độ tại một kỳ World Cup. Về phong độ, Croatia vừa thắng tối thiểu Panama 1-0, còn Ghana đã xuất sắc cầm hòa tuyển Anh 0-0.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Croatia",
+      "awayTeam": "Ghana",
+      "h2hMatches": [],
+      "odds": [
+        {
+          "label": "Mục tiêu Croatia",
+          "value": "Bắt buộc thắng"
+        },
+        {
+          "label": "Mục tiêu Ghana",
+          "value": "Chỉ cần hòa"
+        },
+        {
+          "label": "Lối chơi Ghana",
+          "value": "Phòng ngự chặt"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Khả năng kiểm soát bóng dự kiến",
+              "home": 58,
+              "away": 42
+            },
+            {
+              "label": "Độ lì lợm phòng ngự dự kiến",
+              "home": 65,
+              "away": 82
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: tuyến giữa",
+      "subtext": "Đẳng cấp của Luka Modric",
+      "voiceText": "Điểm nóng của trận đấu sẽ nằm ở cuộc chiến trung tuyến, nơi lão tướng Luka Modric phải tìm cách xuyên phá bức tường phòng ngự hai lớp, cực kỳ kiên cố của Những ngôi sao đen Ghana.",
+      "subtitle": "Điểm nóng của trận đấu sẽ nằm ở cuộc chiến trung tuyến, nơi lão tướng Luka Modric phải tìm cách xuyên phá bức tường phòng ngự 2 lớp cực kỳ kiên cố của Những ngôi sao đen Ghana.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Ghana sẽ chơi một khối phòng ngự lùi sâu cực kỳ khó chịu, buộc Croatia phải kiên nhẫn tối đa.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng L",
+      "subtext": "Chung kết tấm vé thứ hai",
+      "voiceText": "Cờ rốt ti a đứng trước bờ vực bị loại, nếu không giành ba điểm. Ghana nắm quyền tự quyết khi chỉ cần hòa là đi tiếp, thậm chí có thể chiếm ngôi đầu bảng từ tay tuyển Anh nếu Anh sảy chân.",
+      "subtitle": "Croatia đứng trước bờ vực bị loại nếu không giành 3 điểm. Ghana nắm quyền tự quyết khi chỉ cần hòa là đi tiếp, thậm chí có thể chiếm ngôi đầu bảng từ tay tuyển Anh nếu Anh sảy chân.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group L",
+      "standings": [
+        {
+          "pos": 1,
+          "team": "England",
+          "played": 2,
+          "points": 4,
+          "gd": 2,
+          "flagSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "pos": 2,
+          "team": "Ghana",
+          "played": 2,
+          "points": 4,
+          "gd": 1,
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "team": "Croatia",
+          "played": 2,
+          "points": 3,
+          "gd": -1,
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "highlight": true
+        },
+        {
+          "pos": 4,
+          "team": "Panama",
+          "played": 2,
+          "points": 0,
+          "gd": -2,
+          "flagSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Ai sẽ giành vé đi tiếp?",
+      "subtext": "Bình luận dự đoán của bạn",
+      "voiceText": "Liệu bản lĩnh của cựu á quân thế giới Cờ rốt ti a, sẽ lên tiếng? hay sức trẻ của Ghana sẽ tiễn đối thủ về nước? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu bản lĩnh của cựu á quân thế giới Croatia sẽ lên tiếng, hay sức trẻ của Ghana sẽ tiễn đối thủ về nước? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Croatia vs Ghana",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Croatia",
+          "Ghana"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

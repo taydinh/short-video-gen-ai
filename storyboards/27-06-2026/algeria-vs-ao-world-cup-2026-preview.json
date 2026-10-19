@@ -1,0 +1,417 @@
+{
+  "title": "Algeria vs Áo: Trận cầu sinh tử bảng J",
+  "slug": "algeria-vs-ao-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Nhận định trận đấu sinh tử quyết định tấm vé đi tiếp tại bảng J World Cup 2026 giữa Algeria và Áo. Lịch thi đấu theo giờ Việt Nam là 09:00 ngày 28/06/2026.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "Sports Mole - Algeria vs Austria preview",
+      "url": "https://www.sportsmole.co.uk/football/algeria/world-cup/preview/preview-algeria-vs-austria.html"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Algeria vs Áo",
+      "subtext": "Trận chiến sinh tử giành vé đi tiếp",
+      "voiceText": "Algeria đối đầu với đội tuyển Áo vào lúc chín giờ sáng ngày hai mươi tám tháng sáu theo giờ Việt Nam. Đây là trận cầu sinh tử quyết định tấm vé đi tiếp tại bảng Ji World Cup hai không hai sáu, nơi cả hai đội đều đang có ba điểm và buộc phải chiến đấu hết mình.",
+      "subtitle": "Algeria đối đầu với ĐT Áo vào lúc 09:00 ngày 28/06 theo giờ Việt Nam. Đây là trận cầu sinh tử quyết định tấm vé đi tiếp tại bảng J World Cup 2026, nơi cả hai đội đều đang có 3 điểm và buộc phải chiến đấu hết mình.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group J - Matchday 3",
+      "venue": "Arrowhead Stadium",
+      "date": "28/06/2026",
+      "time": "09:00 VN",
+      "teams": [
+        {
+          "name": "Algeria",
+          "code": "ALG",
+          "form": "3 điểm",
+          "flagSrc": "assets/football/flags/algeria.svg",
+          "badgeSrc": "assets/football/flags/algeria.svg"
+        },
+        {
+          "name": "Áo",
+          "code": "AUT",
+          "form": "3 điểm",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng J rực lửa",
+      "subtext": "Cuộc cạnh tranh tấm vé thứ hai",
+      "voiceText": "Tấm vé đầu tiên đã thuộc về Ác hen ti na, suất còn lại sẽ là cuộc cạnh tranh khốc liệt giữa Algeria và tuyển Áo.",
+      "subtitle": "Tấm vé đầu tiên đã thuộc về Argentina, suất còn lại sẽ là cuộc cạnh tranh khốc liệt giữa Algeria và tuyển Áo.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group J Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Những quân bài tốt nhất",
+      "voiceText": "Đội tuyển Áo dưới sự dẫn dắt của huấn luyện viên Ralf Rangnick kỳ vọng vào sự bùng nổ của Sa bít dơ và lão tướng Ác nau tô vích. Trong khi đó, Algeria tự tin với sự sáng tạo của Ma rét và khả năng săn bàn của Gui ri trên hàng công.",
+      "subtitle": "ĐT Áo dưới sự dẫn dắt của HLV Ralf Rangnick kỳ vọng vào sự bùng nổ của Sabitzer và lão tướng Arnautovic. Trong khi đó, Algeria tự tin với sự sáng tạo của Mahrez và khả năng săn bàn của Gouiri trên hàng công.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Algeria",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/algeria.svg",
+          "players": [
+            "Zidane",
+            "Belghali",
+            "Mandi",
+            "Bensebaini",
+            "Ait Nouri",
+            "Bentaleb",
+            "Benbouali",
+            "Mahrez",
+            "Maza",
+            "Chaibi",
+            "Gouiri"
+          ]
+        },
+        {
+          "team": "Áo",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "players": [
+            "A. Schlager",
+            "Posch",
+            "Danso",
+            "Alaba",
+            "Laimer",
+            "Seiwald",
+            "X. Schlager",
+            "Schmid",
+            "Wanner",
+            "Sabitzer",
+            "Arnautovic"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Phong độ & Đối đầu",
+      "subtext": "Sức mạnh tương đồng",
+      "voiceText": "Cả hai đội đều có một chiến thắng và một trận thua. Lần gần nhất đối đầu tại World cup một chín tám hai là một kỷ niệm không mấy vui vẻ, nhưng hiện tại cả hai đều hướng tới một trận đấu sòng phẳng.",
+      "subtitle": "Cả hai đội đều có 1 chiến thắng và 1 trận thua. Lần gần nhất đối đầu tại World Cup 1982 là một kỷ niệm không mấy vui vẻ, nhưng hiện tại cả hai đều hướng tới một trận đấu sòng phẳng.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Algeria",
+      "awayTeam": "Áo",
+      "h2hMatches": [
+        {
+          "date": "17/06/2026",
+          "home": "Argentina",
+          "away": "Algeria",
+          "score": "3-0",
+          "note": "Lượt trận 1",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/algeria.svg"
+        },
+        {
+          "date": "17/06/2026",
+          "home": "Áo",
+          "away": "Jordan",
+          "score": "3-1",
+          "note": "Lượt trận 1",
+          "homeBadgeSrc": "assets/football/flags/austria.svg",
+          "awayBadgeSrc": "assets/football/flags/jordan.svg"
+        },
+        {
+          "date": "23/06/2026",
+          "home": "Argentina",
+          "away": "Áo",
+          "score": "2-0",
+          "note": "Lượt trận 2",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/austria.svg"
+        },
+        {
+          "date": "23/06/2026",
+          "home": "Algeria",
+          "away": "Jordan",
+          "score": "2-1",
+          "note": "Lượt trận 2",
+          "homeBadgeSrc": "assets/football/flags/algeria.svg",
+          "awayBadgeSrc": "assets/football/flags/jordan.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Mục tiêu hai đội",
+          "value": "Chiến đấu giành vé"
+        },
+        {
+          "label": "Lối chơi Algeria",
+          "value": "Tấn công biên nhanh"
+        },
+        {
+          "label": "Lối chơi tuyển Áo",
+          "value": "Pressing tầm cao"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Khả năng kiểm soát bóng dự kiến",
+              "home": 45,
+              "away": 55
+            },
+            {
+              "label": "Chỉ số bàn thắng kỳ vọng",
+              "home": 60,
+              "away": 68
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trước trận",
+      "subtext": "Đại chiến trung lộ",
+      "voiceText": "Điểm nóng sẽ là cuộc chiến khu trung tuyến giữa Seiwald của Áo, và Bentaleb bên phía Algeria. Đội nào kiểm soát được thế trận giữa sân sẽ có cơ hội lớn để giành vé đi tiếp.",
+      "subtitle": "Điểm nóng sẽ là cuộc chiến khu trung tuyến giữa Seiwald của Áo và Bentaleb bên phía Algeria. Đội nào kiểm soát được thế trận giữa sân sẽ có cơ hội lớn để giành vé đi tiếp.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Áo có lợi thế hiệu số và chỉ cần hòa, nhưng lối chơi thực dụng và lì lợm của Algeria sẽ là thử thách cực đại.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng J",
+      "subtext": "Cạnh tranh vị trí thứ hai",
+      "voiceText": "Tại bảng Ji, Ác hen ti na dẫn đầu với sáu điểm tuyệt đối. Tuyển Áo tạm xếp thứ hai nhờ hiệu số bàn thắng bại bằng không, còn Algeria xếp thứ ba với hiệu số âm hai, buộc phải thắng để tự quyết số phận.",
+      "subtitle": "Tại bảng J, Argentina dẫn đầu với 6 điểm tuyệt đối. Tuyển Áo tạm xếp thứ hai nhờ hiệu số bàn thắng bại bằng 0, còn Algeria xếp thứ ba với hiệu số -2, buộc phải thắng để tự quyết số phận.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group J",
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Argentina",
+          "played": 2,
+          "points": 6,
+          "gd": 5,
+          "flagSrc": "assets/football/flags/argentina.svg"
+        },
+        {
+          "pos": 2,
+          "team": "Austria",
+          "played": 2,
+          "points": 3,
+          "gd": 0,
+          "flagSrc": "assets/football/flags/austria.svg",
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "team": "Algeria",
+          "played": 2,
+          "points": 3,
+          "gd": -2,
+          "flagSrc": "assets/football/flags/algeria.svg",
+          "highlight": true
+        },
+        {
+          "pos": 4,
+          "team": "Jordan",
+          "played": 2,
+          "points": 0,
+          "gd": -3,
+          "flagSrc": "assets/football/flags/jordan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Ai sẽ giành vé đi tiếp?",
+      "subtext": "Bình luận dự đoán của bạn",
+      "voiceText": "Liệu đại diện châu Phi Algeria sẽ đi tiếp, hay tuyển Áo sẽ giữ vững lợi thế của mình? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu đại diện châu Phi Algeria sẽ đi tiếp, hay ĐT Áo sẽ giữ vững lợi thế của mình? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Algeria vs Áo",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Algeria",
+          "Áo"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

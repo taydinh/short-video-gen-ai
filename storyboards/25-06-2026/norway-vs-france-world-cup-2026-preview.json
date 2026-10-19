@@ -1,0 +1,427 @@
+{
+  "title": "Na Uy vs Pháp | Preview World Cup 2026",
+  "slug": "norway-vs-france-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Na Uy vs Pháp, 02:00 ngày 27/06/2026 giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Na Uy vs Pháp",
+      "subtext": "Đại chiến giành ngôi đầu bảng I",
+      "voiceText": "Na Uy đối đầu với Pháp vào lúc hai giờ sáng, ngày hai mươi bảy tháng sáu theo giờ Việt Nam. Đây là trận chiến trực tiếp phân định ngôi đầu bảng Y, nơi cả hai thế lực châu Âu đều muốn khẳng định sức mạnh tuyệt đối trước khi bước vào vòng ba mươi hai đội.",
+      "subtitle": "Na Uy đối đầu với Pháp vào lúc 02:00 ngày 27/06 theo giờ Việt Nam. Đây là trận chiến trực tiếp phân định ngôi đầu Bảng I, nơi cả hai thế lực châu Âu đều muốn khẳng định sức mạnh tuyệt đối trước khi bước vào vòng 32 đội.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group I - Matchday 3",
+      "venue": "Boston Stadium",
+      "date": "27/06/2026",
+      "time": "02:00 VN",
+      "teams": [
+        {
+          "name": "Na Uy",
+          "code": "NOR",
+          "form": "GD +4",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        },
+        {
+          "name": "Pháp",
+          "code": "FRA",
+          "form": "GD +5",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Trận chiến ngôi đầu",
+      "subtext": "Norway vs France quyết đấu",
+      "voiceText": "Lượt cuối bảng Y World Cup hai không hai sáu. Hai đội tuyển sở hữu hàng công khủng khiếp nhất bảng đấu đụng độ nhau trong trận cầu tâm điểm.",
+      "subtitle": "Lượt cuối Bảng I World Cup 2026. Hai đội tuyển sở hữu hàng công khủng khiếp nhất bảng đấu đụng độ nhau trong trận cầu tâm điểm.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group I Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Na Uy vs Pháp | 27/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Haaland và Mbappé dẫn đầu",
+      "voiceText": "Na Uy dự kiến xuất phát với sơ đồ bốn ba ba, xoay quanh linh hồn Ơ Đơ Gác và sát thủ Ha Lan. Phía tuyển Pháp, huấn luyện viên sẽ tung ra đội hình tối ưu với đầu tàu em pa bê, bên cạnh sự hỗ trợ từ đem bê lê và Gơ ri ét man.",
+      "subtitle": "Na Uy dự kiến xuất phát với sơ đồ 4-3-3, xoay quanh linh hồn Martin Ødegaard và sát thủ Erling Haaland. Phía tuyển Pháp, HLV sẽ tung ra đội hình tối ưu với đầu tàu Kylian Mbappé, bên cạnh sự hỗ trợ từ Ousmane Dembélé và Antoine Griezmann.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Na Uy",
+          "code": "NOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        },
+        {
+          "name": "Pháp",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Nyland",
+            "Ryerson",
+            "Ajer",
+            "Ostigard",
+            "Wolfe",
+            "Odegaard",
+            "Berge",
+            "Thorsby",
+            "Bobb",
+            "Haaland",
+            "Nusa"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Maignan",
+            "Kounde",
+            "Saliba",
+            "Upamecano",
+            "Hernandez",
+            "Griezmann",
+            "Tchouameni",
+            "Rabiot",
+            "Dembele",
+            "Thuram",
+            "Mbappe"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Phong độ hủy diệt",
+      "subtext": "Hiệu số vượt trội của hai đội",
+      "voiceText": "Cả hai đều có phong độ cực cao. Pháp vượt qua Y Rắc ba không và Senegal ba một. Trong khi Na Uy đánh bại Y Rắc bốn một và vượt qua Senegal kịch tính ba hai. Cuộc đối đầu này sẽ là bài kiểm tra thực sự cho tham vọng vô địch của cả hai.",
+      "subtitle": "Cả hai đều có phong độ cực cao. Pháp vượt qua Iraq 3-0 và Senegal 3-1. Trong khi Na Uy đánh bại Iraq 4-1 và vượt qua Senegal kịch tính 3-2. Cuộc đối đầu này sẽ là bài kiểm tra thực sự cho tham vọng vô địch của cả hai.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Na Uy",
+      "awayTeam": "Pháp",
+      "h2hMatches": [
+        {
+          "date": "20/06/2026",
+          "home": "Pháp",
+          "away": "Senegal",
+          "score": "3-1",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/france.svg",
+          "awayBadgeSrc": "assets/football/flags/senegal.svg"
+        },
+        {
+          "date": "20/06/2026",
+          "home": "Na Uy",
+          "away": "Iraq",
+          "score": "4-1",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/norway.svg",
+          "awayBadgeSrc": "assets/football/flags/iraq.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Sát thủ Erling Haaland",
+          "value": "Na Uy tự tin"
+        },
+        {
+          "label": "Bản lĩnh nhà vô địch",
+          "value": "Pháp áp đảo"
+        },
+        {
+          "label": "Ngôi đầu bảng",
+          "value": "Quyết tranh đoạt"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 48,
+              "away": 52
+            },
+            {
+              "label": "Tấn công nguy hiểm",
+              "home": 45,
+              "away": 55
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định chuyên gia",
+      "quote": "Pháp có chiều sâu đội hình vượt trội, nhưng Haaland có thể kết liễu trận đấu trong một khoảnh khắc.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Nhận định của tôi là tuyển Pháp sở hữu dàn siêu sao đồng đều hơn, nhưng với phong độ bay cao của sát thủ Ha Lan, Na Uy hoàn toàn có thể tạo nên bất ngờ lớn nếu có cơ hội phản công sắc bén.",
+      "subtitle": "Nhận định của tôi là tuyển Pháp sở hữu dàn siêu sao đồng đều hơn, nhưng với phong độ bay cao của Erling Haaland, Na Uy hoàn toàn có thể tạo nên bất ngờ lớn nếu có cơ hội phản công sắc bén.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng I",
+      "subtext": "Đồng sáu điểm dắt tay nhau đi tiếp",
+      "voiceText": "Cục diện bảng Y hiện tại, Pháp dẫn đầu nhờ hiệu số dương năm, Na Uy bám sát ở vị trí thứ hai với hiệu số dương bốn. Cả hai đã chắc suất đi tiếp, trong khi Senegal và Y Rắc đã chính thức bị loại sau hai trận toàn thua.",
+      "subtitle": "Cục diện Bảng I hiện tại, Pháp dẫn đầu nhờ hiệu số +5, Na Uy bám sát ở vị trí thứ hai với hiệu số +4. Cả hai đã chắc suất đi tiếp, trong khi Senegal và Iraq đã chính thức bị loại sau 2 trận toàn thua.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group I Standings",
+      "highlightTeams": [
+        "Pháp",
+        "Na Uy"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Pháp",
+            "code": "FRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/france.svg"
+          },
+          "played": 2,
+          "points": 6,
+          "gd": "+5"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Na Uy",
+            "code": "NOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/norway.svg"
+          },
+          "played": 2,
+          "points": 6,
+          "gd": "+4"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Senegal",
+            "code": "SEN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/senegal.svg"
+          },
+          "played": 2,
+          "points": 0,
+          "gd": "-3"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Iraq",
+            "code": "IRQ",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/iraq.svg"
+          },
+          "played": 2,
+          "points": 0,
+          "gd": "-6"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "DỰ ĐOÁN TỈ SỐ",
+      "subtext": "@meothichbl",
+      "voiceText": "Liệu Na Uy sẽ giành ngôi đầu bảng từ tay gà trống Gô loa, hay tuyển Pháp sẽ thị uy sức mạnh? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu Na Uy sẽ giành ngôi đầu bảng từ tay gà trống Gô-loa, hay tuyển Pháp sẽ thị uy sức mạnh? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Na Uy vs Pháp",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

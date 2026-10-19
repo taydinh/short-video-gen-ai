@@ -1,0 +1,481 @@
+{
+  "title": "Đức vs Curaçao: ứng viên lớn gặp tân binh nhỏ nhất World Cup 2026",
+  "slug": "duc-vs-curacao-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Đức - Curaçao ở bảng E World Cup 2026, quy đổi giờ Việt Nam là 00:00 ngày 15/06/2026. Trận đấu diễn ra tại Houston Stadium, Houston.",
+  "sources": [
+    {
+      "title": "FIFA - Germany vs Curaçao World Cup 2026 suites match listing",
+      "url": "https://fifaworldcup26.suites.fifa.com/events/Germany-vs-Curaao-111700/"
+    },
+    {
+      "title": "Sofascore - Germany vs Curaçao match page",
+      "url": "https://www.sofascore.com/football/match/curacao-germany/lUbsCqx"
+    },
+    {
+      "title": "Houston Chronicle - Germany vs Curaçao in 2026 World Cup preview",
+      "url": "https://www.houstonchronicle.com/world-cup/article/germany-curacao-preview-world-cup-2026-22303968.php"
+    },
+    {
+      "title": "Fox Sports - Germany World Cup 2026 schedule",
+      "url": "https://www.foxsports.com/stories/soccer/germany-world-cup-2026-schedule-locations-dates-times"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Đức vs Curaçao",
+      "subtext": "Ứng viên lớn gặp tân binh lịch sử",
+      "voiceText": "Đức gặp Cu Ra Sao lúc không giờ, ngày mười lăm tháng sáu theo giờ Việt Nam. Đây là trận ra quân World Cup hai không hai sáu tại Houston, nơi một ông lớn bốn lần vô địch thế giới đối đầu đội tuyển nhỏ nhất từng góp mặt ở ngày hội bóng đá.",
+      "subtitle": "Đức gặp Curaçao lúc 00:00 ngày 15/06 theo giờ Việt Nam. Đây là trận ra quân World Cup 2026 tại Houston, nơi một ông lớn 4 lần vô địch thế giới đối đầu đội tuyển nhỏ nhất từng góp mặt ở ngày hội bóng đá.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group E - Match 10",
+      "venue": "Houston Stadium, Houston",
+      "date": "15/06/2026",
+      "time": "00:00 VN",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "form": "4 lần vô địch",
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Curaçao",
+          "code": "CUW",
+          "teamType": "national",
+          "form": "Lần đầu dự World Cup",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "76%",
+          "size": 84
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng E bắt đầu rất lệch kèo",
+      "subtext": "Germany, Curaçao, Côte d'Ivoire và Ecuador",
+      "voiceText": "Bảng E mở màn bằng một cặp đấu rất thú vị. Đức cần xóa ký ức hai kỳ World Cup liên tiếp dừng ở vòng bảng, còn Cu Ra Sao bước vào sân với câu chuyện cổ tích của riêng mình.",
+      "subtitle": "Bảng E mở màn bằng một cặp đấu rất thú vị. Đức cần xóa ký ức 2 kỳ World Cup liên tiếp dừng ở vòng bảng, còn Curaçao bước vào sân với câu chuyện cổ tích của riêng mình.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group E Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Germany vs Curaçao | 15/06/2026 VN",
+      "ctaLabel": "Kick-off 00:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Wirtz và Musiala là chìa khóa mở khóa",
+      "voiceText": "Đức có thể đá bốn hai ba một, với Neuer, Kimmich, Rudiger, Tah, Mittelstadt, Andrich, Kroos, Sane, Wirtz, Musiala và Havertz. Cu Ra Sao nhiều khả năng ưu tiên khối thấp, dựa vào Bacuna, Martina và Janga để phản công khi có khoảng trống.",
+      "subtitle": "Đức có thể đá 4-2-3-1, với Neuer, Kimmich, Rüdiger, Tah, Mittelstädt, Andrich, Kroos, Sané, Wirtz, Musiala và Havertz. Curaçao nhiều khả năng ưu tiên khối thấp, dựa vào Bacuna, Martina và Janga để phản công khi có khoảng trống.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Curaçao",
+          "code": "CUW",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Manuel Neuer",
+            "Joshua Kimmich",
+            "Antonio Rüdiger",
+            "Jonathan Tah",
+            "Maximilian Mittelstädt",
+            "Robert Andrich",
+            "Toni Kroos",
+            "Leroy Sané",
+            "Florian Wirtz",
+            "Jamal Musiala",
+            "Kai Havertz"
+          ]
+        },
+        "away": {
+          "formation": "5-4-1",
+          "players": [
+            "Eloy Room",
+            "Jurien Gaari",
+            "Cuco Martina",
+            "Roshon van Eijma",
+            "Sherel Floranus",
+            "Gervane Kastaneer",
+            "Leandro Bacuna",
+            "Juninho Bacuna",
+            "Kenji Gorre",
+            "Brandley Kuwas",
+            "Rangelo Janga"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: lần đầu ở World Cup",
+      "subtext": "Chênh lệch danh tiếng, nhưng áp lực nằm ở Đức",
+      "voiceText": "Hai đội gần như không có lịch sử đối đầu đáng kể ở cấp World Cup, nên câu chuyện chính nằm ở áp lực. Đức buộc phải thắng thuyết phục, trong khi Cu Ra Sao chỉ cần đứng vững lâu hơn dự đoán, trận đấu sẽ bắt đầu có mùi khó chịu.",
+      "subtitle": "Hai đội gần như không có lịch sử đối đầu đáng kể ở cấp World Cup, nên câu chuyện chính nằm ở áp lực. Đức buộc phải thắng thuyết phục, trong khi Curaçao chỉ cần đứng vững lâu hơn dự đoán, trận đấu sẽ bắt đầu có mùi khó chịu.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Curaçao",
+          "code": "CUW",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg"
+        }
+      ],
+      "homeTeam": "Germany",
+      "awayTeam": "Curaçao",
+      "odds": [
+        {
+          "label": "Lợi thế danh tiếng",
+          "value": "Germany"
+        },
+        {
+          "label": "Câu chuyện lịch sử",
+          "value": "Curaçao"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Bàn thắng sớm"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Germany",
+          "away": "Curaçao",
+          "score": "Preview",
+          "note": "Lần đầu gặp ở sân khấu World Cup",
+          "homeBadgeSrc": "assets/football/flags/germany.svg",
+          "awayBadgeSrc": "assets/football/flags/curacao.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kinh nghiệm World Cup",
+              "home": 96,
+              "away": 18
+            },
+            {
+              "label": "Áp lực phải thắng",
+              "home": 90,
+              "away": 44
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: bàn thắng sớm",
+      "subtext": "Nagelsmann cần bóp nghẹt trận đấu từ đầu",
+      "voiceText": "Điểm nóng của trận này là ba mươi phút đầu. Nếu Đức ghi sớm, Wirtz và Musiala sẽ có thêm khoảng trống để biến trận đấu thành màn áp đặt. Nhưng nếu Cu Ra Sao kéo được nhịp chậm, áp lực quá khứ của Đức sẽ tự nhiên quay lại.",
+      "subtitle": "Điểm nóng của trận này là 30 phút đầu. Nếu Đức ghi sớm, Wirtz và Musiala sẽ có thêm khoảng trống để biến trận đấu thành màn áp đặt. Nhưng nếu Curaçao kéo được nhịp chậm, áp lực quá khứ của Đức sẽ tự nhiên quay lại.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Với Đức, đây không chỉ là trận phải thắng, mà là trận phải thắng theo cách khiến cả bảng E phải chú ý.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng E",
+      "subtext": "Một khởi đầu sạch sẽ là bắt buộc",
+      "voiceText": "Bảng E có Đức, Cu Ra Sao, Bờ Biển Ngà và Ecuador. Trước lượt đầu, tất cả cùng không điểm, nhưng Đức hiểu rất rõ, nếu mất điểm ở trận này, hai trận sau sẽ lập tức biến thành cuộc chạy áp lực.",
+      "subtitle": "Bảng E có Đức, Curaçao, Côte d'Ivoire và Ecuador. Trước lượt đầu, tất cả cùng 0 điểm, nhưng Đức hiểu rất rõ, nếu mất điểm ở trận này, 2 trận sau sẽ lập tức biến thành cuộc chạy áp lực.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group E",
+      "activeTab": "BẢNG E",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "LỊCH THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG E"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "GER",
+        "CUW"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Germany",
+            "code": "GER",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/germany.svg",
+            "badgeSrc": "assets/football/flags/germany.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Curaçao",
+            "code": "CUW",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/curacao.svg",
+            "badgeSrc": "assets/football/flags/curacao.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Côte d'Ivoire",
+            "code": "CIV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cote-divoire.svg",
+            "badgeSrc": "assets/football/flags/cote-divoire.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Ecuador",
+            "code": "ECU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ecuador.svg",
+            "badgeSrc": "assets/football/flags/ecuador.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Đức thắng đậm hay Curaçao gây khó?",
+      "voiceText": "Bạn dự đoán Đức thắng nhẹ nhàng, hay Cu Ra Sao sẽ khiến trận mở màn bảng E khó hơn tưởng tượng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Đức thắng nhẹ nhàng, hay Curaçao sẽ khiến trận mở màn bảng E khó hơn tưởng tượng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Đức vs Curaçao?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Germany",
+          "Curaçao",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

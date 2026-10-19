@@ -1,0 +1,368 @@
+{
+  "title": "Mỹ vs Paraguay: trận mở màn áp lực của chủ nhà World Cup 2026",
+  "slug": "my-vs-paraguay-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Mỹ - Paraguay ở bảng D World Cup 2026, quy đổi giờ Việt Nam là 08:00 ngày 13/06/2026. Không lấy được URL ảnh cầu thủ trực tiếp phù hợp cho scene quote nên để trống imageUrl.",
+  "sources": [
+    {
+      "title": "New York Post - USMNT stressing getting off to quick start in home opener",
+      "url": "https://nypost.com/2026/06/10/sports/usmnt-stressing-getting-off-to-quick-start-in-home-opener/"
+    },
+    {
+      "title": "New York Post - USMNT can take critical Paraguay lesson into World Cup opener",
+      "url": "https://nypost.com/2026/06/09/sports/usmnt-can-take-critical-paraguay-lesson-into-world-cup-opener/"
+    },
+    {
+      "title": "FIFA - World Cup 2026 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Mỹ vs Paraguay",
+      "subtext": "Chủ nhà cần vào trận thật nhanh",
+      "voiceText": "Mỹ gặp Paraguay lúc tám giờ sáng ngày mười ba tháng sáu theo giờ Việt Nam. Đây là trận ra quân World Cup hai không hai sáu của chủ nhà tại Los Angeles, và thông điệp trong phòng thay đồ là phải nóng máy ngay từ mười lăm phút đầu.",
+      "subtitle": "Mỹ gặp Paraguay lúc 08:00 ngày 13/06 theo giờ Việt Nam. Đây là trận ra quân World Cup 2026 của chủ nhà tại Los Angeles, và thông điệp trong phòng thay đồ là phải nóng máy ngay từ 15 phút đầu.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group D - Matchday 1",
+      "venue": "Los Angeles Stadium",
+      "date": "13/06/2026",
+      "time": "08:00 VN",
+      "teams": [
+        {
+          "name": "Mỹ",
+          "code": "USA",
+          "form": "Chủ nhà",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg"
+        },
+        {
+          "name": "Paraguay",
+          "code": "PAR",
+          "form": "CONMEBOL",
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "badgeSrc": "assets/football/flags/paraguay.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng D bắt đầu nóng",
+      "subtext": "Mỹ, Paraguay, Australia và Türkiye",
+      "voiceText": "Bảng Đê mở ra với áp lực cực lớn cho Mỹ. Một chiến thắng trước Paraguay sẽ giúp chủ nhà bước vào hai trận còn lại trước Australia và Thổ Nhĩ Kỳ với tâm thế dễ thở hơn.",
+      "subtitle": "Bảng D mở ra với áp lực cực lớn cho Mỹ. Một chiến thắng trước Paraguay sẽ giúp chủ nhà bước vào hai trận còn lại trước Australia và Türkiye với tâm thế dễ thở hơn.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group D Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Mỹ còn câu hỏi lớn trong khung gỗ",
+      "voiceText": "Điểm đáng chú ý nhất là vị trí thủ môn của Mỹ, khi Matt Turner và Matt Freese vẫn tạo ra cuộc cạnh tranh sát giờ bóng lăn. Phía trên, Pulisic, Reyna và Balogun là nhóm có thể tạo khác biệt trước hàng thủ Paraguay.",
+      "subtitle": "Điểm đáng chú ý nhất là vị trí thủ môn của Mỹ, khi Matt Turner và Matt Freese vẫn tạo ra cuộc cạnh tranh sát giờ bóng lăn. Phía trên, Pulisic, Reyna và Balogun là nhóm có thể tạo khác biệt trước hàng thủ Paraguay.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Mỹ",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "players": [
+            "Turner/Freese",
+            "Dest",
+            "Richards",
+            "Ream",
+            "Robinson",
+            "Adams",
+            "McKennie",
+            "Musah",
+            "Pulisic",
+            "Reyna",
+            "Balogun"
+          ]
+        },
+        {
+          "team": "Paraguay",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "players": [
+            "Coronel",
+            "Velazquez",
+            "Gomez",
+            "Balbuena",
+            "Alonso",
+            "Cubas",
+            "Villasanti",
+            "Almiron",
+            "Enciso",
+            "Sosa",
+            "Sanabria"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: bài học từ trận giao hữu",
+      "subtext": "Paraguay không ngại va chạm",
+      "voiceText": "Lần gặp gần nhất, Mỹ thắng Paraguay hai một trong một trận giao hữu nhiều va chạm. Gio Reyna ghi bàn rất sớm, nhưng điểm cần nhớ là Paraguay luôn kéo trận đấu vào thế quyết liệt và khó chịu.",
+      "subtitle": "Lần gặp gần nhất, Mỹ thắng Paraguay 2-1 trong một trận giao hữu nhiều va chạm. Gio Reyna ghi bàn rất sớm, nhưng điểm cần nhớ là Paraguay luôn kéo trận đấu vào thế quyết liệt và khó chịu.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Mỹ",
+      "awayTeam": "Paraguay",
+      "h2hMatches": [
+        {
+          "date": "11/2025",
+          "home": "Mỹ",
+          "away": "Paraguay",
+          "score": "2-1",
+          "note": "Giao hữu, Reyna ghi bàn sớm",
+          "homeBadgeSrc": "assets/football/flags/united-states.svg",
+          "awayBadgeSrc": "assets/football/flags/paraguay.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Lợi thế sân nhà",
+          "value": "Mỹ"
+        },
+        {
+          "label": "Độ lì Nam Mỹ",
+          "value": "Paraguay"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "15 phút đầu"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Sức ép đầu trận",
+              "home": 82,
+              "away": 68
+            },
+            {
+              "label": "Kinh nghiệm va chạm",
+              "home": 70,
+              "away": 84
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: nhập cuộc nhanh",
+      "subtext": "Không được để trận đấu trôi khỏi tay",
+      "voiceText": "Điểm nóng của trận này rất rõ, Mỹ không muốn lặp lại cách nhập cuộc chậm ở trận thua Đức hai một trước giải. Nếu chủ nhà pressing sớm và ghi nhịp trước, Paraguay sẽ khó kéo trận đấu về đúng kiểu họ thích.",
+      "subtitle": "Điểm nóng của trận này rất rõ: Mỹ không muốn lặp lại cách nhập cuộc chậm ở trận thua Đức 2-1 trước giải. Nếu chủ nhà pressing sớm và ghi nhịp trước, Paraguay sẽ khó kéo trận đấu về đúng kiểu họ thích.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Mỹ cần thắng trận đấu trong 15 phút đầu về nhịp độ, trước khi nghĩ đến thắng trên bảng tỉ số.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng D",
+      "subtext": "Trận mở màn quyết định nhịp cả bảng",
+      "voiceText": "Bảng Đê có Mỹ, Paraguay, Australia và Thổ Nhĩ Kỳ. Vì lịch sau đó còn rất nặng, trận mở màn này gần như là cơ hội tốt nhất để Mỹ đặt nền cho ngôi đầu, còn Paraguay cần ít nhất một điểm để giữ cửa đi tiếp.",
+      "subtitle": "Bảng D có Mỹ, Paraguay, Australia và Türkiye. Vì lịch sau đó còn rất nặng, trận mở màn này gần như là cơ hội tốt nhất để Mỹ đặt nền cho ngôi đầu, còn Paraguay cần ít nhất 1 điểm để giữ cửa đi tiếp.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group D",
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Mỹ",
+          "played": 0,
+          "points": 0,
+          "gd": 0,
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "highlight": true
+        },
+        {
+          "pos": 2,
+          "team": "Paraguay",
+          "played": 0,
+          "points": 0,
+          "gd": 0,
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "team": "Australia",
+          "played": 0,
+          "points": 0,
+          "gd": 0,
+          "flagSrc": "assets/football/flags/australia.svg"
+        },
+        {
+          "pos": 4,
+          "team": "Türkiye",
+          "played": 0,
+          "points": 0,
+          "gd": 0,
+          "flagSrc": "assets/football/flags/turkiye.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Comment lựa chọn của bạn",
+      "voiceText": "Bạn dự đoán Mỹ thắng dễ, hay Paraguay sẽ kéo chủ nhà vào một trận đấu cực rát? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Mỹ thắng dễ, hay Paraguay sẽ kéo chủ nhà vào một trận đấu cực rát? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Mỹ vs Paraguay",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Mỹ",
+          "Paraguay"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

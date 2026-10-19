@@ -1,0 +1,537 @@
+{
+  "title": "Nam Phi vs Canada: Đại chiến vòng 32 đội World Cup 2026",
+  "slug": "south-africa-vs-canada-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận đấu vòng 32 đội giữa Nam Phi và Canada tại World Cup 2026. Giọng văn hiện đại, chuyên nghiệp, sử dụng ngôn từ bóng đá trẻ trung, không dùng từ dễ thương.",
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "Canada Soccer National Team Squad",
+      "url": "https://canadasoccer.com"
+    },
+    {
+      "title": "South Africa Bafana Bafana World Cup Squad",
+      "url": "https://www.safa.net"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Nam Phi vs Canada",
+      "subtext": "Đại chiến vòng knock-out 32 đội",
+      "voiceText": "Trận chiến sinh tử giữa Nam Phi và Canada sẽ diễn ra lúc chín giờ sáng, ngày hai mươi chín tháng sáu theo giờ Việt Nam. Vòng ba mươi hai đội, World Cup hai không hai sáu đã chính thức bắt đầu, và sân vận động So Fi đã sẵn sàng cho một cuộc đối đầu không khoan nhượng.",
+      "subtitle": "Trận chiến sinh tử giữa Nam Phi và Canada sẽ diễn ra lúc 09:00 ngày 29/06 theo giờ Việt Nam. Vòng 32 đội World Cup 2026 đã chính thức bắt đầu, và sân SoFi đã sẵn sàng cho một cuộc đối đầu không khoan nhượng.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "SoFi Stadium, California",
+      "date": "29/06/2026",
+      "time": "09:00 VN",
+      "teams": [
+        {
+          "name": "Nam Phi",
+          "code": "RSA",
+          "form": "Nhì bảng A",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        },
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "form": "Nhì bảng B",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Vòng knock-out bắt đầu",
+      "subtext": "Mọi sai lầm đều phải trả giá",
+      "voiceText": "Vào đến vòng knock out thì mọi sai lầm đều phải trả giá bằng tấm vé máy bay về nước. Cả hai đội tuyển đều đã vượt qua khe cửa hẹp ở vòng bảng để tạo nên cột mốc lịch sử cho nền bóng đá nước nhà.",
+      "subtitle": "Vào đến vòng knock-out thì mọi sai lầm đều phải trả giá bằng tấm vé máy bay về nước. Cả hai đội tuyển đều đã vượt qua khe cửa hẹp ở vòng bảng để tạo nên cột mốc lịch sử cho nền bóng đá nước nhà.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Đại chiến giữa tốc độ và bức tường phòng ngự",
+      "voiceText": "Về mặt nhân sự, Canada sở hữu những máy chạy hạng nặng như chiến thần An phông sô Đa vít, và ngòi nổ Giô na than Đa vít. Đáp lại, Nam Phi chắc chắn sẽ dựng một khối phòng ngự bê tông trước khung thành của thủ môn Rôn wen Uy li am, để vô hiệu hóa đối thủ.",
+      "subtitle": "Về mặt nhân sự, Canada sở hữu những máy chạy hạng nặng như chiến thần Alphonso Davies và ngòi nổ Jonathan David. Đáp lại, Nam Phi chắc chắn sẽ dựng một khối phòng ngự bê tông trước khung thành của thủ môn Ronwen Williams để vô hiệu hóa đối thủ.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Nam Phi",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "players": [
+            "Williams",
+            "Mudau",
+            "Sibisi",
+            "Cross",
+            "Modiba",
+            "Mokoena",
+            "Sithole",
+            "Appollis",
+            "Zwane",
+            "Mofokeng",
+            "Foster"
+          ]
+        },
+        {
+          "team": "Canada",
+          "formation": "4-4-2",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "players": [
+            "Crépeau",
+            "Johnston",
+            "Bombito",
+            "Cornelius",
+            "Davies",
+            "Buchanan",
+            "Eustáquio",
+            "Koné",
+            "Shaffelburg",
+            "Larin",
+            "David"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Hành trình vòng bảng",
+      "subtext": "Những màn trình diễn ấn tượng ở vòng bảng",
+      "voiceText": "Để book vé vào vòng này, Canada từng có màn hủy diệt Ca ta, sáu bàn không gỡ để phô diễn sức mạnh tấn công. Tuy nhiên, Nam Phi cũng chứng minh họ không phải dạng vừa, khi tiễn dàn sao Hàn Quốc về nước bằng chiến thắng một không đầy kỷ luật.",
+      "subtitle": "Để book vé vào vòng này, Canada từng có màn hủy diệt Qatar 6-0 để phô diễn sức mạnh tấn công. Tuy nhiên, Nam Phi cũng chứng minh họ không phải dạng vừa khi tiễn dàn sao Hàn Quốc về nước bằng chiến thắng 1-0 đầy kỷ luật.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Nam Phi",
+      "awayTeam": "Canada",
+      "h2hMatches": [
+        {
+          "date": "Vòng bảng",
+          "home": "Canada",
+          "away": "Qatar",
+          "score": "6-0",
+          "note": "Sức mạnh vượt trội",
+          "homeBadgeSrc": "assets/football/flags/canada.svg",
+          "awayBadgeSrc": "assets/football/flags/qatar.svg"
+        },
+        {
+          "date": "Vòng bảng",
+          "home": "Nam Phi",
+          "away": "Hàn Quốc",
+          "score": "1-0",
+          "note": "Địa chấn từ Bafana Bafana",
+          "homeBadgeSrc": "assets/football/flags/south-africa.svg",
+          "awayBadgeSrc": "assets/football/flags/korea-republic.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Tấn công bùng nổ",
+          "value": "Canada"
+        },
+        {
+          "label": "Thực dụng, lì lợm",
+          "value": "Nam Phi"
+        },
+        {
+          "label": "Cơ hội đi tiếp",
+          "value": "50-50"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 45,
+              "away": 55
+            },
+            {
+              "label": "Tỷ lệ thắng tranh chấp",
+              "home": 52,
+              "away": 48
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định trước trận",
+      "subtext": "Bài toán pressing tầm cao",
+      "voiceText": "Chiến lược gia Giét si Mát của Canada, chắc chắn sẽ xua quân lên pressing tầm cao ngay từ đầu. Câu hỏi đặt ra là liệu các chân sút Bắc Mỹ, có tìm được lời giải cho bài toán phòng ngự khoa học mà huấn luyện viên Hu gô Brút, thiết lập cho Nam Phi.",
+      "subtitle": "Chiến lược gia Jesse Marsch của Canada chắc chắn sẽ xua quân lên pressing tầm cao ngay từ đầu. Câu hỏi đặt ra là liệu các chân sút Bắc Mỹ có tìm được lời giải cho bài toán phòng ngự khoa học mà HLV Hugo Broos thiết lập cho Nam Phi.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Chúng tôi tôn trọng đối thủ nhưng Canada sẽ chơi với sự tự tin cao nhất để giành vé đi tiếp.",
+      "author": "Jesse Marsch",
+      "role": "Huấn luyện viên trưởng Canada",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Vị trí vòng bảng",
+      "subtext": "Kèo đấu cân tài cân sức",
+      "voiceText": "Bảng xếp hạng chung cuộc của hai bảng A và B đã lộ diện rõ ràng. Tại vòng knock-out này, chúng ta sẽ được chứng kiến cuộc đối đầu trực tiếp giữa nhì bảng A là Nam Phi và nhì bảng B là Canada, trong khi hai đội đầu bảng là Mê xi cô và Thụy Sĩ cũng đã xác định được những nhánh đấu vô cùng thuận lợi.",
+      "subtitle": "Bảng xếp hạng chung cuộc của hai bảng A và B đã lộ diện rõ ràng. Tại vòng knock-out này, chúng ta sẽ được chứng kiến cuộc đối đầu trực tiếp giữa nhì bảng A là Nam Phi và nhì bảng B là Canada, trong khi hai đội đầu bảng là Mexico và Thụy Sĩ cũng đã xác định được những nhánh đấu vô cùng thuận lợi.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group Stage",
+      "standingsVariant": "world-cup-group",
+      "highlightTeams": [
+        "Nam Phi (Bảng A)",
+        "Canada (Bảng B)"
+      ],
+      "standingsGroups": [
+        {
+          "title": "Bảng A",
+          "standings": [
+            {
+              "pos": 1,
+              "team": {
+                "name": "Mexico",
+                "flagSrc": "assets/football/flags/mexico.svg"
+              },
+              "played": 3,
+              "points": 7,
+              "gd": 3
+            },
+            {
+              "pos": 2,
+              "team": {
+                "name": "Nam Phi",
+                "flagSrc": "assets/football/flags/south-africa.svg"
+              },
+              "played": 3,
+              "points": 4,
+              "gd": -1,
+              "highlight": true
+            },
+            {
+              "pos": 3,
+              "team": {
+                "name": "Hàn Quốc",
+                "flagSrc": "assets/football/flags/korea-republic.svg"
+              },
+              "played": 3,
+              "points": 3,
+              "gd": -2
+            },
+            {
+              "pos": 4,
+              "team": {
+                "name": "Séc",
+                "flagSrc": "assets/football/flags/czechia.svg"
+              },
+              "played": 3,
+              "points": 2,
+              "gd": -1
+            }
+          ]
+        },
+        {
+          "title": "Bảng B",
+          "standings": [
+            {
+              "pos": 1,
+              "team": {
+                "name": "Thụy Sĩ",
+                "flagSrc": "assets/football/flags/switzerland.svg"
+              },
+              "played": 3,
+              "points": 7,
+              "gd": 4
+            },
+            {
+              "pos": 2,
+              "team": {
+                "name": "Canada",
+                "flagSrc": "assets/football/flags/canada.svg"
+              },
+              "played": 3,
+              "points": 4,
+              "gd": 5,
+              "highlight": true
+            },
+            {
+              "pos": 3,
+              "team": {
+                "name": "Bosnia",
+                "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+              },
+              "played": 3,
+              "points": 2,
+              "gd": -3
+            },
+            {
+              "pos": 4,
+              "team": {
+                "name": "Qatar",
+                "flagSrc": "assets/football/flags/qatar.svg"
+              },
+              "played": 3,
+              "points": 2,
+              "gd": -6
+            }
+          ]
+        }
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Mexico (Bảng A)",
+            "flagSrc": "assets/football/flags/mexico.svg"
+          },
+          "played": 3,
+          "points": 7,
+          "gd": 3
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Nam Phi (Bảng A)",
+            "flagSrc": "assets/football/flags/south-africa.svg"
+          },
+          "played": 3,
+          "points": 4,
+          "gd": -1,
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Hàn Quốc (Bảng A)",
+            "flagSrc": "assets/football/flags/korea-republic.svg"
+          },
+          "played": 3,
+          "points": 3,
+          "gd": -2
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Séc (Bảng A)",
+            "flagSrc": "assets/football/flags/czechia.svg"
+          },
+          "played": 3,
+          "points": 2,
+          "gd": -1
+        },
+        {
+          "pos": 1,
+          "team": {
+            "name": "Thụy Sĩ (Bảng B)",
+            "flagSrc": "assets/football/flags/switzerland.svg"
+          },
+          "played": 3,
+          "points": 7,
+          "gd": 4
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Canada (Bảng B)",
+            "flagSrc": "assets/football/flags/canada.svg"
+          },
+          "played": 3,
+          "points": 4,
+          "gd": 5,
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Bosnia (Bảng B)",
+            "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+          },
+          "played": 3,
+          "points": 2,
+          "gd": -3
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Qatar (Bảng B)",
+            "flagSrc": "assets/football/flags/qatar.svg"
+          },
+          "played": 3,
+          "points": 2,
+          "gd": -6
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Ai sẽ đi tiếp?",
+      "subtext": "Đại diện nào sẽ đi tiếp?",
+      "voiceText": "Một trận chiến không khoan nhượng, liệu đại diện Bắc Mỹ hay những chiến binh quả cảm Nam Phi sẽ giành vé đi tiếp? Anh em cho xin nhẹ cái kèo nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Một trận chiến không khoan nhượng, liệu đại diện Bắc Mỹ hay những chiến binh quả cảm Nam Phi sẽ giành vé đi tiếp? Anh em cho xin nhẹ cái kèo nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán Nam Phi vs Canada",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Nam Phi",
+          "Canada"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

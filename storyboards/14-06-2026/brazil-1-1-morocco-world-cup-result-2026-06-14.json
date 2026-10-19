@@ -1,0 +1,701 @@
+{
+  "title": "Brazil 1-1 Morocco: Vinicius cứu Selecao khỏi cú sốc",
+  "slug": "brazil-1-1-morocco-world-cup-result-2026-06-14",
+  "preset": "Preset Football Result",
+  "totalDuration": 58,
+  "sources": [
+    {
+      "name": "The Guardian match report",
+      "url": "https://www.theguardian.com/football/2026/jun/14/brazil-morocco-world-cup-match-report"
+    },
+    {
+      "name": "The Guardian live blog",
+      "url": "https://www.theguardian.com/football/live/2026/jun/13/brazil-v-morocco-world-cup-2026-live"
+    },
+    {
+      "name": "FotMob match stats",
+      "url": "https://www.fotmob.com/matches/morocco-vs-brazil/1qr4gd"
+    },
+    {
+      "name": "Indian Express live updates",
+      "url": "https://indianexpress.com/article/sports/football/fifa-world-cup-2026-live-score-qatar-vs-switzerland-brazil-vs-morocco-football-match-updates-10738279/"
+    },
+    {
+      "name": "ESPN World Cup schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "BRAZIL SUYT NGA!",
+      "subtext": "Brazil 1-1 Morocco | World Cup 2026",
+      "voiceText": "Brazil bị Ma rốc cầm hòa một một tại New York New Jersey Stadium. Ismael Saibari mở tỉ số phút hai mươi mốt, Vinicius Junior gỡ hòa phút ba mươi hai, và ứng viên vô địch bắt đầu World Cup hai không hai sáu bằng một lời cảnh báo lớn.",
+      "subtitle": "Brazil bị Morocco cầm hòa 1-1 tại New York New Jersey Stadium. Ismael Saibari mở tỉ số phút 21, Vinicius Junior gỡ hòa phút 32, và ứng viên vô địch bắt đầu World Cup 2026 bằng một lời cảnh báo lớn.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng C | Lượt 1",
+      "venue": "New York New Jersey Stadium",
+      "date": "14.06.2026",
+      "time": "05:00",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg",
+          "form": [
+            "W",
+            "W",
+            "W",
+            "L",
+            "D",
+            "D"
+          ]
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg",
+          "form": [
+            "D",
+            "W",
+            "W",
+            "D",
+            "W",
+            "D"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651043444265176341.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.44,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Group C | Matchday 1",
+      "ctaLabel": "Brazil 1-1 Morocco",
+      "voiceText": "Bảng C mở màn bằng một trận đấu rất nặng ký, và Ma rốc lập tức cho thấy họ không còn là ngựa ô.",
+      "subtitle": "Bảng C mở màn bằng một trận đấu rất nặng ký, và Morocco lập tức cho thấy họ không còn là ngựa ô.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651043444265176341.mp4",
+          "trim": {
+            "start": 245,
+            "end": 249
+          },
+          "position": "background",
+          "opacity": 0.34,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Brazil 1-1 Morocco",
+      "subtext": "Saibari mở điểm, Vinicius kéo Brazil trở lại",
+      "voiceText": "Full time: Brazil một, Ma rốc một. Ma rốc nhập cuộc cực sắc với cú lốp bóng của Saibari, còn Brazil chỉ thoát hiểm nhờ pha xử lý đẳng cấp của Vinicius Junior.",
+      "subtitle": "Full-time: Brazil 1-1 Morocco. Morocco nhập cuộc cực sắc với cú lốp bóng của Saibari, còn Brazil chỉ thoát hiểm nhờ pha xử lý đẳng cấp của Vinicius Junior.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026",
+      "minute": "FT",
+      "score": [
+        1,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651043444265176341.mp4",
+          "trim": {
+            "start": 300,
+            "end": 310
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "FT 1-1",
+          "videoDescription": "Brazil thoát thua trong ngày Morocco chơi rất lì",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.28
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "BRA",
+            "MAR"
+          ],
+          "score": [
+            1,
+            1
+          ],
+          "minute": "FT",
+          "label": "Group C"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Brazil dùng sơ đồ bốn hai ba một với Alisson trong khung gỗ, Roger Ibanez đá hậu vệ phải, Casemiro và Bruno Guimaraes che chắn tuyến giữa, còn Igor Thiago đá cao nhất. Ma rốc cũng dùng bốn hai ba một, có Hakimi, Bounou, Brahim Diaz, Ounahi, Bouaddi và Saibari.",
+      "subtitle": "Brazil dùng sơ đồ 4-2-3-1 với Alisson trong khung gỗ, Roger Ibanez đá hậu vệ phải, Casemiro và Bruno Guimaraes che chắn tuyến giữa, còn Igor Thiago đá cao nhất. Morocco cũng dùng 4-2-3-1, có Hakimi, Bounou, Brahim Diaz, Ounahi, Bouaddi và Saibari.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "New York New Jersey Stadium",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Alisson",
+            "Roger Ibanez",
+            "Marquinhos",
+            "Gabriel",
+            "Douglas Santos",
+            "Casemiro",
+            "Bruno Guimaraes",
+            "Raphinha",
+            "Lucas Paqueta",
+            "Vinicius Junior",
+            "Igor Thiago"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Yassine Bounou",
+            "Achraf Hakimi",
+            "Issa Diop",
+            "Chadi Riad",
+            "Noussair Mazraoui",
+            "Ayyoub Bouaddi",
+            "Neil El Aynaoui",
+            "Brahim Diaz",
+            "Azzedine Ounahi",
+            "Bilal El Khannouss",
+            "Ismael Saibari"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651043444265176341.mp4",
+          "trim": {
+            "start": 15,
+            "end": 23
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Hai đội nhập trận với nhịp độ rất cao",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Vinicius cứu Brazil",
+      "subtext": "Bàn gỡ phút 32",
+      "voiceText": "Vinicius Junior là lý do Brazil không rời sân tay trắng. Pha thoát xuống bên trái, loại El Aynaoui rồi dứt điểm góc hẹp giúp anh có bàn thứ mười cho đội tuyển, trong lần ra sân thứ năm mươi.",
+      "subtitle": "Vinicius Junior là lý do Brazil không rời sân tay trắng. Pha thoát xuống bên trái, loại El Aynaoui rồi dứt điểm góc hẹp giúp anh có bàn thứ 10 cho đội tuyển, trong lần ra sân thứ 50.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Vinicius Junior",
+      "team": "Brazil",
+      "number": "7",
+      "playerImageUrl": "https://platform.managingmadrid.com/wp-content/uploads/sites/103/chorus/uploads/chorus_asset/file/24265794/1245388013.jpg?quality=90&strip=all&crop=0.0055865921787657%2C0%2C99.988826815642%2C100&w=2400",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "32",
+          "unit": "'"
+        },
+        {
+          "label": "Lần khoác áo Brazil",
+          "value": "50"
+        },
+        {
+          "label": "Bàn cho ĐTQG",
+          "value": "10"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651043444265176341.mp4",
+          "trim": {
+            "start": 90,
+            "end": 99
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Vinicius 32'",
+          "videoDescription": "Pha gỡ hòa giữ Brazil lại trong trận đấu",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Ma rốc đánh trước, Brazil vùng dậy sau giờ nghỉ",
+      "voiceText": "Ma rốc ép sân từ những phút đầu và Saibari trừng phạt Brazil ở phút hai mươi mốt. Vinicius Junior gỡ hòa phút ba mươi hai. Sang hiệp hai, Ancelotti thay Casemiro và Ibanez bằng Fabinho và Danilo, Brazil cân bằng hơn, nhưng Bounou và Alisson đều có những pha cứu thua quan trọng cuối trận.",
+      "subtitle": "Morocco ép sân từ những phút đầu và Saibari trừng phạt Brazil ở phút 21. Vinicius Junior gỡ hòa phút 32. Sang hiệp hai, Ancelotti thay Casemiro và Ibanez bằng Fabinho và Danilo, Brazil cân bằng hơn, nhưng Bounou và Alisson đều có những pha cứu thua quan trọng cuối trận.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "6'",
+          "title": "Morocco nhập cuộc mạnh",
+          "desc": "Hakimi và tuyến giữa Morocco liên tục khoét vào cánh phải Brazil."
+        },
+        {
+          "minute": "21'",
+          "title": "0-1: Ismael Saibari",
+          "desc": "Brahim Diaz phất bóng, Saibari lốp qua Alisson."
+        },
+        {
+          "minute": "32'",
+          "title": "1-1: Vinicius Junior",
+          "desc": "Vinicius xử lý ở góc hẹp và kéo Brazil trở lại."
+        },
+        {
+          "minute": "46'",
+          "title": "Brazil chỉnh hệ thống",
+          "desc": "Fabinho và Danilo vào sân thay Casemiro, Ibanez."
+        },
+        {
+          "minute": "62'",
+          "title": "Cunha và Luiz Henrique vào sân",
+          "desc": "Brazil tăng tốc để tìm bàn thắng thứ hai."
+        },
+        {
+          "minute": "90+9'",
+          "title": "Alisson cứu Brazil",
+          "desc": "El Aynaoui và Amaimouni tạo sóng gió, nhưng Brazil giữ được 1 điểm."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651043444265176341.mp4",
+          "trim": {
+            "start": 8,
+            "end": 17
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "0-1 Saibari",
+          "videoDescription": "Morocco đánh trước bằng pha xử lý lạnh lùng",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Morocco thắng Brazil ở chất lượng cơ hội",
+      "subtext": "xG: Brazil 1.27 | Morocco 1.52",
+      "voiceText": "Thống kê cho thấy Ma rốc không hề ăn may. Brazil cầm bóng năm mươi mốt phần trăm và có mười ba cú sút, nhưng Ma rốc có chỉ số bàn thắng kỳ vọng một phẩy năm hai, cao hơn Brazil, và tung mười bốn cú sút.",
+      "subtitle": "Thống kê cho thấy Morocco không hề ăn may. Brazil cầm bóng 51% và có 13 cú sút, nhưng Morocco có xG 1.52, cao hơn Brazil, và tung 14 cú sút.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [
+        1,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 51,
+              "away": 49,
+              "unit": "%"
+            },
+            {
+              "label": "xG",
+              "home": 1.27,
+              "away": 1.52
+            },
+            {
+              "label": "Cú sút",
+              "home": 13,
+              "away": 14
+            },
+            {
+              "label": "Chạm bóng trong vòng cấm",
+              "home": 22,
+              "away": 13
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng C mở toang",
+      "subtext": "Brazil và Morocco cùng có 1 điểm",
+      "voiceText": "Sau trận hòa này, Brazil và Ma rốc cùng có một điểm ở bảng C. Với Haiti và Scotland còn chờ đá, bảng đấu được xem là khó lường hơn nhiều, nhất là khi Brazil chưa tạo ra cảm giác của một ứng viên vô địch ổn định.",
+      "subtitle": "Sau trận hòa này, Brazil và Morocco cùng có 1 điểm ở bảng C. Với Haiti và Scotland còn chờ đá, bảng đấu được xem là khó lường hơn nhiều, nhất là khi Brazil chưa tạo ra cảm giác của một ứng viên vô địch ổn định.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "SƠ ĐỒ THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG XẾP HẠNG"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "BRA",
+        "MAR"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/brazil.svg",
+            "badgeSrc": "assets/football/flags/brazil.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Morocco",
+            "code": "MAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/morocco.svg",
+            "badgeSrc": "assets/football/flags/morocco.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Haiti",
+            "code": "HAI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/haiti.svg",
+            "badgeSrc": "assets/football/flags/haiti.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Scotland",
+            "code": "SCO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/scotland.svg",
+            "badgeSrc": "assets/football/flags/scotland.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Brazil có đáng lo?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Theo bạn, Brazil chỉ khởi đầu chậm, hay Ma rốc đã bóc ra vấn đề thật sự của Selecao? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Brazil chỉ khởi đầu chậm, hay Morocco đã bóc ra vấn đề thật sự của Selecao? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Brazil 1-1 Morocco",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Nhập ý kiến: Brazil đáng lo chưa?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651043444265176341.mp4",
+          "trim": {
+            "start": 335,
+            "end": 345
+          },
+          "position": "background",
+          "opacity": 0.36,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "slug": "tay-ban-nha-4-0-a-rap-saudi-world-cup-2026-result",
+  "title": "Tây Ban Nha 4-0 Ả Rập Saudi: Kết quả World Cup 2026",
+  "summary": "Tây Ban Nha thắng đậm 4-0; ảnh cầu thủ để trống để bổ sung sau.",
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+    "https://www.espn.com/soccer/match/_/gameId/760453/saudi-arabia-spain"
+  ],
+  "totalDuration": 52,
+  "scenes": [
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-1",
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "title": "Tây Ban Nha 4-0 Ả Rập Saudi",
+      "subtext": "Toàn thời gian • Bảng H",
+      "competitionLabel": "FIFA World Cup 2026",
+      "date": "21.06.2026",
+      "time": "23:00",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "minute": "FT",
+      "score": "4-0",
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg",
+          "form": []
+        },
+        {
+          "name": "Ả Rập Saudi",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg",
+          "badgeSrc": "assets/football/flags/saudi-arabia.svg",
+          "form": []
+        }
+      ],
+      "voiceText": "Tây Ban Nha thắng Ả rập Saudi bốn không. Lamine Yamal mở tỉ số, Mikel Oyarzabal lập cú đúp, trước khi Hassan Al-Tambakti phản lưới.",
+      "subtitle": "Tây Ban Nha thắng Ả Rập Saudi 4-0. Lamine Yamal mở tỉ số, Mikel Oyarzabal lập cú đúp, trước khi Hassan Al-Tambakti phản lưới.",
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7653937362916953366.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "homeCode": "ESP",
+          "awayCode": "KSA",
+          "score": "4-0"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-2",
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "title": "KẾT QUẢ WORLD CUP",
+      "competitionLabel": "Bảng H • Match Result",
+      "seasonLabel": "2026",
+      "ctaLabel": "FULL TIME",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "voiceText": "Kết quả bảng H World Cup hai không hai sáu, Tây Ban Nha trở lại mạnh mẽ.",
+      "subtitle": "Kết quả bảng H World Cup 2026, Tây Ban Nha trở lại mạnh mẽ.",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-3",
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "title": "Đội hình chính thức",
+      "subtext": "Tây Ban Nha • Ả Rập Saudi",
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg",
+          "form": []
+        },
+        {
+          "name": "Ả Rập Saudi",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg",
+          "badgeSrc": "assets/football/flags/saudi-arabia.svg",
+          "form": []
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Unai Simón",
+            "Pedro Porro",
+            "Robin Le Normand",
+            "Pau Cubarsí",
+            "Marc Cucurella",
+            "Rodri",
+            "Pedri",
+            "Dani Olmo",
+            "Lamine Yamal",
+            "Nico Williams",
+            "Mikel Oyarzabal"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Nawaf Al-Aqidi",
+            "Saud Abdulhamid",
+            "Hassan Tambakti",
+            "Ali Al-Bulaihi",
+            "Yasser Al-Shahrani",
+            "Mohamed Kanno",
+            "Nasser Al-Dawsari",
+            "Salem Al-Dawsari",
+            "Musab Al-Juwayr",
+            "Ayman Yahya",
+            "Firas Al-Buraikan"
+          ]
+        }
+      },
+      "voiceText": "Đây là đội hình xuất phát của hai đội, Tây Ban Nha vận hành sơ đồ bốn ba ba, còn Ả rập Saudi phòng ngự với năm hậu vệ.",
+      "subtitle": "Đây là đội hình xuất phát của hai đội, Tây Ban Nha vận hành sơ đồ 4-3-3, còn Ả Rập Saudi phòng ngự với 5 hậu vệ.",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7653937362916953366.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Lamine Yamal và Oyarzabal đá chính",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-4",
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "title": "Nhân vật nổi bật",
+      "subtext": "Cú đúp trong ba phút",
+      "player": "Mikel Oyarzabal",
+      "team": "Tây Ban Nha",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "2"
+        },
+        {
+          "label": "Phút",
+          "value": "21', 24'"
+        },
+        {
+          "label": "Kết quả",
+          "value": "4-0"
+        }
+      ],
+      "voiceText": "Mikel Oyarzabal là nhân vật nổi bật, ghi hai bàn chỉ trong ba phút, ở phút hai mươi mốt và hai mươi tư.",
+      "subtitle": "Mikel Oyarzabal là nhân vật nổi bật, ghi 2 bàn chỉ trong 3 phút, ở phút 21 và 24.",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7653937362916953366.mp4",
+          "trim": {
+            "start": 10,
+            "end": 17
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Oyarzabal 21'",
+          "videoDescription": "Bàn nhân đôi cách biệt",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-5",
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "title": "Diễn biến chính",
+      "subtext": "Các mốc đáng chú ý",
+      "events": [
+        {
+          "minute": "10'",
+          "title": "Lamine Yamal",
+          "description": "Mở tỉ số"
+        },
+        {
+          "minute": "21'",
+          "title": "Mikel Oyarzabal",
+          "description": "Nhân đôi cách biệt"
+        },
+        {
+          "minute": "24'",
+          "title": "Mikel Oyarzabal",
+          "description": "Hoàn tất cú đúp"
+        },
+        {
+          "minute": "49'",
+          "title": "Hassan Al-Tambakti",
+          "description": "Phản lưới nhà"
+        },
+        {
+          "minute": "FT",
+          "title": "Tây Ban Nha 4-0 Ả Rập Saudi",
+          "description": "Tây Ban Nha lên đầu bảng H"
+        }
+      ],
+      "voiceText": "Lamine Yamal mở tỉ số phút mười. Oyarzabal ghi liền hai bàn phút hai mươi mốt và hai mươi tư. Phút bốn mươi chín, Al-Tambakti phản lưới, khép lại chiến thắng bốn không.",
+      "subtitle": "Lamine Yamal mở tỉ số phút 10. Oyarzabal ghi liền 2 bàn phút 21 và 24. Phút 49, Al-Tambakti phản lưới, khép lại chiến thắng 4-0.",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7653937362916953366.mp4",
+          "trim": {
+            "start": 25,
+            "end": 32
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Oyarzabal 24'",
+          "videoDescription": "Hoàn tất cú đúp chớp nhoáng",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-6",
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "title": "Thống kê trận đấu",
+      "subtext": "Tây Ban Nha vs Ả Rập Saudi",
+      "competitionLabel": "MATCH STATS",
+      "minute": "FT",
+      "score": "4-0",
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg",
+          "form": []
+        },
+        {
+          "name": "Ả Rập Saudi",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg",
+          "badgeSrc": "assets/football/flags/saudi-arabia.svg",
+          "form": []
+        }
+      ],
+      "voiceText": "Tây Ban Nha kiểm soát bóng sáu mươi bảy phần trăm, sút trúng đích tám lần và có chỉ số bàn thắng kỳ vọng hai chấm, ba mươi, vượt trội Ả rập Saudi.",
+      "subtitle": "Tây Ban Nha kiểm soát bóng 67%, sút trúng đích 8 lần và có xG 2.30, vượt trội Ả Rập Saudi.",
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": "67%",
+              "away": "33%"
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": "8",
+              "away": "1"
+            },
+            {
+              "label": "Bàn thắng kỳ vọng",
+              "home": "2.30",
+              "away": "0.14"
+            },
+            {
+              "label": "Cơ hội lớn",
+              "home": "4",
+              "away": "0"
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-7",
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "title": "Cục diện bảng H",
+      "subtext": "Sau trận đấu",
+      "activeTab": "Bảng H",
+      "tabs": [
+        "Bảng H"
+      ],
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Tây Ban Nha",
+        "Ả Rập Saudi"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Tây Ban Nha",
+            "code": "ESP",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/spain.svg",
+            "badgeSrc": "assets/football/flags/spain.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalDifference": "+4",
+          "points": 4
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Uruguay",
+            "code": "URU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uruguay.svg",
+            "badgeSrc": "assets/football/flags/uruguay.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalDifference": "0",
+          "points": 2
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Cabo Verde",
+            "code": "CPV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cabo-verde.svg",
+            "badgeSrc": "assets/football/flags/cabo-verde.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalDifference": "0",
+          "points": 2
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Ả Rập Saudi",
+            "code": "KSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/saudi-arabia.svg",
+            "badgeSrc": "assets/football/flags/saudi-arabia.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalDifference": "-4",
+          "points": 1
+        }
+      ],
+      "voiceText": "Tây Ban Nha dẫn đầu bảng H với bốn điểm. Uruguay và Cabo Verde cùng có hai điểm, còn Ả rập Saudi đứng cuối với một điểm.",
+      "subtitle": "Tây Ban Nha dẫn đầu bảng H với 4 điểm. Uruguay và Cabo Verde cùng có 2 điểm, còn Ả Rập Saudi đứng cuối với 1 điểm.",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7653937362916953366.mp4",
+          "trim": {
+            "start": 34,
+            "end": 41
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "World Cup Mode",
+          "videoDescription": "Tây Ban Nha dẫn đầu bảng H",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-8",
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 5,
+      "title": "Bạn nghĩ sao?",
+      "subtext": "Bình luận bên dưới",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Bạn ấn tượng nhất với ai?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Tây Ban Nha",
+          "World Cup 2026",
+          "Méo Bình Luận"
+        ]
+      },
+      "voiceText": "Bạn ấn tượng nhất với Lamine Yamal hay Oyarzabal? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn ấn tượng nhất với Lamine Yamal hay Oyarzabal? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

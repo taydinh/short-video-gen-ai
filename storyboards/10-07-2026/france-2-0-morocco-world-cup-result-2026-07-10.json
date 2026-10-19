@@ -1,0 +1,534 @@
+{
+  "title": "Pháp 2-0 Morocco: Mbappé và Dembélé mở khóa bán kết",
+  "slug": "france-2-0-morocco-world-cup-result-2026-07-10",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Storyboard kết quả trận Pháp 2-0 Morocco tại tứ kết World Cup 2026, theo giờ Việt Nam 03:00 ngày 10/07. Pháp vào bán kết nhờ Mbappé và Dembélé, chờ đội thắng cặp Spain vs Belgium.",
+  "sources": [
+    {
+      "name": "FIFA Match Centre: France vs Morocco",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536?date=2026-07-09&gender=2"
+    },
+    {
+      "name": "Al Jazeera live: France 2-0 Morocco",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/7/9/live-france-vs-morocco-fifa-world-cup-2026-quarterfinal"
+    },
+    {
+      "name": "Indian Express highlights: Mbappe, Dembele send FRA to semis",
+      "url": "https://indianexpress.com/article/sports/football/france-vs-morocco-live-score-fifa-world-cup-2026-quarterfinal-match-today-mbappe-golden-boot-10779576/"
+    },
+    {
+      "name": "FIFA Match Centre: Spain vs Belgium",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538"
+    },
+    {
+      "name": "ESPN World Cup 2026 fixtures",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Pháp 2-0 Morocco",
+      "subtext": "Mbappé 60', Dembélé 66' - Les Bleus vào bán kết",
+      "subtitle": "Full-time ở Boston Stadium: Pháp thắng Morocco 2-0 tại tứ kết World Cup 2026, lúc 03:00 ngày 10/07 theo giờ Việt Nam. Mbappé đá hỏng penalty phút 28, nhưng sang hiệp 2 vẫn tự sửa bài bằng bàn mở tỉ số phút 60, rồi Dembélé đóng nắp trận đấu ở phút 66.",
+      "voiceText": "Full time ở Boston Stadium, Pháp thắng Morocco hai không, tại tứ kết World Cup hai không hai sáu, lúc ba giờ sáng ngày mười tháng bảy theo giờ Việt Nam. Em pa bê đá hỏng penalty phút hai mươi tám, nhưng sang hiệp hai vẫn tự sửa bài bằng bàn mở tỉ số phút sáu mươi, rồi đem bê lê đóng nắp trận đấu ở phút sáu mươi sáu.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Quarter-final",
+      "venue": "Boston Stadium, Foxborough",
+      "date": "10.07.2026",
+      "time": "03:00 VN",
+      "minute": "FT",
+      "score": [2, 0],
+      "teams": [
+        {
+          "name": "Pháp",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg",
+          "form": ["W", "W", "W", "W"]
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg",
+          "form": ["D", "W", "W", "L"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "teams": ["FRA", "MAR"],
+          "score": [2, 0],
+          "minute": "FT",
+          "label": "Boston"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "Quarter-final",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "France 2-0 Morocco | 10.07.2026",
+      "ctaLabel": "Les Bleus vào bán kết",
+      "subtitle": "Một trận tứ kết đúng kiểu Pháp: đầu trận hơi làm khán giả nín thở, cuối cùng vẫn bật công tắc sát thương đúng lúc. Morocco phòng ngự lì, nhưng 6 phút hiệp 2 là đủ để mọi tính toán bị đảo bàn.",
+      "voiceText": "Một trận tứ kết đúng kiểu Pháp, đầu trận hơi làm khán giả nín thở, cuối cùng vẫn bật công tắc sát thương đúng lúc. Morocco phòng ngự lì, nhưng sáu phút hiệp hai là đủ để mọi tính toán bị đảo bàn.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7660691513919147286.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.38,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtext": "Pháp 4-2-3-1 | Morocco 4-2-3-1",
+      "subtitle": "Pháp xuất phát với Maignan, Kounde, Upamecano, Saliba, Digne; Koné và Rabiot giữ tuyến giữa; phía trên là Olise, Dembélé, Doué và Mbappé. Morocco có Bounou, Hakimi, Diop, Mazraoui, Salah Eddine, El Aynaoui, Bouaddi, Ounahi, Talbi, Diaz và El Khannouss.",
+      "voiceText": "Pháp xuất phát với Maignan, Kounde, Upamecano, Saliba, Digne, Koné và Rabiot giữ tuyến giữa, phía trên là Olise, đem bê lê, Doué và em pa bê. Morocco có Bounou, Hakimi, Diop, Mazraoui, Salah Eddine, El Aynaoui, Bouaddi, Ounahi, Talbi, Diaz và El Khannouss.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Boston Stadium",
+      "teams": [
+        {
+          "name": "Pháp",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Mike Maignan",
+            "Jules Kounde",
+            "Dayot Upamecano",
+            "William Saliba",
+            "Lucas Digne",
+            "Manu Kone",
+            "Adrien Rabiot",
+            "Michael Olise",
+            "Ousmane Dembele",
+            "Desire Doue",
+            "Kylian Mbappe"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Yassine Bounou",
+            "Achraf Hakimi",
+            "Malick Diop",
+            "Noussair Mazraoui",
+            "Anass Salah Eddine",
+            "Neil El Aynaoui",
+            "Ayyoub Bouaddi",
+            "Azzedine Ounahi",
+            "Chemsdine Talbi",
+            "Brahim Diaz",
+            "Bilal El Khannouss"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7660691513919147286.mp4",
+          "trim": {
+            "start": 8,
+            "end": 18
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Đội hình tứ kết",
+          "videoDescription": "Pháp cầm bóng kiên nhẫn, Morocco kéo khối phòng ngự thấp",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Mbappé sửa sai cực gắt",
+      "subtext": "Hỏng penalty phút 28, ghi bàn phút 60",
+      "subtitle": "Mbappé là nhân vật của mọi cung bậc. Phút 28, anh sút penalty không đủ hiểm và bị Bounou cản phá. Nhưng phút 60, Doué chọc khe vừa đủ, Mbappé cứa lòng mở khóa trận đấu, nâng cuộc đua Vua phá lưới lên mức nóng như bảng điện giờ bù.",
+      "voiceText": "Em pa bê là nhân vật của mọi cung bậc. Phút hai mươi tám, anh sút penalty không đủ hiểm và bị Bounou cản phá. Nhưng phút sáu mươi, Doué chọc khe vừa đủ, em pa bê cứa lòng mở khóa trận đấu, nâng cuộc đua Vua phá lưới lên mức nóng như bảng điện giờ bù.",
+      "duration": 7,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Kylian Mbappé",
+      "team": "Pháp",
+      "number": "10",
+      "playerImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kylian%20Mbapp%C3%A9%20France.jpg",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "60",
+          "unit": "'"
+        },
+        {
+          "label": "Điểm nóng",
+          "value": "Hỏng penalty rồi ghi bàn"
+        },
+        {
+          "label": "Golden Boot",
+          "value": "8 bàn"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7660691513919147286.mp4",
+          "trim": {
+            "start": 20,
+            "end": 32
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Mbappé bật lại",
+          "videoDescription": "Một pha hỏng, một pha sửa, và Pháp đổi nhịp ngay lập tức",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Bounou giữ hy vọng, Mbappé và Dembélé kết liễu",
+      "subtitle": "Phút 28, Bounou cản penalty của Mbappé và Morocco kéo trận về thế chịu đòn có kiểm soát. Cuối hiệp 1, Digne dội xà. Phút 60, Mbappé mở tỉ số từ đường chuyền của Doué. Phút 66, Dembélé đi bóng rồi dứt điểm lạnh, biến 6 phút thành đoạn phim Morocco rất muốn tua qua.",
+      "voiceText": "Phút hai mươi tám, Bounou cản penalty của em pa bê, và Morocco kéo trận về thế chịu đòn có kiểm soát. Cuối hiệp một, Digne dội xà. Phút sáu mươi, em pa bê mở tỉ số từ đường chuyền của Doué. Phút sáu mươi sáu, đem bê lê đi bóng rồi dứt điểm lạnh, biến sáu phút thành đoạn phim Morocco rất muốn tua qua.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Events",
+      "events": [
+        {
+          "minute": "28'",
+          "title": "Bounou cản penalty",
+          "desc": "Mbappé kiếm penalty nhưng cú đá không đủ hiểm, thủ môn Morocco giữ tỉ số 0-0."
+        },
+        {
+          "minute": "45'",
+          "title": "Digne dội xà",
+          "desc": "Cú sút chân trái của Lucas Digne đưa bóng chạm xà ngang."
+        },
+        {
+          "minute": "60'",
+          "title": "1-0: Kylian Mbappé",
+          "desc": "Doué chuyền vào khoảng trống, Mbappé cứa lòng mở tỉ số cho Pháp."
+        },
+        {
+          "minute": "66'",
+          "title": "2-0: Ousmane Dembélé",
+          "desc": "Dembélé xuyên qua trung lộ rồi dứt điểm chìm, nhân đôi cách biệt."
+        },
+        {
+          "minute": "FT",
+          "title": "Pháp vào bán kết",
+          "desc": "Les Bleus chờ đội thắng cặp Spain vs Belgium."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Pháp thắng bằng cú tăng tốc",
+      "subtext": "22 cú sút, 8 trúng đích, 2 bàn trong 6 phút",
+      "subtitle": "Thông số nhìn khá rõ: Pháp tung khoảng 22 cú sút, 8 lần trúng đích, còn Morocco chỉ có khoảng 5 cú sút và 1 lần trúng mục tiêu. Kiểm soát bóng không quá chênh, nhưng chất lượng cơ hội và tốc độ ra đòn mới là thứ khiến Morocco phải rời cuộc chơi.",
+      "voiceText": "Thông số nhìn khá rõ. Pháp tung khoảng hai mươi hai cú sút, tám lần trúng đích, còn Morocco chỉ có khoảng năm cú sút, và một lần trúng mục tiêu. Kiểm soát bóng không quá chênh, nhưng chất lượng cơ hội và tốc độ ra đòn, mới là thứ khiến Morocco phải rời cuộc chơi.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [2, 0],
+      "teams": [
+        {
+          "name": "Pháp",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 48,
+              "away": 52,
+              "unit": "%"
+            },
+            {
+              "label": "Cú sút",
+              "home": 22,
+              "away": 5
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": 8,
+              "away": 1
+            },
+            {
+              "label": "Cơ hội lớn",
+              "home": 5,
+              "away": 0
+            },
+            {
+              "label": "Bàn thắng",
+              "home": 2,
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh bán kết nóng lên",
+      "subtext": "Pháp chờ Spain hoặc Belgium",
+      "subtitle": "Pháp đã đặt chỗ ở bán kết và đối thủ sẽ là đội thắng cặp Spain vs Belgium, đá lúc 02:00 ngày 11/07 theo giờ Việt Nam tại Los Angeles. Kèo này nhìn rất dễ thành bài test kiểm soát bóng hạng nặng: Spain mềm chân chuyền, Belgium thì có đủ tốc độ để phản đòn. Bạn nghiêng cửa nào, nói nhẹ thôi cho vui nhé.",
+      "voiceText": "Pháp đã đặt chỗ ở bán kết, và đối thủ sẽ là đội thắng cặp Spain gặp Belgium, đá lúc hai giờ sáng ngày mười một tháng bảy theo giờ Việt Nam, tại Los Angeles. Kèo này nhìn rất dễ thành bài test kiểm soát bóng hạng nặng, Spain mềm chân chuyền, Belgium thì có đủ tốc độ để phản đòn. Bạn nghiêng cửa nào, nói nhẹ thôi cho vui nhé.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "TỨ KẾT", "BÁN KẾT", "NHÁNH ĐẤU"],
+      "standingsVariant": "world-cup-knockout",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Tứ kết",
+          "home": "Spain",
+          "away": "Belgium",
+          "score": "02:00 11/07 VN",
+          "note": "Đội thắng sẽ gặp Pháp ở bán kết",
+          "homeBadgeSrc": "assets/football/flags/spain.svg",
+          "awayBadgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "date": "Tứ kết",
+          "home": "Norway",
+          "away": "England",
+          "score": "04:00 12/07 VN",
+          "note": "Cặp đấu diễn ra ngày mai theo giờ Việt Nam",
+          "homeBadgeSrc": "assets/football/flags/norway.svg",
+          "awayBadgeSrc": "assets/football/flags/england.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7660691513919147286.mp4",
+          "trim": {
+            "start": 40,
+            "end": 52
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Nhánh bán kết",
+          "videoDescription": "Pháp ngồi chờ Spain hoặc Belgium, bán kết bắt đầu có mùi đại chiến",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Pháp đã vào phom chưa?",
+      "subtext": "Bình luận góc nhìn của bạn",
+      "subtitle": "Theo bạn, Pháp thắng kiểu này là bản lĩnh ứng viên vô địch, hay Morocco đã tự hết pin sau khi phòng ngự quá lâu? Nếu bán kết gặp Spain hoặc Belgium, bạn nghiêng cửa nào? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, Pháp thắng kiểu này là bản lĩnh ứng viên vô địch, hay Morocco đã tự hết pin sau khi phòng ngự quá lâu? Nếu bán kết gặp Spain hoặc Belgium, bạn nghiêng cửa nào? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Pháp đã vào phom vô địch chưa?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Pháp",
+          "Morocco",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

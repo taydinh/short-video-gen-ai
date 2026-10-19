@@ -1,0 +1,477 @@
+{
+  "title": "Bỉ vs Ai Cập: De Bruyne đối đầu Salah ở bảng G",
+  "slug": "bi-vs-ai-cap-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Bỉ - Ai Cập ở bảng G World Cup 2026, quy đổi giờ Việt Nam là 02:00 ngày 16/06/2026. Trận đấu diễn ra tại Seattle Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Belgium v Egypt match preview",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-egypt-preview-live-stream-team-news-tickets"
+    },
+    {
+      "title": "Ticketmaster - Belgium vs Egypt at Lumen Field",
+      "url": "https://www.ticketmaster.com/world-cup-match-16-group-g-seattle-06-15-2026/event/Z7r9jZ1A743fd"
+    },
+    {
+      "title": "MLS Soccer - 2026 FIFA World Cup Group G preview",
+      "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-g-preview-belgium-egypt-iran-new-zealand"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Bỉ vs Ai Cập",
+      "subtext": "De Bruyne gặp Salah ngay lượt mở màn",
+      "voiceText": "Bỉ gặp Ai Cập lúc hai giờ sáng ngày mười sáu tháng sáu theo giờ Việt Nam. Đây là trận ra quân World Cup hai không hai sáu tại Seattle, nơi Kê Vin Đờ Broai Nơ và Mohamed Salah cùng bước vào một bảng đấu rất khó đoán.",
+      "subtitle": "Bỉ gặp Ai Cập lúc 02:00 ngày 16/06 theo giờ Việt Nam. Đây là trận ra quân World Cup 2026 tại Seattle, nơi Kevin De Bruyne và Mohamed Salah cùng bước vào một bảng đấu rất khó đoán.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group G - Matchday 1",
+      "venue": "Seattle Stadium, Seattle",
+      "date": "16/06/2026",
+      "time": "02:00 VN",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "teamType": "national",
+          "form": "Hạt giống châu Âu",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "name": "Egypt",
+          "code": "EGY",
+          "teamType": "national",
+          "form": "Salah dẫn dắt",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.7,
+          "top": "76%",
+          "size": 84
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng G nhiều bẫy",
+      "subtext": "Belgium, Egypt, Iran và New Zealand",
+      "voiceText": "Bảng G không có chỗ cho màn khởi động chậm. Bỉ cần thắng để giữ vị thế cửa trên, còn Ai Cập hiểu rằng một điểm trước đối thủ mạnh nhất bảng có thể mở ra đường đi tiếp.",
+      "subtitle": "Bảng G không có chỗ cho màn khởi động chậm. Bỉ cần thắng để giữ vị thế cửa trên, còn Ai Cập hiểu rằng 1 điểm trước đối thủ mạnh nhất bảng có thể mở ra đường đi tiếp.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group G Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Belgium vs Egypt | 16/06/2026 VN",
+      "ctaLabel": "Kick-off 02:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Bỉ cầm nhịp, Ai Cập chờ Salah",
+      "voiceText": "Bỉ có thể đá ba bốn hai một, với Casteels, Faes, Theate, Vertonghen, Castagne, Tielemans, Onana, Doku, Kê Vin Đờ Broai Nơ, Trossard và Openda. Ai Cập nhiều khả năng đá bốn ba ba, đặt Salah ở cánh phải để tấn công vào khoảng trống sau lưng wing-back của Bỉ.",
+      "subtitle": "Bỉ có thể đá 3-4-2-1, với Casteels, Faes, Theate, Vertonghen, Castagne, Tielemans, Onana, Doku, Kevin De Bruyne, Trossard và Openda. Ai Cập nhiều khả năng đá 4-3-3, đặt Salah ở cánh phải để tấn công vào khoảng trống sau lưng wing-back của Bỉ.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "name": "Egypt",
+          "code": "EGY",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Koen Casteels",
+            "Wout Faes",
+            "Arthur Theate",
+            "Jan Vertonghen",
+            "Timothy Castagne",
+            "Youri Tielemans",
+            "Amadou Onana",
+            "Jeremy Doku",
+            "Kevin De Bruyne",
+            "Leandro Trossard",
+            "Lois Openda"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Mohamed El Shenawy",
+            "Mohamed Hany",
+            "Ahmed Hegazy",
+            "Mohamed Abdelmonem",
+            "Ahmed Fatouh",
+            "Hamdi Fathi",
+            "Emam Ashour",
+            "Zizo",
+            "Mohamed Salah",
+            "Mostafa Mohamed",
+            "Trezeguet"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: Ai Cập từng thắng Bỉ",
+      "subtext": "Ký ức 2022 vẫn là lời nhắc",
+      "voiceText": "Hai đội từng gặp nhau nhiều lần, và lần gần nhất năm hai không hai hai, Ai Cập thắng Bỉ hai một trong trận giao hữu trước World Cup. Bỉ vẫn là đội có trần chất lượng cao hơn, nhưng họ không được phép để Salah có quá nhiều pha một đấu một.",
+      "subtitle": "Hai đội từng gặp nhau nhiều lần, và lần gần nhất năm 2022, Ai Cập thắng Bỉ 2-1 trong trận giao hữu trước World Cup. Bỉ vẫn là đội có trần chất lượng cao hơn, nhưng họ không được phép để Salah có quá nhiều pha 1 đấu 1.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "name": "Egypt",
+          "code": "EGY",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "homeTeam": "Belgium",
+      "awayTeam": "Egypt",
+      "odds": [
+        {
+          "label": "Chất lượng tuyến giữa",
+          "value": "Belgium"
+        },
+        {
+          "label": "Ngôi sao phản công",
+          "value": "Egypt"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Khóa Salah"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "11/2022",
+          "home": "Belgium",
+          "away": "Egypt",
+          "score": "1-2",
+          "note": "Giao hữu trước World Cup",
+          "homeBadgeSrc": "assets/football/flags/belgium.svg",
+          "awayBadgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát tuyến giữa",
+              "home": 82,
+              "away": 62
+            },
+            {
+              "label": "Nguy hiểm phản công",
+              "home": 76,
+              "away": 86
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: De Bruyne vs Salah",
+      "subtext": "Hai thủ lĩnh, hai kiểu sát thương",
+      "voiceText": "Điểm nóng là cuộc đấu giữa nhịp chuyền của Kê Vin Đờ Broai Nơ và tốc độ thoát đi của Salah. Nếu Bỉ kiểm soát bóng đủ cao, Ai Cập sẽ bị kéo xuống rất sâu. Nhưng chỉ một đường chuyền lỗi, Salah có thể biến trận đấu thành pha chạy nước rút.",
+      "subtitle": "Điểm nóng là cuộc đấu giữa nhịp chuyền của Kevin De Bruyne và tốc độ thoát đi của Salah. Nếu Bỉ kiểm soát bóng đủ cao, Ai Cập sẽ bị kéo xuống rất sâu. Nhưng chỉ một đường chuyền lỗi, Salah có thể biến trận đấu thành pha chạy nước rút.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Bỉ sẽ muốn trận này là ván cờ kiểm soát, còn Ai Cập chỉ cần vài mét trống để biến nó thành trận đấu của Salah.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng G",
+      "subtext": "Lượt đầu có thể định hình cửa đi tiếp",
+      "voiceText": "Bảng G có Bỉ, Ai Cập, Iran và New Zealand. Trước lượt đầu, tất cả cùng không điểm, nhưng đội thắng cặp này sẽ có lợi thế rất lớn trước hai trận còn lại, còn đội thua sẽ lập tức bị kéo vào vùng rủi ro.",
+      "subtitle": "Bảng G có Bỉ, Ai Cập, Iran và New Zealand. Trước lượt đầu, tất cả cùng 0 điểm, nhưng đội thắng cặp này sẽ có lợi thế rất lớn trước 2 trận còn lại, còn đội thua sẽ lập tức bị kéo vào vùng rủi ro.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group G",
+      "activeTab": "BẢNG G",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "LỊCH THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG G"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "BEL",
+        "EGY"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Belgium",
+            "code": "BEL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/belgium.svg",
+            "badgeSrc": "assets/football/flags/belgium.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Egypt",
+            "code": "EGY",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/egypt.svg",
+            "badgeSrc": "assets/football/flags/egypt.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "IR Iran",
+            "code": "IRN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ir-iran.svg",
+            "badgeSrc": "assets/football/flags/ir-iran.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "New Zealand",
+            "code": "NZL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/new-zealand.svg",
+            "badgeSrc": "assets/football/flags/new-zealand.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Bỉ thắng hay Ai Cập có điểm?",
+      "voiceText": "Bạn dự đoán Bỉ mở màn bằng ba điểm, hay Ai Cập sẽ kéo trận đấu về thế cực khó chịu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Bỉ mở màn bằng 3 điểm, hay Ai Cập sẽ kéo trận đấu về thế cực khó chịu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Bỉ vs Ai Cập?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Belgium",
+          "Egypt",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

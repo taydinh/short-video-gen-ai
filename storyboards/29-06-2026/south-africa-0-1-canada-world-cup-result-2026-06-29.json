@@ -1,0 +1,515 @@
+{
+  "title": "Nam Phi 0-1 Canada: Eustaquio đâm nhát cuối ở 90+2",
+  "slug": "south-africa-0-1-canada-world-cup-result-2026-06-29",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Storyboard kết quả trận Nam Phi 0-1 Canada tại vòng 32 đội World Cup 2026, giọng bình luận trẻ trung, vui vẻ, có kèo nhẹ và tập trung vào bàn thắng muộn của Stephen Eustaquio.",
+  "sources": [
+    {
+      "name": "ESPN match report: Canada 1-0 South Africa",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760486"
+    },
+    {
+      "name": "AP News report: Eustaquio stoppage-time winner",
+      "url": "https://apnews.com/article/world-cup-south-africa-canada-score-518ad32e6b900d2fb791d895959fef46"
+    },
+    {
+      "name": "The Guardian live: South Africa 0-1 Canada",
+      "url": "https://www.theguardian.com/football/live/2026/jun/28/south-africa-v-canada-world-cup-2026-last-32-live"
+    },
+    {
+      "name": "FOX Sports round of 32 schedule",
+      "url": "https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-round-32-schedule-bracket-fixtures"
+    },
+    {
+      "name": "FIFA World Cup 2026 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Nam Phi 0-1 Canada",
+      "subtext": "Eustaquio vô-lê phút 90+2, Canada vào vòng 16 đội",
+      "subtitle": "Full-time: Nam Phi 0-1 Canada tại vòng 32 đội World Cup 2026. Trận đấu tưởng như kéo vào hiệp phụ thì Stephen Eustaquio khống chế bóng bằng ngực rồi vô-lê chìm vào góc xa ở phút 90+2, đưa Canada vào vòng 16 đội và khiến kèo hòa sau 90 phút bay màu cùng với nhiều anh em.",
+      "voiceText": "Full time, Nam Phi không, Canada một, tại vòng ba mươi hai đội, World Cup hai không hai sáu. Trận đấu tưởng như kéo vào hiệp phụ, thì Stephen Eustaquio khống chế bóng bằng ngực rồi vô lê chìm vào góc xa ở phút chín mươi cộng hai, đưa Canada vào vòng mười sáu đội, và khiến kèo hòa sau chín mươi phút bay màu cùng với nhiều anh em.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Los Angeles Stadium, California",
+      "date": "29.06.2026",
+      "time": "09:00 VN",
+      "minute": "FT",
+      "score": [0, 1],
+      "teams": [
+        {
+          "name": "Nam Phi",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg",
+          "form": ["D", "L", "W", "L"]
+        },
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg",
+          "form": ["D", "W", "L", "W"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "teams": ["RSA", "CAN"],
+          "score": [0, 1],
+          "minute": "FT",
+          "label": "Los Angeles"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "Round of 32",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "South Africa 0-1 Canada | 29.06.2026",
+      "ctaLabel": "Full-time",
+      "subtitle": "Một trận knock-out đúng nghĩa: không ồn ào quá nhiều, nhưng đủ căng để tim khán giả nhảy pressing từ phút đầu tới cú vô-lê cuối trận.",
+      "voiceText": "Một trận nốc ao đúng nghĩa, không ồn ào quá nhiều, nhưng đủ căng để tim khán giả nhảy pressing từ phút đầu, tới cú vô lê cuối trận.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtext": "Nam Phi 4-2-3-1 | Canada 4-2-3-1",
+      "subtitle": "Nam Phi giữ sơ đồ 4-2-3-1 với Foster đá cao nhất, Appollis và Mofokeng hỗ trợ hai biên. Canada cũng dùng 4-2-3-1, David đá mũi nhọn, còn Davies và Buchanan kéo tốc độ lên hai cánh.",
+      "voiceText": "Nam Phi giữ sơ đồ bốn hai ba một, với Foster đá cao nhất, Appollis và Mofokeng hỗ trợ hai biên. Canada cũng dùng bốn hai ba một, David đá mũi nhọn, còn Davies và Buchanan kéo tốc độ lên hai cánh.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Los Angeles Stadium",
+      "teams": [
+        {
+          "name": "Nam Phi",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg"
+        },
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Ronwen Williams",
+            "Khuliso Mudau",
+            "Nkosinathi Sibisi",
+            "Rushwin Dortley",
+            "Aubrey Modiba",
+            "Teboho Mokoena",
+            "Sphephelo Sithole",
+            "Oswin Appollis",
+            "Themba Zwane",
+            "Relebohile Mofokeng",
+            "Lyle Foster"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Maxime Crépeau",
+            "Alistair Johnston",
+            "Moïse Bombito",
+            "Derek Cornelius",
+            "Alphonso Davies",
+            "Stephen Eustaquio",
+            "Ismaël Koné",
+            "Tajon Buchanan",
+            "Jonathan Osorio",
+            "Jacob Shaffelburg",
+            "Jonathan David"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7656577691906362644.mp4",
+          "trim": {
+            "start": 45,
+            "end": 55
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Khối đội hình",
+          "videoDescription": "Nam Phi chơi thấp, Canada đẩy nhịp ở hai biên",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Eustaquio bật chế độ clutch",
+      "subtext": "Bàn thắng ở phút 90+2",
+      "subtitle": "Stephen Eustaquio là nhân vật mở khóa trận đấu. Anh không phải người ồn ào nhất trên sân, nhưng đúng phút 90+2 lại chọn vị trí chuẩn, đỡ ngực gọn rồi tung cú sút quyết định, biến một trận đấu cực chặt thành vé đi tiếp cho Canada.",
+      "voiceText": "Stephen Eustaquio là nhân vật mở khóa trận đấu. Anh không phải người ồn ào nhất trên sân, nhưng đúng phút chín mươi cộng hai, lại chọn vị trí chuẩn, đỡ ngực gọn rồi tung cú sút quyết định, biến một trận đấu cực chặt thành vé đi tiếp cho Canada.",
+      "duration": 7,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Stephen Eustaquio",
+      "team": "Canada",
+      "number": "7",
+      "playerImageUrl": "https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/734367591_1635211614628404_3492004392224010174_n.jpg?stp=dst-jpg_tt6&cstp=mx1526x1909&ctp=s1526x1909&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OuZ95YGy0_oQ7kNvwFCWxsm&_nc_oc=Adp-_lPVoUZXIQJG9FBUGaZ6oP3Bvc-BX7zz3vJpfUjG3lSTuynHAXBPmYMrVX74SeA&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=pyZRU5WXs2yxXgmvdq6duQ&_nc_ss=7b2a8&oh=00_Af8HPFoaSp7mo3op9fF9JhiHjXiwjoWYjrtic7P5-ZSAjw&oe=6A47A061",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "90+2",
+          "unit": "'"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Đội trưởng tuyến giữa"
+        },
+        {
+          "label": "Điểm nhấn",
+          "value": "Vô-lê quyết định"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7656577691906362644.mp4",
+          "trim": {
+            "start": 58,
+            "end": 72
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Khoảnh khắc định đoạt",
+          "videoDescription": "Canada tìm ra cú vô-lê cuối trận",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Williams gánh cửa, Eustaquio chốt sổ",
+      "subtitle": "Nam Phi nhập cuộc kỷ luật và kéo trận đấu về nhịp rất khó chịu. Ronwen Williams nhiều lần giữ Nam Phi sống sót. Canada kiên nhẫn ném bóng vào vòng cấm, rồi phút 90+2, bóng bật ra để Eustaquio khống chế bằng ngực và vô-lê ghi bàn. FT: Canada 1-0.",
+      "voiceText": "Nam Phi nhập cuộc kỷ luật, và kéo trận đấu về nhịp rất khó chịu. Ronwen Williams nhiều lần giữ Nam Phi sống sót. Canada kiên nhẫn ném bóng vào vòng cấm, rồi phút chín mươi cộng hai, bóng bật ra để Eustaquio khống chế bằng ngực và vô lê ghi bàn. Hết giờ, Canada thắng một không.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Events",
+      "events": [
+        {
+          "minute": "1'-30'",
+          "title": "Nam Phi kéo thấp đội hình",
+          "desc": "Bafana Bafana ưu tiên khối phòng ngự, không cho Canada dễ tăng tốc."
+        },
+        {
+          "minute": "45'",
+          "title": "Williams giữ trận đấu sống",
+          "desc": "Thủ môn Nam Phi có nhiều pha phản xạ quan trọng trước sức ép Canada."
+        },
+        {
+          "minute": "70'-89'",
+          "title": "Canada ép biên liên tục",
+          "desc": "Davies, Buchanan và Shaffelburg tạo áp lực ở hành lang cánh."
+        },
+        {
+          "minute": "90+2'",
+          "title": "0-1: Stephen Eustaquio",
+          "desc": "Bóng bật ra sau quả tạt, Eustaquio đỡ ngực rồi vô-lê tung lưới Nam Phi."
+        },
+        {
+          "minute": "FT",
+          "title": "Canada vào vòng 16 đội",
+          "desc": "Đại diện Bắc Mỹ sẽ gặp đội thắng cặp Hà Lan vs Morocco."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Canada thắng bằng sức ép cuối trận",
+      "subtext": "Chỉ số bàn thắng kỳ vọng 1.32 - 0.13",
+      "subtitle": "Thông số kể đúng cảm giác trận này: Canada kiểm soát 58% bóng, tạo chỉ số bàn thắng kỳ vọng 1.32, còn Nam Phi chỉ có 0.13. Ronwen Williams cứu thua 5 lần, nhưng đến phút 90+2 thì tường cũng phải nứt.",
+      "voiceText": "Thông số kể đúng cảm giác trận này. Canada kiểm soát năm mươi tám phần trăm bóng, tạo chỉ số bàn thắng kỳ vọng một phẩy ba hai, còn Nam Phi chỉ có không phẩy mười ba. Ronwen Williams cứu thua năm lần, nhưng đến phút chín mươi cộng hai, thì tường cũng phải nứt.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [0, 1],
+      "teams": [
+        {
+          "name": "Nam Phi",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg"
+        },
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 42,
+              "away": 58,
+              "unit": "%"
+            },
+            {
+              "label": "xG",
+              "home": 0.13,
+              "away": 1.32
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": 1,
+              "away": 6
+            },
+            {
+              "label": "Cứu thua",
+              "home": 5,
+              "away": 1
+            },
+            {
+              "label": "Bàn thắng",
+              "home": 0,
+              "away": 1
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Canada chờ Hà Lan hoặc Morocco",
+      "subtitle": "Canada đã qua cửa Nam Phi và giờ ngồi xem Hà Lan gặp Morocco, cặp đấu sẽ xác định đối thủ ở vòng 16 đội. Cùng nhánh hôm nay còn có Brazil gặp Nhật Bản lúc 00:00 ngày 30/06 theo giờ Việt Nam, một kèo tốc độ cao, xem cho vui nhưng nhận định nhẹ tay thôi nha.",
+      "voiceText": "Canada đã qua cửa Nam Phi, và giờ ngồi xem Hà Lan gặp Morocco, cặp đấu sẽ xác định đối thủ ở vòng mười sáu đội. Cùng nhánh hôm nay còn có Brazil gặp Nhật Bản lúc không giờ, ngày ba mươi tháng sáu theo giờ Việt Nam, một kèo tốc độ cao, xem cho vui nhưng nhận định nhẹ tay thôi nha.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "activeTab": "VÒNG ĐẤU 32 ĐỘI",
+      "tabs": ["TRẬN ĐẤU", "BẢNG XẾP HẠNG", "VÒNG ĐẤU 32 ĐỘI", "NHÁNH ĐẤU"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Hà Lan",
+          "away": "Morocco",
+          "score": "08:00 30/06 VN",
+          "note": "Đội thắng sẽ gặp Canada ở vòng 16 đội",
+          "homeBadgeSrc": "assets/football/flags/netherlands.svg",
+          "awayBadgeSrc": "assets/football/flags/morocco.svg"
+        },
+        {
+          "date": "Vòng 32 đội",
+          "home": "Brazil",
+          "away": "Nhật Bản",
+          "score": "00:00 30/06 VN",
+          "note": "Cặp đấu diễn ra hôm nay theo giờ Việt Nam",
+          "homeBadgeSrc": "assets/football/flags/brazil.svg",
+          "awayBadgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Canada đi tiếp xứng đáng không?",
+      "subtext": "Bình luận góc nhìn của bạn",
+      "subtitle": "Theo bạn, Canada thắng xứng đáng hay Nam Phi chỉ thua vì một khoảnh khắc mất tập trung? Kèo vòng sau gặp Hà Lan hoặc Morocco, bạn nghiêng cửa nào? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, Canada thắng xứng đáng, hay Nam Phi chỉ thua vì một khoảnh khắc mất tập trung? Kèo vòng sau gặp Hà Lan hoặc Morocco, bạn nghiêng cửa nào? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Canada đi tiếp xứng đáng không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Canada",
+          "Nam Phi",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

@@ -15,6 +15,8 @@ Nguồn tham chiếu:
 - `voiceText` là bản được edit riêng để tạo audio/TTS: có thể Việt hóa tên riêng, dùng phiên âm, cách đọc số bằng chữ, hoặc cách đọc rút gọn theo rule riêng để giọng đọc ổn định. Ví dụ `World Cup 2026` có thể viết thành `World Cup hai không hai sáu`, `Real Madrid` có thể viết thành `Rê an ma rít`.
 - `subtitle` là bản dùng để hiển thị bên ngoài video cho người xem đọc, vì vậy phải giữ dạng chữ tự nhiên trên màn hình: giữ tên chính thức như `PSG`, `Paris Saint-Germain`, `Arsenal`, `Dembélé`, `Havertz`, `Real Madrid`; dùng số/ký hiệu gọn như `120 phút`, `4-3`, `75%`, `2026`, `50-50`, `4-2-3-1`; không dùng phiên âm TTS như `Pi S Ji`, `a se nồ`, `đem bê lê`, `Rê an ma rít`.
 - Khi scene có `voiceText` dài, `subtitle` vẫn nên là một đoạn hoàn chỉnh theo đúng thứ tự ý chính, nhưng được chuẩn hóa tên riêng, số liệu, ký hiệu và dấu câu để dễ đọc hơn trên màn hình.
+- Không được dùng `subtitle` như bản tóm tắt ngắn hơn. `subtitle` phải giữ đủ từng mệnh đề của `voiceText` theo cùng thứ tự; chỉ được thay đổi hình thức hiển thị như tên chính thức, chữ số, ký hiệu, dấu câu và bỏ phiên âm TTS.
+- Nếu `voiceText` có CTA, câu hỏi kéo bình luận hoặc lời follow, `subtitle` cũng phải có cùng CTA/câu hỏi/lời follow đó, không được thay bằng lời kêu gọi khác.
 
 ## Composition chính
 
@@ -125,6 +127,8 @@ Nguồn tham chiếu:
 | `visuals.type: "motion"` + `bounce` | Nảy lên xuống. |
 | `visuals.type: "motion"` + `shake` | Rung lắc ngang. |
 | `visuals.type: "video"` / `"video-clip-card"` | Thẻ video clip hoặc ảnh nền video chuyển động. Các field hỗ trợ:<br/>- `videoUrl`: đường dẫn file mp4<br/>- `trim.start`, `trim.end` hoặc `startTime`, `endTime`: thời gian cắt video. **Schema khuyến nghị là số giây** để rõ ràng và ổn định, ví dụ `{"trim":{"start":122,"end":130}}` cho đoạn 2:02-2:10. Code hiện vẫn hỗ trợ string dạng `"MM:SS"`, `"HH:MM:SS"`, `"00:04.500"` hoặc `"122.5"` khi cần đọc thủ công.<br/>- `videoVolume`: âm lượng audio của clip (mặc định 0.5)<br/>- `position`: vị trí hiển thị (`background` - toàn màn hình, `top` - thẻ card nằm ở trên, `bottom` - thẻ card nằm ở dưới)<br/>- `layout`: `horizontal` hoặc `vertical`<br/>- `videoTitle`, `videoDescription`: thông tin hiển thị trên thẻ (chỉ cho card)|
+
+Ghi chú: Không dùng `visuals.type: "video"` hoặc `"video-clip-card"` trong các scene có `composition: "football-scoreboard"` hoặc `composition: "football-timeline"`.
 ## Football visuals
 
 | Visual Type | Chú thích |

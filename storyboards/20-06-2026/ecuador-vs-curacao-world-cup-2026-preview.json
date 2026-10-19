@@ -1,0 +1,423 @@
+{
+  "title": "Ecuador vs Curaçao | Preview World Cup 2026",
+  "slug": "ecuador-vs-curacao-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+    "https://furamavietnam.com/the-full-schedule-of-all-104-matches-in-the-2026-world-cup-updated-in-vietnam-time-latest-update/"
+  ],
+  "summary": "Preview Ecuador vs Curaçao, 07:00 21/06/2026 (UTC+7). Không dùng ảnh bài viết/cầu thủ.",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "type": "intro",
+      "composition": "football-match-card",
+      "duration": 6,
+      "startTime": 0,
+      "voiceText": "Ecuador gặp Curaçao, lúc bảy giờ sáng, ngày hai mươi mốt tháng sáu theo giờ Việt Nam. Đây là trận bắt buộc phải có điểm với cả hai đội.",
+      "subtitle": "Ecuador gặp Curaçao, lúc 07:00, ngày 21/06/2026 theo giờ Việt Nam. Đây là trận bắt buộc phải có điểm với cả hai đội.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Ecuador vs Curaçao",
+      "subtext": "Bảng E • Kansas City Stadium",
+      "teams": [
+        {
+          "name": "Ecuador",
+          "shortName": "ECU",
+          "flagSrc": "assets/football/flags/ecuador.svg",
+          "badgeSrc": "assets/football/flags/ecuador.svg",
+          "form": "L"
+        },
+        {
+          "name": "Curaçao",
+          "shortName": "CUR",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg",
+          "form": "L"
+        }
+      ],
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng E",
+      "venue": "Kansas City Stadium",
+      "date": "21/06/2026",
+      "time": "07:00",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "startTime": 6,
+      "voiceText": "World Cup hai không hai sáu, lượt hai bảng E, cuộc đua giành vé đi tiếp đang nóng lên.",
+      "subtitle": "World Cup 2026, lượt 2 Bảng E, cuộc đua giành vé đi tiếp đang nóng lên.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "WORLD CUP 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Bảng E Preview",
+      "seasonLabel": "Canada • Mexico • USA",
+      "ctaLabel": "07:00 • 21/06/2026 • UTC+7",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "startTime": 9,
+      "voiceText": "Ecuador có thể dựa vào Hernán Galíndez, Piero Hincapié, Moisés Caicedo, Kendry Páez, Enner Valencia. Curaçao kỳ vọng ở Eloy Room, Cuco Martina, Leandro Bacuna, Juninho Bacuna, Jürgen Locadia.",
+      "subtitle": "Ecuador có thể dựa vào Hernán Galíndez, Piero Hincapié, Moisés Caicedo, Kendry Páez, Enner Valencia. Curaçao kỳ vọng ở Eloy Room, Cuco Martina, Leandro Bacuna, Juninho Bacuna, Jürgen Locadia.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Đội hình dự kiến",
+      "competitionLabel": "Bảng E",
+      "venue": "Kansas City Stadium",
+      "teams": [
+        {
+          "name": "Ecuador",
+          "shortName": "ECU",
+          "flagSrc": "assets/football/flags/ecuador.svg",
+          "badgeSrc": "assets/football/flags/ecuador.svg",
+          "form": ""
+        },
+        {
+          "name": "Curaçao",
+          "shortName": "CUR",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg",
+          "form": ""
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Ecuador",
+          "formation": "4-3-3",
+          "players": [
+            "Hernán Galíndez",
+            "Joel Ordóñez",
+            "Willian Pacho",
+            "Piero Hincapié",
+            "Pervis Estupiñán",
+            "Moisés Caicedo",
+            "Pedro Vite",
+            "Kendry Páez",
+            "Gonzalo Plata",
+            "Nilson Angulo",
+            "Enner Valencia"
+          ]
+        },
+        {
+          "team": "Curaçao",
+          "formation": "4-3-3",
+          "players": [
+            "Eloy Room",
+            "Sherel Floranus",
+            "Cuco Martina",
+            "Jurien Gaari",
+            "Nathan Markelo",
+            "Leandro Bacuna",
+            "Livano Comenencia",
+            "Juninho Bacuna",
+            "Jeremy Antonisse",
+            "Tahith Chong",
+            "Jürgen Locadia"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "duration": 8,
+      "startTime": 17,
+      "voiceText": "Ecuador thua Bờ Biển Ngà không một, còn Curaçao nhận thất bại một bảy trước Đức. Cả hai đều cần phản ứng mạnh.",
+      "subtitle": "Ecuador thua Bờ Biển Ngà 0-1, còn Curaçao nhận thất bại 1-7 trước Đức. Cả hai đều cần phản ứng mạnh.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Kết quả gần nhất",
+      "subtext": "Hai đội chưa có lịch sử đối đầu",
+      "teams": [
+        {
+          "name": "Ecuador",
+          "shortName": "ECU",
+          "flagSrc": "assets/football/flags/ecuador.svg",
+          "badgeSrc": "assets/football/flags/ecuador.svg",
+          "form": ""
+        },
+        {
+          "name": "Curaçao",
+          "shortName": "CUR",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg",
+          "form": ""
+        }
+      ],
+      "oddsTable": [
+        {
+          "label": "Lượt 1",
+          "home": "Thua Bờ Biển Ngà 0-1",
+          "away": "Thua Đức 1-7"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "Lượt 1 World Cup 2026",
+          "home": "Bờ Biển Ngà",
+          "away": "Ecuador",
+          "score": "1-0",
+          "note": "Ecuador thua sát nút trận ra quân",
+          "homeBadgeSrc": "assets/football/flags/cote-divoire.svg",
+          "awayBadgeSrc": "assets/football/flags/ecuador.svg"
+        },
+        {
+          "date": "Lượt 1 World Cup 2026",
+          "home": "Đức",
+          "away": "Curaçao",
+          "score": "7-1",
+          "note": "Curaçao nhận thất bại đậm ở lượt đầu",
+          "homeBadgeSrc": "assets/football/flags/germany.svg",
+          "awayBadgeSrc": "assets/football/flags/curacao.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Điểm",
+              "home": 0,
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-5",
+      "type": "content",
+      "composition": "quote-attrib",
+      "duration": 6,
+      "startTime": 25,
+      "voiceText": "Moisés Caicedo phải giúp Ecuador kiểm soát tuyến giữa, còn Curaçao cần siết lại hàng thủ sau trận mở màn.",
+      "subtitle": "Moisés Caicedo phải giúp Ecuador kiểm soát tuyến giữa, còn Curaçao cần siết lại hàng thủ sau trận mở màn.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Moisés Caicedo phải giúp Ecuador kiểm soát tuyến giữa, còn Curaçao cần siết lại hàng thủ sau trận mở màn.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "quoteImageAlt": "",
+      "liveLabel": "ĐIỂM NÓNG",
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-6",
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 6,
+      "startTime": 31,
+      "voiceText": "Ecuador và Curaçao chưa có điểm. Đội thua trận này sẽ đối mặt nguy cơ bị loại rất cao.",
+      "subtitle": "Ecuador và Curaçao chưa có điểm. Đội thua trận này sẽ đối mặt nguy cơ bị loại rất cao.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Bảng E",
+      "subtext": "Sau lượt 1",
+      "activeTab": "Bảng E",
+      "tabs": [
+        "Bảng E"
+      ],
+      "standingsVariant": "group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Ecuador",
+        "Curaçao"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Đức",
+            "code": "GER",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/germany.svg"
+          },
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 7,
+          "goalsAgainst": 1,
+          "goalDifference": 6,
+          "points": 3
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Bờ Biển Ngà",
+            "code": "CIV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cote-divoire.svg"
+          },
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1,
+          "points": 3
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Ecuador",
+            "code": "ECU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ecuador.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "points": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Curaçao",
+            "code": "CUW",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/curacao.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 7,
+          "goalDifference": -6,
+          "points": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-7",
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 6,
+      "startTime": 37,
+      "voiceText": "Bạn dự đoán tỉ số Ecuador gặp Curaçao là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán tỉ số Ecuador gặp Curaçao là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Theo dõi Méo bình luận",
+      "subtext": "Dự đoán tỉ số Ecuador - Curaçao",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Ecuador - Curaçao",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    }
+  ]
+}

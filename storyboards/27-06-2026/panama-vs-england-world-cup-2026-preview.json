@@ -1,0 +1,364 @@
+{
+  "title": "Panama vs Anh: Tam sư khẳng định vị thế",
+  "slug": "panama-vs-england-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Nhận định trận đấu giữa Panama và Anh tại bảng L World Cup 2026. Lịch thi đấu theo giờ Việt Nam là 04:00 ngày 28/06/2026.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "Sports Mole - Panama vs England preview",
+      "url": "https://www.sportsmole.co.uk/football/england/world-cup/preview/preview-panama-vs-england.html"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Panama vs Anh",
+      "subtext": "Tam Sư tìm lại cảm hứng tấn công",
+      "voiceText": "Cuộc đối đầu giữa Panama và Anh diễn ra lúc bốn giờ sáng ngày hai mươi tám tháng sáu theo giờ Việt Nam. Đây là lượt trận cuối bảng Lờ World Cup hai không hai sáu tại New Jersey, nơi Tam sư đặt mục tiêu giữ vững ngôi đầu bảng.",
+      "subtitle": "Cuộc đối đầu giữa Panama và Anh diễn ra lúc 04:00 ngày 28/06 theo giờ Việt Nam. Đây là lượt trận cuối Bảng L World Cup 2026 tại New Jersey, nơi Tam Sư đặt mục tiêu giữ vững ngôi đầu bảng.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group L - Matchday 3",
+      "venue": "MetLife Stadium",
+      "date": "28/06/2026",
+      "time": "04:00 VN",
+      "teams": [
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "form": "0 điểm",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        },
+        {
+          "name": "Anh",
+          "code": "ENG",
+          "form": "4 điểm",
+          "flagSrc": "assets/football/flags/england.svg",
+          "badgeSrc": "assets/football/flags/england.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Cục diện bảng L",
+      "subtext": "Anh, Ghana, Croatia, Panama",
+      "voiceText": "Cục diện bảng Lờ đang vô cùng kịch tính. Sau trận hòa không đều trước Ghana, huấn luyện viên Thomas Tuchel cần một chiến thắng thuyết phục để lấy lại niềm tin nơi người hâm mộ.",
+      "subtitle": "Cục diện Bảng L đang vô cùng kịch tính. Sau trận hòa 0-0 trước Ghana, HLV Thomas Tuchel cần một chiến thắng thuyết phục để lấy lại niềm tin nơi người hâm mộ.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group L Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Sơ đồ 4-2-3-1 đầy sức mạnh",
+      "voiceText": "Với việc vắng mặt nhiều ngôi sao lớn như Foden hay Cole Palmer, gánh nặng tấn công sẽ đè nặng lên vai của Harry Kane, Bukayo Saka và Jude Bellingham. Declan Rice và Kobbie Mainoo sẽ là cặp tiền vệ trung tâm điều phối bóng.",
+      "subtitle": "Với việc vắng mặt nhiều ngôi sao lớn như Foden hay Cole Palmer, gánh nặng tấn công sẽ đè nặng lên vai của Harry Kane, Bukayo Saka và Jude Bellingham. Declan Rice và Kobbie Mainoo sẽ là cặp tiền vệ trung tâm điều phối bóng.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Panama",
+          "formation": "5-4-1",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "players": [
+            "Mosquera",
+            "Murillo",
+            "Miller",
+            "Cordoba",
+            "Blackman",
+            "Davis",
+            "Martinez",
+            "Carrasquilla",
+            "Godoy",
+            "Rodriguez",
+            "Fajardo"
+          ]
+        },
+        {
+          "team": "Anh",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/england.svg",
+          "players": [
+            "Pickford",
+            "James",
+            "Stones",
+            "Guehi",
+            "Burn",
+            "Rice",
+            "Mainoo",
+            "Saka",
+            "Bellingham",
+            "Rashford",
+            "Kane"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Lịch sử đối đầu",
+      "subtext": "Ký ức đẹp World Cup 2018",
+      "voiceText": "Lần gần nhất gặp nhau tại ngày hội bóng đá lớn nhất hành tinh năm hai mươi mười tám, tuyển Anh đã hủy diệt Panama với tỉ số sáu một. Hiện tại, phong độ của Tam sư là một thắng một hòa, còn Panama đã thua cả hai trận.",
+      "subtitle": "Lần gần nhất gặp nhau tại ngày hội bóng đá lớn nhất hành tinh năm 2018, tuyển Anh đã hủy diệt Panama với tỉ số 6-1. Hiện tại, phong độ của Tam Sư là 1 thắng 1 hòa, còn Panama đã thua cả 2 trận.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Anh",
+      "awayTeam": "Panama",
+      "h2hMatches": [
+        {
+          "date": "06/2018",
+          "home": "Anh",
+          "away": "Panama",
+          "score": "6-1",
+          "note": "World Cup 2018, Kane lập hat-trick",
+          "homeBadgeSrc": "assets/football/flags/england.svg",
+          "awayBadgeSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Sức mạnh tấn công",
+          "value": "Anh vượt trội"
+        },
+        {
+          "label": "Mục tiêu Panama",
+          "value": "Tìm bàn danh dự"
+        },
+        {
+          "label": "Tỉ lệ kiểm soát bóng",
+          "value": "Anh 65%"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tỉ lệ kiểm soát bóng dự kiến",
+              "home": 68,
+              "away": 32
+            },
+            {
+              "label": "Cú sút trúng đích dự kiến",
+              "home": 82,
+              "away": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: cánh phải",
+      "subtext": "Reece James và Bukayo Saka",
+      "voiceText": "Cánh phải của tuyển Anh dưới sự chỉ huy của Reece James và Bukayo Saka sẽ là hướng tấn công chủ đạo. Sự nhanh nhẹn và lắt léo từ Saka chắc chắn sẽ kéo sập hàng thủ năm hậu vệ của Panama.",
+      "subtitle": "Cánh phải của tuyển Anh dưới sự chỉ huy của Reece James và Bukayo Saka sẽ là hướng tấn công chủ đạo. Sự nhanh nhẹn và lắt léo từ Saka chắc chắn sẽ kéo sập hàng thủ 5 hậu vệ của Panama.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Anh cần cải thiện khả năng chuyển trạng thái nhanh để phá vỡ khối phòng ngự lùi sâu của Panama.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng xếp hạng bảng L",
+      "subtext": "Anh nắm lợi thế hiệu số",
+      "voiceText": "Tại bảng Lờ, Anh đang đứng đầu với bốn điểm, bằng điểm Ghana nhưng hơn hiệu số. Một trận thắng đậm trước Panama sẽ giúp Tam sư chắc suất đầu bảng, qua đó tránh được các đối thủ mạnh ở vòng knock-out.",
+      "subtitle": "Tại Bảng L, Anh đang đứng đầu với 4 điểm, bằng điểm Ghana nhưng hơn hiệu số. Một trận thắng đậm trước Panama sẽ giúp Tam Sư chắc suất đầu bảng, qua đó tránh được các đối thủ mạnh ở vòng knock-out.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group L",
+      "standings": [
+        {
+          "pos": 1,
+          "team": "England",
+          "played": 2,
+          "points": 4,
+          "gd": 2,
+          "flagSrc": "assets/football/flags/england.svg",
+          "highlight": true
+        },
+        {
+          "pos": 2,
+          "team": "Ghana",
+          "played": 2,
+          "points": 4,
+          "gd": 1,
+          "flagSrc": "assets/football/flags/ghana.svg"
+        },
+        {
+          "pos": 3,
+          "team": "Croatia",
+          "played": 2,
+          "points": 3,
+          "gd": -1,
+          "flagSrc": "assets/football/flags/croatia.svg"
+        },
+        {
+          "pos": 4,
+          "team": "Panama",
+          "played": 2,
+          "points": 0,
+          "gd": -2,
+          "flagSrc": "assets/football/flags/panama.svg",
+          "highlight": true
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Anh sẽ thắng bao nhiêu bàn?",
+      "subtext": "Để lại dự đoán bên dưới",
+      "voiceText": "Liệu thầy trò Thomas Tuchel có dội cơn mưa bàn thắng vào lưới Panama để thị uy sức mạnh? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu thầy trò Thomas Tuchel có dội cơn mưa bàn thắng vào lưới Panama để thị uy sức mạnh? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Panama vs Anh",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Panama",
+          "Anh"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

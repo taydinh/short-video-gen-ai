@@ -1,0 +1,432 @@
+{
+  "title": "Colombia vs DR Congo: Trận chiến giành vé sớm bảng K World Cup 2026",
+  "slug": "colombia-vs-dr-congo-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận đấu giữa Colombia và DR Congo ở bảng K World Cup 2026 lúc 09:00 ngày 24/06/2026 (giờ Việt Nam). Sử dụng kết quả trận mở màn làm so sánh do hai đội chưa từng gặp nhau trong lịch sử.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "ESPN - Group K standings and results",
+      "url": "https://www.espn.com/soccer/standings/_/league/fifa.world"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Colombia vs DR Congo",
+      "subtext": "Tranh chấp ngôi đầu bảng K",
+      "voiceText": "Colombia chạm trán Cộng hòa Công gô, lúc chín giờ sáng ngày hai mươi tư tháng sáu theo giờ Việt Nam. Cả hai đội đều đang hừng hực khí thế, sau lượt trận ra quân vô cùng thành công tại bảng Ka, World Cup hai không hai sáu.",
+      "subtitle": "Colombia chạm trán DR Congo lúc 09:00 ngày 24/06 theo giờ Việt Nam. Cả hai đội đều đang hừng hực khí thế sau lượt trận ra quân vô cùng thành công tại bảng K World Cup 2026.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group K - Matchday 2",
+      "venue": "Estadio Guadalajara",
+      "date": "24/06/2026",
+      "time": "09:00 VN",
+      "teams": [
+        {
+          "name": "Colombia",
+          "code": "COL",
+          "form": "3 điểm, hiệu số +2",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/colombia.svg",
+          "badgeSrc": "assets/football/flags/colombia.svg"
+        },
+        {
+          "name": "DR Congo",
+          "code": "COD",
+          "form": "1 điểm, hiệu số 0",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "badgeSrc": "assets/football/flags/dr-congo.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Cơ hội bứt phá bảng K",
+      "subtext": "Tấm vé sớm chờ đợi Colombia",
+      "voiceText": "Cục diện bảng Ka đang chứng kiến những diễn biến vô cùng thú vị. Thêm một kết quả tốt vào sáng mai, sẽ mở toang cánh cửa đi tiếp cho cả Colombia lẫn Cộng hòa Công gô.",
+      "subtitle": "Cục diện bảng K đang chứng kiến những diễn biến vô cùng thú vị. Thêm một kết quả tốt vào sáng mai sẽ mở toang cánh cửa đi tiếp cho cả Colombia lẫn DR Congo.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group K Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Colombia giữ nguyên bộ khung tấn công",
+      "voiceText": "Colombia nhiều khả năng giữ nguyên sơ đồ bốn hai ba một, với James Rodriguez sắm vai nhạc trưởng, kiến thiết lối chơi phía sau tiền đạo Luis Suarez. Phía bên kia chiến tuyến, Cộng hòa Công gô tiếp tục đặt niềm tin vào sự càn lướt của Yoane Wissa và Bakambu.",
+      "subtitle": "Colombia nhiều khả năng giữ nguyên sơ đồ 4-2-3-1 với James Rodríguez sắm vai nhạc trưởng, kiến thiết lối chơi phía sau tiền đạo Luis Suárez. Phía bên kia chiến tuyến, DR Congo tiếp tục đặt niềm tin vào sự càn lướt của Yoane Wissa và Bakambu.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Colombia",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/colombia.svg",
+          "players": [
+            "Vargas",
+            "Mojica",
+            "Lucumi",
+            "Sanchez",
+            "Munoz",
+            "Puerta",
+            "Lerma",
+            "Arias",
+            "Rodriguez",
+            "Diaz",
+            "Suarez"
+          ]
+        },
+        {
+          "team": "DR Congo",
+          "formation": "4-5-1",
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "players": [
+            "Mpasi",
+            "Masuaku",
+            "Tuanzebe",
+            "Mbemba",
+            "Wan-Bissaka",
+            "Wissa",
+            "Moutoussamy",
+            "Sadiki",
+            "Mukau",
+            "Bongonda",
+            "Bakambu"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Phong độ lượt trận ra quân",
+      "subtext": "Hai đội chưa từng gặp nhau trong lịch sử",
+      "voiceText": "Hai đội chưa từng chạm trán trong lịch sử, nhưng phong độ ngày ra quân đều cực kỳ ấn tượng. Colombia đè bẹp U bê kits tan với tỉ số ba một, trong khi Cộng hòa Công gô kiên cường giật lại một điểm quý giá trước ông lớn Bồ Đào Nha.",
+      "subtitle": "Hai đội chưa từng chạm trán trong lịch sử, nhưng phong độ ngày ra quân đều cực kỳ ấn tượng. Colombia đè bẹp Uzbekistan với tỉ số 3-1, trong khi DR Congo kiên cường giật lại 1 điểm quý giá trước ông lớn Portugal.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Colombia",
+      "awayTeam": "DR Congo",
+      "h2hMatches": [
+        {
+          "date": "18/06/2026",
+          "home": "Colombia",
+          "away": "Uzbekistan",
+          "score": "3-1",
+          "note": "Colombia thắng thuyết phục",
+          "homeBadgeSrc": "assets/football/flags/colombia.svg",
+          "awayBadgeSrc": "assets/football/flags/uzbekistan.svg"
+        },
+        {
+          "date": "18/06/2026",
+          "home": "Portugal",
+          "away": "DR Congo",
+          "score": "1-1",
+          "note": "DR Congo cầm chân ông lớn",
+          "homeBadgeSrc": "assets/football/flags/portugal.svg",
+          "awayBadgeSrc": "assets/football/flags/dr-congo.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Tấn công biên",
+          "value": "Colombia"
+        },
+        {
+          "label": "Sức mạnh thể chất",
+          "value": "DR Congo"
+        },
+        {
+          "label": "Chìa khóa trận",
+          "value": "James Rodriguez"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tấn công",
+              "home": 78,
+              "away": 65
+            },
+            {
+              "label": "Phòng ngự",
+              "home": 70,
+              "away": 82
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: kiểm soát tuyến giữa",
+      "subtext": "Hạn chế không gian của James Rodriguez",
+      "voiceText": "Nếu James Rodriguez có đủ không gian để phân phối bóng cho Luis Diaz ở hành lang cánh, Colombia sẽ cực kỳ nguy hiểm. Cộng hòa Công gô cần siết chặt trung lộ để hạn chế tối đa tầm hoạt động của nhạc trưởng bên phía đối thủ.",
+      "subtitle": "Nếu James Rodríguez có đủ không gian để phân phối bóng cho Luis Díaz ở hành lang cánh, Colombia sẽ cực kỳ nguy hiểm. DR Congo cần siết chặt trung lộ để hạn chế tối đa tầm hoạt động của nhạc trưởng bên phía đối thủ.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "James Rodriguez là chìa khóa mở ra chiến thắng cho Colombia, nhưng DR Congo sẽ không dễ dàng để anh tự do nhảy múa.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "liveLabel": "ĐIỂM NÓNG",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng K",
+      "subtext": "Colombia tạm dẫn đầu",
+      "voiceText": "Tại bảng Ka, Colombia đang tạm dẫn đầu với ba điểm tuyệt đối. Cộng hòa Công gô và Bồ Đào Nha chia sẻ hai vị trí tiếp theo với một điểm. Một chiến thắng sẽ giúp Colombia giành vé sớm, trong khi Cộng hòa Công gô cũng muốn tích lũy điểm số.",
+      "subtitle": "Tại bảng K, Colombia đang tạm dẫn đầu với 3 điểm tuyệt đối. DR Congo và Portugal chia sẻ hai vị trí tiếp theo với 1 điểm. Một chiến thắng sẽ giúp Colombia giành vé sớm, trong khi DR Congo cũng muốn tích lũy điểm số.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "Bảng K",
+      "tabs": [
+        "Bảng K"
+      ],
+      "standingsVariant": "group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Colombia",
+        "DR Congo"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Colombia",
+            "code": "COL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/colombia.svg"
+          },
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "DR Congo",
+            "code": "COD",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/dr-congo.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Portugal",
+            "code": "POR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/portugal.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Uzbekistan",
+            "code": "UZB",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uzbekistan.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2,
+          "points": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Bình luận ý kiến của bạn bên dưới",
+      "voiceText": "Bạn nghĩ Colombia sẽ có ba điểm dễ dàng, hay Cộng hòa Công gô sẽ tạo thêm một cú sốc nữa tại bảng Ka? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn nghĩ Colombia sẽ có 3 điểm dễ dàng, hay DR Congo sẽ tạo thêm một cú sốc nữa tại bảng K? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Colombia vs DR Congo",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Colombia",
+          "DR Congo"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

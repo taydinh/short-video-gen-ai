@@ -1,0 +1,418 @@
+{
+  "title": "Mexico 2-0 South Africa: Chủ nhà thắng trận mở màn World Cup 2026",
+  "slug": "mexico-2-0-south-africa-world-cup-result-2026-06-12",
+  "preset": "Preset Football Result",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "MEXICO PHÁ DỚP MỞ MÀN!",
+      "subtext": "Mexico 2-0 South Africa",
+      "subtitle": "Mexico thắng South Africa 2-0 tại Estadio Azteca, Mexico City. Quiñones mở tỉ số phút 9, Raúl Jiménez đánh đầu phút 67, và trận mở màn World Cup 2026 có tới 3 thẻ đỏ.",
+      "voiceText": "Mexico phá dớp mở màn World Cup! Họ thắng Nam Phi hai không tại Estadio Azteca, Mexico City. Quiñones mở tỉ số phút thứ chín, Raul Jimenez đánh đầu phút sáu mươi bảy, và trận khai mạc World Cup hai không hai sáu có tới ba thẻ đỏ.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group A - Matchday 1",
+      "venue": "Estadio Azteca, Mexico City",
+      "date": "12.06.2026",
+      "time": "02:00",
+      "teams": [
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/mexico.svg",
+          "badgeSrc": "assets/football/flags/mexico.svg",
+          "form": ["W", "D", "W", "L", "W", "W"]
+        },
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg",
+          "form": ["W", "W", "D", "L", "W", "L"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "assets/video-clips/mexico-south-africa-world-cup-2026/intro-azteca.mp4",
+          "trim": { "start": 0, "end": 6 },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Mexico 2-0 South Africa | 12.06.2026 VN",
+      "ctaLabel": "Full-time",
+      "subtitle": "World Cup 2026 bắt đầu bằng chiến thắng của chủ nhà Mexico, trong một trận đấu vừa bùng nổ, vừa cực nóng vì thẻ phạt.",
+      "voiceText": "World Cup hai không hai sáu bắt đầu bằng chiến thắng của chủ nhà Mexico, trong một trận đấu vừa bùng nổ, vừa cực nóng vì thẻ phạt.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Mexico 2-0 South Africa",
+      "subtext": "Quiñones mở màn, Jiménez chốt hạ",
+      "subtitle": "Full-time: Mexico 2-0 South Africa. Quiñones ghi bàn phút 9 sau pha đoạt bóng của Lira, rồi Raúl Jiménez nâng tỉ số lên 2-0 phút 67 từ đường kiến tạo của Alvarado.",
+      "voiceText": "Full time, Mexico hai, Nam Phi không. Quiñones ghi bàn phút thứ chín sau pha đoạt bóng của Lira, rồi Raul Jimenez nâng tỉ số lên hai không phút sáu mươi bảy, từ đường kiến tạo của Alvarado.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [2, 0],
+      "teams": [
+        { "name": "Mexico", "code": "MEX", "teamType": "national", "flagSrc": "assets/football/flags/mexico.svg", "badgeSrc": "assets/football/flags/mexico.svg" },
+        { "name": "South Africa", "code": "RSA", "teamType": "national", "flagSrc": "assets/football/flags/south-africa.svg", "badgeSrc": "assets/football/flags/south-africa.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "assets/video-clips/mexico-south-africa-world-cup-2026/quinones-goal.mp4",
+          "trim": { "start": 0, "end": 10 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Quiñones 9'",
+          "videoDescription": "Bàn thắng đầu tiên của World Cup 2026",
+          "videoVolume": 0
+        },
+        { "type": "football-scorebug", "teams": ["MEX", "RSA"], "score": [2, 0], "minute": "FT", "label": "Azteca" },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "Mexico đá 4-1-2-3 với Rangel, Gallardo, Vásquez, Montes, Reyes, Lira, Gutiérrez, Fidalgo, Quiñones, Jiménez và Alvarado. South Africa dùng 5-3-2 với Williams, Modiba, Mbokazi, Sibisi, Okon, Mudau, Mokoena, Sithole, Adams, Foster và Rayners.",
+      "voiceText": "Mexico đá bốn một hai ba với Rangel, Gallardo, Vasquez, Montes, Reyes, Lira, Gutierrez, Fidalgo, Quiñones, Jimenez và Alvarado. Nam Phi dùng năm ba hai với Williams, Modiba, Mbokazi, Sibisi, Okon, Mudau, Mokoena, Sithole, Adams, Foster và Rayners.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Estadio Azteca",
+      "teams": [
+        { "name": "Mexico", "code": "MEX", "teamType": "national", "flagSrc": "assets/football/flags/mexico.svg", "badgeSrc": "assets/football/flags/mexico.svg" },
+        { "name": "South Africa", "code": "RSA", "teamType": "national", "flagSrc": "assets/football/flags/south-africa.svg", "badgeSrc": "assets/football/flags/south-africa.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-1-2-3",
+          "players": ["Raul Rangel", "Jesus Gallardo", "Johan Vasquez", "Cesar Montes", "Israel Reyes", "Erik Lira", "Brian Gutierrez", "Alvaro Fidalgo", "Julian Quinones", "Raul Jimenez", "Roberto Alvarado"]
+        },
+        "away": {
+          "formation": "5-3-2",
+          "players": ["Ronwen Williams", "Aubrey Modiba", "Mbekezeli Mbokazi", "Nkosinathi Sibisi", "Ime Okon", "Khuliso Mudau", "Teboho Mokoena", "Sphephelo Sithole", "Jayden Adams", "Lyle Foster", "Iqraam Rayners"]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "assets/video-clips/mexico-south-africa-world-cup-2026/lineups-flow.mp4",
+          "trim": { "start": 0, "end": 8 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Mexico kiểm soát nhịp từ đội hình 4-1-2-3",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Raúl Jiménez giải tỏa",
+      "subtext": "Bàn thắng World Cup đầu tiên của tiền đạo Mexico",
+      "subtitle": "Raúl Jiménez ghi bàn phút 67, có 3 cú sút trúng đích và 16 đường chuyền. Pha đánh đầu của anh giúp Mexico khóa chặt chiến thắng trong ngày khai mạc.",
+      "voiceText": "Raul Jimenez có khoảnh khắc giải tỏa rất lớn. Anh ghi bàn phút sáu mươi bảy, có ba cú sút trúng đích và mười sáu đường chuyền. Pha đánh đầu ấy giúp Mexico khóa chặt chiến thắng trong ngày khai mạc.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Raúl Jiménez",
+      "team": "Mexico",
+      "number": "9",
+      "playerImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ra%C3%BAl%20Jim%C3%A9nez.jpg",
+      "stats": [
+        { "label": "Bàn thắng", "value": "1" },
+        { "label": "Phút ghi bàn", "value": "67'" },
+        { "label": "Sút trúng đích", "value": "3" },
+        { "label": "Đường chuyền", "value": "16" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "assets/video-clips/mexico-south-africa-world-cup-2026/jimenez-goal.mp4",
+          "trim": { "start": 0, "end": 10 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Jiménez 67'",
+          "videoDescription": "Cú đánh đầu nâng tỉ số lên 2-0",
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận mở màn",
+      "subtext": "Hai bàn thắng, ba thẻ đỏ",
+      "subtitle": "Mexico mở tỉ số phút 9 nhờ Quiñones. Sithole nhận thẻ đỏ phút 50, Jiménez ghi bàn phút 67, Zwane bị đuổi phút 84, rồi Montes nhận thẻ đỏ ở phút 90+2.",
+      "voiceText": "Mexico mở tỉ số phút thứ chín nhờ Quiñones. Sithole nhận thẻ đỏ phút năm mươi, Jimenez ghi bàn phút sáu mươi bảy, Zwane bị đuổi phút tám mươi bốn, rồi Montes nhận thẻ đỏ ở phút chín mươi cộng hai.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "9'", "title": "1-0: Julian Quiñones", "desc": "Erik Lira đoạt bóng, Quiñones dứt điểm mở màn World Cup 2026." },
+        { "minute": "50'", "title": "South Africa còn 10 người", "desc": "Sphephelo Sithole nhận thẻ đỏ trực tiếp vì ngăn cơ hội rõ rệt." },
+        { "minute": "67'", "title": "2-0: Raúl Jiménez", "desc": "Roberto Alvarado kiến tạo, Jiménez đánh đầu nhân đôi cách biệt." },
+        { "minute": "84'", "title": "Zwane bị đuổi", "desc": "Themba Zwane nhận thẻ đỏ sau tình huống va chạm với Alvarado." },
+        { "minute": "90+2'", "title": "Montes rời sân", "desc": "César Montes cũng nhận thẻ đỏ, trận đấu khép lại với 19 người trên sân." }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "assets/video-clips/mexico-south-africa-world-cup-2026/sithole-red-card.mp4",
+          "trim": { "start": 0, "end": 10 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "50' red card",
+          "videoDescription": "Sithole bị truất quyền thi đấu",
+          "videoVolume": 0
+        },
+        { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Mexico kiểm soát trận đấu",
+      "subtext": "60% bóng, 4 cú sút trúng đích, 3 điểm đầu tay",
+      "subtitle": "Mexico cầm bóng 60%, có 4 cú sút trúng đích và thắng 2-0. South Africa chỉ có 2 cú sút trúng đích, lại mất Sithole và Zwane vì thẻ đỏ.",
+      "voiceText": "Mexico kiểm soát trận đấu với sáu mươi phần trăm bóng, bốn cú sút trúng đích, và chiến thắng hai không. Nam Phi chỉ có hai cú sút trúng đích, lại mất Sithole và Zwane vì thẻ đỏ.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [2, 0],
+      "teams": [
+        { "name": "Mexico", "code": "MEX", "teamType": "national", "flagSrc": "assets/football/flags/mexico.svg", "badgeSrc": "assets/football/flags/mexico.svg" },
+        { "name": "South Africa", "code": "RSA", "teamType": "national", "flagSrc": "assets/football/flags/south-africa.svg", "badgeSrc": "assets/football/flags/south-africa.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 60, "away": 40, "unit": "%" },
+            { "label": "Sút trúng đích", "home": 4, "away": 2 },
+            { "label": "Bàn thắng", "home": 2, "away": 0 },
+            { "label": "Thẻ đỏ", "home": 1, "away": 2 },
+            { "label": "Phạm lỗi", "home": 12, "away": 11 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng A nghiêng về Mexico",
+      "subtext": "Mexico tạm dẫn đầu sau trận mở màn",
+      "subtitle": "Sau chiến thắng 2-0, Mexico có 3 điểm và hiệu số +2 ở bảng A. South Africa đứng cuối vì hiệu số -2, trong khi Korea Republic và Czechia chưa được tính điểm ở bảng này trong storyboard.",
+      "voiceText": "Sau chiến thắng hai không, Mexico có ba điểm và hiệu số cộng hai ở bảng A. Nam Phi đứng cuối vì hiệu số âm hai, trong khi Hàn Quốc và Czechia chưa được tính điểm ở bảng này trong storyboard.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG A",
+      "tabs": ["TRẬN ĐẤU", "LỊCH THI ĐẤU", "CẦU THỦ", "BẢNG A"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["MEX", "RSA"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Mexico", "code": "MEX", "teamType": "national", "flagSrc": "assets/football/flags/mexico.svg", "badgeSrc": "assets/football/flags/mexico.svg" }, "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 2, "ga": 0, "gd": 2, "pts": 3 },
+        { "rank": 2, "team": { "name": "Korea Republic", "code": "KOR", "teamType": "national", "flagSrc": "assets/football/flags/korea-republic.svg", "badgeSrc": "assets/football/flags/korea-republic.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 3, "team": { "name": "Czechia", "code": "CZE", "teamType": "national", "flagSrc": "assets/football/flags/czechia.svg", "badgeSrc": "assets/football/flags/czechia.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 4, "team": { "name": "South Africa", "code": "RSA", "teamType": "national", "flagSrc": "assets/football/flags/south-africa.svg", "badgeSrc": "assets/football/flags/south-africa.svg" }, "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 0, "ga": 2, "gd": -2, "pts": 0 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "assets/video-clips/mexico-south-africa-world-cup-2026/fulltime-shape.mp4",
+          "trim": { "start": 0, "end": 10 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Group A",
+          "videoDescription": "Mexico tạm lên đỉnh bảng",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Mexico đã đủ thuyết phục?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Theo bạn, Mexico thắng 2-0 vì thật sự mạnh, hay South Africa tự thua vì các thẻ đỏ? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, Mexico thắng hai không vì thật sự mạnh, hay Nam Phi tự thua vì các thẻ đỏ? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Mexico mạnh thật hay Nam Phi tự thua?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["Mexico", "World Cup 2026", "Méo Bình Luận"]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 4.8 }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "FOX Sports box score, lineups and play-by-play",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-mexico-vs-south-africa-jun-11-2026-game-boxscore-647616"
+    },
+    {
+      "name": "CBS Sports live recap",
+      "url": "https://www.cbssports.com/soccer/news/mexico-vs-south-africa-live-updates-world-cup-2026-score-result/live/"
+    },
+    {
+      "name": "Yahoo Sports box score stats",
+      "url": "https://sports.yahoo.com/articles/mexico-vs-south-africa-box-173456470.html"
+    },
+    {
+      "name": "Wikimedia Commons Raul Jimenez portrait",
+      "url": "https://commons.wikimedia.org/wiki/File:Ra%C3%BAl_Jim%C3%A9nez.jpg"
+    }
+  ]
+}

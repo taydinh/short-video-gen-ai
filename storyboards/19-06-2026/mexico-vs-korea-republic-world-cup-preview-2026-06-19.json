@@ -1,0 +1,403 @@
+{
+  "title": "Mexico vs Korea Republic: preview World Cup 2026",
+  "slug": "mexico-vs-korea-republic-world-cup-preview-2026-06-19",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Mexico - Korea Republic, 08:00 VN ngày 19/06/2026 theo giờ Việt Nam UTC+7.",
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 - scores and fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "name": "ESPN World Cup schedule and results",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Mexico gặp Hàn Quốc lúc tám giờ sáng, ngày mười chín tháng sáu theo giờ Việt Nam. Hai đội cùng có ba điểm và trực tiếp tranh ngôi đầu bảng A.",
+      "subtitle": "Mexico gặp Hàn Quốc lúc tám giờ sáng, ngày mười chín tháng sáu theo giờ Việt Nam. Hai đội cùng có ba điểm và trực tiếp tranh ngôi đầu bảng A.",
+      "title": "Mexico vs Korea Republic",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group A - Matchday 2",
+      "venue": "Estadio Akron",
+      "date": "19/06/2026",
+      "time": "08:00 VN",
+      "teams": [
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/mexico.svg",
+          "badgeSrc": "assets/football/flags/mexico.svg",
+          "form": "Thắng Nam Phi 2-0"
+        },
+        {
+          "name": "Korea Republic",
+          "code": "KOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/korea-republic.svg",
+          "badgeSrc": "assets/football/flags/korea-republic.svg",
+          "form": "Thắng Czechia 2-1"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Mexico có lợi thế sân nhà, còn Hàn Quốc sở hữu tốc độ phản công đáng gờm. Đây là trận đấu có thể định hình ngôi đầu bảng A.",
+      "subtitle": "Mexico có lợi thế sân nhà, còn Hàn Quốc sở hữu tốc độ phản công đáng gờm. Đây là trận đấu có thể định hình ngôi đầu bảng A.",
+      "title": "Bảng A",
+      "competitionLabel": "Group A Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Mexico vs Korea Republic | 19/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Mexico dự kiến dùng bốn ba ba với Jimenez, Quinones và Alvarado trên hàng công. Hàn Quốc có thể xoay quanh Kim Min Jae, Lee Kang In và Son Heung Min.",
+      "subtitle": "Mexico dự kiến dùng bốn ba ba với Jimenez, Quinones và Alvarado trên hàng công. Hàn Quốc có thể xoay quanh Kim Min Jae, Lee Kang In và Son Heung Min.",
+      "title": "Đội hình dự kiến",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/mexico.svg",
+          "badgeSrc": "assets/football/flags/mexico.svg"
+        },
+        {
+          "name": "Korea Republic",
+          "code": "KOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/korea-republic.svg",
+          "badgeSrc": "assets/football/flags/korea-republic.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Raul Rangel",
+            "Israel Reyes",
+            "Cesar Montes",
+            "Johan Vasquez",
+            "Jesus Gallardo",
+            "Erik Lira",
+            "Marcel Ruiz",
+            "Alvaro Fidalgo",
+            "Roberto Alvarado",
+            "Raul Jimenez",
+            "Julian Quinones"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Jo Hyeon-woo",
+            "Seol Young-woo",
+            "Kim Min-jae",
+            "Jung Seung-hyun",
+            "Lee Ki-je",
+            "Hwang In-beom",
+            "Park Yong-woo",
+            "Lee Kang-in",
+            "Son Heung-min",
+            "Hwang Hee-chan",
+            "Cho Gue-sung"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Mexico phải kiểm soát khoảng trống sau lưng hậu vệ biên. Hàn Quốc sẽ chờ thời điểm Son Heung Min được xoay mặt và tăng tốc.",
+      "subtitle": "Mexico phải kiểm soát khoảng trống sau lưng hậu vệ biên. Hàn Quốc sẽ chờ thời điểm Son Heung Min được xoay mặt và tăng tốc.",
+      "title": "Đối đầu và điểm nóng",
+      "homeTeam": "Mexico",
+      "awayTeam": "Korea Republic",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Mexico",
+          "away": "Korea Republic",
+          "score": "Preview",
+          "note": "Cùng 3 điểm sau lượt đầu",
+          "homeBadgeSrc": "assets/football/flags/mexico.svg",
+          "awayBadgeSrc": "assets/football/flags/korea-republic.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Sân nhà",
+          "value": "Mexico"
+        },
+        {
+          "label": "Phản công",
+          "value": "Korea"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Chuyển trạng thái"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Đội thắng sẽ đặt một chân rất vững vào vòng ba mươi hai đội.",
+      "subtitle": "Đội thắng sẽ đặt một chân rất vững vào vòng ba mươi hai đội.",
+      "title": "Điểm nóng trước trận",
+      "quote": "Tốc độ chuyển trạng thái sẽ quyết định trận tranh ngôi đầu.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Mexico dẫn đầu nhờ hiệu số cộng hai, Hàn Quốc đứng nhì với hiệu số cộng một. Cả hai cùng có ba điểm.",
+      "subtitle": "Mexico dẫn đầu nhờ hiệu số cộng hai, Hàn Quốc đứng nhì với hiệu số cộng một. Cả hai cùng có ba điểm.",
+      "title": "Bảng A trước trận",
+      "competitionLabel": "Group A",
+      "highlightTeams": [
+        "Mexico",
+        "Korea Republic"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Mexico",
+            "code": "MEX",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/mexico.svg",
+            "badgeSrc": "assets/football/flags/mexico.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": 2,
+          "pts": 3
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Korea Republic",
+            "code": "KOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/korea-republic.svg",
+            "badgeSrc": "assets/football/flags/korea-republic.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": 1,
+          "pts": 3
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Czechia",
+            "code": "CZE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/czechia.svg",
+            "badgeSrc": "assets/football/flags/czechia.svg"
+          },
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "gd": -1,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "South Africa",
+            "code": "RSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/south-africa.svg",
+            "badgeSrc": "assets/football/flags/south-africa.svg"
+          },
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "gd": -2,
+          "pts": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Bạn dự đoán Mexico hay Hàn Quốc thắng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Mexico hay Hàn Quốc thắng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Bạn dự đoán Mexico hay Hàn Quốc thắng?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

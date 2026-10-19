@@ -1,0 +1,407 @@
+{
+  "title": "Scotland vs Morocco: preview World Cup 2026",
+  "slug": "scotland-vs-morocco-world-cup-preview-2026-06-20",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Scotland - Morocco, 05:00 VN ngày 20/06/2026 theo giờ Việt Nam UTC+7.",
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 - scores and fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "name": "ESPN World Cup schedule and results",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "name": "ESPN match center: Scotland vs Morocco",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760445/morocco-scotland"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Scotland gặp Ma rốc lúc năm giờ sáng, ngày hai mươi tháng sáu theo giờ Việt Nam. Scotland có ba điểm, còn Ma rốc vừa cầm hòa Brazil.",
+      "subtitle": "Scotland gặp Ma rốc lúc năm giờ sáng, ngày hai mươi tháng sáu theo giờ Việt Nam. Scotland có ba điểm, còn Ma rốc vừa cầm hòa Brazil.",
+      "title": "Scotland vs Morocco",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group C - Matchday 2",
+      "venue": "Gillette Stadium",
+      "date": "20/06/2026",
+      "time": "05:00 VN",
+      "teams": [
+        {
+          "name": "Scotland",
+          "code": "SCO",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/scotland.svg",
+          "badgeSrc": "assets/football/flags/scotland.svg",
+          "form": "Thắng Haiti 1-0"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg",
+          "form": "Hòa Brazil 1-1"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Scotland mang tới cường độ và bóng bổng, trong khi Ma rốc vượt trội về kỹ thuật cùng khả năng thoát pressing.",
+      "subtitle": "Scotland mang tới cường độ và bóng bổng, trong khi Ma rốc vượt trội về kỹ thuật cùng khả năng thoát pressing.",
+      "title": "Bảng C",
+      "competitionLabel": "Group C Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Scotland vs Morocco | 20/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Scotland có thể dùng ba bốn hai một với Robertson, McTominay, McGinn và Adams. Ma rốc dự kiến dựa vào Hakimi, Amrabat, Brahim Diaz và En Nesyri.",
+      "subtitle": "Scotland có thể dùng ba bốn hai một với Robertson, McTominay, McGinn và Adams. Ma rốc dự kiến dựa vào Hakimi, Amrabat, Brahim Diaz và En Nesyri.",
+      "title": "Đội hình dự kiến",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Scotland",
+          "code": "SCO",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/scotland.svg",
+          "badgeSrc": "assets/football/flags/scotland.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Angus Gunn",
+            "John Souttar",
+            "Grant Hanley",
+            "Kieran Tierney",
+            "Aaron Hickey",
+            "Billy Gilmour",
+            "Scott McTominay",
+            "Andy Robertson",
+            "John McGinn",
+            "Ryan Christie",
+            "Che Adams"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Yassine Bounou",
+            "Achraf Hakimi",
+            "Nayef Aguerd",
+            "Romain Saiss",
+            "Noussair Mazraoui",
+            "Sofyan Amrabat",
+            "Azzedine Ounahi",
+            "Brahim Diaz",
+            "Hakim Ziyech",
+            "Abde Ezzalzouli",
+            "Youssef En-Nesyri"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Hai đội từng tạo nên trận cầu đáng nhớ ở World Cup một chín chín tám. Lần này, hành lang của Robertson và Hakimi lại là điểm nóng.",
+      "subtitle": "Hai đội từng tạo nên trận cầu đáng nhớ ở World Cup một chín chín tám. Lần này, hành lang của Robertson và Hakimi lại là điểm nóng.",
+      "title": "Đối đầu và điểm nóng",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "h2hMatches": [
+        {
+          "date": "World Cup 1998",
+          "home": "Scotland",
+          "away": "Morocco",
+          "score": "0-3",
+          "note": "Morocco thắng ở lượt cuối vòng bảng",
+          "homeBadgeSrc": "assets/football/flags/scotland.svg",
+          "awayBadgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Bóng bổng",
+          "value": "Scotland"
+        },
+        {
+          "label": "Kỹ thuật",
+          "value": "Morocco"
+        },
+        {
+          "label": "Điểm nóng",
+          "value": "Hai biên"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Scotland có thể giành lợi thế lớn nếu biến trận đấu thành cuộc chiến thể lực, nhưng Ma rốc đủ kỹ thuật để phá cấu trúc đó.",
+      "subtitle": "Scotland có thể giành lợi thế lớn nếu biến trận đấu thành cuộc chiến thể lực, nhưng Ma rốc đủ kỹ thuật để phá cấu trúc đó.",
+      "title": "Điểm nóng trước trận",
+      "quote": "Cặp đấu Robertson và Hakimi có thể quyết định hướng tấn công của cả trận.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Scotland dẫn bảng C với ba điểm. Brazil và Ma rốc cùng có một điểm, còn Haiti chưa có điểm.",
+      "subtitle": "Scotland dẫn bảng C với ba điểm. Brazil và Ma rốc cùng có một điểm, còn Haiti chưa có điểm.",
+      "title": "Bảng C trước trận",
+      "competitionLabel": "Group C",
+      "highlightTeams": [
+        "Scotland",
+        "Morocco"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Scotland",
+            "code": "SCO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/scotland.svg",
+            "badgeSrc": "assets/football/flags/scotland.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": 1,
+          "pts": 3
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/brazil.svg",
+            "badgeSrc": "assets/football/flags/brazil.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Morocco",
+            "code": "MAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/morocco.svg",
+            "badgeSrc": "assets/football/flags/morocco.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Haiti",
+            "code": "HAI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/haiti.svg",
+            "badgeSrc": "assets/football/flags/haiti.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gd": -1,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Scotland giữ ngôi đầu, hay Ma rốc bứt lên? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Scotland giữ ngôi đầu, hay Ma rốc bứt lên? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Scotland giữ ngôi đầu, hay Ma rốc bứt lên?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "title": "Tunisia vs Nhật Bản: Preview World Cup 2026",
+  "slug": "tunisia-vs-japan-world-cup-2026-preview",
+  "totalDuration": 43,
+  "summary": {
+    "preset": "Preset Football Preview",
+    "imageNotes": [
+      "Không dùng ảnh cầu thủ hoặc ảnh bài viết vì chưa tìm được nguồn ảnh phù hợp."
+    ]
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Tunisia vs Nhật Bản",
+      "subtext": "Bảng F | 11:00 UTC+7",
+      "voiceText": "Tunisia gặp Nhật Bản lúc 11 giờ 00 ngày hai mươi mốt tháng sáu, theo giờ Việt Nam, tại Guadalupe Stadium, Mexico.",
+      "subtitle": "Tunisia gặp Nhật Bản lúc 11:00 ngày hai mươi mốt tháng sáu, theo giờ Việt Nam, tại Guadalupe Stadium, Mexico.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng F",
+      "venue": "Guadalupe Stadium, Mexico",
+      "date": "21.06.2026",
+      "time": "11:00",
+      "teams": [
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/tunisia.svg"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "competitionLabel": "Bảng F Preview",
+      "seasonLabel": "Vòng bảng",
+      "ctaLabel": "Kickoff 11:00 UTC+7",
+      "voiceText": "Đây là trận đấu Bảng F của World Cup hai không hai sáu, nơi cả hai đội đều cần điểm cho cuộc đua đi tiếp.",
+      "subtitle": "Đây là trận đấu Bảng F của World Cup 2026, nơi cả hai đội đều cần điểm cho cuộc đua đi tiếp.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Mỗi đội đủ 11 cầu thủ",
+      "voiceText": "Đội hình dự kiến được bố trí theo sơ đồ bốn ba ba. Tunisia và Nhật Bản đều có thể ưu tiên bộ khung giàu kinh nghiệm.",
+      "subtitle": "Đội hình dự kiến được bố trí theo sơ đồ 4-3-3. Tunisia và Nhật Bản đều có thể ưu tiên bộ khung giàu kinh nghiệm.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/tunisia.svg"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Aymen Dahmen",
+            "Yan Valery",
+            "Montassar Talbi",
+            "Yassine Meriah",
+            "Ali Abdi",
+            "Ellyes Skhiri",
+            "Aïssa Laïdouni",
+            "Hannibal Mejbri",
+            "Elias Achouri",
+            "Youssef Msakni",
+            "Hazem Mastouri"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Zion Suzuki",
+            "Yukinari Sugawara",
+            "Ko Itakura",
+            "Koki Machida",
+            "Hiroki Ito",
+            "Wataru Endo",
+            "Hidemasa Morita",
+            "Takefusa Kubo",
+            "Daichi Kamada",
+            "Kaoru Mitoma",
+            "Ayase Ueda"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Dùng thay H2H trực tiếp",
+      "voiceText": "Hai đội chưa có dữ liệu đối đầu đáng tin cậy gần đây, nên hãy nhìn vào kết quả gần nhất: Sweden 5-1 Tunisia, và Netherlands 2-2 Japan.",
+      "subtitle": "Hai đội chưa có dữ liệu đối đầu đáng tin cậy gần đây, nên hãy nhìn vào kết quả gần nhất: Sweden 5-1 Tunisia, và Netherlands 2-2 Japan.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/tunisia.svg"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": [
+          "Đội",
+          "Trận gần nhất",
+          "Kết quả"
+        ],
+        "rows": [
+          {
+            "teamName": "Tunisia",
+            "scoreText": "5-1",
+            "htHdp": "Trận gần nhất của Tunisia"
+          },
+          {
+            "teamName": "Japan",
+            "scoreText": "2-2",
+            "htHdp": "Trận gần nhất của Nhật Bản"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "date": "15/06/2026",
+          "home": "Sweden",
+          "away": "Tunisia",
+          "score": "5-1",
+          "note": "Trận gần nhất của Tunisia",
+          "homeBadgeSrc": "assets/football/flags/sweden.svg",
+          "awayBadgeSrc": "assets/football/flags/tunisia.svg"
+        },
+        {
+          "date": "14/06/2026",
+          "home": "Netherlands",
+          "away": "Japan",
+          "score": "2-2",
+          "note": "Trận gần nhất của Nhật Bản",
+          "homeBadgeSrc": "assets/football/flags/netherlands.svg",
+          "awayBadgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "quote": "Trận đấu sẽ được định đoạt bởi chất lượng ở tuyến giữa và khả năng tận dụng cơ hội.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng nằm ở khả năng kiểm soát tuyến giữa và tận dụng cơ hội. Đội giữ được cự ly tốt hơn sẽ có lợi thế.",
+      "subtitle": "Điểm nóng nằm ở khả năng kiểm soát tuyến giữa và tận dụng cơ hội. Đội giữ được cự ly tốt hơn sẽ có lợi thế.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện Bảng F",
+      "subtext": "Trước trận",
+      "voiceText": "Cục diện Bảng F vẫn rất mở. Một chiến thắng ở lượt này có thể tạo khác biệt lớn trước vòng cuối.",
+      "subtitle": "Cục diện Bảng F vẫn rất mở. Một chiến thắng ở lượt này có thể tạo khác biệt lớn trước vòng cuối.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "BẢNG XẾP HẠNG"
+      ],
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "TUN",
+        "JPN"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Netherlands",
+            "code": "NED",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/netherlands.svg"
+          },
+          "played": 2,
+          "pts": 4
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Sweden",
+            "code": "SWE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/sweden.svg"
+          },
+          "played": 2,
+          "pts": 3
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Japan",
+            "code": "JPN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/japan.svg"
+          },
+          "played": 1,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Tunisia",
+            "code": "TUN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/tunisia.svg"
+          },
+          "played": 1,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Méo bình luận",
+      "subtext": "Bạn dự đoán tỉ số trận Tunisia gặp Nhật Bản là bao nhiêu?",
+      "voiceText": "Bạn dự đoán tỉ số trận Tunisia gặp Nhật Bản là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán tỉ số trận Tunisia gặp Nhật Bản là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Bạn dự đoán tỉ số trận Tunisia gặp Nhật Bản là bao nhiêu?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 84,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "ESPN World Cup schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "name": "Sky Sports fixtures and latest results",
+      "url": "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    },
+    {
+      "name": "FIFA official schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums"
+    }
+  ]
+}

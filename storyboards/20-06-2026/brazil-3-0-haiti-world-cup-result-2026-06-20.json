@@ -1,0 +1,571 @@
+{
+  "title": "Brazil 3-0 Haiti: Selecao tăng tốc ở bảng C",
+  "slug": "brazil-3-0-haiti-world-cup-result-2026-06-20",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Storyboard kết quả Brazil 3-0 Haiti tại lượt 2 bảng C World Cup 2026, dựng theo tỉ số và diễn biến hiển thị trong video nguồn.",
+  "factScope": "Tỉ số 3-0 và ba nhịp ghi bàn được xác định từ video nguồn; không gán phút ghi bàn hay thống kê chưa được thể hiện trong clip.",
+  "sources": [
+    {
+      "name": "Video nguồn Brazil vs Haiti",
+      "url": "C:/Users/Taydinh/Downloads/snaptik.vn_7653352370859937057.mp4"
+    },
+    {
+      "name": "FIFA World Cup 2026 - scores and fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "name": "ESPN World Cup scoreboard - 19 June 2026",
+      "url": "https://www.espn.com/soccer/scoreboard/_/league/fifa.world/date/20260619"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1F5AA6",
+      "textColor": "#ffffff",
+      "title": "BRAZIL THẮNG ĐẬM!",
+      "subtext": "Brazil 3-0 Haiti | World Cup 2026",
+      "voiceText": "Brazil đánh bại Haiti ba không tại lượt hai bảng Xê World Cup hai không hai sáu. Ba bàn thắng, một trận sạch lưới, và Selecao đã tăng tốc đúng lúc trong cuộc đua giành vé đi tiếp.",
+      "subtitle": "Brazil đánh bại Haiti 3-0 tại lượt 2 bảng C World Cup 2026. Ba bàn thắng, một trận sạch lưới, và Selecao đã tăng tốc đúng lúc trong cuộc đua giành vé đi tiếp.",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng C | Lượt 2",
+      "venue": "Lincoln Financial Field",
+      "date": "20.06.2026",
+      "time": "08:00 VN",
+      "minute": "FT",
+      "score": [3, 0],
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Haiti",
+          "code": "HAI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/haiti.svg",
+          "badgeSrc": "assets/football/flags/haiti.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "teams": ["BRA", "HAI"],
+          "score": [3, 0],
+          "minute": "FT",
+          "label": "Group C"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1F5AA6",
+      "textColor": "#ffffff",
+      "title": "World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Group C | Matchday 2",
+      "ctaLabel": "Brazil 3-0 Haiti",
+      "voiceText": "Sau trận hòa ngày ra quân, Brazil đã tìm được chiến thắng đầu tiên, bằng thế trận tấn công áp đảo trước Haiti.",
+      "subtitle": "Sau trận hòa ngày ra quân, Brazil đã tìm được chiến thắng đầu tiên, bằng thế trận tấn công áp đảo trước Haiti.",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7653352370859937057.mp4",
+          "trim": {
+            "start": 39,
+            "end": 43
+          },
+          "position": "background",
+          "opacity": 0.34,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1F5AA6",
+      "textColor": "#ffffff",
+      "title": "Khung nhân sự hai đội",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Lincoln Financial Field",
+      "voiceText": "Brazil triển khai với Alisson, Marquinhos, Bruno Guimaraes, Raphinha, Rodrygo và Vinicius Junior trong khung nhân sự chính. Haiti tổ chức khối bốn hai ba một quanh Pierrot, nhưng liên tục bị kéo giãn trước tốc độ của Selecao.",
+      "subtitle": "Brazil triển khai với Alisson, Marquinhos, Bruno Guimaraes, Raphinha, Rodrygo và Vinicius Junior trong khung nhân sự chính. Haiti tổ chức khối 4-2-3-1 quanh Pierrot, nhưng liên tục bị kéo giãn trước tốc độ của Selecao.",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Haiti",
+          "code": "HAI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/haiti.svg",
+          "badgeSrc": "assets/football/flags/haiti.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Alisson",
+            "Vanderson",
+            "Marquinhos",
+            "Gabriel Magalhaes",
+            "Guilherme Arana",
+            "Bruno Guimaraes",
+            "Andre",
+            "Lucas Paqueta",
+            "Raphinha",
+            "Rodrygo",
+            "Vinicius Junior"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Johny Placide",
+            "Carlens Arcus",
+            "Ricardo Ade",
+            "Garven Metusala",
+            "Alex Christian",
+            "Danley Jean Jacques",
+            "Leverton Pierre",
+            "Duckens Nazon",
+            "Frantzdy Pierrot",
+            "Fafa Picault",
+            "Louicius Don Deedson"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7653352370859937057.mp4",
+          "trim": {
+            "start": 43,
+            "end": 51
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Brazil kiểm soát thế trận",
+          "videoDescription": "Haiti lùi sâu trước sức ép liên tục",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1F5AA6",
+      "textColor": "#ffffff",
+      "title": "Vinicius đóng dấu chiến thắng",
+      "subtext": "Số 7 kết thúc nhịp tấn công thứ ba",
+      "voiceText": "Vinicius Junior là gương mặt nổi bật trong đoạn kết. Số bảy bứt xuống bên trái, lạnh lùng dứt điểm, và đóng dấu chiến thắng ba không cho Brazil.",
+      "subtitle": "Vinicius Junior là gương mặt nổi bật trong đoạn kết. Số 7 bứt xuống bên trái, lạnh lùng dứt điểm, và đóng dấu chiến thắng 3-0 cho Brazil.",
+      "player": "Vinicius Junior",
+      "team": "Brazil",
+      "number": "7",
+      "playerImageUrl": "https://platform.managingmadrid.com/wp-content/uploads/sites/103/chorus/uploads/chorus_asset/file/24265794/1245388013.jpg?quality=90&strip=all&crop=0.0055865921787657%2C0%2C99.988826815642%2C100&w=2400",
+      "stats": [
+        {
+          "label": "Kết quả",
+          "value": "3-0"
+        },
+        {
+          "label": "Dấu ấn",
+          "value": "Bàn thứ 3"
+        },
+        {
+          "label": "Số áo",
+          "value": "7"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Mũi khoan trái"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7653352370859937057.mp4",
+          "trim": {
+            "start": 29,
+            "end": 39
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Bàn ấn định 3-0",
+          "videoDescription": "Số 7 tăng tốc và kết thúc gọn gàng",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1F5AA6",
+      "textColor": "#ffffff",
+      "title": "Timeline trận đấu",
+      "subtext": "Ba đòn đánh, ba bàn thắng",
+      "competitionLabel": "Diễn biến trận đấu",
+      "voiceText": "Brazil mở khóa trận đấu bằng một pha đánh thẳng vào trung lộ. Sức ép tiếp tục tạo ra bàn thứ hai, trước khi cú bứt tốc bên trái khép lại tỉ số ba không. Haiti cố phản công ở cuối trận, nhưng hàng thủ Brazil giữ sạch lưới.",
+      "subtitle": "Brazil mở khóa trận đấu bằng một pha đánh thẳng vào trung lộ. Sức ép tiếp tục tạo ra bàn thứ hai, trước khi cú bứt tốc bên trái khép lại tỉ số 3-0. Haiti cố phản công ở cuối trận, nhưng hàng thủ Brazil giữ sạch lưới.",
+      "events": [
+        {
+          "minute": "Bàn 1",
+          "title": "Brazil phá thế cân bằng",
+          "desc": "Pha phối hợp trung lộ mở ra bàn thắng đầu tiên."
+        },
+        {
+          "minute": "Bàn 2",
+          "title": "Sức ép được cụ thể hóa",
+          "desc": "Brazil duy trì quân số trong vòng cấm và nhân đôi cách biệt."
+        },
+        {
+          "minute": "Bàn 3",
+          "title": "Số 7 đóng dấu",
+          "desc": "Pha tăng tốc bên trái đưa tỉ số lên 3-0."
+        },
+        {
+          "minute": "FT",
+          "title": "Brazil giữ sạch lưới",
+          "desc": "Haiti không thể tìm được bàn danh dự."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1F5AA6",
+      "textColor": "#ffffff",
+      "title": "Brazil thắng ở hai đầu sân",
+      "subtext": "3 bàn thắng | 0 bàn thua | 1 trận sạch lưới",
+      "competitionLabel": "Match Summary",
+      "minute": "FT",
+      "score": [3, 0],
+      "voiceText": "Con số quan trọng nhất là ba không. Brazil ghi ba bàn, không để thủng lưới, và biến ưu thế tấn công thành ba điểm trọn vẹn. Haiti chống đỡ quyết liệt, nhưng không thể chặn các pha xuyên phá trực diện.",
+      "subtitle": "Con số quan trọng nhất là 3-0. Brazil ghi 3 bàn, không để thủng lưới, và biến ưu thế tấn công thành 3 điểm trọn vẹn. Haiti chống đỡ quyết liệt, nhưng không thể chặn các pha xuyên phá trực diện.",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Haiti",
+          "code": "HAI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/haiti.svg",
+          "badgeSrc": "assets/football/flags/haiti.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Bàn thắng",
+              "home": 3,
+              "away": 0
+            },
+            {
+              "label": "Bàn thua",
+              "home": 0,
+              "away": 3
+            },
+            {
+              "label": "Điểm trận này",
+              "home": 3,
+              "away": 0
+            },
+            {
+              "label": "Sạch lưới",
+              "home": 1,
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1F5AA6",
+      "textColor": "#ffffff",
+      "title": "Brazil tạm chiếm ngôi đầu",
+      "subtext": "4 điểm sau 2 trận | Hiệu số +3",
+      "activeTab": "BẢNG C",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG C"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["BRA", "HAI"],
+      "voiceText": "Với bốn điểm và hiệu số cộng ba, Brazil tạm vươn lên dẫn đầu bảng Xê trước trận Scotland gặp Ma rốc. Haiti vẫn chưa có điểm sau hai lượt, và cánh cửa đi tiếp đã hẹp đi rất nhiều.",
+      "subtitle": "Với 4 điểm và hiệu số +3, Brazil tạm vươn lên dẫn đầu bảng C trước trận Scotland gặp Morocco. Haiti vẫn chưa có điểm sau 2 lượt, và cánh cửa đi tiếp đã hẹp đi rất nhiều.",
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/brazil.svg",
+            "badgeSrc": "assets/football/flags/brazil.svg"
+          },
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 4
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Scotland",
+            "code": "SCO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/scotland.svg",
+            "badgeSrc": "assets/football/flags/scotland.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "pts": 3
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Morocco",
+            "code": "MAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/morocco.svg",
+            "badgeSrc": "assets/football/flags/morocco.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Haiti",
+            "code": "HAI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/haiti.svg",
+            "badgeSrc": "assets/football/flags/haiti.svg"
+          },
+          "played": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "gf": 0,
+          "ga": 4,
+          "gd": -4,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7653352370859937057.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Brazil lên 4 điểm",
+          "videoDescription": "Chiến thắng đầu tiên tại bảng C",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#1F5AA6",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "title": "BRAZIL ĐÃ VÀO GUỒNG?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Theo bạn, chiến thắng ba không này đã đủ chứng minh Brazil trở lại đúng dáng ứng viên vô địch chưa? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, chiến thắng 3-0 này đã đủ chứng minh Brazil trở lại đúng dáng ứng viên vô địch chưa? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "promo": {
+        "badge": "Brazil 3-0 Haiti",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Brazil đã trở lại đúng dáng ứng viên?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Brazil",
+          "World Cup 2026",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

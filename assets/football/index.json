@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T04:29:30.729Z",
+  "updatedAt": "2026-06-10T09:19:37.141Z",
   "records": [
     {
       "id": "wc2026:canada",
@@ -9,16 +9,17 @@
       "name": "Canada",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "CAN",
+        "flag": "ca"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/canada.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Canada_(construction_sheet_-_leaf_geometry).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:30.642Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:mexico",
@@ -27,16 +28,17 @@
       "name": "Mexico",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "MEX",
+        "flag": "mx"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/mexico.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Mexico.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/mx.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:32.238Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:united-states",
@@ -45,16 +47,17 @@
       "name": "United States",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "USA",
+        "flag": "us"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/united-states.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_United_States_Army_North.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:01:32.357Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:australia",
@@ -63,16 +66,17 @@
       "name": "Australia",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "AUS",
+        "flag": "au"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/australia.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Australia_(converted).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/au.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:01:34.467Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:iraq",
@@ -81,16 +85,17 @@
       "name": "Iraq",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "IRQ",
+        "flag": "iq"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/iraq.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Iraq_(1924%E2%80%931959%2C_3-2).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/iq.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:02:04.004Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:ir-iran",
@@ -99,16 +104,17 @@
       "name": "IR Iran",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "IRN",
+        "flag": "ir"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/ir-iran.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_the_Iran_Ministry_of_Foreign_Affairs.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/ir.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:02:06.204Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:japan",
@@ -117,16 +123,17 @@
       "name": "Japan",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "JPN",
+        "flag": "jp"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/japan.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Japan.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/jp.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:02:08.259Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:jordan",
@@ -135,16 +142,17 @@
       "name": "Jordan",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "JOR",
+        "flag": "jo"
       },
       "badge": {
         "type": "flag",
-        "path": "assets/football/flags/panama.png",
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/jordan.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/jo.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.253Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:korea-republic",
@@ -153,16 +161,17 @@
       "name": "Korea Republic",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "KOR",
+        "flag": "kr"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/korea-republic.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_the_Republic_of_Korea_Civil_Defense_Corps_(1975%E2%80%932023).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/kr.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:03:04.874Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:qatar",
@@ -171,16 +180,17 @@
       "name": "Qatar",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "QAT",
+        "flag": "qa"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/qatar.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Qatar_(1860%E2%80%931916%2C_1916%E2%80%931932).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/qa.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:03:07.124Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:saudi-arabia",
@@ -189,16 +199,17 @@
       "name": "Saudi Arabia",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "KSA",
+        "flag": "sa"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/saudi-arabia.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/sa.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.253Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:uzbekistan",
@@ -207,16 +218,17 @@
       "name": "Uzbekistan",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "UZB",
+        "flag": "uz"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/uzbekistan.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Uzbekistan_(WFB_2004).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/uz.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:04:04.602Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:algeria",
@@ -225,16 +237,17 @@
       "name": "Algeria",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "ALG",
+        "flag": "dz"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/algeria.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVariant_flag_of_the_GPRA_(1958-1962).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/dz.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:04:06.990Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:cabo-verde",
@@ -243,16 +256,17 @@
       "name": "Cabo Verde",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "CPV",
+        "flag": "cv"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/cabo-verde.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Cape_Verde.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/cv.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:18:03.651Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:dr-congo",
@@ -261,16 +275,17 @@
       "name": "DR Congo",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "COD",
+        "flag": "cd"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/dr-congo.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_Map_of_Belgian_Congo_(1908_-_1960).svg",
-        "licenseName": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/cd.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:05:04.202Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:cote-divoire",
@@ -279,16 +294,17 @@
       "name": "Côte d'Ivoire",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "CIV",
+        "flag": "ci"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/cote-divoire.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_C%C3%B4te_d'Ivoire.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/ci.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:05:06.251Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:egypt",
@@ -297,16 +313,17 @@
       "name": "Egypt",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "EGY",
+        "flag": "eg"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/egypt.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/eg.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:ghana",
@@ -315,16 +332,17 @@
       "name": "Ghana",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "GHA",
+        "flag": "gh"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/ghana.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Ghana_(colouring_page).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/gh.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:06:03.638Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:morocco",
@@ -333,16 +351,17 @@
       "name": "Morocco",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "MAR",
+        "flag": "ma"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/morocco.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Morocco.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/ma.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:06:05.705Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:senegal",
@@ -351,16 +370,17 @@
       "name": "Senegal",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "SEN",
+        "flag": "sn"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/senegal.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/sn.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:south-africa",
@@ -369,16 +389,17 @@
       "name": "South Africa",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "RSA",
+        "flag": "za"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/south-africa.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_South_Africa_(1928%E2%80%931994%2C_dark_colors).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/za.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:07:03.367Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:tunisia",
@@ -387,16 +408,17 @@
       "name": "Tunisia",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "TUN",
+        "flag": "tn"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/tunisia.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Tunisia_(WFB_2000).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/tn.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:07:05.595Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:curacao",
@@ -405,16 +427,17 @@
       "name": "Curaçao",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "CUW",
+        "flag": "cw"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/curacao.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/cw.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:haiti",
@@ -423,16 +446,17 @@
       "name": "Haiti",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "HAI",
+        "flag": "ht"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/haiti.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Haiti_(1791%E2%80%931798).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/ht.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:08:03.301Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:panama",
@@ -441,16 +465,17 @@
       "name": "Panama",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "PAN",
+        "flag": "pa"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/panama.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/pa.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:argentina",
@@ -459,16 +484,17 @@
       "name": "Argentina",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "ARG",
+        "flag": "ar"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/argentina.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Argentina_(civil).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/ar.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:20:23.951Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:brazil",
@@ -477,16 +503,17 @@
       "name": "Brazil",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "BRA",
+        "flag": "br"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/brazil.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Brazil.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/br.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:09:28.302Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:colombia",
@@ -495,16 +522,17 @@
       "name": "Colombia",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "COL",
+        "flag": "co"
       },
       "badge": {
         "type": "flag",
-        "path": "assets/football/flags/colombia.png",
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/colombia.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/co.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:ecuador",
@@ -513,16 +541,17 @@
       "name": "Ecuador",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "ECU",
+        "flag": "ec"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/ecuador.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/ec.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:paraguay",
@@ -531,16 +560,17 @@
       "name": "Paraguay",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "PAR",
+        "flag": "py"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/paraguay.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/py.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:uruguay",
@@ -549,16 +579,17 @@
       "name": "Uruguay",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "URU",
+        "flag": "uy"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/uruguay.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/uy.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:new-zealand",
@@ -567,16 +598,17 @@
       "name": "New Zealand",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "NZL",
+        "flag": "nz"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/new-zealand.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/nz.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:austria",
@@ -585,16 +617,17 @@
       "name": "Austria",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "AUT",
+        "flag": "at"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/austria.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/at.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:belgium",
@@ -603,16 +636,17 @@
       "name": "Belgium",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "BEL",
+        "flag": "be"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/belgium.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Belgium_(civil).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/be.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:12:22.439Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:bosnia-and-herzegovina",
@@ -621,16 +655,17 @@
       "name": "Bosnia and Herzegovina",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "BIH",
+        "flag": "ba"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/bosnia-and-herzegovina.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/ba.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:croatia",
@@ -639,16 +674,17 @@
       "name": "Croatia",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "CRO",
+        "flag": "hr"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/croatia.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/hr.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:czechia",
@@ -657,16 +693,17 @@
       "name": "Czechia",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "CZE",
+        "flag": "cz"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/czechia.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/cz.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.254Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:england",
@@ -675,16 +712,17 @@
       "name": "England",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "ENG",
+        "flag": "gb-eng"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/england.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_England.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/gb-eng.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:13:55.369Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:france",
@@ -693,16 +731,17 @@
       "name": "France",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "FRA",
+        "flag": "fr"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/france.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_France.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/fr.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:13:58.605Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:germany",
@@ -711,16 +750,17 @@
       "name": "Germany",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "GER",
+        "flag": "de"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/germany.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Germany_(1933%E2%80%931935).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/de.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:14:00.651Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:netherlands",
@@ -729,16 +769,17 @@
       "name": "Netherlands",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "NED",
+        "flag": "nl"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/netherlands.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_the_Netherlands_Antilles_(1986%E2%80%932010).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/nl.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:24:43.734Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:norway",
@@ -747,16 +788,17 @@
       "name": "Norway",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "NOR",
+        "flag": "no"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/norway.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/no.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.255Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:portugal",
@@ -765,16 +807,17 @@
       "name": "Portugal",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "POR",
+        "flag": "pt"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/portugal.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/pt.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.255Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:scotland",
@@ -783,16 +826,17 @@
       "name": "Scotland",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "SCO",
+        "flag": "gb-sct"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/scotland.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Scotland_(1542%E2%80%932003%2C_navy_blue).svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/gb-sct.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:15:27.777Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:spain",
@@ -801,16 +845,17 @@
       "name": "Spain",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "ESP",
+        "flag": "es"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/spain.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/es.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.255Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:sweden",
@@ -819,16 +864,17 @@
       "name": "Sweden",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "SWE",
+        "flag": "se"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/sweden.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Sweden.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/se.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:15:59.311Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:switzerland",
@@ -837,16 +883,17 @@
       "name": "Switzerland",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "SUI",
+        "flag": "ch"
       },
       "badge": {
         "type": "flag",
-        "path": null,
-        "sourceUrl": null,
-        "licenseName": null,
-        "licenseUrl": null
+        "path": "assets/football/flags/switzerland.svg",
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/ch.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:00:28.255Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "wc2026:turkiye",
@@ -855,16 +902,17 @@
       "name": "Türkiye",
       "aliases": [],
       "codes": {
-        "short": ""
+        "short": "TUR",
+        "flag": "tr"
       },
       "badge": {
         "type": "flag",
         "path": "assets/football/flags/turkiye.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Turkey.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
+        "sourceUrl": "https://flagicons.lipis.dev/flags/4x3/tr.svg",
+        "licenseName": "MIT",
+        "licenseUrl": "https://github.com/lipis/flag-icons/blob/main/LICENSE"
       },
-      "updatedAt": "2026-05-14T04:26:51.365Z"
+      "updatedAt": "2026-06-10T09:19:37.141Z"
     },
     {
       "id": "epl:manchester-united",
@@ -1114,24 +1162,6 @@
         "licenseUrl": "https://football-logos.cc/england/english-premier-league/"
       },
       "updatedAt": "2026-05-14T15:24:44.183Z"
-    },
-    {
-      "id": "wc2026:bo-dao-nha",
-      "kind": "national",
-      "competition": "wc2026",
-      "name": "Bồ Đào Nha",
-      "aliases": [],
-      "codes": {
-        "short": "POR"
-      },
-      "badge": {
-        "type": "flag",
-        "path": "assets/football/flags/bo-dao-nha.svg",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFlag_of_Portugal.svg",
-        "licenseName": "Public domain",
-        "licenseUrl": ""
-      },
-      "updatedAt": "2026-05-14T04:36:01.256Z"
     },
     {
       "id": "laliga",

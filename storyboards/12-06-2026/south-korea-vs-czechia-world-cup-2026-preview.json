@@ -1,0 +1,368 @@
+{
+  "title": "South Korea vs Czechia - World Cup 2026 Preview",
+  "slug": "south-korea-vs-czechia-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "sources": [
+    "https://www.theguardian.com/football/live/2026/jun/12/fifa-world-cup-2026-live-south-korea-v-czechia-updates-kor-vs-cze-group-a-match-score-latest",
+    "https://www.theguardian.com/football/2026/jun/11/mexico-south-africa-world-cup-2026-group-a-match-report",
+    "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more"
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "HAN QUOC GAP CZECHIA!",
+      "subtext": "Group A - World Cup 2026",
+      "subtitle": "Hàn Quốc gặp Czechia lúc 09:00 ngày 12/06 theo giờ Việt Nam tại Estadio Guadalajara, sau khi Mexico đã thắng trận mở màn bảng A.",
+      "voiceText": "Hàn Quốc gặp Séc lúc chín giờ sáng ngày mười hai tháng sáu theo giờ Việt Nam tại Estadio Guadalajara, sau khi Mexico đã thắng trận mở màn bảng A.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group A - Matchday 1",
+      "venue": "Estadio Guadalajara",
+      "date": "12.06.2026",
+      "time": "09:00",
+      "teams": [
+        {
+          "name": "Korea Republic",
+          "code": "KOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/korea-republic.svg",
+          "badgeSrc": "assets/football/flags/korea-republic.svg",
+          "form": ["W", "W", "L", "L", "W"]
+        },
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg",
+          "form": ["W", "W", "D", "D", "W"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "BANG A NONG NGAY TU DAU",
+      "subtext": "World Cup 2026 - Group A Preview",
+      "subtitle": "Bảng A đã có Mexico dẫn trước với 3 điểm, nên trận Hàn Quốc - Czechia là cuộc đua bắt nhịp rất quan trọng.",
+      "voiceText": "Bảng A đã có Mexico dẫn trước với ba điểm, nên trận Hàn Quốc gặp Séc là cuộc đua bắt nhịp rất quan trọng.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group A Preview",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "position": "background",
+          "opacity": 0.35
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "DOI HINH CHINH THUC",
+      "subtext": "Hai doi cung so do 3-4-3",
+      "subtitle": "Hàn Quốc dùng sơ đồ 3-4-3 với Son Heung-min, Lee Kang-in và Kim Min-jae; Czechia cũng đá 3-4-3 với Patrik Schick, Tomáš Souček và Vladimír Coufal.",
+      "voiceText": "Hàn Quốc dùng sơ đồ ba bốn ba với Son Heung-min, Lee Kang-in và Kim Min-jae; Séc cũng đá ba bốn ba với Patrik Schick, Tomas Soucek và Vladimir Coufal.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Korea Republic",
+          "code": "KOR",
+          "teamType": "national",
+          "formation": "3-4-3",
+          "flagSrc": "assets/football/flags/korea-republic.svg",
+          "badgeSrc": "assets/football/flags/korea-republic.svg",
+          "players": ["Kim Seung-gyu", "Lee Gi-hyuk", "Kim Min-jae", "Lee Han-beom", "Seol Young-woo", "Hwang In-beom", "Paik Seung-ho", "Lee Tae-seok", "Lee Kang-in", "Lee Jae-sung", "Son Heung-min"]
+        },
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "teamType": "national",
+          "formation": "3-4-3",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg",
+          "players": ["Matej Kovar", "Stepan Chaloupek", "Robin Hranac", "Ladislav Krejci", "Vladimir Coufal", "Tomas Soucek", "Alexandr Sojka", "Jaroslav Zeleny", "Lukas Provod", "Pavel Sulc", "Patrik Schick"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "DIEM NONG CHIEN THUAT",
+      "subtext": "Toc do Han Quoc vs bong bong Czechia",
+      "subtitle": "Hàn Quốc trông chờ khoảnh khắc của Son Heung-min và Lee Kang-in, còn Czechia có thể lùi sâu rồi đánh biên, bóng bổng và tình huống cố định.",
+      "voiceText": "Hàn Quốc trông chờ khoảnh khắc của Son Heung-min và Lee Kang-in, còn Séc có thể lùi sâu rồi đánh biên, bóng bổng và tình huống cố định.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Korea Republic",
+          "code": "KOR",
+          "flagSrc": "assets/football/flags/korea-republic.svg",
+          "badgeSrc": "assets/football/flags/korea-republic.svg"
+        },
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Nhịp trận",
+          "home": "Kiểm soát thận trọng",
+          "away": "Phản công nhanh"
+        },
+        {
+          "label": "Vũ khí chính",
+          "home": "Son và Lee Kang-in",
+          "away": "Schick và bóng bổng"
+        },
+        {
+          "label": "Điều kiện sân",
+          "home": "Đã làm quen độ cao",
+          "away": "Ít thời gian thích nghi"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "home": "Korea Republic",
+          "away": "Czechia",
+          "score": "World Cup 2026",
+          "date": "12.06.2026",
+          "homeBadgeSrc": "assets/football/flags/korea-republic.svg",
+          "awayBadgeSrc": "assets/football/flags/czechia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "AP LUC DO CAO",
+      "subtext": "Guadalajara khoang 1.670 met",
+      "subtitle": "Điểm khác biệt lớn là độ cao ở Guadalajara. Hàn Quốc đã chuẩn bị ở Utah, còn Czechia vào giải muộn hơn nên lợi thế thể lực có thể nghiêng về đại diện châu Á.",
+      "voiceText": "Điểm khác biệt lớn là độ cao ở Guadalajara. Hàn Quốc đã chuẩn bị ở Utah, còn Séc vào giải muộn hơn nên lợi thế thể lực có thể nghiêng về đại diện châu Á.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Độ cao có thể biến trận đấu này thành bài kiểm tra thể lực trước khi là bài kiểm tra chiến thuật.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "",
+          "label": "Key factor",
+          "title": "Altitude test",
+          "caption": "Guadalajara ~1.670m"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "BANG A SAU TRAN MO MAN",
+      "subtext": "Mexico tam dan, co hoi mo cho Han Quoc va Czechia",
+      "subtitle": "Mexico đang có 3 điểm sau chiến thắng 2-0 trước South Africa. Hàn Quốc hoặc Czechia nếu thắng sẽ bắt kịp nhịp đua giành vé đi tiếp.",
+      "voiceText": "Mexico đang có ba điểm sau chiến thắng hai không trước Nam Phi. Hàn Quốc hoặc Séc nếu thắng sẽ bắt kịp nhịp đua giành vé đi tiếp.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group A Standings",
+      "highlightTeams": ["Korea Republic", "Czechia"],
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Mexico",
+          "played": 1,
+          "points": 3,
+          "gd": "+2",
+          "badgeSrc": "assets/football/flags/mexico.svg"
+        },
+        {
+          "pos": 2,
+          "team": "Korea Republic",
+          "played": 0,
+          "points": 0,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/korea-republic.svg"
+        },
+        {
+          "pos": 3,
+          "team": "Czechia",
+          "played": 0,
+          "points": 0,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        },
+        {
+          "pos": 4,
+          "team": "South Africa",
+          "played": 1,
+          "points": 0,
+          "gd": "-2",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Ban chon ai thang?",
+      "subtext": "Du doan ti so Han Quoc vs Czechia",
+      "subtitle": "Bạn chọn Hàn Quốc thắng bằng tốc độ, hay Czechia thắng nhờ bóng bổng và kinh nghiệm? Hãy để lại dự đoán tỉ số. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Bạn chọn Hàn Quốc thắng bằng tốc độ, hay Séc thắng nhờ bóng bổng và kinh nghiệm? Hãy để lại dự đoán tỉ số. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "World Cup 2026 Preview",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán: Hàn Quốc vs Czechia?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["World Cup 2026", "Méo Bình Luận", "FOLLOW KÊNH", "@vibe.bongda"]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

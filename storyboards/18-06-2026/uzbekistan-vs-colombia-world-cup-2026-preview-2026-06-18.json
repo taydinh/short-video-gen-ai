@@ -1,0 +1,410 @@
+{
+  "title": "Uzbekistan vs Colombia: tân binh gặp thử thách lớn",
+  "slug": "uzbekistan-vs-colombia-world-cup-2026-preview-2026-06-18",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Uzbekistan - Colombia, kickoff 09:00 ngày 18/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FIFA - Uzbekistan vs Colombia Match Centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021504"
+    },
+    {
+      "title": "ESPN - Uzbekistan vs Colombia key details",
+      "url": "https://www.espn.com/soccer/story/_/id/49069699/uzbekistan-vs-colombia-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "title": "Sky Sports - World Cup 2026 fixture schedule",
+      "url": "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Uzbekistan vs Colombia",
+      "subtext": "tân binh gặp thử thách lớn",
+      "voiceText": "Uz bê kits tan gặp Colombia lúc chín giờ sáng, ngày mười tám tháng sáu theo giờ Việt Nam. Đây là màn ra mắt World Cup hai không hai sáu của Uz bê kits tan, còn Colombia cần ba điểm để tận dụng cú sảy chân của Portugal.",
+      "subtitle": "Uzbekistan gặp Colombia lúc 09:00 ngày 18/06 theo giờ Việt Nam. Đây là màn ra mắt World Cup 2026 của Uzbekistan, còn Colombia cần 3 điểm để tận dụng cú sảy chân của Portugal.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group K - Matchday 1",
+      "venue": "Mexico City Stadium",
+      "date": "18/06/2026",
+      "time": "09:00 VN",
+      "teams": [
+        {
+          "name": "Uzbekistan",
+          "code": "UZB",
+          "form": "Tân binh World Cup",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uzbekistan.svg",
+          "badgeSrc": "assets/football/flags/uzbekistan.svg"
+        },
+        {
+          "name": "Colombia",
+          "code": "COL",
+          "form": "Kinh nghiệm Nam Mỹ",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/colombia.svg",
+          "badgeSrc": "assets/football/flags/colombia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng K mở nút thắt",
+      "subtext": "Colombia phải chứng minh vị thế",
+      "voiceText": "Bảng K đã nóng lên sau trận Portugal hòa DR Congo. Vì vậy Colombia không chỉ đá với Uz bê kits tan, họ còn đá với áp lực phải bứt lên ngay.",
+      "subtitle": "Bảng K đã nóng lên sau trận Portugal hòa DR Congo. Vì vậy Colombia không chỉ đá với Uzbekistan, họ còn đá với áp lực phải bứt lên ngay.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group K Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Uzbekistan vs Colombia | 18/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Uzbekistan cần khối thấp, Colombia cần Luis Diaz",
+      "voiceText": "Uz bê kits tan có thể đá năm bốn một, dựa vào Khusanov, Masharipov và Shomurodov. Colombia nhiều khả năng dùng bốn hai ba một, với James Rodriguez, Luis Diaz và Duran là các điểm nổ chính.",
+      "subtitle": "Uzbekistan có thể đá 5-4-1, dựa vào Khusanov, Masharipov và Shomurodov. Colombia nhiều khả năng dùng 4-2-3-1, với James Rodríguez, Luis Díaz và Durán là các điểm nổ chính.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Uzbekistan",
+          "code": "UZB",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uzbekistan.svg",
+          "badgeSrc": "assets/football/flags/uzbekistan.svg"
+        },
+        {
+          "name": "Colombia",
+          "code": "COL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/colombia.svg",
+          "badgeSrc": "assets/football/flags/colombia.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "5-4-1",
+          "players": [
+            "Yusupov",
+            "Alijonov",
+            "Eshmurodov",
+            "Ashurmatov",
+            "Khusanov",
+            "Nasrullaev",
+            "Shukurov",
+            "Masharipov",
+            "Urunov",
+            "Faizullaev",
+            "Shomurodov"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Vargas",
+            "Munoz",
+            "Davinson Sanchez",
+            "Lucumi",
+            "Mojica",
+            "Lerma",
+            "Rios",
+            "Arias",
+            "James Rodriguez",
+            "Luis Diaz",
+            "Duran"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Chìa khóa: tốc độ hai biên",
+      "subtext": "Colombia nhỉnh hơn về chất lượng cá nhân",
+      "voiceText": "Colombia nhỉnh hơn ở tốc độ biên và khả năng tạo khoảnh khắc. Nhưng nếu Uz bê kits tan giữ được cự ly, trận này có thể biến thành một bài test kiên nhẫn rất khó chịu.",
+      "subtitle": "Colombia nhỉnh hơn ở tốc độ biên và khả năng tạo khoảnh khắc. Nhưng nếu Uzbekistan giữ được cự ly, trận này có thể biến thành một bài test kiên nhẫn rất khó chịu.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Uzbekistan",
+          "away": "Colombia",
+          "score": "Preview",
+          "note": "Uzbekistan ra mắt World Cup, Colombia có ưu thế kinh nghiệm",
+          "homeBadgeSrc": "assets/football/flags/uzbekistan.svg",
+          "awayBadgeSrc": "assets/football/flags/colombia.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Kinh nghiệm",
+          "value": "Colombia"
+        },
+        {
+          "label": "Kỷ luật",
+          "value": "Uzbekistan"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Luis Diaz"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Chuyển trạng thái",
+              "home": 70,
+              "away": 84
+            },
+            {
+              "label": "Kinh nghiệm World Cup",
+              "home": 45,
+              "away": 82
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trước trận",
+      "quote": "Nếu Uzbekistan sống sót qua nửa giờ đầu, đây có thể là trận rất khó chịu cho Colombia.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng nằm ở hành lang trái của Colombia. Nếu Luis Diaz được nhận bóng trong thế một đối một, Uz bê kits tan sẽ phải kéo người bọc lót liên tục.",
+      "subtitle": "Điểm nóng nằm ở hành lang trái của Colombia. Nếu Luis Díaz được nhận bóng trong thế 1-1, Uzbekistan sẽ phải kéo người bọc lót liên tục.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng K trước lượt đấu",
+      "subtext": "Portugal và DR Congo đã chia điểm",
+      "voiceText": "Portugal và DR Congo cùng có một điểm, nên trận này là cơ hội để Colombia hoặc Uz bê kits tan leo thẳng lên đầu bảng K sau lượt ra quân.",
+      "subtitle": "Portugal và DR Congo cùng có 1 điểm, nên trận này là cơ hội để Colombia hoặc Uzbekistan leo thẳng lên đầu bảng K sau lượt ra quân.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group K",
+      "highlightTeams": [
+        "Uzbekistan",
+        "Colombia"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Portugal",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "pos": 2,
+          "team": "DR Congo",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/dr-congo.svg"
+        },
+        {
+          "pos": 3,
+          "team": "Uzbekistan",
+          "played": 0,
+          "points": 0,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/uzbekistan.svg"
+        },
+        {
+          "pos": 4,
+          "team": "Colombia",
+          "played": 0,
+          "points": 0,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/colombia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn dự đoán tỉ số trận Uz bê kits tan gặp Colombia là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán tỉ số trận Uzbekistan gặp Colombia là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số của bạn là gì?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

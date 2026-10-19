@@ -1,0 +1,514 @@
+{
+  "title": "Giá vé World Cup 2026 gây tranh cãi trước trận Mỹ - Paraguay",
+  "slug": "gia-ve-world-cup-2026-my-paraguay-gay-tranh-cai",
+  "preset": "football-news-roundup",
+  "totalDuration": 60,
+  "sources": [
+    "https://talksport.com/football/world-cup/4321574/usmnt-ticket-prices-los-angeles-paraguay-unaffordable-sofi-stadium/",
+    "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
+    "https://www.theguardian.com/football/2026/jun/11/mexico-south-africa-world-cup-2026-group-a-match-report"
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "VE WORLD CUP QUA DAT?",
+      "subtext": "Tranh cai bung len truoc tran My - Paraguay",
+      "subtitle": "Vé World Cup quá đắt? Trước trận United States gặp Paraguay, hệ thống giá linh hoạt của FIFA bị chỉ trích vì nhiều ghế vẫn chưa bán hết.",
+      "voiceText": "Vé World Cup quá đắt? Trước trận Mỹ gặp Paraguay, hệ thống giá linh hoạt của FIFA bị chỉ trích vì nhiều ghế vẫn chưa bán hết.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "label": "WORLD CUP 2026",
+      "imageSrc": "",
+      "imageUrl": "",
+      "cardCaption": "Câu chuyện ngoài sân đang nóng không kém trận mở màn của chủ nhà Mỹ tại SoFi Stadium.",
+      "chips": ["Giá vé", "USMNT", "FIFA"],
+      "emoji": "🎟️",
+      "animation": "image-card-rise",
+      "visuals": []
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "NHUNG CON SO GAY SOC",
+      "subtext": "Gia ve bi day len rat cao",
+      "subtitle": "Theo TalkSport, vé hạng một cho trận United States - Paraguay từng lên tới 2.735 đô la, vé chung kết gần 33.000 đô la, và hơn 170.000 vé còn xuất hiện trên nền tảng bán lại chính thức.",
+      "voiceText": "Theo TalkSport, vé hạng một cho trận Mỹ gặp Paraguay từng lên tới hai nghìn bảy trăm ba mươi lăm đô la, vé chung kết gần ba mươi ba nghìn đô la, và hơn một trăm bảy mươi nghìn vé còn xuất hiện trên nền tảng bán lại chính thức.",
+      "duration": 7,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "label": "USA - Paraguay",
+          "value": "$2,735",
+          "caption": "Category 1 được nhắc tới"
+        },
+        {
+          "label": "Final",
+          "value": "~$33,000",
+          "caption": "Mức cao trên thị trường"
+        },
+        {
+          "label": "Official resale",
+          "value": "170k+",
+          "caption": "Vé còn hiện trên nền tảng"
+        },
+        {
+          "label": "Sân",
+          "value": "SoFi",
+          "caption": "Los Angeles Stadium"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "VI SAO CANG?",
+      "subtext": "Tu gia linh hoat den ghe trong",
+      "subtitle": "Câu chuyện đi theo ba bước: FIFA áp dụng giá linh hoạt, trận chủ nhà Mỹ bị đẩy giá cao, rồi tranh luận nổ ra vì nguy cơ người hâm mộ phổ thông bị đứng ngoài cuộc chơi.",
+      "voiceText": "Câu chuyện đi theo ba bước: FIFA áp dụng giá linh hoạt, trận chủ nhà Mỹ bị đẩy giá cao, rồi tranh luận nổ ra vì nguy cơ người hâm mộ phổ thông bị đứng ngoài cuộc chơi.",
+      "duration": 7,
+      "startTime": 13,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "flowVariant": "linear",
+      "stages": [
+        {
+          "title": "Dynamic pricing",
+          "subtitle": "Giá đổi theo nhu cầu"
+        },
+        {
+          "title": "USA opener",
+          "subtitle": "Mức vé cao gây chú ý"
+        },
+        {
+          "title": "Fan backlash",
+          "subtitle": "Lo ngại khán đài mất nhiệt"
+        }
+      ],
+      "cards": [
+        {
+          "title": "Giá linh hoạt",
+          "imageSrc": ""
+        },
+        {
+          "title": "SoFi Stadium",
+          "imageSrc": ""
+        },
+        {
+          "title": "Vé bán lại",
+          "imageSrc": ""
+        }
+      ],
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "SPOTLIGHT: CHU NHA MY",
+      "subtext": "Tran mo man cua USMNT thanh bai test suc hut",
+      "subtitle": "United States không chỉ cần thắng Paraguay lúc 02:00 ngày 13/06 theo giờ Việt Nam, mà còn cần một khán đài đủ nóng để chứng minh bóng đá Mỹ đã sẵn sàng cho World Cup.",
+      "voiceText": "Mỹ không chỉ cần thắng Paraguay lúc hai giờ sáng ngày mười ba tháng sáu theo giờ Việt Nam, mà còn cần một khán đài đủ nóng để chứng minh bóng đá Mỹ đã sẵn sàng cho World Cup.",
+      "duration": 7,
+      "startTime": 20,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "United States",
+      "team": "USMNT",
+      "teamBadgeSrc": "assets/football/flags/united-states.svg",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Trận",
+          "value": "vs Paraguay"
+        },
+        {
+          "label": "Giờ VN",
+          "value": "02:00 13/06"
+        },
+        {
+          "label": "Địa điểm",
+          "value": "SoFi Stadium"
+        },
+        {
+          "label": "Áp lực",
+          "value": "Sân nhà"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "position": "background",
+          "opacity": 0.25
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "BAI TOAN KHAN DAI",
+      "subtext": "Dat chua chac dong nghia voi kin san",
+      "subtitle": "Vấn đề không chỉ là doanh thu. Nếu giá quá cao, trận đấu lớn vẫn có thể thiếu người hâm mộ thật sự trên khán đài, nhất là khi vé bán lại còn tồn nhiều.",
+      "voiceText": "Vấn đề không chỉ là doanh thu. Nếu giá quá cao, trận đấu lớn vẫn có thể thiếu người hâm mộ thật sự trên khán đài, nhất là khi vé bán lại còn tồn nhiều.",
+      "duration": 7,
+      "startTime": 27,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "statsCards": [
+        {
+          "label": "Doanh thu",
+          "value": "Cao",
+          "caption": "Mục tiêu thương mại"
+        },
+        {
+          "label": "Tiếp cận",
+          "value": "Khó",
+          "caption": "Fan phổ thông chịu áp lực"
+        },
+        {
+          "label": "Khán đài",
+          "value": "Rủi ro",
+          "caption": "Ghế trống gây phản ứng"
+        }
+      ],
+      "chartTitle": "Căng thẳng giữa doanh thu và độ phủ",
+      "chartType": "bar",
+      "data": [
+        {
+          "label": "Giá vé",
+          "value": 90
+        },
+        {
+          "label": "Tiếp cận fan",
+          "value": 38
+        },
+        {
+          "label": "Không khí sân",
+          "value": 55
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "BA LUONG PHAN UNG",
+      "subtext": "FIFA, chinh quyen dia phuong va nguoi ham mo",
+      "subtitle": "FIFA muốn tối đa hóa giá trị sự kiện. Quan chức địa phương lo người dân bị loại khỏi ngày hội. Người hâm mộ thì nhìn vào số ghế còn lại và đặt câu hỏi: World Cup dành cho ai?",
+      "voiceText": "FIFA muốn tối đa hóa giá trị sự kiện. Quan chức địa phương lo người dân bị loại khỏi ngày hội. Người hâm mộ thì nhìn vào số ghế còn lại và đặt câu hỏi: World Cup dành cho ai?",
+      "duration": 7,
+      "startTime": 34,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "bars": [
+        {
+          "label": "FIFA",
+          "value": 86,
+          "caption": "Tối ưu thương mại"
+        },
+        {
+          "label": "Địa phương",
+          "value": 72,
+          "caption": "Lo ngại khả năng tiếp cận"
+        },
+        {
+          "label": "Người hâm mộ",
+          "value": 94,
+          "caption": "Phản ứng với giá cao"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "",
+          "label": "Fan issue",
+          "title": "Giá vé và ghế trống",
+          "caption": "Tranh luận nóng trước trận chủ nhà Mỹ"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "LICH CHU NHA MY",
+      "subtext": "Ap luc bat dau tu Paraguay",
+      "subtitle": "Lịch gần nhất của United States là gặp Paraguay lúc 02:00 ngày 13/06 theo giờ Việt Nam tại Los Angeles Stadium. Sau đó, họ còn các trận bảng D với Australia và Türkiye.",
+      "voiceText": "Lịch gần nhất của Mỹ là gặp Paraguay lúc hai giờ sáng ngày mười ba tháng sáu theo giờ Việt Nam tại Los Angeles Stadium. Sau đó, họ còn các trận bảng Đê với Australia và Thổ Nhĩ Kỳ.",
+      "duration": 6,
+      "startTime": 41,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "activeTab": "Group D",
+      "tabs": ["Group D", "Hosts"],
+      "fixtures": [
+        {
+          "home": {
+            "name": "United States",
+            "code": "USA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/united-states.svg",
+            "badgeSrc": "assets/football/flags/united-states.svg"
+          },
+          "away": {
+            "name": "Paraguay",
+            "code": "PAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/paraguay.svg",
+            "badgeSrc": "assets/football/flags/paraguay.svg"
+          },
+          "date": "13.06.2026",
+          "time": "02:00",
+          "venue": "Los Angeles Stadium",
+          "competition": "World Cup 2026 - Group D"
+        },
+        {
+          "home": {
+            "name": "United States",
+            "code": "USA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/united-states.svg",
+            "badgeSrc": "assets/football/flags/united-states.svg"
+          },
+          "away": {
+            "name": "Australia",
+            "code": "AUS",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/australia.svg",
+            "badgeSrc": "assets/football/flags/australia.svg"
+          },
+          "date": "Vòng bảng",
+          "time": "Sắp tới",
+          "venue": "Group D",
+          "competition": "World Cup 2026"
+        },
+        {
+          "home": {
+            "name": "Türkiye",
+            "code": "TUR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/turkiye.svg",
+            "badgeSrc": "assets/football/flags/turkiye.svg"
+          },
+          "away": {
+            "name": "United States",
+            "code": "USA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/united-states.svg",
+            "badgeSrc": "assets/football/flags/united-states.svg"
+          },
+          "date": "Vòng bảng",
+          "time": "Sắp tới",
+          "venue": "Group D",
+          "competition": "World Cup 2026"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "GOC NHIN CUA MEO",
+      "subtext": "World Cup can dong nguoi, khong chi dat tien",
+      "subtitle": "Nếu trận sân nhà của United States còn bị nói về giá vé nhiều hơn bóng đá, FIFA phải rất cẩn thận: World Cup hay nhất là World Cup mà khán đài có tiếng người hâm mộ thật.",
+      "voiceText": "Nếu trận sân nhà của Mỹ còn bị nói về giá vé nhiều hơn bóng đá, FIFA phải rất cẩn thận: World Cup hay nhất là World Cup mà khán đài có tiếng người hâm mộ thật.",
+      "duration": 7,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "World Cup cần đông người hâm mộ thật, không chỉ những con số doanh thu thật lớn.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Ban thay gia ve nay sao?",
+      "subtext": "Binh luan quan diem cua ban",
+      "subtitle": "Theo bạn, giá vé World Cup cao là bình thường với một sự kiện lớn, hay đang làm mất chất bóng đá? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, giá vé World Cup cao là bình thường với một sự kiện lớn, hay đang làm mất chất bóng đá? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 54,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "World Cup ticket debate",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Giá vé thế nào là hợp lý?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["World Cup 2026", "Méo Bình Luận", "FOLLOW KÊNH", "@vibe.bongda"]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "title": "Saudi Arabia 1-1 Uruguay: Al-Owais gồng mình, Uruguay thoát thua phút 80",
+  "slug": "saudi-arabia-1-1-uruguay-world-cup-result-2026-06-16",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Storyboard kết quả trận Saudi Arabia 1-1 Uruguay ở bảng H World Cup 2026. Trận diễn ra tại Miami Stadium ngày 15/06/2026 lúc 18:00 ET, tương ứng 05:00 ngày 16/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "name": "FOX Sports - Saudi Arabia vs Uruguay final score, lineups and key plays",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-saudi-arabia-vs-uruguay-jun-15-2026-game-boxscore-647630"
+    },
+    {
+      "name": "ESPN - Saudi Arabia 1-1 Uruguay final score and match stats",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760429/uruguay-saudi-arabia"
+    },
+    {
+      "name": "Sofascore - Saudi Arabia vs Uruguay live score, goals and venue",
+      "url": "https://www.sofascore.com/football/match/saudi-arabia-uruguay/AUbsJWb"
+    },
+    {
+      "name": "The Analyst - Saudi Arabia vs Uruguay Opta stats",
+      "url": "https://theanalyst.com/articles/saudi-arabia-vs-uruguay-stats-world-cup-2026"
+    },
+    {
+      "name": "NBC Miami - Uruguay draws 1-1 with Saudi Arabia in World Cup opener",
+      "url": "https://www.nbcmiami.com/world-cup/world-cup-comes-to-miami-saudi-arabia-takes-on-uruguay-today/3820657/"
+    },
+    {
+      "name": "The Guardian - Saudi Arabia 1-1 Uruguay live report",
+      "url": "https://www.theguardian.com/football/live/2026/jun/15/saudi-arabia-v-uruguay-world-cup-2026-live"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Saudi Arabia 1-1 Uruguay",
+      "subtext": "FT - Group H | World Cup 2026",
+      "subtitle": "Saudi Arabia cầm hòa Uruguay 1-1 tại Miami Stadium. Abdulelah Al-Amri mở tỉ số phút 41 sau tình huống phạt góc, trước khi Maximiliano Araújo gỡ hòa phút 80 và giữ lại 1 điểm cho Uruguay.",
+      "voiceText": "Ả rập Saudi cầm hòa Uruguay một một tại Miami Stadium. Abdulelah Al Amri mở tỉ số phút bốn mươi mốt sau tình huống phạt góc, trước khi Maximiliano Araujo gỡ hòa phút tám mươi và giữ lại một điểm cho Uruguay.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#19A974",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group H - Matchday 1",
+      "venue": "Miami Stadium, Miami",
+      "date": "16/06/2026",
+      "time": "05:00 VN",
+      "minute": "FT",
+      "score": [1, 1],
+      "teams": [
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "score": 1,
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg",
+          "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+        },
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "score": 1,
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "teams": ["KSA", "URU"],
+          "score": [1, 1],
+          "minute": "FT",
+          "label": "Group H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "World Cup 2026 - Result",
+      "subtext": "Group H mở ra bằng hai trận hòa",
+      "subtitle": "Một kết quả làm bảng H rối tung ngay lượt đầu: Spain hòa Cabo Verde 0-0, còn Saudi Arabia kéo Uruguay vào một trận đấu đầy kiên nhẫn và căng thẳng.",
+      "voiceText": "Một kết quả làm bảng hát rối tung ngay lượt đầu: Spain hòa Cabo Verde không không, còn Ả rập Saudi kéo Uruguay vào một trận đấu đầy kiên nhẫn và căng thẳng.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#19A974",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Result",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Saudi Arabia 1-1 Uruguay | 16/06/2026 VN",
+      "ctaLabel": "Full-time 1-1",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Arap-Uruguay.mp4",
+          "trim": {
+            "start": 0,
+            "end": 5
+          },
+          "position": "background",
+          "opacity": 0.36,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtext": "Hai đội cùng xuất phát 4-4-2",
+      "subtitle": "Saudi Arabia đá 4-4-2 với Al-Owais, Al-Harbi, Al-Amri, Al-Tambakti, Abdulhamid, Al-Dawsari, Al-Khaibari, Kanno, Abu Al-Shamat, Al-Brikan và Al-Juwayr. Uruguay cũng dùng 4-4-2 với Muslera, Viña, Olivera, Cáceres, Varela, Araújo, Bentancur, Ugarte, Valverde, Núñez và Viñas.",
+      "voiceText": "Ả rập Saudi đá bốn bốn hai với Al Owais, Al Harbi, Al Amri, Al Tambakti, Abdulhamid, Al Dawsari, Al Khaibari, Kanno, Abu Al Shamat, Al Brikan và Al Juwayr. Uruguay cũng dùng bốn bốn hai với Muslera, Vina, Olivera, Caceres, Varela, Araujo, Bentancur, Ugarte, Valverde, Nunez và Vinas.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#19A974",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH CHÍNH THỨC",
+      "venue": "Miami Stadium, Miami",
+      "teams": [
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg",
+          "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+        },
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-4-2",
+          "players": [
+            "Mohammed Al-Owais",
+            "Muteb Al-Harbi",
+            "Abdulelah Al-Amri",
+            "Hassan Al-Tambakti",
+            "Saud Abdulhamid",
+            "Salem Al-Dawsari",
+            "Abdullah Al-Khaibari",
+            "Mohamed Kanno",
+            "Marwan Abu Al-Shamat",
+            "Feras Al-Brikan",
+            "Musab Al-Juwayr"
+          ]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": [
+            "Fernando Muslera",
+            "Matias Vina",
+            "Mathias Olivera",
+            "Sebastian Caceres",
+            "Guillermo Varela",
+            "Maximiliano Araujo",
+            "Rodrigo Bentancur",
+            "Manuel Ugarte",
+            "Federico Valverde",
+            "Darwin Nunez",
+            "Federico Vinas"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Arap-Uruguay.mp4",
+          "trim": {
+            "start": 18,
+            "end": 27
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Saudi Arabia va chạm với Uruguay bằng cùng sơ đồ 4-4-2",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Al-Amri đánh đầu mở khóa",
+      "subtext": "Trung vệ Saudi Arabia ghi bàn phút 41",
+      "subtitle": "Abdulelah Al-Amri là người đưa Saudi Arabia vượt lên: 1 bàn thắng, 2 cú sút trúng đích và 23 đường chuyền, trong trận đấu mà hàng thủ Saudi Arabia phải chịu áp lực cực lớn.",
+      "voiceText": "Abdulelah Al Amri là người đưa Ả rập Saudi vượt lên: một bàn thắng, hai cú sút trúng đích và hai mươi ba đường chuyền, trong trận đấu mà hàng thủ Ả rập Saudi phải chịu áp lực cực lớn.",
+      "duration": 7,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#19A974",
+      "textColor": "#ffffff",
+      "player": "Abdulelah Al-Amri",
+      "team": "Saudi Arabia",
+      "number": "4",
+      "playerImageUrl": "https://www.shutterstock.com/editorial/image-editorial/MfT9M63dN0T1k3y3Mzc2NTU=/abdulelah-al-amri-saudi-arabia-during-fifa-1500w-13639087dm.jpg",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "41'"
+        },
+        {
+          "label": "Sút trúng đích",
+          "value": "2"
+        },
+        {
+          "label": "Đường chuyền",
+          "value": "23"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Arap-Uruguay.mp4",
+          "trim": {
+            "start": 82,
+            "end": 91
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Al-Amri 41'",
+          "videoDescription": "Saudi Arabia đánh trước từ một pha bóng cố định",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Al-Amri mở điểm, Araújo cứu Uruguay",
+      "subtitle": "Saudi Arabia cảnh báo bằng các pha phạt góc ở phút 38, rồi Al-Amri ghi bàn phút 41. Sau giờ nghỉ, Uruguay tăng sức ép, Valverde và De La Cruz liên tục bắn phá, trước khi Maxi Araújo gỡ hòa phút 80. Những phút bù giờ là cuộc vây hãm của Uruguay, nhưng Saudi Arabia giữ được tỉ số 1-1.",
+      "voiceText": "Ả rập Saudi cảnh báo bằng các pha phạt góc ở phút ba mươi tám, rồi Al Amri ghi bàn phút bốn mươi mốt. Sau giờ nghỉ, Uruguay tăng sức ép, Valverde và De La Cruz liên tục bắn phá, trước khi Maxi Araujo gỡ hòa phút tám mươi. Những phút bù giờ là cuộc vây hãm của Uruguay, nhưng Ả rập Saudi giữ được tỉ số một một.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#19A974",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "38'",
+          "title": "Saudi Arabia ép góc",
+          "desc": "Musab Al-Juwayr liên tục đưa bóng vào khu vực nguy hiểm."
+        },
+        {
+          "minute": "41'",
+          "title": "1-0: Abdulelah Al-Amri",
+          "desc": "Al-Amri tận dụng tình huống phạt góc để đưa Saudi Arabia vượt lên."
+        },
+        {
+          "minute": "45'",
+          "title": "Uruguay thay người",
+          "desc": "Canobbio và Sanabria vào sân, Uruguay tăng nhịp ngay đầu hiệp hai."
+        },
+        {
+          "minute": "67'",
+          "title": "Valverde thử tài Al-Owais",
+          "desc": "Uruguay bắt đầu tạo sức ép lớn bằng những cú sút từ tuyến hai."
+        },
+        {
+          "minute": "80'",
+          "title": "1-1: Maximiliano Araújo",
+          "desc": "Maxi Araújo gỡ hòa cho Uruguay sau chuỗi pha tấn công dồn dập."
+        },
+        {
+          "minute": "90+8'",
+          "title": "Saudi Arabia sống sót",
+          "desc": "Uruguay liên tục đá phạt góc và dứt điểm, nhưng tỉ số vẫn là 1-1."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Uruguay áp đảo nhưng không thắng",
+      "subtext": "27 cú sút, 14 quả phạt góc, chỉ 1 bàn",
+      "subtitle": "Các con số nghiêng mạnh về Uruguay: cầm bóng 66.8%, sút 27 lần, trúng đích 10 lần và hưởng 14 quả phạt góc. Saudi Arabia chỉ có 7 cú sút và 4 quả phạt góc, nhưng vẫn lấy được 1 điểm nhờ phòng ngự bền bỉ.",
+      "voiceText": "Các con số nghiêng mạnh về Uruguay: cầm bóng sáu mươi sáu phẩy tám phần trăm, sút hai mươi bảy lần, trúng đích mười lần và hưởng mười bốn quả phạt góc. Ả rập Saudi chỉ có bảy cú sút và bốn quả phạt góc, nhưng vẫn lấy được một điểm nhờ phòng ngự bền bỉ.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#19A974",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [1, 1],
+      "teams": [
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/saudi-arabia.svg",
+          "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+        },
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 33.2,
+              "away": 66.8,
+              "unit": "%"
+            },
+            {
+              "label": "Cú sút",
+              "home": 7,
+              "away": 27
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": 3,
+              "away": 10
+            },
+            {
+              "label": "Phạt góc",
+              "home": 4,
+              "away": 14
+            },
+            {
+              "label": "Cứu thua",
+              "home": 9,
+              "away": 2
+            },
+            {
+              "label": "Thẻ vàng",
+              "home": 1,
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng H cân bằng tuyệt đối",
+      "subtext": "Cả 4 đội cùng có 1 điểm",
+      "subtitle": "Sau lượt trận đầu, Spain hòa Cabo Verde 0-0, Saudi Arabia hòa Uruguay 1-1, và cả bảng H cùng có 1 điểm. Với Uruguay, trận gặp Spain kế tiếp lập tức trở thành bài test rất nặng.",
+      "voiceText": "Sau lượt trận đầu, Spain hòa Cabo Verde không không, Ả rập Saudi hòa Uruguay một một, và cả bảng hát cùng có một điểm. Với Uruguay, trận gặp Spain kế tiếp lập tức trở thành bài test rất nặng.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#19A974",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG H",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG H"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["KSA", "URU"],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Uruguay",
+            "code": "URU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uruguay.svg",
+            "badgeSrc": "assets/football/flags/uruguay.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Saudi Arabia",
+            "code": "KSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/saudi-arabia.svg",
+            "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Spain",
+            "code": "ESP",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/spain.svg",
+            "badgeSrc": "assets/football/flags/spain.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Cabo Verde",
+            "code": "CPV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cabo-verde.svg",
+            "badgeSrc": "assets/football/flags/cabo-verde.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Arap-Uruguay.mp4",
+          "trim": {
+            "start": 185,
+            "end": 194
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Group H",
+          "videoDescription": "Bảng đấu mở màn bằng hai trận hòa",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Saudi Arabia lời chưa?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Theo bạn, Saudi Arabia vừa giành 1 điểm xứng đáng, hay Uruguay đã tự đánh rơi chiến thắng vì quá phung phí? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, Ả rập Saudi vừa giành một điểm xứng đáng, hay Uruguay đã tự đánh rơi chiến thắng vì quá phung phí? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#19A974",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Saudi Arabia xứng đáng có 1 điểm không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["Saudi Arabia", "Uruguay", "World Cup 2026"]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

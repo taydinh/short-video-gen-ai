@@ -1,0 +1,514 @@
+{
+  "title": "Thụy Điển 5-1 Tunisia: Yasin Ayari rực sáng trong ngày ra quân World Cup 2026",
+  "slug": "sweden-5-1-tunisia-world-cup-2026-result",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "sources": [
+    {
+      "title": "The Guardian - Sweden 5-1 Tunisia: World Cup 2026 as it happened",
+      "url": "https://www.theguardian.com/football/live/2026/jun/15/fifa-world-cup-2026-live-sweden-v-tunisia-updates-swe-vs-tun-group-f-match-score-latest"
+    },
+    {
+      "title": "SBS News - FIFA World Cup 2026 results: 15 June scores",
+      "url": "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-june-15/ocls1mcso"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Thụy Điển 5-1 Tunisia",
+      "subtitle": "Thụy Điển thắng Tunisia 5-1 tại Monterrey. Full-time, Ayari mở tỉ số phút 7 và chốt trận phút 90+6; Isak, Gyökeres và Svanberg cùng ghi bàn, Tunisia chỉ có bàn danh dự của Omar Rekik phút 43.",
+      "subtext": "FT - Sweden 5-1 Tunisia",
+      "voiceText": "Thụy Điển thắng Tunisia năm một tại Monterrey. Full time, Ayari mở tỉ số phút thứ bảy và chốt trận phút chín mươi cộng sáu; Isak, Gyokeres và Svanberg cùng ghi bàn, Tunisia chỉ có bàn danh dự của Omar Rekik phút bốn mươi ba.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#005BAC",
+      "textColor": "#ffffff",
+      "minute": "FT",
+      "score": "5-1",
+      "teams": [
+        {
+          "name": "Sweden",
+          "code": "SWE",
+          "score": 5,
+          "flagSrc": "assets/football/flags/sweden.svg"
+        },
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "score": 1,
+          "flagSrc": "assets/football/flags/tunisia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "home": "SWE",
+          "away": "TUN",
+          "score": "5-1",
+          "minute": "FT"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "World Cup 2026 - Result",
+      "subtitle": "Bảng F có biến động lớn ngay lượt mở màn, khi Thụy Điển tạo hiệu số +4 và đặt áp lực lên Nhật Bản cùng Hà Lan.",
+      "subtext": "Group F mở màn cực căng",
+      "voiceText": "Bảng ép có biến động lớn ngay lượt mở màn, khi Thụy Điển tạo hiệu số cộng bốn và đặt áp lực lên Nhật Bản cùng Hà Lan.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#005BAC",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Result",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Thụy Điển 5-1 Tunisia.mp4",
+          "trim": {
+            "start": 15,
+            "end": 18
+          },
+          "position": "background",
+          "opacity": 0.34,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Cấu trúc trận đấu",
+      "subtitle": "Thụy Điển xoay quanh trục Ayari, Isak và Gyökeres, còn Tunisia phụ thuộc nhiều vào Hannibal Mejbri nhưng không đủ quân số hỗ trợ khi bị dẫn sớm.",
+      "subtext": "Các nhân tố được nguồn tường thuật nhắc nổi bật",
+      "voiceText": "Thụy Điển xoay quanh trục Ayari, Isak và Gyokeres, còn Tunisia phụ thuộc nhiều vào Hannibal Mejbri nhưng không đủ quân số hỗ trợ khi bị dẫn sớm.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#005BAC",
+      "textColor": "#ffffff",
+      "formation": "Key players",
+      "teams": [
+        {
+          "name": "Sweden",
+          "code": "SWE",
+          "flagSrc": "assets/football/flags/sweden.svg",
+          "formation": "4-4-2",
+          "players": [
+            "Ayari",
+            "Isak",
+            "Gyökeres",
+            "Svanberg",
+            "Karlström",
+            "Nordfeldt"
+          ]
+        },
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "flagSrc": "assets/football/flags/tunisia.svg",
+          "formation": "4-2-3-1",
+          "players": [
+            "Rekik",
+            "Hannibal",
+            "Skhiri",
+            "Khedira",
+            "Saad",
+            "Chamakh"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Thụy Điển 5-1 Tunisia.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Ayari 7'",
+          "videoDescription": "Thụy Điển vào trận bằng bàn mở tỉ số rất sớm",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Yasin Ayari là tâm điểm",
+      "subtitle": "Yasin Ayari ghi bàn phút 7, rồi hoàn tất cú đúp ở phút 90+6; The Guardian nhấn mạnh anh có gốc Tunisia và Morocco nhưng chọn khoác áo Thụy Điển.",
+      "subtext": "Một cú đúp rất nhiều câu chuyện",
+      "voiceText": "Yasin Ayari ghi bàn phút thứ bảy, rồi hoàn tất cú đúp ở phút chín mươi cộng sáu; The Guardian nhấn mạnh anh có gốc Tunisia và Ma rốc nhưng chọn khoác áo Thụy Điển.",
+      "duration": 7,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#005BAC",
+      "textColor": "#ffffff",
+      "player": "Yasin Ayari",
+      "team": "Sweden",
+      "number": "2",
+      "playerImageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Yasin_Ayari_%28Sweden_U21_vs_Moldova_U21%2C_13_October_2023%29_%28cropped%29.jpg",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "2"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "7', 90+6'"
+        },
+        {
+          "label": "Tỉ số",
+          "value": "5-1"
+        },
+        {
+          "label": "Bảng",
+          "value": "F"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Thụy Điển 5-1 Tunisia.mp4",
+          "trim": {
+            "start": 48,
+            "end": 54
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Ayari 90+6'",
+          "videoDescription": "Cú đúp khép lại chiến thắng 5-1",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline bàn thắng",
+      "subtitle": "Phút 7 Ayari mở tỉ số, phút 30 Isak nhân đôi cách biệt, phút 43 Rekik rút ngắn, phút 60 Gyökeres nâng 3-1, phút 86 Svanberg ghi bàn, và phút 90+6 Ayari ấn định 5-1.",
+      "subtext": "Thụy Điển kiểm soát trận từ rất sớm",
+      "voiceText": "Phút thứ bảy Ayari mở tỉ số, phút ba mươi Isak nhân đôi cách biệt, phút bốn mươi ba Rekik rút ngắn, phút sáu mươi Gyokeres nâng ba một, phút tám mươi sáu Svanberg ghi bàn, và phút chín mươi cộng sáu Ayari ấn định năm một.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#005BAC",
+      "textColor": "#ffffff",
+      "events": [
+        {
+          "minute": "7'",
+          "team": "Sweden",
+          "event": "Ayari 1-0"
+        },
+        {
+          "minute": "30'",
+          "team": "Sweden",
+          "event": "Isak 2-0"
+        },
+        {
+          "minute": "43'",
+          "team": "Tunisia",
+          "event": "Rekik 2-1"
+        },
+        {
+          "minute": "60'",
+          "team": "Sweden",
+          "event": "Gyökeres 3-1"
+        },
+        {
+          "minute": "86'",
+          "team": "Sweden",
+          "event": "Svanberg 4-1"
+        },
+        {
+          "minute": "90+6'",
+          "team": "Sweden",
+          "event": "Ayari 5-1"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-scorebug",
+          "home": "SWE",
+          "away": "TUN",
+          "score": "5-1",
+          "minute": "FT"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Thống kê kể câu chuyện",
+      "subtitle": "SBS ghi nhận Tunisia chỉ có 2 cú sút trong vòng cấm, còn The Guardian nêu Tunisia có chỉ số bàn thắng kỳ vọng 0.09 ở giờ nghỉ.",
+      "subtext": "Tunisia gần như không tạo đủ áp lực",
+      "voiceText": "SBS ghi nhận Tunisia chỉ có hai cú sút trong vòng cấm, còn The Guardian nêu Tunisia có chỉ số bàn thắng kỳ vọng không phẩy không chín ở giờ nghỉ.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#005BAC",
+      "textColor": "#ffffff",
+      "minute": "Stats",
+      "score": "5-1",
+      "teams": [
+        {
+          "name": "Sweden",
+          "code": "SWE",
+          "score": 5,
+          "flagSrc": "assets/football/flags/sweden.svg"
+        },
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "score": 1,
+          "flagSrc": "assets/football/flags/tunisia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Bàn thắng",
+              "home": 5,
+              "away": 1
+            },
+            {
+              "label": "Sút trong vòng cấm Tunisia",
+              "home": 0,
+              "away": 2
+            },
+            {
+              "label": "Hiệu số",
+              "home": 4,
+              "away": -4
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Tác động bảng F",
+      "subtitle": "Thụy Điển tạm lên đầu bảng F với 3 điểm và hiệu số +4, trong khi Nhật Bản và Hà Lan có 1 điểm, còn Tunisia bị đẩy vào thế rất khó.",
+      "subtext": "Một trận thắng có giá trị cả điểm số lẫn hiệu số",
+      "voiceText": "Thụy Điển tạm lên đầu bảng ép với ba điểm và hiệu số cộng bốn, trong khi Nhật Bản và Hà Lan có một điểm, còn Tunisia bị đẩy vào thế rất khó.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#005BAC",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group F",
+      "rows": [
+        {
+          "pos": 1,
+          "team": "Sweden",
+          "played": 1,
+          "gd": "+4",
+          "pts": 3,
+          "badgeSrc": "assets/football/flags/sweden.svg",
+          "highlight": true
+        },
+        {
+          "pos": 2,
+          "team": "Japan",
+          "played": 1,
+          "gd": "0",
+          "pts": 1,
+          "badgeSrc": "assets/football/flags/japan.svg"
+        },
+        {
+          "pos": 3,
+          "team": "Netherlands",
+          "played": 1,
+          "gd": "0",
+          "pts": 1,
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "pos": 4,
+          "team": "Tunisia",
+          "played": 1,
+          "gd": "-4",
+          "pts": 0,
+          "badgeSrc": "assets/football/flags/tunisia.svg",
+          "highlight": true
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Thụy Điển 5-1 Tunisia.mp4",
+          "trim": {
+            "start": 40,
+            "end": 47
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "SWE +4",
+          "videoDescription": "Hiệu số lớn giúp Thụy Điển bật lên đầu bảng F",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Ayari có phải người hùng lượt mở màn?",
+      "subtitle": "Bạn chấm màn trình diễn của Ayari mấy điểm sau cú đúp này? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtext": "Comment điểm số của bạn",
+      "voiceText": "Bạn chấm màn trình diễn của Ayari mấy điểm sau cú đúp này? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#005BAC",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Sweden 5-1 Tunisia",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Chấm điểm Ayari sau cú đúp?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Thụy Điển 5-1 Tunisia.mp4",
+          "trim": {
+            "start": 48,
+            "end": 54
+          },
+          "position": "background",
+          "opacity": 0.32,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 4.7
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

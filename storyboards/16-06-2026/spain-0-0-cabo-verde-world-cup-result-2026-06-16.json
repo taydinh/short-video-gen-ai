@@ -1,0 +1,641 @@
+{
+  "title": "Tây Ban Nha 0-0 Cabo Verde: Vozinha dựng tường trong cú sốc bảng H",
+  "slug": "spain-0-0-cabo-verde-world-cup-result-2026-06-16",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Storyboard kết quả trận Spain 0-0 Cabo Verde ở bảng H World Cup 2026. Trận diễn ra tại Mercedes-Benz Stadium, Atlanta ngày 15/06/2026 lúc 12:00 ET, tương ứng 23:00 ngày 15/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "name": "ESPN - Spain World Cup shock draw with Cape Verde",
+      "url": "https://www.espn.com/soccer/story/_/id/49074414/spain-world-cup-shock-draw-cape-verde-lamine-yamal"
+    },
+    {
+      "name": "The Guardian - Spain 0-0 Cape Verde as it happened",
+      "url": "https://www.theguardian.com/football/live/2026/jun/15/spain-v-cape-verde-world-cup-2026-live"
+    },
+    {
+      "name": "FotMob - Vozinha heroics help World Cup debutants to shock result",
+      "url": "https://www.fotmob.com/news/cdinwujzufyf1gb1va7nhfifp-spain-0-0-cape-verde-vozinha-heroics-help-world-cup-debutants-shock-result"
+    },
+    {
+      "name": "The Analyst - How Cape Verde frustrated Spain",
+      "url": "https://theanalyst.com/articles/how-cape-verde-frustrated-spain-world-cup-history-draw-shock"
+    },
+    {
+      "name": "FOX Sports - Cape Verde completes shutout against Spain",
+      "url": "https://www.foxsports.com/watch/fmc-g33s7t0arkufoi1a"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Spain 0-0 Cabo Verde",
+      "subtext": "FT - Group H | World Cup 2026",
+      "subtitle": "Spain bị Cabo Verde cầm hòa 0-0 tại Atlanta, trong trận mở màn bảng H World Cup 2026. La Roja tung 27 cú sút và 7 lần trúng đích, nhưng Vozinha giữ sạch lưới để Cabo Verde có điểm lịch sử ngay ngày ra mắt World Cup.",
+      "voiceText": "Spain bị Cabo Verde cầm hòa không không tại Atlanta, trong trận mở màn bảng hát, World Cup hai không hai sáu. La Roja tung hai mươi bảy cú sút và bảy lần trúng đích, nhưng Vozinha giữ sạch lưới để Cabo Verde có điểm lịch sử ngay ngày ra mắt World Cup.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group H - Matchday 1",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "date": "15/06/2026",
+      "time": "23:00 VN",
+      "minute": "FT",
+      "score": [0, 0],
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "score": 0,
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "score": 0,
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "teams": ["ESP", "CPV"],
+          "score": [0, 0],
+          "minute": "FT",
+          "label": "Group H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "World Cup 2026 - Result",
+      "subtext": "Cú sốc đầu tiên của bảng H",
+      "subtitle": "Một trận hòa không bàn thắng nhưng đầy sức nặng: Spain mất 2 điểm trước tân binh, còn Cabo Verde biến màn ra mắt World Cup thành một câu chuyện phòng ngự đáng nhớ.",
+      "voiceText": "Một trận hòa không bàn thắng nhưng đầy sức nặng: Spain mất hai điểm trước tân binh, còn Cabo Verde biến màn ra mắt World Cup thành một câu chuyện phòng ngự đáng nhớ.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Result",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Spain 0-0 Cabo Verde | 15/06/2026 VN",
+      "ctaLabel": "Full-time 0-0",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/spain-cabo.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.36,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Cấu trúc trận đấu",
+      "subtext": "Spain kiểm soát bóng, Cabo Verde khóa trung lộ",
+      "subtitle": "Spain xoay quanh Pedri, Rodri, Ferran Torres và Oyarzabal trong thế trận kiểm soát. Cabo Verde giữ khối thấp với Vozinha phía sau, Pico Lopes và Diney Borges che chắn khu cấm địa, rồi chờ cơ hội phản công cuối trận.",
+      "voiceText": "Spain xoay quanh Pedri, Rodri, Ferran Torres và Oyarzabal trong thế trận kiểm soát. Cabo Verde giữ khối thấp với Vozinha phía sau, Pico Lopes và Diney Borges che chắn khu cấm địa, rồi chờ cơ hội phản công cuối trận.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH CHÍNH THỨC",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Unai Simon",
+            "Dani Carvajal",
+            "Pau Cubarsi",
+            "Aymeric Laporte",
+            "Marc Cucurella",
+            "Rodri",
+            "Pedri",
+            "Fabian Ruiz",
+            "Ferran Torres",
+            "Mikel Oyarzabal",
+            "Dani Olmo"
+          ]
+        },
+        "away": {
+          "formation": "5-4-1",
+          "players": [
+            "Vozinha",
+            "Steven Moreira",
+            "Pico Lopes",
+            "Logan Costa",
+            "Diney Borges",
+            "Joao Paulo",
+            "Kevin Pina",
+            "Patrick Andrade",
+            "Jamiro Monteiro",
+            "Garry Rodrigues",
+            "Dailon Livramento"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/spain-cabo.mp4",
+          "trim": {
+            "start": 8,
+            "end": 16
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Group H XI",
+          "videoDescription": "Spain cầm bóng, Cabo Verde dựng khối phòng ngự thấp",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Vozinha là bức tường",
+      "subtext": "7 pha cứu thua, sạch lưới trước Spain",
+      "subtitle": "Vozinha trở thành nhân vật chính của trận đấu: thủ môn 40 tuổi có 7 pha cứu thua, chặn mọi cú sút trúng đích của Spain và giúp Cabo Verde giành điểm đầu tiên trong lịch sử World Cup.",
+      "voiceText": "Vozinha trở thành nhân vật chính của trận đấu: thủ môn bốn mươi tuổi có bảy pha cứu thua, chặn mọi cú sút trúng đích của Spain và giúp Cabo Verde giành điểm đầu tiên trong lịch sử World Cup.",
+      "duration": 7,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Vozinha",
+      "team": "Cabo Verde",
+      "number": "1",
+      "playerImageUrl": "https://midias.correiobraziliense.com.br/_midias/png/2026/06/15/1000x1000/1_capturar-66916413.png",
+      "stats": [
+        {
+          "label": "Cứu thua",
+          "value": "7"
+        },
+        {
+          "label": "Tuổi",
+          "value": "40"
+        },
+        {
+          "label": "Sạch lưới",
+          "value": "1"
+        },
+        {
+          "label": "Điểm lịch sử",
+          "value": "1"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/spain-cabo.mp4",
+          "trim": {
+            "start": 18,
+            "end": 26
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Vozinha 7 saves",
+          "videoDescription": "Thủ môn 40 tuổi giữ sạch lưới trước 27 cú sút của Spain",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Cột dọc, cứu thua và khối phòng ngự sống sót",
+      "subtitle": "Phút 15, Pedri buộc Vozinha phải cản phá. Cuối hiệp 1, Ferran Torres đưa bóng dội xà, rồi Oyarzabal bị Vozinha từ chối. Phút 71, Lamine Yamal và Mikel Merino vào sân để tăng tốc. Cuối trận, Pico Lopes chặn cú sút của Oyarzabal, Diney Borges có cơ hội đánh đầu, nhưng tỉ số vẫn là 0-0.",
+      "voiceText": "Phút mười lăm, Pedri buộc Vozinha phải cản phá. Cuối hiệp một, Ferran Torres đưa bóng dội xà, rồi Oyarzabal bị Vozinha từ chối. Phút bảy mươi mốt, Lamine Yamal và Mikel Merino vào sân để tăng tốc. Cuối trận, Pico Lopes chặn cú sút của Oyarzabal, Diney Borges có cơ hội đánh đầu, nhưng tỉ số vẫn là không không.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "15'",
+          "title": "Pedri thử tài Vozinha",
+          "desc": "Spain bắt đầu kéo khối phòng ngự Cabo Verde về rất sâu."
+        },
+        {
+          "minute": "45'",
+          "title": "Ferran Torres dội xà",
+          "desc": "Cơ hội rõ nhất của Spain trong hiệp 1 không thành bàn."
+        },
+        {
+          "minute": "45+'",
+          "title": "Vozinha cứu Oyarzabal",
+          "desc": "Cú đánh đầu bị thủ môn Cabo Verde đẩy qua xà."
+        },
+        {
+          "minute": "71'",
+          "title": "Yamal và Merino vào sân",
+          "desc": "Spain tăng tốc bằng hai quân bài từ ghế dự bị."
+        },
+        {
+          "minute": "86'",
+          "title": "Pico Lopes che chắn",
+          "desc": "Trung vệ Cabo Verde chặn cú sút nguy hiểm của Oyarzabal."
+        },
+        {
+          "minute": "FT",
+          "title": "0-0 lịch sử",
+          "desc": "Cabo Verde rời sân với điểm số đầu tiên tại World Cup."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Spain sút mãi không vào",
+      "subtext": "27 cú sút, 2.29 xG, vẫn 0 bàn",
+      "subtitle": "Thống kê nghiêng hẳn về Spain: 74% kiểm soát bóng, 27 cú sút, 7 lần trúng đích, 11 quả phạt góc và chỉ số bàn thắng kỳ vọng 2.29. Cabo Verde chỉ cần 1 cú sút trúng đích và 7 pha cứu thua của Vozinha để giữ lại 1 điểm.",
+      "voiceText": "Thống kê nghiêng hẳn về Spain: bảy mươi bốn phần trăm kiểm soát bóng, hai mươi bảy cú sút, bảy lần trúng đích, mười một quả phạt góc và chỉ số bàn thắng kỳ vọng hai phẩy hai chín. Cabo Verde chỉ cần một cú sút trúng đích và bảy pha cứu thua của Vozinha để giữ lại một điểm.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [0, 0],
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 74,
+              "away": 26,
+              "unit": "%"
+            },
+            {
+              "label": "Cú sút",
+              "home": 27,
+              "away": 6
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": 7,
+              "away": 1
+            },
+            {
+              "label": "xG",
+              "home": 2.29,
+              "away": 0.29
+            },
+            {
+              "label": "Phạt góc",
+              "home": 11,
+              "away": 1
+            },
+            {
+              "label": "Cứu thua",
+              "home": 1,
+              "away": 7
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng H chưa ai bứt lên",
+      "subtext": "Hai trận mở màn, bốn đội cùng có 1 điểm",
+      "subtitle": "Sau lượt trận đầu, Spain hòa Cabo Verde 0-0, Saudi Arabia hòa Uruguay 1-1, và cả bảng H cùng có 1 điểm. Spain rơi xuống sau Uruguay và Saudi Arabia vì chưa ghi bàn, còn Cabo Verde có khởi đầu lịch sử nhưng vẫn phải sống trong một bảng đấu cực căng.",
+      "voiceText": "Sau lượt trận đầu, Spain hòa Cabo Verde không không, Ả rập Saudi hòa Uruguay một một, và cả bảng hát cùng có một điểm. Spain rơi xuống sau Uruguay và Ả rập Saudi vì chưa ghi bàn, còn Cabo Verde có khởi đầu lịch sử nhưng vẫn phải sống trong một bảng đấu cực căng.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG H",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG H"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["ESP", "CPV"],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Uruguay",
+            "code": "URU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uruguay.svg",
+            "badgeSrc": "assets/football/flags/uruguay.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Saudi Arabia",
+            "code": "KSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/saudi-arabia.svg",
+            "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Spain",
+            "code": "ESP",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/spain.svg",
+            "badgeSrc": "assets/football/flags/spain.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Cabo Verde",
+            "code": "CPV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cabo-verde.svg",
+            "badgeSrc": "assets/football/flags/cabo-verde.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/spain-cabo.mp4",
+          "trim": {
+            "start": 42,
+            "end": 50
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Group H",
+          "videoDescription": "Bốn đội cùng 1 điểm sau lượt mở màn",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Spain bế tắc hay Cabo Verde quá hay?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Theo bạn, trận hòa này là cú trượt chân của Spain, hay là điểm số xứng đáng cho màn phòng ngự quả cảm của Cabo Verde? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, trận hòa này là cú trượt chân của Spain, hay là điểm số xứng đáng cho màn phòng ngự quả cảm của Cabo Verde? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Spain bế tắc hay Cabo Verde phòng ngự quá hay?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["Spain", "Cabo Verde", "World Cup 2026"]
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/spain-cabo.mp4",
+          "trim": {
+            "start": 52,
+            "end": 60
+          },
+          "position": "background",
+          "opacity": 0.32,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

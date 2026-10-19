@@ -1,0 +1,505 @@
+{
+  "title": "Bồ Đào Nha vs Uzbekistan: Lượt 2 bảng K World Cup 2026",
+  "slug": "portugal-vs-uzbekistan-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Bồ Đào Nha gặp Uzbekistan ở bảng K World Cup 2026, quy đổi giờ Việt Nam là 00:00 ngày 24/06/2026. Lời đọc bảng K chuyển thành bảng Ka và Uzbekistan chuyển thành U bê kits tan để TTS đọc ổn định.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "ESPN - 2026 FIFA World Cup fixtures, results, match schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Bồ Đào Nha vs Uzbekistan",
+      "subtext": "Mệnh lệnh phải thắng của Selecao",
+      "voiceText": "Đêm nay, Ronaldo và tuyển Bồ Đào Nha sẽ chạm trán U bê kits tan lúc không giờ ngày hai mươi tư tháng sáu theo giờ Việt Nam. Đây là trận chiến cực cháy ở lượt đấu thứ hai bảng Ka World Cup hai không hai sáu, nơi mà Sê Bảy và đồng đội đang khát khao giành trọn vẹn ba điểm sau ngày ra quân chia điểm đầy tiếc nuối!",
+      "subtitle": "Đêm nay, Ronaldo và tuyển Bồ Đào Nha sẽ chạm trán Uzbekistan lúc 00:00 ngày 24/06 theo giờ Việt Nam. Đây là trận chiến cực cháy ở lượt đấu thứ hai bảng K World Cup 2026, nơi mà CR7 và đồng đội đang khát khao giành trọn vẹn 3 điểm sau ngày ra quân chia điểm đầy tiếc nuối!",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group K - Matchday 2",
+      "venue": "Miami Stadium, Miami",
+      "date": "24/06/2026",
+      "time": "00:00 VN",
+      "teams": [
+        {
+          "name": "Bồ Đào Nha",
+          "code": "POR",
+          "form": "Hòa 1-1",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "name": "Uzbekistan",
+          "code": "UZB",
+          "form": "Thua 1-2",
+          "flagSrc": "assets/football/flags/uzbekistan.svg",
+          "badgeSrc": "assets/football/flags/uzbekistan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng K nóng bỏng",
+      "subtext": "Bồ Đào Nha, Uzbekistan, Colombia, CHDC Congo",
+      "voiceText": "Cục diện bảng Ka lúc này đang cực kỳ căng thẳng. Bồ Đào Nha buộc phải giành chiến thắng để nắm quyền tự quyết, trong khi U bê kits tan cũng không muốn nhận thêm một thất bại.",
+      "subtitle": "Cục diện bảng K lúc này đang cực kỳ căng thẳng. Bồ Đào Nha buộc phải giành chiến thắng để nắm quyền tự quyết, trong khi Uzbekistan cũng không muốn nhận thêm một thất bại.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group K Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Martinez xoay tua, Uzbekistan đá phòng ngự",
+      "voiceText": "Huấn luyện viên Rô-béc-tô Mác-ti-nét có thể sẽ đưa Bru-nô Phéc-nan-đét và Ra-pha-en Lê-ao đá chính từ đầu để tiếp đạn cho Cri-sti-a-nô Rô-nal-đô. U bê kits tan bên kia chiến tuyến nhiều khả năng sẽ dựng chiếc xe buýt hai tầng năm bốn một để bảo vệ mành lưới của thủ môn Yu-su-pốp.",
+      "subtitle": "Huấn luyện viên Roberto Martinez có thể sẽ đưa Bruno Fernandes và Rafael Leão đá chính từ đầu để tiếp đạn cho Cristiano Ronaldo. Uzbekistan bên kia chiến tuyến nhiều khả năng sẽ dựng chiếc xe buýt hai tầng 5-4-1 để bảo vệ mành lưới của thủ môn Yusupov.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Bồ Đào Nha",
+          "code": "POR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "name": "Uzbekistan",
+          "code": "UZB",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uzbekistan.svg",
+          "badgeSrc": "assets/football/flags/uzbekistan.svg"
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Bồ Đào Nha",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "players": [
+            "Diogo Costa",
+            "Cancelo",
+            "Ruben Dias",
+            "Inacio",
+            "Nuno Mendes",
+            "Palhinha",
+            "Bruno Fernandes",
+            "Bernardo Silva",
+            "Leao",
+            "Cristiano Ronaldo",
+            "Goncalo Ramos"
+          ]
+        },
+        {
+          "team": "Uzbekistan",
+          "formation": "5-4-1",
+          "flagSrc": "assets/football/flags/uzbekistan.svg",
+          "players": [
+            "Yusupov",
+            "Alijonov",
+            "Eshmurodov",
+            "Ashurmatov",
+            "Khusanov",
+            "Nasrullaev",
+            "Shukurov",
+            "Masharipov",
+            "Urunov",
+            "Faizullaev",
+            "Shomurodov"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Lượt đấu thứ nhất bảng K",
+      "voiceText": "Ở trận ra quân, Bồ Đào Nha gây thất vọng lớn khi bị Cộng hòa Công gô cầm hòa một đều đầy bất ngờ. Còn U bê kits tan cũng phải trắng tay ở trận ra mắt World Cup khi để thua sát nút một hai trước một Colombia quá lọc lõi.",
+      "subtitle": "Ở trận ra quân, Bồ Đào Nha gây thất vọng lớn khi bị DR Congo cầm hòa 1-1 đầy bất ngờ. Còn Uzbekistan cũng phải trắng tay ở trận ra mắt World Cup khi để thua sát nút 1-2 trước một Colombia quá lọc lõi.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Bồ Đào Nha",
+      "awayTeam": "Uzbekistan",
+      "teams": [
+        {
+          "name": "Bồ Đào Nha",
+          "code": "POR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "name": "Uzbekistan",
+          "code": "UZB",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uzbekistan.svg",
+          "badgeSrc": "assets/football/flags/uzbekistan.svg"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "18/06/2026",
+          "home": "Bồ Đào Nha",
+          "away": "DR Congo",
+          "score": "1-1",
+          "note": "Hòa đầy thất vọng",
+          "homeBadgeSrc": "assets/football/flags/portugal.svg",
+          "awayBadgeSrc": "assets/football/flags/dr-congo.svg"
+        },
+        {
+          "date": "18/06/2026",
+          "home": "Colombia",
+          "away": "Uzbekistan",
+          "score": "2-1",
+          "note": "Uzbekistan thua sát nút",
+          "homeBadgeSrc": "assets/football/flags/colombia.svg",
+          "awayBadgeSrc": "assets/football/flags/uzbekistan.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Phong độ Bồ Đào Nha",
+          "value": "Hòa 1-1"
+        },
+        {
+          "label": "Phong độ Uzbekistan",
+          "value": "Thua 1-2"
+        },
+        {
+          "label": "Dự đoán",
+          "value": "Bồ Đào Nha thắng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Sức ép tấn công",
+              "home": 82,
+              "away": 48
+            },
+            {
+              "label": "Cơ hội đi tiếp",
+              "home": 88,
+              "away": 30
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Ronaldo lên tiếng?",
+      "subtext": "Áp lực đè nặng lên vai CR7",
+      "voiceText": "Không còn đường lùi nữa rồi, Selecao châu Âu bắt buộc phải tràn lên tấn công và Ronaldo cần phải lên tiếng đúng lúc để giải cứu đội nhà!",
+      "subtitle": "Không còn đường lùi nữa rồi, Seleção châu Âu bắt buộc phải tràn lên tấn công và Ronaldo cần phải lên tiếng đúng lúc để giải cứu đội nhà!",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Không còn đường lùi nữa rồi, Seleção châu Âu bắt buộc phải tràn lên tấn công và Ronaldo cần phải lên tiếng đúng lúc để giải cứu đội nhà!",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng K sau lượt đầu",
+      "subtext": "Colombia tạm dẫn đầu",
+      "voiceText": "Trên bảng xếp hạng bảng Ka hiện tại, Colombia đang tạm dẫn đầu với ba điểm. Bồ Đào Nha và Cộng hòa Công gô chia nhau hai vị trí tiếp theo với một điểm, còn U bê kits tan tạm đứng cuối bảng khi chưa có điểm nào.",
+      "subtitle": "Trên bảng xếp hạng bảng K hiện tại, Colombia đang tạm dẫn đầu với 3 điểm. Bồ Đào Nha và DR Congo chia nhau hai vị trí tiếp theo với 1 điểm, còn Uzbekistan tạm đứng cuối bảng khi chưa có điểm nào.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group K",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "Trận đấu",
+        "Đội hình",
+        "Thống kê",
+        "Bảng xếp hạng"
+      ],
+      "highlightTeams": [
+        "Bồ Đào Nha",
+        "Uzbekistan"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "rank": 1,
+          "position": 1,
+          "team": {
+            "name": "Colombia",
+            "code": "COL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/colombia.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 1,
+          "won": 1,
+          "w": 1,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "pts": 3,
+          "points": 3
+        },
+        {
+          "pos": 2,
+          "rank": 2,
+          "position": 2,
+          "team": {
+            "name": "Bồ Đào Nha",
+            "code": "POR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/portugal.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 1,
+          "drawn": 1,
+          "d": 1,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1,
+          "points": 1,
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "rank": 3,
+          "position": 3,
+          "team": {
+            "name": "DR Congo",
+            "code": "COD",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/dr-congo.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 1,
+          "drawn": 1,
+          "d": 1,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1,
+          "points": 1
+        },
+        {
+          "pos": 4,
+          "rank": 4,
+          "position": 4,
+          "team": {
+            "name": "Uzbekistan",
+            "code": "UZB",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uzbekistan.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 1,
+          "lost": 1,
+          "l": 1,
+          "gf": 1,
+          "ga": 2,
+          "gd": -1,
+          "pts": 0,
+          "points": 0,
+          "highlight": true
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Bình luận bên dưới",
+      "voiceText": "Anh em dự đoán đêm nay Ronaldo sẽ ghi được mấy bàn? Hãy bình luận ngay bên dưới để cùng chém gió nhé! Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Anh em dự đoán đêm nay Ronaldo sẽ ghi được mấy bàn? Hãy bình luận ngay bên dưới để cùng chém gió nhé! Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Ronaldo ghi mấy bàn đêm nay?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Bồ Đào Nha",
+          "Uzbekistan"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "title": "New Zealand vs Bỉ | Preview World Cup 2026",
+  "slug": "new-zealand-vs-belgium-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview New Zealand vs Bỉ, 10:00 ngày 27/06/2026 giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "New Zealand vs Bỉ",
+      "subtext": "Trận đấu sinh tử giành vé đi tiếp",
+      "voiceText": "New Zealand đối đầu với Bỉ vào lúc mười giờ sáng, ngày hai mươi bảy tháng sáu theo giờ Việt Nam. Đây là cuộc chiến sinh tử quyết định tấm vé đi tiếp tại bảng Gờ, World Cup hai không hai sáu, diễn ra trên sân vận động BC Place tại thành phố Vancouver.",
+      "subtitle": "New Zealand đối đầu với Bỉ vào lúc 10:00 ngày 27/06 theo giờ Việt Nam. Đây là cuộc chiến sinh tử quyết định tấm vé đi tiếp tại bảng G World Cup 2026, diễn ra trên sân vận động BC Place tại thành phố Vancouver.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group G - Matchday 3",
+      "venue": "BC Place",
+      "date": "27/06/2026",
+      "time": "10:00 VN",
+      "teams": [
+        {
+          "name": "New Zealand",
+          "code": "NZL",
+          "form": "1 Điểm",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/new-zealand.svg",
+          "badgeSrc": "assets/football/flags/new-zealand.svg"
+        },
+        {
+          "name": "Bỉ",
+          "code": "BEL",
+          "form": "2 Điểm",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Buộc phải giành chiến thắng",
+      "subtext": "New Zealand vs Belgium quyết chiến",
+      "voiceText": "Trận đấu hạ màn bảng Gờ đầy căng thẳng. Cả hai đội tuyển đều không thể hài lòng với một kết quả hòa, khi chiến thắng mới là con đường chắc chắn nhất để bước tiếp.",
+      "subtitle": "Trận đấu hạ màn bảng G đầy căng thẳng. Cả hai đội tuyển đều không thể hài lòng với một kết quả hòa, khi chiến thắng mới là con đường chắc chắn nhất để bước tiếp.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group G Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "New Zealand vs Bỉ | 27/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Thay đổi bắt buộc nơi hàng thủ Bỉ",
+      "voiceText": "Bên phía tuyển Bỉ, sự vắng mặt của Na than Ngoy, do án treo giò sẽ mở ra cơ hội, cho thê át tê đá chính. Sức sáng tạo của Kê Vin Đờ Broai Nơ, và bản lĩnh của Ti lơ mần, sẽ là điểm tựa lớn. Phía New Zealand, niềm hy vọng dồn vào Cơ rít Út, và ngòi nổ Ê li gia Giớt.",
+      "subtitle": "Bên phía tuyển Bỉ, sự vắng mặt của Nathan Ngoy do án treo giò sẽ mở ra cơ hội cho Arthur Theate đá chính. Sức sáng tạo của Kevin De Bruyne và bản lĩnh của Youri Tielemans sẽ là điểm tựa lớn. Phía New Zealand, niềm hy vọng dồn vào Chris Wood và ngòi nổ Elijah Just.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "New Zealand",
+          "code": "NZL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/new-zealand.svg",
+          "badgeSrc": "assets/football/flags/new-zealand.svg"
+        },
+        {
+          "name": "Bỉ",
+          "code": "BEL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Max Crocombe",
+            "Tim Payne",
+            "Michael Boxall",
+            "Finn Surman",
+            "Liberato Cacace",
+            "Joe Bell",
+            "Marko Stamenic",
+            "Callum McCowatt",
+            "Sarpreet Singh",
+            "Elijah Just",
+            "Chris Wood"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Thibaut Courtois",
+            "Thomas Meunier",
+            "Arthur Theate",
+            "Brandon Mechele",
+            "Maxim De Cuyper",
+            "Nicolas Raskin",
+            "Youri Tielemans",
+            "Alexis Saelemaekers",
+            "Kevin De Bruyne",
+            "Leandro Trossard",
+            "Romelu Lukaku"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Phong độ kém thuyết phục",
+      "voiceText": "Cả hai đều chưa có phong độ như ý. Tuyển Bỉ gây thất vọng lớn khi chỉ ghi một bàn, và có hai trận hòa trước Ai Cập và Iran. Còn New Zealand đã kiên cường hòa Iran hai đều, nhưng lại phải nhận thất bại, một ba trước Ai Cập.",
+      "subtitle": "Cả hai đều chưa có phong độ như ý. Tuyển Bỉ gây thất vọng lớn khi chỉ ghi 1 bàn và có 2 trận hòa trước Ai Cập và Iran. Còn New Zealand đã kiên cường hòa Iran 2-2 nhưng lại phải nhận thất bại 1-3 trước Ai Cập.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Bỉ",
+      "h2hMatches": [
+        {
+          "date": "21/06/2026",
+          "home": "Bỉ",
+          "away": "Iran",
+          "score": "0-0",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/belgium.svg",
+          "awayBadgeSrc": "assets/football/flags/ir-iran.svg"
+        },
+        {
+          "date": "21/06/2026",
+          "home": "Ai Cập",
+          "away": "New Zealand",
+          "score": "3-1",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/egypt.svg",
+          "awayBadgeSrc": "assets/football/flags/new-zealand.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Đẳng cấp Quỷ đỏ",
+          "value": "Bỉ cửa trên"
+        },
+        {
+          "label": "Tinh thần chiến đấu",
+          "value": "New Zealand nỗ lực"
+        },
+        {
+          "label": "Mục tiêu duy nhất",
+          "value": "Phải thắng bằng mọi giá"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 38,
+              "away": 62
+            },
+            {
+              "label": "Sức ép tấn công",
+              "home": 40,
+              "away": 60
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định chuyên gia",
+      "quote": "Bỉ có chiều sâu đội hình vượt trội, nhưng họ cần đánh thức bản năng ghi bàn của Romelu Lukaku để cụ thể hóa ưu thế.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Nhận định của tôi là Quỷ đỏ Bỉ, sẽ áp đặt lối chơi và tạo ra nhiều cơ hội, nhưng vấn đề then chốt là liệu Lu ka ku, có thể tìm lại bản năng sát thủ của mình trước hàng thủ kiên cường của New Zealand hay không.",
+      "subtitle": "Nhận định của tôi là Quỷ đỏ Bỉ sẽ áp đặt lối chơi và tạo ra nhiều cơ hội, nhưng vấn đề then chốt là liệu Romelu Lukaku có thể tìm lại bản năng sát thủ của mình trước hàng thủ kiên cường của New Zealand hay không.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng G",
+      "subtext": "Cơ hội cuối cùng cho Quỷ đỏ",
+      "voiceText": "Bảng xếp hạng bảng Gờ hiện tại, Bỉ đang xếp thứ ba với hai điểm, bằng điểm với Iran và kém Ai Cập hai điểm. Để chắc suất đi tiếp, tuyển Bỉ bắt buộc phải giành chiến thắng trước New Zealand, đội xếp cuối với chỉ một điểm.",
+      "subtitle": "Bảng xếp hạng bảng G hiện tại, Bỉ đang xếp thứ ba với 2 điểm, bằng điểm với Iran và kém Ai Cập 2 điểm. Để chắc suất đi tiếp, tuyển Bỉ bắt buộc phải giành chiến thắng trước New Zealand, đội xếp cuối với chỉ 1 điểm.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group G Standings",
+      "highlightTeams": [
+        "New Zealand",
+        "Bỉ"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Ai Cập",
+            "code": "EGY",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/egypt.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+2"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Iran",
+            "code": "IRN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ir-iran.svg"
+          },
+          "played": 2,
+          "points": 2,
+          "gd": "0"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Bỉ",
+            "code": "BEL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/belgium.svg"
+          },
+          "played": 2,
+          "points": 2,
+          "gd": "0"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "New Zealand",
+            "code": "NZL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/new-zealand.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-2"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "DỰ ĐOÁN TỈ SỐ",
+      "subtext": "@meothichbl",
+      "voiceText": "Liệu Quỷ đỏ Bỉ sẽ bừng tỉnh để đi tiếp, hay các chiến binh New Zealand sẽ tạo nên cơn địa chấn lớn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu Quỷ đỏ Bỉ sẽ bừng tỉnh để đi tiếp, hay các chiến binh New Zealand sẽ tạo nên cơn địa chấn lớn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số New Zealand vs Bỉ",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "New Zealand",
+          "Bỉ"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "title": "Thụy Sĩ vs Algeria: Cửa trên kỷ luật gặp đội chuyên phá mood",
+  "slug": "thuy-si-vs-algeria-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Thụy Sĩ vs Algeria tại vòng 32 đội World Cup 2026, diễn ra lúc 10:00 ngày 03/07/2026 theo giờ Việt Nam tại BC Place Vancouver.",
+  "sources": [
+    {
+      "title": "FIFA - Switzerland v Algeria match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021527"
+    },
+    {
+      "title": "FIFA - Switzerland v Algeria match preview",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/switzerland-algeria-live-stream-team-news-tickets-and-more"
+    },
+    {
+      "title": "Sports Mole - Switzerland vs Algeria prediction, team news, lineups",
+      "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/preview/switzerland-vs-algeria-prediction-team-news-lineups_600371.html"
+    },
+    {
+      "title": "ESPN - Switzerland vs Algeria how to watch and predicted line-ups",
+      "url": "https://www.espn.com/soccer/story/_/id/49223711/fifa-world-cup-2026-switzerland-vs-algeria-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"
+    },
+    {
+      "title": "SportsLine - Switzerland vs Algeria odds",
+      "url": "https://www.sportsline.com/insiders/switzerland-vs-algeria-odds-predictions-2026-world-cup-round-of-32-picks-from-proven-soccer-expert/"
+    },
+    {
+      "title": "Khel Now - Switzerland vs Algeria head-to-head record",
+      "url": "https://khelnow.com/football/switzerland-vs-algeria-head-to-head-fifa-world-cup-2026"
+    },
+    {
+      "title": "ESPN - 2026 FIFA World Cup bracket and Match 96",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "THỤY SĨ VS ALGERIA",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Mười giờ sáng, ngày ba tháng bảy theo giờ Việt Nam, Thụy Sĩ gặp Algeria tại BC Place Vancouver. Thụy Sĩ nhất bảng Bê với bảy điểm, ghi bảy bàn và chỉ thua ba, còn Algeria vào knock-out bằng cửa hạng ba sau trận hòa ba đều cực drama với tuyển Áo. Một bên đá kỷ luật như đồng hồ, một bên có Mahrez và mấy pha phản công khiến tim hơi nhảy dây.",
+      "subtitle": "10:00 ngày 03/07 theo giờ Việt Nam, Thụy Sĩ gặp Algeria tại BC Place Vancouver. Thụy Sĩ nhất bảng B với 7 điểm, ghi 7 bàn và chỉ thua 3, còn Algeria vào knock-out bằng cửa hạng ba sau trận hòa 3-3 cực drama với tuyển Áo. Một bên đá kỷ luật như đồng hồ, một bên có Mahrez và mấy pha phản công khiến tim hơi nhảy dây.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "BC Place Vancouver",
+      "date": "03/07/2026",
+      "time": "10:00 VN",
+      "teams": [
+        {
+          "name": "Thụy Sĩ",
+          "code": "SUI",
+          "teamType": "national",
+          "form": ["D", "W", "W"],
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Algeria",
+          "code": "ALG",
+          "teamType": "national",
+          "form": ["L", "W", "D"],
+          "flagSrc": "assets/football/flags/algeria.svg",
+          "badgeSrc": "assets/football/flags/algeria.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Một vé vào vòng 16 đội",
+      "voiceText": "Thụy Sĩ chắc nhịp gặp Algeria giàu tốc độ. Đây không phải trận hào nhoáng nhất, nhưng có mùi khó chịu rất rõ.",
+      "subtitle": "Thụy Sĩ chắc nhịp gặp Algeria giàu tốc độ. Đây không phải trận hào nhoáng nhất, nhưng có mùi khó chịu rất rõ.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Thụy Sĩ vs Algeria | 03/07/2026 VN",
+      "ctaLabel": "Kickoff 10:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Xhaka, Embolo đấu Mahrez, Gouiri",
+      "voiceText": "Thụy Sĩ dự kiến đá sơ đồ bốn hai ba một, với Kobel trong khung gỗ, Jaquez, Elvedi, Akanji và Rodriguez ở hàng thủ. Freuler cùng Xhaka cầm nhịp tuyến giữa, còn Sow, Manzambi và Vargas hỗ trợ Embolo. Algeria cũng có thể dùng bốn hai ba một, với Zidane bắt chính, Belghali, Mandi, Bensebaini và Ait Nouri ở hàng thủ, Boudaoui cùng Bentaleb che chắn, phía trên là Mahrez, Maza, Chaibi và Gouiri.",
+      "subtitle": "Thụy Sĩ dự kiến đá sơ đồ 4-2-3-1, với Kobel trong khung gỗ, Jaquez, Elvedi, Akanji và Rodriguez ở hàng thủ. Freuler cùng Xhaka cầm nhịp tuyến giữa, còn Sow, Manzambi và Vargas hỗ trợ Embolo. Algeria cũng có thể dùng 4-2-3-1, với Zidane bắt chính, Belghali, Mandi, Bensebaini và Aït-Nouri ở hàng thủ, Boudaoui cùng Bentaleb che chắn, phía trên là Mahrez, Maza, Chaïbi và Gouiri.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "BC Place Vancouver",
+      "teams": [
+        {
+          "name": "Thụy Sĩ",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Algeria",
+          "code": "ALG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/algeria.svg",
+          "badgeSrc": "assets/football/flags/algeria.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Gregor Kobel",
+            "Luca Jaquez",
+            "Nico Elvedi",
+            "Manuel Akanji",
+            "Ricardo Rodriguez",
+            "Remo Freuler",
+            "Granit Xhaka",
+            "Djibril Sow",
+            "Johan Manzambi",
+            "Ruben Vargas",
+            "Breel Embolo"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Luca Zidane",
+            "Rafik Belghali",
+            "Aissa Mandi",
+            "Ramy Bensebaini",
+            "Rayan Ait-Nouri",
+            "Hicham Boudaoui",
+            "Nabil Bentaleb",
+            "Riyad Mahrez",
+            "Ibrahim Maza",
+            "Fares Chaibi",
+            "Amine Gouiri"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Thụy Sĩ nhỉnh hơn, Algeria có cửa phá nhịp",
+      "voiceText": "Hai đội mới gặp nhau hai lần trong lịch sử, đều là giao hữu, và Thụy Sĩ thắng cả hai. Năm một chín tám ba, Algeria thua một hai trên sân nhà, rồi năm một chín tám sáu, Thụy Sĩ thắng hai không. Nhưng dữ liệu cổ vậy chỉ để kể chuyện lúc chờ bóng lăn thôi. Hiện tại, Thụy Sĩ có tổ chức, Xhaka điều tiết rất chắc, còn Algeria có Mahrez, Gouiri và khả năng phản công đủ làm một trận cửa trên thành bài kiểm tra huyết áp.",
+      "subtitle": "Hai đội mới gặp nhau 2 lần trong lịch sử, đều là giao hữu, và Thụy Sĩ thắng cả hai. Năm 1983, Algeria thua 1-2 trên sân nhà, rồi năm 1986, Thụy Sĩ thắng 2-0. Nhưng dữ liệu cổ vậy chỉ để kể chuyện lúc chờ bóng lăn thôi. Hiện tại, Thụy Sĩ có tổ chức, Xhaka điều tiết rất chắc, còn Algeria có Mahrez, Gouiri và khả năng phản công đủ làm một trận cửa trên thành bài kiểm tra huyết áp.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Thụy Sĩ",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Algeria",
+          "code": "ALG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/algeria.svg",
+          "badgeSrc": "assets/football/flags/algeria.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Thụy Sĩ", "Algeria", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Nhỉnh hơn",
+            "x12": "Cửa gây khó chịu",
+            "hdp": "Swiss quanh mức +100/-103 kèo 90 phút"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Giữ khối, kiểm soát",
+            "x12": "Chuyển trạng thái nhanh",
+            "hdp": "Algeria cần kéo trận vào va chạm"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "Xhaka, Akanji, Embolo",
+            "x12": "Mahrez, Gouiri, Bentaleb",
+            "hdp": "Cánh phải Algeria rất đáng xem"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "09/11/1983",
+          "competition": "Friendly",
+          "home": "Algeria",
+          "away": "Switzerland",
+          "score": "1-2",
+          "note": "Thụy Sĩ thắng tại Algiers",
+          "homeBadgeSrc": "assets/football/flags/algeria.svg",
+          "awayBadgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "kickoff": "14/05/1986",
+          "competition": "Friendly",
+          "home": "Switzerland",
+          "away": "Algeria",
+          "score": "2-0",
+          "note": "Thụy Sĩ thắng trận gần nhất",
+          "homeBadgeSrc": "assets/football/flags/switzerland.svg",
+          "awayBadgeSrc": "assets/football/flags/algeria.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 57,
+              "away": 43
+            },
+            {
+              "label": "Nguy cơ phản công",
+              "home": 48,
+              "away": 68
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Kèo & nhận định",
+      "subtext": "Cửa trên nhẹ, trận dễ sít sao",
+      "quote": "Thụy Sĩ có nền tảng đáng tin hơn nhờ tổ chức phòng ngự, kinh nghiệm của Xhaka và sự ổn định ở các giải lớn. Nhưng Algeria không phải đội để cửa trên đá thong dong, vì họ có tốc độ và những pha lên bóng rất biết làm trận đấu nóng lên.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Về tỷ lệ kèo, Thụy Sĩ là cửa trên nhẹ, không phải kiểu áp đảo đến mức nhìn là xong phim. Kèo chín mươi phút quanh vùng cân bằng cho thấy trận này dễ phải kiên nhẫn, và Algeria có đủ bài phản công để làm người xem tỉnh ngủ sau bữa sáng. Nhận định của tôi là Thụy Sĩ nhỉnh hơn nhờ tổ chức và kinh nghiệm, nhưng tỉ số có thể chỉ là hai một.",
+      "subtitle": "Về tỷ lệ kèo, Thụy Sĩ là cửa trên nhẹ, không phải kiểu áp đảo đến mức nhìn là xong phim. Kèo 90 phút quanh vùng cân bằng cho thấy trận này dễ phải kiên nhẫn, và Algeria có đủ bài phản công để làm người xem tỉnh ngủ sau bữa sáng. Nhận định của tôi là Thụy Sĩ nhỉnh hơn nhờ tổ chức và kinh nghiệm, nhưng tỉ số có thể chỉ là 2-1.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng gặp Colombia hoặc Ghana tại Vancouver",
+      "voiceText": "Ở nhánh kế bên, Colombia gặp Ghana lúc tám giờ ba mươi sáng, ngày mùng bốn tháng bảy theo giờ Việt Nam tại Kansas City Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Thụy Sĩ gặp Algeria, vòng mười sáu đội, lúc ba giờ sáng, ngày mùng tám tháng bảy theo giờ Việt Nam tại BC Place Vancouver. Nghĩa là nếu Thụy Sĩ hoặc Algeria đi tiếp, họ được ở lại Vancouver, nhưng đối thủ kế tiếp thì không hề có chế độ dễ thở.",
+      "subtitle": "Ở nhánh kế bên, Colombia gặp Ghana lúc 08:30 ngày 04/07 theo giờ Việt Nam tại Kansas City Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Thụy Sĩ vs Algeria, vòng 16 đội, lúc 03:00 ngày 08/07 theo giờ Việt Nam tại BC Place Vancouver. Nghĩa là nếu Thụy Sĩ hoặc Algeria đi tiếp, họ được ở lại Vancouver, nhưng đối thủ kế tiếp thì không hề có chế độ dễ thở.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Colombia",
+          "away": "Ghana",
+          "score": "08:30 04/07 VN",
+          "note": "Kansas City Stadium | Match 87",
+          "homeBadgeSrc": "assets/football/flags/colombia.svg",
+          "awayBadgeSrc": "assets/football/flags/ghana.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Winner Switzerland/Algeria",
+          "away": "Winner Colombia/Ghana",
+          "score": "03:00 08/07 VN",
+          "note": "BC Place Vancouver | Match 96",
+          "homeBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Swiss chắc tay hay Algeria tạo biến?",
+      "voiceText": "Theo bạn, Thụy Sĩ sẽ thắng bằng sự chắc chắn quen thuộc, hay Algeria kéo trận này vào một kịch bản phản công khiến cửa trên toát mồ hôi? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Thụy Sĩ sẽ thắng bằng sự chắc chắn quen thuộc, hay Algeria kéo trận này vào một kịch bản phản công khiến cửa trên toát mồ hôi? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Thụy Sĩ vs Algeria",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Thụy Sĩ",
+          "Algeria",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

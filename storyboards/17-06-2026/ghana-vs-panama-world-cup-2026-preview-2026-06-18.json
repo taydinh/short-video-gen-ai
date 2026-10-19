@@ -1,0 +1,447 @@
+{
+  "title": "Ghana vs Panama: trận cơ hội của bảng L",
+  "slug": "ghana-vs-panama-world-cup-2026-preview-2026-06-18",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Ghana - Panama, kickoff 06:00 ngày 18/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FOX Sports - Ghana vs Panama schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    },
+    {
+      "title": "FIFA - Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "title": "FOX Sports - 2026 World Cup schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Ghana vs Panama",
+      "subtext": "Trận đấu của cơ hội đi tiếp",
+      "voiceText": "Ghana gặp Panama lúc sáu giờ sáng, ngày mười tám tháng sáu theo giờ Việt Nam. Trong bảng L có England và Croatia, đây là trận mà cả Ghana lẫn Panama đều hiểu rằng mình phải kiếm điểm.",
+      "subtitle": "Ghana gặp Panama lúc 06:00 ngày 18/06 theo giờ Việt Nam. Trong bảng L có England và Croatia, đây là trận mà cả Ghana lẫn Panama đều hiểu rằng mình phải kiếm điểm.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group L - Matchday 1",
+      "venue": "Toronto Stadium",
+      "date": "18/06/2026",
+      "time": "06:00 VN",
+      "teams": [
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "form": "Sức mạnh và tốc độ",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        },
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "form": "Kỷ luật và tranh chấp",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng L không chỉ có England-Croatia",
+      "subtext": "Ghana và Panama cần điểm",
+      "voiceText": "Nếu trận England gặp Croatia là màn đinh, thì Ghana gặp Panama là trận cơ hội. Đội nào thắng sẽ tự mở ra đường đi rất khác trước hai lượt còn lại.",
+      "subtitle": "Nếu trận England gặp Croatia là màn đinh, thì Ghana gặp Panama là trận cơ hội. Đội nào thắng sẽ tự mở ra đường đi rất khác trước hai lượt còn lại.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group L Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Ghana vs Panama | 18/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Ghana có tốc độ, Panama cần kỷ luật",
+      "voiceText": "Ghana có thể dùng Ati Zigi, Lamptey, Djiku, Salisu, Mensah, Partey, Kudus, Jordan Ayew, Inaki Williams và Semenyo. Panama có thể dựa vào Mosquera, Murillo, Escobar, Cummings, Davis, Carrasquilla, Godoy, Barcenas, Quintero và Fajardo.",
+      "subtitle": "Ghana có thể dùng Ati Zigi, Lamptey, Djiku, Salisu, Mensah, Partey, Kudus, Jordan Ayew, Inaki Williams và Semenyo. Panama có thể dựa vào Mosquera, Murillo, Escobar, Cummings, Davis, Carrasquilla, Godoy, Barcenas, Quintero và Fajardo.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        },
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/panama.svg",
+          "badgeSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Ati Zigi",
+            "Lamptey",
+            "Djiku",
+            "Salisu",
+            "Mensah",
+            "Partey",
+            "Samed",
+            "Kudus",
+            "Jordan Ayew",
+            "Semenyo",
+            "Inaki Williams"
+          ]
+        },
+        "away": {
+          "formation": "5-4-1",
+          "players": [
+            "Mosquera",
+            "Murillo",
+            "Escobar",
+            "Cummings",
+            "Davis",
+            "Carrasquilla",
+            "Godoy",
+            "Barcenas",
+            "Quintero",
+            "Fajardo",
+            "Blackman"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Thế trận: tranh chấp rất nhiều",
+      "subtext": "Bàn đầu tiên cực quan trọng",
+      "voiceText": "Ghana có nhiều cầu thủ có thể tạo khác biệt bằng tốc độ và sức mạnh. Panama cần kéo trận đấu về nhịp tranh chấp, giảm không gian sau lưng hàng thủ và tận dụng bóng cố định.",
+      "subtitle": "Ghana có nhiều cầu thủ có thể tạo khác biệt bằng tốc độ và sức mạnh. Panama cần kéo trận đấu về nhịp tranh chấp, giảm không gian sau lưng hàng thủ và tận dụng bóng cố định.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Ghana",
+          "away": "Panama",
+          "score": "Preview",
+          "note": "Hai đội cạnh tranh trực tiếp cho vị trí tốt nhất có thể",
+          "homeBadgeSrc": "assets/football/flags/ghana.svg",
+          "awayBadgeSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Tốc độ",
+          "value": "Ghana"
+        },
+        {
+          "label": "Bóng cố định",
+          "value": "Panama"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Bàn đầu tiên"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Sức mạnh chuyển trạng thái",
+              "home": 84,
+              "away": 70
+            },
+            {
+              "label": "Kỷ luật phòng ngự",
+              "home": 73,
+              "away": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Kudus",
+      "subtext": "Một pha xoay người có thể mở trận",
+      "voiceText": "Điểm nóng là Kudus giữa các lớp phòng ngự Panama. Nếu Ghana đưa được bóng vào chân Kudus ở vùng nguy hiểm, Panama sẽ phải phạm lỗi hoặc vỡ cự ly.",
+      "subtitle": "Điểm nóng là Kudus giữa các lớp phòng ngự Panama. Nếu Ghana đưa được bóng vào chân Kudus ở vùng nguy hiểm, Panama sẽ phải phạm lỗi hoặc vỡ cự ly.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Đây là trận không hào nhoáng nhất ngày, nhưng có thể là trận quyết định số phận bảng L.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng L",
+      "subtext": "Không được trắng tay ở lượt đầu",
+      "voiceText": "Với England và Croatia ở cùng bảng, Ghana và Panama càng không được trắng tay. Một điểm vẫn còn đường tính, nhưng ba điểm sẽ là cú hích cực lớn.",
+      "subtitle": "Với England và Croatia ở cùng bảng, Ghana và Panama càng không được trắng tay. 1 điểm vẫn còn đường tính, nhưng 3 điểm sẽ là cú hích cực lớn.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026 - Group L",
+      "activeTab": "GROUP L",
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "GHA",
+        "PAN"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "England",
+            "code": "ENG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/england.svg",
+            "badgeSrc": "assets/football/flags/england.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Croatia",
+            "code": "CRO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/croatia.svg",
+            "badgeSrc": "assets/football/flags/croatia.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Ghana",
+            "code": "GHA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ghana.svg",
+            "badgeSrc": "assets/football/flags/ghana.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Panama",
+            "code": "PAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/panama.svg",
+            "badgeSrc": "assets/football/flags/panama.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số Ghana vs Panama",
+      "subtext": "Comment góc nhìn của bạn",
+      "voiceText": "Bạn nghĩ Ghana sẽ thắng bằng tốc độ, hay Panama sẽ kéo trận đấu về thế giằng co ít bàn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn nghĩ Ghana sẽ thắng bằng tốc độ, hay Panama sẽ kéo trận đấu về thế giằng co ít bàn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Ghana vs Panama",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Ghana vs Panama",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png",
+          "Ghana",
+          "Panama",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

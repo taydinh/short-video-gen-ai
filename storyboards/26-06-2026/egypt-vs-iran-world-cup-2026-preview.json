@@ -1,0 +1,416 @@
+{
+  "title": "Ai Cập vs Iran | Preview World Cup 2026",
+  "slug": "egypt-vs-iran-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Ai Cập vs Iran, 10:00 ngày 27/06/2026 giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Ai Cập vs Iran",
+      "subtext": "Mohamed Salah quyết tâm làm nên lịch sử",
+      "voiceText": "Ai Cập chạm trán Iran vào lúc mười giờ sáng, ngày hai mươi bảy tháng sáu theo giờ Việt Nam. Đây là trận chiến trực tiếp tranh tấm vé đi tiếp tại bảng Gờ, World Cup hai không hai sáu diễn ra tại thành phố Seattle, nơi cả hai đội tuyển đều khao khát khẳng định sức mạnh.",
+      "subtitle": "Ai Cập chạm trán Iran vào lúc 10:00 ngày 27/06 theo giờ Việt Nam. Đây là trận chiến trực tiếp tranh tấm vé đi tiếp tại bảng G World Cup 2026 diễn ra tại thành phố Seattle, nơi cả hai đội tuyển đều khao khát khẳng định sức mạnh.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group G - Matchday 3",
+      "venue": "Seattle Stadium",
+      "date": "27/06/2026",
+      "time": "10:00 VN",
+      "teams": [
+        {
+          "name": "Ai Cập",
+          "code": "EGY",
+          "form": "4 Điểm",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        },
+        {
+          "name": "Iran",
+          "code": "IRN",
+          "form": "2 Điểm",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ir-iran.svg",
+          "badgeSrc": "assets/football/flags/ir-iran.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Trận chiến sinh tử",
+      "subtext": "Egypt vs Iran quyết chiến",
+      "voiceText": "Lượt trận cuối bảng Gờ, World Cup hai không hai sáu. Một kết quả hòa là đủ để Ai Cập đi tiếp, nhưng đại diện châu Á Iran buộc phải thắng để tự quyết định số phận.",
+      "subtitle": "Lượt trận cuối Bảng G World Cup 2026. Một kết quả hòa là đủ để Ai Cập đi tiếp, nhưng đại diện châu Á Iran buộc phải thắng để tự quyết định số phận.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group G Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Ai Cập vs Iran | 27/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Salah đấu đầu Taremi",
+      "voiceText": "Ai Cập dự kiến ra sân với sơ đồ bốn hai ba một, niềm hy vọng lớn nhất vẫn đặt lên vai Mô ha mét Sa lah, cùng phong độ cao của O ma Mác mút. Phía Iran sẽ chơi với sơ đồ năm bốn một thực dụng, xoay quanh tài săn bàn của Mê đi Ta rê mi.",
+      "subtitle": "Ai Cập dự kiến ra sân với sơ đồ 4-2-3-1, niềm hy vọng lớn nhất vẫn đặt lên vai Mohamed Salah cùng phong độ cao của Omar Marmoush. Phía Iran sẽ chơi với sơ đồ 5-4-1 thực dụng, xoay quanh tài săn bàn của Mehdi Taremi.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Ai Cập",
+          "code": "EGY",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        },
+        {
+          "name": "Iran",
+          "code": "IRN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ir-iran.svg",
+          "badgeSrc": "assets/football/flags/ir-iran.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Mostafa Shobeir",
+            "Mohamed Hany",
+            "Yasser Ibrahim",
+            "Hamdi Fathy",
+            "Ahmed Fatouh",
+            "Mohanad Lasheen",
+            "Marwan Attia",
+            "Mostafa Zico",
+            "Emam Ashour",
+            "Omar Marmoush",
+            "Mohamed Salah"
+          ]
+        },
+        "away": {
+          "formation": "5-4-1",
+          "players": [
+            "Alireza Beiranvand",
+            "Ramin Rezaeian",
+            "Hossein Kanaani",
+            "Shojae Khalilzadeh",
+            "Armin Nemati",
+            "Ehsan Hajsafi",
+            "Saeid Ezatolahi",
+            "Saman Ghoddos",
+            "Sadegh Hardani",
+            "Mohammad Mohebi",
+            "Mehdi Taremi"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Sức mạnh của Ai Cập",
+      "voiceText": "Tại bảng đấu này, Ai Cập đang thể hiện phong độ ấn tượng, khi vượt qua New Zealand ba một kịch tính. Trong khi đó, Iran đã có trận đấu kiên cường, để cầm hòa Bỉ không đều nhờ sự xuất sắc của hàng thủ.",
+      "subtitle": "Tại bảng đấu này, Ai Cập đang thể hiện phong độ ấn tượng khi vượt qua New Zealand 3-1 kịch tính. Trong khi đó, Iran đã có trận đấu kiên cường để cầm hòa Bỉ 0-0 nhờ sự xuất sắc của hàng thủ.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Ai Cập",
+      "awayTeam": "Iran",
+      "h2hMatches": [
+        {
+          "date": "21/06/2026",
+          "home": "Ai Cập",
+          "away": "New Zealand",
+          "score": "3-1",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/egypt.svg",
+          "awayBadgeSrc": "assets/football/flags/new-zealand.svg"
+        },
+        {
+          "date": "21/06/2026",
+          "home": "Bỉ",
+          "away": "Iran",
+          "score": "0-0",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/belgium.svg",
+          "awayBadgeSrc": "assets/football/flags/ir-iran.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Đẳng cấp ngôi sao",
+          "value": "Ai Cập tự tin"
+        },
+        {
+          "label": "Lối chơi phòng ngự",
+          "value": "Iran kiên cường"
+        },
+        {
+          "label": "Chìa khóa đi tiếp",
+          "value": "Tấm vé bảng G"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 55,
+              "away": 45
+            },
+            {
+              "label": "Tấn công nguy hiểm",
+              "home": 58,
+              "away": 42
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định chuyên gia",
+      "quote": "Ai Cập có sức tấn công mạnh mẽ của Salah, nhưng họ phải hết sức cẩn thận trước những pha phản công của Iran.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Nhận định của tôi là Ai Cập có lợi thế lớn về thế trận nhờ sự năng nổ của Mô ha mét Sa lah, tuy nhiên họ không được chủ quan trước lối chơi phòng ngự phản công sắc lẹm và vô cùng kỷ luật của đại diện Tây Á.",
+      "subtitle": "Nhận định của tôi là Ai Cập có lợi thế lớn về thế trận nhờ sự năng nổ của Mohamed Salah, tuy nhiên họ không được chủ quan trước lối chơi phòng ngự phản công sắc lẹm và vô cùng kỷ luật của đại diện Tây Á.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng G",
+      "subtext": "Cuộc đua vô cùng khốc liệt",
+      "voiceText": "Bảng xếp hạng bảng Gờ hiện tại, Ai Cập dẫn đầu với bốn điểm, Iran và Bỉ chia nhau hai vị trí tiếp theo với cùng hai điểm, còn New Zealand đứng cuối với một điểm. Mọi kịch bản đều có thể xảy ra ở lượt đấu cuối.",
+      "subtitle": "Bảng xếp hạng bảng G hiện tại, Ai Cập dẫn đầu với 4 điểm, Iran và Bỉ chia nhau hai vị trí tiếp theo với cùng 2 điểm, còn New Zealand đứng cuối với 1 điểm. Mọi kịch bản đều có thể xảy ra ở lượt đấu cuối.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group G Standings",
+      "highlightTeams": [
+        "Ai Cập",
+        "Iran"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Ai Cập",
+            "code": "EGY",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/egypt.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+2"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Iran",
+            "code": "IRN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ir-iran.svg"
+          },
+          "played": 2,
+          "points": 2,
+          "gd": "0"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Bỉ",
+            "code": "BEL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/belgium.svg"
+          },
+          "played": 2,
+          "points": 2,
+          "gd": "0"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "New Zealand",
+            "code": "NZL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/new-zealand.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-2"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "DỰ ĐOÁN TỈ SỐ",
+      "subtext": "@meothichbl",
+      "voiceText": "Liệu nhà vua châu Phi Ai Cập sẽ giữ vững ngôi đầu, hay các chiến binh Iran sẽ tạo nên bất ngờ lớn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu nhà vua châu Phi Ai Cập sẽ giữ vững ngôi đầu, hay các chiến binh Iran sẽ tạo nên bất ngờ lớn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Ai Cập vs Iran",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Ai Cập",
+          "Iran"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

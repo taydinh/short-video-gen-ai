@@ -1,0 +1,579 @@
+{
+  "title": "Đức vs Paraguay: Cửa trên Đức và bài test vòng 32 World Cup 2026",
+  "slug": "germany-vs-paraguay-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Đức vs Paraguay tại vòng 32 đội World Cup 2026, diễn ra lúc 03:30 ngày 30/06/2026 theo giờ Việt Nam tại Boston Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Germany v Paraguay Round of 32 match preview",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/germany-paraguay-live-stream-team-news-tickets"
+    },
+    {
+      "title": "Sports Mole - Germany vs Paraguay preview, team news and lineups",
+      "url": "https://www.sportsmole.co.uk/football/germany/world-cup-2026/preview/germany-vs-paraguay-prediction-team-news-lineups_600229.html"
+    },
+    {
+      "title": "Bavarian Football Works - Germany vs Paraguay World Cup matchday preview",
+      "url": "https://www.bavarianfootballworks.com/fifa-world-cup/222631/world-cup-matchday-preview-germany-vs-paraguay"
+    },
+    {
+      "title": "GOAL - Germany vs Paraguay FIFA World Cup 2026 preview",
+      "url": "https://www.goal.com/en-us/news/germany-paraguay-world-cup-preview/blt69845ea4b54b1ac0"
+    },
+    {
+      "title": "DFB - Fan information: Germany vs Paraguay at Boston Stadium",
+      "url": "https://www.dfb.de/news/germany-to-face-paraguay-in-round-of-32"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ĐỨC VS PARAGUAY",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Ba giờ ba mươi sáng, ngày ba mươi tháng sáu, Đức gặp Pa Ra Quay tại Boston Stadium. Một bên là cửa trên giàu hỏa lực, một bên là đội bóng kiểu, đá không hào nhoáng nhưng rất biết làm người ta đau đầu.",
+      "subtitle": "03:30 ngày 30/06, Đức gặp Paraguay tại Boston Stadium. Một bên là cửa trên giàu hỏa lực, một bên là đội bóng đá không hào nhoáng nhưng rất biết làm người ta đau đầu.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Boston Stadium",
+      "date": "30/06/2026",
+      "time": "03:30 VN",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "form": ["W", "W", "L"],
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Paraguay",
+          "code": "PAR",
+          "teamType": "national",
+          "form": ["L", "W", "D"],
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "badgeSrc": "assets/football/flags/paraguay.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Knockout bắt đầu căng rồi",
+      "voiceText": "World Cup hai không hai sáu, bước vào vòng loại trực tiếp, nơi đá đẹp là tốt, nhưng sống sót mới là việc chính. Đức nhất bảng E, còn Pa Ra Quay lách qua khe cửa hẹp với vé đội hạng ba.",
+      "subtitle": "World Cup 2026 bước vào vòng loại trực tiếp, nơi đá đẹp là tốt, nhưng sống sót mới là việc chính. Germany nhất bảng E, còn Paraguay lách qua khe cửa hẹp với vé đội hạng ba.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Germany vs Paraguay | 30/06/2026 VN",
+      "ctaLabel": "Kickoff 03:30 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Đức cầm bóng, Paraguay rình đòn",
+      "voiceText": "Đức dự kiến dùng sơ đồ bốn hai ba một, với Neuer trong khung gỗ, Kimmich, Rudiger, Tah và Brown ở hàng thủ. Phía trên, Musiala, Wirtz, Sane hỗ trợ ha vớt. Pa Ra Quay có thể đá bốn bốn hai, chờ Almiron và Enciso tạo cú chọc ngoáy đúng lúc.",
+      "subtitle": "Germany dự kiến dùng sơ đồ 4-2-3-1, với Neuer trong khung gỗ, Kimmich, Rüdiger, Tah và Brown ở hàng thủ. Phía trên, Musiala, Wirtz, Sané hỗ trợ Havertz. Paraguay có thể đá 4-4-2, chờ Almirón và Enciso tạo cú chọc ngoáy đúng lúc.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Boston Stadium",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Paraguay",
+          "code": "PAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "badgeSrc": "assets/football/flags/paraguay.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Neuer",
+            "Kimmich",
+            "Rudiger",
+            "Tah",
+            "Brown",
+            "Nmecha",
+            "Pavlovic",
+            "Sane",
+            "Musiala",
+            "Wirtz",
+            "Havertz"
+          ]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": [
+            "Gill",
+            "Caceres",
+            "Alderete",
+            "Velazquez",
+            "Alonso",
+            "Almiron",
+            "Cubas",
+            "Galarza",
+            "Mauricio",
+            "Enciso",
+            "Avalos"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Đức sáng cửa, nhưng không được ngủ quên",
+      "voiceText": "Kèo chuyên môn đang nghiêng mạnh về Đức, nhưng anh em đừng quên, Pa Ra Quay từng kéo Đức vào trận hòa ba - ba, năm hai không mười ba.Còn Lần gặp ở World Cup hai không lẻ hai, Đức chỉ thắng một không. Cửa trên là Đức, còn kịch bản khó chịu là Pa Ra Quay kéo trận đấu sang hiệp phụ.",
+      "subtitle": "Kèo chuyên môn đang nghiêng mạnh về Germany, nhưng Paraguay từng kéo Đức vào trận hòa 3-3 năm 2013. Còn Lần gặp ở World Cup 2002, Germany chỉ thắng 1-0. Cửa trên là Đức, còn kịch bản khó chịu là Paraguay kéo trận đấu sang hiệp phụ.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Paraguay",
+          "code": "PAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "badgeSrc": "assets/football/flags/paraguay.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Germany", "Paraguay", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Cửa trên",
+            "x12": "Cửa dưới",
+            "hdp": "Đức nhỉnh rõ"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Cầm bóng",
+            "x12": "Phản công",
+            "hdp": "Đấu trí trung lộ"
+          },
+          {
+            "teamName": "Kịch bản",
+            "scoreText": "Thắng 90 phút",
+            "x12": "Kéo dài trận",
+            "hdp": "Knockout rất khó đoán"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "15/06/2002",
+          "competition": "World Cup",
+          "home": "Germany",
+          "away": "Paraguay",
+          "score": "1-0",
+          "homeBadgeSrc": "assets/football/flags/germany.svg",
+          "awayBadgeSrc": "assets/football/flags/paraguay.svg"
+        },
+        {
+          "kickoff": "14/08/2013",
+          "competition": "Friendly",
+          "home": "Germany",
+          "away": "Paraguay",
+          "score": "3-3",
+          "homeBadgeSrc": "assets/football/flags/germany.svg",
+          "awayBadgeSrc": "assets/football/flags/paraguay.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 62,
+              "away": 38
+            },
+            {
+              "label": "Nguy cơ phản công",
+              "home": 48,
+              "away": 52
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng",
+      "subtext": "Wirtz và Musiala trước khối phòng ngự Paraguay",
+      "quote": "Nếu Đức mở khóa được lớp pressing đầu tiên, Paraguay sẽ phải chạy rất nhiều. Còn nếu Đức mất bóng hớ hênh, Almirón và Enciso sẽ lập tức gõ cửa.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng nằm ở khoảng trống sau lưng hai biên của Đức. Wirtz và Musiala có thể biến trận đấu thành buổi biểu diễn kỹ thuật, nhưng chỉ cần mất bóng sai nhịp, Almiron và Enciso sẽ nhắc nhẹ rằng vòng knock out không có nút làm lại.",
+      "subtitle": "Điểm nóng nằm ở khoảng trống sau lưng hai biên của Germany. Wirtz và Musiala có thể biến trận đấu thành buổi biểu diễn kỹ thuật, nhưng chỉ cần mất bóng sai nhịp, Almirón và Enciso sẽ nhắc nhẹ rằng vòng knock-out không có nút làm lại.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Đường vào vòng 32",
+      "subtext": "Nhánh đấu bắt đầu siết lại",
+      "voiceText": "Cục diện khá rõ: Đức vào vòng ba mươi hai với ngôi nhất bảng E, còn Pa Ra Quay có bốn điểm ở bảng Đê và đi tiếp nhờ nhóm đội hạng ba tốt nhất. Đội thắng cặp này sẽ gặp đội thắng của cặp Pháp gặp Thụy Điển. Nói ngắn gọn, đây là lúc không ai được phép đá như đang khởi động đầu buổi.",
+      "subtitle": "Cục diện khá rõ: Germany vào vòng 32 với ngôi nhất bảng E, còn Paraguay có 4 điểm ở bảng D và đi tiếp nhờ nhóm đội hạng ba tốt nhất. Đội thắng cặp này sẽ gặp đội thắng của cặp France gặp Sweden. Nói ngắn gọn, đây là lúc không ai được phép đá như đang khởi động đầu buổi.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "highlightTeams": ["GER", "PAR"],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Germany",
+            "code": "GER",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/germany.svg"
+          },
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "gf": 11,
+          "ga": 4,
+          "gd": 7,
+          "pts": 6
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Paraguay",
+            "code": "PAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/paraguay.svg"
+          },
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "pts": 4
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "France",
+            "code": "FRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/france.svg"
+          },
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "gf": 8,
+          "ga": 2,
+          "gd": 6,
+          "pts": 9
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Sweden",
+            "code": "SWE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/sweden.svg"
+          },
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "gf": 6,
+          "ga": 9,
+          "gd": -3,
+          "pts": 3
+        },
+        {
+          "rank": 5,
+          "team": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/brazil.svg"
+          },
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 5,
+          "ga": 1,
+          "gd": 4,
+          "pts": 7
+        },
+        {
+          "rank": 6,
+          "team": {
+            "name": "Japan",
+            "code": "JPN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/japan.svg"
+          },
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "gf": 4,
+          "ga": 6,
+          "gd": -2,
+          "pts": 4
+        },
+        {
+          "rank": 7,
+          "team": {
+            "name": "South Africa",
+            "code": "RSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/south-africa.svg"
+          },
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "pts": 5
+        },
+        {
+          "rank": 8,
+          "team": {
+            "name": "Canada",
+            "code": "CAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/canada.svg"
+          },
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "gf": 8,
+          "ga": 1,
+          "gd": 7,
+          "pts": 7
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Đức thắng gọn hay Paraguay kéo drama?",
+      "voiceText": "Theo bạn, Đức sẽ giải quyết trận này trong chín mươi phút, hay Pa Ra Quay kéo cả thế giới vào chế độ căng não? Bình luận tỉ số và kèo của các bác nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Đức sẽ giải quyết trận này trong 90 phút, hay Paraguay kéo cả thế giới vào chế độ căng não? Bình luận tỉ số và kèo của các bác nhé. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Đức vs Paraguay",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Germany",
+          "Paraguay",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "title": "United States vs Paraguay: Chủ nhà Mỹ mở màn World Cup 2026",
+  "slug": "usa-vs-paraguay-world-cup-preview-2026-06-13",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "sources": [
+    {
+      "name": "U.S. Soccer match hub and official lineups",
+      "url": "https://www.ussoccer.com/competitions/fifa-world-cup-26/matches/united-states-paraguay-tickets-live-score-match-hub-lineups-highlights"
+    },
+    {
+      "name": "Al Jazeera match preview",
+      "url": "https://www.aljazeera.com/sports/2026/6/12/usa-vs-paraguay-world-cup-2026-group-match-trump-schedule-lineups"
+    },
+    {
+      "name": "FOX Sports odds and prediction",
+      "url": "https://www.foxsports.com/stories/soccer/2026-world-cup-usa-paraguay-odds-prediction-picks"
+    },
+    {
+      "name": "SB Nation referee and odds context",
+      "url": "https://www.sbnation.com/soccer/24481331/usmnt-vs-paraguay-referees-2026-world-cup-danny-makkelie-hessel-steegstra-jan-de-vries"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "MỸ MỞ MÀN SÂN NHÀ!",
+      "subtext": "United States vs Paraguay",
+      "subtitle": "United States gặp Paraguay tại Los Angeles Stadium, lúc 08:00 ngày 13/06 theo giờ Việt Nam. Đây là trận ra quân World Cup 2026 của chủ nhà Mỹ ở bảng D.",
+      "voiceText": "Mỹ mở màn sân nhà! Mỹ gặp Paraguay tại Los Angeles Stadium, lúc tám giờ sáng ngày mười ba tháng sáu theo giờ Việt Nam. Đây là trận ra quân World Cup hai không hai sáu của chủ nhà Mỹ ở bảng Đê.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group D - Matchday 1",
+      "venue": "Los Angeles Stadium, Los Angeles",
+      "date": "13.06.2026",
+      "time": "08:00",
+      "teams": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg",
+          "form": ["W", "D", "W", "L", "W", "D"]
+        },
+        {
+          "name": "Paraguay",
+          "code": "PAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "badgeSrc": "assets/football/flags/paraguay.svg",
+          "form": ["D", "W", "D", "L", "W", "D"]
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 4.6, "top": "76%", "size": 84 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Group D Preview",
+      "seasonLabel": "United States vs Paraguay | 13.06.2026 VN",
+      "ctaLabel": "Kick-off 08:00 VN",
+      "subtitle": "Sau Mexico và Canada, đến lượt chủ nhà United States bước vào World Cup, với áp lực phải thắng ngay trận đầu để giữ lợi thế ở bảng D.",
+      "voiceText": "Sau Mexico và Canada, đến lượt chủ nhà Mỹ bước vào World Cup, với áp lực phải thắng ngay trận đầu để giữ lợi thế ở bảng Đê.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình ra sân",
+      "subtitle": "United States đưa Matt Freese bắt chính, phía trên có Robinson, Ream, Richards, Freeman, Adams, Tillman, Pulisic, McKennie, Dest và Balogun. Paraguay dùng bộ khung có Orlando Gill, Gustavo Gómez, Diego Gómez, Miguel Almirón, Julio Enciso và Antonio Sanabria.",
+      "voiceText": "Mỹ đưa Matt Freese bắt chính, phía trên có Robinson, Ream, Richards, Freeman, Adams, Tillman, Pulisic, McKennie, Dest và Balogun. Paraguay dùng bộ khung có Orlando Gill, Gustavo Gomez, Diego Gomez, Miguel Almiron, Julio Enciso và Antonio Sanabria.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Los Angeles Stadium",
+      "teams": [
+        { "name": "United States", "code": "USA", "teamType": "national", "flagSrc": "assets/football/flags/united-states.svg", "badgeSrc": "assets/football/flags/united-states.svg" },
+        { "name": "Paraguay", "code": "PAR", "teamType": "national", "flagSrc": "assets/football/flags/paraguay.svg", "badgeSrc": "assets/football/flags/paraguay.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": ["Matt Freese", "Antonee Robinson", "Tim Ream", "Chris Richards", "Alex Freeman", "Tyler Adams", "Malik Tillman", "Christian Pulisic", "Weston McKennie", "Sergino Dest", "Folarin Balogun"]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": ["Orlando Gill", "Junior Alonso", "Omar Alderete", "Gustavo Gomez", "Juan Jose Caceres", "Miguel Almiron", "Damian Bobadilla", "Andres Cubas", "Diego Gomez", "Julio Enciso", "Antonio Sanabria"]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Mỹ được đánh giá nhỉnh hơn",
+      "subtext": "Sân nhà, áp lực lớn, Paraguay chờ phản công",
+      "subtitle": "Theo FOX Sports, United States là cửa nhỉnh hơn trước giờ bóng lăn. Nhưng Paraguay từng vào World Cup nhờ vòng loại Nam Mỹ rất khó, nên trận này có thể căng hơn bảng kèo.",
+      "voiceText": "Theo FOX Sports, Mỹ là cửa nhỉnh hơn trước giờ bóng lăn. Nhưng Paraguay từng vào World Cup nhờ vòng loại Nam Mỹ rất khó, nên trận này có thể căng hơn bảng kèo.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "teams": [
+        { "name": "United States", "code": "USA", "teamType": "national", "flagSrc": "assets/football/flags/united-states.svg", "badgeSrc": "assets/football/flags/united-states.svg" },
+        { "name": "Paraguay", "code": "PAR", "teamType": "national", "flagSrc": "assets/football/flags/paraguay.svg", "badgeSrc": "assets/football/flags/paraguay.svg" }
+      ],
+      "odds": [
+        { "label": "USA thắng", "value": "-105" },
+        { "label": "Hòa", "value": "+240" },
+        { "label": "Paraguay thắng", "value": "+320" }
+      ],
+      "h2hMatches": [
+        { "home": "United States", "away": "Paraguay", "score": "2-1", "date": "2025 friendly", "homeBadgeSrc": "assets/football/flags/united-states.svg", "awayBadgeSrc": "assets/football/flags/paraguay.svg" },
+        { "home": "United States", "away": "Paraguay", "score": "World Cup opener", "date": "2026", "homeBadgeSrc": "assets/football/flags/united-states.svg", "awayBadgeSrc": "assets/football/flags/paraguay.svg" }
+      ],
+      "visuals": [
+        { "type": "football-stat-bars", "position": "background", "opacity": 0.16 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: cánh phải Mỹ",
+      "subtext": "Dest và Pulisic cần kéo giãn Paraguay",
+      "subtitle": "Nếu United States muốn thắng, Pulisic phải nhận bóng giữa tuyến, còn Dest cần tạo thêm chiều ngang để kéo Paraguay khỏi khối phòng ngự thấp.",
+      "voiceText": "Nếu Mỹ muốn thắng, Pulisic phải nhận bóng giữa tuyến, còn Dest cần tạo thêm chiều ngang để kéo Paraguay khỏi khối phòng ngự thấp.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Mỹ có nhiều ngôi sao hơn, nhưng chìa khóa là tốc độ xử lý trước khối phòng ngự Paraguay.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng D bắt đầu nóng",
+      "subtext": "United States cần 3 điểm trước Australia và Türkiye",
+      "subtitle": "Bảng D có United States, Paraguay, Australia và Türkiye. Trước loạt trận đầu, tất cả cùng 0 điểm, nên chiến thắng mở màn sẽ tạo lợi thế rất lớn.",
+      "voiceText": "Bảng Đê có Mỹ, Paraguay, Australia và Thổ Nhĩ Kỳ. Trước loạt trận đầu, tất cả cùng không điểm, nên chiến thắng mở màn sẽ tạo lợi thế rất lớn.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG D",
+      "tabs": ["TRẬN ĐẤU", "LỊCH THI ĐẤU", "CẦU THỦ", "BẢNG D"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["USA", "PAR"],
+      "standings": [
+        { "rank": 1, "team": { "name": "United States", "code": "USA", "teamType": "national", "flagSrc": "assets/football/flags/united-states.svg", "badgeSrc": "assets/football/flags/united-states.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 2, "team": { "name": "Paraguay", "code": "PAR", "teamType": "national", "flagSrc": "assets/football/flags/paraguay.svg", "badgeSrc": "assets/football/flags/paraguay.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 3, "team": { "name": "Australia", "code": "AUS", "teamType": "national", "flagSrc": "assets/football/flags/australia.svg", "badgeSrc": "assets/football/flags/australia.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 4, "team": { "name": "Türkiye", "code": "TUR", "teamType": "national", "flagSrc": "assets/football/flags/turkiye.svg", "badgeSrc": "assets/football/flags/turkiye.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Mỹ thắng được không?",
+      "subtext": "Dự đoán tỉ số của bạn",
+      "subtitle": "Theo bạn, United States sẽ mở màn bằng 3 điểm, hay Paraguay đủ lì để lấy điểm tại Los Angeles? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, Mỹ sẽ mở màn bằng ba điểm, hay Paraguay đủ lì để lấy điểm tại Los Angeles? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số USA - Paraguay?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["United States", "Paraguay", "World Cup 2026"]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 4.8 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "title": "Argentina vs Algeria: nhà vua mở màn bảng J",
+  "slug": "argentina-vs-algeria-world-cup-2026-preview-2026-06-17",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Argentina - Algeria, kickoff 08:00 ngày 17/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FOX Sports - Argentina vs Algeria schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    },
+    {
+      "title": "The Guardian - Argentina v Algeria live",
+      "url": "https://www.theguardian.com/football/live/2026/jun/17/fifa-world-cup-2026-live-argentina-v-algeria-updates-arg-vs-alg-group-j-match-score-latest"
+    },
+    {
+      "title": "FIFA - Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "title": "FOX Sports - 2026 World Cup schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Argentina vs Algeria",
+      "subtext": "Nhà vua cần mở màn gọn gàng",
+      "voiceText": "Argentina gặp Algeria lúc tám giờ sáng, ngày mười bảy tháng sáu theo giờ Việt Nam. Đây là trận ra quân bảng J World Cup hai không hai sáu, nơi nhà đương kim vô địch cần thắng để tránh tự làm khó mình ngay lượt đầu.",
+      "subtitle": "Argentina gặp Algeria lúc 08:00 ngày 17/06 theo giờ Việt Nam. Đây là trận ra quân bảng J World Cup 2026, nơi nhà đương kim vô địch cần thắng để tránh tự làm khó mình ngay lượt đầu.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group J - Matchday 1",
+      "venue": "Kansas City Stadium",
+      "date": "17/06/2026",
+      "time": "08:00 VN",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "form": "Đương kim vô địch",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg"
+        },
+        {
+          "name": "Algeria",
+          "code": "ALG",
+          "form": "Ẩn số Bắc Phi",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/algeria.svg",
+          "badgeSrc": "assets/football/flags/algeria.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng J có nhà vua",
+      "subtext": "Argentina bị soi từng chi tiết",
+      "voiceText": "Bảng J bắt đầu với áp lực rất khác nhau. Argentina bị soi từng chi tiết, còn Algeria chỉ cần một trận đấu đủ lì là có thể biến ngày ra quân của nhà vua thành bài test thật sự.",
+      "subtitle": "Bảng J bắt đầu với áp lực rất khác nhau. Argentina bị soi từng chi tiết, còn Algeria chỉ cần một trận đấu đủ lì là có thể biến ngày ra quân của nhà vua thành bài test thật sự.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group J Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Argentina vs Algeria | 17/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Messi là trục sáng tạo",
+      "voiceText": "Argentina có thể đá bốn ba ba với Martinez, Molina, Romero, Otamendi, Tagliafico, De Paul, Enzo Fernandez, Mac Allister, Messi, Lautaro Martinez và Thiago Almada. Algeria có thể đáp trả bằng Luca Zidane, Atal, Mandi, Bensebaini, Ait Nouri, Bennacer, Zerrouki, Aouar, Mahrez, Gouiri và Bounedjah.",
+      "subtitle": "Argentina có thể đá 4-3-3 với Martinez, Molina, Romero, Otamendi, Tagliafico, De Paul, Enzo Fernandez, Mac Allister, Messi, Lautaro Martinez và Thiago Almada. Algeria có thể đáp trả bằng Luca Zidane, Atal, Mandi, Bensebaini, Ait Nouri, Bennacer, Zerrouki, Aouar, Mahrez, Gouiri và Bounedjah.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg"
+        },
+        {
+          "name": "Algeria",
+          "code": "ALG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/algeria.svg",
+          "badgeSrc": "assets/football/flags/algeria.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Martinez",
+            "Molina",
+            "Romero",
+            "Otamendi",
+            "Tagliafico",
+            "De Paul",
+            "Enzo Fernandez",
+            "Mac Allister",
+            "Messi",
+            "Lautaro Martinez",
+            "Thiago Almada"
+          ]
+        },
+        "away": {
+          "formation": "5-2-3",
+          "players": [
+            "Luca Zidane",
+            "Atal",
+            "Mandi",
+            "Bensebaini",
+            "Ait Nouri",
+            "Bennacer",
+            "Zerrouki",
+            "Aouar",
+            "Mahrez",
+            "Gouiri",
+            "Bounedjah"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Thế trận: kiểm soát bóng",
+      "subtext": "Algeria chờ phản công biên",
+      "voiceText": "Argentina thường thắng bằng nhịp kiểm soát và những pha tăng tốc ở nửa cuối sân. Algeria sẽ cần phòng ngự thật gần nhau, sau đó đưa bóng nhanh ra biên cho Mahrez hoặc Gouiri để buộc Argentina lùi đội hình.",
+      "subtitle": "Argentina thường thắng bằng nhịp kiểm soát và những pha tăng tốc ở nửa cuối sân. Algeria sẽ cần phòng ngự thật gần nhau, sau đó đưa bóng nhanh ra biên cho Mahrez hoặc Gouiri để buộc Argentina lùi đội hình.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "homeTeam": "Argentina",
+      "awayTeam": "Algeria",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Argentina",
+          "away": "Algeria",
+          "score": "Preview",
+          "note": "Nhà vua gặp đại diện Bắc Phi giàu tốc độ biên",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/algeria.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Kiểm soát trung tuyến",
+          "value": "Argentina"
+        },
+        {
+          "label": "Phản công biên",
+          "value": "Algeria"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Bàn đầu tiên"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 86,
+              "away": 62
+            },
+            {
+              "label": "Tốc độ phản công",
+              "home": 78,
+              "away": 82
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: chống phản công",
+      "subtext": "Argentina không được mất bóng hớ hênh",
+      "voiceText": "Điểm nóng không chỉ là Argentina tấn công ra sao, mà là họ chống phản công thế nào. Nếu De Paul và Enzo giữ được lớp che chắn, Argentina sẽ bóp nghẹt trận đấu.",
+      "subtitle": "Điểm nóng không chỉ là Argentina tấn công ra sao, mà là họ chống phản công thế nào. Nếu De Paul và Enzo giữ được lớp che chắn, Argentina sẽ bóp nghẹt trận đấu.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Argentina phải ghi bàn trước khi Algeria tìm được nhịp phản công.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng J",
+      "subtext": "Argentina không muốn tự làm khó",
+      "voiceText": "Bảng J gồm Argentina, Algeria, Áo và Jordan. Với vị thế nhà vua, Argentina cần thắng ngay để kiểm soát bảng đấu, còn Algeria hiểu rằng một điểm trước đội mạnh nhất bảng có thể thay đổi toàn bộ cuộc đua.",
+      "subtitle": "Bảng J gồm Argentina, Algeria, Austria và Jordan. Với vị thế nhà vua, Argentina cần thắng ngay để kiểm soát bảng đấu, còn Algeria hiểu rằng 1 điểm trước đội mạnh nhất bảng có thể thay đổi toàn bộ cuộc đua.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026 - Group J",
+      "activeTab": "GROUP J",
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "ARG",
+        "ALG"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Argentina",
+            "code": "ARG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/argentina.svg",
+            "badgeSrc": "assets/football/flags/argentina.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Algeria",
+            "code": "ALG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/algeria.svg",
+            "badgeSrc": "assets/football/flags/algeria.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Austria",
+            "code": "AUT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/austria.svg",
+            "badgeSrc": "assets/football/flags/austria.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Jordan",
+            "code": "JOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/jordan.svg",
+            "badgeSrc": "assets/football/flags/jordan.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số Argentina vs Algeria",
+      "subtext": "Comment góc nhìn của bạn",
+      "voiceText": "Bạn dự đoán Argentina thắng gọn trong ngày ra quân, hay Algeria sẽ kéo nhà vua vào một trận đấu cực khó chịu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Argentina thắng gọn trong ngày ra quân, hay Algeria sẽ kéo nhà vua vào một trận đấu cực khó chịu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Argentina vs Algeria",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Argentina vs Algeria",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png",
+          "Argentina",
+          "Algeria",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "title": "Czechia vs Mexico: Cơ hội cuối cùng của đại diện châu Âu tại World Cup 2026",
+  "slug": "czechia-vs-mexico-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Czechia vs Mexico tại lượt cuối bảng A World Cup 2026, diễn ra lúc 08:00 ngày 25/06/2026 giờ Việt Nam. Czechia cần một chiến thắng trước Mexico để nuôi hy vọng đi tiếp.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Schedule and Standings",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Czechia vs Mexico",
+      "subtext": "Trận đấu sinh tử của đại diện châu Âu",
+      "voiceText": "Cộng Hòa Sec chạm trán Mexico lúc tám giờ sáng ngày hai mươi lăm tháng sáu theo giờ Việt Nam. Đây là lượt trận cuối bảng A tại Estadio Azteca, nơi Cộng Hòa Sec buộc phải thắng để nuôi hy vọng đi tiếp.",
+      "subtitle": "Czechia chạm trán Mexico lúc 08:00 ngày 25/06 theo giờ Việt Nam. Đây là lượt trận cuối bảng A tại Estadio Azteca, nơi Czechia buộc phải thắng để nuôi hy vọng đi tiếp.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group A - Matchday 3",
+      "venue": "Estadio Azteca, Mexico City",
+      "date": "25/06/2026",
+      "time": "08:00 VN",
+      "teams": [
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "form": "GD -1",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        },
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "form": "GD +3",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/mexico.svg",
+          "badgeSrc": "assets/football/flags/mexico.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Cục diện bảng A",
+      "subtext": "Mexico đi tiếp, 3 đội tranh 1 vé",
+      "voiceText": "Bảng A đã chứng kiến Mexico sớm giành vé vào vòng knock out sau hai trận thắng. Chiếc vé còn lại là cuộc cạnh tranh khốc liệt giữa Hàn Quốc, Cộng Hòa Sec và Nam Phi.",
+      "subtitle": "Bảng A đã chứng kiến Mexico sớm giành vé vào vòng knockout sau 2 trận thắng. Chiếc vé còn lại là cuộc cạnh tranh khốc liệt giữa Hàn Quốc, Czechia và South Africa.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group A Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Czechia vs Mexico | 25/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Mexico xoay tua, Czechia tung bài tẩy",
+      "voiceText": "Huấn luyện viên Ivan Hasek bên phía Cộng Hòa Sec dự kiến đá ba năm hai, dồn bóng cho cặp tiền đạo Patrik Schick và Adam Hlozek. Trong khi đó, Mexico nhiều khả năng sẽ xoay tua đội hình, để Edson Alvarez và Raul Jimenez dẫn dắt các cầu thủ dự bị.",
+      "subtitle": "Huấn luyện viên Ivan Hašek bên phía Czechia dự kiến đá 3-5-2, dồn bóng cho cặp tiền đạo Patrik Schick và Adam Hložek. Trong khi đó, Mexico nhiều khả năng sẽ xoay tua đội hình, để Edson Álvarez và Raúl Jiménez dẫn dắt các cầu thủ dự bị.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        },
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/mexico.svg",
+          "badgeSrc": "assets/football/flags/mexico.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-5-2",
+          "players": [
+            "M. Kovar",
+            "L. Krejci",
+            "R. Hranac",
+            "T. Holes",
+            "V. Coufal",
+            "T. Soucek",
+            "M. Sadilek",
+            "P. Sulc",
+            "A. Sojka",
+            "P. Schick",
+            "A. Hlozek"
+          ]
+        },
+        "away": {
+          "formation": "4-1-4-1",
+          "players": [
+            "R. Rangel",
+            "J. Sanchez",
+            "I. Reyes",
+            "C. Montes",
+            "M. Chavez",
+            "E. Alvarez",
+            "R. Alvarado",
+            "O. Vargas",
+            "L. Romo",
+            "J. Quinones",
+            "R. Jimenez"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Phong độ tại vòng bảng",
+      "subtext": "Czechia cần nỗ lực gấp bội",
+      "voiceText": "Hai đội mới chỉ gặp nhau một lần duy nhất vào năm hai không không không, khi Cộng Hòa Sec thắng hai một trong trận giao hữu. Tại giải năm nay, Mexico toàn thắng hai trận, còn Cộng Hòa Sec vừa có trận hòa vất vả một đều trước Nam Phi.",
+      "subtitle": "Hai đội mới chỉ gặp nhau duy nhất 1 lần vào năm 2000, khi Czechia thắng 2-1 trong trận giao hữu. Tại giải năm nay, Mexico toàn thắng 2 trận, còn Czechia vừa có trận hòa vất vả 1-1 trước South Africa.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Czechia",
+      "awayTeam": "Mexico",
+      "h2hMatches": [
+        {
+          "date": "08/02/2000",
+          "home": "Czechia",
+          "away": "Mexico",
+          "score": "2-1",
+          "note": "Giao hữu quốc tế trong quá khứ",
+          "homeBadgeSrc": "assets/football/flags/czechia.svg",
+          "awayBadgeSrc": "assets/football/flags/mexico.svg"
+        },
+        {
+          "date": "19/06/2026",
+          "home": "Czechia",
+          "away": "South Africa",
+          "score": "1-1",
+          "note": "Czechia hòa nhạt nhòa ở lượt hai",
+          "homeBadgeSrc": "assets/football/flags/czechia.svg",
+          "awayBadgeSrc": "assets/football/flags/south-africa.svg"
+        },
+        {
+          "date": "19/06/2026",
+          "home": "Mexico",
+          "away": "Korea Republic",
+          "score": "1-0",
+          "note": "Mexico thắng tối thiểu để đi tiếp",
+          "homeBadgeSrc": "assets/football/flags/mexico.svg",
+          "awayBadgeSrc": "assets/football/flags/korea-republic.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Buộc phải thắng",
+          "value": "Czechia"
+        },
+        {
+          "label": "Tâm lý thoải mái",
+          "value": "Mexico"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Pressing của Soucek"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Quyết tâm thi đấu",
+              "home": 90,
+              "away": 70
+            },
+            {
+              "label": "Hiệu suất ghi bàn",
+              "home": 65,
+              "away": 80
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trước trận",
+      "quote": "Czechia buộc phải dâng cao tấn công, nhưng hàng thủ Mexico dưới sự chỉ huy của Edson Alvarez rất khó bị xuyên phá.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng sẽ là màn đối đầu giữa tiền đạo Patrik Schick và trung vệ Edson Alvarez. Cộng Hòa Sec sẽ đá tấn công tổng lực ngay từ đầu, nhưng Mexico rất giỏi phản công.",
+      "subtitle": "Điểm nóng sẽ là màn đối đầu giữa tiền đạo Patrik Schick và trung vệ Edson Alvarez. Czechia sẽ đá tấn công tổng lực ngay từ đầu, nhưng Mexico rất giỏi phản công.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng A",
+      "subtext": "Xếp hạng trước lượt trận cuối",
+      "voiceText": "Lúc này, Mexico đứng đầu với sáu điểm và đã chắc suất đi tiếp. Hàn Quốc có ba điểm đứng nhì bảng, Cộng Hòa Sec và Nam Phi xếp sau với cùng một điểm.",
+      "subtitle": "Lúc này, Mexico đứng đầu với 6 điểm và đã chắc suất đi tiếp. Hàn Quốc có 3 điểm đứng nhì bảng, Czechia và South Africa xếp sau với cùng 1 điểm.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group A Standings",
+      "highlightTeams": [
+        "Czechia",
+        "Mexico"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Mexico",
+            "code": "MEX",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/mexico.svg"
+          },
+          "played": 2,
+          "points": 6,
+          "gd": "+3"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Korea Republic",
+            "code": "KOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/korea-republic.svg"
+          },
+          "played": 2,
+          "points": 3,
+          "gd": "0"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Czechia",
+            "code": "CZE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/czechia.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-1"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "South Africa",
+            "code": "RSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/south-africa.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-2"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "DỰ ĐOÁN TỈ SỐ?",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn nghĩ Cộng Hòa Sec có thể làm nên điều kỳ diệu tại Azteca, hay Mexico sẽ càn quét bảng A? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn nghĩ Czechia có thể làm nên điều kỳ diệu tại Azteca, hay Mexico sẽ càn quét bảng A? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Czechia vs Mexico",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "title": "Canada vs Qatar: chủ nhà cần cú bứt phá",
+  "slug": "canada-vs-qatar-world-cup-2026-preview-2026-06-19",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Canada - Qatar, kickoff 05:00 ngày 19/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "BC Place - Canada vs Qatar",
+      "url": "https://www.bcplace.com/?event=fifa-world-cup-2026-canada-vs-qatar"
+    },
+    {
+      "title": "Canada Soccer - FIFA World Cup 2026",
+      "url": "https://canadasoccer.com/fifa-world-cup-2026/"
+    },
+    {
+      "title": "Sky Sports - World Cup 2026 fixture schedule",
+      "url": "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Canada vs Qatar",
+      "subtext": "chủ nhà cần cú bứt phá",
+      "voiceText": "Canada gặp Ka Ta lúc năm giờ sáng, ngày mười chín tháng sáu theo giờ Việt Nam. Trở lại BC Place, chủ nhà cần biến lợi thế sân nhà thành chiến thắng đầu tiên ở bảng B.",
+      "subtitle": "Canada gặp Qatar lúc 05:00 ngày 19/06 theo giờ Việt Nam. Trở lại BC Place, chủ nhà cần biến lợi thế sân nhà thành chiến thắng đầu tiên ở bảng B.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group B - Matchday 2",
+      "venue": "BC Place",
+      "date": "19/06/2026",
+      "time": "05:00 VN",
+      "teams": [
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "form": "Chủ nhà",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "form": "Kỷ luật châu Á",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng B trở lại Vancouver",
+      "subtext": "Canada có lợi thế sân nhà",
+      "voiceText": "Bảng B chưa tách nhóm, nên Canada có cơ hội rất rõ để tự đẩy mình lên. Ka Ta thì cần một trận phòng ngự đủ lì để kéo chủ nhà vào thế sốt ruột.",
+      "subtitle": "Bảng B chưa tách nhóm, nên Canada có cơ hội rất rõ để tự đẩy mình lên. Qatar thì cần một trận phòng ngự đủ lì để kéo chủ nhà vào thế sốt ruột.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group B Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Canada vs Qatar | 19/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Canada có tốc độ, Ka Ta cần giữ cự ly",
+      "voiceText": "Canada có thể đá bốn hai ba một với Davies, Eustaquio, Buchanan, Jonathan David và Larin. Ka Ta nhiều khả năng dùng năm ba hai, dựa vào Afif và Almoez Ali ở các pha phản công.",
+      "subtitle": "Canada có thể đá 4-2-3-1 với Davies, Eustáquio, Buchanan, Jonathan David và Larin. Qatar nhiều khả năng dùng 5-3-2, dựa vào Afif và Almoez Ali ở các pha phản công.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Crepeau",
+            "Laryea",
+            "Bombito",
+            "Cornelius",
+            "Davies",
+            "Kone",
+            "Eustaquio",
+            "Buchanan",
+            "David",
+            "Millar",
+            "Larin"
+          ]
+        },
+        "away": {
+          "formation": "5-3-2",
+          "players": [
+            "Barsham",
+            "Pedro Miguel",
+            "Khoukhi",
+            "Salman",
+            "Hassan",
+            "Ahmed",
+            "Hatem",
+            "Boudiaf",
+            "Afif",
+            "Almoez Ali",
+            "Muntari"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Chìa khóa: biên trái Canada",
+      "subtext": "Davies có thể tạo khác biệt",
+      "voiceText": "Canada có tốc độ tốt hơn ở hai biên, đặc biệt nếu Davies được đẩy cao. Ka Ta cần bảo vệ nách trung vệ và không để trận đấu mở quá sớm.",
+      "subtitle": "Canada có tốc độ tốt hơn ở hai biên, đặc biệt nếu Davies được đẩy cao. Qatar cần bảo vệ nách trung vệ và không để trận đấu mở quá sớm.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "homeTeam": "Canada",
+      "awayTeam": "Qatar",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Canada",
+          "away": "Qatar",
+          "score": "Preview",
+          "note": "Canada đá trên sân nhà, Qatar cần điểm để bám bảng",
+          "homeBadgeSrc": "assets/football/flags/canada.svg",
+          "awayBadgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Sân nhà",
+          "value": "Canada"
+        },
+        {
+          "label": "Kỷ luật",
+          "value": "Qatar"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Davies"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tốc độ biên",
+              "home": 86,
+              "away": 68
+            },
+            {
+              "label": "Kỷ luật khối thấp",
+              "home": 74,
+              "away": 81
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Áp lực sân nhà",
+      "quote": "Canada có tốc độ để thắng, nhưng phải biến năng lượng khán đài thành nhịp tấn công rõ ràng.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng nằm ở biên trái Canada. Nếu Davies kéo được hai người theo mình, Jonathan David và Larin sẽ có nhiều khoảng trống hơn trong vòng cấm.",
+      "subtitle": "Điểm nóng nằm ở biên trái Canada. Nếu Davies kéo được 2 người theo mình, Jonathan David và Larin sẽ có nhiều khoảng trống hơn trong vòng cấm.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng B trước trận",
+      "subtext": "Mọi điểm số đều rất đắt",
+      "voiceText": "Trong bảng B chặt chẽ, Canada và Ka Ta đều cần ba điểm để thoát khỏi thế chen chúc. Một trận hòa sẽ khiến lượt cuối rất căng.",
+      "subtitle": "Trong bảng B chặt chẽ, Canada và Qatar đều cần 3 điểm để thoát khỏi thế chen chúc. Một trận hòa sẽ khiến lượt cuối rất căng.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group B",
+      "highlightTeams": [
+        "Canada",
+        "Qatar"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Switzerland",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "pos": 2,
+          "team": "Canada",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        },
+        {
+          "pos": 3,
+          "team": "Qatar",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        },
+        {
+          "pos": 4,
+          "team": "Bosnia & Herzegovina",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn dự đoán Canada có tận dụng được sân nhà trước Ka Ta không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Canada có tận dụng được sân nhà trước Qatar không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số của bạn là gì?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

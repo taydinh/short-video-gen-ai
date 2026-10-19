@@ -1,0 +1,354 @@
+{
+  "title": "DR Congo vs Uzbekistan: Trận chiến sinh tồn",
+  "slug": "dr-congo-vs-uzbekistan-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Nhận định trận đấu sinh tử giữa DR Congo và Uzbekistan tại bảng K World Cup 2026. Lịch thi đấu theo giờ Việt Nam là 06:30 ngày 28/06/2026.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "Sports Mole - DR Congo vs Uzbekistan preview",
+      "url": "https://www.sportsmole.co.uk/football/uzbekistan/world-cup/preview/preview-dr-congo-vs-uzbekistan.html"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "DR Congo vs Uzbekistan",
+      "subtext": "Cuộc chiến sinh tử giành vé vớt",
+      "voiceText": "Cuộc đối đầu sinh tử giữa Cộng hòa Công gô và U bê kits tan diễn ra lúc sáu giờ ba mươi phút sáng ngày hai mươi tám tháng sáu theo giờ Việt Nam. Cả hai đội tuyển đều bước vào trận đấu cuối cùng của bảng Ka với quyết tâm giành trọn ba điểm để hy vọng đi tiếp.",
+      "subtitle": "Cuộc đối đầu sinh tử giữa DR Congo và Uzbekistan diễn ra lúc 06:30 ngày 28/06 theo giờ Việt Nam. Cả hai đội tuyển đều bước vào trận đấu cuối cùng của bảng K với quyết tâm giành trọn 3 điểm để hy vọng đi tiếp.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group K - Matchday 3",
+      "venue": "Mercedes-Benz Stadium",
+      "date": "28/06/2026",
+      "time": "06:30 VN",
+      "teams": [
+        {
+          "name": "DR Congo",
+          "code": "COD",
+          "form": "1 điểm",
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "badgeSrc": "assets/football/flags/dr-congo.svg"
+        },
+        {
+          "name": "Uzbekistan",
+          "code": "UZB",
+          "form": "0 điểm",
+          "flagSrc": "assets/football/flags/uzbekistan.svg",
+          "badgeSrc": "assets/football/flags/uzbekistan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Hy vọng đi tiếp",
+      "subtext": "Tìm kiếm tấm vé vớt thứ ba",
+      "voiceText": "Cơ hội đi tiếp vẫn còn đối với cả hai đội nếu giành chiến thắng. Cộng hòa Công gô có lợi thế hơn với một điểm làm vốn, trong khi U bê kits tan chưa có điểm nào sau hai trận thua liên tiếp.",
+      "subtitle": "Cơ hội đi tiếp vẫn còn đối với cả hai đội nếu giành chiến thắng. DR Congo có lợi thế hơn với 1 điểm làm vốn, trong khi Uzbekistan chưa có điểm nào sau 2 trận thua liên tiếp.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group K Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Lực lượng mạnh nhất ra sân",
+      "voiceText": "Đội hình Cộng hòa Công gô kỳ vọng vào sự bùng nổ của Yoane Wissa và Bakambu trên hàng công. Trong khi đó, U bê kits tan sẽ ra sân với sơ đồ ba bốn một hai tối ưu, lĩnh xướng bởi Eldor Shomurodov và tài năng trẻ Abbosbek Fayzullayev.",
+      "subtitle": "Đội hình DR Congo kỳ vọng vào sự bùng nổ của Yoane Wissa và Bakambu trên hàng công. Trong khi đó, Uzbekistan sẽ ra sân với sơ đồ 3-4-1-2 tối ưu, lĩnh xướng bởi Eldor Shomurodov và tài năng trẻ Abbosbek Fayzullayev.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "DR Congo",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "players": [
+            "Mpasi",
+            "Wan-Bissaka",
+            "Mbemba",
+            "Tuanzebe",
+            "Masuaku",
+            "Mukau",
+            "Moutoussamy",
+            "Kayembe",
+            "Bongonda",
+            "Bakambu",
+            "Wissa"
+          ]
+        },
+        {
+          "team": "Uzbekistan",
+          "formation": "3-4-1-2",
+          "flagSrc": "assets/football/flags/uzbekistan.svg",
+          "players": [
+            "Yusupov",
+            "Khusanov",
+            "Abdullayev",
+            "Ashurmatov",
+            "Karimov",
+            "Shukurov",
+            "Khamrobekov",
+            "Nasrullaev",
+            "Fayzullayev",
+            "Urunov",
+            "Shomurodov"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H & Phong độ",
+      "subtext": "Quyết tâm tìm chiến thắng đầu tiên",
+      "voiceText": "Cả hai đội đều đang khao khát chiến thắng đầu tiên tại giải đấu. Ở lượt trận trước, Cộng hòa Công gô để thua tối thiểu Colombia một không, còn U bê kits tan thất bại không năm trước Bồ Đào Nha hùng mạnh.",
+      "subtitle": "Cả hai đội đều đang khao khát chiến thắng đầu tiên tại giải đấu. Ở lượt trận trước, DR Congo để thua tối thiểu Colombia 1-0, còn Uzbekistan thất bại 0-5 trước Bồ Đào Nha hùng mạnh.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "DR Congo",
+      "awayTeam": "Uzbekistan",
+      "h2hMatches": [],
+      "odds": [
+        {
+          "label": "Mục tiêu hai đội",
+          "value": "Buộc phải thắng"
+        },
+        {
+          "label": "Lối chơi Công gô",
+          "value": "Phòng ngự phản công"
+        },
+        {
+          "label": "Lối chơi U bê",
+          "value": "Tấn công áp đặt"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Khả năng kiểm soát bóng dự kiến",
+              "home": 48,
+              "away": 52
+            },
+            {
+              "label": "Cú sút nguy hiểm dự kiến",
+              "home": 72,
+              "away": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Shomurodov",
+      "subtext": "Đội trưởng Uzbekistan",
+      "voiceText": "Điểm nóng sẽ là cuộc đối đầu giữa trung vệ Chancel Mbemba của Cộng hòa Công gô và tiền đạo đội trưởng Eldor Shomurodov bên phía U bê kits tan. Kinh nghiệm của Mbemba là chốt chặn cực khó cho Shomurodov.",
+      "subtitle": "Điểm nóng sẽ là cuộc đối đầu giữa trung vệ Chancel Mbemba của DR Congo và tiền đạo đội trưởng Eldor Shomurodov bên phía Uzbekistan. Kinh nghiệm của Mbemba là chốt chặn cực khó cho Shomurodov.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Uzbekistan buộc phải chơi dâng cao tấn công ngay từ đầu, điều này sẽ mở ra nhiều khoảng trống phản công cho DR Congo.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng K",
+      "subtext": "Cuộc đua vị trí thứ ba",
+      "voiceText": "Tại bảng Ka, Colombia và Bồ Đào Nha đã chắc suất đi tiếp. Cộng hòa Công gô với một điểm vẫn có thể hy vọng lọt vào nhóm các đội hạng ba có thành tích tốt nhất nếu thắng trận này, còn U bê kits tan cần thắng đậm để cải thiện hiệu số âm bảy.",
+      "subtitle": "Tại bảng K, Colombia và Bồ Đào Nha đã chắc suất đi tiếp. DR Congo với 1 điểm vẫn có thể hy vọng lọt vào nhóm các đội hạng ba có thành tích tốt nhất nếu thắng trận này, còn Uzbekistan cần thắng đậm để cải thiện hiệu số -7.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group K",
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Colombia",
+          "played": 2,
+          "points": 6,
+          "gd": 3,
+          "flagSrc": "assets/football/flags/colombia.svg"
+        },
+        {
+          "pos": 2,
+          "team": "Portugal",
+          "played": 2,
+          "points": 4,
+          "gd": 5,
+          "flagSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "pos": 3,
+          "team": "DR Congo",
+          "played": 2,
+          "points": 1,
+          "gd": -1,
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "highlight": true
+        },
+        {
+          "pos": 4,
+          "team": "Uzbekistan",
+          "played": 2,
+          "points": 0,
+          "gd": -7,
+          "flagSrc": "assets/football/flags/uzbekistan.svg",
+          "highlight": true
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Đội nào sẽ giữ lại hy vọng?",
+      "subtext": "Comment dự đoán của bạn",
+      "voiceText": "Cộng hòa Công gô sẽ giành tấm vé vớt, hay đại diện Trung Á U bê kits tan sẽ lật ngược thế cờ ngoạn mục? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "DR Congo sẽ giành tấm vé vớt, hay đại diện Trung Á Uzbekistan sẽ lật ngược thế cờ ngoạn mục? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số DR Congo vs Uzbekistan",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "DR Congo",
+          "Uzbekistan"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

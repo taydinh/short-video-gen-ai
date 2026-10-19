@@ -1,0 +1,586 @@
+{
+  "title": "France 3-1 Senegal: Mbappé kéo Pháp bứt tốc sau giờ nghỉ",
+  "slug": "france-3-1-senegal-world-cup-result-2026-06-17",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Result trận France 3-1 Senegal ở bảng I World Cup 2026, quy đổi giờ Việt Nam là 02:00 ngày 17/06/2026.",
+  "sources": [
+    {
+      "title": "FIFA - France 3-1 Senegal match report",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/france-senegal-highlights-match-report"
+    },
+    {
+      "title": "The Guardian - France 3-1 Senegal live",
+      "url": "https://www.theguardian.com/football/live/2026/jun/16/france-v-senegal-world-cup-2026-live"
+    },
+    {
+      "title": "Al Jazeera - Mbappe brace fires France",
+      "url": "https://www.aljazeera.com/sports/2026/6/16/mbappe-brace-fires-france-to-3-1-win-over-senegal-in-world-cup-2026-opener"
+    },
+    {
+      "title": "FIFA - Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "title": "FOX Sports - 2026 World Cup schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "France 3-1 Senegal: Mbappé kéo Pháp bứt tốc sau giờ nghỉ",
+      "subtext": "FT - France 3-1 Senegal",
+      "voiceText": "Full time ở New York New Jersey Stadium, Pháp thắng Senegal ba một lúc hai giờ sáng, ngày mười bảy tháng sáu theo giờ Việt Nam. em pa bê ghi cú đúp, Barcola cũng lên tiếng, còn Ibrahim Mbaye giúp Senegal có bàn danh dự ở phút bù giờ.",
+      "subtitle": "Full-time ở New York New Jersey Stadium, France thắng Senegal 3-1 lúc 02:00 ngày 17/06 theo giờ Việt Nam. Mbappé ghi cú đúp, Barcola cũng lên tiếng, còn Ibrahim Mbaye giúp Senegal có bàn danh dự ở phút bù giờ.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group I - Matchday 1",
+      "venue": "New York New Jersey Stadium",
+      "date": "17/06/2026",
+      "time": "02:00 VN",
+      "minute": "FT",
+      "score": "France 3-1 Senegal",
+      "teams": [
+        {
+          "name": "France",
+          "code": "FRA",
+          "form": "Thắng 3-1",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg",
+          "score": 3
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "form": "Thua 1-3",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg",
+          "score": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "home": "FRA",
+          "away": "SEN",
+          "score": "France 3-1 Senegal",
+          "minute": "FT",
+          "label": "Group I"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "World Cup 2026 - Result",
+      "subtext": "Mbappé lập cú đúp, Barcola ghi bàn, Senegal có bàn danh dự muộn",
+      "voiceText": "Pháp đi qua hiệp một khá vất vả, nhưng sau giờ nghỉ họ tăng tốc đúng kiểu ứng viên lớn của World Cup hai không hai sáu.",
+      "subtitle": "France đi qua hiệp 1 khá vất vả, nhưng sau giờ nghỉ họ tăng tốc đúng kiểu ứng viên lớn của World Cup 2026.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Result",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "France 3-1 Senegal | Group I",
+      "ctaLabel": "Full-time",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtext": "Olise kết nối, Mbappé chốt hạ",
+      "voiceText": "Pháp có thể triển khai với Maignan, Kounde, Saliba, Upamecano, Theo Hernandez, Tchouameni, Camavinga, Olise, Barcola, Dembele và em pa bê. Senegal dựa vào Mendy, Koulibaly, Diallo, Jakobs, Gueye, Camara, Sarr, Ndiaye, Mane và Jackson.",
+      "subtitle": "France có thể triển khai với Maignan, Kounde, Saliba, Upamecano, Theo Hernandez, Tchouameni, Camavinga, Olise, Barcola, Dembélé và Mbappé. Senegal dựa vào Mendy, Koulibaly, Diallo, Jakobs, Gueye, Camara, Sarr, Ndiaye, Mané và Jackson.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH CHÍNH THỨC",
+      "teams": [
+        {
+          "name": "France",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Maignan",
+            "Kounde",
+            "Saliba",
+            "Upamecano",
+            "Theo Hernandez",
+            "Tchouameni",
+            "Camavinga",
+            "Olise",
+            "Barcola",
+            "Dembele",
+            "Mbappe"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Mendy",
+            "Sabaly",
+            "Koulibaly",
+            "Diallo",
+            "Jakobs",
+            "Gueye",
+            "Camara",
+            "Ndiaye",
+            "Sarr",
+            "Mane",
+            "Jackson"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Mbappé tạo khác biệt",
+      "subtext": "Cú đúp phút 66 và 90+6",
+      "voiceText": "em pa bê là điểm bẻ khóa của trận đấu. Anh mở tỉ số phút sáu mươi sáu, rồi sút xa ở phút chín mươi cộng sáu để khép lại cú đúp và đưa tổng bàn thắng World Cup lên mười bốn.",
+      "subtitle": "Mbappé là điểm bẻ khóa của trận đấu. Anh mở tỉ số phút 66, rồi sút xa ở phút 90+6 để khép lại cú đúp và đưa tổng bàn thắng World Cup lên 14.",
+      "duration": 7,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "number": "10",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "2"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "66', 90+6'"
+        },
+        {
+          "label": "World Cup goals",
+          "value": "14"
+        },
+        {
+          "label": "Kết quả",
+          "value": "3-1"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Hiệp hai là lúc Pháp tăng tốc",
+      "voiceText": "Hiệp một không có bàn thắng. Phút sáu mươi sáu, em pa bê mở khóa trận đấu từ đường chuyền của Olise. Phút tám mươi hai, Barcola nâng lên hai không. Phút chín mươi cộng năm, Ibrahim Mbaye rút ngắn cho Senegal, nhưng chỉ một phút sau, em pa bê đóng lại trận đấu ba một.",
+      "subtitle": "Hiệp 1 không có bàn thắng. Phút 66, Mbappé mở khóa trận đấu từ đường chuyền của Olise. Phút 82, Barcola nâng lên 2-0. Phút 90+5, Ibrahim Mbaye rút ngắn cho Senegal, nhưng chỉ 1 phút sau, Mbappé đóng lại trận đấu 3-1.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "HT",
+          "event": "0-0",
+          "desc": "Senegal gây khó chịu, France chưa mở khóa được trận đấu."
+        },
+        {
+          "minute": "66'",
+          "event": "1-0 Mbappé",
+          "desc": "Olise kiến tạo, Mbappé dứt điểm mở tỉ số."
+        },
+        {
+          "minute": "82'",
+          "event": "2-0 Barcola",
+          "desc": "France tăng tốc ở nửa cuối hiệp hai."
+        },
+        {
+          "minute": "90+5'",
+          "event": "2-1 Ibrahim Mbaye",
+          "desc": "Senegal có bàn danh dự muộn."
+        },
+        {
+          "minute": "90+6'",
+          "event": "3-1 Mbappé",
+          "desc": "Mbappé chốt trận bằng cú sút xa."
+        },
+        {
+          "minute": "FT",
+          "event": "France 3-1 Senegal",
+          "desc": "France lấy 3 điểm ở lượt mở màn."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-scorebug",
+          "home": "FRA",
+          "away": "SEN",
+          "score": "France 3-1 Senegal",
+          "minute": "FT"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Thống kê trận đấu",
+      "subtext": "France lạnh hơn trong các khoảnh khắc quyết định",
+      "voiceText": "Câu chuyện của trận này là hiệu quả sau giờ nghỉ. Pháp ghi ba bàn trong khoảng hai mươi lăm phút cuối, còn Senegal có nhiều tín hiệu tích cực nhưng trả giá vì không tận dụng được cơ hội sớm.",
+      "subtitle": "Câu chuyện của trận này là hiệu quả sau giờ nghỉ. France ghi 3 bàn trong khoảng 25 phút cuối, còn Senegal có nhiều tín hiệu tích cực nhưng trả giá vì không tận dụng được cơ hội sớm.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "Stats",
+      "score": "France 3-1 Senegal",
+      "teams": [
+        {
+          "name": "France",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Bàn thắng",
+              "home": 3,
+              "away": 1
+            },
+            {
+              "label": "Bàn hiệp 2",
+              "home": 3,
+              "away": 1
+            },
+            {
+              "label": "Điểm",
+              "home": 3,
+              "away": 0
+            },
+            {
+              "label": "Hiệu số",
+              "home": 2,
+              "away": -2
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng I sau hai trận",
+      "subtext": "Norway tạm dẫn nhờ hiệu số, France bám ngay phía sau",
+      "voiceText": "Sau hai trận đầu bảng I, Na Uy dẫn bảng nhờ hiệu số cộng ba, Pháp đứng thứ hai với ba điểm và hiệu số cộng hai. Senegal và Y Rắc chưa có điểm, nên lượt hai sẽ rất căng.",
+      "subtitle": "Sau 2 trận đầu bảng I, Norway dẫn bảng nhờ hiệu số +3, France đứng thứ 2 với 3 điểm và hiệu số +2. Senegal và Iraq chưa có điểm, nên lượt 2 sẽ rất căng.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026 - Group I",
+      "activeTab": "BẢNG I",
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "FRA",
+        "SEN"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Norway",
+            "code": "NOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/norway.svg",
+            "badgeSrc": "assets/football/flags/norway.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 3
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "France",
+            "code": "FRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/france.svg",
+            "badgeSrc": "assets/football/flags/france.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Senegal",
+            "code": "SEN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/senegal.svg",
+            "badgeSrc": "assets/football/flags/senegal.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Iraq",
+            "code": "IRQ",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/iraq.svg",
+            "badgeSrc": "assets/football/flags/iraq.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Mbappé có đua Vua phá lưới được không?",
+      "subtext": "Comment góc nhìn của bạn",
+      "voiceText": "Theo bạn, cú đúp này có đủ để em pa bê bắt đầu cuộc đua Vua phá lưới World Cup hai không hai sáu không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, cú đúp này có đủ để Mbappé bắt đầu cuộc đua Vua phá lưới World Cup 2026 không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "France 3-1 Senegal",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Mbappé có đua Vua phá lưới được không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png",
+          "France",
+          "Senegal",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "playerImageUrl để trống vì chưa tìm được URL ảnh cầu thủ phù hợp, ổn định và trực tiếp từ nguồn đã kiểm chứng."
+  ]
+}

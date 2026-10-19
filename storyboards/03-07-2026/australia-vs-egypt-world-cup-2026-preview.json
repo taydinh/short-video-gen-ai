@@ -1,0 +1,476 @@
+{
+  "title": "Úc vs Ai Cập: Salah đã sẵn sàng, Socceroos có chịu nổi nhiệt?",
+  "slug": "australia-vs-egypt-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Úc vs Ai Cập tại vòng 32 đội World Cup 2026, diễn ra lúc 01:00 ngày 04/07/2026 theo giờ Việt Nam tại Dallas Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Australia v Egypt match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021515"
+    },
+    {
+      "title": "Socceroos - How to Watch: Australia vs Egypt",
+      "url": "https://socceroos.com.au/news/how-watch-australia-vs-egypt-fifa-world-cup-2026tm-round-32"
+    },
+    {
+      "title": "RotoWire - Australia vs Egypt preview, predicted lineups and odds",
+      "url": "https://www.rotowire.com/soccer/article/australia-vs-egypt-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120684"
+    },
+    {
+      "title": "Sports Illustrated - Australia vs Egypt World Cup preview",
+      "url": "https://www.si.com/soccer/australia-vs-egypt-world-cup-preview-predictions-lineups-7-3-26"
+    },
+    {
+      "title": "The Guardian - Salah fit for Australia vs Egypt last-32 clash",
+      "url": "https://www.theguardian.com/football/2026/jul/03/egypt-mo-salah-fit-to-play-australia-socceroos-after-injury"
+    },
+    {
+      "title": "Goal - Argentina route and Round of 16 context",
+      "url": "https://www.goal.com/en-us/news/argentina-world-cup-final-route/blt7132d30761d5eb33"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ÚC VS AI CẬP",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Một giờ sáng, ngày mùng bốn tháng bảy theo giờ Việt Nam, Úc gặp Ai Cập tại Dallas Stadium. Một bên đá thực dụng, thấp, lì và chờ phản công, một bên có Mô ha mét Sa lah vừa được báo là đủ thể lực, nên kèo này không hẳn thơ mộng, nhưng rất dễ có drama lúc mọi người đang định đi ngủ.",
+      "subtitle": "01:00 ngày 04/07 theo giờ Việt Nam, Úc gặp Ai Cập tại Dallas Stadium. Một bên đá thực dụng, thấp, lì và chờ phản công, một bên có Mohamed Salah vừa được báo là đủ thể lực, nên kèo này không hẳn thơ mộng, nhưng rất dễ có drama lúc mọi người đang định đi ngủ.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Dallas Stadium",
+      "date": "04/07/2026",
+      "time": "01:00 VN",
+      "teams": [
+        {
+          "name": "Úc",
+          "code": "AUS",
+          "teamType": "national",
+          "form": ["W", "L", "D"],
+          "flagSrc": "assets/football/flags/australia.svg",
+          "badgeSrc": "assets/football/flags/australia.svg"
+        },
+        {
+          "name": "Ai Cập",
+          "code": "EGY",
+          "teamType": "national",
+          "form": ["W", "D", "D"],
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Một vé vào vòng 16 đội",
+      "voiceText": "Úc chưa từng thắng một trận knock out World Cup, còn Ai Cập đang đá trận knock out World Cup đầu tiên trong lịch sử. Nói ngắn gọn, ai thắng cũng có một trang mới để khoe với con cháu.",
+      "subtitle": "Úc chưa từng thắng một trận knock-out World Cup, còn Ai Cập đang đá trận knock-out World Cup đầu tiên trong lịch sử. Nói ngắn gọn, ai thắng cũng có một trang mới để khoe với con cháu.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Úc vs Ai Cập | 04/07/2026 VN",
+      "ctaLabel": "Kickoff 01:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Irankunda phản công, Salah mở khóa",
+      "voiceText": "Úc dự kiến chơi sơ đồ ba bốn hai một, với Patrick Beach trong khung gỗ, Circati, Souttar và Herrington ở hàng thủ. Bos, Irvine, O'Neill và Behich giữ trục giữa, còn Volpato cùng Metcalfe hỗ trợ Irankunda. Ai Cập có thể dùng bốn hai ba một, Mostafa Shobeir bắt chính, Hany, Yasser Ibrahim, Ramy Rabia và Karim Hafez ở hàng thủ, Marwan Ateya cùng Hamdy Fathy dọn nền, phía trên là Ziko, Mô ha mét Sa lah, Emam Ashour và Omar Marmoush.",
+      "subtitle": "Úc dự kiến chơi sơ đồ 3-4-2-1, với Patrick Beach trong khung gỗ, Circati, Souttar và Herrington ở hàng thủ. Bos, Irvine, O'Neill và Behich giữ trục giữa, còn Volpato cùng Metcalfe hỗ trợ Irankunda. Ai Cập có thể dùng 4-2-3-1, Mostafa Shobeir bắt chính, Hany, Yasser Ibrahim, Ramy Rabia và Karim Hafez ở hàng thủ, Marwan Ateya cùng Hamdy Fathy dọn nền, phía trên là Ziko, Mohamed Salah, Emam Ashour và Omar Marmoush.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Dallas Stadium",
+      "teams": [
+        {
+          "name": "Úc",
+          "code": "AUS",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/australia.svg",
+          "badgeSrc": "assets/football/flags/australia.svg"
+        },
+        {
+          "name": "Ai Cập",
+          "code": "EGY",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Patrick Beach",
+            "Alessandro Circati",
+            "Harry Souttar",
+            "Lucas Herrington",
+            "Jordan Bos",
+            "Jackson Irvine",
+            "Aiden O'Neill",
+            "Aziz Behich",
+            "Cristian Volpato",
+            "Conor Metcalfe",
+            "Nestory Irankunda"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Mostafa Shobeir",
+            "Mohamed Hany",
+            "Yasser Ibrahim",
+            "Ramy Rabia",
+            "Karim Hafez",
+            "Marwan Ateya",
+            "Hamdy Fathy",
+            "Mostafa Ziko",
+            "Mohamed Salah",
+            "Emam Ashour",
+            "Omar Marmoush"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Ai Cập nhỉnh hơn, Úc rất khó chịu",
+      "voiceText": "Hai đội mới gặp nhau hai lần theo thống kê đối đầu: năm một chín tám bảy hòa không đều rồi Úc thắng luân lưu, còn năm hai không mười, Ai Cập thắng ba không tại Cairo. Lần này thị trường đang nghiêng nhẹ về Ai Cập, chủ yếu vì Sa lah, Marmoush và số lượng mũi tấn công tốt hơn. Nhưng Úc không cần bóng nhiều để gây phiền, chỉ cần một pha phản công của Irankunda là kèo dưới tự nhiên có tiếng nói ngay.",
+      "subtitle": "Hai đội mới gặp nhau hai lần theo thống kê đối đầu: năm 1987 hòa 0-0 rồi Úc thắng luân lưu, còn năm 2010, Ai Cập thắng 3-0 tại Cairo. Lần này thị trường đang nghiêng nhẹ về Ai Cập, chủ yếu vì Salah, Marmoush và số lượng mũi tấn công tốt hơn. Nhưng Úc không cần bóng nhiều để gây phiền, chỉ cần một pha phản công của Irankunda là kèo dưới tự nhiên có tiếng nói ngay.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Úc",
+          "code": "AUS",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/australia.svg",
+          "badgeSrc": "assets/football/flags/australia.svg"
+        },
+        {
+          "name": "Ai Cập",
+          "code": "EGY",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Úc", "Ai Cập", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Kèo dưới lì đòn",
+            "x12": "Nhỉnh hơn",
+            "hdp": "Egypt khoảng +145 đến +150 kèo 1x2"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Block thấp, phản công nhanh",
+            "x12": "Cầm bóng, tìm Salah",
+            "hdp": "Hòa trong 90 phút vẫn là kịch bản đáng để ý"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "Irankunda, Souttar, Irvine",
+            "x12": "Salah, Marmoush, Ashour",
+            "hdp": "Thể lực của Salah có thể làm giá kèo dịch chuyển"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "1987",
+          "competition": "Friendly tournament",
+          "home": "Australia",
+          "away": "Egypt",
+          "score": "0-0",
+          "note": "Australia thắng luân lưu 4-3 tại Seoul",
+          "homeBadgeSrc": "assets/football/flags/australia.svg",
+          "awayBadgeSrc": "assets/football/flags/egypt.svg"
+        },
+        {
+          "kickoff": "17/11/2010",
+          "competition": "Friendly",
+          "home": "Egypt",
+          "away": "Australia",
+          "score": "3-0",
+          "note": "Egypt thắng tại Cairo",
+          "homeBadgeSrc": "assets/football/flags/egypt.svg",
+          "awayBadgeSrc": "assets/football/flags/australia.svg"
+        },
+        {
+          "kickoff": "04/07/2026",
+          "competition": "World Cup Round of 32",
+          "home": "Australia",
+          "away": "Egypt",
+          "score": "01:00 VN",
+          "note": "Lần đầu gặp nhau tại World Cup",
+          "homeBadgeSrc": "assets/football/flags/australia.svg",
+          "awayBadgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 42,
+              "away": 58
+            },
+            {
+              "label": "Nguy hiểm phản công",
+              "home": 67,
+              "away": 63
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Kèo & nhận định",
+      "subtext": "Ai Cập cửa trên nhẹ, Úc có bài phá nhịp",
+      "quote": "Ai Cập sáng hơn nhờ Salah, Marmoush và khả năng tạo khoảnh khắc. Nhưng Úc là đội rất hợp để biến trận đấu đẹp thành một buổi vật tay chiến thuật.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Về tỷ lệ kèo, Ai Cập đang là cửa trên nhẹ, kèo một ít hai quanh mức cộng một bốn lăm đến cộng một năm mươi theo bảng odds tham khảo. Nhưng đây không phải kiểu trận nên hô quá tay, vì Úc phòng ngự thấp, bóng dài tốt, và có Souttar trong các pha cố định. Nhận định của tôi là Ai Cập nhỉnh hơn nếu Sa lah đá đủ sắc, nhưng trận này dễ sít sao. Tôi nghiêng về một không hoặc hai một cho Ai Cập, còn kèo tài lớn thì xin phép đứng xa nửa bước cho tim đỡ mệt.",
+      "subtitle": "Về tỷ lệ kèo, Ai Cập đang là cửa trên nhẹ, kèo 1x2 quanh mức +145 đến +150 theo bảng odds tham khảo. Nhưng đây không phải kiểu trận nên hô quá tay, vì Úc phòng ngự thấp, bóng dài tốt, và có Souttar trong các pha cố định. Nhận định của tôi là Ai Cập nhỉnh hơn nếu Salah đá đủ sắc, nhưng trận này dễ sít sao. Tôi nghiêng về 1-0 hoặc 2-1 cho Ai Cập, còn kèo tài lớn thì xin phép đứng xa nửa bước cho tim đỡ mệt.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng gặp Argentina hoặc Cabo Verde",
+      "voiceText": "Ở nhánh ngay bên cạnh, Argentina gặp Cabo Verde lúc năm giờ sáng, ngày mùng bốn tháng bảy theo giờ Việt Nam tại Miami Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Úc gặp Ai Cập, vòng mười sáu đội, lúc hai mươi ba giờ, ngày mùng bảy tháng bảy theo giờ Việt Nam tại Atlanta Stadium. Nói vui chứ nếu vượt qua Dallas, phần thưởng có thể là Messi ở Atlanta, nghe giống quà tặng nhưng mở ra thấy hơi áp lực.",
+      "subtitle": "Ở nhánh ngay bên cạnh, Argentina gặp Cabo Verde lúc 05:00 ngày 04/07 theo giờ Việt Nam tại Miami Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Úc vs Ai Cập, vòng 16 đội, lúc 23:00 ngày 07/07 theo giờ Việt Nam tại Atlanta Stadium. Nói vui chứ nếu vượt qua Dallas, phần thưởng có thể là Messi ở Atlanta, nghe giống quà tặng nhưng mở ra thấy hơi áp lực.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Argentina",
+          "away": "Cabo Verde",
+          "score": "05:00 04/07 VN",
+          "note": "Miami Stadium | Match 86",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/cabo-verde.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Winner Argentina/Cabo Verde",
+          "away": "Winner Australia/Egypt",
+          "score": "23:00 07/07 VN",
+          "note": "Atlanta Stadium | Match 95",
+          "homeBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn nghiêng kèo nào?",
+      "subtext": "Salah giải quyết hay Úc kéo vào hiệp phụ?",
+      "voiceText": "Theo bạn, Ai Cập có thắng trong chín mươi phút nhờ Sa lah và Marmoush, hay Úc sẽ kéo trận này vào hiệp phụ bằng một bài phòng ngự làm đối thủ cáu nhẹ? Bình luận tỉ số và nhận định kèo vừa phải thôi nha, vui là chính, đừng để ví tiền làm huấn luyện viên trưởng. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Ai Cập có thắng trong 90 phút nhờ Salah và Marmoush, hay Úc sẽ kéo trận này vào hiệp phụ bằng một bài phòng ngự làm đối thủ cáu nhẹ? Bình luận tỉ số và nhận định kèo vừa phải thôi nha, vui là chính, đừng để ví tiền làm huấn luyện viên trưởng. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Úc vs Ai Cập",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Úc",
+          "Ai Cập",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

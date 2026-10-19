@@ -1,0 +1,410 @@
+{
+  "title": "Czechia vs South Africa: trận sửa sai của bảng A",
+  "slug": "czechia-vs-south-africa-world-cup-2026-preview-2026-06-18",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Czechia - South Africa, kickoff 23:00 ngày 18/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FIFA - Czechia vs South Africa Match Centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021440"
+    },
+    {
+      "title": "Mercedes-Benz Stadium - Czechia vs South Africa",
+      "url": "https://www.mercedesbenzstadium.com/events/fifa-world-cup-26-tm---czechia-vs-south-africa"
+    },
+    {
+      "title": "Sky Sports - World Cup 2026 fixture schedule",
+      "url": "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Czechia vs South Africa",
+      "subtext": "trận sửa sai của bảng A",
+      "voiceText": "Cộng Hòa Sec gặp Nam Phi lúc hai mươi ba giờ, ngày mười tám tháng sáu theo giờ Việt Nam. Đây là trận sửa sai của bảng A, khi cả hai đều đã trắng tay ở lượt mở màn.",
+      "subtitle": "Czechia gặp South Africa lúc 23:00 ngày 18/06 theo giờ Việt Nam. Đây là trận sửa sai của bảng A, khi cả hai đều đã trắng tay ở lượt mở màn.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group A - Matchday 2",
+      "venue": "Atlanta Stadium",
+      "date": "18/06/2026",
+      "time": "23:00 VN",
+      "teams": [
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "form": "Cần phản ứng",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        },
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "form": "Cần điểm đầu tiên",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng A bước vào lượt hai",
+      "subtext": "Cả hai đều cần điểm",
+      "voiceText": "Bảng A đang tách nhóm rất sớm. Nếu Cộng Hòa Sec hoặc Nam Phi tiếp tục thua, áp lực đi tiếp sẽ nặng lên ngay trước lượt cuối.",
+      "subtitle": "Bảng A đang tách nhóm rất sớm. Nếu Czechia hoặc South Africa tiếp tục thua, áp lực đi tiếp sẽ nặng lên ngay trước lượt cuối.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group A Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Czechia vs South Africa | 18/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Czechia có thể đá trực diện, South Africa cần tốc độ",
+      "voiceText": "Cộng Hòa Sec có thể dùng khung ba bốn hai một quanh Soucek, Hlozek và Schick. Nam Phi nhiều khả năng vẫn giữ năm ba hai, lấy Mokoena, Foster và Rayners làm điểm phản công.",
+      "subtitle": "Czechia có thể dùng khung 3-4-2-1 quanh Soucek, Hložek và Schick. South Africa nhiều khả năng vẫn giữ 5-3-2, lấy Mokoena, Foster và Rayners làm điểm phản công.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        },
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Stanek",
+            "Hranac",
+            "Krejci",
+            "Zima",
+            "Coufal",
+            "Soucek",
+            "Sadilek",
+            "Jurasek",
+            "Cerny",
+            "Hlozek",
+            "Schick"
+          ]
+        },
+        "away": {
+          "formation": "5-3-2",
+          "players": [
+            "Williams",
+            "Mudau",
+            "Sibisi",
+            "Mbokazi",
+            "Modiba",
+            "Mokoena",
+            "Sithole",
+            "Adams",
+            "Zwane",
+            "Foster",
+            "Rayners"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Chìa khóa: bóng hai",
+      "subtext": "Một trận dễ bị kéo vào tranh chấp",
+      "voiceText": "Cộng Hòa Sec có lợi thế ở bóng bổng và các pha bóng hai. Nam Phi cần kéo trận đấu vào tốc độ, vì nếu phải phòng ngự cố định quá lâu, họ sẽ rất mệt.",
+      "subtitle": "Czechia có lợi thế ở bóng bổng và các pha bóng hai. South Africa cần kéo trận đấu vào tốc độ, vì nếu phải phòng ngự cố định quá lâu, họ sẽ rất mệt.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "homeTeam": "Czechia",
+      "awayTeam": "South Africa",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Czechia",
+          "away": "South Africa",
+          "score": "Preview",
+          "note": "Hai đội đều cần điểm sau lượt mở màn không như ý",
+          "homeBadgeSrc": "assets/football/flags/czechia.svg",
+          "awayBadgeSrc": "assets/football/flags/south-africa.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Không chiến",
+          "value": "Czechia"
+        },
+        {
+          "label": "Chuyển trạng thái",
+          "value": "South Africa"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Bàn đầu"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Sức mạnh bóng bổng",
+              "home": 84,
+              "away": 70
+            },
+            {
+              "label": "Tốc độ phản công",
+              "home": 68,
+              "away": 80
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Áp lực nằm ở đội thua",
+      "quote": "Đây là kiểu trận mà bàn thua trước có thể làm cả kế hoạch sụp xuống rất nhanh.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng là cách Nam Phi xử lý những quả tạt sớm. Chỉ cần một lần Schick được đánh đầu thoải mái, thế trận có thể đổi hướng ngay.",
+      "subtitle": "Điểm nóng là cách South Africa xử lý những quả tạt sớm. Chỉ cần một lần Schick được đánh đầu thoải mái, thế trận có thể đổi hướng ngay.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng A trước trận",
+      "subtext": "Mexico và Korea Republic đang có lợi thế",
+      "voiceText": "Mexico và Korea Republic đang có ba điểm, nên Cộng Hòa Sec lẫn Nam Phi đều cần ít nhất một điểm để không bị bỏ lại trong bảng A.",
+      "subtitle": "Mexico và Korea Republic đang có 3 điểm, nên Czechia lẫn South Africa đều cần ít nhất 1 điểm để không bị bỏ lại trong bảng A.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group A",
+      "highlightTeams": [
+        "Czechia",
+        "South Africa"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Mexico",
+          "played": 1,
+          "points": 3,
+          "gd": "+2",
+          "badgeSrc": "assets/football/flags/mexico.svg"
+        },
+        {
+          "pos": 2,
+          "team": "Korea Republic",
+          "played": 1,
+          "points": 3,
+          "gd": "+1",
+          "badgeSrc": "assets/football/flags/korea-republic.svg"
+        },
+        {
+          "pos": 3,
+          "team": "Czechia",
+          "played": 1,
+          "points": 0,
+          "gd": "-1",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        },
+        {
+          "pos": 4,
+          "team": "South Africa",
+          "played": 1,
+          "points": 0,
+          "gd": "-2",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn nghĩ Cộng Hòa Sec hay Nam Phi sẽ hồi sinh ở lượt hai? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn nghĩ Czechia hay South Africa sẽ hồi sinh ở lượt hai? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số của bạn là gì?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

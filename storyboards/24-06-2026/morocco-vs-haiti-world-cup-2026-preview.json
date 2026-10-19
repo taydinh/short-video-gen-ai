@@ -1,0 +1,427 @@
+{
+  "title": "Morocco vs Haiti: Đại diện châu Phi quyết đua hiệu số giành ngôi đầu",
+  "slug": "morocco-vs-haiti-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Morocco vs Haiti ở bảng C World Cup 2026, diễn ra lúc 05:00 ngày 25/06/2026 giờ Việt Nam. Morocco tranh chấp ngôi đầu bảng với Brazil.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Schedule and Standings",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Morocco vs Haiti",
+      "subtext": "Ma rốc quyết tâm giật ngôi đầu",
+      "voiceText": "Ma rốc gặp Haiti lúc năm giờ sáng ngày hai mươi lăm tháng sáu theo giờ Việt Nam. Đây là trận đấu mà đại diện châu Phi đặt mục tiêu giành chiến thắng thật đậm để cạnh tranh ngôi đầu bảng với Brazil.",
+      "subtitle": "Morocco gặp Haiti lúc 05:00 ngày 25/06 theo giờ Việt Nam. Đây là trận đấu mà đại diện châu Phi đặt mục tiêu giành chiến thắng thật đậm để cạnh tranh ngôi đầu bảng với Brazil.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group C - Matchday 3",
+      "venue": "Mercedes-Benz Stadium",
+      "date": "25/06/2026",
+      "time": "05:00 VN",
+      "teams": [
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "form": "4 điểm",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        },
+        {
+          "name": "Haiti",
+          "code": "HAI",
+          "form": "Đã loại",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/haiti.svg",
+          "badgeSrc": "assets/football/flags/haiti.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Cục diện bảng C",
+      "subtext": "Haiti chiến đấu danh dự",
+      "voiceText": "Trong khi Ma rốc khao khát điểm số để đua ngôi đầu bảng Xê, Haiti đã chính thức bị loại sau hai trận thua liên tiếp và chỉ còn chiến đấu vì danh dự.",
+      "subtitle": "Trong khi Morocco khao khát điểm số để đua ngôi đầu bảng C, Haiti đã chính thức bị loại sau 2 trận thua liên tiếp và chỉ còn chiến đấu vì danh dự.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group C Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Morocco vs Haiti | 25/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Brahim Diaz dẫn dắt lối chơi",
+      "voiceText": "Ma rốc ra sân với sơ đồ bốn hai ba một mạnh mẽ nhất, nổi bật là nhạc trưởng Brahim Diaz và ngòi nổ Saibari. Phía Haiti đá bốn bốn hai, cố gắng lấp đầy khoảng trống mà tiền đạo chủ lực Duckens Nazon để lại bằng sức trẻ của Lacroix.",
+      "subtitle": "Morocco ra sân với sơ đồ 4-2-3-1 mạnh mẽ nhất, nổi bật là nhạc trưởng Brahim Díaz và ngòi nổ Saibari. Phía Haiti đá 4-4-2, cố gắng lấp đầy khoảng trống mà tiền đạo chủ lực Duckens Nazon để lại bằng sức trẻ của Lacroix.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        },
+        {
+          "name": "Haiti",
+          "code": "HAI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/haiti.svg",
+          "badgeSrc": "assets/football/flags/haiti.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Bounou",
+            "Hakimi",
+            "Aguerd",
+            "Saiss",
+            "Mazraoui",
+            "Amrabat",
+            "Ounahi",
+            "Ziyech",
+            "Diaz",
+            "Adli",
+            "En-Nesyri"
+          ]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": [
+            "Innocent",
+            "Arcus",
+            "Ade",
+            "Pierre",
+            "Christian",
+            "Louicius",
+            "Jean Jacques",
+            "Saba",
+            "Etienne",
+            "Pierrot",
+            "Lacroix"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Lần đầu tiên chạm trán trong lịch sử",
+      "voiceText": "Hai đội chưa từng đối đầu trong quá khứ. Ở lượt trận thứ hai tại World Cup lần này, Ma rốc đã vượt qua Scotland một không nhờ bàn thắng sớm của Saibari, trong khi Haiti đành thúc thủ không ba trước một Brazil quá vượt trội.",
+      "subtitle": "Hai đội chưa từng đối đầu trong quá khứ. Ở lượt trận thứ hai tại World Cup lần này, Morocco đã vượt qua Scotland 1-0 nhờ bàn thắng sớm của Saibari, trong khi Haiti đành thúc thủ 0-3 trước một Brazil quá vượt trội.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Morocco",
+      "awayTeam": "Haiti",
+      "h2hMatches": [
+        {
+          "date": "20/06/2026",
+          "home": "Morocco",
+          "away": "Scotland",
+          "score": "1-0",
+          "note": "Lượt hai: Morocco thắng sát nút nhờ Saibari",
+          "homeBadgeSrc": "assets/football/flags/morocco.svg",
+          "awayBadgeSrc": "assets/football/flags/scotland.svg"
+        },
+        {
+          "date": "20/06/2026",
+          "home": "Brazil",
+          "away": "Haiti",
+          "score": "3-0",
+          "note": "Lượt hai: Haiti thua đậm trước ông lớn Brazil",
+          "homeBadgeSrc": "assets/football/flags/brazil.svg",
+          "awayBadgeSrc": "assets/football/flags/haiti.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Chênh lệch đẳng cấp",
+          "value": "Morocco"
+        },
+        {
+          "label": "Tinh thần cống hiến",
+          "value": "Haiti"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Pressing áp đặt"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tỷ lệ kiểm soát",
+              "home": 80,
+              "away": 60
+            },
+            {
+              "label": "Tấn công trung lộ",
+              "home": 84,
+              "away": 68
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trận đấu",
+      "quote": "Morocco cần nhập cuộc nhanh để sớm giải quyết trận đấu và dưỡng sức cho các trụ cột.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng sẽ là sự sáng tạo của Brahim Diaz ở trung lộ. Một khi Diaz tìm thấy khoảng trống để tỉa bóng cho En Nesyri, hàng thủ vốn chắp vá của Haiti sẽ khó đứng vững.",
+      "subtitle": "Điểm nóng sẽ là sự sáng tạo của Brahim Díaz ở trung lộ. Một khi Díaz tìm thấy khoảng trống để tỉa bóng cho En-Nesyri, hàng thủ vốn chắp vá của Haiti sẽ khó đứng vững.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng C trước lượt cuối",
+      "subtext": "Cạnh tranh khốc liệt ngôi đầu",
+      "voiceText": "Ở bảng Xê hiện tại, Brazil dẫn đầu nhờ hơn hiệu số so với Ma rốc. Scotland đứng thứ ba và còn cửa đi tiếp, còn Haiti đã hết cơ hội. Một chiến thắng đậm sẽ giúp Ma rốc hy vọng giật ngôi đầu bảng từ tay Brazil.",
+      "subtitle": "Ở bảng C hiện tại, Brazil dẫn đầu nhờ hơn hiệu số so với Morocco. Scotland đứng thứ 3 và còn cửa đi tiếp, còn Haiti đã hết cơ hội. Một chiến thắng đậm sẽ giúp Morocco hy vọng giật ngôi đầu bảng từ tay Brazil.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group C Standings",
+      "highlightTeams": [
+        "Morocco",
+        "Haiti"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/brazil.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+3"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Morocco",
+            "code": "MAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/morocco.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+1"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Scotland",
+            "code": "SCO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/scotland.svg"
+          },
+          "played": 2,
+          "points": 3,
+          "gd": "0"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Haiti",
+            "code": "HAI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/haiti.svg"
+          },
+          "played": 2,
+          "points": 0,
+          "gd": "-4"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn nghĩ Ma rốc sẽ thắng bao nhiêu bàn, hay Haiti sẽ tạo bất ngờ ngày chia tay? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn nghĩ Morocco sẽ thắng bao nhiêu bàn, hay Haiti sẽ tạo bất ngờ ngày chia tay? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Morocco vs Haiti",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

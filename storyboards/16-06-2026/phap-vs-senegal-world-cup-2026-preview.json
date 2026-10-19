@@ -1,0 +1,417 @@
+{
+  "title": "Pháp vs Senegal: đại chiến thể lực mở màn bảng I",
+  "slug": "phap-vs-senegal-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Pháp - Senegal ở bảng I World Cup 2026, giờ Việt Nam là 02:00 ngày 17/06/2026.",
+  "sources": [],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Pháp vs Senegal",
+      "subtext": "Cửa trên châu Âu gặp bài test thể lực châu Phi",
+      "voiceText": "Pháp gặp Senegal lúc hai giờ sáng, ngày mười bảy tháng sáu theo giờ Việt Nam. Đây là trận mở màn bảng I World Cup hai không hai sáu, nơi tốc độ của em pa bê sẽ va vào hàng thủ cực giàu sức mạnh của Senegal.",
+      "subtitle": "Pháp gặp Senegal lúc 02:00 ngày 17/06 theo giờ Việt Nam. Đây là trận mở màn bảng I World Cup 2026, nơi tốc độ của Mbappé sẽ va vào hàng thủ cực giàu sức mạnh của Senegal.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group I - Matchday 1",
+      "venue": "World Cup 2026",
+      "date": "17/06/2026",
+      "time": "02:00 VN",
+      "teams": [
+        {
+          "name": "France",
+          "code": "FRA",
+          "form": "Ứng viên vô địch",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "form": "Bản lĩnh châu Phi",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng I khởi động cực nặng",
+      "subtext": "France, Senegal, Iraq và Norway",
+      "voiceText": "Bảng I không có trận dễ thở. Pháp muốn gửi thông điệp ngay lượt đầu, còn Senegal cần ít nhất một điểm để biến cuộc đua đi tiếp thành cuộc chiến thật sự mở.",
+      "subtitle": "Bảng I không có trận dễ thở. Pháp muốn gửi thông điệp ngay lượt đầu, còn Senegal cần ít nhất 1 điểm để biến cuộc đua đi tiếp thành cuộc chiến thật sự mở.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group I Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "France vs Senegal | 17/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Mbappé đối đầu Koulibaly",
+      "voiceText": "Pháp có thể đá bốn ba ba với Maignan, Kounde, Saliba, Upamecano, Theo Hernandez, Tchouameni, Rabiot, Griezmann, đem bê lê, em pa bê và Thuram. Senegal nhiều khả năng dùng Mendy, Sabaly, Koulibaly, Niakhate, Jakobs, Gueye, Pape Matar Sarr, Ismaila Sarr, Ndiaye, Mane và Nicolas Jackson.",
+      "subtitle": "Pháp có thể đá 4-3-3 với Maignan, Kounde, Saliba, Upamecano, Theo Hernandez, Tchouameni, Rabiot, Griezmann, Dembélé, Mbappé và Thuram. Senegal nhiều khả năng dùng Mendy, Sabaly, Koulibaly, Niakhate, Jakobs, Gueye, Pape Matar Sarr, Ismaila Sarr, Ndiaye, Mané và Nicolas Jackson.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "France",
+          "code": "FRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/france.svg",
+          "badgeSrc": "assets/football/flags/france.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Maignan",
+            "Kounde",
+            "Saliba",
+            "Upamecano",
+            "Theo Hernandez",
+            "Tchouameni",
+            "Rabiot",
+            "Griezmann",
+            "Dembele",
+            "Mbappe",
+            "Thuram"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Mendy",
+            "Sabaly",
+            "Koulibaly",
+            "Niakhate",
+            "Jakobs",
+            "Gueye",
+            "Pape Matar Sarr",
+            "Ismaila Sarr",
+            "Ndiaye",
+            "Mane",
+            "Nicolas Jackson"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: Pháp vẫn là cửa trên",
+      "subtext": "Nhưng Senegal đủ sức kéo trận đấu vào tranh chấp",
+      "voiceText": "Khoảng cách chiều sâu đội hình nghiêng về Pháp, nhưng Senegal có thứ khiến mọi ông lớn khó chịu: thể lực, tốc độ chuyển trạng thái và những pha tranh chấp rất rát. Nếu Pháp không ghi bàn sớm, trận đấu có thể trở thành bài kiểm tra kiên nhẫn.",
+      "subtitle": "Khoảng cách chiều sâu đội hình nghiêng về Pháp, nhưng Senegal có thứ khiến mọi ông lớn khó chịu: thể lực, tốc độ chuyển trạng thái và những pha tranh chấp rất rát. Nếu Pháp không ghi bàn sớm, trận đấu có thể trở thành bài kiểm tra kiên nhẫn.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "France",
+      "awayTeam": "Senegal",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2002",
+          "home": "France",
+          "away": "Senegal",
+          "score": "0-1",
+          "note": "Senegal từng tạo địa chấn trước nhà đương kim vô địch",
+          "homeBadgeSrc": "assets/football/flags/france.svg",
+          "awayBadgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Chiều sâu đội hình",
+          "value": "France"
+        },
+        {
+          "label": "Va chạm tay đôi",
+          "value": "Senegal"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Bàn mở tỉ số"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tốc độ biên",
+              "home": 90,
+              "away": 82
+            },
+            {
+              "label": "Sức mạnh tranh chấp",
+              "home": 78,
+              "away": 88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: hai cánh của Pháp",
+      "subtext": "Senegal phải khóa khoảng trống sau lưng hậu vệ biên",
+      "voiceText": "Điểm nóng nằm ở hai biên. Nếu Pháp kéo được Senegal dâng cao, em pa bê và đem bê lê có thể mở trận chỉ bằng một pha tăng tốc. Nhưng nếu Senegal ép ngược được tuyến giữa, Pháp sẽ phải phòng ngự trước những pha chuyển trạng thái rất trực diện.",
+      "subtitle": "Điểm nóng nằm ở hai biên. Nếu Pháp kéo được Senegal dâng cao, Mbappé và Dembélé có thể mở trận chỉ bằng một pha tăng tốc. Nhưng nếu Senegal ép ngược được tuyến giữa, Pháp sẽ phải phòng ngự trước những pha chuyển trạng thái rất trực diện.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Pháp mạnh hơn, nhưng Senegal đủ tốc độ để biến một sai số nhỏ thành khoảnh khắc đổi trận.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng I",
+      "subtext": "Một bảng đấu có cả tốc độ, thể lực và cá tính",
+      "voiceText": "Bảng I gồm Pháp, Senegal, Y Rắc và Na Uy. Trước lượt đầu, tất cả cùng không điểm, nhưng cặp Pháp gặp Senegal có thể định hình ngay trật tự nhóm đầu, đặc biệt nếu Na Uy thắng ở trận còn lại.",
+      "subtitle": "Bảng I gồm Pháp, Senegal, Iraq và Na Uy. Trước lượt đầu, tất cả cùng 0 điểm, nhưng cặp Pháp gặp Senegal có thể định hình ngay trật tự nhóm đầu, đặc biệt nếu Na Uy thắng ở trận còn lại.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group I",
+      "activeTab": "BẢNG I",
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "FRA",
+        "SEN"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "France",
+            "code": "FRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/france.svg",
+            "badgeSrc": "assets/football/flags/france.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Senegal",
+            "code": "SEN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/senegal.svg",
+            "badgeSrc": "assets/football/flags/senegal.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Iraq",
+            "code": "IRQ",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/iraq.svg",
+            "badgeSrc": "assets/football/flags/iraq.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Norway",
+            "code": "NOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/norway.svg",
+            "badgeSrc": "assets/football/flags/norway.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Comment lựa chọn của bạn",
+      "voiceText": "Bạn dự đoán Pháp thắng bằng đẳng cấp, hay Senegal sẽ tái hiện một cú sốc kiểu hai không lẻ hai? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Pháp thắng bằng đẳng cấp, hay Senegal sẽ tái hiện một cú sốc kiểu 2002? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Pháp vs Senegal",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "France",
+          "Senegal",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

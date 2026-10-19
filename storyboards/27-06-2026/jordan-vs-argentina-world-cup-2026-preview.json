@@ -1,0 +1,417 @@
+{
+  "title": "Jordan vs Argentina: Thử thách cho nhà vua",
+  "slug": "jordan-vs-argentina-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Nhận định trận đấu danh dự của Jordan trước gã khổng lồ Argentina tại bảng J World Cup 2026. Lịch thi đấu theo giờ Việt Nam là 09:00 ngày 28/06/2026.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "Sports Mole - Jordan vs Argentina preview",
+      "url": "https://www.sportsmole.co.uk/football/argentina/world-cup/preview/preview-jordan-vs-argentina.html"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Jordan vs Argentina",
+      "subtext": "Trận đấu danh dự của đại diện châu Á",
+      "voiceText": "Jordan đối đầu với đội tuyển Ác hen ti na vào lúc chín giờ sáng, ngày hai mươi tám tháng sáu theo giờ Việt Nam. Đây là lượt trận cuối cùng bảng Ji World Cup hai không hai sáu. Đối với Jordan, đây là cơ hội lịch sử để cọ xát với nhà đương kim vô địch thế giới.",
+      "subtitle": "Jordan đối đầu với ĐT Argentina vào lúc 09:00 ngày 28/06 theo giờ Việt Nam. Đây là lượt trận cuối cùng bảng J World Cup 2026. Đối với Jordan, đây là cơ hội lịch sử để cọ xát với nhà đương kim vô địch thế giới.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group J - Matchday 3",
+      "venue": "AT&T Stadium",
+      "date": "28/06/2026",
+      "time": "09:00 VN",
+      "teams": [
+        {
+          "name": "Jordan",
+          "code": "JOR",
+          "form": "0 điểm",
+          "flagSrc": "assets/football/flags/jordan.svg",
+          "badgeSrc": "assets/football/flags/jordan.svg"
+        },
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "form": "6 điểm",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Nhà vua đi tiếp",
+      "subtext": "Argentina khẳng định sức mạnh",
+      "voiceText": "Với hai chiến thắng tuyệt đối, Ác hen ti na đã sớm giành ngôi đầu bảng Ji. Trận đấu này sẽ là cơ hội để huấn luyện viên Lionel Scaloni xoay tua đội hình và thử nghiệm các nhân tố mới.",
+      "subtitle": "Với 2 chiến thắng tuyệt đối, Argentina đã sớm giành ngôi đầu bảng J. Trận đấu này sẽ là cơ hội để HLV Lionel Scaloni xoay tua đội hình và thử nghiệm các nhân tố mới.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group J Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Argentina xoay tua nhân sự",
+      "voiceText": "Ác hen ti na dự kiến sẽ ra sân với nhiều sự thay đổi, khi những nhân tố dự bị chất lượng như Lô Xen xô, Pa rê đét và An ma đa có cơ hội đá chính bên cạnh siêu sao mét xi. Phía Jordan vẫn sẽ dựa vào bộ đôi An Ta ma ri và on oan trên hàng công.",
+      "subtitle": "Argentina dự kiến sẽ ra sân với nhiều sự thay đổi, khi những nhân tố dự bị chất lượng như Lo Celso, Paredes và Almada có cơ hội đá chính bên cạnh siêu sao Messi. Phía Jordan vẫn sẽ dựa vào bộ đôi Al-Tamari và Olwan trên hàng công.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Jordan",
+          "formation": "3-4-2-1",
+          "flagSrc": "assets/football/flags/jordan.svg",
+          "players": [
+            "Abulaila",
+            "Al-Arab",
+            "Nasib",
+            "Abu Dahab",
+            "Haddad",
+            "Al-Rashdan",
+            "Al-Rawabdeh",
+            "Abu Taha",
+            "Al-Tamari",
+            "Al-Mardi",
+            "Olwan"
+          ]
+        },
+        {
+          "team": "Argentina",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "players": [
+            "E. Martinez",
+            "Montiel",
+            "Otamendi",
+            "Martinez",
+            "Tagliafico",
+            "Lo Celso",
+            "Paredes",
+            "Palacios",
+            "Almada",
+            "Messi",
+            "L. Martinez"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H & Phong độ",
+      "subtext": "Khoảng cách đẳng cấp",
+      "voiceText": "Ác hen ti na đang thể hiện phong độ hủy diệt với hai chiến thắng thuyết phục, ghi năm bàn và chưa thủng lưới bàn nào. Trái lại, Gioóc đan đã chính thức bị loại sau hai trận thua sát nút trước Áo và An giê ri.",
+      "subtitle": "Argentina đang thể hiện phong độ hủy diệt với 2 chiến thắng thuyết phục, ghi 5 bàn và chưa thủng lưới bàn nào. Trái lại, Jordan đã chính thức bị loại sau 2 trận thua sát nút trước Áo và Algeria.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Jordan",
+      "awayTeam": "Argentina",
+      "h2hMatches": [
+        {
+          "date": "17/06/2026",
+          "home": "Argentina",
+          "away": "Algeria",
+          "score": "3-0",
+          "note": "Lượt trận 1",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/algeria.svg"
+        },
+        {
+          "date": "17/06/2026",
+          "home": "Áo",
+          "away": "Jordan",
+          "score": "3-1",
+          "note": "Lượt trận 1",
+          "homeBadgeSrc": "assets/football/flags/austria.svg",
+          "awayBadgeSrc": "assets/football/flags/jordan.svg"
+        },
+        {
+          "date": "23/06/2026",
+          "home": "Argentina",
+          "away": "Áo",
+          "score": "2-0",
+          "note": "Lượt trận 2",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/austria.svg"
+        },
+        {
+          "date": "23/06/2026",
+          "home": "Algeria",
+          "away": "Jordan",
+          "score": "2-1",
+          "note": "Lượt trận 2",
+          "homeBadgeSrc": "assets/football/flags/algeria.svg",
+          "awayBadgeSrc": "assets/football/flags/jordan.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Mục tiêu Jordan",
+          "value": "Trận đấu danh dự"
+        },
+        {
+          "label": "Mục tiêu Argentina",
+          "value": "Thử nghiệm đội hình"
+        },
+        {
+          "label": "Tỉ lệ thắng dự kiến",
+          "value": "Argentina vượt trội"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Khả năng kiểm soát bóng dự kiến",
+              "home": 30,
+              "away": 70
+            },
+            {
+              "label": "Chỉ số bàn thắng kỳ vọng",
+              "home": 40,
+              "away": 85
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Ali Olwan",
+      "subtext": "Tìm kiếm bàn thắng danh dự",
+      "voiceText": "Tiền đạo Ali on oan của Jordan chỉ còn cách kỷ lục ghi bàn mọi thời đại của đội tuyển quốc gia đúng một pha lập công. Liệu anh có thể làm nên điều kỳ diệu trước hàng phòng ngự thép của Ác hen ti na?",
+      "subtitle": "Tiền đạo Ali Olwan của Jordan chỉ còn cách kỷ lục ghi bàn mọi thời đại của ĐT quốc gia đúng 1 pha lập công. Liệu anh có thể làm nên điều kỳ diệu trước hàng phòng ngự thép của Argentina?",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Argentina đã chắc suất đi tiếp và sẽ xoay tua đội hình, đây là cơ hội tốt nhất để Jordan tìm kiếm bàn thắng lịch sử.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "BXH Bảng J hiện tại",
+      "subtext": "Argentina vững vàng ngôi đầu",
+      "voiceText": "Cục diện bảng Ji đã ngã ngũ với ngôi vị dẫn đầu thuộc về Ác hen ti na với sáu điểm. Jordan đứng cuối bảng khi chưa có điểm nào, và trận đấu này chỉ còn mang tính chất danh dự với đại diện Tây Á.",
+      "subtitle": "Cục diện bảng J đã ngã ngũ với ngôi vị dẫn đầu thuộc về Argentina với 6 điểm. Jordan đứng cuối bảng khi chưa có điểm nào, và trận đấu này chỉ còn mang tính chất danh dự với đại diện Tây Á.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group J",
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Argentina",
+          "played": 2,
+          "points": 6,
+          "gd": 5,
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "highlight": true
+        },
+        {
+          "pos": 2,
+          "team": "Austria",
+          "played": 2,
+          "points": 3,
+          "gd": 0,
+          "flagSrc": "assets/football/flags/austria.svg"
+        },
+        {
+          "pos": 3,
+          "team": "Algeria",
+          "played": 2,
+          "points": 3,
+          "gd": -2,
+          "flagSrc": "assets/football/flags/algeria.svg"
+        },
+        {
+          "pos": 4,
+          "team": "Jordan",
+          "played": 2,
+          "points": 0,
+          "gd": -3,
+          "flagSrc": "assets/football/flags/jordan.svg",
+          "highlight": true
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Argentina sẽ thắng đậm?",
+      "subtext": "Bình luận dự đoán của bạn",
+      "voiceText": "Jordan liệu có tạo nên địa chấn bằng một trận hòa danh dự, hay Ác hen ti na sẽ tiếp tục mạch toàn thắng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Jordan liệu có tạo nên địa chấn bằng một trận hòa danh dự, hay Argentina sẽ tiếp tục mạch toàn thắng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Jordan vs Argentina",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Jordan",
+          "Argentina"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "title": "Bồ Đào Nha vs Croatia: Ronaldo gặp Modric, già gân nhưng không già chuyện",
+  "slug": "bo-dao-nha-vs-croatia-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Bồ Đào Nha vs Croatia tại vòng 32 đội World Cup 2026, diễn ra lúc 06:00 ngày 03/07/2026 theo giờ Việt Nam tại Toronto Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Portugal v Croatia match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021526"
+    },
+    {
+      "title": "FIFA - Portugal v Croatia match preview",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/portugal-croatia-live-stream-team-news-tickets-and-more"
+    },
+    {
+      "title": "RotoWire - Portugal vs Croatia predicted lineups, team news and tactical analysis",
+      "url": "https://www.rotowire.com/soccer/article/portugal-vs-croatia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120534"
+    },
+    {
+      "title": "SportsGambler - Portugal vs Croatia odds and lineups",
+      "url": "https://www.sportsgambler.com/betting-tips/football/portugal-vs-croatia-prediction-lineups-odds-2026-07-02/"
+    },
+    {
+      "title": "SB Nation - 2026 World Cup knockout bracket and Match 93 context",
+      "url": "https://www.sbnation.com/fifa-world-cup/1120327/2026-world-cup-round-of-32-full-list-of-matches-potential-round-of-16-games"
+    },
+    {
+      "title": "FIFA - Match 93 round of 16 match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "BỒ ĐÀO NHA VS CROATIA",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Sáu giờ sáng, ngày mùng ba tháng bảy theo giờ Việt Nam, Bồ Đào Nha gặp cờ rót ti a tại Toronto Stadium. Một bên có chiều sâu đội hình rất dày, một bên có kinh nghiệm giải đấu dày không kém, nên kèo này nhìn sang thì sáng, nhưng đá sai một nhịp là cà phê sáng cũng đắng theo.",
+      "subtitle": "06:00 ngày 03/07 theo giờ Việt Nam, Bồ Đào Nha gặp Croatia tại Toronto Stadium. Một bên có chiều sâu đội hình rất dày, một bên có kinh nghiệm giải đấu dày không kém, nên kèo này nhìn sang thì sáng, nhưng đá sai một nhịp là cà phê sáng cũng đắng theo.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Toronto Stadium",
+      "date": "03/07/2026",
+      "time": "06:00 VN",
+      "teams": [
+        {
+          "name": "Bồ Đào Nha",
+          "code": "POR",
+          "teamType": "national",
+          "form": ["D", "W", "D"],
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "teamType": "national",
+          "form": ["L", "W", "W"],
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Một vé vào vòng 16 đội",
+      "voiceText": "Bồ Đào Nha nhiều tốc độ gặp cờ rót ti a già nhịp. Một trận đấu có thể không ồn ào từ phút đầu, nhưng càng về cuối càng dễ căng.",
+      "subtitle": "Bồ Đào Nha nhiều tốc độ gặp Croatia già nhịp. Một trận đấu có thể không ồn ào từ phút đầu, nhưng càng về cuối càng dễ căng.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Bồ Đào Nha vs Croatia | 03/07/2026 VN",
+      "ctaLabel": "Kickoff 06:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Ronaldo, Bruno đấu Modric, Kovacic",
+      "voiceText": "Bồ Đào Nha dự kiến đá sơ đồ bốn hai ba một, với Diogo Costa trong khung gỗ, Cancelo, Ruben Dias, Renato Veiga và Nuno Mendes ở hàng thủ. Joao Neves cùng Vitinha giữ nhịp phía sau, còn Pedro Neto, Bruno Fernandes và Joao Felix hỗ trợ Cristiano Ronaldo. Cờ rót ti a dùng bốn ba ba, với Livakovic bắt chính, Stanisic, Sutalo, Pongracic và Gvardiol ở hàng thủ, tuyến giữa là Petar Sucic, Luka Modric, Mateo Kovacic, phía trên có Baturina, Budimir và Perisic.",
+      "subtitle": "Bồ Đào Nha dự kiến đá sơ đồ 4-2-3-1, với Diogo Costa trong khung gỗ, Cancelo, Rúben Dias, Renato Veiga và Nuno Mendes ở hàng thủ. João Neves cùng Vitinha giữ nhịp phía sau, còn Pedro Neto, Bruno Fernandes và João Félix hỗ trợ Cristiano Ronaldo. Croatia dùng 4-3-3, với Livaković bắt chính, Stanišić, Šutalo, Pongračić và Gvardiol ở hàng thủ, tuyến giữa là Petar Sučić, Luka Modrić, Mateo Kovačić, phía trên có Baturina, Budimir và Perišić.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Toronto Stadium",
+      "teams": [
+        {
+          "name": "Bồ Đào Nha",
+          "code": "POR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Diogo Costa",
+            "Joao Cancelo",
+            "Ruben Dias",
+            "Renato Veiga",
+            "Nuno Mendes",
+            "Joao Neves",
+            "Vitinha",
+            "Pedro Neto",
+            "Bruno Fernandes",
+            "Joao Felix",
+            "Cristiano Ronaldo"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Dominik Livakovic",
+            "Josip Stanisic",
+            "Josip Sutalo",
+            "Marin Pongracic",
+            "Josko Gvardiol",
+            "Petar Sucic",
+            "Luka Modric",
+            "Mateo Kovacic",
+            "Martin Baturina",
+            "Ante Budimir",
+            "Ivan Perisic"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Bồ Đào Nha nhỉnh hơn, Croatia không dễ gãy",
+      "voiceText": "Đây là lần đầu hai đội gặp nhau ở World Cup, nhưng lịch sử đối đầu chung nghiêng mạnh về Bồ Đào Nha, với sáu thắng trong tám lần gặp, từ năm hai không lẻ năm. Cờ rót ti a chỉ thắng một và hòa một, nhưng hai trận gần nhất khá sát, Bồ Đào Nha thắng hai một, hồi tháng chín hai không hai bốn, rồi hòa một đều ở Zagreb hai tháng sau. Trận này Bồ Đào Nha có tốc độ biên và Bruno Fernandes, còn cờ rót ti a có Modric, Kovacic và khả năng kéo trận đấu vào nhịp rất khó chịu.",
+      "subtitle": "Đây là lần đầu hai đội gặp nhau ở World Cup, nhưng lịch sử đối đầu chung nghiêng mạnh về Bồ Đào Nha, với 6 thắng trong 8 lần gặp từ năm 2005. Croatia chỉ thắng 1 và hòa 1, nhưng hai trận gần nhất khá sát: Bồ Đào Nha thắng 2-1 hồi tháng 9/2024, rồi hòa 1-1 ở Zagreb hai tháng sau. Trận này Bồ Đào Nha có tốc độ biên và Bruno Fernandes, còn Croatia có Modrić, Kovačić và khả năng kéo trận đấu vào nhịp rất khó chịu.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Bồ Đào Nha",
+          "code": "POR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Bồ Đào Nha", "Croatia", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Nhỉnh hơn",
+            "x12": "Cửa lì đòn",
+            "hdp": "Portugal khoảng 1.75 kèo 1x2"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Đánh biên, nhiều tốc độ",
+            "x12": "Giữ nhịp, chờ sai lầm",
+            "hdp": "Modric sẽ cố làm trận chậm lại"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "Bruno, Neto, Ronaldo",
+            "x12": "Modric, Kovacic, Perisic",
+            "hdp": "Hai cánh của Portugal rất đáng xem"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "08/06/2024",
+          "competition": "Friendly",
+          "home": "Portugal",
+          "away": "Croatia",
+          "score": "1-2",
+          "note": "Croatia thắng tại Lisbon",
+          "homeBadgeSrc": "assets/football/flags/portugal.svg",
+          "awayBadgeSrc": "assets/football/flags/croatia.svg"
+        },
+        {
+          "kickoff": "05/09/2024",
+          "competition": "Nations League",
+          "home": "Portugal",
+          "away": "Croatia",
+          "score": "2-1",
+          "note": "Portugal thắng trận chính thức gần nhất",
+          "homeBadgeSrc": "assets/football/flags/portugal.svg",
+          "awayBadgeSrc": "assets/football/flags/croatia.svg"
+        },
+        {
+          "kickoff": "18/11/2024",
+          "competition": "Nations League",
+          "home": "Croatia",
+          "away": "Portugal",
+          "score": "1-1",
+          "note": "Hai đội hòa tại Zagreb",
+          "homeBadgeSrc": "assets/football/flags/croatia.svg",
+          "awayBadgeSrc": "assets/football/flags/portugal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 58,
+              "away": 42
+            },
+            {
+              "label": "Kinh nghiệm knock-out",
+              "home": 76,
+              "away": 84
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Kèo & nhận định",
+      "subtext": "Portugal cửa trên, nhưng Croatia có bài kéo giờ",
+      "quote": "Bồ Đào Nha sáng hơn nhờ chiều sâu đội hình, tốc độ hai biên và chất lượng tạo cơ hội của Bruno Fernandes. Nhưng Croatia là kiểu đối thủ biết làm trận đấu khó chịu, nhất là khi Modric và Kovacic được quyền điều khiển nhịp.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Về tỷ lệ kèo, Bồ Đào Nha đang là cửa trên rõ, kèo một x hai quanh mức một phẩy bảy lăm cho thấy thị trường nghiêng về Ronaldo và đồng đội. Nhưng đây là trận đấu khó nói, vì cờ rót ti a có đủ kinh nghiệm để kéo trận đấu về một nhịp rất dai. Nhận định của tôi là Bồ Đào Nha nhỉnh hơn trong chín mươi phút, nhưng thắng cách biệt lớn thì hơi khó. Tôi đoán, hai một cho Bồ Đào Nha.",
+      "subtitle": "Về tỷ lệ kèo, Bồ Đào Nha đang là cửa trên rõ, kèo 1x2 quanh mức 1.75 cho thấy thị trường nghiêng về Ronaldo và đồng đội. Nhưng đây là trận đấu khó nói, vì Croatia có đủ kinh nghiệm để kéo trận đấu về một nhịp rất dai. Nhận định của tôi là Bồ Đào Nha nhỉnh hơn trong 90 phút, nhưng thắng cách biệt lớn thì hơi khó. Tôi đoán: 2-1 cho Bồ Đào Nha.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng gặp Tây Ban Nha hoặc Áo ở Dallas",
+      "voiceText": "Ở nhánh ngay bên cạnh, Tây Ban Nha gặp Áo lúc hai giờ sáng, ngày mùng ba tháng bảy theo giờ Việt Nam tại Los Angeles Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Bồ Đào Nha gặp cờ rót ti a, vòng mười sáu đội, lúc hai giờ sáng, ngày mùng bảy tháng bảy theo giờ Việt Nam tại Dallas Stadium. Tức là ai vượt qua cửa Toronto, cũng sẽ nhận ngay một bài test rất nặng ở Dallas, lịch trình nghe thôi đã thấy cần đá xong rồi đi ngâm đá.",
+      "subtitle": "Ở nhánh ngay bên cạnh, Tây Ban Nha gặp Áo lúc 02:00 ngày 03/07 theo giờ Việt Nam tại Los Angeles Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Bồ Đào Nha vs Croatia, vòng 16 đội, lúc 02:00 ngày 07/07 theo giờ Việt Nam tại Dallas Stadium. Tức là ai vượt qua cửa Toronto, cũng sẽ nhận ngay một bài test rất nặng ở Dallas, lịch trình nghe thôi đã thấy cần đá xong rồi đi ngâm đá.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Spain",
+          "away": "Austria",
+          "score": "02:00 03/07 VN",
+          "note": "Los Angeles Stadium | Match 84",
+          "homeBadgeSrc": "assets/football/flags/spain.svg",
+          "awayBadgeSrc": "assets/football/flags/austria.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Winner Portugal/Croatia",
+          "away": "Winner Spain/Austria",
+          "score": "02:00 07/07 VN",
+          "note": "Dallas Stadium | Match 93",
+          "homeBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Ronaldo kết liễu hay Modric kéo drama?",
+      "voiceText": "Theo bạn, Bồ Đào Nha sẽ thắng gọn trong chín mươi phút, hay cờ rót ti a lại kéo trận này vào một buổi sáng hồi hộp đến mức quên cả ăn sáng? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Bồ Đào Nha sẽ thắng gọn trong 90 phút, hay Croatia lại kéo trận này vào một buổi sáng hồi hộp đến mức quên cả ăn sáng? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Bồ Đào Nha vs Croatia",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Bồ Đào Nha",
+          "Croatia",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

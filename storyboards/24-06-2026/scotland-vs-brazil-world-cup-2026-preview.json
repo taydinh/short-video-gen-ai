@@ -1,0 +1,427 @@
+{
+  "title": "Scotland vs Brazil: Trận chiến lịch sử quyết định tấm vé đi tiếp",
+  "slug": "scotland-vs-brazil-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Scotland vs Brazil ở bảng C World Cup 2026, diễn ra lúc 05:00 ngày 25/06/2026 giờ Việt Nam. Scotland cần điểm trước ông lớn Brazil để đi tiếp.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Schedule and Standings",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Scotland vs Brazil",
+      "subtext": "Thách thức lịch sử cho Scotland",
+      "voiceText": "Scotland đối đầu Brazil lúc năm giờ sáng ngày hai mươi lăm tháng sáu theo giờ Việt Nam. Đây là trận chiến sinh tử tại Miami nơi Scotland cần làm nên lịch sử trước các vũ công Samba.",
+      "subtitle": "Scotland đối đầu Brazil lúc 05:00 ngày 25/06 theo giờ Việt Nam. Đây là trận chiến sinh tử tại Miami nơi Scotland cần làm nên lịch sử trước các vũ công Samba.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group C - Matchday 3",
+      "venue": "Hard Rock Stadium",
+      "date": "25/06/2026",
+      "time": "05:00 VN",
+      "teams": [
+        {
+          "name": "Scotland",
+          "code": "SCO",
+          "form": "3 điểm",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/scotland.svg",
+          "badgeSrc": "assets/football/flags/scotland.svg"
+        },
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "form": "4 điểm",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng C căng thẳng",
+      "subtext": "Cơ hội lách qua khe cửa hẹp",
+      "voiceText": "Tại bảng Xê lúc này, Scotland đang có ba điểm và tràn trề cơ hội đi tiếp. Tuy nhiên, họ cần ít nhất một điểm trước Brazil để chắc suất lọt vào vòng knock out.",
+      "subtitle": "Tại bảng C lúc này, Scotland đang có 3 điểm và tràn trề cơ hội đi tiếp. Tuy nhiên, họ cần ít nhất 1 điểm trước Brazil để chắc suất lọt vào vòng knockout.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group C Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Scotland vs Brazil | 25/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Robertson đối mặt hàng công Samba",
+      "voiceText": "Huấn luyện viên Steve Clarke dự kiến dùng sơ đồ năm bốn một kiên cố, với thủ lĩnh Robertson ở hàng thủ và John McGinn hỗ trợ Che Adams phía trên. Bên kia, huấn luyện viên Carlo Ancelotti dùng sơ đồ bốn ba ba với tam tấu Raphinha, Cunha và Vinicius Junior.",
+      "subtitle": "Huấn luyện viên Steve Clarke dự kiến dùng sơ đồ 5-4-1 kiên cố, với thủ lĩnh Robertson ở hàng thủ và John McGinn hỗ trợ Che Adams phía trên. Bên kia, huấn luyện viên Carlo Ancelotti dùng sơ đồ 4-3-3 với tam tấu Raphinha, Cunha và Vinícius Júnior.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Scotland",
+          "code": "SCO",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/scotland.svg",
+          "badgeSrc": "assets/football/flags/scotland.svg"
+        },
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "5-4-1",
+          "players": [
+            "Gunn",
+            "Ralston",
+            "Porteous",
+            "Hendry",
+            "McKenna",
+            "Robertson",
+            "McTominay",
+            "McLean",
+            "McGinn",
+            "Christie",
+            "Adams"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Alisson",
+            "Danilo",
+            "Marquinhos",
+            "Militao",
+            "Santos",
+            "Guimaraes",
+            "Casemiro",
+            "Paqueta",
+            "Raphinha",
+            "Cunha",
+            "Vinicius Jr"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Lịch sử đối đầu",
+      "subtext": "Lịch sử nghiêng hẳn về Brazil",
+      "voiceText": "Lịch sử đối đầu đang nghiêng tuyệt đối về Brazil khi họ thắng tám và hòa hai trong mười lần gặp nhau. Lần chạm trán gần nhất vào năm hai không mười một Brazil thắng hai không, còn ở World Cup một chín chín tám họ cũng thắng hai một.",
+      "subtitle": "Lịch sử đối đầu nghiêng tuyệt đối về Brazil khi họ thắng 8 và hòa 2 trong 10 lần gặp nhau. Lần chạm trán gần nhất vào năm 2011 Brazil thắng 2-0, còn ở World Cup 1998 họ cũng thắng 2-1.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Scotland",
+      "awayTeam": "Brazil",
+      "h2hMatches": [
+        {
+          "date": "27/03/2011",
+          "home": "Brazil",
+          "away": "Scotland",
+          "score": "2-0",
+          "note": "Giao hữu quốc tế gần nhất tại London",
+          "homeBadgeSrc": "assets/football/flags/brazil.svg",
+          "awayBadgeSrc": "assets/football/flags/scotland.svg"
+        },
+        {
+          "date": "10/06/1998",
+          "home": "Brazil",
+          "away": "Scotland",
+          "score": "2-1",
+          "note": "Trận khai mạc World Cup 1998 tại Pháp",
+          "homeBadgeSrc": "assets/football/flags/brazil.svg",
+          "awayBadgeSrc": "assets/football/flags/scotland.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Đẳng cấp vượt trội",
+          "value": "Brazil"
+        },
+        {
+          "label": "Tinh thần quả cảm",
+          "value": "Scotland"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Chống phản công biên"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát trung tuyến",
+              "home": 65,
+              "away": 85
+            },
+            {
+              "label": "Không chiến",
+              "home": 78,
+              "away": 70
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trận đấu",
+      "quote": "Scotland sẽ chơi phòng ngự lùi sâu để bóp nghẹt khoảng trống của Vinicius Junior.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng sẽ là cuộc đối mặt giữa Robertson và Vinicius Junior ở hành lang biên. Thủ quân của Scotland cần nhận được sự bọc lót tốt từ các trung vệ để khóa chặt ngòi nổ này.",
+      "subtitle": "Điểm nóng sẽ là cuộc đối mặt giữa Robertson và Vinícius Júnior ở hành lang biên. Thủ quân của Scotland cần nhận được sự bọc lót tốt từ các trung vệ để khóa chặt ngòi nổ này.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng C",
+      "subtext": "Cuộc đua tam mã căng thẳng",
+      "voiceText": "Tại bảng Xê lúc này, Brazil dẫn đầu nhờ hiệu số tốt hơn Ma rốc. Scotland đứng thứ ba với ba điểm, còn Haiti đã chính thức bị loại. Scotland cần chiến đấu quả cảm để bảo vệ tấm vé lịch sử.",
+      "subtitle": "Tại bảng C lúc này, Brazil dẫn đầu nhờ hiệu số tốt hơn Morocco. Scotland đứng thứ 3 với 3 điểm, còn Haiti đã chính thức bị loại. Scotland cần chiến đấu quả cảm để bảo vệ tấm vé lịch sử.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group C Standings",
+      "highlightTeams": [
+        "Scotland",
+        "Brazil"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/brazil.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+3"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Morocco",
+            "code": "MAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/morocco.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+1"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Scotland",
+            "code": "SCO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/scotland.svg"
+          },
+          "played": 2,
+          "points": 3,
+          "gd": "0"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Haiti",
+            "code": "HAI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/haiti.svg"
+          },
+          "played": 2,
+          "points": 0,
+          "gd": "-4"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn chọn lối đá thực dụng của Scotland hay đẳng cấp của Brazil? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn chọn lối đá thực dụng của Scotland hay đẳng cấp của Brazil? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Scotland vs Brazil",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

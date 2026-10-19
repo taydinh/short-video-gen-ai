@@ -1,0 +1,649 @@
+{
+  "title": "Netherlands 2-2 Japan: Kamada cứu Nhật ở phút cuối",
+  "slug": "netherlands-2-2-japan-world-cup-result-2026-06-15",
+  "preset": "Preset Football Result",
+  "totalDuration": 58,
+  "sources": [
+    {
+      "name": "FIFA match report",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-japan-highlights-match-report"
+    },
+    {
+      "name": "The Guardian live report",
+      "url": "https://www.theguardian.com/football/live/2026/jun/14/netherlands-v-japan-world-cup-2026-live"
+    },
+    {
+      "name": "FOX Sports highlights and live updates",
+      "url": "https://www.foxsports.com/live-blog/soccer/netherlands-vs-japan-live-updates-score-top-plays-from-group-showdown"
+    },
+    {
+      "name": "FotMob match page",
+      "url": "https://www.fotmob.com/en-GB/matches/netherlands-vs-japan/1hn72b"
+    },
+    {
+      "name": "ESPN final score",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760425/japan-netherlands"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "NHẬT BẢN GỠ PHÚT CUỐI!",
+      "subtext": "Netherlands 2-2 Japan | World Cup 2026",
+      "voiceText": "Hà Lan hòa Nhật Bản hai hai tại Dallas Stadium, lúc ba giờ sáng ngày mười lăm tháng sáu theo giờ Việt Nam. Van Dijk và Summerville hai lần đưa Hà Lan vượt lên, nhưng Nakamura rồi Kamada kéo Nhật Bản trở lại trong một trận đấu cực giàu cảm xúc ở bảng F.",
+      "subtitle": "Netherlands hòa Japan 2-2 tại Dallas Stadium, lúc 03:00 ngày 15/06 theo giờ Việt Nam. Van Dijk và Summerville hai lần đưa Netherlands vượt lên, nhưng Nakamura rồi Kamada kéo Japan trở lại trong một trận đấu cực giàu cảm xúc ở bảng F.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng F | Lượt 1",
+      "venue": "Dallas Stadium",
+      "date": "15.06.2026",
+      "time": "03:00 VN",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg",
+          "form": ["W", "D", "L", "W", "D"]
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/japan.svg",
+          "badgeSrc": "assets/football/flags/japan.svg",
+          "form": ["W", "W", "W", "W", "D"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/halan-nhatban.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "76%",
+          "size": 86
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Group F | Matchday 1",
+      "ctaLabel": "Netherlands 2-2 Japan",
+      "voiceText": "Bảng F mở màn bằng một trận hòa bốn bàn, và Nhật Bản chứng minh họ đủ lì để không sụp khi bị dẫn hai lần.",
+      "subtitle": "Bảng F mở màn bằng một trận hòa 4 bàn, và Japan chứng minh họ đủ lì để không sụp khi bị dẫn 2 lần.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/halan-nhatban.mp4",
+          "trim": {
+            "start": 60,
+            "end": 63
+          },
+          "position": "background",
+          "opacity": 0.34,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Netherlands 2-2 Japan",
+      "subtext": "Van Dijk 50' | Nakamura 57' | Summerville 64' | Kamada 89'",
+      "voiceText": "Full time, Hà Lan hai, Nhật Bản hai. Van Dijk đánh đầu mở tỉ số phút năm mươi, Nakamura gỡ hòa phút năm mươi bảy, Summerville lập lại lợi thế phút sáu mươi tư, rồi Kamada giật lại một điểm ở phút tám mươi chín.",
+      "subtitle": "Full-time: Netherlands 2-2 Japan. Van Dijk đánh đầu mở tỉ số phút 50, Nakamura gỡ hòa phút 57, Summerville lập lại lợi thế phút 64, rồi Kamada giật lại 1 điểm ở phút 89.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [2, 2],
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/japan.svg",
+          "badgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "teams": ["NED", "JPN"],
+          "score": [2, 2],
+          "minute": "FT",
+          "label": "Group F"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.28
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Hà Lan dùng sơ đồ ba bốn hai một với Verbruggen, Van Hecke, Van Dijk, De Ligt, Dumfries, Gravenberch, Reijnders, Gakpo, Malen và Summerville. Nhật Bản có Suzuki trong khung gỗ, Watanabe, Hiroki Ito, Doan, Kubo, Maeda, Ueda và Nakamura trên hàng công linh hoạt.",
+      "subtitle": "Netherlands dùng sơ đồ 3-4-2-1 với Verbruggen, Van Hecke, Van Dijk, De Ligt, Dumfries, Gravenberch, Reijnders, Gakpo, Malen và Summerville. Japan có Suzuki trong khung gỗ, Watanabe, Hiroki Ito, Doan, Kubo, Maeda, Ueda và Nakamura trên hàng công linh hoạt.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Dallas Stadium",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/japan.svg",
+          "badgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": ["Bart Verbruggen", "Jan Paul van Hecke", "Virgil van Dijk", "Matthijs de Ligt", "Denzel Dumfries", "Ryan Gravenberch", "Tijjani Reijnders", "Micky van de Ven", "Donyell Malen", "Crysencio Summerville", "Cody Gakpo"]
+        },
+        "away": {
+          "formation": "3-4-2-1",
+          "players": ["Zion Suzuki", "Tsuyoshi Watanabe", "Hiroki Ito", "Ko Itakura", "Ritsu Doan", "Wataru Endo", "Ao Tanaka", "Keito Nakamura", "Takefusa Kubo", "Daizen Maeda", "Ayase Ueda"]
+        }
+      },
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/halan-nhatban.mp4",
+          "trim": {
+            "start": 8,
+            "end": 16
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Netherlands nhập trận với sức ép biên sớm",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Kamada cứu Nhật Bản",
+      "subtext": "Bàn gỡ phút 89",
+      "voiceText": "Daichi Kamada là người giữ lại một điểm cho Nhật Bản. Từ quả phạt góc bên phải, bóng chạm Koki Ogawa rồi đổi hướng vào Kamada, khiến Verbruggen không thể cứu thua trọn vẹn.",
+      "subtitle": "Daichi Kamada là người giữ lại 1 điểm cho Japan. Từ quả phạt góc bên phải, bóng chạm Koki Ogawa rồi đổi hướng vào Kamada, khiến Verbruggen không thể cứu thua trọn vẹn.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Daichi Kamada",
+      "team": "Japan",
+      "number": "15",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "89'"
+        },
+        {
+          "label": "Tác động",
+          "value": "Gỡ hòa"
+        },
+        {
+          "label": "Điểm số",
+          "value": "1 điểm"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/halan-nhatban.mp4",
+          "trim": {
+            "start": 58,
+            "end": 66
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Kamada 89'",
+          "videoDescription": "Japan kéo trận đấu về 2-2 ở cuối trận",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline tại Dallas",
+      "subtext": "Bốn bàn trong hiệp hai",
+      "voiceText": "Hiệp một không có bàn thắng, nhưng hiệp hai bùng nổ. Phút năm mươi, Van Dijk đánh đầu mở điểm từ kiến tạo của Gravenberch. Phút năm mươi bảy, Nakamura gỡ hòa. Phút sáu mươi tư, Summerville cứa lòng nâng tỉ số lên hai một. Phút tám mươi chín, Kamada đưa Nhật Bản trở lại lần thứ hai.",
+      "subtitle": "Hiệp một không có bàn thắng, nhưng hiệp hai bùng nổ. Phút 50, Van Dijk đánh đầu mở điểm từ kiến tạo của Gravenberch. Phút 57, Nakamura gỡ hòa. Phút 64, Summerville cứa lòng nâng tỉ số lên 2-1. Phút 89, Kamada đưa Japan trở lại lần thứ hai.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "50'",
+          "title": "1-0: Virgil van Dijk",
+          "desc": "Gravenberch kiến tạo, Van Dijk đánh đầu mở tỉ số."
+        },
+        {
+          "minute": "57'",
+          "title": "1-1: Keito Nakamura",
+          "desc": "Japan phản ứng nhanh và kéo trận đấu về vạch xuất phát."
+        },
+        {
+          "minute": "64'",
+          "title": "2-1: Crysencio Summerville",
+          "desc": "Summerville cứa lòng chính xác sau pha bóng bên cánh phải."
+        },
+        {
+          "minute": "70'",
+          "title": "Netherlands thay ba người",
+          "desc": "Depay, Koopmeiners và Timber vào sân để giữ nhịp."
+        },
+        {
+          "minute": "75'",
+          "title": "Japan tăng tiền đạo",
+          "desc": "Ogawa, Tomiyasu và Sugawara vào sân, Japan dồn ép cuối trận."
+        },
+        {
+          "minute": "89'",
+          "title": "2-2: Daichi Kamada",
+          "desc": "Bóng từ phạt góc đổi hướng và Kamada gỡ hòa muộn."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Hà Lan kiểm soát, Nhật lì lợm",
+      "subtext": "69% bóng ở hiệp một, Japan bùng lên cuối trận",
+      "voiceText": "Hà Lan kiểm soát bóng vượt trội trong nửa đầu, có lúc lên tới sáu mươi chín phần trăm, nhưng Nhật Bản càng đá càng nguy hiểm. Khi Hà Lan lùi về sau phút tám mươi, Nhật Bản tìm được khoảng trống và biến áp lực thành bàn gỡ.",
+      "subtitle": "Netherlands kiểm soát bóng vượt trội trong nửa đầu, có lúc lên tới 69%, nhưng Japan càng đá càng nguy hiểm. Khi Netherlands lùi về sau phút 80, Japan tìm được khoảng trống và biến áp lực thành bàn gỡ.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [2, 2],
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/japan.svg",
+          "badgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng hiệp một",
+              "home": 69,
+              "away": 31,
+              "unit": "%"
+            },
+            {
+              "label": "Sút trúng đích hiệp một",
+              "home": 3,
+              "away": 0
+            },
+            {
+              "label": "Bàn thắng hiệp hai",
+              "home": 2,
+              "away": 2
+            },
+            {
+              "label": "Điểm số",
+              "home": 1,
+              "away": 1
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng F mở toang",
+      "subtext": "Netherlands và Japan cùng có 1 điểm",
+      "voiceText": "Sau trận hòa hai hai, Hà Lan và Nhật Bản cùng có một điểm ở bảng F. Thụy Điển và Tunisia còn chờ đá, nên hai đội vừa giữ được thế cân bằng, vừa tự làm cuộc đua bảng đấu căng hơn ngay lượt mở màn.",
+      "subtitle": "Sau trận hòa 2-2, Netherlands và Japan cùng có 1 điểm ở bảng F. Sweden và Tunisia còn chờ đá, nên hai đội vừa giữ được thế cân bằng, vừa tự làm cuộc đua bảng đấu căng hơn ngay lượt mở màn.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG F",
+      "tabs": ["TRẬN ĐẤU", "LỊCH THI ĐẤU", "CẦU THỦ", "BẢNG F"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["NED", "JPN"],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Netherlands",
+            "code": "NED",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/netherlands.svg",
+            "badgeSrc": "assets/football/flags/netherlands.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Japan",
+            "code": "JPN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/japan.svg",
+            "badgeSrc": "assets/football/flags/japan.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Sweden",
+            "code": "SWE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/sweden.svg",
+            "badgeSrc": "assets/football/flags/sweden.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Tunisia",
+            "code": "TUN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/tunisia.svg",
+            "badgeSrc": "assets/football/flags/tunisia.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/halan-nhatban.mp4",
+          "trim": {
+            "start": 63,
+            "end": 70
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Group F: 2-2",
+          "videoDescription": "Japan và Netherlands cùng rời sân với 1 điểm",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Nhật Bản đáng gờm?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Theo bạn, Nhật Bản đã đủ sức cạnh tranh ngôi đầu bảng F, hay Hà Lan mới là đội tiếc nuối hơn sau trận hòa hai hai này? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Japan đã đủ sức cạnh tranh ngôi đầu bảng F, hay Netherlands mới là đội tiếc nuối hơn sau trận hòa 2-2 này? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Netherlands 2-2 Japan",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Japan hay Netherlands gây ấn tượng hơn?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["FOLLOW KÊNH", "@vibe.bongda", "assets/logos/logo.png"]
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/halan-nhatban.mp4",
+          "trim": {
+            "start": 65,
+            "end": 72
+          },
+          "position": "background",
+          "opacity": 0.36,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "notes": [
+      "playerImageUrl để trống vì chưa tìm được URL ảnh cầu thủ phù hợp, ổn định và trực tiếp từ nguồn đã kiểm chứng."
+    ]
+  }
+}

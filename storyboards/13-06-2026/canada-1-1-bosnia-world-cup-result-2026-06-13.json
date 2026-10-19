@@ -1,0 +1,365 @@
+{
+  "title": "Canada 1-1 Bosnia and Herzegovina: Larin giữ lại điểm lịch sử",
+  "slug": "canada-1-1-bosnia-world-cup-result-2026-06-13",
+  "preset": "Preset Football Result",
+  "totalDuration": 58,
+  "sources": [
+    {
+      "name": "FIFA match report",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/canada-bosnia-and-herzegovina-highlights-match-report"
+    },
+    {
+      "name": "AP match report",
+      "url": "https://apnews.com/article/world-cup-bosnia-herzegovina-canada-score-c58d5a51d827dd0456fe56e65eca1518"
+    },
+    {
+      "name": "Canada Soccer match centre",
+      "url": "https://canadasoccer.com/match/4696/"
+    },
+    {
+      "name": "Sofascore post-match analysis",
+      "url": "https://www.sofascore.com/news/canada-1-1-bosnia-katics-heroics-cap-group-b-draw"
+    },
+    {
+      "name": "Wikimedia Commons Cyle Larin image",
+      "url": "https://en.wikipedia.org/wiki/File:Cyle_Larin_(2021-22_S%C3%BCper_Lig)_-_Resim1.png"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "LARIN CUU CANADA!",
+      "subtext": "Canada 1-1 Bosnia and Herzegovina",
+      "subtitle": "Canada hòa Bosnia and Herzegovina 1-1 tại Toronto Stadium. Jovo Lukić mở tỉ số phút 21, Cyle Larin gỡ hòa phút 78, và chủ nhà Canada có điểm số World Cup đầu tiên trên sân nhà.",
+      "voiceText": "Larin cứu Canada! Canada hòa Bosnia and Herzegovina một một tại Toronto Stadium. Jovo Lukic mở tỉ số phút hai mươi mốt, Cyle Larin gỡ hòa phút bảy mươi tám, và chủ nhà Canada có điểm số World Cup đầu tiên trên sân nhà.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group B - Matchday 1",
+      "venue": "Toronto Stadium, Toronto",
+      "date": "13.06.2026",
+      "time": "02:00",
+      "teams": [
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg",
+          "form": ["D", "W", "W", "D", "W", "D"]
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "form": ["D", "D", "D", "W", "D", "D"]
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 4.6, "top": "76%", "size": 84 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Canada 1-1 Bosnia and Herzegovina | 13.06.2026 VN",
+      "ctaLabel": "Full-time",
+      "subtitle": "Group B mở màn bằng một trận hòa nhiều cảm xúc: Bosnia lì lợm, Canada vùng lên, và Cyle Larin biến Toronto thành điểm nổ cuối trận.",
+      "voiceText": "Group B mở màn bằng một trận hòa nhiều cảm xúc: Bosnia lì lợm, Canada vùng lên, và Cyle Larin biến Toronto thành điểm nổ cuối trận.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Canada 1-1 Bosnia and Herzegovina",
+      "subtext": "Lukić 21' | Larin 78'",
+      "subtitle": "Full-time: Canada 1-1 Bosnia and Herzegovina. Jovo Lukić đánh đầu từ tình huống phạt góc phút 21, trước khi Cyle Larin vào sân và gỡ hòa ở phút 78 từ đường chuyền của Promise David.",
+      "voiceText": "Full time, Canada một, Bosnia and Herzegovina một. Jovo Lukic đánh đầu từ tình huống phạt góc phút hai mươi mốt, trước khi Cyle Larin vào sân và gỡ hòa ở phút bảy mươi tám từ đường chuyền của Promise David.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [1, 1],
+      "teams": [
+        { "name": "Canada", "code": "CAN", "teamType": "national", "flagSrc": "assets/football/flags/canada.svg", "badgeSrc": "assets/football/flags/canada.svg" },
+        { "name": "Bosnia and Herzegovina", "code": "BIH", "teamType": "national", "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg", "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg" }
+      ],
+      "visuals": [
+        { "type": "football-scorebug", "teams": ["CAN", "BIH"], "score": [1, 1], "minute": "FT", "label": "Toronto" },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "Canada dùng 4-4-2 với Crépeau, Johnston, de Fougerolles, Cornelius, Laryea, Buchanan, Eustáquio, Koné, Millar, Jonathan David và Oluwaseyi. Bosnia and Herzegovina cũng đá 4-4-2 với Vasilj, Kolašinac, Katić, Muharemović, Dedić, Bašić, Gigović, Tahirović, Demirović, Lukić và một tiền đạo hỗ trợ.",
+      "voiceText": "Canada dùng bốn bốn hai với Crepeau, Johnston, de Fougerolles, Cornelius, Laryea, Buchanan, Eustaquio, Kone, Millar, Jonathan David và Oluwaseyi. Bosnia and Herzegovina cũng đá bốn bốn hai với Vasilj, Kolasinac, Katic, Muharemovic, Dedic, Basic, Gigovic, Tahirovic, Demirovic, Lukic và một tiền đạo hỗ trợ.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Toronto Stadium",
+      "teams": [
+        { "name": "Canada", "code": "CAN", "teamType": "national", "flagSrc": "assets/football/flags/canada.svg", "badgeSrc": "assets/football/flags/canada.svg" },
+        { "name": "Bosnia and Herzegovina", "code": "BIH", "teamType": "national", "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg", "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-4-2",
+          "players": ["Maxime Crepeau", "Alistair Johnston", "Luc de Fougerolles", "Derek Cornelius", "Richie Laryea", "Tajon Buchanan", "Stephen Eustaquio", "Ismael Kone", "Liam Millar", "Jonathan David", "Tani Oluwaseyi"]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": ["Nikola Vasilj", "Sead Kolasinac", "Nikola Katic", "Tarik Muharemovic", "Amar Dedic", "Ivan Basic", "Armin Gigovic", "Benjamin Tahirovic", "Ermedin Demirovic", "Jovo Lukic", "Forward support"]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Cyle Larin đổi nhịp trận",
+      "subtext": "Vào sân phút 76, ghi bàn phút 78",
+      "subtitle": "Cyle Larin chỉ cần khoảng 2 phút sau khi vào sân để ghi bàn gỡ hòa. Một chạm bóng đủ lớn để Canada giữ lại 1 điểm và tránh cú sốc ngay ngày ra quân.",
+      "voiceText": "Cyle Larin chỉ cần khoảng hai phút sau khi vào sân để ghi bàn gỡ hòa. Một chạm bóng đủ lớn để Canada giữ lại một điểm và tránh cú sốc ngay ngày ra quân.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Cyle Larin",
+      "team": "Canada",
+      "number": "9",
+      "playerImageUrl": "https://scontent.fsgn2-11.fna.fbcdn.net/v/t39.30808-6/722934910_1573913310765669_4392460339950279912_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=z1muKRCmozYQ7kNvwHdZnHV&_nc_oc=Adp2HocMli_FVkn8kouZQDOOs9NufrUK8NB0mhMhPZ0YRj8CxxDLiBy35URc_I4ohWM&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=HPUs0pPqovqs0RdkgfrqFw&_nc_ss=7b2a8&oh=00_Af-WIJ67ZUEx_5SNB_AYWa6A2zRqCEos_m66k9BD-E3LYQ&oe=6A32AFEB",
+      "stats": [
+        { "label": "Bàn thắng", "value": "1" },
+        { "label": "Vào sân", "value": "76'" },
+        { "label": "Gỡ hòa", "value": "78'" },
+        { "label": "Điểm", "value": "1" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline tại Toronto",
+      "subtext": "Bosnia dẫn trước, Canada đáp trả muộn",
+      "subtitle": "Johnston nhận thẻ vàng phút 11, Lukić mở tỉ số phút 21, Canada thay liền 3 người phút 61, Larin vào sân phút 76, rồi gỡ hòa phút 78.",
+      "voiceText": "Johnston nhận thẻ vàng phút mười một, Lukic mở tỉ số phút hai mươi mốt, Canada thay liền ba người phút sáu mươi mốt, Larin vào sân phút bảy mươi sáu, rồi gỡ hòa phút bảy mươi tám.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "11'", "title": "Johnston nhận thẻ", "desc": "Canada nhập cuộc căng và bị cảnh báo sớm." },
+        { "minute": "21'", "title": "0-1: Jovo Lukić", "desc": "Bosnia tận dụng phạt góc, Lukić đánh đầu mở tỉ số." },
+        { "minute": "61'", "title": "Canada thay 3 người", "desc": "Buchanan, Millar và Jonathan David rời sân, Canada tìm nhịp mới." },
+        { "minute": "76'", "title": "Larin vào sân", "desc": "Jesse Marsch tung tiền đạo kinh nghiệm vào trận." },
+        { "minute": "78'", "title": "1-1: Cyle Larin", "desc": "Promise David chuyền bóng, Larin dứt điểm giữ lại 1 điểm." }
+      ],
+      "visuals": [
+        { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Bosnia dựng tường cuối trận",
+      "subtext": "Katić nổi bật với 16 pha phá bóng",
+      "subtitle": "Sofascore chấm Nikola Katić là cầu thủ hay nhất trận với 8.3 điểm, 16 pha phá bóng và 10 pha không chiến thắng. Bosnia phòng ngự dày, còn Canada phải sống bằng khoảnh khắc của Larin.",
+      "voiceText": "Sofascore chấm Nikola Katic là cầu thủ hay nhất trận với tám phẩy ba điểm, mười sáu pha phá bóng và mười pha không chiến thắng. Bosnia phòng ngự dày, còn Canada phải sống bằng khoảnh khắc của Larin.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [1, 1],
+      "teams": [
+        { "name": "Canada", "code": "CAN", "teamType": "national", "flagSrc": "assets/football/flags/canada.svg", "badgeSrc": "assets/football/flags/canada.svg" },
+        { "name": "Bosnia and Herzegovina", "code": "BIH", "teamType": "national", "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg", "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Bàn thắng", "home": 1, "away": 1 },
+            { "label": "Bàn phút", "home": 78, "away": 21 },
+            { "label": "Điểm", "home": 1, "away": 1 },
+            { "label": "Thẻ vàng", "home": 1, "away": 3 },
+            { "label": "Katić phá bóng", "home": 0, "away": 16 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Group B mở khóa bằng 1 điểm",
+      "subtext": "Canada và Bosnia tạm chia nhau vị trí đầu bảng",
+      "subtitle": "Sau trận hòa 1-1, Canada và Bosnia and Herzegovina cùng có 1 điểm, hiệu số 0. Qatar và Switzerland chưa đá, nên bảng B vẫn còn rất mở trước loạt trận tiếp theo.",
+      "voiceText": "Sau trận hòa một một, Canada và Bosnia and Herzegovina cùng có một điểm, hiệu số không. Qatar và Switzerland chưa đá, nên bảng B vẫn còn rất mở trước loạt trận tiếp theo.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG B",
+      "tabs": ["TRẬN ĐẤU", "LỊCH THI ĐẤU", "CẦU THỦ", "BẢNG B"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["CAN", "BIH"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Canada", "code": "CAN", "teamType": "national", "flagSrc": "assets/football/flags/canada.svg", "badgeSrc": "assets/football/flags/canada.svg" }, "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1 },
+        { "rank": 2, "team": { "name": "Bosnia and Herzegovina", "code": "BIH", "teamType": "national", "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg", "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg" }, "played": 1, "wins": 0, "draws": 1, "losses": 0, "gf": 1, "ga": 1, "gd": 0, "pts": 1 },
+        { "rank": 3, "team": { "name": "Qatar", "code": "QAT", "teamType": "national", "flagSrc": "assets/football/flags/qatar.svg", "badgeSrc": "assets/football/flags/qatar.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 4, "team": { "name": "Switzerland", "code": "SUI", "teamType": "national", "flagSrc": "assets/football/flags/switzerland.svg", "badgeSrc": "assets/football/flags/switzerland.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Canada vui hay tiếc?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Theo bạn, 1 điểm này là thành công với Canada, hay họ đã bỏ lỡ cơ hội thắng trận sân nhà? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, một điểm này là thành công với Canada, hay họ đã bỏ lỡ cơ hội thắng trận sân nhà? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Canada vui hay tiếc với 1 điểm?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["Canada", "World Cup 2026", "Méo Bình Luận"]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 4.8 }
+      ]
+    }
+  ]
+}

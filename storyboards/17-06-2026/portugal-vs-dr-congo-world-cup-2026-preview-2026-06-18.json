@@ -1,0 +1,445 @@
+{
+  "title": "Portugal vs DR Congo: Ronaldo mở màn bảng K",
+  "slug": "portugal-vs-dr-congo-world-cup-2026-preview-2026-06-18",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Portugal - DR Congo, kickoff 00:00 ngày 18/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FOX Sports - Portugal vs DR Congo schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    },
+    {
+      "title": "FIFA 2026 Houston - Match schedule",
+      "url": "https://www.fwc26houston.com/matches"
+    },
+    {
+      "title": "FIFA - Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "title": "FOX Sports - 2026 World Cup schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Portugal vs DR Congo",
+      "subtext": "Đêm mở màn của bảng K",
+      "voiceText": "Portugal gặp DR Congo lúc không giờ, ngày mười tám tháng sáu theo giờ Việt Nam. Đây là trận mở màn bảng K World Cup hai không hai sáu, nơi Portugal cần ba điểm để tránh áp lực trước hai trận còn lại.",
+      "subtitle": "Portugal gặp DR Congo lúc 00:00 ngày 18/06 theo giờ Việt Nam. Đây là trận mở màn bảng K World Cup 2026, nơi Portugal cần 3 điểm để tránh áp lực trước hai trận còn lại.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group K - Matchday 1",
+      "venue": "Houston Stadium",
+      "date": "18/06/2026",
+      "time": "00:00 VN",
+      "teams": [
+        {
+          "name": "Portugal",
+          "code": "POR",
+          "form": "Ứng viên đầu bảng",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "name": "DR Congo",
+          "code": "COD",
+          "form": "Thể lực và chuyển trạng thái",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "badgeSrc": "assets/football/flags/dr-congo.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng K bắt đầu lúc nửa đêm",
+      "subtext": "Portugal cần tránh cú sốc",
+      "voiceText": "Bảng K có Portugal, DR Congo, Colombia và Uz bê kits tan. Trận đầu là cơ hội để Portugal đặt nhịp, nhưng DR Congo đủ thể lực để biến trận đấu thành màn đấu chuyển trạng thái.",
+      "subtitle": "Bảng K có Portugal, DR Congo, Colombia và Uzbekistan. Trận đầu là cơ hội để Portugal đặt nhịp, nhưng DR Congo đủ thể lực để biến trận đấu thành màn đấu chuyển trạng thái.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group K Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Portugal vs DR Congo | 18/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Bruno và Bernardo điều nhịp",
+      "voiceText": "Portugal có thể dùng Diogo Costa, Cancelo, Dias, Inacio, Mendes, Palhinha, Bruno Fernandes, Bernardo Silva, Leao, Cristiano Ronaldo và Goncalo Ramos. DR Congo có thể dựa vào Mpasi, Mbemba, Masuaku, Pickel, Moutoussamy, Wissa, Bakambu và Bongonda.",
+      "subtitle": "Portugal có thể dùng Diogo Costa, Cancelo, Dias, Inacio, Mendes, Palhinha, Bruno Fernandes, Bernardo Silva, Leao, Cristiano Ronaldo và Goncalo Ramos. DR Congo có thể dựa vào Mpasi, Mbemba, Masuaku, Pickel, Moutoussamy, Wissa, Bakambu và Bongonda.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Portugal",
+          "code": "POR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "badgeSrc": "assets/football/flags/portugal.svg"
+        },
+        {
+          "name": "DR Congo",
+          "code": "COD",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "badgeSrc": "assets/football/flags/dr-congo.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Diogo Costa",
+            "Cancelo",
+            "Ruben Dias",
+            "Inacio",
+            "Nuno Mendes",
+            "Palhinha",
+            "Bruno Fernandes",
+            "Bernardo Silva",
+            "Leao",
+            "Cristiano Ronaldo",
+            "Goncalo Ramos"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Mpasi",
+            "Kalulu",
+            "Mbemba",
+            "Masuaku",
+            "Kayembe",
+            "Pickel",
+            "Moutoussamy",
+            "Kakuta",
+            "Wissa",
+            "Bakambu",
+            "Bongonda"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Thế trận: kiểm soát trước tốc độ",
+      "subtext": "DR Congo chờ khoảng trống sau lưng",
+      "voiceText": "Portugal sẽ muốn kéo bóng qua chân Bruno Fernandes và Bernardo Silva để mở khối phòng ngự. DR Congo cần giữ cự ly, rồi đánh nhanh vào hai biên khi Portugal dâng hậu vệ.",
+      "subtitle": "Portugal sẽ muốn kéo bóng qua chân Bruno Fernandes và Bernardo Silva để mở khối phòng ngự. DR Congo cần giữ cự ly, rồi đánh nhanh vào hai biên khi Portugal dâng hậu vệ.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "homeTeam": "Portugal",
+      "awayTeam": "DR Congo",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Portugal",
+          "away": "DR Congo",
+          "score": "Preview",
+          "note": "Portugal cầm bóng, DR Congo phản công",
+          "homeBadgeSrc": "assets/football/flags/portugal.svg",
+          "awayBadgeSrc": "assets/football/flags/dr-congo.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Kiểm soát",
+          "value": "Portugal"
+        },
+        {
+          "label": "Phản công",
+          "value": "DR Congo"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Cánh trái Portugal"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát",
+              "home": 84,
+              "away": 61
+            },
+            {
+              "label": "Tốc độ",
+              "home": 76,
+              "away": 83
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Bruno Fernandes",
+      "subtext": "Một đường chuyền có thể mở trận",
+      "voiceText": "Điểm nóng là cách Portugal xử lý áp lực khi chưa có bàn sớm. Nếu Bruno Fernandes có không gian, trận đấu có thể mở rất nhanh.",
+      "subtitle": "Điểm nóng là cách Portugal xử lý áp lực khi chưa có bàn sớm. Nếu Bruno Fernandes có không gian, trận đấu có thể mở rất nhanh.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Portugal mạnh hơn, nhưng trận mở màn luôn trừng phạt đội nhập cuộc chậm.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng K",
+      "subtext": "Colombia và Uzbekistan chờ phía sau",
+      "voiceText": "Bảng K còn Colombia và Uz bê kits tan, nên Portugal không muốn rơi vào thế phải sửa sai. Với DR Congo, một điểm trước ứng viên đầu bảng sẽ là lợi thế cực lớn.",
+      "subtitle": "Bảng K còn Colombia và Uzbekistan, nên Portugal không muốn rơi vào thế phải sửa sai. Với DR Congo, 1 điểm trước ứng viên đầu bảng sẽ là lợi thế cực lớn.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026 - Group K",
+      "activeTab": "GROUP K",
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "POR",
+        "COD"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Portugal",
+            "code": "POR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/portugal.svg",
+            "badgeSrc": "assets/football/flags/portugal.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "DR Congo",
+            "code": "COD",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/dr-congo.svg",
+            "badgeSrc": "assets/football/flags/dr-congo.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Colombia",
+            "teamType": "national"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Uzbekistan",
+            "teamType": "national"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số Portugal vs DR Congo",
+      "subtext": "Comment góc nhìn của bạn",
+      "voiceText": "Bạn dự đoán Portugal thắng dễ, hay DR Congo sẽ kéo trận đấu vào thế giằng co? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Portugal thắng dễ, hay DR Congo sẽ kéo trận đấu vào thế giằng co? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Portugal vs DR Congo",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Portugal vs DR Congo",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png",
+          "Portugal",
+          "DR Congo",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

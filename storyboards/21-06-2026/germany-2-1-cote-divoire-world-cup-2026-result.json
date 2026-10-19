@@ -1,0 +1,504 @@
+{
+  "title": "Đức 2-1 Bờ Biển Ngà: Kết quả World Cup 2026",
+  "slug": "germany-2-1-cote-divoire-world-cup-2026-result",
+  "totalDuration": 52,
+  "summary": {
+    "preset": "Preset Football Result",
+    "imageNotes": [
+      "Không tìm được ảnh chân dung phù hợp cho Deniz Undav; playerImageUrl để trống."
+    ]
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Đức 2-1 Bờ Biển Ngà",
+      "subtext": "Toàn thời gian | Bảng E",
+      "voiceText": "Đức thắng Bờ Biển Ngà 2-1 tại World Cup hai không hai sáu. Bờ Biển Ngà mở tỉ số trong hiệp một, trước khi Deniz Undav vào sân và lập cú đúp hiệp hai giúp Đức lội ngược dòng.",
+      "subtitle": "Đức thắng Bờ Biển Ngà 2-1 tại World Cup 2026. Bờ Biển Ngà mở tỉ số trong hiệp một, trước khi Deniz Undav vào sân và lập cú đúp hiệp hai giúp Đức lội ngược dòng.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [
+        2,
+        1
+      ],
+      "venue": "Toronto Stadium",
+      "date": "21.06.2026",
+      "time": "03:00",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Côte d'Ivoire",
+          "code": "CIV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cote-divoire.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "GER",
+            "CIV"
+          ],
+          "score": [
+            2,
+            1
+          ],
+          "minute": "FT"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Bảng E",
+      "ctaLabel": "Kết quả",
+      "voiceText": "Kết quả bảng E: Đức 2, Bờ Biển Ngà 1.",
+      "subtitle": "Kết quả bảng E: Đức 2, Bờ Biển Ngà 1.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtext": "Đức 2-1 Bờ Biển Ngà",
+      "voiceText": "Đội hình xuất phát của hai đội được hiển thị trên sân. Đức đặt niềm tin vào Deniz Undav, còn Bờ Biển Ngà giữ bộ khung quen thuộc.",
+      "subtitle": "Đội hình xuất phát của hai đội được hiển thị trên sân. Đức đặt niềm tin vào Deniz Undav, còn Bờ Biển Ngà giữ bộ khung quen thuộc.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Côte d'Ivoire",
+          "code": "CIV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cote-divoire.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Oliver Baumann",
+            "Joshua Kimmich",
+            "Jonathan Tah",
+            "Nico Schlotterbeck",
+            "Maximilian Mittelstädt",
+            "Robert Andrich",
+            "Aleksandar Pavlović",
+            "Florian Wirtz",
+            "Jamal Musiala",
+            "Leroy Sané",
+            "Kai Havertz"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Yahia Fofana",
+            "Wilfried Singo",
+            "Evan Ndicka",
+            "Ousmane Diomande",
+            "Ghislain Konan",
+            "Franck Kessié",
+            "Ibrahim Sangaré",
+            "Simon Adingra",
+            "Amad Diallo",
+            "Nicolas Pépé",
+            "Sébastien Haller"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Tâm điểm: Deniz Undav",
+      "subtext": "Người tạo bước ngoặt",
+      "voiceText": "Deniz Undav là tâm điểm. Màn trình diễn của anh tạo ra bước ngoặt lớn nhất trong chiến thắng này.",
+      "subtitle": "Deniz Undav là tâm điểm. Màn trình diễn của anh tạo ra bước ngoặt lớn nhất trong chiến thắng này.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Deniz Undav",
+      "team": "Germany",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Kết quả",
+          "value": "2-1"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Tạo bước ngoặt"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Diễn biến chính",
+      "subtext": "Đức 2-1 Bờ Biển Ngà",
+      "voiceText": "Diễn biến chính: Bờ Biển Ngà mở tỉ số trong hiệp một, trước khi Deniz Undav vào sân và lập cú đúp hiệp hai giúp Đức lội ngược dòng.",
+      "subtitle": "Diễn biến chính: Bờ Biển Ngà mở tỉ số trong hiệp một, trước khi Deniz Undav vào sân và lập cú đúp hiệp hai giúp Đức lội ngược dòng.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "events": [
+        {
+          "minute": "30'",
+          "title": "0-1: Bờ Biển Ngà mở tỉ số",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "HT",
+          "title": "Đức bị dẫn 0-1",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "Hiệp 2",
+          "title": "Deniz Undav gỡ hòa",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "Hiệp 2",
+          "title": "Undav hoàn tất cú đúp",
+          "desc": "Mốc quan trọng của trận đấu."
+        },
+        {
+          "minute": "FT",
+          "title": "Đức thắng 2-1",
+          "desc": "Mốc quan trọng của trận đấu."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Tổng kết trận đấu",
+      "subtext": "Đức 2-1 Bờ Biển Ngà",
+      "voiceText": "Tỉ số chung cuộc là 2-1. Hiệu quả ở các khoảnh khắc quyết định đã phân định trận đấu.",
+      "subtitle": "Tỉ số chung cuộc là 2-1. Hiệu quả ở các khoảnh khắc quyết định đã phân định trận đấu.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Summary",
+      "minute": "FT",
+      "score": [
+        2,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Côte d'Ivoire",
+          "code": "CIV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cote-divoire.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "GER",
+            "CIV"
+          ],
+          "score": [
+            2,
+            1
+          ],
+          "minute": "FT"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện Bảng E",
+      "subtext": "Sau trận",
+      "voiceText": "Kết quả này tác động trực tiếp tới cục diện Bảng E, với Đức chiếm lợi thế lớn trong cuộc đua đi tiếp.",
+      "subtitle": "Kết quả này tác động trực tiếp tới cục diện Bảng E, với Đức chiếm lợi thế lớn trong cuộc đua đi tiếp.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "BẢNG XẾP HẠNG"
+      ],
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "GER",
+        "CIV"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Germany",
+            "code": "GER",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/germany.svg"
+          },
+          "played": 2,
+          "pts": 6
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Côte d'Ivoire",
+            "code": "CIV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cote-divoire.svg"
+          },
+          "played": 2,
+          "pts": 3
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Ecuador",
+            "code": "ECU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ecuador.svg"
+          },
+          "played": 1,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Curaçao",
+            "code": "CUW",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/curacao.svg"
+          },
+          "played": 1,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Méo bình luận",
+      "subtext": "Bạn ấn tượng nhất với khoảnh khắc nào trong trận Đức gặp Bờ Biển Ngà?",
+      "voiceText": "Bạn ấn tượng nhất với khoảnh khắc nào trong trận Đức gặp Bờ Biển Ngà? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn ấn tượng nhất với khoảnh khắc nào trong trận Đức gặp Bờ Biển Ngà? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Bạn ấn tượng nhất với khoảnh khắc nào trong trận Đức gặp Bờ Biển Ngà?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 84,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "FIFA/ESPN match report",
+      "url": "https://www.espn.com/soccer/story/_/id/49127745/germany-ivory-coast-live-world-cup-2026-latest-updates-commentary-score-result"
+    },
+    {
+      "name": "ESPN match page",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760448/ivory-coast-germany"
+    },
+    {
+      "name": "ESPN World Cup schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "name": "Sky Sports World Cup schedule and results",
+      "url": "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    }
+  ]
+}

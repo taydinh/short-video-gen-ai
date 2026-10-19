@@ -1,0 +1,470 @@
+{
+  "title": "Tây Ban Nha vs Áo: La Roja cửa trên, nhưng pressing Áo không đến để xin chữ ký",
+  "slug": "tay-ban-nha-vs-ao-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Tây Ban Nha vs Áo tại vòng 32 đội World Cup 2026, diễn ra lúc 02:00 ngày 03/07/2026 theo giờ Việt Nam tại Los Angeles Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Spain v Austria match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021519"
+    },
+    {
+      "title": "RotoWire - Spain vs Austria predicted lineups, team news and odds",
+      "url": "https://www.rotowire.com/soccer/article/spain-vs-austria-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120533"
+    },
+    {
+      "title": "The Standard - Spain vs Austria prediction, team news, odds and h2h",
+      "url": "https://www.standard.co.uk/sport/football/spain-vs-austria-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-world-cup-2026-preview-b1288395.html"
+    },
+    {
+      "title": "Sports Illustrated - Spain predicted lineup vs Austria",
+      "url": "https://www.si.com/soccer/spain-predicted-lineup-vs-austria-world-cup-7-2-26"
+    },
+    {
+      "title": "SB Nation - World Cup Round of 32 schedule and scores",
+      "url": "https://www.sbnation.com/soccer/1120771/world-cup-schedule-scores-round-32"
+    },
+    {
+      "title": "SB Nation - 2026 World Cup knockout bracket and Match 93 context",
+      "url": "https://www.sbnation.com/fifa-world-cup/1120327/2026-world-cup-round-of-32-full-list-of-matches-potential-round-of-16-games"
+    },
+    {
+      "title": "FIFA - Match 93 round of 16 match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "TÂY BAN NHA VS ÁO",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Hai giờ sáng, ngày mùng ba tháng bảy theo giờ Việt Nam, Tây Ban Nha gặp tuyển Áo tại Los Angeles Stadium. La Roja nhất bảng H, ba trận chưa thủng lưới, còn Áo vào knock-out bằng nhịp pressing rất rát và trận hòa ba đều hú vía trước Algeria.",
+      "subtitle": "02:00 ngày 03/07 theo giờ Việt Nam, Tây Ban Nha gặp tuyển Áo tại Los Angeles Stadium. La Roja nhất bảng H, 3 trận chưa thủng lưới, còn Áo vào knock-out bằng nhịp pressing rất rát và trận hòa 3-3 hú vía trước Algeria.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Los Angeles Stadium",
+      "date": "03/07/2026",
+      "time": "02:00 VN",
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "form": ["D", "W", "W"],
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Áo",
+          "code": "AUT",
+          "teamType": "national",
+          "form": ["W", "L", "D"],
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Một vé vào vòng 16 đội",
+      "voiceText": "Tây Ban Nha kiểm soát bóng gặp tuyển Áo pressing cao. Hứa hẹn sẽ là một trận cầu hấp dẫn.",
+      "subtitle": "Tây Ban Nha kiểm soát bóng gặp tuyển Áo pressing cao. Hứa hẹn sẽ là một trận cầu hấp dẫn.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Tây Ban Nha vs Áo | 03/07/2026 VN",
+      "ctaLabel": "Kickoff 02:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Yamal, Oyarzabal đấu Sabitzer, Arnautovic",
+      "voiceText": "Tây Ban Nha dự kiến đá sơ đồ bốn ba ba, với Unai Simon trong khung gỗ, Cucurella, Laporte, Pau Cubarsi và Pedro Porro ở hàng thủ. Rodri, Pedri và Dani Olmo giữ nhịp tuyến giữa, còn Alex Baena, Mikel Oyarzabal và Lamine Yamal là bộ ba phía trên. Tuyển Áo có thể dùng bốn hai ba một, với Alexander Schlager bắt chính, Alaba chỉ huy hàng thủ, Xaver Schlager và Nicolas Seiwald dọn dẹp trung tuyến, phía trên là Sabitzer, Romano Schmid, Laimer và Arnautovic.",
+      "subtitle": "Tây Ban Nha dự kiến đá sơ đồ 4-3-3, với Unai Simón trong khung gỗ, Cucurella, Laporte, Pau Cubarsí và Pedro Porro ở hàng thủ. Rodri, Pedri và Dani Olmo giữ nhịp tuyến giữa, còn Álex Baena, Mikel Oyarzabal và Lamine Yamal là bộ ba phía trên. Tuyển Áo có thể dùng 4-2-3-1, với Alexander Schlager bắt chính, Alaba chỉ huy hàng thủ, Xaver Schlager và Nicolas Seiwald dọn dẹp trung tuyến, phía trên là Sabitzer, Romano Schmid, Laimer và Arnautović.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Los Angeles Stadium",
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Áo",
+          "code": "AUT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Unai Simon",
+            "Marc Cucurella",
+            "Aymeric Laporte",
+            "Pau Cubarsi",
+            "Pedro Porro",
+            "Dani Olmo",
+            "Rodri",
+            "Pedri",
+            "Alex Baena",
+            "Mikel Oyarzabal",
+            "Lamine Yamal"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Alexander Schlager",
+            "Phillipp Mwene",
+            "Philipp Lienhart",
+            "David Alaba",
+            "Stefan Posch",
+            "Xaver Schlager",
+            "Nicolas Seiwald",
+            "Marcel Sabitzer",
+            "Romano Schmid",
+            "Konrad Laimer",
+            "Marko Arnautovic"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Spain sáng giá, Áo có quyền làm trận đấu xấu đi",
+      "voiceText": "Lịch sử đối đầu nghiêng về Tây Ban Nha, với chín thắng trong mười sáu lần gặp Áo, còn Áo có bốn thắng và ba hòa. Lần duy nhất hai đội gặp nhau ở World Cup là năm một chín bảy tám, Áo thắng hai một, nên vẫn có một chút mùi drama cổ điển. Nhưng hiện tại, Tây Ban Nha giữ sạch lưới cả vòng bảng, còn Áo vừa ghi ba bàn và cũng thủng ba bàn trước Algeria, tức là trận này có thể rất vui, nhất là nếu pressing Áo bị Rodri và Pedri bẻ khóa sớm.",
+      "subtitle": "Lịch sử đối đầu nghiêng về Tây Ban Nha, với 9 thắng trong 16 lần gặp Áo, còn Áo có 4 thắng và 3 hòa. Lần duy nhất hai đội gặp nhau ở World Cup là năm 1978, Áo thắng 2-1, nên vẫn có một chút mùi drama cổ điển. Nhưng hiện tại, Tây Ban Nha giữ sạch lưới cả vòng bảng, còn Áo vừa ghi 3 bàn và cũng thủng 3 bàn trước Algeria, tức là trận này có thể rất vui, nhất là nếu pressing Áo bị Rodri và Pedri bẻ khóa sớm.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Áo",
+          "code": "AUT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Tây Ban Nha", "Áo", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa đi tiếp",
+            "scoreText": "Rất sáng",
+            "x12": "Cửa gây sốc",
+            "hdp": "Spain to progress khoảng 1/10"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Giữ bóng, kéo khối",
+            "x12": "Pressing, phản công",
+            "hdp": "Áo cần làm trận đấu vỡ nhịp"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "Rodri, Pedri, Yamal",
+            "x12": "Sabitzer, Alaba, Arnautovic",
+            "hdp": "Cánh của Spain rất đáng xem"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "07/06/1978",
+          "competition": "World Cup",
+          "home": "Austria",
+          "away": "Spain",
+          "score": "2-1",
+          "note": "Lần gặp duy nhất ở World Cup",
+          "homeBadgeSrc": "assets/football/flags/austria.svg",
+          "awayBadgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "kickoff": "18/11/2009",
+          "competition": "Friendly",
+          "home": "Austria",
+          "away": "Spain",
+          "score": "1-5",
+          "note": "Lần gặp gần nhất",
+          "homeBadgeSrc": "assets/football/flags/austria.svg",
+          "awayBadgeSrc": "assets/football/flags/spain.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 64,
+              "away": 36
+            },
+            {
+              "label": "Áp lực pressing",
+              "home": 55,
+              "away": 72
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Kèo & nhận định",
+      "subtext": "Cửa trên rõ, nhưng đừng ngủ quên trên bóng bổng",
+      "quote": "Tây Ban Nha là cửa trên rất rõ nhờ chất lượng kiểm soát, chiều sâu đội hình và khả năng phòng ngự sạch sẽ. Nhưng kèo knock-out mà chấp sâu thì phải nhìn thêm nhịp pressing của Áo, vì chỉ một pha mất bóng sai chỗ là bảng tính đi ngủ ngay.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Về tỷ lệ kèo, Tây Ban Nha được đánh giá rất cao, cửa đi tiếp đang nghiêng mạnh về La Roja, còn kèo chín mươi phút cũng cho thấy họ là cửa trên rõ. Nhận định của tôi là Tây Ban Nha hoàn toàn có thể thắng trong hai hiệp chính, nhưng nếu kèo chấp bị kéo sâu quá thì nên tỉnh táo, vì Áo có pressing và bóng chết đủ làm trận đấu hơi nhức đầu. Tôi nghĩ tỉ số sẽ là ba không cho Tây Ban Nha.",
+      "subtitle": "Về tỷ lệ kèo, Tây Ban Nha được đánh giá rất cao, cửa đi tiếp đang nghiêng mạnh về La Roja, còn kèo 90 phút cũng cho thấy họ là cửa trên rõ. Nhận định của tôi là Tây Ban Nha hoàn toàn có thể thắng trong hai hiệp chính, nhưng nếu kèo chấp bị kéo sâu quá thì nên tỉnh táo, vì Áo có pressing và bóng chết đủ làm trận đấu hơi nhức đầu. Tôi nghĩ tỉ số sẽ là 3-0 cho Tây Ban Nha.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng gặp Portugal hoặc Croatia ở Dallas",
+      "voiceText": "Ở nhánh ngay bên cạnh, Bồ Đào Nha gặp cờ rót ti a lúc sáu giờ sáng, ngày mùng ba tháng bảy theo giờ Việt Nam tại Toronto Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Tây Ban Nha gặp Áo, vòng mười sáu đội, lúc hai giờ sáng, ngày mùng bảy tháng bảy theo giờ Việt Nam tại Dallas Stadium. Nghĩa là nếu La Roja đi tiếp, có thể gặp Bồ Đào Nha hoặc cờ rót ti a ngay vòng sau, nghe thôi đã thấy lịch thi đấu không hề có chế độ nghỉ dưỡng.",
+      "subtitle": "Ở nhánh ngay bên cạnh, Portugal gặp Croatia lúc 06:00 ngày 03/07 theo giờ Việt Nam tại Toronto Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Tây Ban Nha vs Áo, vòng 16 đội, lúc 02:00 ngày 07/07 theo giờ Việt Nam tại Dallas Stadium. Nghĩa là nếu La Roja đi tiếp, có thể gặp Portugal hoặc Croatia ngay vòng sau, nghe thôi đã thấy lịch thi đấu không hề có chế độ nghỉ dưỡng.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Portugal",
+          "away": "Croatia",
+          "score": "06:00 03/07 VN",
+          "note": "Toronto Stadium | Match 83",
+          "homeBadgeSrc": "assets/football/flags/portugal.svg",
+          "awayBadgeSrc": "assets/football/flags/croatia.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Winner Portugal/Croatia",
+          "away": "Winner Spain/Austria",
+          "score": "02:00 07/07 VN",
+          "note": "Dallas Stadium | Match 93",
+          "homeBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Spain thắng gọn hay Áo kéo drama?",
+      "voiceText": "Theo bạn, Tây Ban Nha sẽ giải quyết trận này trong chín mươi phút, hay tuyển Áo kéo La Roja vào một ca trực đêm căng như dây đàn? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Tây Ban Nha sẽ giải quyết trận này trong 90 phút, hay tuyển Áo kéo La Roja vào một ca trực đêm căng như dây đàn? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Tây Ban Nha vs Áo",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Tây Ban Nha",
+          "Áo",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

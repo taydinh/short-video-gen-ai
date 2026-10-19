@@ -1,0 +1,278 @@
+{
+  "title": "Anh 4-2 Croatia: Kane lập cú đúp, Tam Sư chiếm ngôi đầu bảng L",
+  "slug": "england-4-2-croatia-world-cup-result-2026-06-18",
+  "totalDuration": 52,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "TAM SƯ THẮNG TRẬN CẦU 6 BÀN!",
+      "subtext": "Anh 4-2 Croatia | Bảng L",
+      "subtitle": "Anh thắng Croatia 4-2 tại AT&T Stadium. Harry Kane lập cú đúp, Jude Bellingham và Marcus Rashford ghi hai bàn còn lại, giúp Tam Sư chiếm ngôi đầu bảng L.",
+      "voiceText": "Anh thắng Croatia bốn hai tại sân A T và T. Ha ri Kên lập cú đúp, Zút Beo Ling Ham và Marcus Rashford ghi hai bàn còn lại, giúp Tam Sư chiếm ngôi đầu bảng Lờ.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#CE1126",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [4, 2],
+      "venue": "AT&T Stadium",
+      "date": "18.06.2026",
+      "time": "03:00",
+      "teams": [
+        { "name": "Anh", "code": "ENG", "teamType": "national", "flagSrc": "assets/football/flags/england.svg" },
+        { "name": "Croatia", "code": "CRO", "teamType": "national", "flagSrc": "assets/football/flags/croatia.svg" }
+      ],
+      "visuals": [
+        { "type": "football-scorebug", "teams": ["ENG", "CRO"], "score": [4, 2], "minute": "FT", "label": "Bảng L" },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "Bảng L",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Anh 4-2 Croatia | 18.06.2026",
+      "ctaLabel": "Full-time",
+      "subtitle": "Màn rượt đuổi 6 bàn khép lại với chiến thắng cho Anh trong trận ra quân World Cup 2026.",
+      "voiceText": "Màn rượt đuổi sáu bàn khép lại với chiến thắng cho Anh, trong trận ra quân World Cup hai không hai sáu.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7652539772249918742.mp4",
+          "trim": { "start": 33, "end": 39 },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "Anh đá 4-2-3-1 với Pickford, James, Konsa, Guéhi, O'Reilly; Anderson, Rogers; Saka, Spence, Rashford và Kane. Croatia dùng sơ đồ 3-4-2-1 với Livaković; Šutalo, Pašalić, Gvardiol; Stanišić, Kovačić, Kramarić, Perišić; Sučić, Vlašić và Matanović.",
+      "voiceText": "Anh đá bốn hai ba một, với Pickford; James, Konsa, Guehi, O'Reilly; Anderson, Rogers; Saka, Spence, Rashford, và Ha ri Kên. Croatia dùng sơ đồ ba bốn hai một, với Livakovic; Sutalo, Pasalic, Gvardiol; Stanisic, Kovacic, Kramaric, Perisic; Sucic, Vlasic, và Matanovic.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "AT&T Stadium",
+      "teams": [
+        { "name": "Anh", "code": "ENG", "teamType": "national", "flagSrc": "assets/football/flags/england.svg" },
+        { "name": "Croatia", "code": "CRO", "teamType": "national", "flagSrc": "assets/football/flags/croatia.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": ["Jordan Pickford", "Reece James", "Ezri Konsa", "Marc Guehi", "Nico O'Reilly", "Elliot Anderson", "Morgan Rogers", "Bukayo Saka", "Djed Spence", "Marcus Rashford", "Harry Kane"]
+        },
+        "away": {
+          "formation": "3-4-2-1",
+          "players": ["Dominik Livakovic", "Josip Sutalo", "Marco Pasalic", "Josko Gvardiol", "Josip Stanisic", "Mateo Kovacic", "Andrej Kramaric", "Ivan Perisic", "Petar Sucic", "Nikola Vlasic", "Igor Matanovic"]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7652539772249918742.mp4",
+          "trim": { "start": 0, "end": 8 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Khởi đầu bùng nổ",
+          "videoDescription": "Anh sớm gây sức ép lên khung thành Croatia",
+          "videoVolume": 0
+        },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@meothichbl", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Kane mở khóa Croatia",
+      "subtext": "Cú đúp ở phút 12 và 42",
+      "subtitle": "Harry Kane ghi 2 bàn ở phút 12 và 42, tung 7 cú sút, có 3 lần trúng đích và đạt xG 1.03.",
+      "voiceText": "Ha ri Kên ghi hai bàn ở phút mười hai và bốn mươi hai, tung bảy cú sút, có ba lần trúng đích, và đạt chỉ số bàn thắng kỳ vọng một phẩy không ba.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Harry Kane",
+      "team": "Anh",
+      "number": "7",
+      "playerImageUrl": "https://assets.goal.com/images/v3/blt93ea6d471566cd90/GOAL%20-%20Blank%20WEB%20-%20Facebook%20-%202025-03-14T111048.518.png?auto=webp&format=pjpg&width=3840&quality=60",
+      "stats": [
+        { "label": "Bàn thắng", "value": "2" },
+        { "label": "Phút ghi bàn", "value": "12', 42'" },
+        { "label": "Sút trúng đích", "value": "3" },
+        { "label": "xG", "value": "1.03" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7652539772249918742.mp4",
+          "trim": { "start": 2, "end": 9 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Kane 12'",
+          "videoDescription": "Quả phạt đền mở tỷ số cho Tam Sư",
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@meothichbl", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Từ 1-0 tới màn kết liễu 4-2",
+      "subtitle": "Kane mở tỷ số phút 12; Baturina gỡ hòa phút 36; Kane ghi bàn phút 42; Musa gỡ 2-2 ở 45+5; Bellingham tái lập thế dẫn trước phút 47 và Rashford chốt tỷ số phút 85.",
+      "voiceText": "Ha ri Kên mở tỉ số phút mười hai. Baturina gỡ hòa phút ba mươi sáu. Ha ri Kên ghi bàn phút bốn mươi hai, rồi Musa gỡ hai đều ở phút bốn mươi lăm cộng năm. Bellingham tái lập thế dẫn trước phút bốn mươi bảy, và Rashford chốt tỉ số phút tám mươi lăm.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "12'", "title": "1-0: Harry Kane", "desc": "Kane thực hiện thành công quả phạt đền, đưa Anh vượt lên." },
+        { "minute": "36'", "title": "1-1: Martin Baturina", "desc": "Baturina đưa Croatia trở lại trận đấu." },
+        { "minute": "42'", "title": "2-1: Harry Kane", "desc": "Kane hoàn tất cú đúp trước giờ nghỉ." },
+        { "minute": "45+5'", "title": "2-2: Petar Musa", "desc": "Musa gỡ hòa cho Croatia ở cuối hiệp một." },
+        { "minute": "47'", "title": "3-2: Jude Bellingham", "desc": "Bellingham giúp Anh tái lập thế dẫn trước ngay đầu hiệp hai." },
+        { "minute": "85'", "title": "4-2: Marcus Rashford", "desc": "Rashford ghi bàn ấn định chiến thắng cho Tam Sư." },
+        { "minute": "90+6'", "title": "Full-time", "desc": "Anh giành trọn 3 điểm trong trận ra quân bảng L." }
+      ],
+      "visuals": [
+        { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@meothichbl", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Anh thắng bằng chất lượng cơ hội",
+      "subtext": "xG 3.20-0.70 | Trúng đích 11-5",
+      "subtitle": "Anh kiểm soát bóng 52%, dẫn 3.20-0.70 về xG, sút trúng đích 11-5 và tạo 4 cơ hội lớn so với 1 của Croatia.",
+      "voiceText": "Anh kiểm soát bóng năm mươi hai phần trăm, dẫn ba phẩy hai không so với không phẩy bảy không về chỉ số bàn thắng kỳ vọng, sút trúng đích mười một so với năm, và tạo bốn cơ hội lớn so với một của Croatia.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [4, 2],
+      "teams": [
+        { "name": "Anh", "code": "ENG", "teamType": "national", "flagSrc": "assets/football/flags/england.svg" },
+        { "name": "Croatia", "code": "CRO", "teamType": "national", "flagSrc": "assets/football/flags/croatia.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 52, "away": 48, "unit": "%" },
+            { "label": "xG", "home": 3.2, "away": 0.7 },
+            { "label": "Sút trúng đích", "home": 11, "away": 5 },
+            { "label": "Cơ hội lớn", "home": 4, "away": 1 },
+            { "label": "Chuyền chính xác", "home": 406, "away": 381 },
+            { "label": "Cứu thua", "home": 3, "away": 7 }
+          ]
+        },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@meothichbl", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Anh chiếm đỉnh bảng L",
+      "subtext": "Cùng 3 điểm với Ghana, hơn hiệu số",
+      "subtitle": "Sau lượt đầu, Anh đứng đầu bảng L với 3 điểm và hiệu số +2; Ghana xếp thứ hai với 3 điểm và hiệu số +1; Panama và Croatia chưa có điểm.",
+      "voiceText": "Sau lượt đầu, Anh đứng đầu bảng Lờ với ba điểm và hiệu số cộng hai. Ghana xếp thứ hai với ba điểm và hiệu số cộng một. Panama và Croatia chưa có điểm.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG L",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG L"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["ENG", "CRO"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Anh", "code": "ENG", "teamType": "national", "flagSrc": "assets/football/flags/england.svg" }, "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 4, "ga": 2, "gd": 2, "pts": 3 },
+        { "rank": 2, "team": { "name": "Ghana", "code": "GHA", "teamType": "national", "flagSrc": "assets/football/flags/ghana.svg" }, "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 1, "ga": 0, "gd": 1, "pts": 3 },
+        { "rank": 3, "team": { "name": "Panama", "code": "PAN", "teamType": "national", "flagSrc": "assets/football/flags/panama.svg" }, "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 0, "ga": 1, "gd": -1, "pts": 0 },
+        { "rank": 4, "team": { "name": "Croatia", "code": "CRO", "teamType": "national", "flagSrc": "assets/football/flags/croatia.svg" }, "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 2, "ga": 4, "gd": -2, "pts": 0 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7652539772249918742.mp4",
+          "trim": { "start": 50, "end": 57 },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "FT 4-2",
+          "videoDescription": "Rashford khép lại màn ra quân giàu cảm xúc",
+          "videoVolume": 0
+        },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@meothichbl", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Anh đã ra dáng ứng viên?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Theo bạn, chiến thắng 4-2 trước Croatia đã đủ để Anh chứng minh vị thế ứng viên vô địch chưa? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, chiến thắng bốn hai trước Croatia đã đủ để Anh chứng minh vị thế ứng viên vô địch chưa? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#CE1126",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Anh đã ra dáng ứng viên vô địch?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["Anh", "World Cup 2026", "Méo Bình Luận"]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 4.8 }
+      ]
+    }
+  ],
+  "sources": [
+    { "name": "ESPN: England 4-2 Croatia — result, lineups, stats and standings", "url": "https://www.espn.com/soccer/match/_/gameId/760437/croatia-england" },
+    { "name": "England Football: England v Croatia match centre", "url": "https://www.englandfootball.com/england/mens-senior-team/fixtures-results/2025-26/World-Cup/england-v-croatia-fifa-world-cup-wednesday-17-june-2026-match-centre" },
+    { "name": "Wikimedia Commons: Harry Kane portrait", "url": "https://commons.wikimedia.org/wiki/File:Harry_Kane_-_CRO_vs_ENG_-_2018.07.13_(cropped).jpg" }
+  ]
+}

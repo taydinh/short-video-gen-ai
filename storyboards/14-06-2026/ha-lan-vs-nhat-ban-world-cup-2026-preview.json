@@ -1,0 +1,486 @@
+{
+  "title": "Hà Lan vs Nhật Bản: đại chiến bảng F lúc 03:00 sáng theo giờ Việt Nam",
+  "slug": "ha-lan-vs-nhat-ban-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Hà Lan - Nhật Bản ở bảng F World Cup 2026, quy đổi giờ Việt Nam là 03:00 ngày 15/06/2026. Trận đấu diễn ra tại AT&T Stadium, Dallas/Arlington.",
+  "sources": [
+    {
+      "title": "ESPN - Netherlands vs Japan World Cup 2026 preview, kick-off time and predicted line-ups",
+      "url": "https://www.espn.com/soccer/story/_/id/49038195/fifa-world-cup-2026-netherlands-vs-japan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+    },
+    {
+      "title": "FIFA - Netherlands vs Japan match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021470"
+    },
+    {
+      "title": "Wikipedia - 2026 FIFA World Cup Group F",
+      "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Hà Lan vs Nhật Bản",
+      "subtext": "Trận mở màn bảng F, tranh nhịp ngôi đầu",
+      "voiceText": "Hà Lan gặp Nhật Bản lúc ba giờ sáng, ngày mười lăm tháng sáu theo giờ Việt Nam. Đây là trận mở màn bảng F World Cup hai không hai sáu tại Dallas, nơi một ứng viên châu Âu phải đối đầu tập thể châu Á đang lên rất mạnh.",
+      "subtitle": "Hà Lan gặp Nhật Bản lúc 03:00 ngày 15/06 theo giờ Việt Nam. Đây là trận mở màn bảng F World Cup 2026 tại Dallas, nơi một ứng viên châu Âu phải đối đầu tập thể châu Á đang lên rất mạnh.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group F - Match 11",
+      "venue": "AT&T Stadium, Dallas",
+      "date": "15/06/2026",
+      "time": "03:00 VN",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "form": "Tứ kết 2022",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "form": "Vòng 16 đội 2 kỳ gần nhất",
+          "flagSrc": "assets/football/flags/japan.svg",
+          "badgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "76%",
+          "size": 84
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng F bắt đầu rất căng",
+      "subtext": "Netherlands, Japan, Sweden và Tunisia",
+      "voiceText": "Bảng F có Hà Lan, Nhật Bản, Thụy Điển và Tunisia. Nếu thắng trận này, Hà Lan hoặc Nhật Bản sẽ nắm lợi thế cực lớn trong cuộc đua vào vòng ba mươi hai đội.",
+      "subtitle": "Bảng F có Hà Lan, Nhật Bản, Sweden và Tunisia. Nếu thắng trận này, Hà Lan hoặc Nhật Bản sẽ nắm lợi thế cực lớn trong cuộc đua vào vòng 32 đội.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group F Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Netherlands vs Japan | 15/06/2026 VN",
+      "ctaLabel": "Kick-off 03:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Gakpo đối đầu hệ thống Nhật Bản linh hoạt",
+      "voiceText": "Hà Lan có thể dùng sơ đồ bốn ba ba, với Van Dijk chỉ huy hàng thủ, Frenkie de Jong cầm nhịp, còn Gakpo và Malen tạo tốc độ phía trên. Nhật Bản nhiều khả năng đá ba bốn hai một, dựa vào Kubo, Doan và Ueda để phản công thật nhanh.",
+      "subtitle": "Hà Lan có thể dùng sơ đồ 4-3-3, với Van Dijk chỉ huy hàng thủ, Frenkie de Jong cầm nhịp, còn Gakpo và Malen tạo tốc độ phía trên. Nhật Bản nhiều khả năng đá 3-4-2-1, dựa vào Kubo, Doan và Ueda để phản công thật nhanh.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/japan.svg",
+          "badgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Robin Roefs",
+            "Denzel Dumfries",
+            "Jan Paul van Hecke",
+            "Virgil van Dijk",
+            "Micky van de Ven",
+            "Frenkie de Jong",
+            "Ryan Gravenberch",
+            "Tijjani Reijnders",
+            "Crysencio Summerville",
+            "Donyell Malen",
+            "Cody Gakpo"
+          ]
+        },
+        "away": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Zion Suzuki",
+            "Takehiro Tomiyasu",
+            "Maya Yoshida",
+            "Ko Itakura",
+            "Junya Ito",
+            "Ao Tanaka",
+            "Daichi Kamada",
+            "Keito Nakamura",
+            "Takefusa Kubo",
+            "Ritsu Doan",
+            "Ayase Ueda"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: ký ức 2010",
+      "subtext": "Hà Lan từng thắng Nhật Bản tại World Cup",
+      "voiceText": "Hai đội từng gặp nhau ba lần trước đây. Ở World Cup hai không mười, Hà Lan thắng Nhật Bản một không tại vòng bảng, còn lần gặp gần nhất năm hai không mười ba khép lại với tỉ số hòa hai hai. Lần này, khoảng cách danh tiếng vẫn nghiêng về Hà Lan, nhưng nhịp pressing của Nhật Bản đủ khiến trận đấu rất khó đoán.",
+      "subtitle": "Hai đội từng gặp nhau 3 lần trước đây. Ở World Cup 2010, Hà Lan thắng Nhật Bản 1-0 tại vòng bảng, còn lần gặp gần nhất năm 2013 khép lại với tỉ số hòa 2-2. Lần này, khoảng cách danh tiếng vẫn nghiêng về Hà Lan, nhưng nhịp pressing của Nhật Bản đủ khiến trận đấu rất khó đoán.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/japan.svg",
+          "badgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "homeTeam": "Netherlands",
+      "awayTeam": "Japan",
+      "odds": [
+        {
+          "label": "Kinh nghiệm knock-out",
+          "value": "Netherlands"
+        },
+        {
+          "label": "Nhịp pressing",
+          "value": "Japan"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Chuyển trạng thái"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "06/2010",
+          "home": "Netherlands",
+          "away": "Japan",
+          "score": "1-0",
+          "note": "World Cup group stage",
+          "homeBadgeSrc": "assets/football/flags/netherlands.svg",
+          "awayBadgeSrc": "assets/football/flags/japan.svg"
+        },
+        {
+          "date": "11/2013",
+          "home": "Netherlands",
+          "away": "Japan",
+          "score": "2-2",
+          "note": "Friendly draw",
+          "homeBadgeSrc": "assets/football/flags/netherlands.svg",
+          "awayBadgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Chất lượng cá nhân",
+              "home": 86,
+              "away": 78
+            },
+            {
+              "label": "Tổ chức pressing",
+              "home": 76,
+              "away": 88
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: hai cánh Hà Lan",
+      "subtext": "Dumfries và Gakpo phải thắng được nhịp biên",
+      "voiceText": "Điểm nóng nằm ở hai biên của Hà Lan. Nếu Dumfries và Gakpo kéo giãn được đội hình Nhật Bản, Hà Lan sẽ có khoảng trống cho tuyến hai băng lên. Nhưng nếu Nhật Bản khóa được biên rồi phản công qua Kubo và Doan, trận này có thể đổi chiều rất nhanh.",
+      "subtitle": "Điểm nóng nằm ở hai biên của Hà Lan. Nếu Dumfries và Gakpo kéo giãn được đội hình Nhật Bản, Hà Lan sẽ có khoảng trống cho tuyến hai băng lên. Nhưng nếu Nhật Bản khóa được biên rồi phản công qua Kubo và Doan, trận này có thể đổi chiều rất nhanh.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Hà Lan có ngôi sao để áp đặt, nhưng Nhật Bản có hệ thống đủ tốt để biến mọi pha mất bóng thành báo động đỏ.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng F",
+      "subtext": "Thắng trận đầu là nửa vé đi tiếp",
+      "voiceText": "Bảng F có Hà Lan, Nhật Bản, Thụy Điển và Tunisia. Trước lượt đầu, tất cả cùng không điểm, nhưng cặp Hà Lan với Nhật Bản có thể là trận định hình ngôi đầu. Đội thua sẽ phải bước vào hai trận sau với áp lực lớn hơn rất nhiều.",
+      "subtitle": "Bảng F có Hà Lan, Nhật Bản, Sweden và Tunisia. Trước lượt đầu, tất cả cùng 0 điểm, nhưng cặp Hà Lan với Nhật Bản có thể là trận định hình ngôi đầu. Đội thua sẽ phải bước vào 2 trận sau với áp lực lớn hơn rất nhiều.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group F",
+      "activeTab": "BẢNG F",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "LỊCH THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG F"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "NED",
+        "JPN"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Netherlands",
+            "code": "NED",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/netherlands.svg",
+            "badgeSrc": "assets/football/flags/netherlands.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Japan",
+            "code": "JPN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/japan.svg",
+            "badgeSrc": "assets/football/flags/japan.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Sweden",
+            "code": "SWE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/sweden.svg",
+            "badgeSrc": "assets/football/flags/sweden.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Tunisia",
+            "code": "TUN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/tunisia.svg",
+            "badgeSrc": "assets/football/flags/tunisia.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Hà Lan thắng hay Nhật Bản tạo cú sốc?",
+      "voiceText": "Bạn dự đoán Hà Lan sẽ thắng bằng bản lĩnh, hay Nhật Bản sẽ tạo cú sốc ngay trận ra quân bảng F? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Hà Lan sẽ thắng bằng bản lĩnh, hay Nhật Bản sẽ tạo cú sốc ngay trận ra quân bảng F? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Hà Lan vs Nhật Bản?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Netherlands",
+          "Japan",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

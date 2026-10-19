@@ -1,0 +1,275 @@
+{
+  "title": "Haiti phải sửa áo đấu World Cup 2026 sau yêu cầu của FIFA",
+  "slug": "haiti-sua-ao-dau-world-cup-2026-fifa",
+  "preset": "football-news-roundup",
+  "totalDuration": 60,
+  "sources": [
+    {
+      "name": "The Guardian - Haiti forced to change World Cup jerseys after FIFA rejects political elements",
+      "url": "https://www.theguardian.com/football/2026/jun/10/haiti-world-cup-jerseys-change-fifa-saeta-imagery"
+    },
+    {
+      "name": "FourFourTwo - World Cup 2026 fixtures and UK kick-off times",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-fixtures-day-by-day"
+    },
+    {
+      "name": "FIFA - FIFA World Cup 26 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "title": "HAITI PHẢI ĐỔI ÁO NGAY TRƯỚC WORLD CUP!",
+      "subtext": "FIFA yêu cầu chỉnh sửa chi tiết bị xem là nhạy cảm",
+      "subtitle": "Haiti phải đổi áo ngay trước World Cup! FIFA yêu cầu sửa chi tiết trên áo vì có thể bị diễn giải là yếu tố chính trị.",
+      "voiceText": "Haiti phải đổi áo ngay trước World Cup! FIFA yêu cầu sửa chi tiết trên áo vì có thể bị diễn giải là yếu tố chính trị, dù nhà sản xuất nói ý tưởng ban đầu là tôn vinh lịch sử và tinh thần Haiti.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "label": "WORLD CUP 2026",
+      "imageSrc": "",
+      "imageUrl": "",
+      "cardCaption": "Haiti trở lại World Cup sau hơn nửa thế kỷ, nhưng câu chuyện áo đấu bất ngờ nóng lên trước giờ ra quân.",
+      "chips": ["Haiti", "FIFA", "Áo đấu World Cup"],
+      "emoji": "⚽",
+      "animation": "image-card-rise",
+      "visuals": []
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "title": "Tóm tắt vụ việc",
+      "subtext": "Ba dữ kiện cần nắm",
+      "subtitle": "FIFA yêu cầu chỉnh sửa, Saeta xác nhận đã tuân thủ, và Haiti chuẩn bị đá trận mở màn gặp Scotland.",
+      "voiceText": "Ba dữ kiện cần nắm: FIFA yêu cầu chỉnh sửa, Saeta xác nhận đã tuân thủ, và Haiti chuẩn bị đá trận mở màn gặp Scotland trong lần trở lại World Cup sau năm một chín bảy tư.",
+      "duration": 7,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "statsCards": [
+        { "icon": "👕", "value": "3", "label": "mẫu áo bị ảnh hưởng" },
+        { "icon": "🏛️", "value": "1803", "label": "nguồn cảm hứng lịch sử" },
+        { "icon": "📅", "value": "14/06", "label": "gặp Scotland giờ VN" },
+        { "icon": "⏳", "value": "52", "label": "năm chờ trở lại" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.24 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-bracket-flow",
+      "title": "Dòng thời gian áo đấu",
+      "subtext": "Từ ý tưởng tự hào đến yêu cầu chỉnh sửa",
+      "subtitle": "Saeta phát triển thiết kế, gửi qua quy trình duyệt của FIFA, rồi phải bỏ chi tiết hình bóng lấy cảm hứng từ Cách mạng Haiti.",
+      "voiceText": "Saeta phát triển thiết kế, gửi qua quy trình duyệt của FIFA, rồi phải bỏ chi tiết hình bóng lấy cảm hứng từ Cách mạng Haiti, để bộ áo đạt yêu cầu thi đấu chính thức.",
+      "duration": 7,
+      "startTime": 13,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Haiti Kit Timeline",
+      "flowVariant": "linear",
+      "stages": [
+        { "stage": "Thiết kế", "title": "Tôn vinh lịch sử Haiti" },
+        { "stage": "Duyệt áo", "title": "FIFA rà soát quy định" },
+        { "stage": "Chỉnh sửa", "title": "Bỏ chi tiết gây tranh cãi" },
+        { "stage": "World Cup", "title": "Haiti dùng mẫu đã sửa" }
+      ],
+      "secondaryComposition": "flashcard-gallery",
+      "layout": "horizontal",
+      "cards": [
+        { "imageSrc": "", "text": "Ý tưởng lịch sử", "caption": "Saeta" },
+        { "imageSrc": "", "text": "Quy trình FIFA", "caption": "Review" },
+        { "imageSrc": "", "text": "Mẫu đã chỉnh", "caption": "World Cup" }
+      ],
+      "visuals": [
+        { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 82 }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Spotlight: Haiti",
+      "subtext": "Đội tuyển trở lại World Cup từ năm 1974",
+      "subtitle": "Câu chuyện không chỉ là chiếc áo. Haiti đang có lần đầu dự World Cup kể từ năm 1974, nên mọi chi tiết nhận diện đều mang sức nặng cảm xúc.",
+      "voiceText": "Câu chuyện không chỉ là chiếc áo. Haiti đang có lần đầu dự World Cup kể từ năm một chín bảy tư, nên mọi chi tiết nhận diện đều mang sức nặng cảm xúc với người hâm mộ.",
+      "duration": 7,
+      "startTime": 20,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Haiti national team",
+      "team": "Haiti",
+      "number": "HAI",
+      "playerImageUrl": "",
+      "teamBadgeSrc": "assets/football/flags/haiti.svg",
+      "stats": [
+        { "label": "Lần gần nhất dự World Cup", "value": "1974" },
+        { "label": "Trận mở màn", "value": "vs Scotland" },
+        { "label": "Bảng đấu", "value": "Group C" },
+        { "label": "Biểu tượng", "value": "Cờ Haiti" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.24 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "stats-cards-grid",
+      "secondaryComposition": "infographic-chart",
+      "title": "Vì sao FIFA can thiệp?",
+      "subtext": "Quy định trang phục và yếu tố chính trị",
+      "subtitle": "Theo Guardian, FIFA cho rằng một số chi tiết có thể bị diễn giải khác theo quy định trang phục, còn Saeta nói mục tiêu là tôn vinh niềm tự hào Haiti.",
+      "voiceText": "Theo Guardian, FIFA cho rằng một số chi tiết có thể bị diễn giải khác theo quy định trang phục. Còn Saeta nói mục tiêu của họ là tôn vinh niềm tự hào, sự bền bỉ và tinh thần Haiti.",
+      "duration": 7,
+      "startTime": 27,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "statsCards": [
+        { "icon": "📜", "value": "FIFA", "label": "quy định trang phục" },
+        { "icon": "🎨", "value": "Saeta", "label": "nhà sản xuất áo" },
+        { "icon": "🔥", "value": "Sold out", "label": "áo cũ đã bán hết" },
+        { "icon": "📸", "value": "Portraits", "label": "mẫu mới trong ảnh chính thức" }
+      ],
+      "chartTitle": "Các lớp câu chuyện",
+      "chartType": "bar",
+      "data": [
+        { "label": "Quy định", "value": 80, "percent": 80 },
+        { "label": "Lịch sử", "value": 75, "percent": 75 },
+        { "label": "Cảm xúc CĐV", "value": 90, "percent": 90 },
+        { "label": "Truyền thông", "value": 85, "percent": 85 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "context-bars",
+      "title": "Ba góc nhìn đối lập",
+      "subtext": "Luật, lịch sử và cảm xúc người hâm mộ",
+      "subtitle": "FIFA nhìn qua lăng kính quy định, Saeta nhấn mạnh di sản Haiti, còn người hâm mộ thấy đây là câu chuyện bản sắc trước ngày hội lớn.",
+      "voiceText": "FIFA nhìn qua lăng kính quy định, Saeta nhấn mạnh di sản Haiti, còn người hâm mộ thấy đây là câu chuyện bản sắc trước ngày hội bóng đá lớn nhất hành tinh.",
+      "duration": 7,
+      "startTime": 34,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "bars": [
+        { "icon": "⚖️", "label": "FIFA", "value": "Tránh yếu tố bị xem là chính trị" },
+        { "icon": "🎨", "label": "Saeta", "value": "Tôn vinh niềm tự hào Haiti" },
+        { "icon": "🇭🇹", "label": "Haiti", "value": "World Cup đầu tiên từ 1974" },
+        { "icon": "📣", "label": "CĐV", "value": "Bản sắc nằm trên chiếc áo" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "highlight-image-card", "imageUrl": "", "label": "Haiti kit story", "top": "800px", "left": "90px", "right": "90px", "width": "880px", "height": "660px", "accentColor": "#F7C948", "secondaryAccentColor": "#C8102E", "cardBg": "rgba(7,26,20,0.82)", "objectFit": "cover", "objectPosition": "center center" },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-upcoming-schedule",
+      "title": "Haiti đá khi nào?",
+      "subtext": "Lịch trận đầu theo giờ Việt Nam",
+      "subtitle": "Haiti gặp Scotland lúc 08:00 ngày 14/06 theo giờ Việt Nam tại Boston Stadium. Sau đó bảng C còn có Brazil và Morocco.",
+      "voiceText": "Haiti gặp Scotland lúc tám giờ sáng ngày mười bốn tháng sáu theo giờ Việt Nam tại Boston Stadium. Sau đó, bảng C còn có Brazil và Morocco, nên trận ra quân càng quan trọng.",
+      "duration": 6,
+      "startTime": 41,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "activeTab": "LỊCH THI ĐẤU",
+      "tabs": ["LỊCH THI ĐẤU", "BẢNG C", "ĐỐI THỦ", "GIỜ VN"],
+      "ctaLabel": "08:00 VN | 14/06",
+      "fixtures": [
+        {
+          "group": "World Cup 2026 - Group C",
+          "date": "14/06",
+          "time": "08:00",
+          "home": { "name": "Haiti", "code": "HAI", "teamType": "national", "flag": "assets/football/flags/haiti.svg", "flagSrc": "assets/football/flags/haiti.svg" },
+          "away": { "name": "Scotland", "code": "SCO", "teamType": "national", "flag": "assets/football/flags/scotland.svg", "flagSrc": "assets/football/flags/scotland.svg" }
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.22 },
+        { "type": "football-ball-motion", "duration": 4, "top": "76%", "size": 82 }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Góc nhìn của Méo",
+      "subtext": "Áo đấu cũng là bản sắc",
+      "subtitle": "Theo Méo, tranh cãi này khiến trận Haiti - Scotland có thêm lớp cảm xúc: với Haiti, chiếc áo không chỉ là trang phục thi đấu.",
+      "voiceText": "Theo Méo, tranh cãi này khiến trận Haiti gặp Scotland có thêm một lớp cảm xúc. Với Haiti, chiếc áo không chỉ là trang phục thi đấu, mà còn là cách họ nói rằng mình đã trở lại.",
+      "duration": 7,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Một đội tuyển trở lại World Cup sau 52 năm luôn mang theo nhiều hơn 11 cầu thủ. Họ mang theo cả ký ức, niềm tự hào và câu chuyện bản sắc.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        { "type": "image", "imageUrl": "assets/images/meo-bl-wc-room.png", "opacity": 0.2, "motionType": "ken-burns", "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.5))" },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn đứng về phía nào?",
+      "subtext": "Luật FIFA hay quyền kể câu chuyện bản sắc?",
+      "subtitle": "Bạn đứng về phía nào: luật trang phục của FIFA, hay quyền kể câu chuyện bản sắc trên áo đấu Haiti? Follow @vibe.bongda.",
+      "voiceText": "Bạn đứng về phía nào: luật trang phục của FIFA, hay quyền kể câu chuyện bản sắc trên áo đấu Haiti? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 54,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Haiti World Cup kit story",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bạn nghĩ FIFA có quá chặt không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["World Cup 2026", "Méo Bình Luận", "FOLLOW KÊNH", "@vibe.bongda"]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 90, "duration": 4.8 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    }
+  ]
+}

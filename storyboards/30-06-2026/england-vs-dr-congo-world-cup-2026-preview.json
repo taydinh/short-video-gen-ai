@@ -1,0 +1,478 @@
+{
+  "title": "Anh vs DR Congo: Tam Sư gặp ngựa ô cực lì",
+  "slug": "england-vs-dr-congo-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Anh vs DR Congo tại vòng 32 đội World Cup 2026, diễn ra lúc 23:00 ngày 01/07/2026 theo giờ Việt Nam tại Atlanta Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - England v DR Congo World Cup Round of 32 match preview",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/england-congo-dr-live-stream-team-news-tickets"
+    },
+    {
+      "title": "Sports Mole - England vs DR Congo prediction, team news and lineups",
+      "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/england-vs-dr-congo-prediction-team-news-lineups_600329.html"
+    },
+    {
+      "title": "England Football - DR Congo in profile",
+      "url": "https://www.englandfootball.com/articles/2026/Jun/28/dr-congo-in-profile-fifa-world-cup-20262806"
+    },
+    {
+      "title": "The Guardian - England prepare for difficult DR Congo test",
+      "url": "https://www.theguardian.com/football/2026/jun/29/noni-madueke-england-democratic-republic-congo-world-cup-2026"
+    },
+    {
+      "title": "Khel Now - England vs DR Congo preview and betting odds",
+      "url": "https://khelnow.com/football/world-football-england-vs-dr-congo-preview-fifa-world-cup-202606"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ANH VS DR CONGO",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Hai mươi ba giờ, ngày mùng một tháng bảy theo giờ Việt Nam, tuyển Anh gặp Cộng hòa Công Gô tại Atlanta Stadium. Một bên là Tam Sư nhiều sao, nhiều kỳ vọng, nhiều áp lực; một bên là Cộng hòa Công Gô, đội hạng ba tốt nhất vòng bảng, đá kiểu không cần spotlight, nhưng vào bóng là có hóa đơn.",
+      "subtitle": "23:00 ngày 01/07 theo giờ Việt Nam, tuyển Anh gặp DR Congo tại Atlanta Stadium. Một bên là Tam Sư nhiều sao, nhiều kỳ vọng, nhiều áp lực; một bên là DR Congo, đội hạng ba tốt nhất vòng bảng, đá kiểu không cần spotlight, nhưng vào bóng là có hóa đơn.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Atlanta Stadium",
+      "date": "01/07/2026",
+      "time": "23:00 VN",
+      "teams": [
+        {
+          "name": "England",
+          "code": "ENG",
+          "teamType": "national",
+          "form": [
+            "W",
+            "D",
+            "W"
+          ],
+          "flagSrc": "assets/football/flags/england.svg",
+          "badgeSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "name": "DR Congo",
+          "code": "COD",
+          "teamType": "national",
+          "form": [
+            "D",
+            "L",
+            "W"
+          ],
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "badgeSrc": "assets/football/flags/dr-congo.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Knockout không quan tâm tên tuổi",
+      "voiceText": "Trận này Anh kèo trên chắc rồi đó, nhưng bài học của Đức vẫn còn đó. Xe tăng đứt xích, nhà vua băng hà.",
+      "subtitle": "Trận này Anh kèo trên chắc rồi đó, nhưng bài học của Đức vẫn còn đó. Xe tăng đứt xích, nhà vua băng hà.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "England vs DR Congo | 01/07/2026 VN",
+      "ctaLabel": "Kickoff 23:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Kane, Bellingham đấu Wissa, Bakambu",
+      "voiceText": "Anh dự kiến đá sơ đồ bốn hai ba một, với Pickford trong khung gỗ, Spence, Konsa, Guehi và O'Reilly ở hàng thủ, Rice cùng Anderson giữ nhịp, còn Saka, Bellingham, Rashford hỗ trợ Harry Kane. Cộng hòa Công Gô có thể chơi năm ba hai, dùng Wan Bissaka, Tuanzebe, Mbemba, Kapuadi và Masuaku để dựng bức tường, rồi chờ Wissa và Bakambu phản công.",
+      "subtitle": "Anh dự kiến đá sơ đồ 4-2-3-1, với Pickford trong khung gỗ, Spence, Konsa, Guehi và O'Reilly ở hàng thủ, Rice cùng Anderson giữ nhịp, còn Saka, Bellingham, Rashford hỗ trợ Harry Kane. DR Congo có thể chơi 5-3-2, dùng Wan-Bissaka, Tuanzebe, Mbemba, Kapuadi và Masuaku để dựng bức tường, rồi chờ Wissa và Bakambu phản công.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Atlanta Stadium",
+      "teams": [
+        {
+          "name": "England",
+          "code": "ENG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/england.svg",
+          "badgeSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "name": "DR Congo",
+          "code": "COD",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "badgeSrc": "assets/football/flags/dr-congo.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Pickford",
+            "Spence",
+            "Konsa",
+            "Guehi",
+            "O'Reilly",
+            "Anderson",
+            "Rice",
+            "Saka",
+            "Bellingham",
+            "Rashford",
+            "Kane"
+          ]
+        },
+        "away": {
+          "formation": "5-3-2",
+          "players": [
+            "Mpasi-Nzau",
+            "Wan-Bissaka",
+            "Tuanzebe",
+            "Mbemba",
+            "Kapuadi",
+            "Masuaku",
+            "Moutoussamy",
+            "Sadiki",
+            "Kayembe",
+            "Wissa",
+            "Bakambu"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "PHONG ĐỘ & ĐỐI ĐẦU",
+      "subtext": "Lần đầu gặp nhau, áp lực nghiêng về Anh",
+      "voiceText": "Đây là lần đầu Anh và Cộng hòa Công Gô gặp nhau ở cấp đội tuyển. Anh có vòng bảng kiểu đủ điểm nhưng chưa thật sự trơn tru, còn Cộng hòa Công Gô hòa Bồ Đào Nha, thua Colombia, rồi thắng U bê kit tan để vào vòng sau. Nói ngắn gọn: Anh mạnh hơn trên giấy, nhưng Cộng hòa Công Gô là kiểu đối thủ càng bị xem nhẹ càng đá khó chịu.",
+      "subtitle": "Đây là lần đầu Anh và DR Congo gặp nhau ở cấp đội tuyển. Anh có vòng bảng kiểu đủ điểm nhưng chưa thật sự trơn tru, còn DR Congo hòa Bồ Đào Nha, thua Colombia rồi thắng Uzbekistan để vào vòng sau. Nói ngắn gọn: Anh mạnh hơn trên giấy, nhưng DR Congo là kiểu đối thủ càng bị xem nhẹ càng đá khó chịu.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "England",
+          "code": "ENG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/england.svg",
+          "badgeSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "name": "DR Congo",
+          "code": "COD",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/dr-congo.svg",
+          "badgeSrc": "assets/football/flags/dr-congo.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": [
+          "Góc nhìn",
+          "England",
+          "DR Congo",
+          "Ghi chú"
+        ],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Cửa trên rõ",
+            "x12": "Cửa sốc",
+            "hdp": "England sáng nhưng bị chấp sâu"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Kiểm soát, ép biên",
+            "x12": "Lùi sâu, phản công",
+            "hdp": "Bàn sớm sẽ mở trận"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "Kane, Bellingham",
+            "x12": "Wissa, Bakambu",
+            "hdp": "Không gian sau lưng hậu vệ biên"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "Vòng bảng 2026",
+          "competition": "World Cup",
+          "home": "England",
+          "away": "Group L",
+          "score": "W-D-W",
+          "homeBadgeSrc": "assets/football/flags/england.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        },
+        {
+          "kickoff": "Vòng bảng 2026",
+          "competition": "World Cup",
+          "home": "DR Congo",
+          "away": "Group K",
+          "score": "D-L-W",
+          "homeBadgeSrc": "assets/football/flags/dr-congo.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 62,
+              "away": 38
+            },
+            {
+              "label": "Nguy cơ phản công",
+              "home": 43,
+              "away": 57
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Kèo & nhận định",
+      "subtext": "Anh chấp sâu, DR Congo có cửa gây khó",
+      "quote": "Anh là cửa trên rõ ràng, nhưng kèo chấp sâu trong một trận knock-out luôn cần tỉnh táo. DR Congo có thể không cầm nhiều bóng, nhưng đủ thể lực và tốc độ để khiến cửa trên phải đá rất kiên nhẫn.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Về tỷ lệ kèo, Anh là cửa trên khá sâu, nhiều nhà cái để cửa thắng của Tam Sư rất thấp, còn Cộng hòa Công Gô thắng thì thuộc nhóm kèo sốc. Nhận định của tôi là Anh sáng hơn trong chín mươi phút, nhưng nếu chấp quá sâu thì không dễ nuốt. Kịch bản hợp lý là Anh thắng, có thể hai không hoặc hai một; còn Cộng hòa Công Gô đáng chú ý ở cửa gây khó chịu và phản công có bàn.",
+      "subtitle": "Về tỷ lệ kèo, Anh là cửa trên khá sâu, nhiều nhà cái để cửa thắng của Tam Sư rất thấp, còn DR Congo thắng thì thuộc nhóm kèo sốc. Nhận định của tôi là Anh sáng hơn trong 90 phút, nhưng nếu chấp quá sâu thì không dễ nuốt. Kịch bản hợp lý là Anh thắng, có thể 2-0 hoặc 2-1; còn DR Congo đáng chú ý ở cửa gây khó chịu và phản công có bàn.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng sẽ gặp Mexico hoặc Ecuador lúc 07:00 ngày 06/07 VN",
+      "voiceText": "Ở nhánh này, Mexico gặp Ecuador lúc tám giờ sáng, ngày mùng một tháng bảy theo giờ Việt Nam. Đội nào thắng trận Anh gặp Cộng hòa Công Gô, sẽ gặp đội thắng cặp đó ở vòng mười sáu đội, lúc bảy giờ sáng, ngày mùng sáu tháng bảy theo giờ Việt Nam tại Mexico City Stadium. Tức là thắng hôm nay chưa phải nghỉ, mà là mở khóa thêm một ca tăng độ khó.",
+      "subtitle": "Ở nhánh này, Mexico gặp Ecuador lúc 08:00 ngày 01/07 theo giờ Việt Nam. Đội nào thắng trận Anh gặp DR Congo, sẽ gặp đội thắng cặp đó ở vòng 16 đội, lúc 07:00 ngày 06/07 theo giờ Việt Nam tại Mexico City Stadium. Tức là thắng hôm nay chưa phải nghỉ, mà là mở khóa thêm một ca tăng độ khó.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "NHÁNH ĐẤU",
+        "PHONG ĐỘ",
+        "BỐI CẢNH"
+      ],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Mexico",
+          "away": "Ecuador",
+          "score": "08:00 01/07 VN",
+          "note": "Mexico City Stadium | Đội thắng chờ ở nhánh tiếp theo",
+          "homeBadgeSrc": "assets/football/flags/mexico.svg",
+          "awayBadgeSrc": "assets/football/flags/ecuador.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Winner England/DR Congo",
+          "away": "Winner Mexico/Ecuador",
+          "score": "07:00 06/07 VN",
+          "note": "Mexico City Stadium | Match 92",
+          "homeBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Tam Sư thắng gọn hay DR Congo kéo drama?",
+      "voiceText": "Theo bạn, Anh sẽ giải quyết trận này gọn gàng, hay Cộng hòa Công Gô kéo Tam Sư vào một buổi tối đầy mồ hôi? Bình luận tỉ số và nhận định kèo nhẹ nhàng của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Anh sẽ giải quyết trận này gọn gàng, hay DR Congo kéo Tam Sư vào một buổi tối đầy mồ hôi? Bình luận tỉ số và nhận định kèo nhẹ nhàng của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Anh vs DR Congo",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "England",
+          "DR Congo",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

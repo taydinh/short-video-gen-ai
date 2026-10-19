@@ -1,0 +1,466 @@
+{
+  "title": "Bỉ vs Senegal: Quỷ đỏ gặp Sư tử Teranga, kèo này không hề dễ thở",
+  "slug": "belgium-vs-senegal-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Bỉ vs Senegal tại vòng 32 đội World Cup 2026, diễn ra lúc 03:00 ngày 02/07/2026 theo giờ Việt Nam tại Seattle Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Belgium v Senegal live stream, team news, tickets and more",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-senegal-live-stream-team-news-tickets-and-more"
+    },
+    {
+      "title": "Seattle Sounders - BELvSEN 101 preview",
+      "url": "https://www.soundersfc.com/news/belvsen-101-preview-all-you-need-to-know-when-belgium-faces-senegal-in-fifa-world-cup-2026tm-in-seattle"
+    },
+    {
+      "title": "RotoWire - Belgium vs Senegal predicted lineups and tactical analysis",
+      "url": "https://www.rotowire.com/soccer/article/belgium-vs-senegal-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120376"
+    },
+    {
+      "title": "CBS Sports - 2026 FIFA World Cup knockout bracket",
+      "url": "https://www.cbssports.com/soccer/news/2026-fifa-world-cup-bracket-knockout-stage/"
+    },
+    {
+      "title": "FOX - FIFA World Cup 2026 Round of 32 schedule",
+      "url": "https://www.fox.com/soccer/fifa-world-cup/round-of-32-match-81-jul-1-2026"
+    },
+    {
+      "title": "The Guardian - Belgium's leaders backed to disprove 'has beens' tag",
+      "url": "https://www.theguardian.com/football/2026/jul/01/belgium-senegal-world-cup-match-preview"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "BỈ VS SENEGAL",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Ba giờ sáng, ngày mùng hai tháng bảy theo giờ Việt Nam, Bỉ gặp Senegal tại Seattle Stadium. Một bên là Quỷ đỏ vừa thắng New Zealand năm một, để đứng đầu bảng Gờ, một bên là Sư tử Teranga lách vào vòng trong bằng cú thắng Iraq năm không, nghe thôi đã thấy trận này không dành cho người vừa pha cà phê xong rồi ngủ gật.",
+      "subtitle": "03:00 ngày 02/07 theo giờ Việt Nam, Bỉ gặp Senegal tại Seattle Stadium. Một bên là Quỷ đỏ vừa thắng New Zealand 5-1 để đứng đầu bảng G, một bên là Sư tử Teranga lách vào vòng trong bằng cú thắng Iraq 5-0, nghe thôi đã thấy trận này không dành cho người vừa pha cà phê xong rồi ngủ gật.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Seattle Stadium",
+      "date": "02/07/2026",
+      "time": "03:00 VN",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "teamType": "national",
+          "form": ["D", "D", "W"],
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "teamType": "national",
+          "form": ["L", "L", "W"],
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Knockout: hơn nhau một nhịp là sống",
+      "voiceText": "Bỉ nhất bảng Gờ sau cú bứt tốc muộn, còn Senegal là đội hạng ba tốt nhất với ba điểm và hiệu số dương hai.",
+      "subtitle": "Bỉ nhất bảng G sau cú bứt tốc muộn, còn Senegal là đội hạng ba tốt nhất với 3 điểm và hiệu số +2.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Belgium vs Senegal | 02/07/2026 VN",
+      "ctaLabel": "Kickoff 03:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "De Bruyne kéo dây, Senegal chờ tốc độ chuyển trạng thái",
+      "voiceText": "Bỉ dự kiến đá sơ đồ bốn hai ba một, với Courtois trong khung gỗ, Castagne, Mechele, Ngoy và De Cuyper ở hàng thủ. Tielemans cùng Vanaken giữ trục giữa, còn Doku, Kê Vin Đờ Broai Nơ và Trossard hỗ trợ De Ketelaere. Senegal có thể dùng bốn ba ba, Mory Diaw bắt chính, Gueye neo tuyến giữa, còn Ismaila Sarr, Sadio Mane và Iliman Ndiaye sẵn sàng bấm nút tăng tốc.",
+      "subtitle": "Bỉ dự kiến đá sơ đồ 4-2-3-1, với Courtois trong khung gỗ, Castagne, Mechele, Ngoy và De Cuyper ở hàng thủ. Tielemans cùng Vanaken giữ trục giữa, còn Doku, Kevin De Bruyne và Trossard hỗ trợ De Ketelaere. Senegal có thể dùng 4-3-3, Mory Diaw bắt chính, Gueye neo tuyến giữa, còn Ismaïla Sarr, Sadio Mané và Iliman Ndiaye sẵn sàng bấm nút tăng tốc.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Seattle Stadium",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Courtois",
+            "Castagne",
+            "Mechele",
+            "Ngoy",
+            "De Cuyper",
+            "Tielemans",
+            "Vanaken",
+            "Doku",
+            "De Bruyne",
+            "Trossard",
+            "De Ketelaere"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Mory Diaw",
+            "K Diatta",
+            "Niakhate",
+            "A Seck",
+            "M Diouf",
+            "L Camara",
+            "I Gueye",
+            "P Gueye",
+            "I Sarr",
+            "S Mane",
+            "I Ndiaye"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Lần đầu chạm mặt, Bỉ nhỉnh tên tuổi, Senegal nhỉnh tốc độ",
+      "voiceText": "Hai đội chưa từng gặp nhau ở cấp đội tuyển, nên dữ liệu đối đầu gần như trắng tinh, đúng kiểu mở file mới mà deadline đã dí sau lưng. Kèo chuyên môn nghiêng nhẹ về Bỉ nhờ chất lượng của Courtois, Doku, Trossard và Kê Vin Đờ Broai Nơ, nhưng Senegal có bài phản công rất bén. Bỉ cầm bóng nhiều hơn là dễ đoán, còn Senegal chỉ cần một khoảng trống sau lưng hậu vệ biên là trận đấu có thể đổi màu.",
+      "subtitle": "Hai đội chưa từng gặp nhau ở cấp đội tuyển, nên dữ liệu đối đầu gần như trắng tinh, đúng kiểu mở file mới mà deadline đã dí sau lưng. Kèo chuyên môn nghiêng nhẹ về Bỉ nhờ chất lượng của Courtois, Doku, Trossard và Kevin De Bruyne, nhưng Senegal có bài phản công rất bén. Bỉ cầm bóng nhiều hơn là dễ đoán, còn Senegal chỉ cần một khoảng trống sau lưng hậu vệ biên là trận đấu có thể đổi màu.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Belgium", "Senegal", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Nhỉnh nhẹ",
+            "x12": "Cửa phản đòn",
+            "hdp": "Belgium sáng hơn, nhưng kèo không sâu"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Kiểm soát bóng",
+            "x12": "Chuyển trạng thái",
+            "hdp": "Bàn đầu rất quan trọng"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "De Bruyne, Doku",
+            "x12": "Mane, Ismaila Sarr",
+            "hdp": "Khoảng trống sau hai biên"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "Lịch sử đối đầu",
+          "competition": "Senior international",
+          "home": "Belgium",
+          "away": "Senegal",
+          "score": "First meeting",
+          "note": "Hai đội chưa từng gặp nhau ở cấp đội tuyển",
+          "homeBadgeSrc": "assets/football/flags/belgium.svg",
+          "awayBadgeSrc": "assets/football/flags/senegal.svg"
+        },
+        {
+          "kickoff": "Vòng bảng 2026",
+          "competition": "World Cup form",
+          "home": "Belgium",
+          "away": "Senegal",
+          "score": "D-D-W vs L-L-W",
+          "note": "Bỉ nhất bảng G, Senegal đi tiếp từ hạng ba bảng I",
+          "homeBadgeSrc": "assets/football/flags/belgium.svg",
+          "awayBadgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 56,
+              "away": 44
+            },
+            {
+              "label": "Nguy cơ phản công",
+              "home": 43,
+              "away": 57
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Kèo & nhận định",
+      "subtext": "Bỉ cửa trên nhẹ, Senegal không phải bài kiểm tra dễ",
+      "quote": "Bỉ có nhiều ngôi sao để định đoạt trận đấu, nhưng kèo này không nên nhìn theo tên tuổi. Senegal có tốc độ, thể lực và đủ đòn phản công để biến một trận tưởng kiểm soát thành cuộc rượt đuổi rất mệt.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Về tỷ lệ kèo, Bỉ là cửa trên nhẹ, hợp lý vì họ có nhiều cá nhân tạo khác biệt hơn. Nhưng nếu hỏi có dễ ăn không, thì tôi xin phép lắc đầu rất chuyên môn. Senegal đá phản công tốt, lại vừa thắng Iraq năm không để lấy tinh thần, nên kịch bản Bỉ thắng sát nút, hoặc trận kéo sang hiệp phụ, đều đáng để cân nhắc khi nhận định vui trước giờ bóng lăn.",
+      "subtitle": "Về tỷ lệ kèo, Bỉ là cửa trên nhẹ, hợp lý vì họ có nhiều cá nhân tạo khác biệt hơn. Nhưng nếu hỏi có dễ ăn không, thì tôi xin phép lắc đầu rất chuyên môn. Senegal đá phản công tốt, lại vừa thắng Iraq 5-0 để lấy tinh thần, nên kịch bản Bỉ thắng sát nút, hoặc trận kéo sang hiệp phụ, đều đáng để cân nhắc khi nhận định vui trước giờ bóng lăn.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng sẽ gặp USA hoặc Bosnia & Herzegovina lúc 07:00 ngày 06/07 VN",
+      "voiceText": "Ở nhánh bên cạnh, chủ nhà Mỹ gặp Bosnia và Herzegovina lúc bảy giờ sáng, ngày mùng hai tháng bảy theo giờ Việt Nam tại San Francisco Bay Area Stadium. Đội thắng trận Bỉ gặp Senegal, sẽ gặp đội thắng cặp đó ở vòng mười sáu đội, lúc bảy giờ sáng, ngày mùng sáu tháng bảy theo giờ Việt Nam tại Seattle Stadium. Nói nôm na, qua được cửa này là có ngay một bài test mới, không ai phát voucher nghỉ mệt cả.",
+      "subtitle": "Ở nhánh bên cạnh, chủ nhà Mỹ gặp Bosnia & Herzegovina lúc 07:00 ngày 02/07 theo giờ Việt Nam tại San Francisco Bay Area Stadium. Đội thắng trận Bỉ gặp Senegal, sẽ gặp đội thắng cặp đó ở vòng 16 đội, lúc 07:00 ngày 06/07 theo giờ Việt Nam tại Seattle Stadium. Nói nôm na, qua được cửa này là có ngay một bài test mới, không ai phát voucher nghỉ mệt cả.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "United States",
+          "away": "Bosnia and Herzegovina",
+          "score": "07:00 02/07 VN",
+          "note": "San Francisco Bay Area Stadium | Đội thắng chờ ở nhánh tiếp theo",
+          "homeBadgeSrc": "assets/football/flags/united-states.svg",
+          "awayBadgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Winner Belgium/Senegal",
+          "away": "Winner USA/Bosnia and Herzegovina",
+          "score": "07:00 06/07 VN",
+          "note": "Seattle Stadium | Match 91",
+          "homeBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Bỉ thắng sát nút hay Senegal kéo hiệp phụ?",
+      "voiceText": "Theo bạn, Bỉ giải quyết trận này trong chín mươi phút, hay Senegal kéo Quỷ đỏ vào ca làm thêm giờ rất căng não? Bình luận tỉ số và nhận định kèo nhẹ nhàng của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Bỉ giải quyết trận này trong 90 phút, hay Senegal kéo Quỷ đỏ vào ca làm thêm giờ rất căng não? Bình luận tỉ số và nhận định kèo nhẹ nhàng của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Bỉ vs Senegal",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Belgium",
+          "Senegal",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

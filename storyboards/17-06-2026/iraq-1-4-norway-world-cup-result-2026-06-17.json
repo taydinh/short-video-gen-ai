@@ -1,0 +1,586 @@
+{
+  "title": "Iraq 1-4 Norway: Haaland lập cú đúp trong ngày ra mắt World Cup",
+  "slug": "iraq-1-4-norway-world-cup-result-2026-06-17",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Result trận Iraq 1-4 Norway ở bảng I World Cup 2026, quy đổi giờ Việt Nam là 05:00 ngày 17/06/2026.",
+  "sources": [
+    {
+      "title": "The Guardian - Iraq 1-4 Norway live",
+      "url": "https://www.theguardian.com/football/live/2026/jun/16/iraq-v-norway-world-cup-2026-live"
+    },
+    {
+      "title": "Times of India - Haaland debut brace",
+      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/norway-vs-iraq-fifa-world-cup-2026-match-result-haaland-marks-world-cup-debut-with-two-goals-in-4-1-win/articleshow/131783536.cms"
+    },
+    {
+      "title": "ABC News score centre - Iraq v Norway",
+      "url": "https://www.abc.net.au/news/sport/score-centre/fifa-world-cup/2026-06-17/iraq-norway/2608258"
+    },
+    {
+      "title": "FIFA - Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "title": "FOX Sports - 2026 World Cup schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Iraq 1-4 Norway: Haaland lập cú đúp trong ngày ra mắt World Cup",
+      "subtext": "FT - Iraq 1-4 Norway",
+      "voiceText": "Full time tại Boston Stadium, Y Rắc thua Na Uy một bốn lúc năm giờ sáng, ngày mười bảy tháng sáu theo giờ Việt Nam. Aymen Hussein từng gỡ hòa phút ba mươi chín, nhưng Haaland lập cú đúp, Ostigard đánh đầu, rồi một bàn phản lưới khiến Na Uy thắng đậm.",
+      "subtitle": "Full-time tại Boston Stadium, Iraq thua Norway 1-4 lúc 05:00 ngày 17/06 theo giờ Việt Nam. Aymen Hussein từng gỡ hòa phút 39, nhưng Haaland lập cú đúp, Østigård đánh đầu, rồi một bàn phản lưới khiến Norway thắng đậm.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group I - Matchday 1",
+      "venue": "Boston Stadium",
+      "date": "17/06/2026",
+      "time": "05:00 VN",
+      "minute": "FT",
+      "score": "Iraq 1-4 Norway",
+      "teams": [
+        {
+          "name": "Iraq",
+          "code": "IRQ",
+          "form": "Thua 1-4",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/iraq.svg",
+          "badgeSrc": "assets/football/flags/iraq.svg",
+          "score": 1
+        },
+        {
+          "name": "Norway",
+          "code": "NOR",
+          "form": "Thắng 4-1",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg",
+          "score": 4
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "home": "IRQ",
+          "away": "NOR",
+          "score": "Iraq 1-4 Norway",
+          "minute": "FT",
+          "label": "Group I"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "World Cup 2026 - Result",
+      "subtext": "Haaland ghi hai bàn, Iraq có khoảnh khắc gỡ hòa",
+      "voiceText": "Na Uy trở lại World Cup bằng một chiến thắng nặng ký, nhưng tỉ số không kể hết việc Y Rắc đã gây áp lực khá tốt trong nhiều thời điểm.",
+      "subtitle": "Norway trở lại World Cup bằng một chiến thắng nặng ký, nhưng tỉ số không kể hết việc Iraq đã gây áp lực khá tốt trong nhiều thời điểm.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Result",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Iraq 1-4 Norway | Group I",
+      "ctaLabel": "Full-time",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtext": "Odegaard kết nối với Haaland",
+      "voiceText": "Y Rắc có thể bắt đầu với Jalal Hassan, Natiq, Adnan, Sulaka, Ali Jasim, Iqbal, Bayesh và Aymen Hussein. Na Uy xoay quanh Nyland, Ryerson, Ajer, Ostigard, Meling, Berge, Odegaard, Nusa, Sorloth và Haaland.",
+      "subtitle": "Iraq có thể bắt đầu với Jalal Hassan, Natiq, Adnan, Sulaka, Ali Jasim, Iqbal, Bayesh và Aymen Hussein. Norway xoay quanh Nyland, Ryerson, Ajer, Østigård, Meling, Berge, Ødegaard, Nusa, Sørloth và Haaland.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH CHÍNH THỨC",
+      "teams": [
+        {
+          "name": "Iraq",
+          "code": "IRQ",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/iraq.svg",
+          "badgeSrc": "assets/football/flags/iraq.svg"
+        },
+        {
+          "name": "Norway",
+          "code": "NOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Jalal Hassan",
+            "Natiq",
+            "Adnan",
+            "Sulaka",
+            "Yahya",
+            "Iqbal",
+            "Bayesh",
+            "Ali Jasim",
+            "Aymen Hussein",
+            "Mohammed Dawood",
+            "Amyn"
+          ]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": [
+            "Nyland",
+            "Ryerson",
+            "Ajer",
+            "Ostigard",
+            "Meling",
+            "Berge",
+            "Odegaard",
+            "Nusa",
+            "Bob",
+            "Sorloth",
+            "Haaland"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Haaland ra mắt cực gắt",
+      "subtext": "Hai bàn trong trận World Cup đầu tiên",
+      "voiceText": "Haaland có màn ra mắt World Cup đúng chất tiền đạo lớn. Anh ghi hai bàn trong hiệp một, trừng phạt sai lầm của Y Rắc và giúp Na Uy cầm lại thế trận trước giờ nghỉ.",
+      "subtitle": "Haaland có màn ra mắt World Cup đúng chất tiền đạo lớn. Anh ghi 2 bàn trong hiệp 1, trừng phạt sai lầm của Iraq và giúp Norway cầm lại thế trận trước giờ nghỉ.",
+      "duration": 7,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "number": "9",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "2"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Tiền đạo cắm"
+        },
+        {
+          "label": "Kết quả",
+          "value": "4-1"
+        },
+        {
+          "label": "Điểm",
+          "value": "3"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Iraq gỡ hòa, Norway tăng tốc",
+      "voiceText": "Na Uy mở tỉ số trước nhờ Haaland. Phút ba mươi chín, Aymen Hussein đánh đầu gỡ một một cho Y Rắc. Ngay trước giờ nghỉ, Haaland ghi bàn thứ hai. Sang hiệp hai, Ostigard đánh đầu nâng lên ba một, rồi bàn phản lưới ở phút bù giờ khép lại tỉ số một bốn.",
+      "subtitle": "Norway mở tỉ số trước nhờ Haaland. Phút 39, Aymen Hussein đánh đầu gỡ 1-1 cho Iraq. Ngay trước giờ nghỉ, Haaland ghi bàn thứ hai. Sang hiệp 2, Østigård đánh đầu nâng lên 3-1, rồi bàn phản lưới ở phút bù giờ khép lại tỉ số 1-4.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "1H",
+          "event": "0-1 Haaland",
+          "desc": "Norway vượt lên trước."
+        },
+        {
+          "minute": "39'",
+          "event": "1-1 Aymen Hussein",
+          "desc": "Iraq gỡ hòa bằng pha đánh đầu."
+        },
+        {
+          "minute": "45+'",
+          "event": "1-2 Haaland",
+          "desc": "Sai lầm cuối hiệp một bị Norway trừng phạt."
+        },
+        {
+          "minute": "2H",
+          "event": "1-3 Østigård",
+          "desc": "Norway nới cách biệt từ tình huống bóng bổng."
+        },
+        {
+          "minute": "90+'",
+          "event": "1-4 Own goal",
+          "desc": "Bóng lộn xộn trong vùng cấm và Iraq phản lưới."
+        },
+        {
+          "minute": "FT",
+          "event": "Iraq 1-4 Norway",
+          "desc": "Norway lấy 3 điểm và dẫn bảng I."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-scorebug",
+          "home": "IRQ",
+          "away": "NOR",
+          "score": "Iraq 1-4 Norway",
+          "minute": "FT"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Thống kê trận đấu",
+      "subtext": "Norway hiệu quả hơn ở hai vòng cấm",
+      "voiceText": "Thông số quan trọng nhất là sự lạnh lùng. Y Rắc có thời đoạn chơi sáng nước, nhưng Na Uy tận dụng cơ hội tốt hơn, thắng ba bàn cách biệt và tạm dẫn bảng I nhờ hiệu số.",
+      "subtitle": "Thông số quan trọng nhất là sự lạnh lùng. Iraq có thời đoạn chơi sáng nước, nhưng Norway tận dụng cơ hội tốt hơn, thắng 3 bàn cách biệt và tạm dẫn bảng I nhờ hiệu số.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "Stats",
+      "score": "Iraq 1-4 Norway",
+      "teams": [
+        {
+          "name": "Iraq",
+          "code": "IRQ",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/iraq.svg",
+          "badgeSrc": "assets/football/flags/iraq.svg"
+        },
+        {
+          "name": "Norway",
+          "code": "NOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Bàn thắng",
+              "home": 1,
+              "away": 4
+            },
+            {
+              "label": "Điểm",
+              "home": 0,
+              "away": 3
+            },
+            {
+              "label": "Hiệu số",
+              "home": -3,
+              "away": 3
+            },
+            {
+              "label": "Bàn của Haaland",
+              "home": 0,
+              "away": 2
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng I sau hai trận",
+      "subtext": "Norway lên đầu bảng I",
+      "voiceText": "Chiến thắng bốn một đưa Na Uy lên đầu bảng I với hiệu số cộng ba. Pháp cũng có ba điểm sau trận thắng Senegal, còn Y Rắc và Senegal phải sửa sai ngay ở lượt kế tiếp.",
+      "subtitle": "Chiến thắng 4-1 đưa Norway lên đầu bảng I với hiệu số +3. France cũng có 3 điểm sau trận thắng Senegal, còn Iraq và Senegal phải sửa sai ngay ở lượt kế tiếp.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026 - Group I",
+      "activeTab": "BẢNG I",
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "IRQ",
+        "NOR"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Norway",
+            "code": "NOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/norway.svg",
+            "badgeSrc": "assets/football/flags/norway.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 3
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "France",
+            "code": "FRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/france.svg",
+            "badgeSrc": "assets/football/flags/france.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Senegal",
+            "code": "SEN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/senegal.svg",
+            "badgeSrc": "assets/football/flags/senegal.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Iraq",
+            "code": "IRQ",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/iraq.svg",
+            "badgeSrc": "assets/football/flags/iraq.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Haaland có đưa Norway đi sâu?",
+      "subtext": "Comment góc nhìn của bạn",
+      "voiceText": "Theo bạn, Haaland và Na Uy có đủ sức đi sâu ở World Cup hai không hai sáu không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Haaland và Norway có đủ sức đi sâu ở World Cup 2026 không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Iraq 1-4 Norway",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Haaland có đưa Norway đi sâu?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png",
+          "Iraq",
+          "Norway",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "playerImageUrl để trống vì chưa tìm được URL ảnh cầu thủ phù hợp, ổn định và trực tiếp từ nguồn đã kiểm chứng."
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "title": "Uruguay vs Tây Ban Nha | Preview World Cup 2026",
+  "slug": "uruguay-vs-spain-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Uruguay vs Tây Ban Nha, 07:00 ngày 27/06/2026 giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Uruguay vs Tây Ban Nha",
+      "subtext": "Trận chiến giành vé đi tiếp",
+      "voiceText": "Uruguay đối đầu với Tây Ban Nha vào lúc bảy giờ sáng, ngày hai mươi bảy tháng sáu theo giờ Việt Nam. Trận thư hùng đỉnh cao tại bảng H, nơi Uruguay bắt buộc phải giành chiến thắng để chắc suất đi tiếp, trong khi bò tót Tây Ban Nha chỉ cần một trận hòa để xây chắc ngôi đầu bảng.",
+      "subtitle": "Uruguay đối đầu với Tây Ban Nha vào lúc 07:00 ngày 27/06 theo giờ Việt Nam. Trận thư hùng đỉnh cao tại Bảng H, nơi Uruguay bắt buộc phải giành chiến thắng để chắc suất đi tiếp, trong khi bò tót Tây Ban Nha chỉ cần 1 trận hòa để xây chắc ngôi đầu bảng.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group H - Matchday 3",
+      "venue": "Estadio Guadalajara",
+      "date": "27/06/2026",
+      "time": "07:00 VN",
+      "teams": [
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "form": "GD 0",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg"
+        },
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "form": "GD +4",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Trận chiến ngôi đầu",
+      "subtext": "Uruguay vs Spain quyết đấu",
+      "voiceText": "Lượt trận cuối cùng bảng H, World Cup hai không hai sáu. Hai phong cách, hai trường phái bóng đá đối lập đụng độ nhau trong trận cầu sinh tử quyết định vận mệnh cả bảng đấu.",
+      "subtitle": "Lượt trận cuối cùng Bảng H World Cup 2026. Hai phong cách, hai trường phái bóng đá đối lập đụng độ nhau trong trận cầu sinh tử quyết định vận mệnh cả bảng đấu.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group H Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Uruguay vs Tây Ban Nha | 27/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Nunez so tài cùng Yamal",
+      "voiceText": "Uruguay dự kiến xuất phát với sơ đồ bốn hai ba một, với niềm hy vọng số một Đác uynh Nu nét, trên hàng công và sự càn quét của Van véc đê ở trung tuyến. Phía Tây Ban Nha, La mi nê Gia man sẽ cùng với Ni cô Uy li am tạo thành đôi cánh ma thuật, hỗ trợ cho trung phong O ya da ban.",
+      "subtitle": "Uruguay dự kiến xuất phát với sơ đồ 4-2-3-1, với niềm hy vọng số một Darwin Núñez trên hàng công và sự càn quét của Federico Valverde ở trung tuyến. Phía Tây Ban Nha, Lamine Yamal sẽ cùng với Nico Williams tạo thành đôi cánh ma thuật hỗ trợ cho Mikel Oyarzabal.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/uruguay.svg",
+          "badgeSrc": "assets/football/flags/uruguay.svg"
+        },
+        {
+          "name": "Tây Ban Nha",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Rochet",
+            "Nandez",
+            "R. Araujo",
+            "Gimenez",
+            "Olivera",
+            "Valverde",
+            "Ugarte",
+            "Pellistri",
+            "De la Cruz",
+            "M. Araujo",
+            "Nunez"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Simon",
+            "Porro",
+            "Cubarsi",
+            "Laporte",
+            "Cucurella",
+            "Pedri",
+            "Rodri",
+            "Baena",
+            "Yamal",
+            "Oyarzabal",
+            "Olmo"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần đây",
+      "subtext": "Đẳng cấp và sự lì lợm",
+      "voiceText": "Trong lịch sử hai đội từng cống hiến những trận cầu đỉnh cao. Ở giải năm nay, Tây Ban Nha hòa Cape Verde không đều và đè bẹp Ả rập Saudi bốn không. Uruguay thì liên tiếp bị cầm hòa, một đều trước Ả rập Saudi và hai đều đầy tiếc nuối trước ngựa ô Cape Verde.",
+      "subtitle": "Trong lịch sử hai đội từng cống hiến những trận cầu đỉnh cao. Ở giải năm nay, Tây Ban Nha hòa Cape Verde 0-0 và đè bẹp Saudi Arabia 4-0. Uruguay thì liên tiếp bị cầm hòa, 1-1 trước Saudi Arabia và 2-2 đầy tiếc nuối trước ngựa ô Cape Verde.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Uruguay",
+      "awayTeam": "Tây Ban Nha",
+      "h2hMatches": [
+        {
+          "date": "20/06/2026",
+          "home": "Uruguay",
+          "away": "Cape Verde",
+          "score": "2-2",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/uruguay.svg",
+          "awayBadgeSrc": "assets/football/flags/cabo-verde.svg"
+        },
+        {
+          "date": "20/06/2026",
+          "home": "Tây Ban Nha",
+          "away": "Saudi Arabia",
+          "score": "4-0",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/spain.svg",
+          "awayBadgeSrc": "assets/football/flags/saudi-arabia.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Sức mạnh tập thể",
+          "value": "Tây Ban Nha áp đảo"
+        },
+        {
+          "label": "Bản lĩnh Nam Mỹ",
+          "value": "Uruguay quyết chiến"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Federico Valverde"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 44,
+              "away": 56
+            },
+            {
+              "label": "Tấn công nguy hiểm",
+              "home": 46,
+              "away": 54
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định chuyên gia",
+      "quote": "Tây Ban Nha rất mạnh về kiểm soát, nhưng lối chơi rát và giàu thể lực của Uruguay sẽ là khắc tinh.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Góc nhìn của tôi là Tây Ban Nha đang vận hành trơn tru hơn, nhưng tinh thần chiến đấu không ngại va chạm của Uruguay sẽ kéo trận đấu vào thế giằng co quyết liệt. Tôi tin Uruguay sẽ gây bất ngờ lớn ở lượt đấu này.",
+      "subtitle": "Góc nhìn của tôi là Tây Ban Nha đang vận hành trơn tru hơn, nhưng tinh thần chiến đấu không ngại va chạm của Uruguay sẽ kéo trận đấu vào thế giằng co quyết liệt. Tôi tin Uruguay sẽ gây bất ngờ lớn ở lượt đấu này.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng H",
+      "subtext": "Cuộc chiến cho tấm vé còn lại",
+      "voiceText": "Cục diện bảng H hiện tại, Tây Ban Nha dẫn đầu với bốn điểm và gần như đã đi tiếp. Uruguay và Cape Verde cùng có hai điểm, Ả rập Saudi đứng cuối với một điểm. Uruguay cần một chiến thắng trước Tây Ban Nha để nắm chắc tấm vé đi tiếp trong tay.",
+      "subtitle": "Cục diện Bảng H hiện tại, Tây Ban Nha dẫn đầu với 4 điểm và gần như đã đi tiếp. Uruguay và Cape Verde cùng có 2 điểm, Saudi Arabia đứng cuối với 1 điểm. Uruguay cần một chiến thắng trước Tây Ban Nha để nắm chắc tấm vé đi tiếp trong tay.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group H Standings",
+      "highlightTeams": [
+        "Tây Ban Nha",
+        "Uruguay"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Tây Ban Nha",
+            "code": "ESP",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/spain.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+4"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Uruguay",
+            "code": "URU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uruguay.svg"
+          },
+          "played": 2,
+          "points": 2,
+          "gd": "0"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Cape Verde",
+            "code": "CPV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cabo-verde.svg"
+          },
+          "played": 2,
+          "points": 2,
+          "gd": "0"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Saudi Arabia",
+            "code": "KSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/saudi-arabia.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-4"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "DỰ ĐOÁN TỈ SỐ",
+      "subtext": "@meothichbl",
+      "voiceText": "Liệu Uruguay sẽ chiến đấu kiên cường để đi tiếp, hay Tây Ban Nha sẽ bảo vệ ngôi đầu bảng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu Uruguay sẽ chiến đấu kiên cường để đi tiếp, hay Tây Ban Nha sẽ bảo vệ ngôi đầu bảng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Uruguay vs Tây Ban Nha",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

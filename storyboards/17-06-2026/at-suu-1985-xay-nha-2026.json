@@ -1,0 +1,186 @@
+{
+  "title": "Tuổi Ất Sửu 1985 Xây Nhà Năm 2026 Được Không?",
+  "slug": "at-suu-1985-xay-nha-2026",
+  "totalDuration": 58,
+  "caption": "Tập 4: Tuổi Ất Sửu 1985 xây nhà năm 2026 có đẹp không? Không phạm Tam Tai, phạm Kim Lâu, không phạm Hoang Ốc. Theo phong thủy dân gian, đây không phải là tuổi đẹp để đứng tên xây nhà trong năm 2026. Comment năm sinh để được Thịnh Phát hỗ trợ kiểm tra miễn phí.",
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "feng-shui-card",
+      "label": "TẬP 4 · ẤT SỬU 1985",
+      "title": "Tuổi 1985 xây nhà năm 2026?",
+      "cardCaption": "Nhiều người nghĩ tuổi này đẹp, nhưng sự thật có đúng như vậy không?",
+      "chips": ["Xây nhà 2026", "Ất Sửu", "Kiểm tuổi"],
+      "imageSrc": "assets/storyboards/at-suu-1985-xay-nha-2026/scene-1.png",
+      "voiceText": "Tuổi một chín - tám lăm chuẩn bị xây nhà thì xem hết video này nhé. Nhiều người nghĩ tuổi đẹp, nhưng sự thật có đúng như vậy không?",
+      "subtitle": "Tuổi 1985 chuẩn bị xây nhà thì xem hết video này nhé. Nhiều người nghĩ tuổi đẹp, nhưng sự thật có đúng như vậy không?",
+      "duration": 7,
+      "bgColor": "#101411",
+      "accentColor": "#D9B25F",
+      "textColor": "#ffffff",
+      "animation": "image-card-rise",
+      "emoji": "🏠"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "composition": "stat-highlight",
+      "title": "Tuổi mụ năm 2026",
+      "voiceText": "Người sinh năm một chín tám lăm, đến năm hai không hai sáu sẽ có tuổi mụ là 42 tuổi. Đây là con số dùng để xét các hạn làm nhà.",
+      "subtitle": "Người sinh năm 1985, đến năm 2026 sẽ có tuổi mụ là 42 tuổi. Đây là con số dùng để xét các hạn làm nhà.",
+      "duration": 8,
+      "bgColor": "#0B1A16",
+      "accentColor": "#E6C46A",
+      "textColor": "#ffffff",
+      "animation": "bounce-in",
+      "emoji": "42",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "assets/storyboards/at-suu-1985-xay-nha-2026/scene-2.png",
+          "label": "1985 → 2026",
+          "title": "Tuổi mụ: 42",
+          "caption": "Mốc tuổi để kiểm Tam Tai, Kim Lâu và Hoang Ốc.",
+          "top": "280px",
+          "left": "90px",
+          "right": "90px",
+          "width": "900px",
+          "height": "520px",
+          "accentColor": "#E6C46A",
+          "secondaryAccentColor": "#2FA36B",
+          "cardBg": "rgba(10, 22, 18, 0.84)"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "flashcard-gallery",
+      "title": "Kiểm tra 3 hạn làm nhà",
+      "voiceText": "Khi xem tuổi làm nhà, chúng ta sẽ xét Tam Tai, Kim Lâu và Hoang Ốc. Với tuổi Ất Sửu một chín tám lăm trong năm hai không hai sáu: không phạm Tam Tai, không phạm Hoang Ốc, nhưng lại phạm Kim Lâu.",
+      "subtitle": "Khi xem tuổi làm nhà, chúng ta sẽ xét Tam Tai, Kim Lâu và Hoang Ốc. Với tuổi Ất Sửu 1985 trong năm 2026: không phạm Tam Tai, không phạm Hoang Ốc, nhưng lại phạm Kim Lâu.",
+      "duration": 13,
+      "bgColor": "#111714",
+      "accentColor": "#D9B25F",
+      "textColor": "#ffffff",
+      "animation": "fade-cascade",
+      "layout": "vertical",
+      "cards": [
+        {  
+          "top": "150px",
+          "url": "assets/storyboards/at-suu-1985-xay-nha-2026/scene-3.png",
+          "caption": "Tam Tai: không phạm · Kim Lâu: phạm · Hoang Ốc: không phạm"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "callout",
+      "title": "Không nên tự đứng tên",
+      "voiceText": "Vì phạm Kim Lâu, theo quan niệm phong thủy dân gian, tuổi một chín - tám lăm không phải là tuổi đẹp để đứng tên xây nhà trong năm hai không hai sáu. Nếu vẫn muốn xây, nên cân nhắc mượn tuổi.",
+      "subtitle": "Vì phạm Kim Lâu, theo quan niệm phong thủy dân gian, tuổi 1985 không phải là tuổi đẹp để đứng tên xây nhà trong năm 2026. Nếu vẫn muốn xây, nên cân nhắc mượn tuổi.",
+      "duration": 12,
+      "bgColor": "#1A1210",
+      "accentColor": "#E85D4F",
+      "textColor": "#ffffff",
+      "animation": "callout",
+      "emoji": "⚠️",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "assets/storyboards/at-suu-1985-xay-nha-2026/scene-4.png",
+          "label": "PHẠM KIM LÂU",
+          "title": "Nên mượn tuổi",
+          "caption": "Giữ phần phong thủy dân gian tách khỏi quyết định thi công thực tế.",
+          "top": "280px",
+          "left": "90px",
+          "right": "90px",
+          "width": "900px",
+          "height": "560px",
+          "accentColor": "#E85D4F",
+          "secondaryAccentColor": "#D9B25F",
+          "cardBg": "rgba(28, 14, 12, 0.84)"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "bullet-points",
+      "title": "Thực tế vẫn có người xây",
+      "points": ["Chuẩn bị tài chính", "Rà soát pháp lý", "Chọn đơn vị thi công uy tín"],
+      "voiceText": "Thực tế có rất nhiều gia chủ tuổi một chín - tám lăm vẫn xây nhà trong năm này. Quan trọng nhất vẫn là chuẩn bị tài chính, hồ sơ pháp lý và chọn đơn vị thi công uy tín.",
+      "subtitle": "Thực tế có rất nhiều gia chủ tuổi 1985 vẫn xây nhà trong năm này. Quan trọng nhất vẫn là chuẩn bị tài chính, hồ sơ pháp lý và chọn đơn vị thi công uy tín.",
+      "duration": 10,
+      "bgColor": "#0C1619",
+      "accentColor": "#3DBF8F",
+      "textColor": "#ffffff",
+      "animation": "slide-up",
+      "emoji": "✔",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/storyboards/at-suu-1985-xay-nha-2026/scene-5.png",
+          "source": "local",
+          "position": "background",
+          "opacity": 0.28,
+          "motionType": "ken-burns"
+        },
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "assets/storyboards/at-suu-1985-xay-nha-2026/scene-5.png",
+          "label": "THỰC TẾ",
+          "title": "Tiền · Pháp lý · Thi công",
+          "caption": "Ba phần cần chắc trước khi động thổ.",
+          "top": "150px",
+          "left": "92px",
+          "right": "92px",
+          "width": "896px",
+          "height": "460px",
+          "accentColor": "#3DBF8F",
+          "secondaryAccentColor": "#E6C46A",
+          "cardBg": "rgba(8, 20, 22, 0.82)"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "outro",
+      "composition": "cta-card",
+      "title": "Bạn sinh năm bao nhiêu?",
+      "voiceText": "Bạn sinh năm bao nhiêu? Comment năm sinh bên dưới để Thịnh Phát kiểm tra miễn phí nhé. Tập 5 sẽ là tuổi Bính Dần một chín tám sáu, theo dõi để biết có đẹp hơn tuổi một chín - tám lăm không.",
+      "subtitle": "Bạn sinh năm bao nhiêu? Comment năm sinh bên dưới để Thịnh Phát kiểm tra miễn phí nhé. Tập 5 sẽ là tuổi Bính Dần 1986, theo dõi để biết có đẹp hơn tuổi 1985 không.",
+      "duration": 8,
+      "bgColor": "#15110E",
+      "accentColor": "#D9B25F",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "emoji": "👇",
+      "imageSrc": "assets/storyboards/at-suu-1985-xay-nha-2026/scene-6.png",
+      "visuals": [
+        {
+          "type": "highlight-image-card",
+          "imageUrl": "assets/storyboards/at-suu-1985-xay-nha-2026/scene-6.png",
+          "label": "COMMENT NĂM SINH",
+          "title": "Kiểm tra tuổi xây nhà",
+          "caption": "Tập 5: Bính Dần 1986.",
+          "top": "350px",
+          "left": "90px",
+          "right": "90px",
+          "width": "900px",
+          "height": "520px",
+          "accentColor": "#D9B25F",
+          "secondaryAccentColor": "#E85D4F",
+          "cardBg": "rgba(22, 16, 10, 0.84)"
+        }
+      ]
+    }
+  ],
+  "imageGeneration": {
+    "mode": "built-in image_gen",
+    "outputDir": "assets/storyboards/at-suu-1985-xay-nha-2026",
+    "notes": "All generated images are square 1:1 PNG assets and avoid football/sports visuals."
+  }
+}

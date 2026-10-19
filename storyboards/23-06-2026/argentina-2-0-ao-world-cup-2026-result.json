@@ -1,0 +1,571 @@
+{
+  "slug": "argentina-2-0-ao-world-cup-2026-result",
+  "title": "Argentina 2-0 Áo: Cú đúp lịch sử và kỷ lục vĩ đại của Messi",
+  "summary": "Argentina thắng Áo 2-0; Lionel Messi sút hỏng phạt đền nhưng sau đó tỏa sáng rực rỡ với cú đúp bàn thắng ở phút 44 và 90, chạm mốc 18 bàn tại các kỳ World Cup, phá kỷ lục mọi thời đại.",
+  "totalDuration": 52,
+  "sources": [
+    {
+      "title": "VnExpress - Messi lập cú đúp, Argentina thắng trận thứ hai tại World Cup",
+      "url": "https://vnexpress.net/truc-tiep-argentina-vs-ao-5088383-tong-thuat.html"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "title": "MESSI LẬP CÚ ĐÚP VÀ KỶ LỤC!",
+      "subtext": "Argentina 2-0 Áo • Bảng J",
+      "competitionLabel": "FIFA World Cup 2026",
+      "date": "22/06/2026",
+      "time": "23:00 VN",
+      "venue": "AT&T Stadium, Arlington",
+      "minute": "FT",
+      "score": "2-0",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg",
+          "form": []
+        },
+        {
+          "name": "Áo",
+          "code": "AUT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg",
+          "form": []
+        }
+      ],
+      "voiceText": "Ác hen ti na đánh bại tuyển Áo hai không, để chính thức giành vé vào vòng knock out. Siêu sao Li ô nen Mét si, rực sáng với một cú đúp đẳng cấp, nâng tổng số bàn thắng tại World Cup lên con số mười tám, chính thức đi vào lịch sử bóng đá thế giới.",
+      "subtitle": "Argentina đánh bại tuyển Áo 2-0 để chính thức giành vé vào vòng knock-out. Siêu sao Lionel Messi rực sáng với một cú đúp đẳng cấp, nâng tổng số bàn thắng tại World Cup lên con số 18, chính thức đi vào lịch sử bóng đá thế giới.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7654333629954313490.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "homeCode": "ARG",
+          "awayCode": "AUT",
+          "score": "2-0"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "title": "KẾT QUẢ WORLD CUP",
+      "competitionLabel": "Bảng J • Match Result",
+      "seasonLabel": "2026",
+      "ctaLabel": "FULL TIME",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "voiceText": "Chiến thắng thuyết phục giúp nhà đương kim vô địch giữ vững ngôi đầu bảng Ji và gửi lời cảnh báo đanh thép đến các đối thủ.",
+      "subtitle": "Chiến thắng thuyết phục giúp nhà đương kim vô địch giữ vững ngôi đầu bảng J và gửi lời cảnh báo đanh thép đến các đối thủ.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "title": "Đội hình chính thức",
+      "subtext": "Argentina • Áo",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg",
+          "form": []
+        },
+        {
+          "name": "Áo",
+          "code": "AUT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg",
+          "form": []
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "E. Martinez",
+            "Molina",
+            "Romero",
+            "Otamendi",
+            "F. Medina",
+            "De Paul",
+            "Enzo Fernandez",
+            "Mac Allister",
+            "Lionel Messi",
+            "Lautaro Martinez",
+            "Alvarez"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Pentz",
+            "Posch",
+            "Danso",
+            "Lienhart",
+            "Mwene",
+            "Seiwald",
+            "Laimer",
+            "Sabitzer",
+            "Baumgartner",
+            "Wimmer",
+            "Arnautovic"
+          ]
+        }
+      },
+      "voiceText": "Ác hen ti na ra sân với sơ đồ quen thuộc, Mét si chơi tự do phía sau hàng công. Tuyển Áo cũng tung ra lực lượng mạnh nhất với Sa bít dơ và Lai me, nhằm bóp nghẹt trung lộ bằng lối đá áp sát cường độ cao.",
+      "subtitle": "Argentina ra sân với sơ đồ quen thuộc, Messi chơi tự do phía sau hàng công. Tuyển Áo cũng tung ra lực lượng mạnh nhất với Sabitzer và Laimer, nhằm bóp nghẹt trung lộ bằng lối đá áp sát cường độ cao.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7654333629954313490.mp4",
+          "trim": {
+            "start": 8,
+            "end": 16
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Messi, Alvarez và Lautaro cùng xuất phát",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "title": "Kỷ lục gia Lionel Messi",
+      "subtext": "Phá vỡ mọi giới hạn",
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng tại World Cup",
+          "value": "18 (Kỷ lục lịch sử)"
+        },
+        {
+          "label": "Bàn thắng tại WC 2026",
+          "value": "5 (Vua phá lưới)"
+        },
+        {
+          "label": "Chuỗi trận ghi bàn liên tiếp",
+          "value": "6 trận (Kỷ lục)"
+        },
+        {
+          "label": "Cầu thủ xuất sắc nhất trận",
+          "value": "12 lần (Kỷ lục)"
+        }
+      ],
+      "voiceText": "Cú đúp trận này giúp Li ô nen Mét si chạm mốc mười tám bàn thắng tại World Cup, vượt qua kỷ lục mười bảy bàn của huyền thoại nữ Mác ta để trở thành cầu thủ ghi nhiều bàn nhất lịch sử giải đấu. Đây cũng là lần thứ mười hai anh nhận giải cầu thủ xuất sắc nhất trận.",
+      "subtitle": "Cú đúp trận này giúp Lionel Messi chạm mốc 18 bàn thắng tại World Cup, vượt qua kỷ lục 17 bàn của huyền thoại nữ Marta để trở thành cầu thủ ghi nhiều bàn nhất lịch sử giải đấu. Đây cũng là lần thứ 12 anh nhận giải Cầu thủ xuất sắc nhất trận.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7654333629954313490.mp4",
+          "trim": {
+            "start": 18,
+            "end": 25
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Messi 18 bàn",
+          "videoDescription": "Vượt qua kỷ lục 17 bàn của huyền thoại Marta",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "title": "Diễn biến chính",
+      "subtext": "Hai khoảnh khắc sửa sai",
+      "events": [
+        {
+          "minute": "Đầu trận",
+          "title": "Messi hỏng phạt đền",
+          "description": "VAR cho penalty nhưng cú sút của Messi chạm cột dọc."
+        },
+        {
+          "minute": "44'",
+          "title": "1-0: Lionel Messi",
+          "description": "Dứt điểm một chạm tinh tế từ đường căng ngang của Medina."
+        },
+        {
+          "minute": "90'",
+          "title": "2-0: Lionel Messi",
+          "description": "Dứt điểm liên tiếp trước vòng vây hậu vệ Áo, ấn định chiến thắng."
+        }
+      ],
+      "voiceText": "Hiệp một chứng kiến Mét si sút hỏng phạt đền, nhưng ngay trước giờ nghỉ, anh lập công sửa sai bằng cú đệm bóng tinh tế từ đường chuyền của Mê đi na. Phút chín mươi, Mét si dứt điểm liên tiếp trước vòng vây hậu vệ Áo, ấn định tỉ số hai không.",
+      "subtitle": "Hiệp một chứng kiến Messi sút hỏng phạt đền, nhưng ngay trước giờ nghỉ, anh lập công sửa sai bằng cú đệm bóng tinh tế từ đường chuyền của Medina. Phút 90, Messi dứt điểm liên tiếp trước vòng vây hậu vệ Áo, ấn định tỉ số 2-0.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7654333629954313490.mp4",
+          "trim": {
+            "start": 30,
+            "end": 39
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Messi lập cú đúp",
+          "videoDescription": "Hoàn tất ngày thi đấu lịch sử",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "title": "Thông số áp đảo",
+      "subtext": "Argentina vs Áo",
+      "competitionLabel": "MATCH STATS",
+      "minute": "FT",
+      "score": "2-0",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg",
+          "form": []
+        },
+        {
+          "name": "Áo",
+          "code": "AUT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/austria.svg",
+          "badgeSrc": "assets/football/flags/austria.svg",
+          "form": []
+        }
+      ],
+      "voiceText": "Ác hen ti na kiểm soát bóng năm mươi tám phần trăm, tung ra sáu cú sút trúng đích và đạt chỉ số bàn thắng kỳ vọng một phẩy chín mươi lăm. Sự khác biệt nằm ở bản lĩnh tận dụng cơ hội của nhà đương kim vô địch.",
+      "subtitle": "Argentina kiểm soát bóng 58%, tung ra 6 cú sút trúng đích và đạt xG 1.95. Sự khác biệt nằm ở bản lĩnh tận dụng cơ hội của nhà đương kim vô địch.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": "58%",
+              "away": "42%"
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": "6",
+              "away": "2"
+            },
+            {
+              "label": "Bàn thắng kỳ vọng",
+              "home": "1.95",
+              "away": "0.38"
+            },
+            {
+              "label": "Cơ hội lớn",
+              "home": "4",
+              "away": "0"
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "title": "Argentina giành vé sớm",
+      "subtext": "Cục diện bảng J sau 2 lượt trận",
+      "activeTab": "Bảng J",
+      "tabs": [
+        "Bảng J"
+      ],
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Argentina",
+        "Áo"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Argentina",
+            "code": "ARG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/argentina.svg",
+            "badgeSrc": "assets/football/flags/argentina.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "goalDifference": "+5",
+          "points": 6
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Áo",
+            "code": "AUT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/austria.svg",
+            "badgeSrc": "assets/football/flags/austria.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalDifference": "0",
+          "points": 3
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Jordan",
+            "code": "JOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/jordan.svg",
+            "badgeSrc": "assets/football/flags/jordan.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalDifference": "-2",
+          "points": 1
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Algeria",
+            "code": "ALG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/algeria.svg",
+            "badgeSrc": "assets/football/flags/algeria.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "goalDifference": "-3",
+          "points": 1
+        }
+      ],
+      "voiceText": "Cục diện bảng Ji sau hai lượt trận. Ác hen ti na dẫn đầu với sáu điểm tuyệt đối và chắc suất đi tiếp. Tuyển Áo vẫn xếp thứ hai với ba điểm, trong khi Gioóc đan và An giê ri chia nhau hai vị trí cuối bảng với một điểm.",
+      "subtitle": "Cục diện bảng J sau 2 lượt trận. Argentina dẫn đầu với 6 điểm tuyệt đối và chắc suất đi tiếp. Tuyển Áo vẫn xếp thứ hai với 3 điểm, trong khi Jordan và Algeria chia nhau hai vị trí cuối bảng với 1 điểm.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7654333629954313490.mp4",
+          "trim": {
+            "start": 45,
+            "end": 53
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Bảng J Gọi Tên Argentina",
+          "videoDescription": "Argentina đoạt vé sớm vào vòng 16 đội",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 5,
+      "title": "Messi sẽ vô địch?",
+      "subtext": "Bình luận bên dưới",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Messi sẽ bảo vệ thành công cúp vàng?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Argentina",
+          "World Cup 2026",
+          "Méo Bình Luận"
+        ]
+      },
+      "voiceText": "Với phong độ hủy diệt của Mét si, liệu Ác hen ti na có thể bảo vệ thành công ngôi vương World Cup hai không hai sáu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Với phong độ hủy diệt của Messi, liệu Argentina có thể bảo vệ thành công ngôi vương World Cup 2026? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

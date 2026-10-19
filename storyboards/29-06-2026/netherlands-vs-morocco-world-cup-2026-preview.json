@@ -1,0 +1,456 @@
+{
+  "title": "Hà Lan vs Morocco: Cơn lốc cam gặp bài test châu Phi cực lì",
+  "slug": "netherlands-vs-morocco-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Hà Lan vs Morocco tại vòng 32 đội World Cup 2026, diễn ra lúc 08:00 ngày 30/06/2026 theo giờ Việt Nam tại Monterrey Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Netherlands v Morocco Round of 32 match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021522"
+    },
+    {
+      "title": "FIFA - Netherlands v Morocco World Cup 2026 match preview",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/netherlands-morocco-live-stream-team-news-tickets"
+    },
+    {
+      "title": "Sports Mole - Netherlands vs Morocco prediction, team news and lineups",
+      "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/preview/netherlands-vs-morocco-prediction-team-news-lineups_600222.html"
+    },
+    {
+      "title": "ESPN - 2026 FIFA World Cup fixtures and knockout schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "HÀ LAN VS MOROCCO",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Tám giờ sáng, ngày ba mươi tháng sáu, Hà Lan gặp Ma rốc tại Monterrey Stadium. Một bên là Cơn lốc cam thích bóp nghẹt bằng tốc độ biên, một bên là Ma rốc rất lì, đá như kiểu, anh cứ cầm bóng đi, còn sơ hở thì em xin.",
+      "subtitle": "08:00 ngày 30/06, Hà Lan gặp Morocco tại Monterrey Stadium. Một bên là Cơn lốc cam thích bóp nghẹt bằng tốc độ biên, một bên là Morocco rất lì, đá như kiểu: anh cứ cầm bóng đi, còn sơ hở thì em xin.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Monterrey Stadium",
+      "date": "30/06/2026",
+      "time": "08:00 VN",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "form": ["D", "W", "W"],
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "form": ["D", "W", "W"],
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Knockout không có chỗ ngủ gật",
+      "voiceText": "Hà Lan đi tiếp với tư cách nhất bảng F, còn Ma rốc vượt qua bảng C sau một vòng bảng rất biết cách làm đối thủ nhăn mặt.",
+      "subtitle": "Hà Lan đi tiếp với tư cách nhất bảng F, còn Morocco vượt qua bảng C sau một vòng bảng rất biết cách làm đối thủ nhăn mặt.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Netherlands vs Morocco | 30/06/2026 VN",
+      "ctaLabel": "Kickoff 08:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Hà Lan đẩy biên, Morocco phản đòn nhanh",
+      "voiceText": "Hà Lan dự kiến đá sơ đồ bốn ba ba, với Verbruggen trong khung gỗ, Van Đai chỉ huy hàng thủ, Dumfries và Van de Ven kéo hai biên. Phía trên, Malen, Brobbey và Gakpo là bộ ba tấn công. Ma rốc dùng bốn hai ba một, dựa vào Hakimi, Ounahi, Brahim Diaz và Saibari để phản đòn.",
+      "subtitle": "Hà Lan dự kiến đá sơ đồ 4-3-3, với Verbruggen trong khung gỗ, Van Dijk chỉ huy hàng thủ, Dumfries và Van de Ven kéo hai biên. Phía trên, Malen, Brobbey và Gakpo là bộ ba tấn công. Morocco dùng 4-2-3-1, dựa vào Hakimi, Ounahi, Brahim Díaz và Saibari để phản đòn.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Monterrey Stadium",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Verbruggen",
+            "Dumfries",
+            "van Hecke",
+            "van Dijk",
+            "van de Ven",
+            "Gravenberch",
+            "F de Jong",
+            "Reijnders",
+            "Malen",
+            "Brobbey",
+            "Gakpo"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Bounou",
+            "Hakimi",
+            "Diop",
+            "Chadi Riad",
+            "Mazraoui",
+            "El Aynaoui",
+            "Bouaddi",
+            "Brahim Diaz",
+            "Ounahi",
+            "El Khannouss",
+            "Saibari"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Cửa Hà Lan nhỉnh, nhưng Morocco không dễ bẻ",
+      "voiceText": "Kèo chuyên môn nghiêng nhẹ về Hà Lan, chủ yếu nhờ chất lượng kiểm soát và chiều sâu đội hình. Nhưng lịch sử nhắc nhẹ: World Cup một chín chín bốn, Hà Lan chỉ thắng Ma rốc hai một; giao hữu năm hai không mười bảy, Hà Lan cũng thắng hai một. Nghĩa là cửa trên có, nhưng cửa thở phào sau tiếng còi cuối thì cũng khá sáng.",
+      "subtitle": "Kèo chuyên môn nghiêng nhẹ về Hà Lan, chủ yếu nhờ chất lượng kiểm soát và chiều sâu đội hình. Nhưng lịch sử nhắc nhẹ: World Cup 1994, Hà Lan chỉ thắng Morocco 2-1; giao hữu năm 2017, Hà Lan cũng thắng 2-1. Nghĩa là cửa trên có, nhưng cửa thở phào sau tiếng còi cuối thì cũng khá sáng.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Netherlands", "Morocco", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Nhỉnh hơn",
+            "x12": "Khó chịu",
+            "hdp": "Hà Lan sáng hơn nhưng không sâu"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Kiểm soát biên",
+            "x12": "Phản công nhanh",
+            "hdp": "Tốc độ hai cánh là mấu chốt"
+          },
+          {
+            "teamName": "Kịch bản",
+            "scoreText": "Thắng trong 90 phút",
+            "x12": "Kéo sang hiệp phụ",
+            "hdp": "Knockout dễ có drama"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "29/06/1994",
+          "competition": "World Cup",
+          "home": "Netherlands",
+          "away": "Morocco",
+          "score": "2-1",
+          "homeBadgeSrc": "assets/football/flags/netherlands.svg",
+          "awayBadgeSrc": "assets/football/flags/morocco.svg"
+        },
+        {
+          "kickoff": "31/05/2017",
+          "competition": "Friendly",
+          "home": "Morocco",
+          "away": "Netherlands",
+          "score": "1-2",
+          "homeBadgeSrc": "assets/football/flags/morocco.svg",
+          "awayBadgeSrc": "assets/football/flags/netherlands.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 57,
+              "away": 43
+            },
+            {
+              "label": "Nguy cơ phản công",
+              "home": 46,
+              "away": 54
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng",
+      "subtext": "Dumfries và Hakimi ở đường cao tốc cánh phải",
+      "quote": "Trận này có thể được mở khóa bởi một pha tăng tốc ở biên. Hà Lan muốn kéo Morocco lệch khối, còn Morocco chỉ cần một đường thoát pressing là đủ khiến trận đấu đổi nhiệt.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng là hai hành lang biên. Dumfries và Gakpo có thể kéo Ma rốc vào trạng thái chạy theo bóng mệt nghỉ, nhưng Hakimi, Mazraoui và Brahim Diaz cũng đủ tốc độ để phản đòn. Đây là kiểu trận mà một pha mất bóng nhìn tưởng nhỏ, nhưng hậu quả thì to như hóa đơn cuối tháng.",
+      "subtitle": "Điểm nóng là hai hành lang biên. Dumfries và Gakpo có thể kéo Morocco vào trạng thái chạy theo bóng mệt nghỉ, nhưng Hakimi, Mazraoui và Brahim Díaz cũng đủ tốc độ để phản đòn. Đây là kiểu trận mà một pha mất bóng nhìn tưởng nhỏ, nhưng hậu quả thì to như hóa đơn cuối tháng.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Thắng trận này sẽ gặp Canada lúc 00:00 ngày 05/07 VN",
+      "voiceText": "Nhánh này đã có một đội chờ sẵn: Canada vừa thắng Nam Phi một không ở vòng ba mươi hai đội. Đội nào thắng trận Hà Lan gặp Ma rốc, sẽ gặp Canada ở vòng mười sáu đội, lúc không giờ, ngày mùng năm tháng bảy theo giờ Việt Nam. Thắng hôm nay không phải hết áp lực, mà là mở khóa gói áp lực cao cấp hơn.",
+      "subtitle": "Nhánh này đã có một đội chờ sẵn: Canada vừa thắng Nam Phi 1-0 ở vòng 32 đội. Đội nào thắng trận Hà Lan gặp Morocco, sẽ gặp Canada ở vòng 16 đội, lúc 00:00 ngày 05/07 theo giờ Việt Nam. Thắng hôm nay không phải hết áp lực, mà là mở khóa gói áp lực cao cấp hơn.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "South Africa",
+          "away": "Canada",
+          "score": "0-1",
+          "note": "Canada đã vào vòng 16 đội",
+          "homeBadgeSrc": "assets/football/flags/south-africa.svg",
+          "awayBadgeSrc": "assets/football/flags/canada.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Canada",
+          "away": "Winner Hà Lan/Ma Rốc",
+          "score": "00:00 05/07 VN",
+          "note": "Houston Stadium | Đội thắng Hà Lan vs Morocco",
+          "homeBadgeSrc": "assets/football/flags/canada.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Hà Lan thắng gọn hay Morocco kéo drama?",
+      "voiceText": "Theo bạn, Hà Lan giải quyết trận này trong chín mươi phút, hay Ma rốc kéo cả buổi sáng vào chế độ căng não? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Hà Lan giải quyết trận này trong 90 phút, hay Morocco kéo cả buổi sáng vào chế độ căng não? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Hà Lan vs Morocco",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Netherlands",
+          "Morocco",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

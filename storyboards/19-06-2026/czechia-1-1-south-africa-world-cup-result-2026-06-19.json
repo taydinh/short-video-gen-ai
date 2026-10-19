@@ -1,0 +1,508 @@
+{
+  "title": "Czechia 1-1 Nam Phi: Mokoena cứu điểm phút 83",
+  "slug": "czechia-1-1-south-africa-world-cup-result-2026-06-19",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Kết quả Czechia 1-1 South Africa, giờ Việt Nam UTC+7. playerImageUrl để trống do chưa có ảnh cầu thủ phù hợp.",
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 - scores and fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "name": "ESPN match center: Czechia 1-1 South Africa",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760438/south-africa-czechia"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Cộng Hòa Sec hòa Nam Phi một đều tại Atlanta. Sadilek mở tỉ số phút thứ sáu, trước khi Mokoena gỡ hòa trên chấm phạt đền ở phút tám mươi ba.",
+      "subtitle": "Cộng Hòa Sec hòa Nam Phi một đều tại Atlanta. Sadilek mở tỉ số phút thứ sáu, trước khi Mokoena gỡ hòa trên chấm phạt đền ở phút tám mươi ba.",
+      "title": "Czechia 1-1 Nam Phi: Mokoena cứu điểm phút 83",
+      "subtext": "Czechia 1-1 South Africa | Bảng A",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [
+        1,
+        1
+      ],
+      "venue": "Mercedes-Benz Stadium",
+      "date": "19/06/2026",
+      "time": "23:00",
+      "teams": [
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        },
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "CZE",
+            "RSA"
+          ],
+          "score": [
+            1,
+            1
+          ],
+          "minute": "FT"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Kết quả bảng A của World Cup hai không hai sáu, và đây là câu chuyện chính của trận đấu.",
+      "subtitle": "Kết quả bảng A của World Cup 2026, và đây là câu chuyện chính của trận đấu.",
+      "title": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "tournamentName": "Bảng A",
+      "seasonLabel": "Czechia 1-1 South Africa",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Cộng Hòa Sec đá ba năm hai với Kovar, Holes, Hranac, Krejci, Zima, Coufal, Soucek, Sulc, Zeleny, Schick và Provod. Nam Phi dùng bốn ba ba với Williams, Okon, Mbokazi, Mudau, Modiba, Mbatha, Mofokeng, Mokoena, Sebelebele, Appollis và Makgopa.",
+      "subtitle": "Cộng Hòa Sec đá ba năm hai với Kovar, Holes, Hranac, Krejci, Zima, Coufal, Soucek, Sulc, Zeleny, Schick và Provod. Nam Phi dùng bốn ba ba với Williams, Okon, Mbokazi, Mudau, Modiba, Mbatha, Mofokeng, Mokoena, Sebelebele, Appollis và Makgopa.",
+      "title": "Đội hình chính thức",
+      "competitionLabel": "ĐỘI HÌNH",
+      "teams": [
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        },
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-5-2",
+          "players": [
+            "Matej Kovar",
+            "Tomas Holes",
+            "Robin Hranac",
+            "Ladislav Krejci",
+            "David Zima",
+            "Vladimir Coufal",
+            "Tomas Soucek",
+            "Pavel Sulc",
+            "Jaroslav Zeleny",
+            "Patrik Schick",
+            "Lukas Provod"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Ronwen Williams",
+            "Ime Okon",
+            "Mbekezeli Mbokazi",
+            "Khuliso Mudau",
+            "Aubrey Modiba",
+            "Thalente Mbatha",
+            "Relebohile Mofokeng",
+            "Teboho Mokoena",
+            "Kamogelo Sebelebele",
+            "Oswin Appollis",
+            "Evidence Makgopa"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Teboho Mokoena giữ bình tĩnh trên chấm phạt đền ở phút tám mươi ba, ghi bàn gỡ hòa và mang về điểm số đầu tiên cho Nam Phi.",
+      "subtitle": "Teboho Mokoena giữ bình tĩnh trên chấm phạt đền ở phút tám mươi ba, ghi bàn gỡ hòa và mang về điểm số đầu tiên cho Nam Phi.",
+      "title": "Mokoena cứu Nam Phi",
+      "player": "Teboho Mokoena",
+      "team": "Czechia",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút",
+          "value": "83'"
+        },
+        {
+          "label": "Loại",
+          "value": "Penalty"
+        },
+        {
+          "label": "Chuyền chính xác",
+          "value": "93"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Sadilek mở tỉ số phút thứ sáu. Cộng Hòa Sec bỏ lỡ cơ hội nhân đôi cách biệt, rồi Maseko khiến Sulc để bóng chạm tay. Mokoena gỡ hòa phút tám mươi ba, và trận đấu khép lại một đều.",
+      "subtitle": "Sadilek mở tỉ số phút thứ sáu. Cộng Hòa Sec bỏ lỡ cơ hội nhân đôi cách biệt, rồi Maseko khiến Sulc để bóng chạm tay. Mokoena gỡ hòa phút tám mươi ba, và trận đấu khép lại một đều.",
+      "title": "Timeline trận đấu",
+      "events": [
+        {
+          "minute": "6'",
+          "title": "1-0: Michal Sadílek"
+        },
+        {
+          "minute": "55'",
+          "title": "Czechia thay hai người"
+        },
+        {
+          "minute": "83'",
+          "title": "1-1: Teboho Mokoena, penalty"
+        },
+        {
+          "minute": "90+8'",
+          "title": "Full-time"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Nam Phi kiểm soát bóng sáu mươi hai phần trăm, dẫn một phẩy ba tám so với một phẩy không hai về chỉ số bàn thắng kỳ vọng, và sút trúng đích bốn so với ba.",
+      "subtitle": "Nam Phi kiểm soát bóng sáu mươi hai phần trăm, dẫn một phẩy ba tám so với một phẩy không hai về chỉ số bàn thắng kỳ vọng, và sút trúng đích bốn so với ba.",
+      "title": "Thống kê trận đấu",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [
+        1,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Czechia",
+          "code": "CZE",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/czechia.svg",
+          "badgeSrc": "assets/football/flags/czechia.svg"
+        },
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 38,
+              "away": 62,
+              "unit": "%"
+            },
+            {
+              "label": "xG",
+              "home": 1.02,
+              "away": 1.38
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": 3,
+              "away": 4
+            },
+            {
+              "label": "Cơ hội lớn",
+              "home": 3,
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Cộng Hòa Sec và Nam Phi cùng có một điểm sau hai trận. Mexico và Hàn Quốc vẫn dẫn đầu bảng A trước cuộc đối đầu trực tiếp.",
+      "subtitle": "Cộng Hòa Sec và Nam Phi cùng có một điểm sau hai trận. Mexico và Hàn Quốc vẫn dẫn đầu bảng A trước cuộc đối đầu trực tiếp.",
+      "title": "Bảng A sau trận",
+      "activeTab": "BẢNG A",
+      "standingsVariant": "world-cup-group",
+      "highlightTeams": [
+        "CZE",
+        "RSA"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Mexico",
+            "code": "MEX",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/mexico.svg",
+            "badgeSrc": "assets/football/flags/mexico.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": 2,
+          "pts": 3
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Korea Republic",
+            "code": "KOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/korea-republic.svg",
+            "badgeSrc": "assets/football/flags/korea-republic.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": 1,
+          "pts": 3
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Czechia",
+            "code": "CZE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/czechia.svg",
+            "badgeSrc": "assets/football/flags/czechia.svg"
+          },
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "gd": -1,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "South Africa",
+            "code": "RSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/south-africa.svg",
+            "badgeSrc": "assets/football/flags/south-africa.svg"
+          },
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "gd": -2,
+          "pts": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Theo bạn, đội nào còn cơ hội đi tiếp lớn hơn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, đội nào còn cơ hội đi tiếp lớn hơn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Theo bạn, đội nào còn cơ hội đi tiếp lớn hơn?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

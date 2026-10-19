@@ -1,0 +1,521 @@
+{
+  "title": "Thổ Nhĩ Kỳ 3-2 Mỹ | Kịch tính nghẹt thở World Cup 2026",
+  "slug": "turkiye-3-2-usa-world-cup-result-2026-06-26",
+  "preset": "Preset Football Result",
+  "totalDuration": 58,
+  "summary": "Kết quả Thổ Nhĩ Kỳ vs Mỹ, 09:00 ngày 26/06/2026 giờ Việt Nam. Thổ Nhĩ Kỳ thắng kịch tính 3-2.",
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "name": "VietNamNet: Thổ Nhĩ Kỳ thắng kịch tính Mỹ",
+      "url": "https://vietnamnet.vn"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "THỔ NHĨ KỲ KHIẾN MỸ ÔM HẬN!",
+      "subtext": "Thổ Nhĩ Kỳ 3-2 Mỹ",
+      "subtitle": "Thổ Nhĩ Kỳ lội ngược dòng đánh bại Mỹ 3-2 tại lượt trận cuối bảng D World Cup 2026. Dù đã chắc suất đi tiếp, thất bại này vẫn là gáo nước lạnh cho tuyển Mỹ trước vòng đo ván.",
+      "voiceText": "Thổ Nhĩ Kỳ lội ngược dòng đánh bại Mỹ ba hai, tại lượt trận cuối bảng Đê, World Cup hai không hai sáu. Dù đã chắc suất đi tiếp, thất bại này vẫn là gáo nước lạnh cho tuyển Mỹ, trước vòng đo ván.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group D - Matchday 3",
+      "venue": "Los Angeles Stadium",
+      "date": "26/06/2026",
+      "time": "09:00 VN",
+      "teams": [
+        {
+          "name": "Thổ Nhĩ Kỳ",
+          "code": "TUR",
+          "form": ["L", "L", "W"],
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/turkiye.svg",
+          "badgeSrc": "assets/football/flags/turkiye.svg"
+        },
+        {
+          "name": "Mỹ",
+          "code": "USA",
+          "form": ["W", "W", "L"],
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/TNK-My.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Match Result",
+      "tournamentName": "Group D - Matchday 3",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Thổ Nhĩ Kỳ 3-2 Mỹ | 26/06/2026 VN",
+      "ctaLabel": "Full-time",
+      "subtitle": "Trận đấu danh dự của Thổ Nhĩ Kỳ lại trở thành màn rượt đuổi tỷ số kịch tính nhất bảng D.",
+      "voiceText": "Trận đấu danh dự của Thổ Nhĩ Kỳ, lại trở thành màn rượt đuổi tỉ số kịch tính nhất bảng Đê.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Thổ Nhĩ Kỳ 3-2 Mỹ",
+      "subtext": "Rượt đuổi nghẹt thở, Ayhan chốt hạ phút bù giờ",
+      "subtitle": "Chung cuộc, Thổ Nhĩ Kỳ thắng 3-2. Arda Güler and Kökçü ghi bàn hiệp 1, rồi Kaan Ayhan tỏa sáng ở phút 90+8 để khép lại trận đấu điên rồ.",
+      "voiceText": "Chung cuộc, Thổ Nhĩ Kỳ thắng ba hai. Arda Gyu ler và Cốc chư ghi bàn hiệp một, rồi Kaan Ai han tỏa sáng ở phút chín mươi cộng tám, để khép lại trận đấu điên rồ.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group D Result",
+      "minute": "FT",
+      "score": [3, 2],
+      "teams": [
+        {
+          "name": "Thổ Nhĩ Kỳ",
+          "code": "TUR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/turkiye.svg"
+        },
+        {
+          "name": "Mỹ",
+          "code": "USA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/TNK-My.mp4",
+          "trim": {
+            "start": 233,
+            "end": 240
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Ayhan 90+8'",
+          "videoDescription": "Bàn thắng vàng định đoạt trận đấu",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-scorebug",
+          "teams": ["TUR", "USA"],
+          "score": [3, 2],
+          "minute": "FT",
+          "label": "LA Stadium"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "Mỹ sử dụng thủ môn Matt Freese cùng các trụ cột Richards, Robinson, McKennie và ngòi nổ Pulisic. Thổ Nhĩ Kỳ xuất phát với Demiral đá quét, nhạc trưởng Hakan Çalhanoğlu điều tiết cùng tài năng trẻ Arda Güler đá lệch cánh.",
+      "voiceText": "Mỹ sử dụng thủ môn Freese cùng các trụ cột Richards, Robinson, McKennie, và ngòi nổ Pulisic. Thổ Nhĩ Kỳ xuất phát với Demiral đá quét, nhạc trưởng Hakan Calhanoglu điều tiết, cùng tài năng trẻ Arda Gyu ler đá lệch cánh.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH RA SÂN",
+      "venue": "Los Angeles Stadium",
+      "teams": [
+        {
+          "name": "Thổ Nhĩ Kỳ",
+          "code": "TUR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/turkiye.svg"
+        },
+        {
+          "name": "Mỹ",
+          "code": "USA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Bayındır",
+            "Çelik",
+            "Akaydın",
+            "Demiral",
+            "Kadıoğlu",
+            "Kökçü",
+            "Çalhanoğlu",
+            "Güler",
+            "Kahveci",
+            "Yılmaz",
+            "Yıldız"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Freese",
+            "Dest",
+            "Richards",
+            "Ream",
+            "Robinson",
+            "Adams",
+            "McKennie",
+            "Musah",
+            "Pulisic",
+            "Reyna",
+            "Balogun"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/TNK-My.mp4",
+          "trim": {
+            "start": 9,
+            "end": 17
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Kickoff",
+          "videoDescription": "Thổ Nhĩ Kỳ chơi bóng tự tin từ sớm",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Arda Güler rực sáng",
+      "subtext": "Cú cứa lòng mở ra màn ngược dòng đẳng cấp",
+      "subtitle": "Arda Güler ghi bàn gỡ hòa 1-1 ở phút thứ 10 bằng cú cứa lòng hiểm hóc, khơi dậy tinh thần chiến đấu cho Thổ Nhĩ Kỳ.",
+      "voiceText": "Arda Gyu ler là ngôi sao sáng nhất phía Thổ Nhĩ Kỳ. Phút thứ mười, anh bình tĩnh xử lý bóng rồi tung cú cứa lòng hiểm hóc san bằng tỉ số một đều, khơi dậy tinh thần chiến đấu cho toàn đội.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "player": "Arda Güler",
+      "team": "Thổ Nhĩ Kỳ",
+      "number": "8",
+      "playerImageUrl": "https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.99422-6/730891625_27271007355854357_6613534036506975836_n.png?stp=dst-jpg_tt6&cstp=mx1258x1440&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RMv9PGhtDkAQ7kNvwGtHc9r&_nc_oc=AdoJxMvlUWYAdmgrFoP81DvhGmt8V1Hzbt57glW_I3fAkbVUjxP7ezIrtEtvjQkkSp4&_nc_zt=14&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=ck9UVm7LD3VnKTxeZMXe3Q&_nc_ss=7b2a8&oh=00_Af_mPp-88xuNSNjV1MMPVpmJ3NTqHvK5YTutFNImQ__BWw&oe=6A43E40F",
+      "stats": [
+        { "label": "Bàn thắng", "value": "1" },
+        { "label": "Phút ghi bàn", "value": "10'" },
+        { "label": "Chuyền bóng chính xác", "value": "88%" },
+        { "label": "Vai trò", "value": "Nhạc trưởng" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/TNK-My.mp4",
+          "trim": {
+            "start": 85,
+            "end": 96
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Güler 10'",
+          "videoDescription": "Cú cứa lòng hiểm hóc gỡ hòa 1-1",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Diễn biến trận đấu",
+      "subtext": "Màn rượt đuổi tỷ số kịch tính 5 bàn",
+      "subtitle": "Trusty mở tỷ số phút thứ 3, Güler gỡ hòa phút 10, Kökçü nâng tỷ số lên 2-1 phút 31. Berhalter gỡ hòa 2-2 ở phút 49, trước khi Ayhan ghi bàn quyết định phút 90+8.",
+      "voiceText": "Trận đấu bắt đầu với bàn mở tỉ số của Trớt ti ở phút thứ ba. Nhưng Gyu ler ở phút thứ mười, và Cốc chư ở phút ba mươi mốt giúp Thổ Nhĩ Kỳ dẫn ngược hai một. Hiệp hai bắt đầu bằng bàn gỡ hai đều của Bơ ha tơ, trước khi Kaan Ai han ghi bàn quyết định ở phút chín mươi cộng tám.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "3'", "title": "0-1: Auston Trusty", "desc": "Trusty tận dụng cơ hội ghi bàn mở tỷ số sớm cho Mỹ." },
+        { "minute": "10'", "title": "1-1: Arda Güler", "desc": "Cú cứa lòng chân trái đẳng cấp của Güler gỡ hòa." },
+        { "minute": "31'", "title": "2-1: Orkun Kökçü", "desc": "Kökçü dứt điểm cận thành đưa Thổ Nhĩ Kỳ dẫn trước." },
+        { "minute": "49'", "title": "2-2: Sebastian Berhalter", "desc": "Berhalter dứt điểm hiểm hóc quân bình tỷ số cho Mỹ." },
+        { "minute": "90+8'", "title": "3-2: Kaan Ayhan", "desc": "Ayhan ghi bàn thắng vàng phút bù giờ định đoạt trận đấu." }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/TNK-My.mp4",
+          "trim": {
+            "start": 130,
+            "end": 142
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Kökçü 31'",
+          "videoDescription": "Nâng tỷ số lên 2-1 cho Thổ Nhĩ Kỳ",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Mỹ kiểm soát thế trận",
+      "subtext": "Cầm bóng nhiều hơn nhưng hiệu quả kém hơn",
+      "subtitle": "Mỹ kiểm soát bóng 61%, tung ra 16 cú sút so với 9 của Thổ Nhĩ Kỳ. Tuy nhiên, hàng công của Thổ Nhĩ Kỳ chơi cực kỳ sắc bén.",
+      "voiceText": "Mỹ kiểm soát bóng vượt trội với sáu mươi mốt phần trăm, sút mười sáu lần so với chín lần của đối thủ. Nhưng sự sắc bén của các chân sút Thổ Nhĩ Kỳ, đã trừng phạt hàng thủ chơi thiếu tập trung của đội chủ nhà.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Thống kê trận đấu",
+      "minute": "FT",
+      "score": [3, 2],
+      "teams": [
+        {
+          "name": "Thổ Nhĩ Kỳ",
+          "code": "TUR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/turkiye.svg"
+        },
+        {
+          "name": "Mỹ",
+          "code": "USA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 39.0, "away": 61.0, "unit": "%" },
+            { "label": "Cú sút", "home": 9, "away": 16 },
+            { "label": "Sút trúng đích", "home": 5, "away": 7 },
+            { "label": "Chỉ số bàn thắng kỳ vọng", "home": 1.25, "away": 1.82 },
+            { "label": "Phạt góc", "home": 3, "away": 8 }
+          ]
+        },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/TNK-My.mp4",
+          "trim": {
+            "start": 153,
+            "end": 171
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Berhalter 49'",
+          "videoDescription": "Cú sút xa gỡ hòa 2-2",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng D",
+      "subtext": "Mỹ dẫn đầu bảng, Australia giành vé thứ hai",
+      "subtitle": "Thất bại 2-3 không ảnh hưởng đến ngôi đầu bảng D của Mỹ (6 điểm). Australia đi tiếp ở vị trí thứ hai với 4 điểm. Thổ Nhĩ Kỳ ngẩng cao đầu rời giải.",
+      "voiceText": "Thất bại này không ảnh hưởng đến ngôi đầu bảng Đê của Mỹ khi họ vẫn có sáu điểm. Australia đi tiếp ở vị trí thứ hai. Còn Thổ Nhĩ Kỳ, dù đã bị loại, chiến thắng ba hai này là lời chia tay đầy danh dự gửi tới người hâm mộ.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#FFFFFF",
+      "activeTab": "BẢNG D",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ", "CẦU THỦ", "BẢNG D"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["USA", "TUR"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Mỹ", "code": "USA", "teamType": "national", "flagSrc": "assets/football/flags/united-states.svg" }, "played": 3, "wins": 2, "draws": 0, "losses": 1, "gf": 8, "ga": 4, "gd": 4, "pts": 6 },
+        { "rank": 2, "team": { "name": "Australia", "code": "AUS", "teamType": "national", "flagSrc": "assets/football/flags/australia.svg" }, "played": 3, "wins": 1, "draws": 1, "losses": 1, "gf": 2, "ga": 2, "gd": 0, "pts": 4 },
+        { "rank": 3, "team": { "name": "Paraguay", "code": "PAR", "teamType": "national", "flagSrc": "assets/football/flags/paraguay.svg" }, "played": 3, "wins": 1, "draws": 1, "losses": 1, "gf": 2, "ga": 4, "gd": -2, "pts": 4 },
+        { "rank": 4, "team": { "name": "Thổ Nhĩ Kỳ", "code": "TUR", "teamType": "national", "flagSrc": "assets/football/flags/turkiye.svg" }, "played": 3, "wins": 1, "draws": 0, "losses": 2, "gf": 3, "ga": 5, "gd": -2, "pts": 3 }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/TNK-My.mp4",
+          "trim": {
+            "start": 254,
+            "end": 270
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Standings D",
+          "videoDescription": "Thổ Nhĩ Kỳ thắng danh dự, Mỹ giữ ngôi đầu",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Mỹ đi tiếp thuyết phục?",
+      "subtext": "Để lại ý kiến phía dưới nhé",
+      "subtitle": "Thất bại trước Thổ Nhĩ Kỳ có phải là hồi chuông cảnh tỉnh cần thiết cho tuyển Mỹ trước vòng 1/16?",
+      "voiceText": "Thất bại trước Thổ Nhĩ Kỳ, có phải là hồi chuông cảnh tỉnh cần thiết cho tuyển Mỹ, trước vòng một, mười sáu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Mỹ có tiến sâu tại World Cup?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Thổ Nhĩ Kỳ",
+          "Mỹ",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/TNK-My.mp4",
+          "trim": {
+            "start": 290,
+            "end": 296
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

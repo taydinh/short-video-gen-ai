@@ -1,0 +1,516 @@
+{
+  "title": "Thụy Sĩ 4-1 Bosnia: bùng nổ cuối trận",
+  "slug": "switzerland-4-1-bosnia-herzegovina-world-cup-result-2026-06-19",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Kết quả Switzerland 4-1 Bosnia-Herzegovina, giờ Việt Nam UTC+7. playerImageUrl để trống do chưa có ảnh cầu thủ phù hợp.",
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 - scores and fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "name": "ESPN match center: Switzerland 4-1 Bosnia-Herzegovina",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760439/bosnia-herzegovina-switzerland"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Thụy Sĩ thắng Bosnia bốn một tại SoFi Stadium. Manzambi lập cú đúp, Vargas và Xhaka ghi hai bàn còn lại trong màn bùng nổ cuối trận.",
+      "subtitle": "Thụy Sĩ thắng Bosnia bốn một tại SoFi Stadium. Manzambi lập cú đúp, Vargas và Xhaka ghi hai bàn còn lại trong màn bùng nổ cuối trận.",
+      "title": "Thụy Sĩ 4-1 Bosnia: bùng nổ cuối trận",
+      "subtext": "Switzerland 4-1 Bosnia-Herzegovina | Bảng B",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [
+        4,
+        1
+      ],
+      "venue": "SoFi Stadium",
+      "date": "19/06/2026",
+      "time": "02:00",
+      "teams": [
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Bosnia-Herzegovina",
+          "code": "BIH",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "SUI",
+            "BIH"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "minute": "FT"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Kết quả bảng B của World Cup hai không hai sáu, và đây là câu chuyện chính của trận đấu.",
+      "subtitle": "Kết quả bảng B của World Cup 2026, và đây là câu chuyện chính của trận đấu.",
+      "title": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "tournamentName": "Bảng B",
+      "seasonLabel": "Switzerland 4-1 Bosnia-Herzegovina",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Thụy Sĩ đá bốn ba một hai với Kobel, Elvedi, Akanji, Jaquez, Rodriguez, Xhaka, Sow, Freuler, Vargas, Itten và Manzambi. Bosnia sử dụng bốn bốn hai, với Vasilj trong khung thành và Dzeko lĩnh xướng hàng công.",
+      "subtitle": "Thụy Sĩ đá bốn ba một hai với Kobel, Elvedi, Akanji, Jaquez, Rodriguez, Xhaka, Sow, Freuler, Vargas, Itten và Manzambi. Bosnia sử dụng bốn bốn hai, với Vasilj trong khung thành và Dzeko lĩnh xướng hàng công.",
+      "title": "Đội hình chính thức",
+      "competitionLabel": "ĐỘI HÌNH",
+      "teams": [
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Bosnia-Herzegovina",
+          "code": "BIH",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-1-2",
+          "players": [
+            "Gregor Kobel",
+            "Nico Elvedi",
+            "Manuel Akanji",
+            "Luca Jaquez",
+            "Ricardo Rodriguez",
+            "Granit Xhaka",
+            "Djibril Sow",
+            "Remo Freuler",
+            "Ruben Vargas",
+            "Cedric Itten",
+            "Johan Manzambi"
+          ]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": [
+            "Nikola Vasilj",
+            "Amar Dedic",
+            "Tarik Muharemovic",
+            "Sead Kolasinac",
+            "Jusuf Gazibegovic",
+            "Amar Memic",
+            "Benjamin Tahirovic",
+            "Haris Hajradinovic",
+            "Kerim Alajbegovic",
+            "Edin Dzeko",
+            "Ermedin Demirovic"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Johan Manzambi vào sân rồi ghi hai bàn ở phút bảy mươi tư và chín mươi, trở thành bước ngoặt giúp Thụy Sĩ phá vỡ thế bế tắc.",
+      "subtitle": "Johan Manzambi vào sân rồi ghi hai bàn ở phút bảy mươi tư và chín mươi, trở thành bước ngoặt giúp Thụy Sĩ phá vỡ thế bế tắc.",
+      "title": "Manzambi tạo bước ngoặt",
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "2"
+        },
+        {
+          "label": "Phút",
+          "value": "74', 90'"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Dự bị"
+        },
+        {
+          "label": "Điểm nhấn",
+          "value": "Cú vô-lê"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Manzambi mở tỉ số phút bảy mươi tư. Muharemovic nhận thẻ đỏ phút tám mươi. Vargas nhân đôi cách biệt phút tám mươi tư, Manzambi ghi bàn thứ ba phút chín mươi. Mahmic gỡ một bàn, rồi Xhaka ấn định bốn một trên chấm phạt đền.",
+      "subtitle": "Manzambi mở tỉ số phút bảy mươi tư. Muharemovic nhận thẻ đỏ phút tám mươi. Vargas nhân đôi cách biệt phút tám mươi tư, Manzambi ghi bàn thứ ba phút chín mươi. Mahmic gỡ một bàn, rồi Xhaka ấn định bốn một trên chấm phạt đền.",
+      "title": "Timeline trận đấu",
+      "events": [
+        {
+          "minute": "74'",
+          "title": "1-0: Johan Manzambi"
+        },
+        {
+          "minute": "80'",
+          "title": "Thẻ đỏ: Tarik Muharemovic"
+        },
+        {
+          "minute": "84'",
+          "title": "2-0: Rubén Vargas"
+        },
+        {
+          "minute": "90'",
+          "title": "3-0: Johan Manzambi"
+        },
+        {
+          "minute": "90+3'",
+          "title": "3-1: Ermin Mahmic"
+        },
+        {
+          "minute": "90+7'",
+          "title": "4-1: Granit Xhaka, penalty"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Thụy Sĩ kiểm soát bóng sáu mươi hai phần trăm, dẫn hai phẩy không sáu so với không phẩy hai ba về chỉ số bàn thắng kỳ vọng, và sút trúng đích bảy so với ba.",
+      "subtitle": "Thụy Sĩ kiểm soát bóng sáu mươi hai phần trăm, dẫn hai phẩy không sáu so với không phẩy hai ba về chỉ số bàn thắng kỳ vọng, và sút trúng đích bảy so với ba.",
+      "title": "Thống kê trận đấu",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [
+        4,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Bosnia-Herzegovina",
+          "code": "BIH",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 62,
+              "away": 38,
+              "unit": "%"
+            },
+            {
+              "label": "xG",
+              "home": 2.06,
+              "away": 0.23
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": 7,
+              "away": 3
+            },
+            {
+              "label": "Cơ hội lớn",
+              "home": 3,
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Canada và Thụy Sĩ cùng có bốn điểm, nhưng Canada dẫn đầu bảng B nhờ hiệu số cộng sáu. Bosnia và Ka Ta cùng có một điểm.",
+      "subtitle": "Canada và Thụy Sĩ cùng có bốn điểm, nhưng Canada dẫn đầu bảng B nhờ hiệu số cộng sáu. Bosnia và Ka Ta cùng có một điểm.",
+      "title": "Bảng B sau trận",
+      "activeTab": "BẢNG B",
+      "standingsVariant": "world-cup-group",
+      "highlightTeams": [
+        "SUI",
+        "BIH"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Canada",
+            "code": "CAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/canada.svg",
+            "badgeSrc": "assets/football/flags/canada.svg"
+          },
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "gd": 6,
+          "pts": 4
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Switzerland",
+            "code": "SUI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/switzerland.svg",
+            "badgeSrc": "assets/football/flags/switzerland.svg"
+          },
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "gd": 3,
+          "pts": 4
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Bosnia-Herzegovina",
+            "code": "BIH",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+            "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+          },
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "gd": -3,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Qatar",
+            "code": "QAT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/qatar.svg",
+            "badgeSrc": "assets/football/flags/qatar.svg"
+          },
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "gd": -6,
+          "pts": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Thụy Sĩ có đủ sức tranh ngôi đầu bảng B không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Thụy Sĩ có đủ sức tranh ngôi đầu bảng B không? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Thụy Sĩ có đủ sức tranh ngôi đầu bảng B không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

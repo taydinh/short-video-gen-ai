@@ -1,0 +1,501 @@
+{
+  "slug": "bi-0-0-iran-world-cup-2026-result",
+  "title": "Bỉ 0-0 Iran: Kết quả World Cup 2026",
+  "summary": "Bỉ hòa Iran 0-0 trong thế thiếu người; ảnh cầu thủ để trống.",
+  "sources": [
+    "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/belgium-ir-iran-match-report-highlights",
+    "https://www.espn.com/soccer/match/_/gameId/760451/iran-belgium"
+  ],
+  "totalDuration": 52,
+  "scenes": [
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-1",
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "title": "Bỉ 0-0 Iran",
+      "subtext": "Toàn thời gian • Bảng G",
+      "competitionLabel": "FIFA World Cup 2026",
+      "date": "22.06.2026",
+      "time": "02:00",
+      "venue": "Los Angeles Stadium",
+      "minute": "FT",
+      "score": "0-0",
+      "teams": [
+        {
+          "name": "Bỉ",
+          "code": "BEL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg",
+          "form": []
+        },
+        {
+          "name": "Iran",
+          "code": "IRN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ir-iran.svg",
+          "badgeSrc": "assets/football/flags/ir-iran.svg",
+          "form": []
+        }
+      ],
+      "voiceText": "Bỉ hòa Iran không không, lúc hai giờ sáng ngày hai mươi hai tháng sáu theo giờ Việt Nam. Thủ môn Alireza Beiranvand cứu thua bảy lần, còn Bỉ chỉ còn mười người sau thẻ đỏ của Nathan Ngoy phút sáu mươi bảy.",
+      "subtitle": "Bỉ hòa Iran 0-0, lúc 02:00 ngày 22/06 theo giờ Việt Nam. Thủ môn Alireza Beiranvand cứu thua 7 lần, còn Bỉ chỉ còn 10 người sau thẻ đỏ của Nathan Ngoy phút 67.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "homeCode": "BEL",
+          "awayCode": "IRN",
+          "score": "0-0"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-2",
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "title": "KẾT QUẢ WORLD CUP",
+      "competitionLabel": "Bảng G • Match Result",
+      "seasonLabel": "2026",
+      "ctaLabel": "FULL TIME",
+      "tournamentLogoSrc": "assets/football/tournaments/fifa-world-cup-2026.svg",
+      "voiceText": "Kết quả bảng G World Cup hai không hai sáu, một trận hòa không bàn thắng đầy căng thẳng.",
+      "subtitle": "Kết quả bảng G World Cup 2026, một trận hòa không bàn thắng đầy căng thẳng.",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-3",
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "title": "Đội hình chính thức",
+      "subtext": "Bỉ • Iran",
+      "teams": [
+        {
+          "name": "Bỉ",
+          "code": "BEL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg",
+          "form": []
+        },
+        {
+          "name": "Iran",
+          "code": "IRN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ir-iran.svg",
+          "badgeSrc": "assets/football/flags/ir-iran.svg",
+          "form": []
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Thibaut Courtois",
+            "Timothy Castagne",
+            "Wout Faes",
+            "Arthur Theate",
+            "Maxim De Cuyper",
+            "Youri Tielemans",
+            "Amadou Onana",
+            "Jérémy Doku",
+            "Charles De Ketelaere",
+            "Leandro Trossard",
+            "Romelu Lukaku"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Alireza Beiranvand",
+            "Sadegh Moharrami",
+            "Shoja Khalilzadeh",
+            "Morteza Pouraliganji",
+            "Milad Mohammadi",
+            "Saeid Ezatolahi",
+            "Saman Ghoddos",
+            "Alireza Jahanbakhsh",
+            "Mehdi Ghayedi",
+            "Mehdi Taremi",
+            "Sardar Azmoun"
+          ]
+        }
+      },
+      "voiceText": "Đây là đội hình xuất phát của Bỉ và Iran, với nhiều ngôi sao tấn công nhưng không đội nào tìm được bàn thắng.",
+      "subtitle": "Đây là đội hình xuất phát của Bỉ và Iran, với nhiều ngôi sao tấn công nhưng không đội nào tìm được bàn thắng.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-4",
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "title": "Nhân vật nổi bật",
+      "subtext": "Bảy pha cứu thua",
+      "player": "Alireza Beiranvand",
+      "team": "Bỉ",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Cứu thua",
+          "value": "7"
+        },
+        {
+          "label": "Bàn thua",
+          "value": "0"
+        },
+        {
+          "label": "Kết quả",
+          "value": "0-0"
+        }
+      ],
+      "voiceText": "Alireza Beiranvand là người nổi bật nhất, có bảy pha cứu thua để giữ sạch lưới cho Iran.",
+      "subtitle": "Alireza Beiranvand là người nổi bật nhất, có 7 pha cứu thua để giữ sạch lưới cho Iran.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-5",
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "title": "Diễn biến chính",
+      "subtext": "Các mốc đáng chú ý",
+      "events": [
+        {
+          "minute": "67'",
+          "title": "Nathan Ngoy",
+          "description": "Nhận thẻ đỏ trực tiếp"
+        },
+        {
+          "minute": "90'",
+          "title": "Bỉ dồn ép",
+          "description": "Iran đứng vững"
+        },
+        {
+          "minute": "FT",
+          "title": "Bỉ 0-0 Iran",
+          "description": "Hai đội chia điểm"
+        }
+      ],
+      "voiceText": "Bỉ tạo sức ép nhưng không thể ghi bàn. Phút sáu mươi bảy, Nathan Ngoy nhận thẻ đỏ. Iran bảo toàn tỉ số không không đến hết trận.",
+      "subtitle": "Bỉ tạo sức ép nhưng không thể ghi bàn. Phút 67, Nathan Ngoy nhận thẻ đỏ. Iran bảo toàn tỉ số 0-0 đến hết trận.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-6",
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "title": "Thống kê trận đấu",
+      "subtext": "Bỉ vs Iran",
+      "competitionLabel": "MATCH STATS",
+      "minute": "FT",
+      "score": "0-0",
+      "teams": [
+        {
+          "name": "Bỉ",
+          "code": "BEL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg",
+          "form": []
+        },
+        {
+          "name": "Iran",
+          "code": "IRN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ir-iran.svg",
+          "badgeSrc": "assets/football/flags/ir-iran.svg",
+          "form": []
+        }
+      ],
+      "voiceText": "Tỉ số không không phản ánh màn phòng ngự kiên cường của Iran. Beiranvand cứu thua bảy lần, còn Bỉ kết thúc trận với mười người.",
+      "subtitle": "Tỉ số 0-0 phản ánh màn phòng ngự kiên cường của Iran. Beiranvand cứu thua 7 lần, còn Bỉ kết thúc trận với 10 người.",
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tỉ số",
+              "home": "0",
+              "away": "0"
+            },
+            {
+              "label": "Cứu thua của Beiranvand",
+              "home": "-",
+              "away": "7"
+            },
+            {
+              "label": "Thẻ đỏ",
+              "home": "1",
+              "away": "0"
+            },
+            {
+              "label": "Điểm sau 2 trận",
+              "home": "2",
+              "away": "2"
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-7",
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "title": "Cục diện bảng G",
+      "subtext": "Sau trận đấu",
+      "activeTab": "Bảng G",
+      "tabs": [
+        "Bảng G"
+      ],
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Bỉ",
+        "Iran"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Bỉ",
+            "code": "BEL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/belgium.svg",
+            "badgeSrc": "assets/football/flags/belgium.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalDifference": "0",
+          "points": 2
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Iran",
+            "code": "IRN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ir-iran.svg",
+            "badgeSrc": "assets/football/flags/ir-iran.svg",
+            "form": []
+          },
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "goalDifference": "0",
+          "points": 2
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Ai Cập",
+            "code": "EGY",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/egypt.svg",
+            "badgeSrc": "assets/football/flags/egypt.svg",
+            "form": []
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalDifference": "0",
+          "points": 1
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "New Zealand",
+            "code": "NZL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/new-zealand.svg",
+            "badgeSrc": "assets/football/flags/new-zealand.svg",
+            "form": []
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalDifference": "0",
+          "points": 1
+        }
+      ],
+      "voiceText": "Bỉ và Iran cùng có hai điểm sau hai trận, khiến cục diện bảng G vẫn hoàn toàn rộng mở.",
+      "subtitle": "Bỉ và Iran cùng có 2 điểm sau 2 trận, khiến cục diện bảng G vẫn hoàn toàn rộng mở.",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "id": "scene-8",
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 5,
+      "title": "Bạn nghĩ sao?",
+      "subtext": "Bình luận bên dưới",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Điểm nhấn lớn nhất của trận là gì?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "voiceText": "Theo bạn, Beiranvand hay chiếc thẻ đỏ là bước ngoặt lớn nhất? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Beiranvand hay chiếc thẻ đỏ là bước ngoặt lớn nhất? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 85,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

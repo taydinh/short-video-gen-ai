@@ -1,0 +1,452 @@
+{
+  "title": "Morocco 1-0 Scotland | Kết quả World Cup 2026",
+  "preset": "Preset Football Result",
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "https://www.vietnam.vn/en/morocco-thang-tran-dau-tai-world-cup-2026-nho-ban-thang-som-ky-luc"
+  ],
+  "summary": "Kết quả Morocco 1-0 Scotland. playerImageUrl để trống vì chưa có nguồn ảnh cầu thủ trực tiếp phù hợp.",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "voiceText": "Ma rốc thắng Scotland một không tại Boston. Ismael Saibari ghi bàn chỉ sau bảy mươi hai giây, bàn sớm nhất của World Cup hai không hai sáu tính đến thời điểm này.",
+      "subtitle": "Morocco thắng Scotland 1-0 tại Boston. Ismael Saibari ghi bàn chỉ sau 72 giây, bàn sớm nhất của World Cup 2026 tính đến thời điểm này.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "FULL-TIME",
+      "subtext": "Bảng C • Boston Stadium",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": "1-0",
+      "teams": [
+        {
+          "name": "Morocco",
+          "shortName": "MOR",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg",
+          "form": ""
+        },
+        {
+          "name": "Scotland",
+          "shortName": "SCO",
+          "flagSrc": "assets/football/flags/scotland.svg",
+          "badgeSrc": "assets/football/flags/scotland.svg",
+          "form": ""
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "home": "Morocco",
+          "away": "Scotland",
+          "score": "1-0"
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "voiceText": "Kết quả lượt hai bảng C, World Cup hai không hai sáu.",
+      "subtitle": "Kết quả lượt 2 Bảng C, World Cup 2026.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "MATCH RESULT",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Canada • Mexico • USA",
+      "ctaLabel": "20/06/2026 • UTC+7",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "voiceText": "Ma rốc có Bono, Hakimi, Aguerd, Chadi Riad, Mazraoui, Amrabat, El Aynaoui, El Khannouss, Brahim Diaz, Ounahi và Saibari. Scotland có Angus Gunn, Hickey, Hendry, Tierney, Robertson, Gilmour, McTominay, McGinn, Christie, McLean và Dykes.",
+      "subtitle": "Morocco có Bono, Hakimi, Aguerd, Chadi Riad, Mazraoui, Amrabat, El Aynaoui, El Khannouss, Brahim Díaz, Ounahi và Saibari. Scotland có Angus Gunn, Hickey, Hendry, Tierney, Robertson, Gilmour, McTominay, McGinn, Christie, McLean và Dykes.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Đội hình chính thức",
+      "competitionLabel": "Bảng C",
+      "venue": "Boston Stadium",
+      "teams": [
+        {
+          "name": "Morocco",
+          "shortName": "MOR",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg",
+          "form": ""
+        },
+        {
+          "name": "Scotland",
+          "shortName": "SCO",
+          "flagSrc": "assets/football/flags/scotland.svg",
+          "badgeSrc": "assets/football/flags/scotland.svg",
+          "form": ""
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Morocco",
+          "formation": "4-3-3",
+          "players": [
+            "Bono",
+            "Hakimi",
+            "Aguerd",
+            "Chadi Riad",
+            "Mazraoui",
+            "Amrabat",
+            "El Aynaoui",
+            "El Khannouss",
+            "Brahim Díaz",
+            "Ounahi",
+            "Saibari"
+          ]
+        },
+        {
+          "team": "Scotland",
+          "formation": "4-2-3-1",
+          "players": [
+            "Angus Gunn",
+            "Hickey",
+            "Hendry",
+            "Tierney",
+            "Robertson",
+            "Gilmour",
+            "McTominay",
+            "McGinn",
+            "Christie",
+            "McLean",
+            "Dykes"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "voiceText": "Ismael Saibari ghi bàn ở giây thứ bảy mươi hai, sau đường chọc khe của Brahim Diaz, rồi còn đưa bóng trúng xà trong hiệp hai.",
+      "subtitle": "Ismael Saibari ghi bàn ở giây 72, sau đường chọc khe của Brahim Díaz, rồi còn đưa bóng trúng xà trong hiệp 2.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Cầu thủ nổi bật",
+      "subtext": "Ismael Saibari ghi bàn ở giây 72, sau đường chọc khe của Brahim Díaz, rồi còn đưa bóng trúng xà trong hiệp 2.",
+      "player": "Ismael Saibari",
+      "team": "Morocco",
+      "number": "",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Thời điểm",
+          "value": "72 giây"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "football-ball-motion"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-5",
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "voiceText": "Giây bảy mươi hai, Saibari mở tỉ số. Phút mười tám, Hakimi buộc Angus Gunn cứu thua. Hiệp hai, Saibari sút trúng xà, còn Scotland không có cú sút trúng đích.",
+      "subtitle": "Giây 72, Saibari mở tỉ số. Phút 18, Hakimi buộc Angus Gunn cứu thua. Hiệp 2, Saibari sút trúng xà, còn Scotland không có cú sút trúng đích.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Diễn biến chính",
+      "subtext": "Morocco 1-0 Scotland",
+      "competitionLabel": "Bảng C",
+      "events": [
+        {
+          "minute": "2'",
+          "team": "Morocco",
+          "type": "goal",
+          "text": "Saibari ghi bàn ở giây 72"
+        },
+        {
+          "minute": "18'",
+          "team": "Morocco",
+          "type": "chance",
+          "text": "Hakimi buộc Gunn cứu thua"
+        },
+        {
+          "minute": "2H",
+          "team": "Morocco",
+          "type": "chance",
+          "text": "Saibari sút trúng xà"
+        },
+        {
+          "minute": "FT",
+          "team": "Morocco",
+          "type": "full-time",
+          "text": "Morocco thắng 1-0"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "football-scorebug",
+          "home": "Morocco",
+          "away": "Scotland",
+          "score": "1-0"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-6",
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "voiceText": "Ma rốc ghi một bàn và giữ sạch lưới. Scotland không có cú sút trúng đích nào trong chín mươi phút.",
+      "subtitle": "Morocco ghi 1 bàn và giữ sạch lưới. Scotland không có cú sút trúng đích nào trong 90 phút.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Thông số nổi bật",
+      "subtext": "Số liệu được nguồn trận đấu xác nhận",
+      "competitionLabel": "Bảng C",
+      "minute": "FT",
+      "score": "1-0",
+      "teams": [
+        {
+          "name": "Morocco",
+          "shortName": "MOR",
+          "flagSrc": "assets/football/flags/morocco.svg",
+          "badgeSrc": "assets/football/flags/morocco.svg",
+          "form": ""
+        },
+        {
+          "name": "Scotland",
+          "shortName": "SCO",
+          "flagSrc": "assets/football/flags/scotland.svg",
+          "badgeSrc": "assets/football/flags/scotland.svg",
+          "form": ""
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Bàn thắng",
+              "home": 1,
+              "away": 0
+            },
+            {
+              "label": "Sút trúng đích của Scotland",
+              "home": "-",
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-7",
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "voiceText": "Ma rốc có bốn điểm sau hai trận và tạm dẫn đầu bảng C. Scotland có ba điểm, nhưng còn phải gặp Brazil ở lượt cuối.",
+      "subtitle": "Morocco có 4 điểm sau 2 trận và tạm dẫn đầu bảng C. Scotland có 3 điểm, nhưng còn phải gặp Brazil ở lượt cuối.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Bảng C",
+      "subtext": "Cục diện sau trận",
+      "activeTab": "Bảng C",
+      "tabs": [
+        "Bảng C"
+      ],
+      "standingsVariant": "group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Morocco",
+        "Scotland"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": "Morocco",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1,
+          "points": 4,
+          "flagSrc": "assets/football/flags/morocco.svg"
+        },
+        {
+          "position": 2,
+          "team": "Scotland",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 3,
+          "flagSrc": "assets/football/flags/scotland.svg"
+        },
+        {
+          "position": 3,
+          "team": "Brazil",
+          "played": 1,
+          "won": 0,
+          "drawn": 1,
+          "lost": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0,
+          "points": 1,
+          "flagSrc": ""
+        },
+        {
+          "position": 4,
+          "team": "Haiti",
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "goalDifference": -1,
+          "points": 0,
+          "flagSrc": ""
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-8",
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 6,
+      "voiceText": "Bàn thắng sớm của Saibari có phải khoảnh khắc hay nhất trận? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bàn thắng sớm của Saibari có phải khoảnh khắc hay nhất trận? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Theo dõi Méo bình luận",
+      "subtext": "Bàn thắng sớm của Saibari có phải khoảnh khắc hay nhất trận?",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Bàn thắng sớm của Saibari có phải khoảnh khắc hay nhất trận?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    }
+  ]
+}

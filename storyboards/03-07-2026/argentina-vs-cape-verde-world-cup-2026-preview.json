@@ -1,0 +1,476 @@
+{
+  "title": "Argentina vs Cape Verde: Messi gặp câu chuyện cổ tích khó chịu",
+  "slug": "argentina-vs-cape-verde-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Argentina vs Cape Verde tại vòng 32 đội World Cup 2026, diễn ra lúc 05:00 ngày 04/07/2026 theo giờ Việt Nam tại Miami Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Argentina v Cabo Verde match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521"
+    },
+    {
+      "title": "RotoWire - Argentina vs Cape Verde preview, predicted lineups and team news",
+      "url": "https://www.rotowire.com/soccer/article/argentina-vs-cape-verde-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120686"
+    },
+    {
+      "title": "Racing Post - Argentina vs Cape Verde odds and predicted lineups",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/argentina-vs-cape-verde-betting-tips-predictions-team-news-odds-bet-builder-aurGJ5y7Avbh/"
+    },
+    {
+      "title": "Inter Miami CF - Messi and De Paul's Argentina face Cape Verde",
+      "url": "https://www.intermiamicf.com/news/match-preview-messi-and-de-paul-s-argentina-faces-cape-verde-in-the-round-of-32-at-the-fifa-world-cup-2026tm"
+    },
+    {
+      "title": "FotMob - Argentina/Cape Verde vs Australia/Egypt round of 16",
+      "url": "https://www.fotmob.com/matches/argentinacape-verde-vs-australiaegypt/2zz8peg2u"
+    },
+    {
+      "title": "The Guardian - Australia/Egypt winner faces Argentina or Cape Verde",
+      "url": "https://www.theguardian.com/football/2026/jul/03/egypt-mo-salah-fit-to-play-australia-socceroos-after-injury"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ARGENTINA VS CAPE VERDE",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Năm giờ sáng, ngày mùng bốn tháng bảy theo giờ Việt Nam, Argentina gặp Cape Verde tại Miami Stadium. Một bên là nhà đương kim vô địch với Messi vẫn biết cách làm đối thủ mất ngủ, một bên là đội bóng nhỏ nhất từng vào knock out World Cup, nên nghe thì lệch kèo, nhưng bóng đá mà, càng lệch càng dễ sinh chuyện để dân mạng thức dậy bàn luận.",
+      "subtitle": "05:00 ngày 04/07 theo giờ Việt Nam, Argentina gặp Cape Verde tại Miami Stadium. Một bên là nhà đương kim vô địch với Messi vẫn biết cách làm đối thủ mất ngủ, một bên là đội bóng nhỏ nhất từng vào knock-out World Cup, nên nghe thì lệch kèo, nhưng bóng đá mà, càng lệch càng dễ sinh chuyện để dân mạng thức dậy bàn luận.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Miami Stadium",
+      "date": "04/07/2026",
+      "time": "05:00 VN",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "teamType": "national",
+          "form": ["W", "W", "W"],
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg"
+        },
+        {
+          "name": "Cape Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "form": ["D", "D", "D"],
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Đương kim vô địch gặp hiện tượng",
+      "voiceText": "Argentina đi tiếp với ngôi đầu bảng, còn Cape Verde tạo lịch sử ngay trong lần đầu dự World Cup. Một trận mà ai cũng nhìn vào Messi, nhưng Cape Verde chắc chắn không đến Miami để xin chữ ký rồi về.",
+      "subtitle": "Argentina đi tiếp với ngôi đầu bảng, còn Cape Verde tạo lịch sử ngay trong lần đầu dự World Cup. Một trận mà ai cũng nhìn vào Messi, nhưng Cape Verde chắc chắn không đến Miami để xin chữ ký rồi về.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Argentina vs Cape Verde | 04/07/2026 VN",
+      "ctaLabel": "Kickoff 05:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Messi - Lautaro đấu khối 4-5-1",
+      "voiceText": "Argentina dự kiến đá bốn bốn hai, với Emiliano Martinez trong khung gỗ, Molina, Romero, Lisandro Martinez và Facundo Medina ở hàng thủ. De Paul, Enzo Fernandez, Alexis Mac Allister và Thiago Almada giữ tuyến giữa, còn Lautaro Martinez đá cặp Messi phía trên. Cape Verde có thể dùng bốn năm một rất thấp, Vozinha bắt chính, Moreira, Pico, Diney và Sidny Cabral bảo vệ hàng thủ, Ryan Mendes, Deroy Duarte, Kevin Pina, Jamiro Monteiro và Willy Semedo ép kín trung tuyến, để Livramento chờ phản công.",
+      "subtitle": "Argentina dự kiến đá 4-4-2, với Emiliano Martínez trong khung gỗ, Molina, Romero, Lisandro Martínez và Facundo Medina ở hàng thủ. De Paul, Enzo Fernández, Alexis Mac Allister và Thiago Almada giữ tuyến giữa, còn Lautaro Martínez đá cặp Messi phía trên. Cape Verde có thể dùng 4-5-1 rất thấp, Vozinha bắt chính, Moreira, Pico, Diney và Sidny Cabral bảo vệ hàng thủ, Ryan Mendes, Deroy Duarte, Kevin Pina, Jamiro Monteiro và Willy Semedo ép kín trung tuyến, để Livramento chờ phản công.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Miami Stadium",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg"
+        },
+        {
+          "name": "Cape Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-4-2",
+          "players": [
+            "Emiliano Martinez",
+            "Nahuel Molina",
+            "Cristian Romero",
+            "Lisandro Martinez",
+            "Facundo Medina",
+            "Rodrigo De Paul",
+            "Enzo Fernandez",
+            "Alexis Mac Allister",
+            "Thiago Almada",
+            "Lautaro Martinez",
+            "Lionel Messi"
+          ]
+        },
+        "away": {
+          "formation": "4-5-1",
+          "players": [
+            "Vozinha",
+            "Steven Moreira",
+            "Pico",
+            "Diney",
+            "Sidny Cabral",
+            "Ryan Mendes",
+            "Deroy Duarte",
+            "Kevin Pina",
+            "Jamiro Monteiro",
+            "Willy Semedo",
+            "Dailon Livramento"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Argentina rất sáng, Cape Verde cực lì",
+      "voiceText": "Hai đội chưa có lịch sử đối đầu đáng kể ở World Cup, nên dữ kiện hay nhất nằm ở phong độ hiện tại. Argentina thắng cả ba trận vòng bảng, còn Cape Verde đi tiếp bằng sự kỷ luật và khả năng kéo trận đấu vào nhịp rất chậm. Kèo một x hai nghiêng cực mạnh về Argentina, nhưng đây là kiểu trận mà đội cửa trên phải ghi sớm, nếu không thì mỗi phút trôi qua lại như có ai vặn thêm một nấc áp lực.",
+      "subtitle": "Hai đội chưa có lịch sử đối đầu đáng kể ở World Cup, nên dữ kiện hay nhất nằm ở phong độ hiện tại. Argentina thắng cả 3 trận vòng bảng, còn Cape Verde đi tiếp bằng sự kỷ luật và khả năng kéo trận đấu vào nhịp rất chậm. Kèo 1x2 nghiêng cực mạnh về Argentina, nhưng đây là kiểu trận mà đội cửa trên phải ghi sớm, nếu không thì mỗi phút trôi qua lại như có ai vặn thêm một nấc áp lực.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/argentina.svg",
+          "badgeSrc": "assets/football/flags/argentina.svg"
+        },
+        {
+          "name": "Cape Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Argentina", "Cape Verde", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Cửa trên rất sâu",
+            "x12": "Siêu cửa dưới",
+            "hdp": "Argentina khoảng 1/6 kèo 90 phút"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Cầm bóng, ép sân",
+            "x12": "Block thấp, phản công",
+            "hdp": "Cape Verde cần kéo lâu càng tốt"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "Messi, Lautaro, De Paul",
+            "x12": "Vozinha, Kevin Pina, Livramento",
+            "hdp": "Bàn mở tỉ số quyết định độ khó của kèo"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "16/06/2026",
+          "competition": "World Cup Group J",
+          "home": "Argentina",
+          "away": "Algeria",
+          "score": "3-0",
+          "note": "Argentina mở màn mạnh mẽ",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/algeria.svg"
+        },
+        {
+          "kickoff": "22/06/2026",
+          "competition": "World Cup Group J",
+          "home": "Argentina",
+          "away": "Austria",
+          "score": "2-0",
+          "note": "Argentina giữ sạch lưới",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/austria.svg"
+        },
+        {
+          "kickoff": "04/07/2026",
+          "competition": "World Cup Round of 32",
+          "home": "Argentina",
+          "away": "Cape Verde",
+          "score": "05:00 VN",
+          "note": "Lần đầu gặp nhau tại World Cup",
+          "homeBadgeSrc": "assets/football/flags/argentina.svg",
+          "awayBadgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 68,
+              "away": 32
+            },
+            {
+              "label": "Áp lực cửa trên",
+              "home": 82,
+              "away": 58
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Kèo & nhận định",
+      "subtext": "Argentina chấp sâu, nhưng đừng xem nhẹ nhịp trận",
+      "quote": "Argentina mạnh hơn gần như mọi lớp đội hình, nhưng Cape Verde có thứ rất khó chịu: họ không vội, không ngại chịu trận, và càng giữ được tỉ số lâu thì trận đấu càng có mùi hồi hộp.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Về tỷ lệ kèo, Argentina là cửa trên rất nặng, kèo thắng trong chín mươi phút quanh mức một ăn sáu, còn Cape Verde bị đẩy lên vùng hai chữ số. Nhưng kèo sâu thì không có nghĩa là cứ nhắm mắt chọn cách biệt lớn, vì Cape Verde đá thấp và thủ đông khá bền. Nhận định của tôi là Argentina vẫn có vé đi tiếp, tỉ số hợp lý là hai không hoặc ba không, còn ai thích cửa bất ngờ thì có thể chờ Cape Verde cầm cự hiệp một, nghe vậy cho vui thôi, đừng biến bình luận bóng đá thành họp ngân sách gia đình.",
+      "subtitle": "Về tỷ lệ kèo, Argentina là cửa trên rất nặng, kèo thắng trong 90 phút quanh mức 1/6, còn Cape Verde bị đẩy lên vùng hai chữ số. Nhưng kèo sâu thì không có nghĩa là cứ nhắm mắt chọn cách biệt lớn, vì Cape Verde đá thấp và thủ đông khá bền. Nhận định của tôi là Argentina vẫn có vé đi tiếp, tỉ số hợp lý là 2-0 hoặc 3-0, còn ai thích cửa bất ngờ thì có thể chờ Cape Verde cầm cự hiệp một, nghe vậy cho vui thôi, đừng biến bình luận bóng đá thành họp ngân sách gia đình.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng gặp Úc hoặc Ai Cập",
+      "voiceText": "Ở nhánh còn lại của cặp này, Úc gặp Ai Cập lúc một giờ sáng, ngày mùng bốn tháng bảy theo giờ Việt Nam tại Dallas Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Argentina gặp Cape Verde, vòng mười sáu đội, lúc hai mươi ba giờ, ngày mùng bảy tháng bảy theo giờ Việt Nam tại Atlanta Stadium. Nếu mọi thứ đi đúng dự đoán, Atlanta có thể được xem Messi chạm Salah, còn nếu không, chúng ta sẽ có một cú bẻ lái rất hợp chất World Cup.",
+      "subtitle": "Ở nhánh còn lại của cặp này, Úc gặp Ai Cập lúc 01:00 ngày 04/07 theo giờ Việt Nam tại Dallas Stadium. Đội thắng trận đó sẽ gặp đội thắng cặp Argentina vs Cape Verde, vòng 16 đội, lúc 23:00 ngày 07/07 theo giờ Việt Nam tại Atlanta Stadium. Nếu mọi thứ đi đúng dự đoán, Atlanta có thể được xem Messi chạm Salah, còn nếu không, chúng ta sẽ có một cú bẻ lái rất hợp chất World Cup.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Australia",
+          "away": "Egypt",
+          "score": "01:00 04/07 VN",
+          "note": "Dallas Stadium | Match 88",
+          "homeBadgeSrc": "assets/football/flags/australia.svg",
+          "awayBadgeSrc": "assets/football/flags/egypt.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Winner Argentina/Cape Verde",
+          "away": "Winner Australia/Egypt",
+          "score": "23:00 07/07 VN",
+          "note": "Atlanta Stadium | Match 95",
+          "homeBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Messi dọn bàn hay Cape Verde kéo drama?",
+      "voiceText": "Theo bạn, Argentina sẽ giải quyết gọn trong chín mươi phút, hay Cape Verde kéo trận này đến mức cả thế giới phải mở thêm cà phê? Bình luận tỉ số và nhận định kèo vừa vui vừa tỉnh táo nha, bóng đá để giải trí, không phải để tranh chức bộ trưởng tài chính. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Argentina sẽ giải quyết gọn trong 90 phút, hay Cape Verde kéo trận này đến mức cả thế giới phải mở thêm cà phê? Bình luận tỉ số và nhận định kèo vừa vui vừa tỉnh táo nha, bóng đá để giải trí, không phải để tranh chức bộ trưởng tài chính. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Argentina vs Cape Verde",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Argentina",
+          "Cape Verde",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

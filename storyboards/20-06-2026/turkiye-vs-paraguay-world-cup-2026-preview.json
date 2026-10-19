@@ -1,0 +1,423 @@
+{
+  "title": "Thổ Nhĩ Kỳ vs Paraguay | Preview World Cup 2026",
+  "slug": "turkiye-vs-paraguay-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "sources": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+    "https://furamavietnam.com/the-full-schedule-of-all-104-matches-in-the-2026-world-cup-updated-in-vietnam-time-latest-update/"
+  ],
+  "summary": "Preview Thổ Nhĩ Kỳ vs Paraguay, 10:00 20/06/2026 (UTC+7). Không dùng ảnh bài viết/cầu thủ.",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "type": "intro",
+      "composition": "football-match-card",
+      "duration": 6,
+      "startTime": 0,
+      "voiceText": "Thổ Nhĩ Kỳ gặp Pa Ra Quay, lúc mười giờ sáng, ngày hai mươi tháng sáu theo giờ Việt Nam. Cả hai cùng cần điểm sau thất bại ngày ra quân.",
+      "subtitle": "Thổ Nhĩ Kỳ gặp Paraguay, lúc 10:00, ngày 20/06/2026 theo giờ Việt Nam. Cả hai cùng cần điểm sau thất bại ngày ra quân.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Thổ Nhĩ Kỳ vs Paraguay",
+      "subtext": "Bảng D • Santa Clara",
+      "teams": [
+        {
+          "name": "Thổ Nhĩ Kỳ",
+          "shortName": "TÜR",
+          "flagSrc": "assets/football/flags/turkiye.svg",
+          "badgeSrc": "assets/football/flags/turkiye.svg",
+          "form": "L"
+        },
+        {
+          "name": "Paraguay",
+          "shortName": "PAR",
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "badgeSrc": "assets/football/flags/paraguay.svg",
+          "form": "L"
+        }
+      ],
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng D",
+      "venue": "Santa Clara",
+      "date": "20/06/2026",
+      "time": "10:00",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "startTime": 6,
+      "voiceText": "World Cup hai không hai sáu, lượt hai bảng Đê, cuộc đua giành vé đi tiếp đang nóng lên.",
+      "subtitle": "World Cup 2026, lượt 2 Bảng D, cuộc đua giành vé đi tiếp đang nóng lên.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "WORLD CUP 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Bảng D Preview",
+      "seasonLabel": "Canada • Mexico • USA",
+      "ctaLabel": "10:00 • 20/06/2026 • UTC+7",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion"
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "startTime": 9,
+      "voiceText": "Thổ Nhĩ Kỳ có thể dựa vào Altay Bayındır, Merih Demiral, Hakan Çalhanoğlu, Arda Güler, Kenan Yıldız. Pa Ra Quay kỳ vọng ở Roberto Fernández, Gustavo Gómez, Miguel Almirón, Julio Enciso, Antonio Sanabria.",
+      "subtitle": "Thổ Nhĩ Kỳ có thể dựa vào Altay Bayındır, Merih Demiral, Hakan Çalhanoğlu, Arda Güler, Kenan Yıldız. Paraguay kỳ vọng ở Roberto Fernández, Gustavo Gómez, Miguel Almirón, Julio Enciso, Antonio Sanabria.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Đội hình dự kiến",
+      "competitionLabel": "Bảng D",
+      "venue": "Santa Clara",
+      "teams": [
+        {
+          "name": "Thổ Nhĩ Kỳ",
+          "shortName": "TÜR",
+          "flagSrc": "assets/football/flags/turkiye.svg",
+          "badgeSrc": "assets/football/flags/turkiye.svg",
+          "form": ""
+        },
+        {
+          "name": "Paraguay",
+          "shortName": "PAR",
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "badgeSrc": "assets/football/flags/paraguay.svg",
+          "form": ""
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Thổ Nhĩ Kỳ",
+          "formation": "4-3-3",
+          "players": [
+            "Altay Bayındır",
+            "Zeki Çelik",
+            "Samet Akaydın",
+            "Merih Demiral",
+            "Ferdi Kadıoğlu",
+            "Orkun Kökçü",
+            "Hakan Çalhanoğlu",
+            "Arda Güler",
+            "İrfan Can Kahveci",
+            "Barış Alper Yılmaz",
+            "Kenan Yıldız"
+          ]
+        },
+        {
+          "team": "Paraguay",
+          "formation": "4-3-3",
+          "players": [
+            "Roberto Fernández",
+            "Juan José Cáceres",
+            "Gustavo Gómez",
+            "Omar Alderete",
+            "Junior Alonso",
+            "Andrés Cubas",
+            "Damián Bobadilla",
+            "Miguel Almirón",
+            "Julio Enciso",
+            "Ramón Sosa",
+            "Antonio Sanabria"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "duration": 8,
+      "startTime": 17,
+      "voiceText": "Thổ Nhĩ Kỳ thua Australia không hai, còn Pa Ra Quay thua Mỹ một bốn. Trận này có thể quyết định đội nào còn quyền tự quyết.",
+      "subtitle": "Thổ Nhĩ Kỳ thua Australia 0-2, còn Paraguay thua Mỹ 1-4. Trận này có thể quyết định đội nào còn quyền tự quyết.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Kết quả gần nhất",
+      "subtext": "Hai đội chưa có lịch sử đối đầu",
+      "teams": [
+        {
+          "name": "Thổ Nhĩ Kỳ",
+          "shortName": "TÜR",
+          "flagSrc": "assets/football/flags/turkiye.svg",
+          "badgeSrc": "assets/football/flags/turkiye.svg",
+          "form": ""
+        },
+        {
+          "name": "Paraguay",
+          "shortName": "PAR",
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "badgeSrc": "assets/football/flags/paraguay.svg",
+          "form": ""
+        }
+      ],
+      "oddsTable": [
+        {
+          "label": "Lượt 1",
+          "home": "Thua Australia 0-2",
+          "away": "Thua Mỹ 1-4"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "Lượt 1 World Cup 2026",
+          "home": "Australia",
+          "away": "Thổ Nhĩ Kỳ",
+          "score": "2-0",
+          "note": "Thổ Nhĩ Kỳ trắng tay trong trận ra quân",
+          "homeBadgeSrc": "assets/football/flags/australia.svg",
+          "awayBadgeSrc": "assets/football/flags/turkiye.svg"
+        },
+        {
+          "date": "Lượt 1 World Cup 2026",
+          "home": "Mỹ",
+          "away": "Paraguay",
+          "score": "4-1",
+          "note": "Paraguay để thủng lưới bốn bàn ở lượt đầu",
+          "homeBadgeSrc": "assets/football/flags/united-states.svg",
+          "awayBadgeSrc": "assets/football/flags/paraguay.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Điểm",
+              "home": 0,
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-5",
+      "type": "content",
+      "composition": "quote-attrib",
+      "duration": 6,
+      "startTime": 25,
+      "voiceText": "Điểm nóng là cuộc đấu sáng tạo giữa Arda Güler và Miguel Almirón, trong thế cả hai đội đều cần thắng.",
+      "subtitle": "Điểm nóng là cuộc đấu sáng tạo giữa Arda Güler và Miguel Almirón, trong thế cả hai đội đều cần thắng.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "Điểm nóng là cuộc đấu sáng tạo giữa Arda Güler và Miguel Almirón, trong thế cả hai đội đều cần thắng.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "quoteImageAlt": "",
+      "liveLabel": "ĐIỂM NÓNG",
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-6",
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 6,
+      "startTime": 31,
+      "voiceText": "Mỹ và Australia đang có ba điểm, còn Thổ Nhĩ Kỳ cùng Pa Ra Quay chưa có điểm.",
+      "subtitle": "Mỹ và Australia đang có 3 điểm, còn Thổ Nhĩ Kỳ cùng Paraguay chưa có điểm.",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Bảng D",
+      "subtext": "Sau lượt 1",
+      "activeTab": "Bảng D",
+      "tabs": [
+        "Bảng D"
+      ],
+      "standingsVariant": "group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "Thổ Nhĩ Kỳ",
+        "Paraguay"
+      ],
+      "standings": [
+        {
+          "position": 1,
+          "team": {
+            "name": "Mỹ",
+            "code": "USA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/united-states.svg"
+          },
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 4,
+          "goalsAgainst": 1,
+          "goalDifference": 3,
+          "points": 3
+        },
+        {
+          "position": 2,
+          "team": {
+            "name": "Australia",
+            "code": "AUS",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/australia.svg"
+          },
+          "played": 1,
+          "won": 1,
+          "drawn": 0,
+          "lost": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "goalDifference": 2,
+          "points": 3
+        },
+        {
+          "position": 3,
+          "team": {
+            "name": "Thổ Nhĩ Kỳ",
+            "code": "TUR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/turkiye.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2,
+          "points": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "name": "Paraguay",
+            "code": "PAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/paraguay.svg"
+          },
+          "played": 1,
+          "won": 0,
+          "drawn": 0,
+          "lost": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "goalDifference": -3,
+          "points": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines"
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    },
+    {
+      "id": "scene-7",
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 6,
+      "startTime": 37,
+      "voiceText": "Bạn dự đoán tỉ số Thổ Nhĩ Kỳ gặp Pa Ra Quay là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán tỉ số Thổ Nhĩ Kỳ gặp Paraguay là bao nhiêu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "title": "Theo dõi Méo bình luận",
+      "subtext": "Dự đoán tỉ số Thổ Nhĩ Kỳ - Paraguay",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Thổ Nhĩ Kỳ - Paraguay",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px"
+        }
+      ]
+    }
+  ]
+}

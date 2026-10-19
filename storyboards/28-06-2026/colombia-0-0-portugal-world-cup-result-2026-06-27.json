@@ -1,0 +1,449 @@
+{
+  "title": "Colombia 0-0 Bồ Đào Nha: Trận hòa ngạt thở vì ngôi đầu",
+  "slug": "colombia-0-0-portugal-world-cup-result-2026-06-27",
+  "totalDuration": 58,
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ĐẠI CHIẾN NGHẸT THỞ VÌ NGÔI ĐẦU!",
+      "subtext": "Colombia 0-0 Bồ Đào Nha",
+      "subtitle": "Đại chiến nảy lửa tại Bảng K World Cup 2026 giữa Colombia và Bồ Đào Nha đã khép lại với tỷ số hòa 0-0 đầy kịch tính. Một kết quả vừa đủ để cả hai dắt tay nhau bước tiếp vào vòng knock-out.",
+      "voiceText": "Đại chiến nảy lửa tại bảng Ka World Cup hai không hai sáu, giữa Cô lôm bi a và Bồ Đào Nha, đã khép lại với tỷ số hòa không đều đầy kịch tính. Một kết quả vừa đủ để cả hai dắt tay nhau bước tiếp vào vòng nốc ao.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group Stage | Group K",
+      "venue": "Hard Rock Stadium",
+      "date": "28.06.2026",
+      "time": "06:30",
+      "teams": [
+        {
+          "name": "Colombia",
+          "code": "COL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/colombia.svg",
+          "form": ["W", "W", "D"]
+        },
+        {
+          "name": "Bồ Đào Nha",
+          "code": "POR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/portugal.svg",
+          "form": ["D", "W", "D"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7656270353571892501.mp4",
+          "trim": {
+            "start": 41,
+            "end": 47
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "Group Stage | Group K",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Colombia 0-0 Portugal | 28.06.2026",
+      "ctaLabel": "Full-time",
+      "subtitle": "Dù không có bàn thắng nào được ghi tại Miami, cuộc đối đầu phân định ngôi đầu bảng vẫn cống hiến cho khán giả những giây phút nghẹt thở.",
+      "voiceText": "Dù không có bàn thắng nào được ghi tại mai a mi, cuộc đối đầu phân định ngôi đầu bảng vẫn cống hiến cho khán giả những giây phút nghẹt thở.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Colombia 0-0 Bồ Đào Nha",
+      "subtext": "Trận hòa kịch tính và đầy tiếc nuối",
+      "subtitle": "Colombia 0-0 Bồ Đào Nha. Trận đấu khép lại với sự tiếc nuối của cả hai đội khi hàng loạt cơ hội ngon ăn bị bỏ lỡ, cùng màn trình diễn xuất thần của hai người gác đền.",
+      "voiceText": "Cô lôm bi a không, Bồ Đào Nha không. Trận đấu khép lại với sự tiếc nuối của cả hai đội, khi hàng loạt cơ hội ngon ăn bị bỏ lỡ, cùng màn trình diễn xuất thần của hai người gác đền.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [0, 0],
+      "teams": [
+        { "name": "Colombia", "code": "COL", "teamType": "national", "flagSrc": "assets/football/flags/colombia.svg" },
+        { "name": "Bồ Đào Nha", "code": "POR", "teamType": "national", "flagSrc": "assets/football/flags/portugal.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7656270353571892501.mp4",
+          "trim": {
+            "start": 115,
+            "end": 123
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Đôi công hấp dẫn",
+          "videoDescription": "Thủ môn hai bên thi đấu xuất sắc",
+          "videoVolume": 0
+        },
+        { "type": "football-scorebug", "teams": ["COL", "POR"], "score": [0, 0], "minute": "FT", "label": "Miami" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "Colombia ra sân với sơ đồ 4-2-3-1, James Rodríguez sắm vai nhạc trưởng phía sau Jhon Córdoba. Bên kia chiến tuyến, Bồ Đào Nha vận hành sơ đồ 4-3-3 với mũi nhọn Cristiano Ronaldo.",
+      "voiceText": "Cô lôm bi a xuất phát với sơ đồ bốn hai ba một, lão tướng Ham mét Rô đi ghét sắm vai nhạc trưởng phía sau Giôn Cót đô ba. Bên kia chiến tuyến, Bồ Đào Nha vận hành sơ đồ bốn ba ba, với mũi nhọn Crít ti a nô Rô nal đô.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "LINEUPS",
+      "venue": "Hard Rock Stadium",
+      "teams": [
+        { "name": "Colombia", "code": "COL", "teamType": "national", "flagSrc": "assets/football/flags/colombia.svg" },
+        { "name": "Bồ Đào Nha", "code": "POR", "teamType": "national", "flagSrc": "assets/football/flags/portugal.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Camilo Vargas",
+            "Santiago Arias",
+            "Davinson Sánchez",
+            "Jhon Lucumí",
+            "Deiver Machado",
+            "Jhon Arias",
+            "Jefferson Lerma",
+            "Gustavo Puerta",
+            "James Rodríguez",
+            "Luis Díaz",
+            "Jhon Córdoba"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Diogo Costa",
+            "João Cancelo",
+            "Rúben Dias",
+            "Renato Veiga",
+            "Nuno Mendes",
+            "Rúben Neves",
+            "Vitinha",
+            "Bruno Fernandes",
+            "Pedro Neto",
+            "João Félix",
+            "Cristiano Ronaldo"
+          ]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7656270353571892501.mp4",
+          "trim": {
+            "start": 155,
+            "end": 162
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Nhạc trưởng tài hoa",
+          "videoDescription": "James Rodríguez điều phối thế trận",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Diogo Costa rực sáng",
+      "subtext": "Cứu thua xuất thần giữ sạch lưới",
+      "subtitle": "Người hùng của trận đấu gọi tên Diogo Costa. Thủ thành tuyển Bồ Đào Nha thi đấu cực kỳ tập trung với 6 pha cứu thua xuất sắc, làm nản lòng hoàn toàn các chân sút Colombia.",
+      "voiceText": "Người hùng của trận đấu hôm nay gọi tên Đi ô gô Cốt ta. Thủ thành tuyển Bồ Đào Nha thi đấu cực kỳ tập trung với sáu pha cứu thua xuất sắc, làm nản lòng hoàn toàn các chân sút Cô lôm bi a.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Diogo Costa",
+      "team": "Bồ Đào Nha",
+      "number": "1",
+      "playerImageUrl": "https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.99422-6/731702814_875081208481569_8948682080921085426_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8ihR9_krwdkQ7kNvwGZfGDT&_nc_oc=AdozFvUg0U8UREEEfYzpS7WBDAjGsozo6QzxJYEOLEkIILFK2iLga5OrqIX3oexUbF8&_nc_zt=14&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=ozIgWRVneYmKYQdsDB11Ig&_nc_ss=7b2a8&oh=00_Af_0HPOB9HJe_0B9q5nOz_X4oz9EZXkOinH8-m9wHFRJvQ&oe=6A46974B",
+      "stats": [
+        { "label": "Cứu thua", "value": "6" },
+        { "label": "Cản trong vòng cấm", "value": "4" },
+        { "label": "Giữ sạch lưới", "value": "1" },
+        { "label": "Chuyền chính xác", "value": "82%" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7656270353571892501.mp4",
+          "trim": {
+            "start": 29,
+            "end": 37
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Diogo Costa cứu thua",
+          "videoDescription": "Phản xạ xuất thần cứu thua cho Bồ Đào Nha",
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Diễn biến trận đấu",
+      "subtext": "Từ penalty hụt đến VAR từ chối bàn thắng",
+      "subtitle": "Trận đấu không thiếu điểm nhấn: Ronaldo sút tung lưới ở phút 43 nhưng bị bắt việt vị. Bruno Fernandes đệm bóng hụt ở phút 84. Phút 90+2, Davinson Sánchez đánh đầu ghi bàn nhưng VAR từ chối vì lỗi việt vị.",
+      "voiceText": "Trận đấu không hề thiếu điểm nhấn. Rô nal đô sút tung lưới ở phút bốn mươi ba nhưng bị thổi việt vị. Bru nô Phéc nan đét đệm bóng hụt khó tin ở phút tám mươi tư. Đến phút chín mươi hai, Đa vin sơn San chét đánh đầu tung lưới Bồ Đào Nha, nhưng va đã từ chối bàn thắng vì lỗi việt vị cực kỳ nhạy cảm.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Events",
+      "events": [
+        { "minute": "17'", "title": "Phạt góc nguy hiểm", "desc": "Colombia dàn xếp phạt góc tinh quái gây sóng gió lớn." },
+        { "minute": "43'", "title": "Ronaldo việt vị", "desc": "Ronaldo đưa bóng vào lưới nhưng trọng tài căng cờ việt vị." },
+        { "minute": "84'", "title": "Bruno bỏ lỡ", "desc": "Bruno Fernandes đệm bóng hụt cận thành cực kỳ đáng tiếc." },
+        { "minute": "90+2'", "title": "VAR hủy bàn thắng", "desc": "Sánchez đánh đầu tung lưới nhưng VAR từ chối vì lỗi việt vị." }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7656270353571892501.mp4",
+          "trim": {
+            "start": 210,
+            "end": 220
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Bàn thắng không được công nhận",
+          "videoDescription": "Sánchez đánh đầu tung lưới Bồ Đào Nha",
+          "videoVolume": 0
+        },
+        { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Colombia áp đảo thông số",
+      "subtext": "24 cú sút, 6 lần trúng đích, 55% kiểm soát bóng",
+      "subtitle": "Colombia nhỉnh hơn về các chỉ số khi tung ra tới 24 cú sút (6 trúng đích) và kiểm soát 55% bóng. Bồ Đào Nha chơi rình rập, sở hữu 13 cú sút và chỉ 2 lần đi trúng mục tiêu.",
+      "voiceText": "Cô lôm bi a nhỉnh hơn về các chỉ số khi tung ra tới hai mươi tư cú sút, sáu lần trúng đích và kiểm soát năm mươi lăm phần trăm bóng. Bồ Đào Nha chơi rình rập, sở hữu mười ba cú sút và chỉ hai lần đi trúng mục tiêu.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [0, 0],
+      "teams": [
+        { "name": "Colombia", "code": "COL", "teamType": "national", "flagSrc": "assets/football/flags/colombia.svg" },
+        { "name": "Bồ Đào Nha", "code": "POR", "teamType": "national", "flagSrc": "assets/football/flags/portugal.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 55, "away": 45, "unit": "%" },
+            { "label": "Tổng cú sút", "home": 24, "away": 13 },
+            { "label": "Sút trúng đích", "home": 6, "away": 2 },
+            { "label": "Phạt góc", "home": 7, "away": 4 },
+            { "label": "Cứu thua", "home": 2, "away": 6 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện Bảng K",
+      "subtext": "Colombia gặp Ghana, Bồ Đào Nha đối đầu Croatia",
+      "subtitle": "Với trận hòa này, Colombia vững vàng ở ngôi đầu Bảng K với 7 điểm và sẽ gặp Ghana ở vòng 32 đội. Bồ Đào Nha xếp thứ hai với 5 điểm, chạm trán đối thủ nhiều duyên nợ Croatia. DR Congo cũng giành vé đi tiếp, còn Uzbekistan bị loại.",
+      "voiceText": "Với trận hòa này, Cô lôm bi a vững vàng ở ngôi đầu bảng Ka với bảy điểm, và sẽ gặp Ga na ở vòng ba mươi hai đội. Bồ Đào Nha xếp thứ hai với năm điểm, chạm trán đối thủ nhiều duyên nợ Cờ rốt ti a. Cộng hòa Công gô cũng giành vé đi tiếp, còn U bê kits tan chính thức bị loại.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG K",
+      "tabs": ["TRẬN ĐẤU", "SƠ ĐỒ THI ĐẤU", "CẦU THỦ", "BẢNG K"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["COL", "POR", "COD"],
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Colombia",
+          "away": "Ghana",
+          "score": "Sắp diễn ra",
+          "note": "Colombia nhất Bảng K gặp Ghana",
+          "homeBadgeSrc": "assets/football/flags/colombia.svg",
+          "awayBadgeSrc": "assets/football/flags/ghana.svg"
+        },
+        {
+          "date": "Vòng 32 đội",
+          "home": "Bồ Đào Nha",
+          "away": "Croatia",
+          "score": "Sắp diễn ra",
+          "note": "Bồ Đào Nha nhì Bảng K gặp Croatia",
+          "homeBadgeSrc": "assets/football/flags/portugal.svg",
+          "awayBadgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": { "name": "Colombia", "code": "COL", "teamType": "national", "flagSrc": "assets/football/flags/colombia.svg" },
+          "played": 3, "wins": 2, "draws": 1, "losses": 0, "gf": 4, "ga": 1, "gd": 3, "pts": 7
+        },
+        {
+          "rank": 2,
+          "team": { "name": "Bồ Đào Nha", "code": "POR", "teamType": "national", "flagSrc": "assets/football/flags/portugal.svg" },
+          "played": 3, "wins": 1, "draws": 2, "losses": 0, "gf": 6, "ga": 1, "gd": 5, "pts": 5
+        },
+        {
+          "rank": 3,
+          "team": { "name": "DR Congo", "code": "COD", "teamType": "national", "flagSrc": "assets/football/flags/dr-congo.svg" },
+          "played": 3, "wins": 1, "draws": 1, "losses": 1, "gf": 4, "ga": 3, "gd": 1, "pts": 4
+        },
+        {
+          "rank": 4,
+          "team": { "name": "Uzbekistan", "code": "UZB", "teamType": "national", "flagSrc": "assets/football/flags/uzbekistan.svg" },
+          "played": 3, "wins": 0, "draws": 0, "losses": 3, "gf": 2, "ga": 11, "gd": -9, "pts": 0
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Colombia hay Bồ Đào Nha?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Với phong độ hiện tại, bạn nghĩ Colombia hay Bồ Đào Nha có cơ hội đi sâu hơn ở vòng knock-out? Hãy để lại ý kiến dưới phần bình luận nhé!",
+      "voiceText": "Với phong độ hiện tại, bạn nghĩ Cô lôm bi a hay Bồ Đào Nha có cơ hội đi sâu hơn ở vòng nốc ao? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Colombia hay Bồ Đào Nha đi xa hơn?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Colombia",
+          "Bồ Đào Nha",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 4.8 }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 Group K Colombia vs Portugal Match Report",
+      "url": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026/matches/colombia-portugal"
+    },
+    {
+      "name": "Sofascore: Colombia vs Portugal Live Score, H2H and Lineups",
+      "url": "https://www.sofascore.com/colombia-portugal/qUbsbVb"
+    }
+  ]
+}

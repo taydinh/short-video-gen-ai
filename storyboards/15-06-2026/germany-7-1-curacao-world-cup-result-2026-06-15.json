@@ -1,0 +1,659 @@
+{
+  "title": "Germany 7-1 Curaçao: Havertz lập cú đúp, Đức gửi lời cảnh báo",
+  "slug": "germany-7-1-curacao-world-cup-result-2026-06-15",
+  "preset": "Preset Football Result",
+  "totalDuration": 58,
+  "sources": [
+    {
+      "name": "The Guardian live report",
+      "url": "https://www.theguardian.com/football/live/2026/jun/14/germany-v-curacao-world-cup-2026-live"
+    },
+    {
+      "name": "FIFA match report",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/germany-curacao-highlights-match-report"
+    },
+    {
+      "name": "ESPN match report",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760422"
+    },
+    {
+      "name": "Sofascore match note",
+      "url": "https://www.sofascore.com/news/germany-7-1-curacao-undavs-8-9-sofascore-rating"
+    },
+    {
+      "name": "FotMob match page",
+      "url": "https://www.fotmob.com/matches/germany-vs-curacao/k77fsyu"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "ĐỨC THẮNG BẢY MỘT!",
+      "subtext": "Germany 7-1 Curaçao | World Cup 2026",
+      "voiceText": "Đức đè bẹp Curaçao bảy một tại Houston Stadium, lúc không giờ ngày mười lăm tháng sáu theo giờ Việt Nam. Nmecha mở tỉ số phút thứ sáu, Comenencia tạo khoảnh khắc lịch sử cho Curaçao, rồi Đức ghi sáu bàn liên tiếp để gửi lời cảnh báo cực mạnh ở bảng E.",
+      "subtitle": "Germany đè bẹp Curaçao 7-1 tại Houston Stadium, lúc 00:00 ngày 15/06 theo giờ Việt Nam. Nmecha mở tỉ số phút 6, Comenencia tạo khoảnh khắc lịch sử cho Curaçao, rồi Germany ghi 6 bàn liên tiếp để gửi lời cảnh báo cực mạnh ở bảng E.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng E | Lượt 1",
+      "venue": "Houston Stadium",
+      "date": "15.06.2026",
+      "time": "00:00 VN",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg",
+          "form": ["W", "W", "W", "W", "W", "W"]
+        },
+        {
+          "name": "Curaçao",
+          "code": "CUW",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg",
+          "form": ["D", "L", "L", "L", "L", "L"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Duc-Caracao.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "76%",
+          "size": 86
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Group E | Matchday 1",
+      "ctaLabel": "Germany 7-1 Curaçao",
+      "voiceText": "Đức có trận ra quân World Cup mạnh nhất của họ trong nhiều năm, còn Curaçao vẫn có bàn thắng lịch sử trong ngày đầu tiên góp mặt.",
+      "subtitle": "Germany có trận ra quân World Cup mạnh nhất của họ trong nhiều năm, còn Curaçao vẫn có bàn thắng lịch sử trong ngày đầu tiên góp mặt.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Duc-Caracao.mp4",
+          "trim": {
+            "start": 88,
+            "end": 92
+          },
+          "position": "background",
+          "opacity": 0.34,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Germany 7-1 Curaçao",
+      "subtext": "Nmecha, Schlotterbeck, Havertz, Musiala, Brown, Undav",
+      "voiceText": "Full time, Đức bảy, Curaçao một. Curaçao gỡ hòa ở phút hai mươi mốt, nhưng từ phút ba mươi tám trở đi, Đức tăng tốc bằng Schlotterbeck, ha vớt, Musiala, Brown và Undav.",
+      "subtitle": "Full-time: Germany 7-1 Curaçao. Curaçao gỡ hòa ở phút 21, nhưng từ phút 38 trở đi, Germany tăng tốc bằng Schlotterbeck, Havertz, Musiala, Brown và Undav.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [7, 1],
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Curaçao",
+          "code": "CUW",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "teams": ["GER", "CUW"],
+          "score": [7, 1],
+          "minute": "FT",
+          "label": "Group E"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.28
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Đức đá bốn hai ba một với Neuer trong khung gỗ, Kimmich, Tah, Schlotterbeck và Brown phía sau, Pavlovic cùng Nmecha ở tuyến giữa, còn Sané, Wirtz, Musiala hỗ trợ ha vớt. Curaçao nhập cuộc với Room, Floranus, Bacuna, Antonisse, Locadia và Comenencia.",
+      "subtitle": "Germany đá 4-2-3-1 với Neuer trong khung gỗ, Kimmich, Tah, Schlotterbeck và Brown phía sau, Pavlovic cùng Nmecha ở tuyến giữa, còn Sané, Wirtz, Musiala hỗ trợ Havertz. Curaçao nhập cuộc với Room, Floranus, Bacuna, Antonisse, Locadia và Comenencia.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Houston Stadium",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Curaçao",
+          "code": "CUW",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": ["Manuel Neuer", "Joshua Kimmich", "Jonathan Tah", "Nico Schlotterbeck", "Nathaniel Brown", "Aleksandar Pavlovic", "Felix Nmecha", "Leroy Sane", "Florian Wirtz", "Jamal Musiala", "Kai Havertz"]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": ["Eloy Room", "Sherel Floranus", "Leandro Bacuna", "Jurien Gaari", "Nathan Markelo", "Livano Comenencia", "Juninho Bacuna", "Jeremy Antonisse", "Tahith Chong", "Brandley Kuwas", "Jurgen Locadia"]
+        }
+      },
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Duc-Caracao.mp4",
+          "trim": {
+            "start": 0,
+            "end": 8
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Đức nhập trận và mở khóa rất sớm",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Havertz kết liễu trận đấu",
+      "subtext": "Cú đúp và một dấu ấn kiến tạo",
+      "voiceText": "ha vớt là gương mặt nổi bật nhất trên bảng tỉ số. Anh ghi bàn từ chấm phạt đền ở phút bốn mươi lăm cộng năm, rồi hoàn tất cú đúp phút tám mươi tám sau đường chuyền của Undav.",
+      "subtitle": "Havertz là gương mặt nổi bật nhất trên bảng tỉ số. Anh ghi bàn từ chấm phạt đền ở phút 45+5, rồi hoàn tất cú đúp phút 88 sau đường chuyền của Undav.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Kai Havertz",
+      "team": "Germany",
+      "number": "7",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "2"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "45+5', 88'"
+        },
+        {
+          "label": "Vai trò",
+          "value": "Tiền đạo cắm"
+        },
+        {
+          "label": "Kết quả",
+          "value": "7-1"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Duc-Caracao.mp4",
+          "trim": {
+            "start": 32,
+            "end": 40
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Havertz 45+5'",
+          "videoDescription": "Cú đá phạt đền đưa Đức vượt lên 3-1",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Curaçao có khoảnh khắc, Đức có cơn mưa bàn thắng",
+      "voiceText": "Phút thứ sáu, Nmecha đưa Đức vượt lên. Phút hai mươi mốt, Comenencia gỡ một một và ghi bàn World Cup đầu tiên cho Curaçao. Phút ba mươi tám, Schlotterbeck tái lập lợi thế. Trước giờ nghỉ, ha vớt sút phạt đền thành công. Hiệp hai, Musiala, Brown, Undav và ha vớt khép lại chiến thắng bảy một.",
+      "subtitle": "Phút 6, Nmecha đưa Germany vượt lên. Phút 21, Comenencia gỡ 1-1 và ghi bàn World Cup đầu tiên cho Curaçao. Phút 38, Schlotterbeck tái lập lợi thế. Trước giờ nghỉ, Havertz sút phạt đền thành công. Hiệp hai, Musiala, Brown, Undav và Havertz khép lại chiến thắng 7-1.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "6'",
+          "title": "1-0: Felix Nmecha",
+          "desc": "Germany đánh nhanh và có bàn mở tỉ số rất sớm."
+        },
+        {
+          "minute": "21'",
+          "title": "1-1: Livano Comenencia",
+          "desc": "Curaçao tạo khoảnh khắc lịch sử trong trận World Cup đầu tiên."
+        },
+        {
+          "minute": "38'",
+          "title": "2-1: Nico Schlotterbeck",
+          "desc": "Germany lấy lại quyền kiểm soát trước giờ nghỉ."
+        },
+        {
+          "minute": "45+5'",
+          "title": "3-1: Kai Havertz",
+          "desc": "Havertz ghi bàn từ chấm phạt đền."
+        },
+        {
+          "minute": "47'",
+          "title": "4-1: Jamal Musiala",
+          "desc": "Germany dập tắt hy vọng phản kháng ngay đầu hiệp hai."
+        },
+        {
+          "minute": "68'",
+          "title": "5-1: Nathaniel Brown",
+          "desc": "Brown băng lên và dứt điểm vào góc xa."
+        },
+        {
+          "minute": "78'",
+          "title": "6-1: Deniz Undav",
+          "desc": "Undav vào sân rồi ghi dấu ấn trực tiếp."
+        },
+        {
+          "minute": "88'",
+          "title": "7-1: Kai Havertz",
+          "desc": "Havertz hoàn tất cú đúp, Germany chốt trận thắng lớn."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 4.2,
+          "top": "78%",
+          "size": 88
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Đức tạo thế trận một chiều",
+      "subtext": "65% cầm bóng | 26 cú sút | 6 cơ hội lớn",
+      "voiceText": "Thông số phản ánh đúng sự chênh lệch. Đức cầm bóng khoảng sáu mươi lăm phần trăm, tung hai mươi sáu cú sút và tạo sáu cơ hội lớn. Curaçao có bàn thắng đáng nhớ, nhưng không chịu nổi áp lực sau giờ nghỉ.",
+      "subtitle": "Thông số phản ánh đúng sự chênh lệch. Germany cầm bóng khoảng 65%, tung 26 cú sút và tạo 6 cơ hội lớn. Curaçao có bàn thắng đáng nhớ, nhưng không chịu nổi áp lực sau giờ nghỉ.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [7, 1],
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/germany.svg",
+          "badgeSrc": "assets/football/flags/germany.svg"
+        },
+        {
+          "name": "Curaçao",
+          "code": "CUW",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/curacao.svg",
+          "badgeSrc": "assets/football/flags/curacao.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 65,
+              "away": 35,
+              "unit": "%"
+            },
+            {
+              "label": "Cú sút",
+              "home": 26,
+              "away": 7
+            },
+            {
+              "label": "Cơ hội lớn",
+              "home": 6,
+              "away": 1
+            },
+            {
+              "label": "Tỉ số",
+              "home": 7,
+              "away": 1
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng E: Đức chiếm đỉnh",
+      "subtext": "Hiệu số +6 sau lượt mở màn",
+      "voiceText": "Với chiến thắng bảy một, Đức tạm dẫn bảng E với ba điểm và hiệu số cộng sáu. Curaçao đứng cuối, còn Côte d'Ivoire và Ecuador chia điểm sau trận hòa không không, khiến Đức có lợi thế cực lớn ngay từ lượt đầu.",
+      "subtitle": "Với chiến thắng 7-1, Germany tạm dẫn bảng E với 3 điểm và hiệu số +6. Curaçao đứng cuối, còn Côte d'Ivoire và Ecuador chia điểm sau trận hòa 0-0, khiến Germany có lợi thế cực lớn ngay từ lượt đầu.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG E",
+      "tabs": ["TRẬN ĐẤU", "LỊCH THI ĐẤU", "CẦU THỦ", "BẢNG E"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["GER", "CUW"],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Germany",
+            "code": "GER",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/germany.svg",
+            "badgeSrc": "assets/football/flags/germany.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "pts": 3
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Côte d'Ivoire",
+            "code": "CIV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cote-divoire.svg",
+            "badgeSrc": "assets/football/flags/cote-divoire.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Ecuador",
+            "code": "ECU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ecuador.svg",
+            "badgeSrc": "assets/football/flags/ecuador.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Curaçao",
+            "code": "CUW",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/curacao.svg",
+            "badgeSrc": "assets/football/flags/curacao.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gf": 1,
+          "ga": 7,
+          "gd": -6,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Duc-Caracao.mp4",
+          "trim": {
+            "start": 80,
+            "end": 88
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Đỉnh bảng E",
+          "videoDescription": "Hiệu số +6 sau màn ra quân bùng nổ",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Đức đã trở lại?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Theo bạn, chiến thắng bảy một này là lời khẳng định của một ứng viên vô địch, hay chỉ là trận đấu quá chênh lệch trước tân binh Curaçao? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, chiến thắng 7-1 này là lời khẳng định của một ứng viên vô địch, hay chỉ là trận đấu quá chênh lệch trước tân binh Curaçao? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Germany 7-1 Curaçao",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Đức có đáng sợ nhất lượt mở màn không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["FOLLOW KÊNH", "@vibe.bongda", "assets/logos/logo.png"]
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/Duc-Caracao.mp4",
+          "trim": {
+            "start": 88,
+            "end": 96
+          },
+          "position": "background",
+          "opacity": 0.36,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "notes": [
+      "playerImageUrl để trống vì chưa tìm được URL ảnh cầu thủ phù hợp, ổn định và trực tiếp từ nguồn đã kiểm chứng."
+    ]
+  }
+}

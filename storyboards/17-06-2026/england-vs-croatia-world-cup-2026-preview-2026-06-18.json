@@ -1,0 +1,451 @@
+{
+  "title": "England vs Croatia: đại chiến bảng L lúc rạng sáng",
+  "slug": "england-vs-croatia-world-cup-2026-preview-2026-06-18",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview England - Croatia, kickoff 03:00 ngày 18/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FOX Sports - England vs Croatia schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    },
+    {
+      "title": "Dallas FWC26 - England vs Croatia",
+      "url": "https://www.dallasfwc26.com/our-venues/match-schedule/"
+    },
+    {
+      "title": "FIFA - Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "title": "FOX Sports - 2026 World Cup schedule",
+      "url": "https://www.foxsports.com/stories/soccer/how-watch-2026-fifa-world-cup-full-schedule-dates-every-match"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "England vs Croatia",
+      "subtext": "Đại chiến châu Âu ngay lượt đầu",
+      "voiceText": "England gặp Croatia lúc ba giờ sáng, ngày mười tám tháng sáu theo giờ Việt Nam. Đây là trận mở màn bảng L World Cup hai không hai sáu, và cũng là một bài test lớn cho tham vọng của England.",
+      "subtitle": "England gặp Croatia lúc 03:00 ngày 18/06 theo giờ Việt Nam. Đây là trận mở màn bảng L World Cup 2026, và cũng là một bài test lớn cho tham vọng của England.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group L - Matchday 1",
+      "venue": "Dallas Stadium",
+      "date": "18/06/2026",
+      "time": "03:00 VN",
+      "teams": [
+        {
+          "name": "England",
+          "code": "ENG",
+          "form": "Ứng viên mạnh",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/england.svg",
+          "badgeSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "form": "Kinh nghiệm tournament",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng L mở bằng trận nặng ký",
+      "subtext": "England gặp ký ức Croatia",
+      "voiceText": "Bảng L có England, Croatia, Ghana và Panama. Nếu thắng Croatia ngay lượt đầu, England sẽ nắm lợi thế lớn trong cuộc đua đầu bảng.",
+      "subtitle": "Bảng L có England, Croatia, Ghana và Panama. Nếu thắng Croatia ngay lượt đầu, England sẽ nắm lợi thế lớn trong cuộc đua đầu bảng.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group L Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "England vs Croatia | 18/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Bellingham đối đầu tuyến giữa Croatia",
+      "voiceText": "England có thể dùng Pickford, Walker, Stones, Guehi, Shaw, Rice, Bellingham, Foden, Saka, Rashford và Kane. Croatia nhiều khả năng xoay quanh Livakovic, Gvardiol, Sutalo, Kovacic, Brozovic, Majer, Perisic, Kramaric và Budimir.",
+      "subtitle": "England có thể dùng Pickford, Walker, Stones, Guehi, Shaw, Rice, Bellingham, Foden, Saka, Rashford và Kane. Croatia nhiều khả năng xoay quanh Livakovic, Gvardiol, Sutalo, Kovacic, Brozovic, Majer, Perisic, Kramaric và Budimir.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "England",
+          "code": "ENG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/england.svg",
+          "badgeSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/croatia.svg",
+          "badgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Pickford",
+            "Walker",
+            "Stones",
+            "Guehi",
+            "Shaw",
+            "Rice",
+            "Bellingham",
+            "Foden",
+            "Saka",
+            "Rashford",
+            "Kane"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Livakovic",
+            "Stanisic",
+            "Sutalo",
+            "Gvardiol",
+            "Sosa",
+            "Brozovic",
+            "Kovacic",
+            "Majer",
+            "Perisic",
+            "Kramaric",
+            "Budimir"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Thế trận: tốc độ trước kinh nghiệm",
+      "subtext": "Croatia không dễ bị cuốn theo nhịp",
+      "voiceText": "England có tốc độ ở hai biên và khả năng xâm nhập của Bellingham. Croatia lại giỏi kéo nhịp chậm, giữ bóng và khiến đối thủ nóng vội.",
+      "subtitle": "England có tốc độ ở hai biên và khả năng xâm nhập của Bellingham. Croatia lại giỏi kéo nhịp chậm, giữ bóng và khiến đối thủ nóng vội.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "England",
+          "away": "Croatia",
+          "score": "Preview",
+          "note": "England cần tốc độ, Croatia cần kiểm soát",
+          "homeBadgeSrc": "assets/football/flags/england.svg",
+          "awayBadgeSrc": "assets/football/flags/croatia.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Tốc độ biên",
+          "value": "England"
+        },
+        {
+          "label": "Kiểm soát nhịp",
+          "value": "Croatia"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Tuyến giữa"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tốc độ",
+              "home": 86,
+              "away": 72
+            },
+            {
+              "label": "Kinh nghiệm",
+              "home": 79,
+              "away": 85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Bellingham",
+      "subtext": "Khoảng giữa hai tuyến là chìa khóa",
+      "voiceText": "Điểm nóng là Bellingham nhận bóng giữa hai tuyến. Nếu Croatia khóa được khu vực này, England sẽ phải phụ thuộc nhiều hơn vào các pha tạt bóng cho Kane.",
+      "subtitle": "Điểm nóng là Bellingham nhận bóng giữa hai tuyến. Nếu Croatia khóa được khu vực này, England sẽ phải phụ thuộc nhiều hơn vào các pha tạt bóng cho Kane.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "quote": "England có chất lượng để thắng, nhưng Croatia là kiểu đối thủ không bao giờ cho bạn thắng dễ.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng L",
+      "subtext": "Ghana và Panama cũng chờ cơ hội",
+      "voiceText": "Bảng L còn Ghana và Panama, nên trận này có thể định hình luôn cuộc đua ngôi đầu. Một chiến thắng sẽ giúp England hoặc Croatia có quyền tính toán ở hai lượt sau.",
+      "subtitle": "Bảng L còn Ghana và Panama, nên trận này có thể định hình luôn cuộc đua ngôi đầu. Một chiến thắng sẽ giúp England hoặc Croatia có quyền tính toán ở hai lượt sau.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026 - Group L",
+      "activeTab": "GROUP L",
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "ENG",
+        "CRO"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "England",
+            "code": "ENG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/england.svg",
+            "badgeSrc": "assets/football/flags/england.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Croatia",
+            "code": "CRO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/croatia.svg",
+            "badgeSrc": "assets/football/flags/croatia.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Ghana",
+            "code": "GHA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ghana.svg",
+            "badgeSrc": "assets/football/flags/ghana.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Panama",
+            "code": "PAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/panama.svg",
+            "badgeSrc": "assets/football/flags/panama.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số England vs Croatia",
+      "subtext": "Comment góc nhìn của bạn",
+      "voiceText": "Bạn chọn England bùng nổ, hay Croatia lại kéo trận đấu vào kịch bản già kinh nghiệm? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn chọn England bùng nổ, hay Croatia lại kéo trận đấu vào kịch bản già kinh nghiệm? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "England vs Croatia",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số England vs Croatia",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png",
+          "England",
+          "Croatia",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

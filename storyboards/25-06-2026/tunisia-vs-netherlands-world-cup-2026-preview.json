@@ -1,0 +1,427 @@
+{
+  "title": "Tunisia vs Hà Lan: Cơn lốc màu da cam khẳng định vị thế tại bảng F World Cup 2026",
+  "slug": "tunisia-vs-netherlands-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận đấu giữa Tunisia và Hà Lan tại bảng F World Cup 2026, diễn ra vào lúc 06:00 ngày 26/06/2026 giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 Scores & Fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Tunisia vs Hà Lan",
+      "subtext": "Trận chiến danh dự",
+      "voiceText": "Tunisia đối đầu với Hà Lan lúc sáu giờ sáng, ngày hai mươi sáu tháng sáu theo giờ Việt Nam. Dù Tunisia đã chính thức bị loại, đây vẫn là cơ hội để họ tìm kiếm bàn danh dự trước Cơn lốc màu da cam.",
+      "subtitle": "Tunisia đối đầu với Hà Lan lúc 06:00 ngày 26/06 theo giờ Việt Nam. Dù Tunisia đã chính thức bị loại, đây vẫn là cơ hội để họ tìm kiếm bàn danh dự trước Cơn lốc màu da cam.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group F - Matchday 3",
+      "venue": "Kansas City Stadium",
+      "date": "26/06/2026",
+      "time": "06:00 VN",
+      "teams": [
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "form": "GD -8",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/tunisia.svg",
+          "badgeSrc": "assets/football/flags/tunisia.svg"
+        },
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "form": "GD +4",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Hà Lan rộng cửa đi tiếp",
+      "subtext": "Tân HLV Tunisia tìm kiếm danh dự",
+      "voiceText": "Hà Lan đã cầm chắc tấm vé đi tiếp và đang hướng tới ngôi đầu bảng ép. Trong khi đó, huấn luyện viên kỳ cựu E rơ vê Rơ na, muốn Tunisia chơi một trận cống hiến để làm quà chia tay giải đấu.",
+      "subtitle": "Hà Lan đã cầm chắc tấm vé đi tiếp và đang hướng tới ngôi đầu bảng F. Trong khi đó, huấn luyện viên kỳ cựu Hervé Renard muốn Tunisia chơi một trận cống hiến để làm quà chia tay giải đấu.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group F Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Tunisia vs Netherlands | 26/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Hà Lan hướng tới ngôi đầu",
+      "voiceText": "Huấn luyện viên E rơ vê Rơ na, sẽ sử dụng thủ thành Ai men Đa men, và nhạc trưởng Ellyes Skhiri. Bên kia chiến tuyến, huấn luyện viên Rô nan Co man, dự kiến tung vào sân đội hình mạnh nhất với đầu tàu Vơ gin van Đai, và nhạc trưởng Phrăng ki đê Gông.",
+      "subtitle": "Huấn luyện viên Hervé Renard sẽ sử dụng thủ thành Aymen Dahmen và nhạc trưởng Ellyes Skhiri. Bên kia chiến tuyến, huấn luyện viên Ronald Koeman dự kiến tung vào sân đội hình mạnh nhất với đầu tàu Virgil van Dijk và nhạc trưởng Frenkie de Jong.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/tunisia.svg",
+          "badgeSrc": "assets/football/flags/tunisia.svg"
+        },
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/netherlands.svg",
+          "badgeSrc": "assets/football/flags/netherlands.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Dahmen",
+            "Bronn",
+            "Talbi",
+            "Rekik",
+            "Valery",
+            "Slimane",
+            "Skhiri",
+            "Abdi",
+            "Saad",
+            "Mejbri",
+            "Tounekti"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Verbruggen",
+            "Dumfries",
+            "van Dijk",
+            "van Hecke",
+            "van de Ven",
+            "de Jong",
+            "Gravenberch",
+            "Reijnders",
+            "Depay",
+            "Summerville",
+            "Lang"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần đây",
+      "subtext": "Sự vượt trội của Oranje",
+      "voiceText": "Hà Lan và Tunisia chưa từng gặp nhau trong lịch sử bóng đá quốc tế. Ở vòng bảng năm nay, Hà Lan đè bẹp Thụy Điển năm một và hòa Nhật Bản hai đều. Trong khi đó, Tunisia để thua đậm cả hai trận mở màn.",
+      "subtitle": "Hà Lan và Tunisia chưa từng gặp nhau trong lịch sử bóng đá quốc tế. Ở vòng bảng năm nay, Hà Lan đè bẹp Thụy Điển 5-1 và hòa Nhật Bản 2-2. Trong khi đó, Tunisia để thua đậm cả 2 trận mở màn.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Netherlands",
+      "h2hMatches": [
+        {
+          "date": "20/06/2026",
+          "home": "Netherlands",
+          "away": "Sweden",
+          "score": "5-1",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/netherlands.svg",
+          "awayBadgeSrc": "assets/football/flags/sweden.svg"
+        },
+        {
+          "date": "21/06/2026",
+          "home": "Japan",
+          "away": "Tunisia",
+          "score": "4-0",
+          "note": "Vòng bảng World Cup 2026",
+          "homeBadgeSrc": "assets/football/flags/japan.svg",
+          "awayBadgeSrc": "assets/football/flags/tunisia.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Bản lĩnh vượt trội",
+          "value": "Netherlands"
+        },
+        {
+          "label": "Tinh thần không bỏ cuộc",
+          "value": "Tunisia"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Kiểm soát bóng ngắn"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 38,
+              "away": 62
+            },
+            {
+              "label": "Cơ hội nguy hiểm",
+              "home": 32,
+              "away": 68
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trận đấu",
+      "quote": "Hà Lan sẽ chơi tấn công áp đặt để nhanh chóng định đoạt bảng đấu.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng sẽ là cuộc đọ sức tuyến giữa, nơi các tiền vệ Tunisia phải tìm cách ngăn chặn sức sáng tạo của đê Gông, và Reijnders. Nếu lơ là, Cơn lốc màu da cam sẽ thổi bay hàng thủ Tunisia.",
+      "subtitle": "Điểm nóng sẽ là cuộc đọ sức tuyến giữa, nơi các tiền vệ Tunisia phải tìm cách ngăn chặn sức sáng tạo của de Jong và Reijnders. Nếu lơ là, Cơn lốc màu da cam sẽ thổi bay hàng thủ Tunisia.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng F",
+      "subtext": "Cơ hội đi tiếp cho Oranje",
+      "voiceText": "Tại bảng ép lúc này, Hà Lan dẫn đầu nhờ hơn Nhật Bản chỉ số phụ. Thụy Điển đứng thứ ba với ba điểm, còn Tunisia đứng cuối với không điểm. Hà Lan cần thắng đậm để bảo vệ ngôi đầu bảng.",
+      "subtitle": "Tại bảng F lúc này, Netherlands dẫn đầu nhờ hơn Japan chỉ số phụ. Sweden đứng thứ 3 với 3 điểm, còn Tunisia đứng cuối với 0 điểm. Hà Lan cần thắng đậm để bảo vệ ngôi đầu bảng.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group F Standings",
+      "highlightTeams": [
+        "Tunisia",
+        "Netherlands"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Netherlands",
+            "code": "NED",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/netherlands.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+4"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Japan",
+            "code": "JPN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/japan.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+4"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Sweden",
+            "code": "SWE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/sweden.svg"
+          },
+          "played": 2,
+          "points": 3,
+          "gd": "0"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Tunisia",
+            "code": "TUN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/tunisia.svg"
+          },
+          "played": 2,
+          "points": 0,
+          "gd": "-8"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Liệu Hà Lan sẽ thắng giòn giã để độc chiếm ngôi đầu bảng ép? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Liệu Hà Lan có thắng giòn giã để độc chiếm ngôi đầu bảng F? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Tunisia vs Hà Lan",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

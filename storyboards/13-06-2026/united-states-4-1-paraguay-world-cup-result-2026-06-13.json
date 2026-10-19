@@ -1,0 +1,420 @@
+{
+  "title": "United States 4-1 Paraguay: Balogun rực sáng ngày chủ nhà mở màn",
+  "slug": "united-states-4-1-paraguay-world-cup-result-2026-06-13",
+  "preset": "Preset Football Result",
+  "totalDuration": 58,
+  "sources": [
+    {
+      "name": "ESPN final score, scorers, stats and standings",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760417/paraguay-united-states"
+    },
+    {
+      "name": "U.S. Soccer match recap",
+      "url": "https://www.ussoccer.com/stories/2026/06/usmnt/folarin-balogun-brace-match-recap-highlights-vs-paraguay"
+    },
+    {
+      "name": "U.S. Soccer starting XI notes",
+      "url": "https://www.ussoccer.com/stories/2026/06/usmnt/starting-xi-lineup-notes-vs-paraguay-world-cup"
+    },
+    {
+      "name": "MLS Soccer lineups",
+      "url": "https://www.mlssoccer.com/competitions/fifa-world-cup/news/usa-starting-lineup-vs-paraguay-2026-fifa-world-cup-opener"
+    },
+    {
+      "name": "The Guardian match report",
+      "url": "https://www.theguardian.com/football/2026/jun/12/usa-paraguay-world-cup-2026-group-d-match-report"
+    },
+    {
+      "name": "Wikimedia Commons Folarin Balogun image",
+      "url": "https://commons.wikimedia.org/wiki/File:Folarin_Balogun_USMNT_v_Belgium_Mar_28_2026-69_(cropped).jpg"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "MỸ THẮNG TƯNG BỪNG!",
+      "subtext": "United States 4-1 Paraguay",
+      "subtitle": "United States thắng Paraguay 4-1 tại Los Angeles Stadium. Bobadilla phản lưới phút 7, Balogun lập cú đúp trước giờ nghỉ, Maurício gỡ một bàn phút 73, rồi Gio Reyna chốt trận ở 90+8.",
+      "voiceText": "Mỹ thắng Pa Ra Quay bốn một tại Los Angeles Stadium. Bobadilla phản lưới phút thứ bảy, Balogun lập cú đúp trước giờ nghỉ, Mauricio gỡ một bàn phút bảy mươi ba, rồi Gio Reyna chốt trận ở phút chín mươi cộng tám.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group D - Matchday 1",
+      "venue": "Los Angeles Stadium, Inglewood",
+      "date": "13.06.2026",
+      "time": "08:00 VN",
+      "teams": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg",
+          "form": ["W", "L", "W", "L", "L", "W"]
+        },
+        {
+          "name": "Paraguay",
+          "code": "PAR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/paraguay.svg",
+          "badgeSrc": "assets/football/flags/paraguay.svg",
+          "form": ["L", "W", "L", "W", "W", "L"]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7650728739634040086.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "United States 4-1 Paraguay | 13.06.2026 VN",
+      "ctaLabel": "Full-time",
+      "subtitle": "Chủ nhà United States mở chiến dịch World Cup bằng 3 điểm, hiệu số +3, và một lời tuyên bố rất mạnh ở bảng D.",
+      "voiceText": "Chủ nhà Mỹ mở chiến dịch World Cup bằng ba điểm, hiệu số cộng ba, và một lời tuyên bố rất mạnh ở bảng Đê.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "United States 4-1 Paraguay",
+      "subtext": "Bobadilla OG 7' | Balogun 31', 45+5' | Maurício 73' | Reyna 90+8'",
+      "subtitle": "Full-time: United States 4-1 Paraguay. Mỹ dẫn 3-0 ngay sau hiệp một nhờ phản lưới của Bobadilla và cú đúp của Balogun, trước khi Reyna ghi bàn muộn để khép lại trận thắng lớn.",
+      "voiceText": "Full time, Mỹ bốn, Pa Ra Quay một. Mỹ dẫn ba không ngay sau hiệp một nhờ phản lưới của Bobadilla và cú đúp của Balogun, trước khi Reyna ghi bàn muộn để khép lại trận thắng lớn.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [4, 1],
+      "teams": [
+        { "name": "United States", "code": "USA", "teamType": "national", "flagSrc": "assets/football/flags/united-states.svg", "badgeSrc": "assets/football/flags/united-states.svg" },
+        { "name": "Paraguay", "code": "PAR", "teamType": "national", "flagSrc": "assets/football/flags/paraguay.svg", "badgeSrc": "assets/football/flags/paraguay.svg" }
+      ],
+      "visuals": [
+        { "type": "football-scorebug", "teams": ["USA", "PAR"], "score": [4, 1], "minute": "FT", "label": "Los Angeles" },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "United States đá 4-2-3-1 với Freese, Robinson, Ream, Richards, Freeman, Adams, Tillman, Pulisic, McKennie, Dest và Balogun. Paraguay dùng 4-4-2 với Gill, Alonso, Alderete, Gustavo Gómez, Cáceres, Almirón, Bobadilla, Cubas, Diego Gómez, Enciso và Sanabria.",
+      "voiceText": "Mỹ đá bốn hai ba một với Freese, Robinson, Ream, Richards, Freeman, Adams, Tillman, Pulisic, McKennie, Dest và Balogun. Pa Ra Quay dùng bốn bốn hai với Gill, Alonso, Alderete, Gustavo Gomez, Caceres, Almiron, Bobadilla, Cubas, Diego Gomez, Enciso và Sanabria.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Los Angeles Stadium",
+      "teams": [
+        { "name": "United States", "code": "USA", "teamType": "national", "flagSrc": "assets/football/flags/united-states.svg", "badgeSrc": "assets/football/flags/united-states.svg" },
+        { "name": "Paraguay", "code": "PAR", "teamType": "national", "flagSrc": "assets/football/flags/paraguay.svg", "badgeSrc": "assets/football/flags/paraguay.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": ["Matt Freese", "Antonee Robinson", "Tim Ream", "Chris Richards", "Alex Freeman", "Tyler Adams", "Malik Tillman", "Christian Pulisic", "Weston McKennie", "Sergino Dest", "Folarin Balogun"]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": ["Orlando Gill", "Junior Alonso", "Omar Alderete", "Gustavo Gomez", "Juan Jose Caceres", "Miguel Almiron", "Damian Bobadilla", "Andres Cubas", "Diego Gomez", "Julio Enciso", "Antonio Sanabria"]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7650728739634040086.mp4",
+          "trim": {
+            "start": 18,
+            "end": 26
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Pulisic, McKennie và Balogun cùng đá chính",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Balogun bùng nổ",
+      "subtext": "Cú đúp World Cup trong hiệp một",
+      "subtitle": "Folarin Balogun ghi 2 bàn ở phút 31 và 45+5. Đây là cú đúp đưa United States vượt lên 3-0, đồng thời biến trận ra quân sân nhà thành đêm đáng nhớ của tiền đạo Monaco.",
+      "voiceText": "Folarin Balogun ghi hai bàn ở phút ba mươi mốt và bốn mươi lăm cộng năm. Đây là cú đúp đưa Mỹ vượt lên ba không, đồng thời biến trận ra quân sân nhà thành đêm đáng nhớ của tiền đạo Monaco.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "player": "Folarin Balogun",
+      "team": "United States",
+      "number": "20",
+      "playerImageUrl": "https://www.facebook.com/photo/?fbid=1431354598798865&set=a.438443234756678&__cft__[0]=AZYehazlZIq2xPUNpLyErqheIzsv4YGkaELPcC76gC0-7FMSVLRHmkanp130AUidKViSE3IZ64gA7h9gk2qqcybxMLUiuULNhMUKhmX88DGLWD50LPFmJNiHWw1hRSfdPfrE3wOtcQRea2vDCx01jHBbG414Bib2iTH-YvT-s6Jqeg&__tn__=EH-R",
+      "stats": [
+        { "label": "Bàn thắng", "value": "2" },
+        { "label": "Phút ghi bàn", "value": "31', 45+5'" },
+        { "label": "Số áo", "value": "20" },
+        { "label": "Vai trò", "value": "Mũi nhọn" }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7650728739634040086.mp4",
+          "trim": {
+            "start": 30,
+            "end": 38
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Balogun brace",
+          "videoDescription": "Hai pha kết liễu trước giờ nghỉ",
+          "videoVolume": 0
+        },
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline tại Los Angeles",
+      "subtext": "Mỹ đánh phủ đầu, Paraguay chỉ gỡ danh dự",
+      "subtitle": "Phút 7, Bobadilla phản lưới. Phút 31, Pulisic kiến tạo để Balogun nâng tỉ số lên 2-0. Phút 45+5, Balogun hoàn tất cú đúp từ đường bóng của Tillman. Sau giờ nghỉ, Pulisic rời sân. Phút 73, Maurício gỡ 1-3. Phút 90+8, Gio Reyna ấn định 4-1 sau đường chuyền của Freeman.",
+      "voiceText": "Phút thứ bảy, Bobadilla phản lưới. Phút ba mươi mốt, Pulisic kiến tạo để Balogun nâng tỉ số lên hai không. Phút bốn mươi lăm cộng năm, Balogun hoàn tất cú đúp từ đường bóng của Tillman. Sau giờ nghỉ, Pulisic rời sân. Phút bảy mươi ba, Mauricio gỡ một ba cho Pa Ra Quay. Phút chín mươi cộng tám, Gio Reyna ấn định bốn một sau đường chuyền của Freeman.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        { "minute": "7'", "title": "1-0: Bobadilla phản lưới", "desc": "Mỹ tạo sức ép sớm và có bàn mở tỉ số từ pha bóng đổi hướng." },
+        { "minute": "31'", "title": "2-0: Folarin Balogun", "desc": "Pulisic tạo khác biệt ở hành lang trái, Balogun dứt điểm nhân đôi cách biệt." },
+        { "minute": "45+5'", "title": "3-0: Balogun cú đúp", "desc": "Tillman mở bóng, Balogun xử lý gọn để kết thúc hiệp một hoàn hảo." },
+        { "minute": "46'", "title": "Pulisic rời sân", "desc": "Mỹ thay đội trưởng sau hiệp một, khi lợi thế đã là 3 bàn." },
+        { "minute": "73'", "title": "3-1: Maurício", "desc": "Paraguay tận dụng khoảng trống sau tình huống restart để rút ngắn." },
+        { "minute": "90+8'", "title": "4-1: Gio Reyna", "desc": "Alex Freeman kiến tạo, Reyna ghi bàn muộn để khóa lại trận thắng đậm." }
+      ],
+      "visuals": [
+        { "type": "football-ball-motion", "duration": 4.2, "top": "78%", "size": 88 },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Mỹ áp đảo thông số",
+      "subtext": "65.2% cầm bóng, 16 cú sút, 6 trúng đích",
+      "subtitle": "United States kiểm soát bóng 65.2%, sút 16 lần, trúng đích 6 lần. Paraguay chỉ có 34.8% bóng, 9 cú sút, 1 lần trúng đích và nhận tới 5 thẻ vàng.",
+      "voiceText": "Mỹ kiểm soát bóng sáu mươi lăm phẩy hai phần trăm, sút mười sáu lần, trúng đích sáu lần. Pa Ra Quay chỉ có ba mươi bốn phẩy tám phần trăm bóng, chín cú sút, một lần trúng đích và nhận tới năm thẻ vàng.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [4, 1],
+      "teams": [
+        { "name": "United States", "code": "USA", "teamType": "national", "flagSrc": "assets/football/flags/united-states.svg", "badgeSrc": "assets/football/flags/united-states.svg" },
+        { "name": "Paraguay", "code": "PAR", "teamType": "national", "flagSrc": "assets/football/flags/paraguay.svg", "badgeSrc": "assets/football/flags/paraguay.svg" }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            { "label": "Kiểm soát bóng", "home": 65.2, "away": 34.8, "unit": "%" },
+            { "label": "Cú sút", "home": 16, "away": 9 },
+            { "label": "Sút trúng đích", "home": 6, "away": 1 },
+            { "label": "Phạt góc", "home": 3, "away": 1 },
+            { "label": "Thẻ vàng", "home": 1, "away": 5 },
+            { "label": "Cứu thua", "home": 1, "away": 3 }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng D: Mỹ lên đỉnh",
+      "subtext": "3 điểm, hiệu số +3 sau trận mở màn",
+      "subtitle": "Sau trận thắng 4-1, United States tạm dẫn bảng D với 3 điểm và hiệu số +3. Paraguay đứng cuối với hiệu số -3, trong khi Australia và Türkiye chưa đá trận mở màn.",
+      "voiceText": "Sau trận thắng bốn một, Mỹ tạm dẫn bảng Đê với ba điểm và hiệu số cộng ba. Pa Ra Quay đứng cuối với hiệu số âm ba, trong khi Australia và Thổ Nhĩ Kỳ chưa đá trận mở màn.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG D",
+      "tabs": ["TRẬN ĐẤU", "LỊCH THI ĐẤU", "CẦU THỦ", "BẢNG D"],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": ["USA", "PAR"],
+      "standings": [
+        { "rank": 1, "team": { "name": "United States", "code": "USA", "teamType": "national", "flagSrc": "assets/football/flags/united-states.svg", "badgeSrc": "assets/football/flags/united-states.svg" }, "played": 1, "wins": 1, "draws": 0, "losses": 0, "gf": 4, "ga": 1, "gd": 3, "pts": 3 },
+        { "rank": 2, "team": { "name": "Türkiye", "code": "TUR", "teamType": "national", "flagSrc": "assets/football/flags/turkiye.svg", "badgeSrc": "assets/football/flags/turkiye.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 3, "team": { "name": "Australia", "code": "AUS", "teamType": "national", "flagSrc": "assets/football/flags/australia.svg", "badgeSrc": "assets/football/flags/australia.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 4, "team": { "name": "Paraguay", "code": "PAR", "teamType": "national", "flagSrc": "assets/football/flags/paraguay.svg", "badgeSrc": "assets/football/flags/paraguay.svg" }, "played": 1, "wins": 0, "draws": 0, "losses": 1, "gf": 1, "ga": 4, "gd": -3, "pts": 0 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7650728739634040086.mp4",
+          "trim": {
+            "start": 72,
+            "end": 82
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Group D",
+          "videoDescription": "Mỹ lấy lợi thế lớn sau lượt đầu",
+          "videoVolume": 0
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Mỹ đã đủ đáng sợ?",
+      "subtext": "Bình luận ngay bên dưới",
+      "subtitle": "Theo bạn, United States thắng 4-1 là tín hiệu của một ứng viên đi sâu, hay Paraguay đã tự vỡ trận quá sớm? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Theo bạn, Mỹ thắng bốn một là tín hiệu của một ứng viên đi sâu, hay Pa Ra Quay đã tự vỡ trận quá sớm? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Méo bình luận",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Mỹ có thể đi sâu ở World Cup 2026 không?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["United States", "World Cup 2026", "Méo Bình Luận"]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 4.8 }
+      ]
+    }
+  ]
+}

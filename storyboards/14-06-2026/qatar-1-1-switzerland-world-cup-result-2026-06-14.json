@@ -1,0 +1,681 @@
+{
+  "title": "Qatar 1-1 Switzerland: Khoukhi ghi bàn phút 90+5",
+  "slug": "qatar-1-1-switzerland-world-cup-result-2026-06-14",
+  "preset": "Preset Football Result",
+  "totalDuration": 58,
+  "sources": [
+    {
+      "name": "Ahram Online match facts",
+      "url": "https://english.ahram.org.eg/WorldCup2026/AfricaInner.aspx?NewsContentID=570701"
+    },
+    {
+      "name": "The Guardian live blog",
+      "url": "https://www.theguardian.com/football/live/2026/jun/13/qatar-v-switzerland-world-cup-2026-live"
+    },
+    {
+      "name": "Outlook India live highlights",
+      "url": "https://www.outlookindia.com/sports/football/qatar-vs-switzerland-live-score-fifa-world-cup-2026-group-b-qat-vs-swi-updates-levis-stadium-highlights"
+    },
+    {
+      "name": "ESPN World Cup schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "QATAR GIẬT LẠI 1 ĐIỂM!",
+      "subtext": "Qatar 1-1 Switzerland | World Cup 2026",
+      "voiceText": "Ka Ta hòa Thụy Sĩ một một tại Levi's Stadium. Breel Embolo mở tỉ số trên chấm phạt đền phút mười bảy, nhưng Boualem Khoukhi đánh đầu gỡ hòa phút chín mươi cộng năm, đem về điểm số World Cup đầu tiên cho Ka Ta.",
+      "subtitle": "Qatar hòa Switzerland 1-1 tại Levi's Stadium. Breel Embolo mở tỉ số trên chấm phạt đền phút 17, nhưng Boualem Khoukhi đánh đầu gỡ hòa phút 90+5, đem về điểm số World Cup đầu tiên cho Qatar.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "secondaryAccentColor": "#E31B23",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Bảng B | Lượt 1",
+      "venue": "Levi's Stadium, Santa Clara",
+      "date": "14.06.2026",
+      "time": "02:00",
+      "teams": [
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg",
+          "form": [
+            "W",
+            "D",
+            "L",
+            "W",
+            "L",
+            "D"
+          ]
+        },
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg",
+          "form": [
+            "W",
+            "W",
+            "D",
+            "W",
+            "W",
+            "D"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651031044203777302.mp4",
+          "trim": {
+            "start": 0,
+            "end": 6
+          },
+          "position": "background",
+          "opacity": 0.42,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.24
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "seasonLabel": "Group B | Matchday 1",
+      "ctaLabel": "Qatar 1-1 Switzerland",
+      "voiceText": "Một trận đấu tưởng như đã thuộc về Thụy Sĩ, lại đổi màu ở những giây cuối cùng.",
+      "subtitle": "Một trận đấu tưởng như đã thuộc về Switzerland, lại đổi màu ở những giây cuối cùng.",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651031044203777302.mp4",
+          "trim": {
+            "start": 44,
+            "end": 47
+          },
+          "position": "background",
+          "opacity": 0.34,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Qatar 1-1 Switzerland",
+      "subtext": "Khoukhi gỡ hòa phút 90+5",
+      "voiceText": "Full time: Ka Ta một, Thụy Sĩ một. Embolo ghi bàn từ chấm mười một mét, Thụy Sĩ sút tới hai mươi sáu lần, nhưng Khoukhi đã biến cú tạt của Homam Ahmed thành khoảnh khắc lịch sử.",
+      "subtitle": "Full-time: Qatar 1-1 Switzerland. Embolo ghi bàn từ chấm 11m, Switzerland sút tới 26 lần, nhưng Khoukhi đã biến cú tạt của Homam Ahmed thành khoảnh khắc lịch sử.",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026",
+      "minute": "FT",
+      "score": [
+        1,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        },
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.28
+        },
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "QAT",
+            "SUI"
+          ],
+          "score": [
+            1,
+            1
+          ],
+          "minute": "FT",
+          "label": "Group B"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "voiceText": "Ka Ta xuất phát với Mahmoud Abunada, Pedro Miguel, Issa Laye, Jassem Gaber, Ayoub Aloui, Homam Ahmed, Khoukhi, Madibo, Edmilson Junior, Akram Afif và Yusuf Abdurisag. Thụy Sĩ dùng Kobel, Elvedi, Akanji, Rodriguez, Zakaria, Freuler, Xhaka, Aebischer, Embolo, Ndoye và Vargas.",
+      "subtitle": "Qatar xuất phát với Mahmoud Abunada, Pedro Miguel, Issa Laye, Jassem Gaber, Ayoub Aloui, Homam Ahmed, Khoukhi, Madibo, Edmilson Junior, Akram Afif và Yusuf Abdurisag. Switzerland dùng Kobel, Elvedi, Akanji, Rodriguez, Zakaria, Freuler, Xhaka, Aebischer, Embolo, Ndoye và Vargas.",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH",
+      "venue": "Levi's Stadium",
+      "teams": [
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        },
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "5-2-3",
+          "players": [
+            "Mahmoud Abunada",
+            "Pedro Miguel",
+            "Issa Laye",
+            "Jassem Gaber",
+            "Ayoub Aloui",
+            "Homam Ahmed",
+            "Boualem Khoukhi",
+            "Assim Madibo",
+            "Edmilson Junior",
+            "Akram Afif",
+            "Yusuf Abdurisag"
+          ]
+        },
+        "away": {
+          "formation": "3-4-3",
+          "players": [
+            "Gregor Kobel",
+            "Nico Elvedi",
+            "Manuel Akanji",
+            "Ricardo Rodriguez",
+            "Denis Zakaria",
+            "Remo Freuler",
+            "Granit Xhaka",
+            "Michel Aebischer",
+            "Breel Embolo",
+            "Dan Ndoye",
+            "Ruben Vargas"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651031044203777302.mp4",
+          "trim": {
+            "start": 8,
+            "end": 16
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Starting XI",
+          "videoDescription": "Hai đội nhập trận với sức ép rất sớm",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#8A1538"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Khoukhi hóa người hùng",
+      "subtext": "Bàn gỡ phút 90+5",
+      "voiceText": "Boualem Khoukhi chọn đúng khoảnh khắc để bước ra ánh sáng. Cú đánh đầu phút chín mươi cộng năm không chỉ giữ lại một điểm, mà còn giúp Ka Ta có điểm số đầu tiên trong lịch sử World Cup.",
+      "subtitle": "Boualem Khoukhi chọn đúng khoảnh khắc để bước ra ánh sáng. Cú đánh đầu phút 90+5 không chỉ giữ lại 1 điểm, mà còn giúp Qatar có điểm số đầu tiên trong lịch sử World Cup.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "textColor": "#ffffff",
+      "player": "Boualem Khoukhi",
+      "team": "Qatar",
+      "number": "16",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "90+5",
+          "unit": "'"
+        },
+        {
+          "label": "Kết quả",
+          "value": "1-1"
+        },
+        {
+          "label": "Ý nghĩa",
+          "value": "Điểm WC đầu tiên"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651031044203777302.mp4",
+          "trim": {
+            "start": 44,
+            "end": 52
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Khoukhi 90+5'",
+          "videoDescription": "Cú đánh đầu kéo Qatar trở lại đúng phút bù giờ",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#8A1538"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtext": "Thụy Sĩ bỏ lỡ quá nhiều, Qatar trừng phạt cuối trận",
+      "voiceText": "Phút mười bảy, Embolo ghi bàn trên chấm phạt đền và Thụy Sĩ tưởng như đã mở được trận đấu. Sau giờ nghỉ, đội bóng áo đỏ tạo hàng loạt cơ hội, có lúc đã đạt hơn hai chỉ số bàn thắng kỳ vọng. Nhưng phút chín mươi cộng năm, Homam Ahmed tạt bóng, Khoukhi đánh đầu, và Levi's Stadium nổ tung.",
+      "subtitle": "Phút 17, Embolo ghi bàn trên chấm phạt đền và Switzerland tưởng như đã mở được trận đấu. Sau giờ nghỉ, đội bóng áo đỏ tạo hàng loạt cơ hội, có lúc đã đạt hơn 2 xG. Nhưng phút 90+5, Homam Ahmed tạt bóng, Khoukhi đánh đầu, và Levi's Stadium nổ tung.",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "17'",
+          "title": "0-1: Breel Embolo",
+          "desc": "Embolo sút phạt đền đưa Switzerland vượt lên."
+        },
+        {
+          "minute": "49'",
+          "title": "Abunada cứu thua",
+          "desc": "Thủ môn Qatar cản cú sút nguy hiểm của Xhaka."
+        },
+        {
+          "minute": "65'",
+          "title": "Switzerland thay đổi hàng công",
+          "desc": "Manzambi và Rieder vào sân để tìm bàn thứ hai."
+        },
+        {
+          "minute": "80'",
+          "title": "Qatar sống sót",
+          "desc": "Amdouni vào sân, Switzerland tiếp tục ép nhưng thiếu cú kết liễu."
+        },
+        {
+          "minute": "90+5'",
+          "title": "1-1: Boualem Khoukhi",
+          "desc": "Homam Ahmed tạt bóng, Khoukhi đánh đầu gỡ hòa."
+        },
+        {
+          "minute": "FT",
+          "title": "Qatar giữ lại lịch sử",
+          "desc": "Trận đấu khép lại với tỉ số 1-1."
+        }
+      ],
+      "visuals": {
+        "type": "football-ball-motion",
+        "duration": 4.2,
+        "top": "78%",
+        "size": 88
+      }
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Thụy Sĩ sút 26 lần vẫn không thắng",
+      "subtext": "Cơ hội nhiều, hiệu quả thấp",
+      "voiceText": "Thụy Sĩ tung hai mươi sáu cú sút và có thời điểm đạt chỉ số bàn thắng kỳ vọng hai phẩy ba hai, nhưng chỉ ghi một bàn. Ka Ta chịu áp lực gần như cả trận, song cú đánh đầu muộn khiến mọi thống kê trở nên cay đắng với Thụy Sĩ.",
+      "subtitle": "Switzerland tung 26 cú sút và có thời điểm đạt xG 2.32, nhưng chỉ ghi 1 bàn. Qatar chịu áp lực gần như cả trận, song cú đánh đầu muộn khiến mọi thống kê trở nên cay đắng với Switzerland.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [
+        1,
+        1
+      ],
+      "teams": [
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        },
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Cú sút",
+              "home": 8,
+              "away": 26
+            },
+            {
+              "label": "xG",
+              "home": 0.7,
+              "away": 2.32
+            },
+            {
+              "label": "Bàn thắng",
+              "home": 1,
+              "away": 1
+            },
+            {
+              "label": "Thẻ vàng",
+              "home": 2,
+              "away": 1
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#8A1538"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng B chia đều điểm số",
+      "subtext": "Cả bốn đội cùng có 1 điểm sau lượt mở màn",
+      "voiceText": "Bảng B trở nên cực kỳ cân bằng sau hai trận hòa. Canada và Bosnia hòa một một, rồi Ka Ta và Thụy Sĩ cũng hòa một một. Điều đó khiến lượt trận tiếp theo, Canada gặp Ka Ta và Thụy Sĩ gặp Bosnia, có sức nặng rất lớn.",
+      "subtitle": "Bảng B trở nên cực kỳ cân bằng sau hai trận hòa. Canada và Bosnia hòa 1-1, rồi Qatar và Switzerland cũng hòa 1-1. Điều đó khiến lượt trận tiếp theo, Canada gặp Qatar và Switzerland gặp Bosnia, có sức nặng rất lớn.",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "SƠ ĐỒ THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG XẾP HẠNG"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "QAT",
+        "SUI"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Canada",
+            "code": "CAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/canada.svg",
+            "badgeSrc": "assets/football/flags/canada.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Bosnia and Herzegovina",
+            "code": "BIH",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+            "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Qatar",
+            "code": "QAT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/qatar.svg",
+            "badgeSrc": "assets/football/flags/qatar.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Switzerland",
+            "code": "SUI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/switzerland.svg",
+            "badgeSrc": "assets/football/flags/switzerland.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651031044203777302.mp4",
+          "trim": {
+            "start": 49,
+            "end": 54
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Group B: 1-1",
+          "videoDescription": "Qatar và Switzerland cùng rời sân với 1 điểm",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#8A1538"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Thụy Sĩ đánh rơi chiến thắng?",
+      "subtext": "Bình luận ngay bên dưới",
+      "voiceText": "Theo bạn, Thụy Sĩ đã tự đánh rơi chiến thắng, hay Ka Ta xứng đáng với điểm số lịch sử này? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Switzerland đã tự đánh rơi chiến thắng, hay Qatar xứng đáng với điểm số lịch sử này? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "secondaryAccentColor": "#E31B23",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Qatar 1-1 Switzerland",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Nhập ý kiến: Thụy Sĩ tiếc nhất ở đâu?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "FOLLOW KÊNH",
+          "@vibe.bongda",
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651031044203777302.mp4",
+          "trim": {
+            "start": 49,
+            "end": 54
+          },
+          "position": "background",
+          "opacity": 0.36,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#8A1538"
+        }
+      ]
+    }
+  ]
+}

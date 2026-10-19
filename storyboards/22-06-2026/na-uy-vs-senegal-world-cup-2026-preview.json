@@ -1,0 +1,505 @@
+{
+  "title": "Na Uy vs Senegal: Sức mạnh tập thể đối đầu ngôi sao rực sáng",
+  "slug": "na-uy-vs-senegal-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Na Uy gặp Senegal ở bảng I World Cup 2026, quy đổi giờ Việt Nam là 07:00 ngày 23/06/2026. Lời đọc bảng I chuyển thành bảng Y để TTS đọc ổn định.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "ESPN - 2026 FIFA World Cup fixtures, results, match schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Na Uy vs Senegal",
+      "subtext": "Đại chiến giành ngôi đầu bảng I",
+      "voiceText": "Na Uy gặp Senegal lúc bảy giờ sáng ngày hai mươi ba tháng sáu theo giờ Việt Nam. Đây là trận đấu ở lượt trận thứ hai bảng Y World Cup hai không hai sáu, nơi cả hai đội đều khao khát điểm số để thực hiện mục tiêu đi tiếp.",
+      "subtitle": "Na Uy gặp Senegal lúc 07:00 ngày 23/06 theo giờ Việt Nam. Đây là trận đấu ở lượt trận thứ hai bảng I World Cup 2026, nơi cả hai đội đều khao khát điểm số để thực hiện mục tiêu đi tiếp.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group I - Matchday 2",
+      "venue": "MetLife Stadium, East Rutherford",
+      "date": "23/06/2026",
+      "time": "07:00 VN",
+      "teams": [
+        {
+          "name": "Na Uy",
+          "code": "NOR",
+          "form": "Thắng 4-1",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "form": "Thua 1-3",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Thử thách lớn cho Senegal",
+      "subtext": "Na Uy, Senegal, Pháp và Iraq",
+      "voiceText": "Trận đấu thuộc bảng Y World Cup hai không hai sáu. Đại diện châu Phi buộc phải giành điểm nếu không muốn đối mặt nguy cơ sớm bị loại.",
+      "subtitle": "Trận đấu thuộc bảng I World Cup 2026. Đại diện châu Phi buộc phải giành điểm nếu không muốn đối mặt nguy cơ sớm bị loại.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group I Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Na Uy giữ nguyên bộ khung thắng trận",
+      "voiceText": "Na Uy giữ nguyên đội hình tấn công mạnh mẽ với sự dẫn dắt của Ơ đơ gát và trung phong Ha lan. Senegal cũng sẽ ra sân với những quân bài tốt nhất như Ku li ba li ở hàng thủ và Ma nê trên hàng công.",
+      "subtitle": "Na Uy giữ nguyên đội hình tấn công mạnh mẽ với sự dẫn dắt của Ødegaard và trung phong Haaland. Senegal cũng sẽ ra sân với những quân bài tốt nhất như Koulibaly ở hàng thủ và Mané trên hàng công.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Na Uy",
+          "code": "NOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Na Uy",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "players": [
+            "Nyland",
+            "Ryerson",
+            "Østigård",
+            "Ajer",
+            "Meling",
+            "Berge",
+            "Ødegaard",
+            "Bobb",
+            "Nusa",
+            "Sørloth",
+            "Haaland"
+          ]
+        },
+        {
+          "team": "Senegal",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "players": [
+            "Mendy",
+            "Sabaly",
+            "Koulibaly",
+            "Niakhaté",
+            "Jakobs",
+            "Gueye",
+            "Pape Matar Sarr",
+            "Ismaïla Sarr",
+            "Ndiaye",
+            "Mané",
+            "Nicolas Jackson"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Lượt mở màn bảng I",
+      "voiceText": "Na Uy bước vào trận sau chiến thắng tưng bừng bốn một trước Y Rắc nhờ cú đúp của Ha lan. Trong khi đó, Senegal vừa phải nhận thất bại một ba trước Pháp và bộc lộ nhiều sơ hở khi đối đầu đối thủ chơi pressing.",
+      "subtitle": "Na Uy bước vào trận sau chiến thắng tưng bừng 4-1 trước Iraq nhờ cú đúp của Haaland. Trong khi đó, Senegal vừa phải nhận thất bại 1-3 trước Pháp và bộc lộ nhiều sơ hở khi đối đầu đối thủ chơi pressing.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Na Uy",
+      "awayTeam": "Senegal",
+      "teams": [
+        {
+          "name": "Na Uy",
+          "code": "NOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/senegal.svg",
+          "badgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "17/06/2026",
+          "home": "Iraq",
+          "away": "Na Uy",
+          "score": "1-4",
+          "note": "Na Uy thắng tưng bừng",
+          "homeBadgeSrc": "assets/football/flags/iraq.svg",
+          "awayBadgeSrc": "assets/football/flags/norway.svg"
+        },
+        {
+          "date": "17/06/2026",
+          "home": "Pháp",
+          "away": "Senegal",
+          "score": "3-1",
+          "note": "Senegal thua đáng tiếc",
+          "homeBadgeSrc": "assets/football/flags/france.svg",
+          "awayBadgeSrc": "assets/football/flags/senegal.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Phong độ Na Uy",
+          "value": "Thắng 4-1"
+        },
+        {
+          "label": "Phong độ Senegal",
+          "value": "Thua 1-3"
+        },
+        {
+          "label": "Dự đoán",
+          "value": "Na Uy thắng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Phong độ tấn công",
+              "home": 88,
+              "away": 65
+            },
+            {
+              "label": "Cơ hội đi tiếp",
+              "home": 94,
+              "away": 40
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Ngăn chặn Haaland",
+      "subtext": "Nhiệm vụ khó khăn của hàng thủ Senegal",
+      "voiceText": "Na Uy đang có đà hưng phấn nhờ sức mạnh tuyến trên, nhưng Senegal đủ thể lực và độ quái để biến trận đấu thành một màn đôi công sòng phẳng.",
+      "subtitle": "Na Uy đang có đà hưng phấn nhờ sức mạnh tuyến trên, nhưng Senegal đủ thể lực và độ quái để biến trận đấu thành một màn đôi công sòng phẳng.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Na Uy đang có đà hưng phấn nhờ sức mạnh tuyến trên, nhưng Senegal đủ thể lực và độ quái để biến trận đấu thành một màn đôi công sòng phẳng.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng I sau lượt đầu",
+      "subtext": "Na Uy tạm dẫn đầu",
+      "voiceText": "Na Uy đang tạm dẫn đầu bảng Y nhờ có hiệu số tốt hơn Pháp. Trận đấu trực tiếp này sẽ quyết định rất lớn tới tấm vé đi tiếp của cả Na Uy và Senegal ở bảng đấu gay cấn này.",
+      "subtitle": "Na Uy đang tạm dẫn đầu bảng I nhờ có hiệu số tốt hơn Pháp. Trận đấu trực tiếp này sẽ quyết định rất lớn tới tấm vé đi tiếp của cả Na Uy và Senegal ở bảng đấu gay cấn này.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group I",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "Trận đấu",
+        "Đội hình",
+        "Thống kê",
+        "Bảng xếp hạng"
+      ],
+      "highlightTeams": [
+        "Na Uy",
+        "Senegal"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "rank": 1,
+          "position": 1,
+          "team": {
+            "name": "Na Uy",
+            "code": "NOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/norway.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 1,
+          "won": 1,
+          "w": 1,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 3,
+          "points": 3,
+          "highlight": true
+        },
+        {
+          "pos": 2,
+          "rank": 2,
+          "position": 2,
+          "team": {
+            "name": "Pháp",
+            "code": "FRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/france.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 1,
+          "won": 1,
+          "w": 1,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "pts": 3,
+          "points": 3
+        },
+        {
+          "pos": 3,
+          "rank": 3,
+          "position": 3,
+          "team": {
+            "name": "Senegal",
+            "code": "SEN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/senegal.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 1,
+          "lost": 1,
+          "l": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "pts": 0,
+          "points": 0,
+          "highlight": true
+        },
+        {
+          "pos": 4,
+          "rank": 4,
+          "position": 4,
+          "team": {
+            "name": "Iraq",
+            "code": "IRQ",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/iraq.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 1,
+          "lost": 1,
+          "l": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "pts": 0,
+          "points": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Bình luận bên dưới",
+      "voiceText": "Bạn dự đoán Na Uy sẽ giành trọn ba điểm, hay Senegal sẽ tạo ra bất ngờ? Hãy để lại bình luận phía dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Na Uy sẽ giành trọn 3 điểm, hay Senegal sẽ tạo ra bất ngờ? Hãy để lại bình luận phía dưới. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Na Uy hay Senegal sẽ thắng?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Na Uy",
+          "Senegal"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

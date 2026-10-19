@@ -1,0 +1,436 @@
+{
+  "title": "South Africa vs South Korea: Trận chiến sinh tử tranh vé đi tiếp World Cup 2026",
+  "slug": "south-africa-vs-south-korea-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận South Africa vs South Korea tại lượt cuối bảng A World Cup 2026, diễn ra lúc 08:00 ngày 25/06/2026 giờ Việt Nam. South Korea cần ít nhất 1 điểm, trong khi South Africa bắt buộc phải thắng.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Schedule and Standings",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "South Africa vs South Korea",
+      "subtext": "Trận cầu quyết định tấm vé đi tiếp",
+      "voiceText": "Nam Phi chạm trán Hàn Quốc lúc tám giờ sáng ngày hai mươi lăm tháng sáu theo giờ Việt Nam. Đây là trận chiến sinh tử tại Estadio Monterrey để tranh tấm vé thứ hai vào vòng knock out của bảng A.",
+      "subtitle": "South Africa chạm trán Korea Republic lúc 08:00 ngày 25/06 theo giờ Việt Nam. Đây là trận chiến sinh tử tại Estadio Monterrey để tranh tấm vé thứ hai vào vòng knockout của bảng A.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group A - Matchday 3",
+      "venue": "Estadio Monterrey, Monterrey",
+      "date": "25/06/2026",
+      "time": "08:00 VN",
+      "teams": [
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "form": "GD -2",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        },
+        {
+          "name": "Korea Republic",
+          "code": "KOR",
+          "form": "GD 0",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/korea-republic.svg",
+          "badgeSrc": "assets/football/flags/korea-republic.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Tấm vé thứ hai bảng A",
+      "subtext": "Hàn Quốc nắm lợi thế chỉ cần hòa",
+      "voiceText": "Hàn Quốc đang nắm lợi thế lớn khi chỉ cần một kết quả hòa là chắc chắn giành vé đi tiếp. Trong khi đó, Nam Phi bắt buộc phải thắng nếu không muốn sớm xách va li về nước.",
+      "subtitle": "Hàn Quốc đang nắm lợi thế lớn khi chỉ cần 1 kết quả hòa là chắc chắn giành vé đi tiếp. Trong khi đó, South Africa bắt buộc phải thắng nếu không muốn sớm xách vali về nước.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group A Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "South Africa vs Korea Republic | 25/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Nam Phi mất trụ cột vì án phạt",
+      "voiceText": "Tổn thất cực lớn cho Nam Phi khi cả Mokoena và Themba Zwane đều bị treo giò. Huấn luyện viên Hugo Broos phải đưa Yaya Sithole đá chính trong sơ đồ bốn ba ba. Phía bên kia, Hàn Quốc ra sân với sơ đồ ba bốn hai một, đặt trọn niềm tin vào Lee Kang in và đội trưởng Son Heung Min.",
+      "subtitle": "Tổn thất cực lớn cho South Africa khi cả Mokoena và Themba Zwane đều bị treo giò. Huấn luyện viên Hugo Broos phải đưa Yaya Sithole đá chính trong sơ đồ 4-3-3. Phía bên kia, Korea Republic ra sân với sơ đồ 3-4-2-1, đặt trọn niềm tin vào Lee Kang-in và đội trưởng Son Heung-min.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg"
+        },
+        {
+          "name": "Korea Republic",
+          "code": "KOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/korea-republic.svg",
+          "badgeSrc": "assets/football/flags/korea-republic.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "R. Williams",
+            "K. Mudau",
+            "I. Okon",
+            "M. Mbokazi",
+            "A. Modiba",
+            "J. Adams",
+            "S. Sithole",
+            "R. Mofokeng",
+            "O. Appollis",
+            "T. Maseko",
+            "E. Makgopa"
+          ]
+        },
+        "away": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Kim Seung-gyu",
+            "Lee Gi-Hyuk",
+            "Kim Min-Jae",
+            "Lee Han-Beom",
+            "Seol Young-Woo",
+            "Paik Seung-Ho",
+            "Hwang In-beom",
+            "Kim Moon-Hwan",
+            "Lee Kang-in",
+            "Lee Jae-sung",
+            "Son Heung-min"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Phong độ tại vòng bảng",
+      "subtext": "Hai đội chưa từng gặp nhau",
+      "voiceText": "Hai đội chưa từng đối đầu trong lịch sử. Tại giải năm nay, Hàn Quốc vừa thua Mexico không một, còn Nam Phi vất vả hòa Cộng Hòa Sec một đều nhờ cú sút phạt đền cuối trận của Mokoena.",
+      "subtitle": "Hai đội chưa từng đối đầu trong lịch sử. Tại giải năm nay, Korea Republic vừa thua Mexico 0-1, còn South Africa vất vả hòa Czechia 1-1 nhờ cú sút phạt đền cuối trận của Mokoena.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "South Africa",
+      "awayTeam": "Korea Republic",
+      "h2hMatches": [
+        {
+          "date": "19/06/2026",
+          "home": "Mexico",
+          "away": "Korea Republic",
+          "score": "1-0",
+          "note": "Hàn Quốc thua sát nút ở lượt hai",
+          "homeBadgeSrc": "assets/football/flags/mexico.svg",
+          "awayBadgeSrc": "assets/football/flags/korea-republic.svg"
+        },
+        {
+          "date": "19/06/2026",
+          "home": "Czechia",
+          "away": "South Africa",
+          "score": "1-1",
+          "note": "Nam Phi giật lại một điểm từ penalty",
+          "homeBadgeSrc": "assets/football/flags/czechia.svg",
+          "awayBadgeSrc": "assets/football/flags/south-africa.svg"
+        },
+        {
+          "date": "12/06/2026",
+          "home": "Korea Republic",
+          "away": "Czechia",
+          "score": "2-1",
+          "note": "Hàn Quốc khởi đầu thuận lợi ở lượt một",
+          "homeBadgeSrc": "assets/football/flags/korea-republic.svg",
+          "awayBadgeSrc": "assets/football/flags/czechia.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Cửa đi tiếp rộng mở",
+          "value": "Korea Republic"
+        },
+        {
+          "label": "Quyết tâm lách khe hẹp",
+          "value": "South Africa"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Tốc độ của Son Heung-min"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Khả năng phòng ngự",
+              "home": 60,
+              "away": 80
+            },
+            {
+              "label": "Tốc độ phản công",
+              "home": 75,
+              "away": 85
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trước trận",
+      "quote": "Nam Phi mất đi hai tiền vệ trụ cột quan trọng nhất, đây là cơ hội vàng để Hwang In-beom và Lee Kang-in làm chủ tuyến giữa.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Sự thiếu vắng Mokoena và Themba Zwane sẽ khiến tuyến giữa Nam Phi rất yếu. Hàn Quốc sẽ dễ dàng kiểm soát trận đấu và tung ra các pha phản công sắc lẹm.",
+      "subtitle": "Sự thiếu vắng Mokoena và Themba Zwane sẽ khiến tuyến giữa South Africa rất yếu. Korea Republic sẽ dễ dàng kiểm soát trận đấu và tung ra các pha phản công sắc lẹm.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng A",
+      "subtext": "Xếp hạng trước lượt trận cuối",
+      "voiceText": "Lúc này, Mexico đứng đầu với sáu điểm và đã chắc suất đi tiếp. Hàn Quốc có ba điểm đứng nhì bảng, Cộng Hòa Sec và Nam Phi xếp sau với cùng một điểm.",
+      "subtitle": "Lúc này, Mexico đứng đầu với 6 điểm và đã chắc suất đi tiếp. Hàn Quốc có 3 điểm đứng nhì bảng, Czechia và South Africa xếp sau với cùng 1 điểm.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group A Standings",
+      "highlightTeams": [
+        "South Africa",
+        "Korea Republic"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Mexico",
+            "code": "MEX",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/mexico.svg"
+          },
+          "played": 2,
+          "points": 6,
+          "gd": "+3"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Korea Republic",
+            "code": "KOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/korea-republic.svg"
+          },
+          "played": 2,
+          "points": 3,
+          "gd": "0"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Czechia",
+            "code": "CZE",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/czechia.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-1"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "South Africa",
+            "code": "RSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/south-africa.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-2"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "DỰ ĐOÁN TỈ SỐ?",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn tin Hàn Quốc sẽ dễ dàng đi tiếp, hay Nam Phi sẽ lật đổ đại diện châu Á? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn tin Korea Republic sẽ dễ dàng đi tiếp, hay South Africa sẽ lật đổ đại diện châu Á? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số South Africa vs Korea Republic",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

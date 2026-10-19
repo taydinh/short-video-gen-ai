@@ -1,0 +1,460 @@
+{
+  "title": "Mexico vs Ecuador: Chủ nhà gặp bài test La Tri cực lì",
+  "slug": "mexico-vs-ecuador-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Mexico vs Ecuador tại vòng 32 đội World Cup 2026, diễn ra lúc 08:00 ngày 01/07/2026 theo giờ Việt Nam tại Mexico City Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - Mexico v Ecuador World Cup Round of 32 match preview",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mexico-ecuador-live-stream-team-news-tickets"
+    },
+    {
+      "title": "FIFA - Mexico v Ecuador match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021520"
+    },
+    {
+      "title": "FOX Sports - Mexico round of 32 opponent",
+      "url": "https://www.foxsports.com/stories/soccer/mexico-world-cup-ecuador-round-of-32"
+    },
+    {
+      "title": "Sports Mole - Mexico vs Ecuador prediction, team news and lineups",
+      "url": "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/preview/mexico-vs-ecuador-prediction-team-news-lineups_600278.html"
+    },
+    {
+      "title": "RotoWire - Mexico vs Ecuador predicted lineups and tactical analysis",
+      "url": "https://www.rotowire.com/soccer/article/mexico-vs-ecuador-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120218"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "MEXICO VS ECUADOR",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Tám giờ sáng, ngày mùng một tháng bảy theo giờ Việt Nam, Mexico gặp Ecuador tại Mexico City Stadium. Chủ nhà Mexico đang bay với ba trận toàn thắng và chưa thủng lưới, còn Ecuador thì mang đúng kiểu bóng đá Nam Mỹ: không ồn ào, nhưng đến là đón, đụng là trụng.",
+      "subtitle": "08:00 ngày 01/07 theo giờ Việt Nam, Mexico gặp Ecuador tại Mexico City Stadium. Chủ nhà Mexico đang bay với 3 trận toàn thắng và chưa thủng lưới, còn Ecuador thì mang đúng kiểu bóng đá Nam Mỹ: không ồn ào, nhưng đến là đón, đụng là trụng.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Mexico City Stadium",
+      "date": "01/07/2026",
+      "time": "08:00 VN",
+      "teams": [
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "teamType": "national",
+          "form": ["W", "W", "W"],
+          "flagSrc": "assets/football/flags/mexico.svg",
+          "badgeSrc": "assets/football/flags/mexico.svg"
+        },
+        {
+          "name": "Ecuador",
+          "code": "ECU",
+          "teamType": "national",
+          "form": ["L", "D", "W"],
+          "flagSrc": "assets/football/flags/ecuador.svg",
+          "badgeSrc": "assets/football/flags/ecuador.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Chủ nhà vào knock-out, áp lực cũng vào theo",
+      "voiceText": "Mexico nhất bảng A với chín điểm tuyệt đối, còn Ecuador vượt qua bảng E nhờ hàng thủ lì và cú nước rút rất đáng nể. Một bên có lợi thế sân nhà, một bên có khả năng biến trận đấu thành bài kiểm tra thể lực buổi sáng.",
+      "subtitle": "Mexico nhất bảng A với 9 điểm tuyệt đối, còn Ecuador vượt qua bảng E nhờ hàng thủ lì và cú nước rút rất đáng nể. Một bên có lợi thế sân nhà, một bên có khả năng biến trận đấu thành bài kiểm tra thể lực buổi sáng.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Mexico vs Ecuador | 01/07/2026 VN",
+      "ctaLabel": "Kickoff 08:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Raúl Jiménez đấu Enner Valencia",
+      "voiceText": "Mexico dự kiến dùng sơ đồ bốn ba ba, với Rangel trong khung gỗ, Montes và Vasquez giữ trung tâm hàng thủ, Lira và Romo cân tuyến giữa, còn Alvarado, Raul Jimenez và Quinones là bộ ba phía trên. Ecuador thiên về bốn bốn hai, Galindez bắt chính, Pacho và Hincapie làm khung phòng ngự, Caicedo kéo nhịp, còn Plata và Enner Valencia chờ thời cơ phản đòn.",
+      "subtitle": "Mexico dự kiến dùng sơ đồ 4-3-3, với Rangel trong khung gỗ, Montes và Vásquez giữ trung tâm hàng thủ, Lira và Romo cân tuyến giữa, còn Alvarado, Raúl Jiménez và Quiñones là bộ ba phía trên. Ecuador thiên về 4-4-2, Galíndez bắt chính, Pacho và Hincapié làm khung phòng ngự, Caicedo kéo nhịp, còn Plata và Enner Valencia chờ thời cơ phản đòn.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "Mexico City Stadium",
+      "teams": [
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/mexico.svg",
+          "badgeSrc": "assets/football/flags/mexico.svg"
+        },
+        {
+          "name": "Ecuador",
+          "code": "ECU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ecuador.svg",
+          "badgeSrc": "assets/football/flags/ecuador.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Rangel",
+            "Sanchez",
+            "Montes",
+            "Vasquez",
+            "Gallardo",
+            "Lira",
+            "Romo",
+            "Gutierrez",
+            "Alvarado",
+            "Jimenez",
+            "Quinones"
+          ]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": [
+            "Galindez",
+            "Franco",
+            "Ordonez",
+            "Pacho",
+            "Hincapie",
+            "Yeboah",
+            "Caicedo",
+            "Vite",
+            "Angulo",
+            "Plata",
+            "Valencia"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Mexico nhỉnh nhờ sân nhà, Ecuador không dễ bẻ",
+      "voiceText": "Lịch sử nghiêng về Mexico: hai đội từng gặp nhau hai mươi lăm lần, Mexico thắng mười bốn, Ecuador thắng bốn và hòa bảy. World Cup hai không lẻ hai, Mexico cũng thắng Ecuador hai một. Nhưng kèo này không thơm kiểu mở ra là ăn ngay, vì Ecuador phòng ngự rất rắn, còn Mexico sẽ phải đá dưới áp lực sân nhà, thứ vừa là động lực, vừa là cái loa phóng thanh đặt cạnh tai.",
+      "subtitle": "Lịch sử nghiêng về Mexico: hai đội từng gặp nhau 25 lần, Mexico thắng 14, Ecuador thắng 4 và hòa 7. World Cup 2002, Mexico cũng thắng Ecuador 2-1. Nhưng kèo này không thơm kiểu mở ra là ăn ngay, vì Ecuador phòng ngự rất rắn, còn Mexico sẽ phải đá dưới áp lực sân nhà, thứ vừa là động lực, vừa là cái loa phóng thanh đặt cạnh tai.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/mexico.svg",
+          "badgeSrc": "assets/football/flags/mexico.svg"
+        },
+        {
+          "name": "Ecuador",
+          "code": "ECU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ecuador.svg",
+          "badgeSrc": "assets/football/flags/ecuador.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "Mexico", "Ecuador", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Nhỉnh hơn",
+            "x12": "Có upset",
+            "hdp": "Mexico sáng nhờ sân nhà"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Kiểm soát, áp lực",
+            "x12": "Phòng ngự, phản công",
+            "hdp": "Dễ là trận ít bàn"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "Romo, Jiménez",
+            "x12": "Caicedo, Valencia",
+            "hdp": "Trung tuyến quyết định thế trận"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "09/06/2002",
+          "competition": "World Cup",
+          "home": "Mexico",
+          "away": "Ecuador",
+          "score": "2-1",
+          "homeBadgeSrc": "assets/football/flags/mexico.svg",
+          "awayBadgeSrc": "assets/football/flags/ecuador.svg"
+        },
+        {
+          "kickoff": "Vòng bảng 2026",
+          "competition": "World Cup",
+          "home": "Mexico",
+          "away": "Group A",
+          "score": "3W-0D-0L",
+          "homeBadgeSrc": "assets/football/flags/mexico.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 55,
+              "away": 45
+            },
+            {
+              "label": "Độ lì phòng ngự",
+              "home": 51,
+              "away": 49
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng",
+      "subtext": "Mexico cửa trên nhẹ, Ecuador không dễ nằm im",
+      "quote": "Mexico có lợi thế sân nhà và mạch thắng sạch lưới, nhưng Ecuador đủ tốc độ để khiến trận đấu bị kéo vào thế giằng co. Pha bóng hai và khoảng trống sau lưng hậu vệ biên sẽ rất đáng xem.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Nhìn kèo này, Mexico là cửa trên nhẹ nhờ sân nhà, phong độ sạch lưới và nhịp pressing khá ổn. Nhưng Ecuador không phải đội dễ vỡ, họ đá thấp, tranh chấp khỏe và chờ phản công rất lì. Nhận định của tôi là Mexico sáng hơn trong chín mươi phút, nhưng nếu chấp sâu thì nên cân nhắc, vì kịch bản thắng sát nút, hoặc kéo sang hiệp phụ không hề vô lý.",
+      "subtitle": "Nhìn kèo này, Mexico là cửa trên nhẹ nhờ sân nhà, phong độ sạch lưới và nhịp pressing khá ổn. Nhưng Ecuador không phải đội dễ vỡ, họ đá thấp, tranh chấp khỏe và chờ phản công rất lì. Nhận định của tôi là Mexico sáng hơn trong 90 phút, nhưng nếu chấp sâu thì nên cân nhắc, vì kịch bản thắng sát nút hoặc kéo sang hiệp phụ không hề vô lý.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng sẽ gặp England hoặc DR Congo lúc 07:00 ngày 06/07 VN",
+      "voiceText": "Ở nhánh này, trận England gặp DR Congo sẽ đá lúc hai mươi ba giờ, ngày mùng một tháng bảy theo giờ Việt Nam. Đội nào thắng trận Mexico, Ecuador, sẽ gặp đội thắng cặp đó ở vòng mười sáu đội, lúc bảy giờ sáng, ngày mùng sáu tháng bảy theo giờ Việt Nam, cũng tại Mexico City. Tức là nếu Mexico đi tiếp, bữa tiệc sân nhà vẫn còn, nhưng khách mời thì có thể rất khó chiều.",
+      "subtitle": "Ở nhánh này, trận England gặp DR Congo sẽ đá lúc 23:00 ngày 01/07 theo giờ Việt Nam. Đội nào thắng trận Mexico gặp Ecuador, sẽ gặp đội thắng cặp đó ở vòng 16 đội, lúc 07:00 ngày 06/07 theo giờ Việt Nam, cũng tại Mexico City. Tức là nếu Mexico đi tiếp, bữa tiệc sân nhà vẫn còn, nhưng khách mời thì có thể rất khó chiều.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "England",
+          "away": "DR Congo",
+          "score": "23:00 01/07 VN",
+          "note": "Atlanta Stadium | Đội thắng chờ ở nhánh tiếp theo",
+          "homeBadgeSrc": "assets/football/flags/england.svg",
+          "awayBadgeSrc": "assets/football/flags/dr-congo.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Winner Mexico/Ecuador",
+          "away": "Winner England/DR Congo",
+          "score": "07:00 06/07 VN",
+          "note": "Mexico City Stadium | Match 92",
+          "homeBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Mexico mở hội hay Ecuador kéo căng dây thần kinh?",
+      "voiceText": "Theo bạn, Mexico sẽ phá dớp knock-out bằng một trận thắng gọn, hay Ecuador kéo chủ nhà vào trận đấu căng như dây đàn lúc tám giờ sáng? Bình luận tỉ số và nhận định kèo nhẹ nhàng của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Mexico sẽ phá dớp knock-out bằng một trận thắng gọn, hay Ecuador kéo chủ nhà vào trận đấu căng như dây đàn lúc 8 giờ sáng? Bình luận tỉ số và nhận định kèo nhẹ nhàng của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Mexico vs Ecuador",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Mexico",
+          "Ecuador",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

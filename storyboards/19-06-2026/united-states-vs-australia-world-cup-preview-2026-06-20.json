@@ -1,0 +1,407 @@
+{
+  "title": "United States vs Australia: preview World Cup 2026",
+  "slug": "united-states-vs-australia-world-cup-preview-2026-06-20",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview United States - Australia, 02:00 VN ngày 20/06/2026 theo giờ Việt Nam UTC+7.",
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 - scores and fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "name": "ESPN World Cup schedule and results",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "name": "ESPN match center: United States vs Australia",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760442/australia-united-states"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Hoa Kỳ gặp Australia lúc hai giờ sáng, ngày hai mươi tháng sáu theo giờ Việt Nam. Cả hai đều toàn thắng ở lượt mở màn bảng Đê.",
+      "subtitle": "Hoa Kỳ gặp Australia lúc hai giờ sáng, ngày hai mươi tháng sáu theo giờ Việt Nam. Cả hai đều toàn thắng ở lượt mở màn bảng Đê.",
+      "title": "United States vs Australia",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group D - Matchday 2",
+      "venue": "Lumen Field",
+      "date": "20/06/2026",
+      "time": "02:00 VN",
+      "teams": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg",
+          "form": "Thắng Paraguay 4-1"
+        },
+        {
+          "name": "Australia",
+          "code": "AUS",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/australia.svg",
+          "badgeSrc": "assets/football/flags/australia.svg",
+          "form": "Thắng Türkiye 2-0"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Hoa Kỳ có lợi thế sân nhà và hàng công đang hưng phấn. Australia bước vào trận với khối phòng ngự chắc chắn cùng khả năng phản công trực diện.",
+      "subtitle": "Hoa Kỳ có lợi thế sân nhà và hàng công đang hưng phấn. Australia bước vào trận với khối phòng ngự chắc chắn cùng khả năng phản công trực diện.",
+      "title": "Bảng D",
+      "competitionLabel": "Group D Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "United States vs Australia | 20/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Hoa Kỳ có thể tiếp tục với Freese, Richards, Adams, Reyna, Pulisic và Balogun. Australia dự kiến dựa vào Souttar, Irvine, McGree và Irankunda.",
+      "subtitle": "Hoa Kỳ có thể tiếp tục với Freese, Richards, Adams, Reyna, Pulisic và Balogun. Australia dự kiến dựa vào Souttar, Irvine, McGree và Irankunda.",
+      "title": "Đội hình dự kiến",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg"
+        },
+        {
+          "name": "Australia",
+          "code": "AUS",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/australia.svg",
+          "badgeSrc": "assets/football/flags/australia.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Matt Freese",
+            "Sergino Dest",
+            "Chris Richards",
+            "Tim Ream",
+            "Antonee Robinson",
+            "Tyler Adams",
+            "Johnny Cardoso",
+            "Gio Reyna",
+            "Christian Pulisic",
+            "Tim Weah",
+            "Folarin Balogun"
+          ]
+        },
+        "away": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Mat Ryan",
+            "Harry Souttar",
+            "Kye Rowles",
+            "Cameron Burgess",
+            "Lewis Miller",
+            "Jackson Irvine",
+            "Aiden ONeill",
+            "Aziz Behich",
+            "Riley McGree",
+            "Nestory Irankunda",
+            "Kusini Yengi"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Hai đội từng gặp nhau ở giao hữu, nhưng bối cảnh World Cup sẽ khác. Cuộc đấu giữa pressing của Hoa Kỳ và bóng dài của Australia là điểm then chốt.",
+      "subtitle": "Hai đội từng gặp nhau ở giao hữu, nhưng bối cảnh World Cup sẽ khác. Cuộc đấu giữa pressing của Hoa Kỳ và bóng dài của Australia là điểm then chốt.",
+      "title": "Đối đầu và điểm nóng",
+      "homeTeam": "United States",
+      "awayTeam": "Australia",
+      "h2hMatches": [
+        {
+          "date": "Lịch sử đối đầu",
+          "home": "United States",
+          "away": "Australia",
+          "score": "Cân bằng",
+          "note": "World Cup đòi hỏi cách tiếp cận thận trọng",
+          "homeBadgeSrc": "assets/football/flags/united-states.svg",
+          "awayBadgeSrc": "assets/football/flags/australia.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Sân nhà",
+          "value": "USA"
+        },
+        {
+          "label": "Không chiến",
+          "value": "Australia"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Bóng hai"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Đội thắng gần như sẽ kiểm soát ngôi đầu bảng Đê trước lượt cuối.",
+      "subtitle": "Đội thắng gần như sẽ kiểm soát ngôi đầu bảng Đê trước lượt cuối.",
+      "title": "Điểm nóng trước trận",
+      "quote": "Hoa Kỳ cần tránh để Australia biến trận đấu thành cuộc chiến bóng hai.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Hoa Kỳ dẫn bảng Đê với ba điểm và hiệu số cộng ba. Australia cũng có ba điểm, đứng thứ hai với hiệu số cộng hai.",
+      "subtitle": "Hoa Kỳ dẫn bảng Đê với ba điểm và hiệu số cộng ba. Australia cũng có ba điểm, đứng thứ hai với hiệu số cộng hai.",
+      "title": "Bảng D trước trận",
+      "competitionLabel": "Group D",
+      "highlightTeams": [
+        "United States",
+        "Australia"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "United States",
+            "code": "USA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/united-states.svg",
+            "badgeSrc": "assets/football/flags/united-states.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": 3,
+          "pts": 3
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Australia",
+            "code": "AUS",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/australia.svg",
+            "badgeSrc": "assets/football/flags/australia.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": 2,
+          "pts": 3
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Türkiye",
+            "code": "TUR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/turkiye.svg",
+            "badgeSrc": "assets/football/flags/turkiye.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gd": -2,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Paraguay",
+            "code": "PAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/paraguay.svg",
+            "badgeSrc": "assets/football/flags/paraguay.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gd": -3,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Hoa Kỳ hay Australia sẽ chiếm ngôi đầu bảng Đê? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Hoa Kỳ hay Australia sẽ chiếm ngôi đầu bảng D? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Hoa Kỳ hay Australia sẽ chiếm ngôi đầu bảng Đê?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

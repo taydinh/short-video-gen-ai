@@ -1,0 +1,407 @@
+{
+  "title": "Brazil vs Haiti: preview World Cup 2026",
+  "slug": "brazil-vs-haiti-world-cup-preview-2026-06-20",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Brazil - Haiti, 08:00 VN ngày 20/06/2026 theo giờ Việt Nam UTC+7.",
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 - scores and fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "name": "ESPN World Cup schedule and results",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    },
+    {
+      "name": "ESPN World Cup scoreboard",
+      "url": "https://www.espn.com/soccer/scoreboard/_/league/fifa.world/date/20260619"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Brazil gặp Haiti lúc tám giờ sáng, ngày hai mươi tháng sáu theo giờ Việt Nam. Brazil cần chiến thắng sau trận hòa mở màn, còn Haiti vẫn nuôi hy vọng tạo địa chấn.",
+      "subtitle": "Brazil gặp Haiti lúc tám giờ sáng, ngày hai mươi tháng sáu theo giờ Việt Nam. Brazil cần chiến thắng sau trận hòa mở màn, còn Haiti vẫn nuôi hy vọng tạo địa chấn.",
+      "title": "Brazil vs Haiti",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group C - Matchday 2",
+      "venue": "Lincoln Financial Field",
+      "date": "20/06/2026",
+      "time": "08:00 VN",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg",
+          "form": "Hòa Morocco 1-1"
+        },
+        {
+          "name": "Haiti",
+          "code": "HAI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/haiti.svg",
+          "badgeSrc": "assets/football/flags/haiti.svg",
+          "form": "Thua Scotland 0-1"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Brazil chịu áp lực phải tăng tốc cuộc đua bảng C. Haiti nhiều khả năng phòng ngự thấp và chờ cơ hội phản công.",
+      "subtitle": "Brazil chịu áp lực phải tăng tốc cuộc đua bảng C. Haiti nhiều khả năng phòng ngự thấp và chờ cơ hội phản công.",
+      "title": "Bảng C",
+      "competitionLabel": "Group C Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Brazil vs Haiti | 20/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Brazil dự kiến dùng bốn ba ba với Alisson, Marquinhos, Bruno Guimaraes, Vinicius Junior, Rodrygo và Raphinha. Haiti có thể tổ chức bốn hai ba một quanh Pierrot.",
+      "subtitle": "Brazil dự kiến dùng bốn ba ba với Alisson, Marquinhos, Bruno Guimaraes, Vinicius Junior, Rodrygo và Raphinha. Haiti có thể tổ chức bốn hai ba một quanh Pierrot.",
+      "title": "Đội hình dự kiến",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Haiti",
+          "code": "HAI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/haiti.svg",
+          "badgeSrc": "assets/football/flags/haiti.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Alisson",
+            "Vanderson",
+            "Marquinhos",
+            "Gabriel Magalhaes",
+            "Guilherme Arana",
+            "Bruno Guimaraes",
+            "Andre",
+            "Lucas Paqueta",
+            "Raphinha",
+            "Rodrygo",
+            "Vinicius Junior"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Johny Placide",
+            "Carlens Arcus",
+            "Ricardo Ade",
+            "Garven Metusala",
+            "Alex Christian",
+            "Danley Jean Jacques",
+            "Leverton Pierre",
+            "Duckens Nazon",
+            "Frantzdy Pierrot",
+            "Fafa Picault",
+            "Louicius Don Deedson"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Brazil từng thắng Haiti ở các lần đối đầu trước, nhưng nhiệm vụ lần này là phá khối phòng ngự thấp mà không để lộ khoảng trống phản công.",
+      "subtitle": "Brazil từng thắng Haiti ở các lần đối đầu trước, nhưng nhiệm vụ lần này là phá khối phòng ngự thấp mà không để lộ khoảng trống phản công.",
+      "title": "Đối đầu và điểm nóng",
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "h2hMatches": [
+        {
+          "date": "Copa América 2016",
+          "home": "Brazil",
+          "away": "Haiti",
+          "score": "7-1",
+          "note": "Brazil áp đảo trong lần gặp gần nhất",
+          "homeBadgeSrc": "assets/football/flags/brazil.svg",
+          "awayBadgeSrc": "assets/football/flags/haiti.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Kiểm soát",
+          "value": "Brazil"
+        },
+        {
+          "label": "Phản công",
+          "value": "Haiti"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Bàn sớm"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Brazil cần bàn thắng sớm để trận đấu đi đúng nhịp. Nếu Haiti giữ sạch lưới lâu, áp lực sẽ tăng rất nhanh.",
+      "subtitle": "Brazil cần bàn thắng sớm để trận đấu đi đúng nhịp. Nếu Haiti giữ sạch lưới lâu, áp lực sẽ tăng rất nhanh.",
+      "title": "Điểm nóng trước trận",
+      "quote": "Thử thách của Brazil không chỉ là thắng, mà còn phải cải thiện hiệu số.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Scotland dẫn bảng C với ba điểm. Brazil và Ma rốc cùng có một điểm, còn Haiti đứng cuối sau thất bại tối thiểu.",
+      "subtitle": "Scotland dẫn bảng C với ba điểm. Brazil và Ma rốc cùng có một điểm, còn Haiti đứng cuối sau thất bại tối thiểu.",
+      "title": "Bảng C trước trận",
+      "competitionLabel": "Group C",
+      "highlightTeams": [
+        "Brazil",
+        "Haiti"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Scotland",
+            "code": "SCO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/scotland.svg",
+            "badgeSrc": "assets/football/flags/scotland.svg"
+          },
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "gd": 1,
+          "pts": 3
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Brazil",
+            "code": "BRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/brazil.svg",
+            "badgeSrc": "assets/football/flags/brazil.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Morocco",
+            "code": "MAR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/morocco.svg",
+            "badgeSrc": "assets/football/flags/morocco.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Haiti",
+            "code": "HAI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/haiti.svg",
+            "badgeSrc": "assets/football/flags/haiti.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "gd": -1,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Brazil sẽ thắng cách biệt bao nhiêu bàn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Brazil sẽ thắng cách biệt bao nhiêu bàn? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Brazil sẽ thắng cách biệt bao nhiêu bàn?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

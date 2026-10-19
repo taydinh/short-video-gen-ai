@@ -1,0 +1,485 @@
+{
+  "title": "Bờ Biển Ngà vs Ecuador: trận bản lề bảng E lúc 06:00 sáng giờ Việt Nam",
+  "slug": "bo-bien-nga-vs-ecuador-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Côte d'Ivoire - Ecuador ở bảng E World Cup 2026, quy đổi giờ Việt Nam là 06:00 ngày 15/06/2026. Trận đấu diễn ra tại Philadelphia Stadium, Philadelphia.",
+  "sources": [
+    {
+      "title": "FIFA - Côte d'Ivoire vs Ecuador match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021467"
+    },
+    {
+      "title": "Fox Sports - Ivory Coast World Cup 2026 schedule",
+      "url": "https://www.foxsports.com/stories/soccer/ivory-coast-world-cup-2026-schedule-locations-dates-times"
+    },
+    {
+      "title": "Fox Sports - Ecuador World Cup 2026 schedule",
+      "url": "https://www.foxsports.com/stories/soccer/ecuador-world-cup-2026-schedule-locations-dates-times"
+    },
+    {
+      "title": "Racing Post - Ivory Coast vs Ecuador prediction, team news and predicted line-ups",
+      "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/ivory-coast-vs-ecuador-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-aOFLB3P6BDFL/"
+    },
+    {
+      "title": "GOAL - Ivory Coast vs Ecuador World Cup 2026 preview",
+      "url": "https://www.goal.com/en-us/news/ivory-coast-ecuador-world-cup-preview/bltb6fef7b1a695267a"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Côte d'Ivoire vs Ecuador",
+      "subtext": "Trận bản lề cho vé đi tiếp ở bảng E",
+      "voiceText": "Bờ Biển Ngà gặp Ecuador lúc sáu giờ sáng, ngày mười lăm tháng sáu theo giờ Việt Nam. Đây là trận mở màn bảng E tại Philadelphia, và có thể là cuộc đấu bản lề cho vị trí nhì bảng sau lưng Đức.",
+      "subtitle": "Côte d'Ivoire gặp Ecuador lúc 06:00 ngày 15/06 theo giờ Việt Nam. Đây là trận mở màn bảng E tại Philadelphia, và có thể là cuộc đấu bản lề cho vị trí nhì bảng sau lưng Đức.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group E - Match 9",
+      "venue": "Philadelphia Stadium, Philadelphia",
+      "date": "15/06/2026",
+      "time": "06:00 VN",
+      "teams": [
+        {
+          "name": "Côte d'Ivoire",
+          "code": "CIV",
+          "teamType": "national",
+          "form": "Trở lại World Cup",
+          "flagSrc": "assets/football/flags/cote-divoire.svg",
+          "badgeSrc": "assets/football/flags/cote-divoire.svg"
+        },
+        {
+          "name": "Ecuador",
+          "code": "ECU",
+          "teamType": "national",
+          "form": "Hàng thủ cực chắc",
+          "flagSrc": "assets/football/flags/ecuador.svg",
+          "badgeSrc": "assets/football/flags/ecuador.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "76%",
+          "size": 84
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng E không chỉ có Đức",
+      "subtext": "Germany, Curaçao, Côte d'Ivoire và Ecuador",
+      "voiceText": "Bảng E có Đức là ứng viên lớn, nhưng Bờ Biển Ngà và Ecuador mới là cặp đấu dễ định hình cuộc đua đi tiếp. Ai thắng trận này, người đó bước vào lượt hai với lợi thế rất rõ.",
+      "subtitle": "Bảng E có Đức là ứng viên lớn, nhưng Côte d'Ivoire và Ecuador mới là cặp đấu dễ định hình cuộc đua đi tiếp. Ai thắng trận này, người đó bước vào lượt 2 với lợi thế rất rõ.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group E Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Côte d'Ivoire vs Ecuador | 15/06/2026 VN",
+      "ctaLabel": "Kick-off 06:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Hai khối giữa rất giàu va chạm",
+      "voiceText": "Bờ Biển Ngà có thể đá bốn ba ba với Yahia Fofana, Doue, Agbadou, Kossounou, Konan, Kessie, Sangare, Seko Fofana, Amad Diallo, Guessand và Yan Diomande. Ecuador đáp lại bằng Galindez, Ordonez, Pacho, Hincapie, Estupinan, Caicedo, Vite, Paez, Plata, Angulo và Enner Valencia.",
+      "subtitle": "Côte d'Ivoire có thể đá 4-3-3 với Yahia Fofana, Doué, Agbadou, Kossounou, Konan, Kessié, Sangaré, Seko Fofana, Amad Diallo, Guessand và Yan Diomandé. Ecuador đáp lại bằng Galíndez, Ordóñez, Pacho, Hincapié, Estupiñán, Caicedo, Vite, Páez, Plata, Angulo và Enner Valencia.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Côte d'Ivoire",
+          "code": "CIV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cote-divoire.svg",
+          "badgeSrc": "assets/football/flags/cote-divoire.svg"
+        },
+        {
+          "name": "Ecuador",
+          "code": "ECU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ecuador.svg",
+          "badgeSrc": "assets/football/flags/ecuador.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Yahia Fofana",
+            "Guela Doué",
+            "Emmanuel Agbadou",
+            "Odilon Kossounou",
+            "Ghislain Konan",
+            "Franck Kessié",
+            "Ibrahim Sangaré",
+            "Seko Fofana",
+            "Amad Diallo",
+            "Evann Guessand",
+            "Yan Diomandé"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Hernán Galíndez",
+            "Joel Ordóñez",
+            "Willian Pacho",
+            "Piero Hincapié",
+            "Pervis Estupiñán",
+            "Moisés Caicedo",
+            "Pedro Vite",
+            "Kendry Páez",
+            "Gonzalo Plata",
+            "Nilson Angulo",
+            "Enner Valencia"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: lần đầu ở World Cup",
+      "subtext": "Cặp đấu của kỷ luật và sức mạnh",
+      "voiceText": "Hai đội chưa có lịch sử đối đầu đáng kể tại World Cup, nên trận này giống một bài kiểm tra phong cách. Bờ Biển Ngà có tốc độ biên và thể lực, còn Ecuador có trục phòng ngự Pacho, Hincapie và Caicedo cực khó xuyên phá.",
+      "subtitle": "Hai đội chưa có lịch sử đối đầu đáng kể tại World Cup, nên trận này giống một bài kiểm tra phong cách. Côte d'Ivoire có tốc độ biên và thể lực, còn Ecuador có trục phòng ngự Pacho, Hincapié và Caicedo cực khó xuyên phá.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Côte d'Ivoire",
+          "code": "CIV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cote-divoire.svg",
+          "badgeSrc": "assets/football/flags/cote-divoire.svg"
+        },
+        {
+          "name": "Ecuador",
+          "code": "ECU",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ecuador.svg",
+          "badgeSrc": "assets/football/flags/ecuador.svg"
+        }
+      ],
+      "homeTeam": "Côte d'Ivoire",
+      "awayTeam": "Ecuador",
+      "odds": [
+        {
+          "label": "Tốc độ biên",
+          "value": "Côte d'Ivoire"
+        },
+        {
+          "label": "Khối phòng ngự",
+          "value": "Ecuador"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Tuyến giữa"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Côte d'Ivoire",
+          "away": "Ecuador",
+          "score": "Preview",
+          "note": "Lần đầu gặp ở sân khấu World Cup",
+          "homeBadgeSrc": "assets/football/flags/cote-divoire.svg",
+          "awayBadgeSrc": "assets/football/flags/ecuador.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tốc độ chuyển trạng thái",
+              "home": 84,
+              "away": 72
+            },
+            {
+              "label": "Độ chắc phòng ngự",
+              "home": 78,
+              "away": 90
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: tuyến giữa",
+      "subtext": "Kessié - Sangaré đấu Caicedo",
+      "voiceText": "Điểm nóng nằm ở tuyến giữa. Nếu Kessie và Sangare thắng tranh chấp, Bờ Biển Ngà có thể đẩy bóng nhanh ra hai biên cho Amad Diallo và Yan Diomande. Nhưng nếu Caicedo kiểm soát nhịp, Ecuador sẽ kéo trận đấu về thế ít cơ hội và rất khó chịu.",
+      "subtitle": "Điểm nóng nằm ở tuyến giữa. Nếu Kessié và Sangaré thắng tranh chấp, Côte d'Ivoire có thể đẩy bóng nhanh ra hai biên cho Amad Diallo và Yan Diomandé. Nhưng nếu Caicedo kiểm soát nhịp, Ecuador sẽ kéo trận đấu về thế ít cơ hội và rất khó chịu.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Đây có thể không phải trận nhiều bàn, nhưng từng pha thắng bóng ở giữa sân đều có giá như một cơ hội lớn.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng E",
+      "subtext": "Ba điểm có thể đổi cả lịch trình",
+      "voiceText": "Bảng E gồm Đức, Cu Ra Sao, Bờ Biển Ngà và Ecuador. Trước lượt đầu, tất cả cùng không điểm, nhưng với hai đội này, một chiến thắng sẽ mở ra cửa đi tiếp rất rộng trước khi phải gặp Đức ở những lượt sau.",
+      "subtitle": "Bảng E gồm Đức, Curaçao, Côte d'Ivoire và Ecuador. Trước lượt đầu, tất cả cùng 0 điểm, nhưng với hai đội này, một chiến thắng sẽ mở ra cửa đi tiếp rất rộng trước khi phải gặp Đức ở những lượt sau.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group E",
+      "activeTab": "BẢNG E",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "LỊCH THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG E"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "CIV",
+        "ECU"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Germany",
+            "code": "GER",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/germany.svg",
+            "badgeSrc": "assets/football/flags/germany.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Curaçao",
+            "code": "CUW",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/curacao.svg",
+            "badgeSrc": "assets/football/flags/curacao.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Côte d'Ivoire",
+            "code": "CIV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cote-divoire.svg",
+            "badgeSrc": "assets/football/flags/cote-divoire.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Ecuador",
+            "code": "ECU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ecuador.svg",
+            "badgeSrc": "assets/football/flags/ecuador.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Côte d'Ivoire bùng nổ hay Ecuador khóa trận?",
+      "voiceText": "Bạn dự đoán Bờ Biển Ngà thắng nhờ tốc độ hai biên, hay Ecuador sẽ khóa trận và lấy ba điểm theo kiểu thực dụng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Côte d'Ivoire thắng nhờ tốc độ hai biên, hay Ecuador sẽ khóa trận và lấy 3 điểm theo kiểu thực dụng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Côte d'Ivoire vs Ecuador?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Côte d'Ivoire",
+          "Ecuador",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

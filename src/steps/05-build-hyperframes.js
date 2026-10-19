@@ -172,6 +172,9 @@ function buildIndexHtml(storyboard, audioMap, options = {}) {
   const bg = config.video.background || {};
   const backgroundMode = options.backgroundMode || bg.mode || "gradient";
   const phraseCaption = config.video.phraseCaption || { enabled: false };
+  const firstSceneSelector = storyboard.scenes[0]
+    ? `#scene-${storyboard.scenes[0].id}`
+    : null;
 
   // Scene divs
   const sceneDivs = storyboard.scenes.map((scene, idx) => {
@@ -251,7 +254,7 @@ function buildIndexHtml(storyboard, audioMap, options = {}) {
         width: 100%; height: 100%;
         opacity: 0;
       }
-      #scene-1 { opacity: 1; }
+      ${firstSceneSelector ? `${firstSceneSelector} { opacity: 1; }` : ""}
 
       /* ── Root background layer (AI-news style) ─────────────────────────── */
       .root-bg {
@@ -359,7 +362,7 @@ function buildIndexHtml(storyboard, audioMap, options = {}) {
         });
       }
 
-      mainTl.set("#scene-1", { opacity: 1 }, 0);
+      ${firstSceneSelector ? `mainTl.set("${firstSceneSelector}", { opacity: 1 }, 0);` : ""}
       setPage(1, ${totalScenes});
       ${transitions}
       ${exitTransitions}

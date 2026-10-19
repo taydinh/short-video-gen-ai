@@ -1,0 +1,477 @@
+{
+  "title": "Tây Ban Nha vs Cabo Verde: ứng viên số một bảng H ra quân",
+  "slug": "tay-ban-nha-vs-cabo-verde-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Tây Ban Nha - Cabo Verde ở bảng H World Cup 2026, quy đổi giờ Việt Nam là 23:00 ngày 15/06/2026. Trận đấu diễn ra tại Mercedes-Benz Stadium, Atlanta.",
+  "sources": [
+    {
+      "title": "FIFA Hospitality - Spain vs Cabo Verde match listing",
+      "url": "https://fifaworldcup26.hospitality.fifa.com/us/en/choose-matches"
+    },
+    {
+      "title": "Barca Blaugranes - Spain vs Cape Verde World Cup 2026 preview",
+      "url": "https://www.barcablaugranes.com/world-cup-2026/123471/spain-cape-verde-world-cup-2026-team-news-match-preview-lineups-prediction"
+    },
+    {
+      "title": "Al Jazeera - World Cup 2026 full match schedule and groups",
+      "url": "https://www.aljazeera.com/sports/2026/6/11/world-cup-2026-full-match-schedule-groups-teams-and-start-times"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Tây Ban Nha vs Cabo Verde",
+      "subtext": "Ứng viên lớn gặp tân binh World Cup",
+      "voiceText": "Tây Ban Nha gặp Cabo Verde lúc hai mươi ba giờ, ngày mười lăm tháng sáu theo giờ Việt Nam. Đây là trận ra quân World Cup hai không hai sáu tại Atlanta, nơi một ứng viên vô địch phải chứng minh họ không xem nhẹ tân binh lần đầu dự giải.",
+      "subtitle": "Tây Ban Nha gặp Cabo Verde lúc 23:00 ngày 15/06 theo giờ Việt Nam. Đây là trận ra quân World Cup 2026 tại Atlanta, nơi một ứng viên vô địch phải chứng minh họ không xem nhẹ tân binh lần đầu dự giải.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group H - Matchday 1",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "date": "15/06/2026",
+      "time": "23:00 VN",
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "teamType": "national",
+          "form": "Ứng viên vô địch",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "form": "Lần đầu dự World Cup",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.7,
+          "top": "76%",
+          "size": 84
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng H bắt đầu",
+      "subtext": "Spain, Cabo Verde, Saudi Arabia và Uruguay",
+      "voiceText": "Bảng H có Tây Ban Nha, Cabo Verde, Saudi Arabia và Uruguay. Với lịch còn Uruguay ở phía trước, Tây Ban Nha cần ba điểm gọn gàng ngay trận mở màn.",
+      "subtitle": "Bảng H có Tây Ban Nha, Cabo Verde, Saudi Arabia và Uruguay. Với lịch còn Uruguay ở phía trước, Tây Ban Nha cần 3 điểm gọn gàng ngay trận mở màn.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group H Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Spain vs Cabo Verde | 15/06/2026 VN",
+      "ctaLabel": "Kick-off 23:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Pedri giữ nhịp, hai cánh chờ bùng nổ",
+      "voiceText": "Tây Ban Nha có thể đá bốn ba ba, với Unai Simon, Carvajal, Cubarsi, Laporte, Grimaldo, Rodri, Pedri, Fabian Ruiz, Ferran Torres, Morata và Dani Olmo. Cabo Verde nhiều khả năng đá bốn hai ba một, chờ Livramento và Garry Rodrigues phản công vào khoảng trống sau lưng hai biên.",
+      "subtitle": "Tây Ban Nha có thể đá 4-3-3, với Unai Simón, Carvajal, Cubarsí, Laporte, Grimaldo, Rodri, Pedri, Fabián Ruiz, Ferran Torres, Morata và Dani Olmo. Cabo Verde nhiều khả năng đá 4-2-3-1, chờ Livramento và Garry Rodrigues phản công vào khoảng trống sau lưng hai biên.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": [
+            "Unai Simon",
+            "Dani Carvajal",
+            "Pau Cubarsi",
+            "Aymeric Laporte",
+            "Alejandro Grimaldo",
+            "Rodri",
+            "Pedri",
+            "Fabian Ruiz",
+            "Ferran Torres",
+            "Alvaro Morata",
+            "Dani Olmo"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Vozinha",
+            "Steven Moreira",
+            "Roberto Lopes",
+            "Logan Costa",
+            "Joao Paulo",
+            "Patrick Andrade",
+            "Kevin Pina",
+            "Garry Rodrigues",
+            "Jamiro Monteiro",
+            "Ryan Mendes",
+            "Dailon Livramento"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: lần đầu gặp nhau",
+      "subtext": "Áp lực nằm ở đội cửa trên",
+      "voiceText": "Hai đội chưa có lịch sử đối đầu đáng kể, nên câu chuyện chính là cách Tây Ban Nha xử lý một trận phải thắng. Cabo Verde không cần cầm bóng nhiều, họ chỉ cần đứng vững đủ lâu để biến sự kiên nhẫn của Tây Ban Nha thành áp lực.",
+      "subtitle": "Hai đội chưa có lịch sử đối đầu đáng kể, nên câu chuyện chính là cách Tây Ban Nha xử lý một trận phải thắng. Cabo Verde không cần cầm bóng nhiều, họ chỉ cần đứng vững đủ lâu để biến sự kiên nhẫn của Tây Ban Nha thành áp lực.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/spain.svg",
+          "badgeSrc": "assets/football/flags/spain.svg"
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/cabo-verde.svg",
+          "badgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "homeTeam": "Spain",
+      "awayTeam": "Cabo Verde",
+      "odds": [
+        {
+          "label": "Lợi thế kiểm soát",
+          "value": "Spain"
+        },
+        {
+          "label": "Câu chuyện lịch sử",
+          "value": "Cabo Verde"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Bàn mở tỉ số"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Spain",
+          "away": "Cabo Verde",
+          "score": "Preview",
+          "note": "Lần đầu gặp nhau ở sân khấu World Cup",
+          "homeBadgeSrc": "assets/football/flags/spain.svg",
+          "awayBadgeSrc": "assets/football/flags/cabo-verde.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 88,
+              "away": 44
+            },
+            {
+              "label": "Áp lực phải thắng",
+              "home": 86,
+              "away": 50
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: phá khối thấp",
+      "subtext": "Tây Ban Nha cần tốc độ ở nhịp cuối",
+      "voiceText": "Điểm nóng là nhịp tấn công cuối cùng của Tây Ban Nha. Nếu Pedri và Rodri chỉ chuyền an toàn, Cabo Verde sẽ có thời gian dựng hai lớp phòng ngự. Nhưng nếu Tây Ban Nha đổi hướng nhanh, trận đấu có thể mở khóa rất sớm.",
+      "subtitle": "Điểm nóng là nhịp tấn công cuối cùng của Tây Ban Nha. Nếu Pedri và Rodri chỉ chuyền an toàn, Cabo Verde sẽ có thời gian dựng hai lớp phòng ngự. Nhưng nếu Tây Ban Nha đổi hướng nhanh, trận đấu có thể mở khóa rất sớm.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Trận này không chỉ hỏi Tây Ban Nha mạnh cỡ nào, mà hỏi họ kiên nhẫn và sắc đến đâu trước một khối phòng ngự thấp.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng H",
+      "subtext": "Ba điểm đầu tiên cực quan trọng",
+      "voiceText": "Bảng H có Tây Ban Nha, Cabo Verde, Saudi Arabia và Uruguay. Trước lượt đầu tất cả cùng không điểm, nhưng Tây Ban Nha hiểu rằng mất điểm trước tân binh sẽ khiến hai trận sau lập tức khó thở hơn.",
+      "subtitle": "Bảng H có Tây Ban Nha, Cabo Verde, Saudi Arabia và Uruguay. Trước lượt đầu tất cả cùng 0 điểm, nhưng Tây Ban Nha hiểu rằng mất điểm trước tân binh sẽ khiến 2 trận sau lập tức khó thở hơn.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group H",
+      "activeTab": "BẢNG H",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "LỊCH THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG H"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "ESP",
+        "CPV"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Spain",
+            "code": "ESP",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/spain.svg",
+            "badgeSrc": "assets/football/flags/spain.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Cabo Verde",
+            "code": "CPV",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/cabo-verde.svg",
+            "badgeSrc": "assets/football/flags/cabo-verde.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Saudi Arabia",
+            "code": "KSA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/saudi-arabia.svg",
+            "badgeSrc": "assets/football/flags/saudi-arabia.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Uruguay",
+            "code": "URU",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/uruguay.svg",
+            "badgeSrc": "assets/football/flags/uruguay.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Tây Ban Nha thắng đậm hay Cabo Verde gây khó?",
+      "voiceText": "Bạn dự đoán Tây Ban Nha thắng nhẹ nhàng, hay Cabo Verde sẽ tạo bất ngờ đầu tiên của bảng H? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Tây Ban Nha thắng nhẹ nhàng, hay Cabo Verde sẽ tạo bất ngờ đầu tiên của bảng H? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Tây Ban Nha vs Cabo Verde?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Spain",
+          "Cabo Verde",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

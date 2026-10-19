@@ -1,0 +1,418 @@
+{
+  "title": "Switzerland vs Canada: Trận chiến giành ngôi đầu bảng B World Cup 2026",
+  "slug": "switzerland-vs-canada-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Switzerland vs Canada ở bảng B World Cup 2026, diễn ra lúc 02:00 ngày 25/06/2026 giờ Việt Nam. Cả hai đội đều có 4 điểm sau hai lượt đầu và tranh chấp ngôi đầu.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 Schedule and Standings",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Switzerland vs Canada",
+      "subtext": "Tranh chấp ngôi đầu bảng B",
+      "voiceText": "Thụy Sĩ đối đầu Canada lúc hai giờ sáng ngày hai mươi lăm tháng sáu theo giờ Việt Nam. Đây là trận đấu quyết định ngôi đầu bảng B khi cả hai đều đã có bốn điểm sau hai lượt trận đầu tiên.",
+      "subtitle": "Switzerland đối đầu Canada lúc 02:00 ngày 25/06 theo giờ Việt Nam. Đây là trận đấu quyết định ngôi đầu bảng B khi cả hai đều đã có 4 điểm sau 2 lượt trận đầu tiên.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group B - Matchday 3",
+      "venue": "BC Place",
+      "date": "25/06/2026",
+      "time": "02:00 VN",
+      "teams": [
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "form": "GD +3",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "form": "GD +6",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Cục diện bảng B",
+      "subtext": "Hai vị trí dẫn đầu đã lộ diện",
+      "voiceText": "Thụy Sĩ và Canada đều chỉ cần một điểm để chắc chắn đi tiếp, nhưng ngôi đầu bảng sẽ giúp tránh được nhánh đấu khó ở vòng sau.",
+      "subtitle": "Switzerland và Canada đều chỉ cần 1 điểm để chắc chắn đi tiếp, nhưng ngôi đầu bảng sẽ giúp tránh được nhánh đấu khó ở vòng sau.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group B Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Switzerland vs Canada | 25/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Ndoye đối đầu Alphonso Davies",
+      "voiceText": "Huấn luyện viên Murat Yakin dự kiến sử dụng sơ đồ ba bốn hai một với sự dẫn dắt của Granit Xhaka và mũi nhọn Embolo. Bên kia chiến tuyến, Canada đá ba bốn ba, đặt trọn niềm tin vào tốc độ của Alphonso Davies và sự nhạy bén của Jonathan David.",
+      "subtitle": "Huấn luyện viên Murat Yakin dự kiến sử dụng sơ đồ 3-4-2-1 với sự dẫn dắt của Granit Xhaka và mũi nhọn Embolo. Bên kia chiến tuyến, Canada đá 3-4-3, đặt trọn niềm tin vào tốc độ của Alphonso Davies và sự nhạy bén của Jonathan David.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Kobel",
+            "Akanji",
+            "Elvedi",
+            "Rodriguez",
+            "Widmer",
+            "Xhaka",
+            "Freuler",
+            "Aebischer",
+            "Vargas",
+            "Ndoye",
+            "Embolo"
+          ]
+        },
+        "away": {
+          "formation": "3-4-3",
+          "players": [
+            "Crepeau",
+            "Johnston",
+            "Bombito",
+            "Cornelius",
+            "Laryea",
+            "Eustaquio",
+            "Kone",
+            "Davies",
+            "Shaffelburg",
+            "David",
+            "Larin"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Lịch sử đối đầu",
+      "subtext": "Cuộc chạm trán hiếm hoi trong lịch sử",
+      "voiceText": "Hai đội mới chỉ gặp nhau một lần duy nhất trong quá khứ tại trận giao hữu năm hai không lẻ hai, khi đó Canada giành chiến thắng ba một. Hiện tại, cả hai đang có phong độ cực cao khi Thụy Sĩ vừa thắng Bosnia bốn một, còn Canada đè bẹp Ka Ta sáu không.",
+      "subtitle": "Hai đội mới chỉ gặp nhau duy nhất 1 lần trong quá khứ tại trận giao hữu năm 2002, khi đó Canada giành chiến thắng 3-1. Hiện tại, cả hai đang có phong độ cực cao khi Switzerland vừa thắng Bosnia & Herzegovina 4-1, còn Canada đè bẹp Qatar 6-0.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Canada",
+      "h2hMatches": [
+        {
+          "date": "15/05/2002",
+          "home": "Switzerland",
+          "away": "Canada",
+          "score": "1-3",
+          "note": "Giao hữu quốc tế duy nhất trong quá khứ",
+          "homeBadgeSrc": "assets/football/flags/switzerland.svg",
+          "awayBadgeSrc": "assets/football/flags/canada.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Tổ chức phòng ngự",
+          "value": "Switzerland"
+        },
+        {
+          "label": "Tốc độ phản công",
+          "value": "Canada"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Kiểm soát Xhaka"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tấn công biên",
+              "home": 78,
+              "away": 85
+            },
+            {
+              "label": "Kiểm soát bóng",
+              "home": 83,
+              "away": 72
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng trận đấu",
+      "quote": "Canada có tốc độ biên rất đáng sợ, nhưng tính tổ chức của Thụy Sĩ sẽ là chìa khóa mở ra chiến thắng.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng sẽ là cuộc đối đầu giữa Ndoye và Alphonso Davies ở hành lang cánh. Nếu Thụy Sĩ chia cắt được Davies và Jonathan David, họ sẽ nắm chắc phần thắng.",
+      "subtitle": "Điểm nóng sẽ là cuộc đối đầu giữa Ndoye và Alphonso Davies ở hành lang cánh. Nếu Switzerland chia cắt được Davies và Jonathan David, họ sẽ nắm chắc phần thắng.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Cục diện bảng B",
+      "subtext": "Chờ đợi xem ai sẽ đoạt ngôi đầu",
+      "voiceText": "Tại bảng B lúc này, Canada đang đứng đầu nhờ hiệu số tốt hơn Thụy Sĩ. Đội xếp thứ ba là Bosnia và Ka Ta xếp cuối bảng đều chỉ có một điểm và đang phải cạnh tranh khe cửa hẹp.",
+      "subtitle": "Tại bảng B lúc này, Canada đang đứng đầu nhờ hiệu số tốt hơn Switzerland. Đội xếp thứ 3 là Bosnia & Herzegovina và Qatar xếp cuối bảng đều chỉ có 1 điểm và đang phải cạnh tranh khe cửa hẹp.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group B Standings",
+      "highlightTeams": [
+        "Switzerland",
+        "Canada"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Canada",
+            "code": "CAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/canada.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+6"
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Switzerland",
+            "code": "SUI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/switzerland.svg"
+          },
+          "played": 2,
+          "points": 4,
+          "gd": "+3"
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Bosnia & Herzegovina",
+            "code": "BIH",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-3"
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Qatar",
+            "code": "QAT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/qatar.svg"
+          },
+          "played": 2,
+          "points": 1,
+          "gd": "-6"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn tin vào bản lĩnh của Thụy Sĩ hay tốc độ của Canada? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn tin vào bản lĩnh của Switzerland hay tốc độ của Canada? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Switzerland vs Canada",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

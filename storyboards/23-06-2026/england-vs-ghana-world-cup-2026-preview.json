@@ -1,0 +1,505 @@
+{
+  "title": "Anh vs Ghana: Lượt 2 bảng L World Cup 2026",
+  "slug": "england-vs-ghana-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Anh gặp Ghana ở bảng L World Cup 2026, quy đổi giờ Việt Nam là 03:00 ngày 24/06/2026. Lời đọc bảng L chuyển thành bảng Lờ và tên cầu thủ được phiên âm trong voiceText để TTS đọc ổn định.",
+  "sources": [
+    {
+      "title": "FIFA - World Cup 2026 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "title": "ESPN - 2026 FIFA World Cup fixtures, results, match schedule",
+      "url": "https://www.espn.com/soccer/story/_/id/48939282/2026-fifa-world-cup-fixtures-results-match-schedule-group-stage-knockout-rounds-bracket"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Anh vs Ghana",
+      "subtext": "Sức mạnh của ứng viên vô địch",
+      "voiceText": "Chào anh em! Tiếp tục ngày hội bóng đá, lúc ba giờ sáng ngày hai mươi tư tháng sáu theo giờ Việt Nam, đội tuyển Anh sẽ có cuộc đối đầu đầy duyên nợ với Ghana. Đây là lượt trận thứ hai bảng Lờ World Cup hai không hai sáu, nơi mà Tam Sư đang hướng tới ba điểm tiếp theo để sớm mở toang cánh cửa đi tiếp!",
+      "subtitle": "Chào anh em! Tiếp tục ngày hội bóng đá, lúc 03:00 ngày 24/06 theo giờ Việt Nam, đội tuyển Anh sẽ có cuộc đối đầu đầy duyên nợ với Ghana. Đây là lượt trận thứ hai bảng L World Cup 2026, nơi mà Tam Sư đang hướng tới 3 điểm tiếp theo để sớm mở toang cánh cửa đi tiếp!",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group L - Matchday 2",
+      "venue": "Boston Stadium, Boston",
+      "date": "24/06/2026",
+      "time": "03:00 VN",
+      "teams": [
+        {
+          "name": "Anh",
+          "code": "ENG",
+          "form": "Thắng 4-2",
+          "flagSrc": "assets/football/flags/england.svg",
+          "badgeSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "form": "Hòa 0-0",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Cơ hội đi tiếp bảng L",
+      "subtext": "Anh, Ghana, Panama, Croatia",
+      "voiceText": "Cục diện bảng Lờ đang vô cùng kịch tính. Một chiến thắng nữa sẽ giúp tuyển Anh xây chắc ngôi đầu, trong khi Ghana cũng rất khát khao điểm số để tạo lợi thế.",
+      "subtitle": "Cục diện bảng L đang vô cùng kịch tính. Một chiến thắng nữa sẽ giúp tuyển Anh xây chắc ngôi đầu, trong khi Ghana cũng rất khát khao điểm số để tạo lợi thế.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group L Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Anh giữ nguyên bộ khung, Ghana đá kỷ luật",
+      "voiceText": "Đội hình tuyển Anh nhiều khả năng sẽ tiếp tục vận hành xoay quanh Ha-ri Kên và Zút Beo-ling-ham, cùng đôi cánh tốc độ của Bu-ka-yô Sa-ka. Phía bên kia, Ghana sẽ chơi phòng ngự lùi sâu và đặt niềm tin vào nhạc trưởng Tô-mát Pác-tây cùng ngôi sao Ku-đút.",
+      "subtitle": "Đội hình tuyển Anh nhiều khả năng sẽ tiếp tục vận hành xoay quanh Harry Kane và Jude Bellingham, cùng đôi cánh tốc độ của Bukayo Saka. Phía bên kia, Ghana sẽ chơi phòng ngự lùi sâu và đặt niềm tin vào nhạc trưởng Thomas Partey cùng ngôi sao Kudus.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Anh",
+          "code": "ENG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/england.svg",
+          "badgeSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        }
+      ],
+      "lineups": [
+        {
+          "team": "Anh",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/england.svg",
+          "players": [
+            "Jordan Pickford",
+            "Reece James",
+            "Ezri Konsa",
+            "Marc Guehi",
+            "Nico O'Reilly",
+            "Elliot Anderson",
+            "Morgan Rogers",
+            "Bukayo Saka",
+            "Djed Spence",
+            "Marcus Rashford",
+            "Harry Kane"
+          ]
+        },
+        {
+          "team": "Ghana",
+          "formation": "4-2-3-1",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "players": [
+            "Ati Zigi",
+            "Lamptey",
+            "Djiku",
+            "Salisu",
+            "Mensah",
+            "Partey",
+            "Samed",
+            "Kudus",
+            "Jordan Ayew",
+            "Semenyo",
+            "Inaki Williams"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kết quả gần nhất",
+      "subtext": "Lượt đấu thứ nhất bảng L",
+      "voiceText": "Ở lượt trận mở màn, tuyển Anh đã có chiến thắng bùng nổ bốn hai trước Cờ rốt ti a nhờ cú đúp của Ha-ri Kên. Trong khi đó, Ghana và Panama đã chia điểm trong trận hòa không bàn thắng đầy tẻ nhạt dưới cơn mưa Toronto.",
+      "subtitle": "Ở lượt trận mở màn, tuyển Anh đã có chiến thắng bùng nổ 4-2 trước Croatia nhờ cú đúp của Harry Kane. Trong khi đó, Ghana và Panama đã chia điểm trong trận hòa không bàn thắng đầy tẻ nhạt dưới cơn mưa Toronto.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Anh",
+      "awayTeam": "Ghana",
+      "teams": [
+        {
+          "name": "Anh",
+          "code": "ENG",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/england.svg",
+          "badgeSrc": "assets/football/flags/england.svg"
+        },
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/ghana.svg",
+          "badgeSrc": "assets/football/flags/ghana.svg"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "18/06/2026",
+          "home": "Anh",
+          "away": "Croatia",
+          "score": "4-2",
+          "note": "Kane lập cú đúp bùng nổ",
+          "homeBadgeSrc": "assets/football/flags/england.svg",
+          "awayBadgeSrc": "assets/football/flags/croatia.svg"
+        },
+        {
+          "date": "18/06/2026",
+          "home": "Ghana",
+          "away": "Panama",
+          "score": "0-0",
+          "note": "Hòa tẻ nhạt dưới mưa",
+          "homeBadgeSrc": "assets/football/flags/ghana.svg",
+          "awayBadgeSrc": "assets/football/flags/panama.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Phong độ Anh",
+          "value": "Thắng 4-2"
+        },
+        {
+          "label": "Phong độ Ghana",
+          "value": "Hòa 0-0"
+        },
+        {
+          "label": "Dự đoán",
+          "value": "Anh thắng"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Sức ép tấn công",
+              "home": 85,
+              "away": 42
+            },
+            {
+              "label": "Cơ hội đi tiếp",
+              "home": 95,
+              "away": 40
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Sức tấn công Tam Sư",
+      "subtext": "Ghana liệu có thể đứng vững?",
+      "voiceText": "Hàng công của tuyển Anh đang quá thăng hoa. Ghana bắt buộc phải chơi cực kỳ tập trung, thu hẹp khoảng trống và phong tỏa ngòi nổ Beo-ling-ham nếu không muốn nhận trái đắng.",
+      "subtitle": "Hàng công của tuyển Anh đang quá thăng hoa. Ghana bắt buộc phải chơi cực kỳ tập trung, thu hẹp khoảng trống và phong tỏa ngòi nổ Bellingham nếu không muốn nhận trái đắng.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Hàng công của tuyển Anh đang quá thăng hoa. Ghana bắt buộc phải chơi cực kỳ tập trung, thu hẹp khoảng trống và phong tỏa ngòi nổ Bellingham nếu không muốn nhận trái đắng.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng L sau lượt đầu",
+      "subtext": "Anh chiếm đỉnh bảng",
+      "voiceText": "Sau lượt trận đầu tiên, tuyển Anh đang vững vàng ở ngôi đầu bảng Lờ với ba điểm. Ghana và Panama xếp ngay phía sau với một điểm, còn Cờ rốt ti a tạm thời đứng cuối bảng khi chưa có điểm số nào.",
+      "subtitle": "Sau lượt trận đầu tiên, tuyển Anh đang vững vàng ở ngôi đầu bảng L với 3 điểm. Ghana và Panama xếp ngay phía sau với 1 điểm, còn Croatia tạm thời đứng cuối bảng khi chưa có điểm số nào.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group L",
+      "activeTab": "BẢNG XẾP HẠNG",
+      "tabs": [
+        "Trận đấu",
+        "Đội hình",
+        "Thống kê",
+        "Bảng xếp hạng"
+      ],
+      "highlightTeams": [
+        "Anh",
+        "Ghana"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "rank": 1,
+          "position": 1,
+          "team": {
+            "name": "Anh",
+            "code": "ENG",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/england.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 1,
+          "won": 1,
+          "w": 1,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "pts": 3,
+          "points": 3,
+          "highlight": true
+        },
+        {
+          "pos": 2,
+          "rank": 2,
+          "position": 2,
+          "team": {
+            "name": "Ghana",
+            "code": "GHA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ghana.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 1,
+          "drawn": 1,
+          "d": 1,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1,
+          "points": 1,
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "rank": 3,
+          "position": 3,
+          "team": {
+            "name": "Panama",
+            "code": "PAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/panama.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 1,
+          "drawn": 1,
+          "d": 1,
+          "losses": 0,
+          "lost": 0,
+          "l": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 1,
+          "points": 1
+        },
+        {
+          "pos": 4,
+          "rank": 4,
+          "position": 4,
+          "team": {
+            "name": "Croatia",
+            "code": "CRO",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/croatia.svg"
+          },
+          "played": 1,
+          "mp": 1,
+          "wins": 0,
+          "won": 0,
+          "w": 0,
+          "draws": 0,
+          "drawn": 0,
+          "d": 0,
+          "losses": 1,
+          "lost": 1,
+          "l": 1,
+          "gf": 2,
+          "ga": 4,
+          "gd": -2,
+          "pts": 0,
+          "points": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Bình luận bên dưới",
+      "voiceText": "Anh em nghĩ Tam Sư sẽ tiếp tục dội mưa bàn thắng hay Ghana sẽ tạo bất ngờ thú vị? Hãy để lại dự đoán bên dưới bình luận nhé! Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Anh em nghĩ Tam Sư sẽ tiếp tục dội mưa bàn thắng hay Ghana sẽ tạo bất ngờ thú vị? Hãy để lại dự đoán bên dưới bình luận nhé! Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Anh thắng Ghana mấy quả?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Anh",
+          "Ghana"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "title": "Qatar vs Switzerland: cửa khó cho đại diện châu Á ở bảng B",
+  "slug": "qatar-vs-switzerland-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Qatar - Switzerland ở bảng B World Cup 2026, quy đổi giờ Việt Nam là 02:00 ngày 14/06/2026. Trận đấu diễn ra tại San Francisco Bay Area Stadium, Santa Clara.",
+  "sources": [
+    {
+      "title": "FIFA - Qatar vs Switzerland match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021447"
+    },
+    {
+      "title": "ESPN - Qatar vs Switzerland game information and standings",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760420/switzerland-qatar"
+    },
+    {
+      "title": "The Analyst - Qatar vs Switzerland prediction",
+      "url": "https://theanalyst.com/articles/qatar-vs-switzerland-prediction-world-cup-2026-match-preview"
+    },
+    {
+      "title": "FOX Sports - Qatar vs Switzerland how to watch",
+      "url": "https://www.foxsports.com/stories/soccer/how-to-watch-qatar-vs-switzerland-tv-channel-live-stream-2026-fifa-world-cup-group-b"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Qatar vs Switzerland",
+      "subtext": "Bảng B bước vào trận then chốt",
+      "voiceText": "Ka Ta gặp Thụy Sĩ lúc hai giờ sáng ngày mười bốn tháng sáu theo giờ Việt Nam. Đây là trận ra quân World Cup hai không hai sáu của hai đội ở Santa Clara, và áp lực đang nghiêng mạnh về Ka Ta, vì Thụy Sĩ được đánh giá cao hơn rất nhiều.",
+      "subtitle": "Qatar gặp Switzerland lúc 02:00 ngày 14/06 theo giờ Việt Nam. Đây là trận ra quân World Cup 2026 của hai đội ở Santa Clara, và áp lực đang nghiêng mạnh về Qatar, vì Switzerland được đánh giá cao hơn rất nhiều.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "secondaryAccentColor": "#E30613",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group B - Match 8",
+      "venue": "San Francisco Bay Area Stadium, Santa Clara",
+      "date": "14/06/2026",
+      "time": "02:00 VN",
+      "teams": [
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "form": "AFC qualifier",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        },
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "form": "Europe contender",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.6,
+          "top": "76%",
+          "size": 84
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng B đã có điểm số đầu tiên",
+      "subtext": "Canada và Bosnia-Herzegovina hòa 1-1",
+      "voiceText": "Bảng Bê đã mở ra bằng trận hòa một đều giữa Canada và Bosnia Herzegovina. Vì vậy, nếu Thụy Sĩ thắng trận này, họ sẽ nhảy thẳng lên ngôi đầu, còn Ka Ta cần ít nhất một điểm để không bị tụt lại.",
+      "subtitle": "Bảng B đã mở ra bằng trận hòa 1-1 giữa Canada và Bosnia-Herzegovina. Vì vậy, nếu Switzerland thắng trận này, họ sẽ nhảy thẳng lên ngôi đầu, còn Qatar cần ít nhất 1 điểm để không bị tụt lại.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "secondaryAccentColor": "#E30613",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group B Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Qatar vs Switzerland | 14/06/2026 VN",
+      "ctaLabel": "Kick-off 02:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Afif đối đầu Xhaka và Embolo",
+      "voiceText": "Ka Ta có thể dựa vào bộ đôi Akram Afif và Almoez Ali, với Hassan Al Haydos hỗ trợ phía sau. Thụy Sĩ có trục rất dày, từ Kobel, Akanji, Xhaka, Freuler, cho tới Embolo và Dan Ndoye ở tuyến trên.",
+      "subtitle": "Qatar có thể dựa vào bộ đôi Akram Afif và Almoez Ali, với Hassan Al Haydos hỗ trợ phía sau. Switzerland có trục rất dày, từ Kobel, Akanji, Xhaka, Freuler, cho tới Embolo và Dan Ndoye ở tuyến trên.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "secondaryAccentColor": "#E30613",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        },
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "5-3-2",
+          "players": [
+            "Meshaal Barsham",
+            "Pedro Miguel",
+            "Lucas Mendes",
+            "Boualem Khoukhi",
+            "Jassem Gaber",
+            "Homam El Amin",
+            "Karim Boudiaf",
+            "Abdulaziz Hatem",
+            "Hassan Al Haydos",
+            "Akram Afif",
+            "Almoez Ali"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Gregor Kobel",
+            "Silvan Widmer",
+            "Manuel Akanji",
+            "Nico Elvedi",
+            "Ricardo Rodriguez",
+            "Granit Xhaka",
+            "Remo Freuler",
+            "Dan Ndoye",
+            "Ruben Vargas",
+            "Noah Okafor",
+            "Breel Embolo"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#8A1538"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: Qatar từng thắng Thụy Sĩ",
+      "subtext": "Nhưng cán cân hiện tại rất khác",
+      "voiceText": "Hai đội mới gặp nhau một lần, và Ka Ta từng thắng một không trong trận giao hữu năm hai không mười tám. Nhưng lần này, mô hình Opta cho Thụy Sĩ thắng tới bảy mươi sáu phần trăm, còn cửa thắng của Ka Ta chỉ là chín phẩy một phần trăm.",
+      "subtitle": "Hai đội mới gặp nhau một lần, và Qatar từng thắng 1-0 trong trận giao hữu năm 2018. Nhưng lần này, mô hình Opta cho Switzerland thắng tới 76%, còn cửa thắng của Qatar chỉ là 9,1%.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "secondaryAccentColor": "#E30613",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        },
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        }
+      ],
+      "homeTeam": "Qatar",
+      "awayTeam": "Switzerland",
+      "odds": [
+        {
+          "label": "Opta Qatar thắng",
+          "value": "9.1%"
+        },
+        {
+          "label": "Khả năng hòa",
+          "value": "14.9%"
+        },
+        {
+          "label": "Switzerland thắng",
+          "value": "76.0%"
+        }
+      ],
+      "h2hMatches": [
+        {
+          "date": "11/2018",
+          "home": "Switzerland",
+          "away": "Qatar",
+          "score": "0-1",
+          "note": "Afif ghi bàn phút 86",
+          "homeBadgeSrc": "assets/football/flags/switzerland.svg",
+          "awayBadgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Cửa thắng trước trận",
+              "home": 9,
+              "away": 76
+            },
+            {
+              "label": "Kinh nghiệm giải lớn",
+              "home": 44,
+              "away": 88
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#8A1538"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: bóng chết của Qatar",
+      "subtext": "Afif là nguồn sáng lớn nhất",
+      "voiceText": "Điểm nóng của Ka Ta nằm ở Akram Afif. Anh có mười một kiến tạo ở vòng loại, trong đó sáu lần đến từ bóng chết. Nếu Ka Ta muốn gây bất ngờ, những quả đá phạt và phạt góc phải trở thành vũ khí thật sự.",
+      "subtitle": "Điểm nóng của Qatar nằm ở Akram Afif. Anh có 11 kiến tạo ở vòng loại, trong đó 6 lần đến từ bóng chết. Nếu Qatar muốn gây bất ngờ, những quả đá phạt và phạt góc phải trở thành vũ khí thật sự.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "secondaryAccentColor": "#E30613",
+      "textColor": "#FFFFFF",
+      "quote": "Qatar khó thắng bằng thế trận mở, nhưng một tình huống cố định đủ tốt có thể làm rung bảng B.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#8A1538"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng B",
+      "subtext": "Một chiến thắng là lên đỉnh bảng",
+      "voiceText": "Sau trận Canada hòa Bosnia Herzegovina một một, bảng Bê đang rất mở. Canada và Bosnia Herzegovina có một điểm, còn Ka Ta và Thụy Sĩ chưa đá. Vì thế, đội thắng trận này sẽ nắm lợi thế lớn ngay từ lượt đầu.",
+      "subtitle": "Sau trận Canada hòa Bosnia-Herzegovina 1-1, bảng B đang rất mở. Canada và Bosnia-Herzegovina có 1 điểm, còn Qatar và Switzerland chưa đá. Vì thế, đội thắng trận này sẽ nắm lợi thế lớn ngay từ lượt đầu.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "secondaryAccentColor": "#E30613",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group B",
+      "activeTab": "BẢNG B",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "LỊCH THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG B"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "QAT",
+        "SUI"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Canada",
+            "code": "CAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/canada.svg",
+            "badgeSrc": "assets/football/flags/canada.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Bosnia and Herzegovina",
+            "code": "BIH",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+            "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Qatar",
+            "code": "QAT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/qatar.svg",
+            "badgeSrc": "assets/football/flags/qatar.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Switzerland",
+            "code": "SUI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/switzerland.svg",
+            "badgeSrc": "assets/football/flags/switzerland.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#8A1538"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Qatar có giữ được điểm?",
+      "voiceText": "Bạn dự đoán Ka Ta có kéo được một điểm, hay Thụy Sĩ sẽ thắng đúng đẳng cấp ứng viên đầu bảng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Qatar có kéo được 1 điểm, hay Switzerland sẽ thắng đúng đẳng cấp ứng viên đầu bảng? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#8A1538",
+      "secondaryAccentColor": "#E30613",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán tỉ số Qatar vs Switzerland?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Qatar",
+          "Switzerland",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

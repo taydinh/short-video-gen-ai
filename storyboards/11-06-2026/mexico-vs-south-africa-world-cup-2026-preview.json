@@ -1,0 +1,238 @@
+{
+  "title": "Mexico vs South Africa: Trận mở màn World Cup 2026 lúc 02:00 giờ Việt Nam",
+  "slug": "mexico-vs-south-africa-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "sources": [
+    {
+      "name": "talkSPORT - Mexico v South Africa date, UK kick-off time and team news",
+      "url": "https://talksport.com/football/world-cup/4320510/mexico-vs-south-africa-date-uk-kick-off-time-2026-world-cup-opener-tv-channel-teams/"
+    },
+    {
+      "name": "FIFA - FIFA World Cup 26 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule"
+    },
+    {
+      "name": "FourFourTwo - World Cup 2026 fixtures and UK kick-off times",
+      "url": "https://www.fourfourtwo.com/competition/world-cup-2026-fixtures-day-by-day"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "WORLD CUP 2026 MỞ MÀN!",
+      "subtext": "Mexico vs South Africa",
+      "subtitle": "World Cup 2026 mở màn! Mexico gặp South Africa lúc 02:00 ngày 12/06 theo giờ Việt Nam, tại Estadio Azteca, Mexico City.",
+      "voiceText": "World Cup hai không hai sáu mở màn! Mexico gặp Nam Phi lúc hai giờ sáng ngày mười hai tháng sáu theo giờ Việt Nam, tại Estadio Azteca, Mexico City.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group A - Matchday 1",
+      "venue": "Estadio Azteca, Mexico City",
+      "date": "12.06.2026",
+      "time": "02:00",
+      "teams": [
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/mexico.svg",
+          "badgeSrc": "assets/football/flags/mexico.svg",
+          "form": ["W", "D", "W", "L", "W"]
+        },
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/south-africa.svg",
+          "badgeSrc": "assets/football/flags/south-africa.svg",
+          "form": ["W", "W", "D", "L", "W"]
+        }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.25 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "FIFA World Cup 2026",
+      "tournamentName": "FIFA World Cup 2026",
+      "competitionLabel": "Opening Match Preview",
+      "seasonLabel": "48 teams | Canada - Mexico - USA",
+      "ctaLabel": "Kickoff 02:00 VN",
+      "subtitle": "Giải đấu 48 đội bắt đầu bằng trận Mexico - South Africa, đúng 16 năm sau màn hòa 1-1 ở trận khai mạc World Cup 2010.",
+      "voiceText": "Giải đấu bốn mươi tám đội bắt đầu bằng trận Mexico gặp Nam Phi, đúng mười sáu năm sau màn hòa một đều ở trận khai mạc World Cup hai không mười.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.18 },
+        { "type": "football-ball-motion", "duration": 2.8, "top": "74%", "size": 78 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtitle": "Mexico có thể xoay quanh Ochoa, Edson Alvarez và Raul Jimenez. South Africa đặt trọng tâm vào Ronwen Williams, Teboho Mokoena và Lyle Foster, trong một trận mà từng pha chuyển trạng thái đều rất quan trọng.",
+      "voiceText": "Mexico có thể xoay quanh Ochoa, Edson Alvarez và Raul Jimenez. Nam Phi đặt trọng tâm vào Ronwen Williams, Teboho Mokoena và Lyle Foster, trong một trận mà từng pha chuyển trạng thái đều rất quan trọng.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "competitionLabel": "PREDICTED LINEUPS",
+      "venue": "Estadio Azteca",
+      "teams": [
+        { "name": "Mexico", "code": "MEX", "teamType": "national", "flagSrc": "assets/football/flags/mexico.svg" },
+        { "name": "South Africa", "code": "RSA", "teamType": "national", "flagSrc": "assets/football/flags/south-africa.svg" }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-3-3",
+          "players": ["Ochoa", "Sanchez", "Montes", "Vasquez", "Gallardo", "Edson Alvarez", "Luis Chavez", "Pineda", "Lozano", "Raul Jimenez", "Vega"]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": ["Ronwen Williams", "Mudau", "Xulu", "Sibisi", "Modiba", "Teboho Mokoena", "Sithole", "Mokoena", "Tau", "Maswanganyi", "Lyle Foster"]
+        }
+      },
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "H2H: Ký ức 2010 trở lại",
+      "subtext": "Mexico vs South Africa",
+      "subtitle": "Cặp đấu này từng mở màn World Cup 2010 với tỉ số 1-1. Lần này, Mexico có lợi thế sân nhà, còn South Africa mang tinh thần trở lại sân khấu lớn sau nhiều năm chờ đợi.",
+      "voiceText": "Cặp đấu này từng mở màn World Cup hai không mười với tỉ số một đều. Lần này, Mexico có lợi thế sân nhà, còn Nam Phi mang tinh thần trở lại sân khấu lớn sau nhiều năm chờ đợi.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "teams": [
+        { "name": "Mexico", "code": "MEX", "teamType": "national", "flagSrc": "assets/football/flags/mexico.svg", "form": [] },
+        { "name": "South Africa", "code": "RSA", "teamType": "national", "flagSrc": "assets/football/flags/south-africa.svg", "form": [] }
+      ],
+      "oddsTable": {
+        "headers": ["Đội bóng", "Câu chuyện", "Điểm mạnh", "Rủi ro", "Ghi chú"],
+        "rows": [
+          { "teamName": "Mexico", "scoreText": "Chủ nhà", "x12": "Sân Azteca", "hdp": "Kinh nghiệm", "ou": "Áp lực", "htHdp": "Phải mở màn chắc chắn" },
+          { "teamName": "South Africa", "scoreText": "Trở lại", "x12": "Chuyển trạng thái", "hdp": "Thể lực", "ou": "Chiều sâu", "htHdp": "Có thể gây bất ngờ" }
+        ]
+      },
+      "h2hMatches": [
+        { "kickoff": "11/06/2010", "competition": "World Cup", "home": "South Africa", "away": "Mexico", "score": "1-1" },
+        { "kickoff": "11/06/2026", "competition": "World Cup", "home": "Mexico", "away": "South Africa", "score": "Preview" }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.16 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng mở màn",
+      "quote": "Nếu Mexico nôn nóng, South Africa có đủ tốc độ để biến trận khai mạc thành một cú sốc.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "subtitle": "Điểm nóng là nhịp độ. Mexico cần kiểm soát áp lực sân nhà, còn South Africa có thể chờ cơ hội phản công từ Lyle Foster và tuyến hai.",
+      "voiceText": "Điểm nóng là nhịp độ. Mexico cần kiểm soát áp lực sân nhà, còn Nam Phi có thể chờ cơ hội phản công từ Lyle Foster và tuyến hai.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.6
+        },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng A trước giờ bóng lăn",
+      "subtext": "World Cup 2026 - Group A",
+      "subtitle": "Bảng A có Mexico, South Africa, Korea Republic và Czechia. Trận mở màn có thể định hình ngay cuộc đua vào vòng 32 đội, nhất là khi vị trí thứ ba cũng còn cơ hội đi tiếp.",
+      "voiceText": "Bảng A có Mexico, Nam Phi, Hàn Quốc và Czechia. Trận mở màn có thể định hình ngay cuộc đua vào vòng ba mươi hai đội, nhất là khi vị trí thứ ba cũng còn cơ hội đi tiếp.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "textColor": "#ffffff",
+      "activeTab": "BẢNG A",
+      "tabs": ["TRẬN ĐẤU", "LỊCH THI ĐẤU", "CẦU THỦ", "BẢNG A"],
+      "standingsVariant": "world-cup-group",
+      "season": "2026",
+      "highlightTeams": ["MEX", "RSA"],
+      "standings": [
+        { "rank": 1, "team": { "name": "Mexico", "code": "MEX", "teamType": "national", "flagSrc": "assets/football/flags/mexico.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 2, "team": { "name": "South Africa", "code": "RSA", "teamType": "national", "flagSrc": "assets/football/flags/south-africa.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 3, "team": { "name": "Korea Republic", "code": "KOR", "teamType": "national", "flagSrc": "assets/football/flags/korea-republic.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 },
+        { "rank": 4, "team": { "name": "Czechia", "code": "CZE", "teamType": "national", "flagSrc": "assets/football/flags/czechia.svg" }, "played": 0, "wins": 0, "draws": 0, "losses": 0, "gf": 0, "ga": 0, "gd": 0, "pts": 0 }
+      ],
+      "visuals": [
+        { "type": "football-pitch-lines", "position": "background", "opacity": 0.2 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Mexico thắng hay Nam Phi tạo địa chấn?",
+      "subtext": "Dự đoán tỉ số của bạn là gì?",
+      "subtitle": "Bạn chọn Mexico thắng trận mở màn, hay South Africa tạo địa chấn ở Azteca? Hãy để lại dự đoán tỉ số của bạn. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "voiceText": "Bạn chọn Mexico thắng trận mở màn, hay Nam Phi tạo địa chấn ở Azteca? Hãy để lại dự đoán tỉ số của bạn. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "World Cup 2026 mở màn",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Dự đoán: Mexico vs South Africa?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": ["World Cup 2026", "Méo Bình Luận", "FOLLOW KÊNH", "@vibe.bongda"]
+      },
+      "visuals": [
+        { "type": "football-confetti", "particleCount": 88, "duration": 5 },
+        { "type": "channel-watermark", "logoSrc": "assets/logos/logo.png", "username": "@vibe.bongda", "opacity": 0.6, "top": "70px", "right": "84px", "logoSize": 72, "fontSize": 23, "width": 220, "usernameMinWidth": 164, "accentColor": "#F7C948" }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-﻿# Football Storyboard Presets
+# Football Storyboard Presets
 
 Tài liệu này lưu cấu trúc preset khi tạo storyboard JSON cho video bóng đá.
 
@@ -18,6 +18,7 @@ Nguồn mẫu:
 ### Composition `football-standings-table`
 
 - Khi dùng composition `football-standings-table`, bảng xếp hạng phải lấy ít nhất 7 đội xung quanh 2 đội bóng đang được nói tới. Nếu bối cảnh cần nhìn rộng hơn, có thể lấy từ vị trí số 1 đến vị trí thấp nhất của đội liên quan, hoặc lấy thêm các đội trong cùng cuộc đua.
+- Nếu scene dùng `football-standings-table` để hiển thị nhánh đấu / cặp đấu liên quan và không khai báo `standings` hoặc `standingsGroups`, renderer không được tự động thêm bảng xếp hạng mặc định; chỉ hiển thị các phần dữ liệu được khai báo như `h2hMatches`.
 
 ### Quan Hệ Giữa `voiceText` Và `subtitle`
 
@@ -36,6 +37,8 @@ Nguồn mẫu:
   - `PSG` viết là `Pi S Ji`.
   - `Man U` viết là `mờ u`.
   - `Liverpool` viết là `li vơ pun`.
+  - `Portugal` viết là `Bồ Đào Nha`.
+  - `Croatia` viết là `cờ rót ti a`.
 - Trong `voiceText`, tên đội tuyển/quốc gia `Uzbekistan` phải viết là `Uz bê kits tan` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `teams`, `fixtures`, `sources` vẫn giữ tên chính thức/bản gốc.
 - Trong `voiceText`, tên cầu thủ `Kevin De Bruyne` phải viết là `Kê Vin Đờ Broai Nơ` để TTS đọc ổn định. Các field hiển thị trên video như `subtitle`, `title`, `subtext`, `player`, `cards`, `sources` vẫn giữ tên chính thức/bản gốc.
 
@@ -67,7 +70,7 @@ Nguồn mẫu:
 - `voiceText` của scene cuối cùng phải có lời kêu gọi follow: `Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!`
 - Scene cuối của tất cả storyboard phải dùng `composition: "promo-card"` theo mẫu scene cuối trong `storyboards\21-05-2026\robert-lewandowski-chia-tay-barcelona.json`.
 - Scene cuối nên có object `promo` gồm các field chính: `badge`, `button`, `url`, `commentPrompt`, `logoSrc`, `logos`.
-- `promo.button` mặc định dùng `FOLLOW KÊNH`, `promo.url` mặc định dùng `@vibe.bongda`, `promo.logoSrc` mặc định dùng `assets/logos/logo.png`.
+- `promo.button` mặc định dùng `FOLLOW KÊNH`, `promo.url` mặc định dùng `@meothichbl`, `promo.logoSrc` mặc định dùng `assets/logos/logo.png`.
 - Visual scene cuối nên dùng mảng `visuals` với `football-confetti`, ví dụ `particleCount` khoảng 80-90 và `duration` khoảng 4.6-5.2 giây.
 
 ### Tổng Hợp VoiceText Sau Khi Tạo Storyboard
@@ -102,6 +105,11 @@ Nguồn mẫu:
 - Trong `voiceText`, tên cầu thủ `Mbappé` phải viết là `em pa bê` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
 - Trong `voiceText`, tên cầu thủ `Dembélé` phải viết là `đem bê lê` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
 - Trong `voiceText`, tên cầu thủ `Havertz` phải viết là `ha vớt` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
+- Trong `voiceText`, tên cầu thủ `Van Dijk` phải viết là `Van Đai` để TTS đọc ổn định. Các field hiển thị trên video vẫn giữ tên chính thức/bản gốc.
+
+### Cách Đọc Sơ Đồ Đội Hình Trong VoiceText
+
+- Trong `voiceText`, khi nói về số `4` trong sơ đồ đội hình (ví dụ `4-3-3`, `4-2-3-1`, `5-4-1`), phải viết là `bốn` chứ không được viết là `tư`. Ví dụ: `sơ đồ bốn ba ba`, `sơ đồ năm bốn một` thay vì `sơ đồ năm tư một`.
 
 ### Ghi Chú Thêm
 
@@ -147,7 +155,7 @@ promo-card
 - `voiceText` của scene 2 nên ngắn gọn, chỉ giới thiệu nhanh bối cảnh/giải đấu, tránh diễn giải dài.
 - Scene 3 dùng đội hình dự kiến, title có thể là `Đội hình dự kiến`.
 - Scene 4 tập trung vào H2H, lịch sử đối đầu, phong độ, tỷ lệ hoặc thông tin đối đầu nổi bật.
-- Scene 5 nên chọn một điểm nóng trước trận: cầu thủ đáng chú ý, HLV, áp lực vô địch, derby, vé châu Âu, trụ hạng.
+- Scene 5 nên chọn một điểm nóng trước trận: cầu thủ đáng chú ý, HLV, áp lực vô địch, derby, vé châu Âu, trụ hạng. Với scene 5 dùng `quote-attrib`, thuộc tính `imageUrl` nên được đặt mặc định là `"assets/images/meo-bl-wc-room.png"`.
 - Scene 6 nên đặt trận đấu vào bối cảnh BXH hoặc cuộc đua liên quan.
 - Scene 7 nên đặt câu hỏi dự đoán tỉ số để kéo bình luận, đồng thời thêm lời kêu gọi follow vào `voiceText` theo rule chung.
 
@@ -155,28 +163,26 @@ promo-card
 
 Dùng cho storyboard result / tổng kết kết quả sau trận.
 
-- Tổng số scene: 9
-- Tổng thời lượng mẫu: 58 giây
-- Slug mẫu: `bournemouth-1-1-man-city-epl-result-2026-05-20`
+- Tổng số scene: 8
+- Tổng thời lượng mẫu: 52 giây
+- Slug mẫu: `south-africa-0-1-canada-world-cup-result-2026-06-29`
 
 | Scene | Type | Composition | Thời lượng mẫu | Vai trò nội dung |
 | --- | --- | --- | ---: | --- |
-| 1 | `intro` | `football-match-card` | 6s | Mở đầu bằng kết quả chính, cặp đấu, tỉ số, bối cảnh và tác động lớn nhất. |
+| 1 | `intro` | `football-scoreboard` | 6s | Mở đầu bằng bảng tỉ số full-time, hook kết quả chính, cặp đấu, bối cảnh, cầu thủ ghi bàn và tác động lớn nhất. |
 | 2 | `intro` | `football-tournament-intro` | 3s | Giới thiệu giải đấu / nhận diện đây là video kết quả, có logo tournament và transition. |
-| 3 | `content` | `football-scoreboard` | 6s | Bảng tỉ số full-time, tóm tắt kết quả và câu chuyện chính của trận. |
-| 4 | `content` | `football-lineup` | 8s | Đội hình chính thức, formation và danh sách cầu thủ xuất phát. |
-| 5 | `content` | `football-player-stat` | 7s | Cầu thủ nổi bật / người tạo bước ngoặt, kèm stats cá nhân. |
-| 6 | `content` | `football-timeline` | 9s | Timeline diễn biến trận đấu theo phút và các sự kiện quan trọng. |
-| 7 | `content` | `football-scoreboard` | 7s | Thống kê trận đấu bằng scoreboard kết hợp stat bars. |
-| 8 | `content` | `football-standings-table` | 7s | Tác động lên BXH sau trận, highlight các đội liên quan. |
-| 9 | `outro` | `promo-card` | 5s | Kết video bằng câu hỏi cảm nghĩ / CTA bình luận và follow. |
+| 3 | `content` | `football-lineup` | 8s | Đội hình chính thức, formation và danh sách cầu thủ xuất phát. |
+| 4 | `content` | `football-player-stat` | 7s | Cầu thủ nổi bật / người tạo bước ngoặt, kèm stats cá nhân. |
+| 5 | `content` | `football-timeline` | 9s | Timeline diễn biến trận đấu theo phút và các sự kiện quan trọng. |
+| 6 | `content` | `football-scoreboard` | 7s | Thống kê trận đấu bằng scoreboard kết hợp stat bars. |
+| 7 | `content` | `football-standings-table` | 7s | Tác động sau trận: BXH, nhánh đấu, vòng tiếp theo hoặc các cặp đấu liên quan. |
+| 8 | `outro` | `promo-card` | 5s | Kết video bằng câu hỏi cảm nghĩ / CTA bình luận và follow. |
 
 ### Thứ Tự Composition
 
 ```text
-football-match-card
-football-tournament-intro
 football-scoreboard
+football-tournament-intro
 football-lineup
 football-player-stat
 football-timeline
@@ -188,17 +194,17 @@ promo-card
 ### Ghi Chú Riêng Cho Preset Result
 
 - Scene 1 và scene 2 không dùng visual `channel-watermark`.
-- Scene 1 nên nói rõ tỉ số, sân đấu, cầu thủ ghi bàn, phút ghi bàn và tác động lớn nhất của kết quả.
+- Scene 1 dùng `composition: "football-scoreboard"` và đóng vai trò gộp hook mở đầu với bảng tỉ số full-time. Scene này phải có `minute: "FT"`, `score`, `teams`, `competitionLabel`, có thể thêm `stage`, `venue`, `date`, `time`, và visual `football-scorebug` nếu cần.
+- Scene 1 nên nói rõ tỉ số, sân đấu, cầu thủ ghi bàn, phút ghi bàn, mô tả ngắn pha ghi bàn và tác động lớn nhất của kết quả. Không dùng visual `video` hoặc `video-clip-card` trong scene này vì `football-scoreboard` không hỗ trợ video trực tiếp theo catalog.
 - Scene 2 nên dùng `competitionLabel` kiểu result, ví dụ `Match Result`.
 - `voiceText` của scene 2 nên ngắn gọn, chỉ chuyển nhịp sang phần kết quả/giải đấu, tránh diễn giải dài.
-- Scene 3 là scoreboard full-time, có `minute: FT`, `score`, teams và scorebug nếu cần.
-- Scene 4 dùng đội hình chính thức, title có thể là `Đội hình chính thức`.
-- Scene 5 chọn một cầu thủ nổi bật hoặc khoảnh khắc bước ngoặt để làm player stat.
+- Scene 3 dùng đội hình chính thức, title có thể là `Đội hình chính thức`.
+- Scene 4 chọn một cầu thủ nổi bật hoặc khoảnh khắc bước ngoặt để làm player stat.
 - Với composition `football-player-stat`, phải tìm kiếm hình ảnh của cầu thủ được nói tới. Nếu không tìm được hình ảnh phù hợp, để `playerImageUrl` trống và báo lại cho người dùng biết để người dùng tự tìm và thêm vào.
-- Scene 6 cần có các mốc phút quan trọng: bàn thắng, thẻ phạt, thay người, cứu thua, cơ hội lớn, full-time.
-- Scene 7 tập trung vào match stats: kiểm soát bóng, xG, cú sút, sút trúng đích, cơ hội lớn, phạt góc.
-- Scene 8 cập nhật BXH sau trận và nêu rõ tác động đến vô địch, top 4, vé châu Âu hoặc trụ hạng.
-- Scene 9 nên hỏi cảm nghĩ về kết quả / cầu thủ / bước ngoặt để kéo bình luận, đồng thời thêm lời kêu gọi follow vào `voiceText` theo rule chung.
+- Scene 5 cần có các mốc phút quan trọng: bàn thắng, thẻ phạt, thay người, cứu thua, cơ hội lớn, full-time. Không dùng visual `video` hoặc `video-clip-card` trong scene `football-timeline`.
+- Scene 6 tập trung vào match stats: kiểm soát bóng, chỉ số bàn thắng kỳ vọng, cú sút, sút trúng đích, cơ hội lớn, phạt góc.
+- Scene 7 cập nhật tác động sau trận. Nếu còn ở vòng bảng/giải league thì dùng `standings`. Nếu đã vào vòng loại trực tiếp thì có thể bỏ `standings` và dùng `h2hMatches` để hiển thị các cặp đấu liên quan, nhánh tiếp theo hoặc trận diễn ra hôm nay/ngày mai.
+- Scene 8 nên hỏi cảm nghĩ về kết quả / cầu thủ / bước ngoặt / nhánh đấu tiếp theo để kéo bình luận, đồng thời thêm lời kêu gọi follow vào `voiceText` theo rule chung.
 
 ## Preset `football-news-roundup`
 
@@ -254,7 +260,7 @@ Yêu cầu:
     {
       "type": "channel-watermark",
       "logoSrc": "assets/logos/logo.png",
-      "username": "@vibe.bongda",
+      "username": "@meothichbl",
       "opacity": 0.6,
       "top": "70px",
       "right": "84px",

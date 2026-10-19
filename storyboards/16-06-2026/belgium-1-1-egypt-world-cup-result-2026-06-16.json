@@ -1,0 +1,653 @@
+{
+  "title": "Bỉ 1-1 Ai Cập: Lukaku vào sân, Bỉ thoát thua trước Salah và Ashour",
+  "slug": "belgium-1-1-egypt-world-cup-result-2026-06-16",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Storyboard kết quả trận Bỉ 1-1 Ai Cập ở bảng G World Cup 2026. Trận diễn ra tại Seattle Stadium/Lumen Field ngày 15/06/2026 giờ địa phương, tương ứng 02:00 ngày 16/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "The Guardian - Lukaku makes instant impact to rescue draw for Belgium against Egypt",
+      "url": "https://www.theguardian.com/football/2026/jun/15/belgium-egypt-world-cup-2026-group-g-match-report"
+    },
+    {
+      "title": "The Guardian - Belgium 1-1 Egypt: World Cup 2026 as it happened",
+      "url": "https://www.theguardian.com/football/live/2026/jun/15/belgium-v-egypt-world-cup-2026-live"
+    },
+    {
+      "title": "Ahram Online - RELIVE: Belgium v Egypt (2026 FIFA World Cup)",
+      "url": "https://english.ahram.org.eg/NewsContentP/66/570830/World-Cup-/RELIVE-Belgium-v-Egypt--FIFA-World-Cup.aspx"
+    },
+    {
+      "title": "Sofascore - Belgium 1-1 Egypt: Group G draw by the numbers",
+      "url": "https://www.sofascore.com/news/belgium-1-1-egypt-group-g-draw-by-the-numbers"
+    },
+    {
+      "title": "Ahram Online - Live score: Iran v New Zealand (2026 FIFA World Cup)",
+      "url": "https://english.ahram.org.eg/WorldCup2026/AfricaInner.aspx?NewsContentID=570832"
+    },
+    {
+      "title": "Wikimedia Commons - Emam Ashour image",
+      "url": "https://commons.wikimedia.org/wiki/File:Emam22.jpg"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "title": "Bỉ 1-1 Ai Cập",
+      "subtitle": "Bỉ hòa Ai Cập 1-1 tại Seattle trong trận mở màn bảng G World Cup 2026. Emam Ashour ghi bàn phút 19 từ đường chuyền của Mohamed Salah, trước khi Mohamed Hany phản lưới ở phút 66 sau pha căng ngang của Thomas Meunier và áp lực từ Romelu Lukaku.",
+      "subtext": "FT - Belgium 1-1 Egypt",
+      "voiceText": "Bỉ hòa Ai Cập một một tại Seattle, trong trận mở màn bảng G, World Cup hai không hai sáu. Emam Ashour ghi bàn phút mười chín từ đường chuyền của Mohamed Salah, trước khi Mohamed Hany phản lưới ở phút sáu mươi sáu, sau pha căng ngang của Thomas Meunier và áp lực từ Romelu Lukaku.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group G - Matchday 1",
+      "venue": "Seattle Stadium, Seattle",
+      "date": "16/06/2026",
+      "time": "02:00 VN",
+      "minute": "FT",
+      "score": "1-1",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "score": 1,
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "name": "Egypt",
+          "code": "EGY",
+          "score": 1,
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-scorebug",
+          "home": "BEL",
+          "away": "EGY",
+          "score": "1-1",
+          "minute": "FT",
+          "label": "Group G"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "World Cup 2026 - Result",
+      "subtitle": "Một trận hòa khiến bảng G mở ra rất căng: Ai Cập có quyền tiếc vì đã dẫn trước, còn Bỉ phải cảm ơn hiệu ứng Lukaku từ ghế dự bị.",
+      "subtext": "Group G nóng ngay lượt đầu",
+      "voiceText": "Một trận hòa khiến bảng G mở ra rất căng: Ai Cập có quyền tiếc vì đã dẫn trước, còn Bỉ phải cảm ơn hiệu ứng Lukaku từ ghế dự bị.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Result",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Belgium 1-1 Egypt | 16/06/2026 VN",
+      "ctaLabel": "Full-time 1-1",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651774939837582614.mp4",
+          "trim": {
+            "start": 0,
+            "end": 3
+          },
+          "position": "background",
+          "opacity": 0.34,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình chính thức",
+      "subtitle": "Belgium đá 4-2-3-1 với Courtois, Meunier, Mechele, Nathan Ngoy, Castagne, Tielemans, Onana, Doku, De Bruyne, Trossard và De Ketelaere. Egypt dùng khối đội hình giàu tranh chấp với Shobeir, Hany, Yasser Ibrahim, Fatouh, Hamdy Fathy, Marwan Ateya, Mohanad Lasheen, Emam Ashour, Mostafa Ziko, Salah và Marmoush.",
+      "subtext": "De Bruyne cầm nhịp, Salah kiến tạo",
+      "voiceText": "Bỉ đá bốn hai ba một với Courtois, Meunier, Mechele, Nathan Ngoy, Castagne, Tielemans, Onana, Doku, Kê Vin Đờ Broai Nơ, Trossard và De Ketelaere. Ai Cập dùng khối đội hình giàu tranh chấp với Shobeir, Hany, Yasser Ibrahim, Fatouh, Hamdy Fathy, Marwan Ateya, Mohanad Lasheen, Emam Ashour, Mostafa Ziko, Salah và Marmoush.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH CHÍNH THỨC",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "name": "Egypt",
+          "code": "EGY",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Thibaut Courtois",
+            "Thomas Meunier",
+            "Brandon Mechele",
+            "Nathan Ngoy",
+            "Timothy Castagne",
+            "Youri Tielemans",
+            "Amadou Onana",
+            "Jeremy Doku",
+            "Kevin De Bruyne",
+            "Leandro Trossard",
+            "Charles De Ketelaere"
+          ]
+        },
+        "away": {
+          "formation": "3-4-3",
+          "players": [
+            "Mostafa Shobeir",
+            "Mohamed Hany",
+            "Yasser Ibrahim",
+            "Ahmed Fatouh",
+            "Hamdy Fathy",
+            "Marwan Ateya",
+            "Mohanad Lasheen",
+            "Emam Ashour",
+            "Mostafa Ziko",
+            "Mohamed Salah",
+            "Omar Marmoush"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651774939837582614.mp4",
+          "trim": {
+            "start": 4,
+            "end": 12
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Group G XI",
+          "videoDescription": "De Bruyne đối đầu Salah trong trận mở màn bảng G",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "title": "Emam Ashour tạo khác biệt",
+      "subtitle": "Emam Ashour là cầu thủ nổi bật của Egypt: ghi bàn mở tỉ số, nhận Sofascore Rating 7.8, có 2 cú sút, 1 lần trúng đích, 1 key pass và 6 lần thu hồi bóng trong 71 phút.",
+      "subtext": "Bàn thắng phút 19, rating 7.8",
+      "voiceText": "Emam Ashour là cầu thủ nổi bật của Ai Cập: ghi bàn mở tỉ số, nhận Sofascore Rating bảy phẩy tám, có hai cú sút, một lần trúng đích, một key pass và sáu lần thu hồi bóng trong bảy mươi mốt phút.",
+      "duration": 7,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "player": "Emam Ashour",
+      "team": "Egypt",
+      "number": "8",
+      "playerImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Emam22.jpg",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "1"
+        },
+        {
+          "label": "Phút ghi bàn",
+          "value": "19'"
+        },
+        {
+          "label": "Sofascore",
+          "value": "7.8"
+        },
+        {
+          "label": "Thu hồi bóng",
+          "value": "6"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651774939837582614.mp4",
+          "trim": {
+            "start": 14,
+            "end": 21
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Ashour 19'",
+          "videoDescription": "Egypt vươn lên sau đường chuyền của Salah",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "title": "Timeline trận đấu",
+      "subtitle": "Phút 19, Ashour sút tung lưới Belgium từ pha kiến tạo của Salah. Belgium không có cú sút trúng đích trong hiệp 1. Phút 66, Lukaku vừa vào sân đã tạo áp lực khiến Mohamed Hany phản lưới. Cuối trận, Courtois cứu thua, Shobeir cũng đứng vững, và VAR không đổi quyết định ở pha Egypt đòi phạt đền.",
+      "subtext": "Salah mở khóa, Lukaku đổi nhịp",
+      "voiceText": "Phút mười chín, Ashour sút tung lưới Bỉ từ pha kiến tạo của Salah. Bỉ không có cú sút trúng đích trong hiệp một. Phút sáu mươi sáu, Lukaku vừa vào sân đã tạo áp lực khiến Mohamed Hany phản lưới. Cuối trận, Courtois cứu thua, Shobeir cũng đứng vững, và VAR không đổi quyết định ở pha Ai Cập đòi phạt đền.",
+      "duration": 9,
+      "startTime": 24,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Diễn biến trận đấu",
+      "events": [
+        {
+          "minute": "19'",
+          "team": "Egypt",
+          "event": "Ashour 0-1",
+          "desc": "Salah kiến tạo, Ashour dứt điểm mở tỉ số."
+        },
+        {
+          "minute": "HT",
+          "team": "Belgium",
+          "event": "0 shot on target",
+          "desc": "Belgium bế tắc trong hiệp 1."
+        },
+        {
+          "minute": "66'",
+          "team": "Belgium",
+          "event": "Hany OG 1-1",
+          "desc": "Meunier căng ngang, Lukaku lao vào gây áp lực."
+        },
+        {
+          "minute": "75'",
+          "team": "Egypt",
+          "event": "Salah rời sân",
+          "desc": "Egypt thay người để giữ khối đội hình."
+        },
+        {
+          "minute": "90+'",
+          "team": "Both",
+          "event": "Hai thủ môn đứng vững",
+          "desc": "Courtois và Shobeir giữ tỉ số hòa."
+        },
+        {
+          "minute": "FT",
+          "team": "Both",
+          "event": "1-1",
+          "desc": "Mỗi đội rời sân với 1 điểm."
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "football-scorebug",
+          "home": "BEL",
+          "away": "EGY",
+          "score": "1-1",
+          "minute": "FT"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "title": "Thống kê kể câu chuyện",
+      "subtitle": "Egypt tạo cú đấm đầu tiên bằng bàn của Ashour, còn Belgium chỉ thật sự đổi nhịp khi Lukaku vào sân. Ashour có chỉ số bàn thắng kỳ vọng 0.21, 2 cú sút, 1 key pass, trong khi Belgium phải sống nhờ pha phản lưới ở phút 66.",
+      "subtext": "Bỉ kiểm soát bóng nhiều hơn, nhưng thiếu sắc ở hiệp 1",
+      "voiceText": "Ai Cập tạo cú đấm đầu tiên bằng bàn của Ashour, còn Bỉ chỉ thật sự đổi nhịp khi Lukaku vào sân. Ashour có chỉ số bàn thắng kỳ vọng không phẩy hai mốt, hai cú sút, một key pass, trong khi Bỉ phải sống nhờ pha phản lưới ở phút sáu mươi sáu.",
+      "duration": 7,
+      "startTime": 33,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Match Stats",
+      "minute": "Stats",
+      "score": "1-1",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "score": 1,
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/belgium.svg",
+          "badgeSrc": "assets/football/flags/belgium.svg"
+        },
+        {
+          "name": "Egypt",
+          "code": "EGY",
+          "score": 1,
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/egypt.svg",
+          "badgeSrc": "assets/football/flags/egypt.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "position": "foreground",
+          "bottom": "500px",
+          "stats": [
+            {
+              "label": "Bàn thắng",
+              "home": 1,
+              "away": 1
+            },
+            {
+              "label": "Sút trúng đích hiệp 1",
+              "home": 0,
+              "away": 1
+            },
+            {
+              "label": "Bàn trực tiếp",
+              "home": 0,
+              "away": 1
+            },
+            {
+              "label": "Own goal hưởng lợi",
+              "home": 1,
+              "away": 0
+            },
+            {
+              "label": "Điểm sau trận",
+              "home": 1,
+              "away": 1
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng G chia điểm toàn bộ",
+      "subtitle": "Sau lượt mở màn, cả 4 đội bảng G cùng có 1 điểm: Iran và New Zealand hòa 2-2 nên tạm xếp trên nhờ ghi nhiều bàn hơn, còn Belgium và Egypt đứng ngay phía sau với cùng hiệu số 0.",
+      "subtext": "Không ai bứt lên sau lượt đầu",
+      "voiceText": "Sau lượt mở màn, cả bốn đội bảng G cùng có một điểm: Iran và New Zealand hòa hai hai nên tạm xếp trên nhờ ghi nhiều bàn hơn, còn Bỉ và Ai Cập đứng ngay phía sau với cùng hiệu số không.",
+      "duration": 7,
+      "startTime": 40,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "World Cup 2026 - Group G",
+      "activeTab": "BẢNG G",
+      "tabs": [
+        "TRẬN ĐẤU",
+        "LỊCH THI ĐẤU",
+        "CẦU THỦ",
+        "BẢNG G"
+      ],
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "BEL",
+        "EGY"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "IR Iran",
+            "code": "IRN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/ir-iran.svg",
+            "badgeSrc": "assets/football/flags/ir-iran.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "New Zealand",
+            "code": "NZL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/new-zealand.svg",
+            "badgeSrc": "assets/football/flags/new-zealand.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Belgium",
+            "code": "BEL",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/belgium.svg",
+            "badgeSrc": "assets/football/flags/belgium.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Egypt",
+            "code": "EGY",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/egypt.svg",
+            "badgeSrc": "assets/football/flags/egypt.svg"
+          },
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "video-clip-card",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651774939837582614.mp4",
+          "trim": {
+            "start": 42,
+            "end": 50
+          },
+          "position": "bottom",
+          "layout": "vertical",
+          "videoTitle": "Group G",
+          "videoDescription": "Bốn đội cùng 1 điểm sau lượt mở màn",
+          "videoVolume": 0
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bỉ thoát thua hay Ai Cập đánh rơi chiến thắng?",
+      "subtitle": "Theo bạn, trận hòa này là 1 điểm quý cho Egypt, hay là lời cảnh báo lớn cho Belgium? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtext": "Comment góc nhìn của bạn",
+      "voiceText": "Theo bạn, trận hòa này là một điểm quý cho Ai Cập, hay là lời cảnh báo lớn cho Bỉ? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 5,
+      "startTime": 47,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "Belgium 1-1 Egypt",
+        "button": "FOLLOW KÊNH",
+        "url": "@vibe.bongda",
+        "commentPrompt": "Bỉ thoát thua hay Ai Cập tiếc nuối?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Belgium",
+          "Egypt",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "video",
+          "videoUrl": "C:/Users/Taydinh/Downloads/snaptik.vn_7651774939837582614.mp4",
+          "trim": {
+            "start": 52,
+            "end": 60
+          },
+          "position": "background",
+          "opacity": 0.32,
+          "videoVolume": 0
+        },
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@vibe.bongda",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

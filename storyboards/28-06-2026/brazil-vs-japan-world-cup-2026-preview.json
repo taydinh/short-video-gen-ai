@@ -1,0 +1,537 @@
+{
+  "title": "Brazil vs Nhật Bản: Rực lửa vòng 32 đội World Cup 2026",
+  "slug": "brazil-vs-japan-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Nhận định trận đấu vòng 32 đội (vòng 1/16) giữa Brazil và Nhật Bản tại World Cup 2026. Giọng văn vui vẻ, trẻ trung, có tính giải trí và bàn luận về kèo đấu cực kỳ hấp dẫn.",
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 Match Schedule & Results",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
+    },
+    {
+      "title": "Brazil National Football Team Squad",
+      "url": "https://www.cbf.com.br"
+    },
+    {
+      "title": "Japan National Football Team Squad",
+      "url": "https://www.jfa.jp"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Brazil vs Nhật Bản",
+      "subtext": "Đại chiến vòng 32 đội cực nóng",
+      "voiceText": "Chào anh em! Trận cầu siêu kinh điển giữa những vũ công Sam ba Brazil, và chiến binh Sa mu rai xanh Nhật Bản, sẽ diễn ra vào lúc không giờ ngày ba mươi tháng sáu, theo giờ Việt Nam. Vòng một phần mười sáu World Cup hai không hai sáu đã nóng hơn bao giờ hết, khi cả hai đều đang khát khao tấm vé đi tiếp.",
+      "subtitle": "Chào anh em! Trận cầu siêu kinh điển giữa những vũ công Samba Brazil và chiến binh Samurai xanh Nhật Bản sẽ diễn ra vào lúc 00:00 ngày 30/06 theo giờ Việt Nam. Vòng 1/16 World Cup 2026 đã nóng hơn bao giờ hết, khi cả hai đều đang khát khao tấm vé đi tiếp.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#0A192F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "Houston Stadium, Texas",
+      "date": "30/06/2026",
+      "time": "00:00 VN",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "form": "Nhất bảng C",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "badgeSrc": "assets/football/flags/brazil.svg"
+        },
+        {
+          "name": "Nhật Bản",
+          "code": "JPN",
+          "form": "Nhì bảng F",
+          "flagSrc": "assets/football/flags/japan.svg",
+          "badgeSrc": "assets/football/flags/japan.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Vòng knock-out rực lửa",
+      "subtext": "Mọi sai lầm đều phải trả giá",
+      "voiceText": "Liệu bản lĩnh của ông vua năm sao, hay tinh thần chiến đấu quả cảm của đại diện châu Á sẽ lên tiếng?",
+      "subtitle": "Liệu bản lĩnh của ông vua 5 sao hay tinh thần chiến đấu quả cảm của đại diện châu Á sẽ lên tiếng?",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#0A192F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Ngôi sao đối đầu tinh thần tập thể",
+      "voiceText": "Brazil xuất kích với sơ đồ bốn ba ba đầy biến ảo, trong đó siêu sao Vi ni si út ở hành lang cánh, và ngòi nổ Ma thêu Cun ha sẽ gánh vác hàng công. Trong khi đó, Nhật Bản chọn sơ đồ ba bốn hai một, tiếp tục đặt niềm tin vào sự cơ động của Ao Ta na ka, và sự sắc bén của sát thủ A ya se U ê đa.",
+      "subtitle": "Brazil xuất kích với sơ đồ 4-3-3 đầy biến ảo, trong đó siêu sao Vinícius Jr. ở hành lang cánh và ngòi nổ Matheus Cunha sẽ gánh vác hàng công. Trong khi đó, Nhật Bản chọn sơ đồ 3-4-2-1, tiếp tục đặt niềm tin vào sự cơ động của Ao Tanaka và sự sắc bén của sát thủ Ayase Ueda.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#0A192F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "lineups": [
+        {
+          "team": "Brazil",
+          "formation": "4-3-3",
+          "flagSrc": "assets/football/flags/brazil.svg",
+          "players": [
+            "Alisson",
+            "Danilo",
+            "Marquinhos",
+            "Gabriel",
+            "Douglas Santos",
+            "Casemiro",
+            "Guimarães",
+            "Paquetá",
+            "Rayan",
+            "Cunha",
+            "Vinícius Jr."
+          ]
+        },
+        {
+          "team": "Nhật Bản",
+          "formation": "3-4-2-1",
+          "flagSrc": "assets/football/flags/japan.svg",
+          "players": [
+            "Suzuki",
+            "Seko",
+            "Itakura",
+            "Ito",
+            "Sugawara",
+            "Tanaka",
+            "Kamada",
+            "Nakamura",
+            "Doan",
+            "Maeda",
+            "Ueda"
+          ]
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Hành trình vòng bảng",
+      "subtext": "Phong độ thăng hoa tại bảng đấu",
+      "voiceText": "Để book vé vào vòng này, Brazil đã có màn hủy diệt Sờ cốt len ba không để thị uy sức mạnh. Nhưng chiến binh Sa mu rai cũng chẳng vừa, khi chia điểm quả cảm hai đều trước tuyển Hà Lan, và đè bẹp Tu ni si bốn bàn không gỡ. Đúng là kẻ tám lạng người nửa cân!",
+      "subtitle": "Để book vé vào vòng này, Brazil đã có màn hủy diệt Scotland 3-0 để thị uy sức mạnh. Nhưng chiến binh Samurai cũng chẳng vừa, khi chia điểm quả cảm 2-2 trước tuyển Hà Lan và đè bẹp Tunisia 4-0. Đúng là kẻ tám lạng người nửa cân!",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#0A192F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Brazil",
+      "awayTeam": "Nhật Bản",
+      "h2hMatches": [
+        {
+          "date": "Vòng bảng",
+          "home": "Brazil",
+          "away": "Scotland",
+          "score": "3-0",
+          "note": "Sức mạnh vũ bão",
+          "homeBadgeSrc": "assets/football/flags/brazil.svg",
+          "awayBadgeSrc": "assets/football/flags/scotland.svg"
+        },
+        {
+          "date": "Vòng bảng",
+          "home": "Nhật Bản",
+          "away": "Tunisia",
+          "score": "4-0",
+          "note": "Hủy diệt tưng bừng",
+          "homeBadgeSrc": "assets/football/flags/japan.svg",
+          "awayBadgeSrc": "assets/football/flags/tunisia.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Tấn công rực lửa",
+          "value": "Brazil"
+        },
+        {
+          "label": "Kỷ luật, phản công",
+          "value": "Nhật Bản"
+        },
+        {
+          "label": "Tỷ lệ đi tiếp",
+          "value": "65-35"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 58,
+              "away": 42
+            },
+            {
+              "label": "Cơ hội ghi bàn lớn",
+              "home": 4,
+              "away": 2
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Nhận định trước trận",
+      "subtext": "Sự kiên cường của Samurai",
+      "voiceText": "Chiến lược gia Ha gi mê Mô ri ya su của Nhật Bản khẳng định, họ không ngán bất cứ đối thủ nào. Nhiều chuyên gia tin rằng, những pha phản công thần tốc và kỷ luật thép của người Nhật, hoàn toàn có thể khiến các vũ công Sam ba phải ôm hận nếu chủ quan.",
+      "subtitle": "Chiến lược gia Hajime Moriyasu của Nhật Bản khẳng định họ không ngán bất cứ đối thủ nào. Nhiều chuyên gia tin rằng những pha phản công thần tốc và kỷ luật thép của người Nhật hoàn toàn có thể khiến các vũ công Samba phải ôm hận nếu chủ quan.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#0A192F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "quote": "Chúng tôi tôn trọng Brazil, nhưng Nhật Bản đã sẵn sàng để viết tiếp câu chuyện lịch sử tại World Cup.",
+      "author": "Hajime Moriyasu",
+      "role": "Huấn luyện viên trưởng tuyển Nhật Bản",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng xếp hạng",
+      "subtext": "Kết quả ấn tượng từ vòng bảng",
+      "voiceText": "Cả hai đội đều đã có vòng bảng cực kỳ xuất sắc. Brazil đứng đầu bảng Xê đầy thuyết phục với bảy điểm, trong khi Nhật Bản cũng hiên ngang giành vé đi tiếp với vị trí nhì bảng Ép, chỉ xếp sau gã khổng lồ Hà Lan. Đúng là một kèo đấu vô cùng duyên nợ!",
+      "subtitle": "Cả hai đội đều đã có vòng bảng cực kỳ xuất sắc. Brazil đứng đầu bảng C đầy thuyết phục với 7 điểm, trong khi Nhật Bản cũng hiên ngang giành vé đi tiếp với vị trí nhì bảng F, chỉ xếp sau gã khổng lồ Hà Lan. Đúng là một kèo đấu vô cùng duyên nợ!",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#0A192F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group Stage",
+      "standingsVariant": "world-cup-group",
+      "highlightTeams": [
+        "Brazil",
+        "Nhật Bản"
+      ],
+      "standingsGroups": [
+        {
+          "title": "Bảng C",
+          "standings": [
+            {
+              "pos": 1,
+              "team": {
+                "name": "Brazil",
+                "flagSrc": "assets/football/flags/brazil.svg"
+              },
+              "played": 3,
+              "points": 7,
+              "gd": 6,
+              "highlight": true
+            },
+            {
+              "pos": 2,
+              "team": {
+                "name": "Morocco",
+                "flagSrc": "assets/football/flags/morocco.svg"
+              },
+              "played": 3,
+              "points": 7,
+              "gd": 3
+            },
+            {
+              "pos": 3,
+              "team": {
+                "name": "Scotland",
+                "flagSrc": "assets/football/flags/scotland.svg"
+              },
+              "played": 3,
+              "points": 3,
+              "gd": -2
+            },
+            {
+              "pos": 4,
+              "team": {
+                "name": "Haiti",
+                "flagSrc": "assets/football/flags/haiti.svg"
+              },
+              "played": 3,
+              "points": 0,
+              "gd": -7
+            }
+          ]
+        },
+        {
+          "title": "Bảng F",
+          "standings": [
+            {
+              "pos": 1,
+              "team": {
+                "name": "Netherlands",
+                "flagSrc": "assets/football/flags/netherlands.svg"
+              },
+              "played": 3,
+              "points": 7,
+              "gd": 6
+            },
+            {
+              "pos": 2,
+              "team": {
+                "name": "Nhật Bản",
+                "flagSrc": "assets/football/flags/japan.svg"
+              },
+              "played": 3,
+              "points": 5,
+              "gd": 4,
+              "highlight": true
+            },
+            {
+              "pos": 3,
+              "team": {
+                "name": "Sweden",
+                "flagSrc": "assets/football/flags/sweden.svg"
+              },
+              "played": 3,
+              "points": 4,
+              "gd": 0
+            },
+            {
+              "pos": 4,
+              "team": {
+                "name": "Tunisia",
+                "flagSrc": "assets/football/flags/tunisia.svg"
+              },
+              "played": 3,
+              "points": 0,
+              "gd": -10
+            }
+          ]
+        }
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": {
+            "name": "Brazil (Bảng C)",
+            "flagSrc": "assets/football/flags/brazil.svg"
+          },
+          "played": 3,
+          "points": 7,
+          "gd": 6,
+          "highlight": true
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Morocco (Bảng C)",
+            "flagSrc": "assets/football/flags/morocco.svg"
+          },
+          "played": 3,
+          "points": 7,
+          "gd": 3
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Scotland (Bảng C)",
+            "flagSrc": "assets/football/flags/scotland.svg"
+          },
+          "played": 3,
+          "points": 3,
+          "gd": -2
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Haiti (Bảng C)",
+            "flagSrc": "assets/football/flags/haiti.svg"
+          },
+          "played": 3,
+          "points": 0,
+          "gd": -7
+        },
+        {
+          "pos": 1,
+          "team": {
+            "name": "Netherlands (Bảng F)",
+            "flagSrc": "assets/football/flags/netherlands.svg"
+          },
+          "played": 3,
+          "points": 7,
+          "gd": 6
+        },
+        {
+          "pos": 2,
+          "team": {
+            "name": "Nhật Bản (Bảng F)",
+            "flagSrc": "assets/football/flags/japan.svg"
+          },
+          "played": 3,
+          "points": 5,
+          "gd": 4,
+          "highlight": true
+        },
+        {
+          "pos": 3,
+          "team": {
+            "name": "Sweden (Bảng F)",
+            "flagSrc": "assets/football/flags/sweden.svg"
+          },
+          "played": 3,
+          "points": 4,
+          "gd": 0
+        },
+        {
+          "pos": 4,
+          "team": {
+            "name": "Tunisia (Bảng F)",
+            "flagSrc": "assets/football/flags/tunisia.svg"
+          },
+          "played": 3,
+          "points": 0,
+          "gd": -10
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Kèo này ai đi tiếp?",
+      "subtext": "Đại diện nào sẽ giành chiến thắng?",
+      "voiceText": "Trận này Brazil chấp khá sâu, liệu Nhật Bản có tạo nên địa chấn tiếp theo hay không? Anh em đi cửa nào thì thả nhẹ cái bình luận bên dưới để chúng ta cùng lên thuyền nhé! Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Trận này Brazil chấp khá sâu, liệu Nhật Bản có tạo nên địa chấn tiếp theo hay không? Anh em đi cửa nào thì thả nhẹ cái bình luận bên dưới để chúng ta cùng lên thuyền nhé! Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#0A192F",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#009739",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán Brazil vs Nhật Bản",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "World Cup 2026",
+          "Brazil",
+          "Nhật Bản"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "title": "Canada 6-0 Qatar: David lập hat-trick lịch sử",
+  "slug": "canada-6-0-qatar-world-cup-result-2026-06-19",
+  "preset": "Preset Football Result",
+  "totalDuration": 52,
+  "summary": "Kết quả Canada 6-0 Qatar, giờ Việt Nam UTC+7. playerImageUrl để trống do chưa có ảnh cầu thủ phù hợp.",
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 - scores and fixtures",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "name": "ESPN match center: Canada 6-0 Qatar",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760440/qatar-canada"
+    },
+    {
+      "name": "ESPN report: Canada first World Cup win",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760440"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-scoreboard",
+      "duration": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Canada thắng Ka Ta sáu không tại Vancouver, giành chiến thắng World Cup đầu tiên trong lịch sử. Jonathan David lập hat trick, còn đối thủ kết thúc trận với chín người.",
+      "subtitle": "Canada thắng Ka Ta sáu không tại Vancouver, giành chiến thắng World Cup đầu tiên trong lịch sử. Jonathan David lập hat trick, còn đối thủ kết thúc trận với chín người.",
+      "title": "Canada 6-0 Qatar: David lập hat-trick lịch sử",
+      "subtext": "Canada 6-0 Qatar | Bảng B",
+      "competitionLabel": "FIFA World Cup 2026",
+      "minute": "FT",
+      "score": [
+        6,
+        0
+      ],
+      "venue": "BC Place",
+      "date": "19/06/2026",
+      "time": "05:00",
+      "teams": [
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-scorebug",
+          "teams": [
+            "CAN",
+            "QAT"
+          ],
+          "score": [
+            6,
+            0
+          ],
+          "minute": "FT"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "duration": 3,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Kết quả bảng B của World Cup hai không hai sáu, và đây là câu chuyện chính của trận đấu.",
+      "subtitle": "Kết quả bảng B của World Cup 2026, và đây là câu chuyện chính của trận đấu.",
+      "title": "FIFA World Cup 2026",
+      "competitionLabel": "Match Result",
+      "tournamentName": "Bảng B",
+      "seasonLabel": "Canada 6-0 Qatar",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "duration": 8,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Canada đá bốn bốn hai với Crepeau, Shaffelburg, Bombito, Johnston, Laryea, Saliba, Eustaquio, Sigur, Oluwaseyi, David và Larin. Ka Ta dùng bốn ba ba với Abunada, Miguel, Khoukhi, Al Oui, Ahmed, Manai, Laye, Madibo, Mendes, Al Hussain và Al Brake.",
+      "subtitle": "Canada đá bốn bốn hai với Crepeau, Shaffelburg, Bombito, Johnston, Laryea, Saliba, Eustaquio, Sigur, Oluwaseyi, David và Larin. Ka Ta dùng bốn ba ba với Abunada, Miguel, Khoukhi, Al Oui, Ahmed, Manai, Laye, Madibo, Mendes, Al Hussain và Al Brake.",
+      "title": "Đội hình chính thức",
+      "competitionLabel": "ĐỘI HÌNH",
+      "teams": [
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-4-2",
+          "players": [
+            "Maxime Crepeau",
+            "Jacob Shaffelburg",
+            "Moise Bombito",
+            "Alistair Johnston",
+            "Richie Laryea",
+            "Nathan Saliba",
+            "Stephen Eustaquio",
+            "Niko Sigur",
+            "Tani Oluwaseyi",
+            "Jonathan David",
+            "Cyle Larin"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Mahmoud Abunada",
+            "Pedro Miguel",
+            "Boualem Khoukhi",
+            "Ayoub Al-Oui",
+            "Homam Ahmed",
+            "Mohamed Manai",
+            "Issa Laye",
+            "Assim Madibo",
+            "Lucas Mendes",
+            "Al-Hashmi Al-Hussain",
+            "Sultan Al-Brake"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-player-stat",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Jonathan David ghi ba bàn ở phút hai mươi chín, bốn mươi lăm cộng ba và chín mươi cộng hai, với năm cú sút trúng đích và chỉ số bàn thắng kỳ vọng hai phẩy không năm.",
+      "subtitle": "Jonathan David ghi ba bàn ở phút hai mươi chín, bốn mươi lăm cộng ba và chín mươi cộng hai, với năm cú sút trúng đích và chỉ số bàn thắng kỳ vọng hai phẩy không năm.",
+      "title": "David lập hat-trick",
+      "player": "Jonathan David",
+      "team": "Canada",
+      "playerImageUrl": "",
+      "stats": [
+        {
+          "label": "Bàn thắng",
+          "value": "3"
+        },
+        {
+          "label": "Sút trúng đích",
+          "value": "5"
+        },
+        {
+          "label": "xG",
+          "value": "2.05"
+        },
+        {
+          "label": "Phút",
+          "value": "29', 45+3', 90+2'"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "football-timeline",
+      "duration": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Larin mở tỉ số phút mười sáu. David ghi bàn phút hai mươi chín và bốn mươi lăm cộng ba. Ka Ta nhận hai thẻ đỏ ở phút ba mươi ba và năm mươi ba. Saliba ghi bàn phút sáu mươi tư, Manai phản lưới phút bảy mươi lăm, trước khi David hoàn tất hat trick.",
+      "subtitle": "Larin mở tỉ số phút mười sáu. David ghi bàn phút hai mươi chín và bốn mươi lăm cộng ba. Ka Ta nhận hai thẻ đỏ ở phút ba mươi ba và năm mươi ba. Saliba ghi bàn phút sáu mươi tư, Manai phản lưới phút bảy mươi lăm, trước khi David hoàn tất hat trick.",
+      "title": "Timeline trận đấu",
+      "events": [
+        {
+          "minute": "16'",
+          "title": "1-0: Cyle Larin"
+        },
+        {
+          "minute": "29'",
+          "title": "2-0: Jonathan David"
+        },
+        {
+          "minute": "33'",
+          "title": "Thẻ đỏ: Homam Ahmed"
+        },
+        {
+          "minute": "45+3'",
+          "title": "3-0: Jonathan David"
+        },
+        {
+          "minute": "53'",
+          "title": "Thẻ đỏ: Assim Madibo"
+        },
+        {
+          "minute": "64'",
+          "title": "4-0: Nathan Saliba"
+        },
+        {
+          "minute": "75'",
+          "title": "5-0: Mohamed Manai phản lưới"
+        },
+        {
+          "minute": "90+2'",
+          "title": "6-0: Jonathan David"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-scoreboard",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Canada kiểm soát bóng bảy mươi chín phần trăm, tạo ba mươi hai cú sút, mười lần trúng đích, và dẫn bốn phẩy bảy lăm so với không phẩy mười tám về chỉ số bàn thắng kỳ vọng.",
+      "subtitle": "Canada kiểm soát bóng bảy mươi chín phần trăm, tạo ba mươi hai cú sút, mười lần trúng đích, và dẫn bốn phẩy bảy lăm so với không phẩy mười tám về chỉ số bàn thắng kỳ vọng.",
+      "title": "Thống kê trận đấu",
+      "competitionLabel": "Match Stats",
+      "minute": "FT",
+      "score": [
+        6,
+        0
+      ],
+      "teams": [
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/canada.svg",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/qatar.svg",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng",
+              "home": 79,
+              "away": 21,
+              "unit": "%"
+            },
+            {
+              "label": "xG",
+              "home": 4.75,
+              "away": 0.18
+            },
+            {
+              "label": "Sút trúng đích",
+              "home": 10,
+              "away": 0
+            },
+            {
+              "label": "Cơ hội lớn",
+              "home": 4,
+              "away": 0
+            }
+          ]
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "content",
+      "composition": "football-standings-table",
+      "duration": 7,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Canada dẫn đầu bảng B với bốn điểm và hiệu số cộng sáu. Thụy Sĩ cũng có bốn điểm, còn Bosnia và Ka Ta cùng có một điểm.",
+      "subtitle": "Canada dẫn đầu bảng B với bốn điểm và hiệu số cộng sáu. Thụy Sĩ cũng có bốn điểm, còn Bosnia và Ka Ta cùng có một điểm.",
+      "title": "Bảng B sau trận",
+      "activeTab": "BẢNG B",
+      "standingsVariant": "world-cup-group",
+      "highlightTeams": [
+        "CAN",
+        "QAT"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "Canada",
+            "code": "CAN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/canada.svg",
+            "badgeSrc": "assets/football/flags/canada.svg"
+          },
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "gd": 6,
+          "pts": 4
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Switzerland",
+            "code": "SUI",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/switzerland.svg",
+            "badgeSrc": "assets/football/flags/switzerland.svg"
+          },
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "gd": 3,
+          "pts": 4
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Bosnia-Herzegovina",
+            "code": "BIH",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+            "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+          },
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "gd": -3,
+          "pts": 1
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Qatar",
+            "code": "QAT",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/qatar.svg",
+            "badgeSrc": "assets/football/flags/qatar.svg"
+          },
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "gd": -6,
+          "pts": 1
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "outro",
+      "composition": "promo-card",
+      "duration": 5,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "voiceText": "Canada có thể tiến sâu đến đâu ở World Cup này? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Canada có thể tiến sâu đến đâu ở World Cup này? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Canada có thể tiến sâu đến đâu ở World Cup này?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

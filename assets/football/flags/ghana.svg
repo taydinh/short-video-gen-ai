@@ -1,9 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1038" height="744" viewBox="-43596 -29736 87192 62496" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
-	<title>Flag of Ghana — colouring page</title>
-	<path fill="#fff" d="m-43596-29736h87192v62496h-87192z"/>
-	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
-		<path stroke-width="250" d="m-41580-27720h83160v55440h-83160z"/>
-		<path d="m-41580-9240h83160M-41580 9240h83160M0-9240l2294 7059h7422L3711 2181l2294 7059L0 4877-6005 9240l2294-7059-6005-4362h7422z"/>
-	</g>
-	<text x="-0" y="31220" fill="#000" text-anchor="middle" font-size="3500">Ghana</text>
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-gh" viewBox="0 0 640 480">
+  <path fill="#006b3f" d="M0 0h640v480H0z"/>
+  <path fill="#fcd116" d="M0 0h640v320H0z"/>
+  <path fill="#ce1126" d="M0 0h640v160H0z"/>
+  <path fill="#000001" d="m320 160 52 160-136.1-98.9H404L268 320z"/>
 </svg>

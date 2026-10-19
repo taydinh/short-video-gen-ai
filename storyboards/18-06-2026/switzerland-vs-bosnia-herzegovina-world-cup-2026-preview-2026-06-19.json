@@ -1,0 +1,410 @@
+{
+  "title": "Switzerland vs Bosnia & Herzegovina: đại chiến cân bằng bảng B",
+  "slug": "switzerland-vs-bosnia-herzegovina-world-cup-2026-preview-2026-06-19",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview Switzerland - Bosnia & Herzegovina, kickoff 02:00 ngày 19/06/2026 theo giờ Việt Nam.",
+  "sources": [
+    {
+      "title": "FOX Sports - Switzerland vs Bosnia and Herzegovina how to watch",
+      "url": "https://www.foxsports.com/stories/soccer/how-to-watch-switzerland-vs-bosnia-and-herzegovina-tv-channel-live-stream-2026-fifa-world-cup-group-b"
+    },
+    {
+      "title": "SoFi Stadium - Switzerland vs Bosnia and Herzegovina",
+      "url": "https://www.sofistadium.com/events/detail/fifa-world-cup-switzerland-vs-bosnia-and-herzegovina"
+    },
+    {
+      "title": "Sky Sports - World Cup 2026 fixture schedule",
+      "url": "https://www.skysports.com/football/news/11095/13481245/world-cup-2026-fixture-schedule-and-uk-kick-off-times-day-by-day-breakdown-of-all-104-matches-including-england-scotland"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Switzerland vs Bosnia & Herzegovina",
+      "subtext": "đại chiến cân bằng bảng B",
+      "voiceText": "Thụy Sĩ gặp Bosnia lúc hai giờ sáng, ngày mười chín tháng sáu theo giờ Việt Nam. Đây là trận rất cân bằng của bảng B, nơi một chiến thắng có thể đưa đội thắng lên thế cực đẹp.",
+      "subtitle": "Switzerland gặp Bosnia & Herzegovina lúc 02:00 ngày 19/06 theo giờ Việt Nam. Đây là trận rất cân bằng của bảng B, nơi một chiến thắng có thể đưa đội thắng lên thế cực đẹp.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group B - Matchday 2",
+      "venue": "Los Angeles Stadium",
+      "date": "19/06/2026",
+      "time": "02:00 VN",
+      "teams": [
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "form": "Thực dụng",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Bosnia & Herzegovina",
+          "code": "BIH",
+          "form": "Khó chịu",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng B rất sít sao",
+      "subtext": "Một chiến thắng đủ đổi cục diện",
+      "voiceText": "Bảng B đang sít sao vì các đội chưa tách điểm rõ ràng. Thụy Sĩ có tổ chức, còn Bosnia có kinh nghiệm ở các pha bóng quyết định.",
+      "subtitle": "Bảng B đang sít sao vì các đội chưa tách điểm rõ ràng. Switzerland có tổ chức, còn Bosnia & Herzegovina có kinh nghiệm ở các pha bóng quyết định.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group B Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Switzerland vs Bosnia & Herzegovina | 19/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Hai đội đều có thể đá rất kỷ luật",
+      "voiceText": "Thụy Sĩ có thể đá ba bốn hai một với Akanji, Xhaka, Ndoye và Embolo. Bosnia có thể dùng bốn hai ba một, đặt niềm tin vào Pjanic, Krunic, Demirovic và Dzeko.",
+      "subtitle": "Switzerland có thể đá 3-4-2-1 với Akanji, Xhaka, Ndoye và Embolo. Bosnia & Herzegovina có thể dùng 4-2-3-1, đặt niềm tin vào Pjanić, Krunić, Demirović và Džeko.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/switzerland.svg",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "name": "Bosnia & Herzegovina",
+          "code": "BIH",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "3-4-2-1",
+          "players": [
+            "Sommer",
+            "Akanji",
+            "Elvedi",
+            "Rodriguez",
+            "Widmer",
+            "Xhaka",
+            "Freuler",
+            "Aebischer",
+            "Vargas",
+            "Ndoye",
+            "Embolo"
+          ]
+        },
+        "away": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Sehic",
+            "Dedic",
+            "Ahmedhodzic",
+            "Kolasinac",
+            "Civic",
+            "Tahirovic",
+            "Pjanic",
+            "Stevanovic",
+            "Krunic",
+            "Demirovic",
+            "Dzeko"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Chìa khóa: tuyến giữa",
+      "subtext": "Không gian giữa sân sẽ rất đắt",
+      "voiceText": "Thụy Sĩ cần khóa tuyến giữa để không cho Bosnia bơm bóng sớm vào vòng cấm. Ngược lại, Bosnia phải làm trận đấu gãy nhịp và chờ sai số.",
+      "subtitle": "Switzerland cần khóa tuyến giữa để không cho Bosnia & Herzegovina bơm bóng sớm vào vòng cấm. Ngược lại, Bosnia phải làm trận đấu gãy nhịp và chờ sai số.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Bosnia & Herzegovina",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Switzerland",
+          "away": "Bosnia & Herzegovina",
+          "score": "Preview",
+          "note": "Bảng B đang mở sau các trận hòa lượt đầu",
+          "homeBadgeSrc": "assets/football/flags/switzerland.svg",
+          "awayBadgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Kiểm soát",
+          "value": "Switzerland"
+        },
+        {
+          "label": "Kinh nghiệm tiền đạo",
+          "value": "Bosnia"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Tuyến giữa"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Tổ chức phòng ngự",
+              "home": 83,
+              "away": 79
+            },
+            {
+              "label": "Sát thương vòng cấm",
+              "home": 75,
+              "away": 80
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Trận đấu của sự lì lợm",
+      "quote": "Đội nào kiên nhẫn hơn ở giữa sân sẽ có cơ hội kiểm soát nhịp trận.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn chủ quan",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Điểm nóng là cuộc đấu Xhaka với Pjanic. Ai điều khiển được nhịp chuyền đầu tiên, đội đó sẽ bớt phải chạy theo trận đấu.",
+      "subtitle": "Điểm nóng là cuộc đấu Xhaka với Pjanić. Ai điều khiển được nhịp chuyền đầu tiên, đội đó sẽ bớt phải chạy theo trận đấu.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bảng B trước trận",
+      "subtext": "Cả bảng đang chia điểm",
+      "voiceText": "Bảng B đang mở, nên Thụy Sĩ và Bosnia đều hiểu rằng ba điểm ở lượt này có giá trị gần như một cú bứt tốc.",
+      "subtitle": "Bảng B đang mở, nên Switzerland và Bosnia & Herzegovina đều hiểu rằng 3 điểm ở lượt này có giá trị gần như một cú bứt tốc.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "competitionLabel": "Group B",
+      "highlightTeams": [
+        "Switzerland",
+        "Bosnia & Herzegovina"
+      ],
+      "standings": [
+        {
+          "pos": 1,
+          "team": "Switzerland",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/switzerland.svg"
+        },
+        {
+          "pos": 2,
+          "team": "Canada",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/canada.svg"
+        },
+        {
+          "pos": 3,
+          "team": "Qatar",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/qatar.svg"
+        },
+        {
+          "pos": 4,
+          "team": "Bosnia & Herzegovina",
+          "played": 1,
+          "points": 1,
+          "gd": "0",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "FOLLOW KÊNH",
+      "subtext": "@meothichbl",
+      "voiceText": "Bạn chọn sự chắc chắn của Thụy Sĩ hay kinh nghiệm của Bosnia? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn chọn sự chắc chắn của Switzerland hay kinh nghiệm của Bosnia & Herzegovina? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#ffffff",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số của bạn là gì?",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "assets/logos/logo.png"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 86,
+          "duration": 5
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    }
+  ]
+}

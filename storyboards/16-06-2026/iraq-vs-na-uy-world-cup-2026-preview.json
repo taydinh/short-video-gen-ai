@@ -1,0 +1,417 @@
+{
+  "title": "Iraq vs Na Uy: Haaland bước vào trận phải thắng",
+  "slug": "iraq-vs-na-uy-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "summary": "Preview trận Iraq - Na Uy ở bảng I World Cup 2026, giờ Việt Nam là 05:00 ngày 17/06/2026. VoiceText đọc Iraq là Y Rắc theo rule TTS.",
+  "sources": [],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "Iraq vs Na Uy",
+      "subtext": "Ẩn số châu Á gặp hỏa lực Bắc Âu",
+      "voiceText": "Y Rắc gặp Na Uy lúc năm giờ sáng, ngày mười bảy tháng sáu theo giờ Việt Nam. Đây là trận mở màn bảng I World Cup hai không hai sáu, nơi Na Uy được chờ đợi nhờ Haaland và Odegaard, còn Y Rắc có thể chơi như một đội cửa dưới rất khó chịu.",
+      "subtitle": "Iraq gặp Na Uy lúc 05:00 ngày 17/06 theo giờ Việt Nam. Đây là trận mở màn bảng I World Cup 2026, nơi Na Uy được chờ đợi nhờ Haaland và Odegaard, còn Iraq có thể chơi như một đội cửa dưới rất khó chịu.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Group I - Matchday 1",
+      "venue": "World Cup 2026",
+      "date": "17/06/2026",
+      "time": "05:00 VN",
+      "teams": [
+        {
+          "name": "Iraq",
+          "code": "IRQ",
+          "form": "Ẩn số châu Á",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/iraq.svg",
+          "badgeSrc": "assets/football/flags/iraq.svg"
+        },
+        {
+          "name": "Norway",
+          "code": "NOR",
+          "form": "Hỏa lực Bắc Âu",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "Bảng I: trận bản lề sớm",
+      "subtext": "Áp lực sau Pháp vs Senegal",
+      "voiceText": "Sau cặp Pháp gặp Senegal, trận này có thể quyết định đội nào bám nhóm tranh vé đi tiếp. Na Uy cần ba điểm, còn Y Rắc chỉ cần kéo trận đấu vào thế chặt chẽ là đã tạo áp lực ngược.",
+      "subtitle": "Sau cặp Pháp gặp Senegal, trận này có thể quyết định đội nào bám nhóm tranh vé đi tiếp. Na Uy cần 3 điểm, còn Iraq chỉ cần kéo trận đấu vào thế chặt chẽ là đã tạo áp lực ngược.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Group I Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "Iraq vs Norway | 17/06/2026 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "visuals": [
+        {
+          "type": "football-ball-motion",
+          "duration": 3,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Iraq cần khóa đường chuyền vào Haaland",
+      "voiceText": "Y Rắc có thể dùng Jalal Hassan, Hussein Ali, Saad Natiq, Rebin Sulaka, Ahmed Yahya, Amjad Attwan, Osama Rashid, Zidane Iqbal, Ibrahim Bayesh, Ali Jasim và Aymen Hussein. Na Uy nhiều khả năng xoay quanh Nyland, Ryerson, Ostigard, Ajer, Meling, Berge, Odegaard, Bobb, Nusa, Sorloth và Haaland.",
+      "subtitle": "Iraq có thể dùng Jalal Hassan, Hussein Ali, Saad Natiq, Rebin Sulaka, Ahmed Yahya, Amjad Attwan, Osama Rashid, Zidane Iqbal, Ibrahim Bayesh, Ali Jasim và Aymen Hussein. Na Uy nhiều khả năng xoay quanh Nyland, Ryerson, Ostigard, Ajer, Meling, Berge, Odegaard, Bobb, Nusa, Sorloth và Haaland.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "teams": [
+        {
+          "name": "Iraq",
+          "code": "IRQ",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/iraq.svg",
+          "badgeSrc": "assets/football/flags/iraq.svg"
+        },
+        {
+          "name": "Norway",
+          "code": "NOR",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/norway.svg",
+          "badgeSrc": "assets/football/flags/norway.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Jalal Hassan",
+            "Hussein Ali",
+            "Saad Natiq",
+            "Rebin Sulaka",
+            "Ahmed Yahya",
+            "Amjad Attwan",
+            "Osama Rashid",
+            "Zidane Iqbal",
+            "Ibrahim Bayesh",
+            "Ali Jasim",
+            "Aymen Hussein"
+          ]
+        },
+        "away": {
+          "formation": "4-3-3",
+          "players": [
+            "Nyland",
+            "Ryerson",
+            "Ostigard",
+            "Ajer",
+            "Meling",
+            "Berge",
+            "Odegaard",
+            "Bobb",
+            "Nusa",
+            "Sorloth",
+            "Haaland"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "Kèo thế trận: Na Uy phải chủ động",
+      "subtext": "Iraq sẽ chờ thời điểm phản công",
+      "voiceText": "Na Uy có lợi thế rõ ở chất lượng ngôi sao, nhưng bài toán không chỉ là đưa bóng cho Haaland. Y Rắc có thể lùi sâu, chia cắt Odegaard với tuyến trên, rồi chờ những pha bóng hai hoặc cố định để gây bất ngờ.",
+      "subtitle": "Na Uy có lợi thế rõ ở chất lượng ngôi sao, nhưng bài toán không chỉ là đưa bóng cho Haaland. Iraq có thể lùi sâu, chia cắt Odegaard với tuyến trên, rồi chờ những pha bóng hai hoặc cố định để gây bất ngờ.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "h2hMatches": [
+        {
+          "date": "World Cup 2026",
+          "home": "Iraq",
+          "away": "Norway",
+          "score": "Preview",
+          "note": "Hai lối đá đối lập: khối thấp gặp sức ép trung lộ",
+          "homeBadgeSrc": "assets/football/flags/iraq.svg",
+          "awayBadgeSrc": "assets/football/flags/norway.svg"
+        }
+      ],
+      "odds": [
+        {
+          "label": "Ngôi sao quyết định",
+          "value": "Norway"
+        },
+        {
+          "label": "Kỷ luật khối thấp",
+          "value": "Iraq"
+        },
+        {
+          "label": "Chìa khóa",
+          "value": "Odegaard"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Sức ép kiểm soát",
+              "home": 58,
+              "away": 84
+            },
+            {
+              "label": "Bóng cố định",
+              "home": 78,
+              "away": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Điểm nóng: Haaland bị cô lập?",
+      "subtext": "Norway cần tốc độ ở các vệ tinh",
+      "voiceText": "Điểm nóng nằm ở khoảng cách giữa Odegaard và Haaland. Nếu Na Uy luân chuyển bóng quá chậm, Y Rắc có đủ thời gian dựng hai lớp phòng ngự. Nhưng chỉ cần một đường chọc khe sạch, trận đấu có thể đổi màu rất nhanh.",
+      "subtitle": "Điểm nóng nằm ở khoảng cách giữa Odegaard và Haaland. Nếu Na Uy luân chuyển bóng quá chậm, Iraq có đủ thời gian dựng hai lớp phòng ngự. Nhưng chỉ cần một đường chọc khe sạch, trận đấu có thể đổi màu rất nhanh.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "quote": "Na Uy thắng hay không phụ thuộc vào việc họ biến ưu thế ngôi sao thành cơ hội thật, trước khi Iraq kéo trận đấu vào nhịp chậm.",
+      "author": "Méo bình luận",
+      "role": "Nhận định trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "visuals": [
+        {
+          "type": "animation",
+          "animationType": "wave-lines",
+          "opacity": 0.24
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Bối cảnh bảng I",
+      "subtext": "Trận để bám sau France và Senegal",
+      "voiceText": "Bảng I gồm Pháp, Senegal, Y Rắc và Na Uy. Nếu Na Uy muốn cạnh tranh hai vị trí đầu, đây là trận họ không được phép trượt chân. Với Y Rắc, một điểm đã đủ làm bảng đấu khó đoán hơn rất nhiều.",
+      "subtitle": "Bảng I gồm Pháp, Senegal, Iraq và Na Uy. Nếu Na Uy muốn cạnh tranh hai vị trí đầu, đây là trận họ không được phép trượt chân. Với Iraq, 1 điểm đã đủ làm bảng đấu khó đoán hơn rất nhiều.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "World Cup 2026 - Group I",
+      "activeTab": "BẢNG I",
+      "standingsVariant": "world-cup-group",
+      "season": "World Cup 2026",
+      "highlightTeams": [
+        "IRQ",
+        "NOR"
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team": {
+            "name": "France",
+            "code": "FRA",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/france.svg",
+            "badgeSrc": "assets/football/flags/france.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 2,
+          "team": {
+            "name": "Senegal",
+            "code": "SEN",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/senegal.svg",
+            "badgeSrc": "assets/football/flags/senegal.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 3,
+          "team": {
+            "name": "Iraq",
+            "code": "IRQ",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/iraq.svg",
+            "badgeSrc": "assets/football/flags/iraq.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        },
+        {
+          "rank": 4,
+          "team": {
+            "name": "Norway",
+            "code": "NOR",
+            "teamType": "national",
+            "flagSrc": "assets/football/flags/norway.svg",
+            "badgeSrc": "assets/football/flags/norway.svg"
+          },
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "pts": 0
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Dự đoán tỉ số?",
+      "subtext": "Comment lựa chọn của bạn",
+      "voiceText": "Bạn dự đoán Haaland nổ súng đưa Na Uy thắng trận, hay Y Rắc sẽ kéo đối thủ vào một kết quả khó chịu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Bạn dự đoán Haaland nổ súng đưa Na Uy thắng trận, hay Iraq sẽ kéo đối thủ vào một kết quả khó chịu? Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Iraq vs Na Uy",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "Iraq",
+          "Norway",
+          "World Cup 2026"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 88,
+          "duration": 4.8
+        }
+      ]
+    }
+  ]
+}

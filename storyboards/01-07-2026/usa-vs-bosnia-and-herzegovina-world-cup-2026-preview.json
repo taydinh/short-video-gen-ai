@@ -1,0 +1,466 @@
+{
+  "title": "Mỹ vs Bosnia & Herzegovina: Chủ nhà vào knock-out, kèo sáng nhưng không được bay màu",
+  "slug": "usa-vs-bosnia-and-herzegovina-world-cup-2026-preview",
+  "preset": "Preset Football Preview",
+  "totalDuration": 43,
+  "language": "vi-VN",
+  "timezone": "UTC+7",
+  "summary": "Preview trận Mỹ vs Bosnia & Herzegovina tại vòng 32 đội World Cup 2026, diễn ra lúc 07:00 ngày 02/07/2026 theo giờ Việt Nam tại San Francisco Bay Area Stadium.",
+  "sources": [
+    {
+      "title": "FIFA - USA v Bosnia and Herzegovina match centre",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021524"
+    },
+    {
+      "title": "U.S. Soccer - USMNT to face Bosnia and Herzegovina in Round of 32",
+      "url": "https://www.ussoccer.com/stories/2026/06/usmnt/opponent-round-of-32-world-cup-bosnia-and-herzegovina"
+    },
+    {
+      "title": "FOX - Watch USA vs Bosnia and Herzegovina live",
+      "url": "https://www.fox.com/soccer/fifa-world-cup/round-of-32-match-81-jul-1-2026"
+    },
+    {
+      "title": "RotoWire - USA vs Bosnia and Herzegovina predicted lineups and tactical analysis",
+      "url": "https://www.rotowire.com/soccer/article/usa-vs-bosnia-and-herzegovina-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120374"
+    },
+    {
+      "title": "CBS Sports - 2026 FIFA World Cup knockout bracket",
+      "url": "https://www.cbssports.com/soccer/news/2026-fifa-world-cup-bracket-knockout-stage/"
+    },
+    {
+      "title": "The Guardian - After last-32 upsets, US approach is simple",
+      "url": "https://www.theguardian.com/football/2026/jun/30/usmnt-bosnia-herzegovina-world-cup-round-of-32-preview"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "type": "intro",
+      "composition": "football-match-card",
+      "title": "MỸ VS BOSNIA & HERZEGOVINA",
+      "subtext": "Vòng 32 đội | World Cup 2026",
+      "voiceText": "Bảy giờ sáng, ngày mùng hai tháng bảy theo giờ Việt Nam, chủ nhà Mỹ gặp Bosnia và Herzegovina tại San Francisco Bay Area Stadium. Mỹ nhất bảng đê với hai thắng, một thua, còn Bosnia đi tiếp bằng suất hạng ba bảng Bê. Kèo này nhìn thì chủ nhà sáng, nhưng knock-out mà chủ quan là dễ bị tắt điện giữa buổi sáng lắm.",
+      "subtitle": "07:00 ngày 02/07 theo giờ Việt Nam, chủ nhà Mỹ gặp Bosnia & Herzegovina tại San Francisco Bay Area Stadium. Mỹ nhất bảng D với 2 thắng, 1 thua, còn Bosnia đi tiếp bằng suất hạng ba bảng B. Kèo này nhìn thì chủ nhà sáng, nhưng knock-out mà chủ quan là dễ bị tắt điện giữa buổi sáng lắm.",
+      "duration": 6,
+      "startTime": 0,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "FIFA World Cup 2026",
+      "stage": "Round of 32",
+      "venue": "San Francisco Bay Area Stadium",
+      "date": "02/07/2026",
+      "time": "07:00 VN",
+      "teams": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "teamType": "national",
+          "form": ["W", "W", "L"],
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg"
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "teamType": "national",
+          "form": ["D", "L", "W"],
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.22
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 4.8,
+          "top": "74%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "intro",
+      "composition": "football-tournament-intro",
+      "title": "WORLD CUP 2026",
+      "subtext": "Chủ nhà bước vào bài test thật",
+      "voiceText": "Đây là trận knock-out đầu tiên của Mỹ ở World Cup hai không hai sáu, còn Bosnia lần đầu vào vòng loại trực tiếp. Một bên có lợi thế sân nhà, một bên đá với tâm thế, đã tới đây rồi thì ngại gì nữa.",
+      "subtitle": "Đây là trận knock-out đầu tiên của Mỹ ở World Cup 2026, còn Bosnia lần đầu vào vòng loại trực tiếp. Một bên có lợi thế sân nhà, một bên đá với tâm thế: đã tới đây rồi thì ngại gì nữa.",
+      "duration": 3,
+      "startTime": 6,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "Round of 32 Preview",
+      "tournamentName": "FIFA World Cup 2026",
+      "seasonLabel": "USA vs Bosnia & Herzegovina | 02/07/2026 VN",
+      "ctaLabel": "Kickoff 07:00 VN",
+      "tournamentLogoSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+      "transition": {
+        "toNext": "transitions-mechanical",
+        "installCommand": "npx hyperframes add transitions-mechanical"
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.18
+        },
+        {
+          "type": "football-ball-motion",
+          "duration": 2.8,
+          "top": "72%",
+          "size": 78
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "composition": "football-lineup",
+      "title": "Đội hình dự kiến",
+      "subtext": "Pulisic, Balogun đấu Džeko, Demirović",
+      "voiceText": "Mỹ dự kiến đá sơ đồ bốn hai ba một, với Matt Freese trong khung gỗ, Alex Freeman, Tim Ream, Chris Richards và Antonee Robinson ở hàng thủ. Tyler Adams cùng Malik Tillman che chắn phía sau, còn Sergino Dest, Weston McKennie và Christian Pulisic hỗ trợ Folarin Balogun. Bosnia dùng bốn bốn hai, dựa vào Nikola Vasilj, Kolasinac, Kerim Alajbegovic, Demirovic và lão tướng Edin Dzeko để chơi phản công và bóng bổng.",
+      "subtitle": "Mỹ dự kiến đá sơ đồ 4-2-3-1, với Matt Freese trong khung gỗ, Alex Freeman, Tim Ream, Chris Richards và Antonee Robinson ở hàng thủ. Tyler Adams cùng Malik Tillman che chắn phía sau, còn Sergiño Dest, Weston McKennie và Christian Pulisic hỗ trợ Folarin Balogun. Bosnia dùng 4-4-2, dựa vào Nikola Vasilj, Kolasinac, Kerim Alajbegović, Demirović và lão tướng Edin Džeko để chơi phản công và bóng bổng.",
+      "duration": 8,
+      "startTime": 9,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "competitionLabel": "ĐỘI HÌNH DỰ KIẾN",
+      "venue": "San Francisco Bay Area Stadium",
+      "teams": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg"
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "formation": "4-2-3-1",
+          "players": [
+            "Matt Freese",
+            "Alex Freeman",
+            "Tim Ream",
+            "Chris Richards",
+            "Antonee Robinson",
+            "Tyler Adams",
+            "Malik Tillman",
+            "Sergino Dest",
+            "Weston McKennie",
+            "Christian Pulisic",
+            "Folarin Balogun"
+          ]
+        },
+        "away": {
+          "formation": "4-4-2",
+          "players": [
+            "Nikola Vasilj",
+            "Amar Memic",
+            "Nikola Katic",
+            "Tarik Muharemovic",
+            "Sead Kolasinac",
+            "Esmir Bajraktarevic",
+            "Ivan Basic",
+            "Ivan Sunjic",
+            "Kerim Alajbegovic",
+            "Ermedin Demirovic",
+            "Edin Dzeko"
+          ]
+        }
+      },
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "content",
+      "composition": "football-odds-h2h",
+      "title": "KÈO & ĐỐI ĐẦU",
+      "subtext": "Mỹ có lợi thế, Bosnia có bài bóng bổng",
+      "voiceText": "Lịch sử đối đầu đang nghiêng về Mỹ, với hai thắng và một hòa sau ba trận giao hữu. Nhưng đây mới là lần đầu hai đội gặp nhau ở một trận chính thức, nên hồ sơ cũ chỉ để tham khảo, không phải giấy bảo hành. Kèo chuyên môn nghiêng rõ về Mỹ nhờ sân nhà, tốc độ biên và Pulisic, nhưng Bosnia có Dzeko, Demirovic và những pha treo bóng rất biết làm hàng thủ mất ngủ.",
+      "subtitle": "Lịch sử đối đầu đang nghiêng về Mỹ, với 2 thắng và 1 hòa sau 3 trận giao hữu. Nhưng đây mới là lần đầu hai đội gặp nhau ở một trận chính thức, nên hồ sơ cũ chỉ để tham khảo, không phải giấy bảo hành. Kèo chuyên môn nghiêng rõ về Mỹ nhờ sân nhà, tốc độ biên và Pulisic, nhưng Bosnia có Džeko, Demirović và những pha treo bóng rất biết làm hàng thủ mất ngủ.",
+      "duration": 8,
+      "startTime": 17,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "teams": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/united-states.svg",
+          "badgeSrc": "assets/football/flags/united-states.svg"
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "teamType": "national",
+          "flagSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "badgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "oddsTable": {
+        "headers": ["Góc nhìn", "United States", "Bosnia & Herzegovina", "Ghi chú"],
+        "rows": [
+          {
+            "teamName": "Cửa thắng",
+            "scoreText": "Cửa trên rõ",
+            "x12": "Cửa gây sốc",
+            "hdp": "USA sáng nhưng áp lực lớn"
+          },
+          {
+            "teamName": "Nhịp trận",
+            "scoreText": "Ép biên, overload",
+            "x12": "Lùi sâu, bóng bổng",
+            "hdp": "Bàn sớm sẽ làm trận mở"
+          },
+          {
+            "teamName": "Điểm khóa",
+            "scoreText": "Pulisic, Dest",
+            "x12": "Dzeko, Alajbegovic",
+            "hdp": "Cánh phải của USA rất đáng xem"
+          }
+        ]
+      },
+      "h2hMatches": [
+        {
+          "kickoff": "14/08/2013",
+          "competition": "Friendly",
+          "home": "Bosnia and Herzegovina",
+          "away": "United States",
+          "score": "3-4",
+          "note": "Mỹ lội ngược dòng tại Sarajevo",
+          "homeBadgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg",
+          "awayBadgeSrc": "assets/football/flags/united-states.svg"
+        },
+        {
+          "kickoff": "18/12/2021",
+          "competition": "Friendly",
+          "home": "United States",
+          "away": "Bosnia and Herzegovina",
+          "score": "1-0",
+          "note": "Mỹ thắng trận gần nhất",
+          "homeBadgeSrc": "assets/football/flags/united-states.svg",
+          "awayBadgeSrc": "assets/football/flags/bosnia-and-herzegovina.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.16
+        },
+        {
+          "type": "football-stat-bars",
+          "stats": [
+            {
+              "label": "Kiểm soát bóng dự kiến",
+              "home": 58,
+              "away": 42
+            },
+            {
+              "label": "Nguy cơ bóng bổng",
+              "home": 44,
+              "away": 56
+            }
+          ]
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "content",
+      "composition": "quote-attrib",
+      "title": "Kèo & nhận định",
+      "subtext": "Mỹ cửa trên, nhưng chấp sâu thì phải tỉnh",
+      "quote": "Mỹ có lợi thế sân nhà, nhiều phương án tấn công biên và form tốt hơn. Nhưng Bosnia không phải đội chỉ đứng nhìn, họ có thể kéo trận đấu vào bóng hai, set-piece và những pha va chạm rất khó chịu.",
+      "author": "Méo bình luận",
+      "role": "Góc nhìn trước trận",
+      "imageUrl": "assets/images/meo-bl-wc-room.png",
+      "voiceText": "Về tỷ lệ kèo, Mỹ cửa trên là rõ. Nhận định của tôi là Mỹ có cơ sở thắng trong chín mươi phút, nhưng nếu kèo chấp bị đẩy sâu quá thì cũng hơi rén. Dự đoán ba một có vẻ là hợp lý.",
+      "subtitle": "Về tỷ lệ kèo, Mỹ cửa trên là rõ. Nhận định của tôi là Mỹ có cơ sở thắng trong 90 phút, nhưng nếu kèo chấp bị đẩy sâu quá thì cũng hơi rén. Dự đoán 3-1 có vẻ là hợp lý.",
+      "duration": 6,
+      "startTime": 25,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "quote-fade",
+      "visuals": [
+        {
+          "type": "image",
+          "imageUrl": "assets/images/meo-bl-wc-room.png",
+          "opacity": 0.2,
+          "motionType": "ken-burns",
+          "overlayColor": "linear-gradient(0deg, rgba(7,26,20,0.92), rgba(7,26,20,0.55))"
+        },
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "content",
+      "composition": "football-standings-table",
+      "title": "Nhánh đấu tiếp theo",
+      "subtext": "Đội thắng sẽ gặp Bỉ hoặc Senegal lúc 07:00 ngày 06/07 VN",
+      "voiceText": "Ở nhánh bên cạnh, Bỉ gặp Senegal lúc ba giờ sáng, ngày mùng hai tháng bảy theo giờ Việt Nam tại Seattle Stadium. Đội thắng trận Mỹ gặp Bosnia và Herzegovina, sẽ gặp đội thắng cặp đó ở vòng mười sáu đội, lúc bảy giờ sáng, ngày mùng sáu tháng bảy theo giờ Việt Nam, cũng tại Seattle Stadium. Tức là chủ nhà muốn đi sâu thì phải qua một cửa châu Âu hoặc một cửa châu Phi, nghe lịch trình thôi đã thấy cơ đùi bắt đầu họp khẩn.",
+      "subtitle": "Ở nhánh bên cạnh, Bỉ gặp Senegal lúc 03:00 ngày 02/07 theo giờ Việt Nam tại Seattle Stadium. Đội thắng trận Mỹ gặp Bosnia & Herzegovina, sẽ gặp đội thắng cặp đó ở vòng 16 đội, lúc 07:00 ngày 06/07 theo giờ Việt Nam, cũng tại Seattle Stadium. Tức là chủ nhà muốn đi sâu thì phải qua một cửa châu Âu hoặc một cửa châu Phi, nghe lịch trình thôi đã thấy cơ đùi bắt đầu họp khẩn.",
+      "duration": 6,
+      "startTime": 31,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "activeTab": "NHÁNH ĐẤU",
+      "tabs": ["TRẬN ĐẤU", "NHÁNH ĐẤU", "PHONG ĐỘ", "BỐI CẢNH"],
+      "standingsVariant": "knockout-context",
+      "season": "World Cup 2026",
+      "h2hMatches": [
+        {
+          "date": "Vòng 32 đội",
+          "home": "Belgium",
+          "away": "Senegal",
+          "score": "03:00 02/07 VN",
+          "note": "Seattle Stadium | Đội thắng chờ ở nhánh tiếp theo",
+          "homeBadgeSrc": "assets/football/flags/belgium.svg",
+          "awayBadgeSrc": "assets/football/flags/senegal.svg"
+        },
+        {
+          "date": "Vòng 16 đội",
+          "home": "Winner USA/Bosnia and Herzegovina",
+          "away": "Winner Belgium/Senegal",
+          "score": "07:00 06/07 VN",
+          "note": "Seattle Stadium | Match 91",
+          "homeBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg",
+          "awayBadgeSrc": "assets/football/tournaments/tournaments_fifa-world-cup-2026.football-logos.cc.svg"
+        }
+      ],
+      "visuals": [
+        {
+          "type": "football-pitch-lines",
+          "position": "background",
+          "opacity": 0.2
+        },
+        {
+          "type": "channel-watermark",
+          "logoSrc": "assets/logos/logo.png",
+          "username": "@meothichbl",
+          "opacity": 0.6,
+          "top": "70px",
+          "right": "84px",
+          "logoSize": 72,
+          "fontSize": 23,
+          "width": 220,
+          "usernameMinWidth": 164,
+          "accentColor": "#F7C948"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "outro",
+      "composition": "promo-card",
+      "title": "Bạn chọn kịch bản nào?",
+      "subtext": "Mỹ thắng gọn hay Bosnia kéo drama?",
+      "voiceText": "Theo bạn, Mỹ sẽ tận dụng sân nhà để thắng trong chín mươi phút, hay Bosnia kéo trận này vào một buổi sáng đầy mồ hôi? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "subtitle": "Theo bạn, Mỹ sẽ tận dụng sân nhà để thắng trong 90 phút, hay Bosnia kéo trận này vào một buổi sáng đầy mồ hôi? Bình luận tỉ số và nhận định kèo của các bác nào. Tôi là Méo bình luận, đừng quên follow để cập nhật các thông tin bóng đá mới nhất nhé!",
+      "duration": 6,
+      "startTime": 37,
+      "bgColor": "#071A14",
+      "accentColor": "#F7C948",
+      "secondaryAccentColor": "#C8102E",
+      "textColor": "#FFFFFF",
+      "animation": "particle-burst",
+      "promo": {
+        "badge": "MÉO BÌNH LUẬN",
+        "button": "FOLLOW KÊNH",
+        "url": "@meothichbl",
+        "commentPrompt": "Dự đoán tỉ số Mỹ vs Bosnia & Herzegovina",
+        "logoSrc": "assets/logos/logo.png",
+        "logos": [
+          "United States",
+          "Bosnia and Herzegovina",
+          "World Cup 2026",
+          "Round of 32",
+          "Méo Bình Luận"
+        ]
+      },
+      "visuals": [
+        {
+          "type": "football-confetti",
+          "particleCount": 90,
+          "duration": 5
+        }
+      ]
+    }
+  ]
+}
